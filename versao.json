@@ -1,12 +1,12 @@
 {
-  "versao": "7.7",
+  "versao": "7.7.1",
   "data": "2026-09-30",
   "notas": [
-    "Atualização automática: ao abrir pelo atalho, o DXCORE confere se tem versão nova e instala sozinho.",
-    "Aviso dentro do programa quando sai versão nova, e a mensagem \"Seu DXCORE foi atualizado!\" depois de atualizar."
+    "Correção: quem teve a senha do setor trocada pela gerência não conseguia entrar depois de atualizar (aparecia \"arquivo danificado\"). Agora a senha trocada continua valendo em todas as atualizações.",
+    "Atualização automática: ao abrir pelo atalho, o DXCORE confere se tem versão nova e instala sozinho."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1115215,
-  "sha256": "4cc591bb4a376b5edefcbdb3d370aad59b6a5283ca0be816f176ce83e45ea2d5",
-  "assinatura": "MPoNwCsTA8KJh5AW0flghr14FYimgIilJHYB8NfAbO83LhRjKLFUsDINYJ81YX90nZg6oy1+9Kx3mSpMHHhNtjCzUnHRq67iriqxvmFnc7Z+Ne45ORc2z4o7p4yj4tFXEeHOY/1nBQ61Ek4mv7BHPzb9ZcQh/4OxOrbadfMG/C1VBJC+BCIvmMtHkij+8DRrFHAXXrCB+tI3uvk/Kv/egNzGKdv/HB/tJ4z8f9br3LmBkuw63DlTC7TVNuUH1ardtbnsireEdqZ6dlNTL5yumKDpT6MPcFIYUJHKR680vrFyRtfv1z7kotzX+qGQr74h3TKeF9/r4vm7uw93g1eCbQ=="
+  "tamanho": 1117804,
+  "sha256": "6052ab82bacc1415278c90adfb9a548aa5fae11325e168e98d8a72bab27d6977",
+  "assinatura": "knzuYFg9hRHW4VigrXCRjTB5eAD/vT/0OYnXn/fsBbczttjFRkfw5YsrQcSYBtRVg32vaFoBh/zcnlvESLv4S7wERQGTiXbF9v8jlEnkzBV1Mn7E2cRHLc+TuCH+oF/uljdUJDJqOYVGjCEPif1mSqze5Iuq5DwOdD9hyHRTQmNSoefxlBs9lInHUe2pLCokv0+IiD6zreNsxbJ72rQjJD3BoIZUhs0eTVaj5hzNsEvqNnfvmf8JASfHmHmkox6wLkrd4fjvnPzjelv4VzYNQPoeCGhaEL8IwzGVIlxaNs2I4Ybd+NqerktKOcm/tytID0Kb+xzfD/wB0Kgotl56rg=="
 }
