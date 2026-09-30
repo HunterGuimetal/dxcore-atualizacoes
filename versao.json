@@ -1,0 +1,12 @@
+{
+  "versao": "7.7",
+  "data": "2026-09-30",
+  "notas": [
+    "Atualização automática: ao abrir pelo atalho, o DXCORE confere se tem versão nova e instala sozinho.",
+    "Aviso dentro do programa quando sai versão nova, e a mensagem \"Seu DXCORE foi atualizado!\" depois de atualizar."
+  ],
+  "arquivo": "DXCORE.html",
+  "tamanho": 1115215,
+  "sha256": "4cc591bb4a376b5edefcbdb3d370aad59b6a5283ca0be816f176ce83e45ea2d5",
+  "assinatura": "MPoNwCsTA8KJh5AW0flghr14FYimgIilJHYB8NfAbO83LhRjKLFUsDINYJ81YX90nZg6oy1+9Kx3mSpMHHhNtjCzUnHRq67iriqxvmFnc7Z+Ne45ORc2z4o7p4yj4tFXEeHOY/1nBQ61Ek4mv7BHPzb9ZcQh/4OxOrbadfMG/C1VBJC+BCIvmMtHkij+8DRrFHAXXrCB+tI3uvk/Kv/egNzGKdv/HB/tJ4z8f9br3LmBkuw63DlTC7TVNuUH1ardtbnsireEdqZ6dlNTL5yumKDpT6MPcFIYUJHKR680vrFyRtfv1z7kotzX+qGQr74h3TKeF9/r4vm7uw93g1eCbQ=="
+}
