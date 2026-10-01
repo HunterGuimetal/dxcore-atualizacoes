@@ -1,18 +1,16 @@
 {
-  "versao": "7.8.1",
+  "versao": "7.9",
   "data": "2026-10-01",
   "notas": [
-    "Leitor de PDF muito mais esperto (testado nos desenhos do SolidWorks que o técnico estava limpando à mão): tira as cruzes de centro dos furos, as setas de cota, o símbolo Ø e as linhas de chamada que ficavam no corte.",
-    "Escala do PDF: quando o carimbo diz uma escala e a vista está em outra (comum no SolidWorks), o DXCORE confere pelas cotas e corrige.",
-    "Peça inclinada ou triangular: linhas de cota nos cantos vazios não entram mais no corte.",
-    "Ícone do DXCORE na janela, na barra de tarefas e no atalho da área de trabalho.",
-    "Limpar: corrigido o problema das peças que sumiam da tela (o quadro do desenho ficava espremido conforme o tamanho da janela ou o zoom do Windows).",
-    "Leitor mais esperto com linhas de furo: tira as marcas de centro do AutoCAD com prolongamentos, linhas de centro compridas que ligam furos, linhas radiais e o círculo de furação, mesmo em linha contínua e com furo exportado como polilinha."
+    "Senhas dos setores agora fixas e iguais em todos os computadores (a gerência passa as novas para cada setor). Acabou o \"às vezes entra, às vezes não\".",
+    "Tubo em STEP agora aparece em 3D no Limpar: arraste para girar, roda do mouse para zoom, duplo clique para centralizar. O botão \"Ver planificado\" mostra a parede aberta.",
+    "Chapas em 2D: dá para arrastar as peças com o mouse e girar 90° (tecla R ou duplo clique). A posição fica guardada no orçamento; \"Voltar ao automático\" desfaz.",
+    "Leitor de PDF mais esperto, ícone do DXCORE e lançador que se atualiza sozinho (da versão 7.8.1)."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1218226,
-  "sha256": "2e9d21ea9b0850545faadaa44cb02cec7f24d2d4da30319299bfe28fb5946375",
-  "assinatura": "Q/dRVn03QHqUbIudadEUewXAbrMCV5ZMjWTvhACrzpvDvbs4WsWAG6ds76IymwzAacmDHgGrNE9cEsfmMNMZbRlO3PnjxMI5E0BGRzVhJaPVEa+u73vf9WfR00EQIEzYXWBa1eREKWpcRvlqB+wpAl1UcexDFxpHo2nsPuN3ftVmsv/tESTHQdoEDnHwGseFM1aI3Hg71TnnWGH1gv0dkIVUJvxXB+Sz2wj43h8yCSKk0M+Eh1mgVwuyc9sC5d4ZXTb+8OHGZsKXUcRo2O8bV1ymNgNjQ3Q7++p9M5OoLKg6vbraKCtqBg2GWy/S1OS1mzmAbI3H49DhjkuimaxHsg==",
+  "tamanho": 1241235,
+  "sha256": "cd6acb02378a83c4a9940a596cc39563ca9d9df8fde01951e7e3ee826a179183",
+  "assinatura": "YWrJLn2o5K5YFKnmeQxBXOrjsuvxlooa73JTFt0xdUv3eN3AU/UGyk1/6zDalocTQ8o+TABbVb/kIMZcPfAIfZWpnUuqfeYU0/i5M/6RmsJotPWCuV9675KKvCiGyvpv/jfpul0Oex3jWUa5Z5497VMVYmJfhtOjMCjsCLZK25s13hFmLPKdB7MPpEm9/CN/cj02tYNzYNZ10wgT8V1Gfnsc5vHRAfQuWXEhtU/viNJtpNUcTjhMW0LV4xPhzAd9+COzv6W0TXINFKg+6ZemlvrfSXmSrOeumP3yPqzMXNZC+PHwA6hHMRxD3l5DwbOEfAZojpw3Be9QNRx0SmhlaQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +29,5 @@
       "sha256": "f11cfa8380d568cede6dabc3cb9847800ff5ebad872ee1fc4f1538bcc4cea905"
     }
   ],
-  "assinatura_extras": "VC33yQ22JSU9DF147wvyTSnYx5vQXeq4dxKKhmq+DJNDQE6trOao5j4hUPShd3NWKmvMMusqy5BIrais3v2Is7HPMOWNUNqY77MfvBrJQNPd6CWXrDNu7mblAdo62k6Vs79nQuwolcXjiftVAnuH+1Vebhp7rl/xCCoudsvVKyM20JmEbbGT5Y19utw2Jq3sEMBRB2glDDztjsbtSyIXrV1N99u6kKe/SrJzxHSQ3BRVRNd8On2I68SclroJP55TKo/q4jouAbDZPT7ZODvabecxH41fJ5oX+cdxEOZhaZj9Eo0BjK4xeQz6x0ZADRBHyKYfaS20qdHtK45QupZimw=="
+  "assinatura_extras": "KFj9eYDOkgS4GVMc8DcD4fAjHf8OH7IT/Vc8GC+h/B1V5tDSu7Ybj8Bp0CweRzwvvKRhd7NenN9pIGVchx90fhyqRv38NO1zgAxtEDevjN6bsx4CnWILvBQ8bzBZSU0GSCRfQ4Mb/7QdVmdosSMwU976+SdzwsuWGHYWk/WILkRCfQcGbsRHs0HsDSezBaGLyhzswUeGIZgE+QmQLuS70x0bBDAf7PwfPogKKHx9CITmxlNTriOoXN7bZXSVfAXdhGKixT4u17786z7f68WJAGwIzE428Ehxzz8p8S0C7Ixw/QZG+yoAzRUr07lb0REzUdZLMlWvKE08Vil0r5IA5Q=="
 }
