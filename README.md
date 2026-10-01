@@ -1,10 +1,10 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.1** (2026-10-01)
+Versão atual: **8.2** (2026-10-01)
 
-- STEP muito mais rápido e sem travar: a leitura do modelo 3D roda por fora da tela, o programa continua respondendo e mostra os segundos. Um STEP de 2 MB que levava quase 5 s agora abre em menos de meio segundo.
-- Limpar / Converter: botão "+ Abrir mais arquivos" em cima da lista. Junta mais um PDF, DXF, DWG ou STEP às peças que já estão abertas, sem perder nada.
-- Da versão 8.0: encaixe pela forma da peça (triângulos alternados, como no CypCut) e DXF da chapa montada.
+- Orçamento de tubo: as barras agora são contadas pelo pedido inteiro. As peças de todos os itens do mesmo tubo (perfil, medida, parede e material) são encaixadas juntas nas barras de 6 m. Antes cada item arredondava a sua barra (66 peças viravam 66 barras).
+- O resumo mostra, para cada tubo, quantas peças, quantas barras e o aproveitamento.
+- Da versão 8.1: STEP sem travar e botão "+ Abrir mais arquivos" no Limpar.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

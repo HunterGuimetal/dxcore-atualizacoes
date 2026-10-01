@@ -1,15 +1,15 @@
 {
-  "versao": "8.1",
+  "versao": "8.2",
   "data": "2026-10-01",
   "notas": [
-    "STEP muito mais rápido e sem travar: a leitura do modelo 3D roda por fora da tela, o programa continua respondendo e mostra os segundos. Um STEP de 2 MB que levava quase 5 s agora abre em menos de meio segundo.",
-    "Limpar / Converter: botão \"+ Abrir mais arquivos\" em cima da lista. Junta mais um PDF, DXF, DWG ou STEP às peças que já estão abertas, sem perder nada.",
-    "Da versão 8.0: encaixe pela forma da peça (triângulos alternados, como no CypCut) e DXF da chapa montada."
+    "Orçamento de tubo: as barras agora são contadas pelo pedido inteiro. As peças de todos os itens do mesmo tubo (perfil, medida, parede e material) são encaixadas juntas nas barras de 6 m. Antes cada item arredondava a sua barra (66 peças viravam 66 barras).",
+    "O resumo mostra, para cada tubo, quantas peças, quantas barras e o aproveitamento.",
+    "Da versão 8.1: STEP sem travar e botão \"+ Abrir mais arquivos\" no Limpar."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1283535,
-  "sha256": "38096148da9e6371d6ae30ca57ea774d0b26464fe9d0b21dd5ba89973493e7ee",
-  "assinatura": "RKyZl2Q7t7q7WZgCYa4JWa0DaCtTO7WMXlD48QF3q2kLWaOJ2zcl76XKhur1BkzPGs59fTtywlV/1SUhvcP9SD6uuqzB1sphQGrKP89CgcLZD8TvATEJWHppZEGGscO90TYAW8h5BgpQo8dsC7BBoixBqNNoqZSQIG/sPz3tqS73RkDuriE76NgFMGHC9Qle4DZDNKCfeRwdpxwrco9KeXJGtYGTXuZniaTZc7wOBrGmkg53CsF3ku5wsLUgcESYNPIIs1tCq2FhZ+rWmiJR7NB6ZSKGLbm546qb7nC7+qC245q/0S5BkXH/rW/YsYHeBEio0uM2HBPaw1lNXfqR1Q==",
+  "tamanho": 1285239,
+  "sha256": "daa0a954cb6b2b7000f275ad8a1f32db3597d70ef5483df1bf47e3d68bbd68ee",
+  "assinatura": "I+SJZQ9a6DB2xnWEVM6zLoXwmiTLL6KofZtQvRh5fYpuw/QQjnaLtwCEfc/exkZiuNyfmANCthHhbBz15O3YKAnEaH2Sf0RSzGrJMyz9zK+MZabmrSxenzT1sgJB91ziemmbPywHqq01SjUM1PVsodYNfU1b+EBks1ieN6M80ftWEHfuBU3MMQC21jdf4/Dqnptu6+qAnELVOkAd4PQu6hve+NTo0cSWFM8xh2WBstii4cwuQuX5Xxy05C1hwHsebMNdi99OIfRdFb+8r6je7JXEywyWMbqs6fVkhPCQOGTNTWQdG8Hc/74ODFrFIjjuijCtqU601NGMctqWXSBxmA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -28,5 +28,5 @@
       "sha256": "f11cfa8380d568cede6dabc3cb9847800ff5ebad872ee1fc4f1538bcc4cea905"
     }
   ],
-  "assinatura_extras": "jr/qB+Y5o/p71ZVPvSzVLxkLCxcB+2hGtq1yLj1kLL+m6Etq9QN4LRWyIPawYYiRgSGWf9DeovYx/UqOwehwHAEN2lfsYWuPOESB4c8BxEys17GfOspDBb/ospSdpS4jwqQWQ8FM1fml7ZmdU8F9pZutJVPQzJ0eFPwCSKSS9xok8pBMlc6iA72TWZLZrKGpCcV2P3bHV5yWRO7Qyf0/JPEUqWQrnXJ8jhkGxhFSgBK3f5nqrfiPDKBD3OJ+3dLA4aKY+spO7K/TubwgeO5HtxOy0o2AemmkmY0QLHBhxy1xQZgSCWUdKtUvFIt41cLJPHRLwWS0p+6W0IHE8KawSQ=="
+  "assinatura_extras": "RNpXlnz6vs2J96Z+wVKlkBMVYj/rm/wEhHhSFUSHRHub6Mgk+6LX0M1jl7wyOZ4PVmHAsBCAktfmJGoBFDP1f24yTHjOeVN12XDXWSKkSiP7H7dBD9itrUdM/h4PEpnhe8BWBpL2pwojGu/9B9vUMVc12qlMHi71WRLqboLQ/1HNFz2vCxYI35Yof3lwMbZYk0V65gqTBnOo3MjrhhD3z2QO3JJaGvzG0v9A0BSCNFS7IRSdLIGBrR3VXTSCSfT5/eCkVCPMSwARzEVnb6RozlSSrqznaKx0+J6vbGujPuix2VEthbv+QWCrDuM4fcNxMsLc5FaBPo0TkXPAvA01XQ=="
 }
