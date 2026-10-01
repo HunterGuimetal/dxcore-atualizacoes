@@ -1,15 +1,15 @@
 {
-  "versao": "8.2",
+  "versao": "8.3",
   "data": "2026-10-01",
   "notas": [
-    "Orçamento de tubo: as barras agora são contadas pelo pedido inteiro. As peças de todos os itens do mesmo tubo (perfil, medida, parede e material) são encaixadas juntas nas barras de 6 m. Antes cada item arredondava a sua barra (66 peças viravam 66 barras).",
-    "O resumo mostra, para cada tubo, quantas peças, quantas barras e o aproveitamento.",
-    "Da versão 8.1: STEP sem travar e botão \"+ Abrir mais arquivos\" no Limpar."
+    "Gerador de peças com desenho 2D e 3D: a peça dobrada aparece dobrada de verdade no 3D. Arraste os pontos laranja para puxar as faces: a medida muda no campo na hora, e digitar no campo muda o desenho. Encaixa de 1 em 1 mm e nos múltiplos de 5 (Shift: 0,1 mm).",
+    "Tubo cobrado por metro: nova tabela \"Preço do metro de tubo\" em Parâmetros e preços (perfil, medidas, material e R$/m). No orçamento, cada tubo tem o campo \"Cobrando por metro (R$)\". Tubo fora da tabela é estimado pelo peso e aparece como estimado.",
+    "Da versão 8.2: barras de tubo contadas pelo pedido inteiro."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1285239,
-  "sha256": "daa0a954cb6b2b7000f275ad8a1f32db3597d70ef5483df1bf47e3d68bbd68ee",
-  "assinatura": "I+SJZQ9a6DB2xnWEVM6zLoXwmiTLL6KofZtQvRh5fYpuw/QQjnaLtwCEfc/exkZiuNyfmANCthHhbBz15O3YKAnEaH2Sf0RSzGrJMyz9zK+MZabmrSxenzT1sgJB91ziemmbPywHqq01SjUM1PVsodYNfU1b+EBks1ieN6M80ftWEHfuBU3MMQC21jdf4/Dqnptu6+qAnELVOkAd4PQu6hve+NTo0cSWFM8xh2WBstii4cwuQuX5Xxy05C1hwHsebMNdi99OIfRdFb+8r6je7JXEywyWMbqs6fVkhPCQOGTNTWQdG8Hc/74ODFrFIjjuijCtqU601NGMctqWXSBxmA==",
+  "tamanho": 1324691,
+  "sha256": "6e29dc6390c66edb824a109df90c28a82396f496d2ead6e25c494e0e76bc42e6",
+  "assinatura": "dUNixuUAhPGGH6pgByy6opyeDaO+2NwTxq8v7JTkkO0Gwtjs5+wJx2lwebWZvZHZizyUrbuvNAQj8d5y1ayO6u35C6mh+EKo0wnU945PGvJO22ujEfyHuqFCnQ9ps/xN7KpMHitsIFwZXFvwWPUNrS1EZ6ROX91TqnJRgt825sXb7r++irt5mtaoxqM6xmlgmHO5Wa1488VWlRQjY6hxQUxuNinB/Kf1DmIOI48iLL79Wj+DYCgA6zORn1TFbujzrxWqteFpRDn2uewZv2Ovs+AmKKI+tg4WOlUS9MxA8mN4h2V9JPcRUOlNQ4lP0IbKQAl4TsYBBwWoqzgKyPtlqA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -28,5 +28,5 @@
       "sha256": "f11cfa8380d568cede6dabc3cb9847800ff5ebad872ee1fc4f1538bcc4cea905"
     }
   ],
-  "assinatura_extras": "RNpXlnz6vs2J96Z+wVKlkBMVYj/rm/wEhHhSFUSHRHub6Mgk+6LX0M1jl7wyOZ4PVmHAsBCAktfmJGoBFDP1f24yTHjOeVN12XDXWSKkSiP7H7dBD9itrUdM/h4PEpnhe8BWBpL2pwojGu/9B9vUMVc12qlMHi71WRLqboLQ/1HNFz2vCxYI35Yof3lwMbZYk0V65gqTBnOo3MjrhhD3z2QO3JJaGvzG0v9A0BSCNFS7IRSdLIGBrR3VXTSCSfT5/eCkVCPMSwARzEVnb6RozlSSrqznaKx0+J6vbGujPuix2VEthbv+QWCrDuM4fcNxMsLc5FaBPo0TkXPAvA01XQ=="
+  "assinatura_extras": "H4QuiGGp93MnLz+tSoaLLPSI+Iriecswu7UjmUC5PZz03a0lK+O/unh/WF0V9QNKWnbWW8Za5P+wLv1XzCDUqxp5ut5PcO2fr2ehmcBMMDafbgYuJFNr3cZpGwOoUxdjv13+6m3wj3FTm/hBoW1K1/PVGrVHZ+VWTPKZMH469JgDF6aLJcN6Y4HJErLhmjScOXNi5BCwMz/Soqak0NLQ+pgyp0fPtiKxrdk+VK5PZYcd+cCAYnlZ2wVvD7Im7hkTMtEsE+z6BWgevgDDawgyNnLr5TZvTyOt4SWIebCqlG/fZcBULYLu1gmzkeY4mEYIIqPenb5c3p1B4Foie8epRQ=="
 }
