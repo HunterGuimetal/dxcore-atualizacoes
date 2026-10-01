@@ -1,14 +1,35 @@
 {
-  "versao": "7.8",
+  "versao": "7.8.1",
   "data": "2026-10-01",
   "notas": [
+    "Leitor de PDF muito mais esperto (testado nos desenhos do SolidWorks que o técnico estava limpando à mão): tira as cruzes de centro dos furos, as setas de cota, o símbolo Ø e as linhas de chamada que ficavam no corte.",
+    "Escala do PDF: quando o carimbo diz uma escala e a vista está em outra (comum no SolidWorks), o DXCORE confere pelas cotas e corrige.",
+    "Peça inclinada ou triangular: linhas de cota nos cantos vazios não entram mais no corte.",
+    "Ícone do DXCORE na janela, na barra de tarefas e no atalho da área de trabalho.",
     "Limpar: corrigido o problema das peças que sumiam da tela (o quadro do desenho ficava espremido conforme o tamanho da janela ou o zoom do Windows).",
-    "Leitor mais esperto com linhas de furo: tira as marcas de centro do AutoCAD com prolongamentos, linhas de centro compridas que ligam furos, linhas radiais e o círculo de furação, mesmo em linha contínua e com furo exportado como polilinha.",
-    "Leitor não confunde mais tabela de itens nem chapa com observações escritas com a moldura da folha (antes a peça podia sumir ou uma forma sem sentido virava peça).",
-    "Corte de alívio (linha do furo até a borda) continua no corte."
+    "Leitor mais esperto com linhas de furo: tira as marcas de centro do AutoCAD com prolongamentos, linhas de centro compridas que ligam furos, linhas radiais e o círculo de furação, mesmo em linha contínua e com furo exportado como polilinha."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1133016,
-  "sha256": "7b3e717a804073e5291b654a0dbac5235fe459f1cceadd7b0df7fc6dd145c106",
-  "assinatura": "b0YAwXmo+UmDoLHNh1xSnk+eJs/tWb8oI5vYxq9Zod8SVDsn2K79t+tX9ezRpb6wZbmslIz+KK2dijHapXf2v4QMHSIOL/wMqo/elb7hlH/iduQqGNlsPhUPABtU8loHT9wH5u2fV/1jNoRtHMZB051pcADzgjqdrp7+V45krq6IiT7UKPfmTqz6eUzJ/8muw7fMtJBkX/MK904gZQMGFI+d9KLgEjfo646C9ZWUsN/fc4PPXwWNr0FNA5o8/qXjF87lC3ou/UGoZT5xS9ShVvY4ljHmb3QzWxFTL/AA1EKFf5d/iuaWQTCSj2YQolvLLNJsjZd8GGORcnTRyKU3gw=="
+  "tamanho": 1218226,
+  "sha256": "2e9d21ea9b0850545faadaa44cb02cec7f24d2d4da30319299bfe28fb5946375",
+  "assinatura": "Q/dRVn03QHqUbIudadEUewXAbrMCV5ZMjWTvhACrzpvDvbs4WsWAG6ds76IymwzAacmDHgGrNE9cEsfmMNMZbRlO3PnjxMI5E0BGRzVhJaPVEa+u73vf9WfR00EQIEzYXWBa1eREKWpcRvlqB+wpAl1UcexDFxpHo2nsPuN3ftVmsv/tESTHQdoEDnHwGseFM1aI3Hg71TnnWGH1gv0dkIVUJvxXB+Sz2wj43h8yCSKk0M+Eh1mgVwuyc9sC5d4ZXTb+8OHGZsKXUcRo2O8bV1ymNgNjQ3Q7++p9M5OoLKg6vbraKCtqBg2GWy/S1OS1mzmAbI3H49DhjkuimaxHsg==",
+  "extras": [
+    {
+      "arquivo": "abrir.ps1",
+      "sha256": "00ea423a52ec762b9036a6aa1635d688caf0c850d6a82fe746baba5c9816c089"
+    },
+    {
+      "arquivo": "abrir.vbs",
+      "sha256": "87fd22e65cf271fb84f88b65860b1df13970d300b8b3114027b71df6c11e706c"
+    },
+    {
+      "arquivo": "DXCORE.ico",
+      "sha256": "21544831299a4f9c1f14952b02dc883767c1685cd7e6fc1597a8ce14d10c62ae"
+    },
+    {
+      "arquivo": "voltar-versao-anterior.bat",
+      "sha256": "f11cfa8380d568cede6dabc3cb9847800ff5ebad872ee1fc4f1538bcc4cea905"
+    }
+  ],
+  "assinatura_extras": "VC33yQ22JSU9DF147wvyTSnYx5vQXeq4dxKKhmq+DJNDQE6trOao5j4hUPShd3NWKmvMMusqy5BIrais3v2Is7HPMOWNUNqY77MfvBrJQNPd6CWXrDNu7mblAdo62k6Vs79nQuwolcXjiftVAnuH+1Vebhp7rl/xCCoudsvVKyM20JmEbbGT5Y19utw2Jq3sEMBRB2glDDztjsbtSyIXrV1N99u6kKe/SrJzxHSQ3BRVRNd8On2I68SclroJP55TKo/q4jouAbDZPT7ZODvabecxH41fJ5oX+cdxEOZhaZj9Eo0BjK4xeQz6x0ZADRBHyKYfaS20qdHtK45QupZimw=="
 }
