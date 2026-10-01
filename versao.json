@@ -1,15 +1,15 @@
 {
-  "versao": "8.6",
+  "versao": "8.7",
   "data": "2026-10-01",
   "notas": [
-    "Limpar / Converter lê Parasolid (.x_t) do SolidWorks e outros CADs: acha a espessura e planifica sozinho chapa plana e chapa dobrada com dobras paralelas (L, U, Z, calha). Montagem vira uma peça por item, já com a quantidade.",
-    "3D em todas as peças: o botão \"Ver em 3D\" mostra a peça com a espessura (DXF, DWG, PDF) ou o modelo 3D dobrado (Parasolid). Arraste para girar.",
-    "Da versão 8.5: preço manual da dobra no orçamento."
+    "Gerador de peças: novo botão \"Importar peça\". Abre DXF, DWG, PDF, STEP ou Parasolid já limpo no gerador, e o técnico muda como quiser: põe dobras onde quiser (vertical ou horizontal, ângulo e sentido), põe furos, gira e espelha. O 3D mostra a peça dobrada.",
+    "STEP de chapa: o STEP que não é tubo agora é planificado como chapa (plana ou dobrada com dobras paralelas), no Limpar e no gerador.",
+    "Da versão 8.6: leitura de Parasolid (.x_t) e 3D para todas as peças."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1393747,
-  "sha256": "b3ee51f26b4f502fb6b539c94da67d1f2241edca452d32b5eab7b52585db6b87",
-  "assinatura": "Jl/aMHo6gari4LlUizuV8hZm74tZlHHsr0eSyN2Bv98ulZZM4CwssOMJvvFIRYRqTRTe+8nULS/xjdrWj7iDT7O4SI6FW0APZ69aOJ9ZLbwJyNeJ5LFWQKmXTOlZcRF5Rvwq0Jedxl6a7vUqjkBpiqrad2xRKfIbu9XchIsbo0RYEYTG9sFtqsQSRVDmMjCK9eTJU0EyGyypmzmGNpWNjPm9jjthWL48jzn/wN7If53eJGqR3RVMCsTIBVvBdnN3Rnvngqz3pr0XWMe6SzQPhHkffK/jCkpsYlSQ1ys9oiU5DWLdhoLABVw0EQoY/kR6+HDxYp1ilobHsLdOzvmQCA==",
+  "tamanho": 1430483,
+  "sha256": "4f1f474d3600853c54d36f6dbc0ed014525429b832e4690981c1adac18b170e2",
+  "assinatura": "O4CHM5ujZgszms56U+ebZL7SlasU//tKVnEh5FPMR+EosUj4lLiv/+FanJH/+SbxCfO+h9IJPYkAA0osgstidGtS2tqzqvHhrKaipp8kh1W7y5uFhr0aIZmUZYmHnO+RIW0dKlF5wHn/wPmMGJb916Pl450T67uOCS44iQ2c0FjXUqgpYlmAdvQ00W85f/KA2OlzMr1Q/9pJTa8x56yCHltcZ+g29i//f7ouuR4aMjveoYDp3IT1C/I4RIbeX7Aqw0kyJ5t2BC0lTfqYWO1SnbfRWySUoKYgkXmofdbE5ARpw96YNqisfso2aA5SL/y0KzBmzjW6oKzvcSvys3gCMg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -28,5 +28,5 @@
       "sha256": "f11cfa8380d568cede6dabc3cb9847800ff5ebad872ee1fc4f1538bcc4cea905"
     }
   ],
-  "assinatura_extras": "PGeezUbL9X7EHGbRK76+4CsFXyL+OvOiKZzbv4kJj8VXea0WXN0TR1Oy+61sg3AR1PMSs6dHsQgp1l0/c5AlVbM2u/JipC4IyczCfceH/xAb2FB8JyUDzR2V/C0Ayzb60x5rt+s5dQX+ILxkAd8E/ANNIiZTueXBttDz4UlyeSPDpe0YoHlDDRo5cxLm6NhjL7ZmmhztdmWrN3n4YkvdmJpEfGiMjpE1IGMkJ936P7+7TFLTro+zeCqSaUNdXFQ64njiXEgG27JEih0ipSoqc3RBME+8wNwJIvRDM02FDUcvEPwDSWsBgC/+InRW9yS9nPd0m7z4jD6AaJkfwDmHZA=="
+  "assinatura_extras": "OD2EYrhp/TvCUsAT63xCY/rfNZDDNbirvKD++Z7oNvqziIQI/ROK2ILnHRqJbjlvpG21gIbKDN4PsNZvdfo7qZhjxb5qwlSzGJYmYvGZGXKaP/S7Y9EVsbEvlueJFT2i+hzSB9EzkUqIAN+6iM8NYxHjNjvu1Q0PmpiK976B6Tj3QytriqrKUAEoj7lu2wn5dpn/uCp5tTXtwNAQyTmykRsEIXNWoNARxSpZZd449ykg1zi+OiVNh1TWLWKkt5YmMxXqBRh9RPFSUGhfNU2lE8MaZkNOBAg9WkBj5WRrsXIGh2qFKxjNZbOYr8rcIbR/4HxiFXFVzIKej6kYur/yZw=="
 }
