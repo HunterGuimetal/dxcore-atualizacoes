@@ -1,16 +1,14 @@
 {
-  "versao": "8.4",
+  "versao": "8.5",
   "data": "2026-10-01",
   "notas": [
-    "Retalhos: a chapa agora mostra até 4 retalhos, procurando os maiores retângulos livres em qualquer lugar (em cima, do lado e entre as peças), e não só a faixa de cima.",
-    "Limpar / Converter: o que o carimbo não trouxer vem do nome do arquivo (código, descrição, medidas, espessura, material e quantidade). Se o nome tiver as medidas, o DXCORE confere com o desenho e corrige a escala sozinho quando for 1:2, 1:5 etc.",
-    "O nome do arquivo a salvar aparece num campo que dá para editar.",
-    "Da versão 8.3: gerador de peças 2D/3D com alças e tubo cobrado por metro."
+    "Orçamento: a complexidade da dobra tem a opção \"Manual (digitar o preço)\", com o campo Preço por dobra (R$) para casos específicos.",
+    "Da versão 8.4: retalhos em qualquer lugar da chapa e dados pelo nome do arquivo no Limpar."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1336911,
-  "sha256": "50eb7478f467aa1ff7d0cab05c5bf74356d0cfa7d4dd906f6f180d655c681699",
-  "assinatura": "JR5EHQ5Yqs8gXAwsR2X0D1BxJDLWRjQXFjBFZ9z2wqbPxZuPM2XAiywOhB9Y7vxGt8UZ5euvNmRiLLLVMCY1ropMxSnO/v0aVjG7IeOFtJpAB3eaAt3DhRPkrAe4luvyB6p27cFcZMld8U3bA7lH0tfUEb7kbTUcr5Ms4EHJCl5jtm7je2nYzK3WyhVbcNt5ogUET3GafZLuw0NUeG9e0G80d2tEK+Py7pLmFKniQgPPeqyJ8omUgMeqSOrbku5EvX1ebhk4T9lJT59PfmQEgT4gtNbSkaVAPQ6F4EjzfI+7SMlf+FjV4GwSp0y+YHXeXo/OF0tB0sYxjRsFgw1//w==",
+  "tamanho": 1338107,
+  "sha256": "8323fe275a1c31a15be733f56677e4f26b94ed5bce9a73e935c00303681be668",
+  "assinatura": "Zd/hyJwV0rf7di7eF9fIb6jqhmGr6cwV6GcJXvX15nHga/JMQI81+YRSAGJ63qhK2THSEJG2nYG3cdMW54u120Guu1pFuvfpa2mbhA5IdjRWCFQKhEV4Jf2xEeRmvYTo0wHgdMtJNikZH9AjBahZYKbtAA8FrdIZVDwPKnXqnK+Yuf8/m0fr/hbN0atLnwyw+PSu2ITbCda+qFffsR3vkdQz1FhTdG9hGjno/PHsTr2GvyMHv5HgHW2yYGzZBioNQ7iUToBW8zsTk60cOa+kp0YGM6WGapAMLdNSOpw8/H03E2BBxJ9OY8Ei2riYd1SG8DgHxX6fXnFy3ul33ISc5Q==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -29,5 +27,5 @@
       "sha256": "f11cfa8380d568cede6dabc3cb9847800ff5ebad872ee1fc4f1538bcc4cea905"
     }
   ],
-  "assinatura_extras": "WDSwCoicnobb9Sy2gftVOaPFIVHr3bEejtTdgaBxzSa+66KVptiFO0VTtL0VJZeaf7xuwkfIcR/NN8MGTGXA3DIZ1MYdN/eRBfTDQKUQaCZoEkJh+MKjV7jBK85E+glf6GzLndZDuVlkI09WIrYp6DIWTt5uCjaAurp9BjJYitGKCefaaOsFArWKfTfa4v1wIjt87xg2Eb9qL4q9T0wNYy2fnU6NpnG1f2B09XIUYJSNlrUC5sB2xJJpaab09HoACBOUg7lSf/qG2nZPhvM0eoV2rTQ+vNovLL2T+CxuMffRAT9I5CgaD734/J8EjmiS3d7vo1u+Y1YbJ3aI07ojzQ=="
+  "assinatura_extras": "emoEWG22xroKfLV05iWz8hiJDN5wa51ns9moNL0dR3igekJySKZqUnHuPG8sZXHLU96EuJOCi+4GinI2Fy0UoPwQH+3wIcHqFueqsJAhm1HzlwoOe0IGmf5Gqn0ebaWJzMZ1UWd54NJst+uh10r/hNw3qcoZOEpTyQRcb+4UPix/xPbTz+i/B1VTavPx3FnSyLen8zZgaASlrR+GorUqUw4ng7khRyR3B0WEAqZiJgcMWosvNJBQQm88Q3BsTuTrnh/U7nDdc5WLaZC5+ejCHsdapTn0TtO0/3WXG+PUd0TlCUxuaV4Eft77NJNFTYu2wcG1J53uNg/V2DQJiObCAg=="
 }
