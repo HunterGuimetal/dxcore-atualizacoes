@@ -1,16 +1,15 @@
 {
-  "versao": "8.0",
+  "versao": "8.1",
   "data": "2026-10-01",
   "notas": [
-    "Encaixe pela forma da peça: o nesting usa o contorno de verdade e gira as peças em 0°, 90°, 180° e 270°. Triângulos entram alternados (um normal, outro de ponta-cabeça), como no CypCut, e peças em L encaixam uma na outra.",
-    "Chapas em 2D: botão \"Baixar DXF da chapa\" gera o DXF com as peças posicionadas e giradas na chapa, com o desenho real, para mandar cortar no CypCut. \"DXF de todas\" baixa um .zip com uma chapa por arquivo.",
-    "Arrastar e girar à mão agora respeita a forma: dá para encaixar um triângulo no vão do outro. Girar (R ou duplo clique) vai de 90° em 90°.",
-    "Aproveitamento da chapa calculado pela área real das peças com forma."
+    "STEP muito mais rápido e sem travar: a leitura do modelo 3D roda por fora da tela, o programa continua respondendo e mostra os segundos. Um STEP de 2 MB que levava quase 5 s agora abre em menos de meio segundo.",
+    "Limpar / Converter: botão \"+ Abrir mais arquivos\" em cima da lista. Junta mais um PDF, DXF, DWG ou STEP às peças que já estão abertas, sem perder nada.",
+    "Da versão 8.0: encaixe pela forma da peça (triângulos alternados, como no CypCut) e DXF da chapa montada."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1279691,
-  "sha256": "071b24d0a259ca9f761ae2e3e523146d30ff43a26c2b4c1bb83151f906dabcce",
-  "assinatura": "gXPdtmLGhccwlEieb1GaMdmNPBQgWhRusQFLoP9kBWG1SO0rE4OE0RNnjLzHSuoSo7WcLyw73iqzPE5soNL8Yo7ZPQQM4uh2uMgipbBfajgVE5h/67MBjAQjoYix6a3sHQnAsAWKWVO1L2ndtQgAXJAiYTrdom/x39wmQvxWQGVSXEpafZy/JlxHpT+R2jAVdw/i7lfgLa5BvPBVJa6yYVTTWkUCHkWK4mpAyUl5NSG8ZW5v/JTSjq+GSDdl49wXicAu2fpIcnwXdqs0X3jyRO0S9fjxXQRpAhjsk4NA+fj5/+4YE7MtWZ2SsBrkK6mbdvi58rP0bdHiAtMT3m7t1w==",
+  "tamanho": 1283535,
+  "sha256": "38096148da9e6371d6ae30ca57ea774d0b26464fe9d0b21dd5ba89973493e7ee",
+  "assinatura": "RKyZl2Q7t7q7WZgCYa4JWa0DaCtTO7WMXlD48QF3q2kLWaOJ2zcl76XKhur1BkzPGs59fTtywlV/1SUhvcP9SD6uuqzB1sphQGrKP89CgcLZD8TvATEJWHppZEGGscO90TYAW8h5BgpQo8dsC7BBoixBqNNoqZSQIG/sPz3tqS73RkDuriE76NgFMGHC9Qle4DZDNKCfeRwdpxwrco9KeXJGtYGTXuZniaTZc7wOBrGmkg53CsF3ku5wsLUgcESYNPIIs1tCq2FhZ+rWmiJR7NB6ZSKGLbm546qb7nC7+qC245q/0S5BkXH/rW/YsYHeBEio0uM2HBPaw1lNXfqR1Q==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -29,5 +28,5 @@
       "sha256": "f11cfa8380d568cede6dabc3cb9847800ff5ebad872ee1fc4f1538bcc4cea905"
     }
   ],
-  "assinatura_extras": "c0z5Jr178ZKTfW9EQZQ+xx0qRbAxE5gwN8Uc2CjjXCSy84lQRYVlTj18qujobdBoeROYsrmTNkJK8BpFuMnF+bIz+pci1GRwP1qoWwLi9gjAuYzR5HldtMdCv0mJV6fzuJD9JCE7xowoYAw819c2QhM+StYffHRRkCQdYZkI8iAcGQPWlKqZZ45LV5He+/HcClpIq2wd1OA82NadElOBtW17CHgj4gKKIXoVwyXQwxMC7rIcn7vqflLZvfzJMG69/ypJFf5NGk0C/UMqvQAwq49tEO5wIK1Du9dfId2QeXXhL5UZd86rXGdeLGcI8A/h2WaG8df9LGO65tReHD1AeQ=="
+  "assinatura_extras": "jr/qB+Y5o/p71ZVPvSzVLxkLCxcB+2hGtq1yLj1kLL+m6Etq9QN4LRWyIPawYYiRgSGWf9DeovYx/UqOwehwHAEN2lfsYWuPOESB4c8BxEys17GfOspDBb/ospSdpS4jwqQWQ8FM1fml7ZmdU8F9pZutJVPQzJ0eFPwCSKSS9xok8pBMlc6iA72TWZLZrKGpCcV2P3bHV5yWRO7Qyf0/JPEUqWQrnXJ8jhkGxhFSgBK3f5nqrfiPDKBD3OJ+3dLA4aKY+spO7K/TubwgeO5HtxOy0o2AemmkmY0QLHBhxy1xQZgSCWUdKtUvFIt41cLJPHRLwWS0p+6W0IHE8KawSQ=="
 }
