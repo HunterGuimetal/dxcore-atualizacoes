@@ -1,12 +1,14 @@
 {
-  "versao": "7.7.1",
-  "data": "2026-09-30",
+  "versao": "7.8",
+  "data": "2026-10-01",
   "notas": [
-    "Correção: quem teve a senha do setor trocada pela gerência não conseguia entrar depois de atualizar (aparecia \"arquivo danificado\"). Agora a senha trocada continua valendo em todas as atualizações.",
-    "Atualização automática: ao abrir pelo atalho, o DXCORE confere se tem versão nova e instala sozinho."
+    "Limpar: corrigido o problema das peças que sumiam da tela (o quadro do desenho ficava espremido conforme o tamanho da janela ou o zoom do Windows).",
+    "Leitor mais esperto com linhas de furo: tira as marcas de centro do AutoCAD com prolongamentos, linhas de centro compridas que ligam furos, linhas radiais e o círculo de furação, mesmo em linha contínua e com furo exportado como polilinha.",
+    "Leitor não confunde mais tabela de itens nem chapa com observações escritas com a moldura da folha (antes a peça podia sumir ou uma forma sem sentido virava peça).",
+    "Corte de alívio (linha do furo até a borda) continua no corte."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1117804,
-  "sha256": "6052ab82bacc1415278c90adfb9a548aa5fae11325e168e98d8a72bab27d6977",
-  "assinatura": "knzuYFg9hRHW4VigrXCRjTB5eAD/vT/0OYnXn/fsBbczttjFRkfw5YsrQcSYBtRVg32vaFoBh/zcnlvESLv4S7wERQGTiXbF9v8jlEnkzBV1Mn7E2cRHLc+TuCH+oF/uljdUJDJqOYVGjCEPif1mSqze5Iuq5DwOdD9hyHRTQmNSoefxlBs9lInHUe2pLCokv0+IiD6zreNsxbJ72rQjJD3BoIZUhs0eTVaj5hzNsEvqNnfvmf8JASfHmHmkox6wLkrd4fjvnPzjelv4VzYNQPoeCGhaEL8IwzGVIlxaNs2I4Ybd+NqerktKOcm/tytID0Kb+xzfD/wB0Kgotl56rg=="
+  "tamanho": 1133016,
+  "sha256": "7b3e717a804073e5291b654a0dbac5235fe459f1cceadd7b0df7fc6dd145c106",
+  "assinatura": "b0YAwXmo+UmDoLHNh1xSnk+eJs/tWb8oI5vYxq9Zod8SVDsn2K79t+tX9ezRpb6wZbmslIz+KK2dijHapXf2v4QMHSIOL/wMqo/elb7hlH/iduQqGNlsPhUPABtU8loHT9wH5u2fV/1jNoRtHMZB051pcADzgjqdrp7+V45krq6IiT7UKPfmTqz6eUzJ/8muw7fMtJBkX/MK904gZQMGFI+d9KLgEjfo646C9ZWUsN/fc4PPXwWNr0FNA5o8/qXjF87lC3ou/UGoZT5xS9ShVvY4ljHmb3QzWxFTL/AA1EKFf5d/iuaWQTCSj2YQolvLLNJsjZd8GGORcnTRyKU3gw=="
 }

@@ -1,9 +1,11 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **7.7.1** (2026-09-30)
+Versão atual: **7.8** (2026-10-01)
 
-- Correção: quem teve a senha do setor trocada pela gerência não conseguia entrar depois de atualizar (aparecia "arquivo danificado"). Agora a senha trocada continua valendo em todas as atualizações.
-- Atualização automática: ao abrir pelo atalho, o DXCORE confere se tem versão nova e instala sozinho.
+- Limpar: corrigido o problema das peças que sumiam da tela (o quadro do desenho ficava espremido conforme o tamanho da janela ou o zoom do Windows).
+- Leitor mais esperto com linhas de furo: tira as marcas de centro do AutoCAD com prolongamentos, linhas de centro compridas que ligam furos, linhas radiais e o círculo de furação, mesmo em linha contínua e com furo exportado como polilinha.
+- Leitor não confunde mais tabela de itens nem chapa com observações escritas com a moldura da folha (antes a peça podia sumir ou uma forma sem sentido virava peça).
+- Corte de alívio (linha do furo até a borda) continua no corte.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
