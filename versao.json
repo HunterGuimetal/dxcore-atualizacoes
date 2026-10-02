@@ -1,15 +1,16 @@
 {
-  "versao": "8.7",
-  "data": "2026-10-01",
+  "versao": "8.8",
+  "data": "2026-10-02",
   "notas": [
-    "Gerador de peças: novo botão \"Importar peça\". Abre DXF, DWG, PDF, STEP ou Parasolid já limpo no gerador, e o técnico muda como quiser: põe dobras onde quiser (vertical ou horizontal, ângulo e sentido), põe furos, gira e espelha. O 3D mostra a peça dobrada.",
-    "STEP de chapa: o STEP que não é tubo agora é planificado como chapa (plana ou dobrada com dobras paralelas), no Limpar e no gerador.",
-    "Da versão 8.6: leitura de Parasolid (.x_t) e 3D para todas as peças."
+    "Gerador de peças: novo modelo \"Caixa (cantos abertos)\", com as 4 dobras e a caixa dobrada no 3D.",
+    "Gerador de peças: \"Corte manual\". Risque com o mouse onde a peça deve ser cortada; fica o lado maior, com opção de ficar com o outro lado ou desfazer.",
+    "Encaixe automático em fileiras alternadas (normal e girada 180°), com linha comum onde as faces se encostam.",
+    "Orçamento: chapa com mais de 80% de aproveitamento é cobrada inteira."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1430483,
-  "sha256": "4f1f474d3600853c54d36f6dbc0ed014525429b832e4690981c1adac18b170e2",
-  "assinatura": "O4CHM5ujZgszms56U+ebZL7SlasU//tKVnEh5FPMR+EosUj4lLiv/+FanJH/+SbxCfO+h9IJPYkAA0osgstidGtS2tqzqvHhrKaipp8kh1W7y5uFhr0aIZmUZYmHnO+RIW0dKlF5wHn/wPmMGJb916Pl450T67uOCS44iQ2c0FjXUqgpYlmAdvQ00W85f/KA2OlzMr1Q/9pJTa8x56yCHltcZ+g29i//f7ouuR4aMjveoYDp3IT1C/I4RIbeX7Aqw0kyJ5t2BC0lTfqYWO1SnbfRWySUoKYgkXmofdbE5ARpw96YNqisfso2aA5SL/y0KzBmzjW6oKzvcSvys3gCMg==",
+  "tamanho": 1461967,
+  "sha256": "f39c0a65d2022cb48b9fe27a87ee51c1f8726fce923c13c7382eafd51ec97d29",
+  "assinatura": "GM5aNPQeUkImARIjt35K710jdb+kAdgggCqA6H985iCUh2xl3h/R8k67P4Ur0csIKQyQx10bIaHfeCNLm5OIZkCC8J1+JiAyCs9RScog90L5XrJJrTA9vtQhTKevfFaKDfiWpjGq+VGukm0uvcmNwyU3vDORKZCqieKNh5vtw0ZzU4+yYHW5TTXcyo2aASE99TKkdJZ7EdODk/+0rqAEmYM+TQAr56lvxov9gjnktf9tgR4ifG21UizEZKbye5zcknDfQN45qbvNoRJA4R0ov09qMPBj6TqB06PEgR7UUtr8ELZJ6vtMC4LwG9TBMn/83EHphTEyUmRbSYhUwIUF/w==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -28,5 +29,5 @@
       "sha256": "f11cfa8380d568cede6dabc3cb9847800ff5ebad872ee1fc4f1538bcc4cea905"
     }
   ],
-  "assinatura_extras": "OD2EYrhp/TvCUsAT63xCY/rfNZDDNbirvKD++Z7oNvqziIQI/ROK2ILnHRqJbjlvpG21gIbKDN4PsNZvdfo7qZhjxb5qwlSzGJYmYvGZGXKaP/S7Y9EVsbEvlueJFT2i+hzSB9EzkUqIAN+6iM8NYxHjNjvu1Q0PmpiK976B6Tj3QytriqrKUAEoj7lu2wn5dpn/uCp5tTXtwNAQyTmykRsEIXNWoNARxSpZZd449ykg1zi+OiVNh1TWLWKkt5YmMxXqBRh9RPFSUGhfNU2lE8MaZkNOBAg9WkBj5WRrsXIGh2qFKxjNZbOYr8rcIbR/4HxiFXFVzIKej6kYur/yZw=="
+  "assinatura_extras": "G6MbMxBmFoVMw0MscJkvN+AvPJtPrUrZyhsf0FtXwMAkqQ1IJSBsJSOScbbrHiCgYs6JuBG2OQjBBKlLQn57Q4IvITUVeTZwlCFFBXqpNmUT6/0rZWc/EuyKMSnxg4+rtzecmDjzZj9q+WpEacHfVKoqHM1QWmyV8amkpOSxYKk7oyxgh7PD9ZFEUGnz8TnRO18YbQu/yAlP9WG7/753bQhA7F89GaShCQff5tHZ/1lPVgPdhoNF4rOLXVbgbfIYER9HPQWZDoCumxto5RRlN5kJMSwLTQbtcWGXA5mrU7z6xUXZ/UY99hpG4PjKUFAgsclvLkkKz7weDN9KAzuRsw=="
 }
