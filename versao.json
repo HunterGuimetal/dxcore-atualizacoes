@@ -1,15 +1,15 @@
 {
-  "versao": "8.16",
+  "versao": "8.17",
   "data": "2026-10-05",
   "notas": [
-    "Proposta em PDF com o botão \"Aprovar pelo WhatsApp\" e um QR Code: o cliente toca (ou aponta a câmera) e o WhatsApp da GUIMETAL abre com a mensagem de aprovação pronta, com o número do orçamento e o valor.",
-    "Calculadora e Proposta em PDF: novo botão \"Aprovação do WhatsApp\". Cole a mensagem do cliente e o DXCORE acha o orçamento, confere o valor e aprova; com um clique já gera a OS.",
-    "O orçamento aprovado mostra por onde e quando foi aprovado, e guarda a mensagem do cliente."
+    "Ordem de serviço: novo botão \"Link do cliente\". Cria um link para o cliente acompanhar a produção pelo celular (recebido, corte, dobra, qualidade, pronto, entregue), com as datas e sem preços.",
+    "O link se atualiza sozinho toda vez que a OS muda de etapa (na OS ou no Quadro de produção). Sem internet na hora, o DXCORE manda depois.",
+    "O link pode ser mandado direto no WhatsApp do cliente e pode ser desligado a qualquer momento."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1550372,
-  "sha256": "82ae3a42b5b3c4336d7840d8ed103ae08a7969ee4f266c9aea44c41915a22d2e",
-  "assinatura": "XZkuXKr6oYwVK5TFdI5XuMD8RVhjYrGNATOO30BvkgXTCye5an8t11PL/XhD+tOoBuJycW27nqmuy/PvLXtFko5J5L3mCnXqF2OlnYNLCRNFyYVwUdRdHpHeXymG001ioJ1QCkU4wLgz5K+hYdWEetzRQAHIADkeMwWDCjjXvO1NcIKpALCtP8H2EMBa+2J1BOrF4oWfcpNgywAKAan0CS94EkkWfHTGDJM8Wk2kRh8WOTyI58zj1cNBIalKeX/Q2L3ngopP4+kbrhIprwq0ad7Fl2aEhCfTzvvrnGrzIHkGZWDd/k7p8rinVVGb1BLslLbpsc8OmfnPIwWOPA5BIw==",
+  "tamanho": 1560776,
+  "sha256": "08113392e15aa4c1a41fed2f9f8e3cde1d616a9b226d8fb72df3936c9347bfa2",
+  "assinatura": "Nr+XKj4nqojudMe3zq4XOhaxtA0Fw3ElpmnCRDzPLXt3Z9t20QcfsltRmtTqHY6ZAUb4j0hvFC+8SuuPfHdYB4ZyGzPzqjSc9aUSLNAkziYhHszdN5gsSLaUCV/yHEeH5KE/CJTrIR5JVOyxmQWlX4AiYmvW6JD2ulD+Hwgm9MTSB9GE7xL0O1wp7KVpcE0aZ6qCQv2ckrvpvhl2kJLFnUQvq4giDlx4RjDmR4qVjjKrH+Z/yogzQS90yfznCe6yBVzOLXaBgWnhnPs1T/Wx5HdAd8h+k/dEbwzXALdbIv2FSLUJhQAtPV6REaMIfS3r7+14obW1QqfFyUHA9aaseA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -32,5 +32,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "HtrmCnGM1D6ogZqN+RbSdkHVfG5oqEHMUlh7ABbraJOwQ4lDyRfw34nM7nFrJz9n+ly23fvi8atA6Wv68TQoAUd+gbmOVoekM5A/mCtO2ZAz1DpR3vR5ZppLNY+KZvqtnaitW/eZZMMSCJKS3kn/quEICjVUnH+LPkFM6OUxV66YtbcS1ymWMsCAwcKs/XDTXLF9KvyY6Z3PwDMcVTI62MdBB12PGm/U4uw9vUbHgkIcOepzTcT6ghUH06ns3T7v6pQV70dxrB0KRT+d0+R7V+2xvfagcrpvWFmYuCROScWxELua1d5nvHF6/ij2LC+bztoaLDGOQjJwfdpn7K8H1Q=="
+  "assinatura_extras": "LT3RSEP4+Hm017eDxYQz6vSTtKCRDZ9+CEQ7VmGjdgzVn5ZB0gJz9ZijpX1q6k+xNPQUNE4WtE0pJlfztoZjCjfRZ0Y1B+L9RAiTWOXyU4yh8ebb2+FfikYmrD7PXv+E/iwBwJccs6OMuVhRCHHLCBLGI0xirLPoI82sQ2IWfaGB9Qz4/b2xndcLzhePkIOyRZ5uOyHwYHw2hxH5THT2cNacP7st9gusLEq+Dw7YTolW34AYiyi+4ricZFREcKFagj7QisbL3ZwmgpmYqOo/weW38weJB7PLl/mWypBjVqWVb2QUU/5H+aO57NtChnY0bFV6zru/W4igab7U3kycbw=="
 }

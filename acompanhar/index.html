@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Acompanhar pedido · GUIMETAL</title>
+<meta name="description" content="Acompanhe a produção do seu pedido na GUIMETAL.">
+<meta name="theme-color" content="#14110F">
+<link rel="icon" type="image/png" href="../links/favicon.png">
+<link rel="apple-touch-icon" href="../links/logo-180.png">
+<style>
+  :root { --bg: #14110F; --card: #231E1B; --card2: #1B1715; --line: #3A322D; --ink: #F5F0EC; --muted: #B5A9A0; --dim: #7D726B; --orange: #FF6600; --orange2: #FF8533; --ok: #3BD27A; --bad: #FF6B5A; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; }
+  body {
+    background: var(--bg); color: var(--ink);
+    font: 16px/1.45 "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+    background-image: radial-gradient(ellipse 80% 40% at 50% -10%, rgba(255,102,0,.2), transparent 60%);
+    display: flex; justify-content: center;
+    padding: max(20px, env(safe-area-inset-top)) 16px max(28px, env(safe-area-inset-bottom));
+  }
+  main { width: 100%; max-width: 480px; }
+  header { display: flex; align-items: center; gap: 12px; margin: 4px 0 20px; }
+  header img { width: 46px; height: 46px; border-radius: 50%; box-shadow: 0 0 0 2px rgba(255,102,0,.4); }
+  header b { display: block; font-size: 19px; letter-spacing: .05em; }
+  header b span { color: var(--orange); }
+  header small { color: var(--muted); font-size: 12.5px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 18px; margin-bottom: 14px; }
+  .os { font-size: 26px; font-weight: 800; letter-spacing: .01em; }
+  .cli { color: var(--muted); font-size: 14px; margin-top: 2px; overflow-wrap: anywhere; }
+  .now { display: flex; align-items: center; gap: 10px; margin-top: 16px; padding: 12px 14px; border-radius: 14px; background: linear-gradient(135deg, #FF6600, #E24E00); }
+  .now.done { background: linear-gradient(135deg, #1FA855, #158A44); }
+  .now.cancel { background: #4A2420; }
+  .now i { flex: none; width: 34px; height: 34px; border-radius: 50%; background: rgba(255,255,255,.2); display: grid; place-items: center; font-style: normal; font-weight: 800; }
+  .now small { display: block; font-size: 12px; opacity: .85; }
+  .now b { display: block; font-size: 17px; }
+  .bar { height: 6px; border-radius: 6px; background: var(--card2); margin-top: 14px; overflow: hidden; }
+  .bar span { display: block; height: 100%; background: var(--orange); border-radius: 6px; transition: width .6s ease; }
+  .meta { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px; }
+  .meta div { background: var(--card2); border: 1px solid var(--line); border-radius: 12px; padding: 9px 12px; }
+  .meta small { display: block; color: var(--dim); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; }
+  .meta b { font-size: 15px; }
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--orange2); margin: 0 0 12px; }
+  ol.tl { list-style: none; margin: 0; padding: 0; }
+  ol.tl li { position: relative; display: flex; gap: 12px; padding-bottom: 16px; }
+  ol.tl li:last-child { padding-bottom: 0; }
+  ol.tl li::before { content: ""; position: absolute; left: 11px; top: 24px; bottom: -2px; width: 2px; background: var(--line); }
+  ol.tl li:last-child::before { display: none; }
+  ol.tl li.ok::before { background: var(--ok); }
+  .dot { flex: none; width: 24px; height: 24px; border-radius: 50%; border: 2px solid var(--line); background: var(--bg); display: grid; place-items: center; position: relative; z-index: 1; }
+  li.ok .dot { background: var(--ok); border-color: var(--ok); }
+  li.ok .dot::after { content: ""; width: 8px; height: 4px; border-left: 2px solid #0B2A17; border-bottom: 2px solid #0B2A17; transform: rotate(-45deg) translate(1px, -1px); }
+  li.cur .dot { border-color: var(--orange); box-shadow: 0 0 0 5px rgba(255,102,0,.18); }
+  li.cur .dot::after { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--orange); animation: pulse 1.6s ease-in-out infinite; }
+  @keyframes pulse { 50% { transform: scale(.6); opacity: .6; } }
+  .st b { display: block; font-size: 15px; }
+  li.todo .st b { color: var(--dim); font-weight: 500; }
+  .st small { display: block; color: var(--muted); font-size: 12.5px; }
+  li.todo .st small { color: var(--dim); }
+  details summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::after { content: "+"; color: var(--orange2); font-size: 20px; line-height: 1; }
+  details[open] summary::after { content: "−"; }
+  details summary h2 { margin: 0; }
+  table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 14px; }
+  td { padding: 8px 0; border-top: 1px solid var(--line); vertical-align: top; }
+  td.q { text-align: right; white-space: nowrap; font-weight: 600; padding-left: 10px; }
+  td small { display: block; color: var(--dim); font-size: 12px; }
+  a.wa { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 14px; min-height: 52px; border-radius: 14px; background: #1FA855; color: #fff; text-decoration: none; font-weight: 700; margin-bottom: 10px; }
+  a.wa svg { width: 22px; height: 22px; }
+  .foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; color: var(--dim); font-size: 12px; margin-top: 4px; }
+  button.ref { background: none; border: 1px solid var(--line); color: var(--muted); border-radius: 10px; padding: 8px 12px; font: inherit; font-size: 12.5px; cursor: pointer; }
+  button.ref:disabled { opacity: .5; }
+  .msg { text-align: center; padding: 34px 18px; }
+  .msg b { display: block; font-size: 18px; margin-bottom: 6px; }
+  .msg p { color: var(--muted); margin: 0 0 18px; }
+  .sk { height: 14px; border-radius: 7px; background: linear-gradient(90deg, var(--card2), #2D2622, var(--card2)); background-size: 200% 100%; animation: sk 1.2s linear infinite; margin: 10px 0; }
+  @keyframes sk { to { background-position: -200% 0; } }
+  .urg { display: inline-block; margin-left: 8px; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 700; background: rgba(255,107,90,.15); color: var(--bad); vertical-align: middle; }
+  @media (prefers-reduced-motion: reduce) { li.cur .dot::after, .sk { animation: none; } .bar span { transition: none; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="../links/logo.png" alt="" width="46" height="46">
+    <div><b>GUI<span>METAL</span></b><small>Acompanhamento do pedido</small></div>
+  </header>
+  <div id="app"><div class="card"><div class="sk" style="width:45%;height:26px"></div><div class="sk" style="width:70%"></div><div class="sk" style="height:56px;border-radius:14px"></div></div></div>
+</main>
+<script>
+// Página pública: mostra a etapa da OS. Os dados vêm do DXCORE (pelo Make). Nenhum preço passa por aqui.
+const HOOK = 'https://hook.us2.make.com/5lxraqa36aqd58qznucbpsbybu7dtvgn';
+const ZAP = '5541998681497';
+const ETAPAS = {
+  aguard: ['Pedido recebido', 'A OS foi aberta e entrou na programação da fábrica.'],
+  corte: ['Corte a laser', 'As peças estão sendo cortadas.'],
+  dobra: ['Dobra', 'As peças estão na dobradeira.'],
+  solda: ['Solda e acabamento', 'Solda, acabamento e montagem.'],
+  qual: ['Inspeção de qualidade', 'Conferência das medidas e do acabamento.'],
+  pronta: ['Pronto', 'Pedido pronto para entrega ou retirada.'],
+  entregue: ['Entregue', 'Pedido entregue.']
+};
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const dBR = s => { const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s || ''); return m ? m[3] + '/' + m[2] + '/' + m[1] : ''; };
+const dtBR = s => { const m = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/.exec(s || ''); return m ? m[3] + '/' + m[2] + ' às ' + m[4] + 'h' + m[5] : ''; };
+const tok = new URLSearchParams(location.search).get('t') || '';
+const app = document.getElementById('app');
+const waIco = '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>';
+function falar(txt) { return '<a class="wa" href="https://wa.me/' + ZAP + '?text=' + encodeURIComponent(txt) + '" target="_blank" rel="noopener">' + waIco + 'Falar com a GUIMETAL</a>'; }
+function aviso(t, p, os) { app.innerHTML = '<div class="card msg"><b>' + esc(t) + '</b><p>' + esc(p) + '</p>' + falar(os ? 'Olá! Quero saber do meu pedido ' + os + '.' : 'Olá! Quero saber do andamento do meu pedido.') + '</div>'; }
+function mostrar(d) {
+  const p = d.p || {};
+  if (p.off) return aviso('Link desativado', 'Este link de acompanhamento foi desligado. Fale com a GUIMETAL para saber do seu pedido.');
+  const et = Array.isArray(p.et) && p.et.length ? p.et.filter(k => ETAPAS[k]) : Object.keys(ETAPAS);
+  const datas = {}; String(d.h || '').split(';').forEach(x => { const [k, w] = x.split('@'); if (k && w) datas[k] = w; });
+  const cancel = d.e === 'cancel';
+  let cur = et.indexOf(d.e); if (cur < 0) cur = d.e === 'entregue' ? et.length - 1 : 0;
+  const fim = d.e === 'entregue', pronta = d.e === 'pronta';
+  const pct = fim ? 100 : Math.round(cur / (et.length - 1) * 100);
+  const qt = (p.itens || []).reduce((s, i) => s + (parseFloat(String(i.q).replace(',', '.')) || 0), 0);
+  const nowTxt = cancel ? ['Pedido cancelado', 'Fale com a GUIMETAL se tiver dúvidas.'] : ETAPAS[et[cur]];
+  app.innerHTML =
+    '<div class="card"><div class="os">' + esc(p.os || '') + (p.urg && !fim && !cancel ? '<span class="urg">URGENTE</span>' : '') + '</div>' +
+    '<div class="cli">' + esc(p.cli || '') + (p.proj ? ' · ' + esc(p.proj) : '') + '</div>' +
+    '<div class="now' + (fim || pronta ? ' done' : '') + (cancel ? ' cancel' : '') + '"><i>' + (cancel ? '!' : fim || pronta ? '✓' : (cur + 1)) + '</i><div><small>' + (cancel ? 'Situação' : 'Etapa atual') + '</small><b>' + esc(nowTxt[0]) + '</b></div></div>' +
+    (cancel ? '' : '<div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + pct + '"><span style="width:' + pct + '%"></span></div>') +
+    '<div class="meta"><div><small>Entrada</small><b>' + (dBR(p.ent) || '—') + '</b></div><div><small>Previsão de entrega</small><b>' + (dBR(p.prazo) || 'A confirmar') + '</b></div></div></div>' +
+    (cancel ? '' : '<div class="card"><h2>Produção</h2><ol class="tl">' + et.map((k, i) => { const cls = i < cur || fim ? 'ok' : i === cur ? 'cur' : 'todo'; const w = datas[k]; return '<li class="' + cls + '"><span class="dot"></span><div class="st"><b>' + esc(ETAPAS[k][0]) + '</b><small>' + (cls === 'todo' ? 'Próxima etapa' : w ? (cls === 'cur' ? 'Desde ' : '') + dtBR(w) : cls === 'cur' ? ETAPAS[k][1] : 'Concluída') + '</small></div></li>'; }).join('') + '</ol></div>') +
+    ((p.itens || []).length ? '<div class="card"><details><summary><h2>Peças do pedido · ' + (p.itens.length + (p.mais || 0)) + ' item(ns)' + (qt ? ' · ' + qt.toLocaleString('pt-BR') + ' pç' : '') + '</h2></summary><table>' + p.itens.map(i => '<tr><td>' + esc(i.d) + (i.c ? '<small>Cód. ' + esc(i.c) + '</small>' : '') + '</td><td class="q">' + esc(i.q) + '</td></tr>').join('') + (p.mais ? '<tr><td colspan="2"><small>e mais ' + p.mais + ' item(ns)</small></td></tr>' : '') + '</table></details></div>' : '') +
+    falar('Olá! Quero falar sobre o pedido ' + (p.os || '') + '.') +
+    '<div class="foot"><span>' + (d.u ? 'Atualizado em ' + dtBR(new Date(d.u + 'Z').toLocaleString('sv').replace(' ', 'T')) : '') + '</span><button class="ref" id="ref" type="button">Atualizar</button></div>';
+  document.title = (p.os ? p.os + ' · ' : '') + 'Acompanhar pedido · GUIMETAL';
+  document.getElementById('ref').onclick = carregar;
+}
+async function carregar() {
+  const b = document.getElementById('ref'); if (b) { b.disabled = true; b.textContent = 'Atualizando…'; }
+  if (!/^[A-Za-z0-9]{10,40}$/.test(tok)) return aviso('Link incompleto', 'Confira se o link foi copiado inteiro, ou peça o link de novo para a GUIMETAL.');
+  try {
+    const r = await fetch(HOOK + '?acao=ver&t=' + encodeURIComponent(tok), { cache: 'no-store' });
+    const d = await r.json();
+    if (!d || !d.ok) return aviso('Pedido não encontrado', 'Este link não está ativo. Peça o link de novo para a GUIMETAL.');
+    mostrar(d);
+  } catch (e) {
+    aviso('Não deu para carregar agora', 'Confira a internet e tente de novo em instantes.');
+    app.querySelector('.msg').insertAdjacentHTML('beforeend', '<button class="ref" type="button" onclick="carregar()">Tentar de novo</button>');
+  }
+}
+carregar();
+</script>
+</body>
+</html>
