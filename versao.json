@@ -1,19 +1,19 @@
 {
-  "versao": "8.11",
+  "versao": "8.12",
   "data": "2026-10-05",
   "notas": [
+    "Pasta de dados definida como padrão no computador: o atalho abre o DXCORE por um servidor local e o navegador não pede mais autorização da pasta. Na primeira vez, escolha a DXCORE-dados da rede uma única vez.",
     "Orçamento: nova opção \"Material fornecido pelo cliente (parte)\". Digite os kg que o cliente fornece e o DXCORE cobra só o material que falta para completar o pedido.",
-    "O DXCORE passa a abrir pelo endereço da internet (sem internet, abre a cópia do computador). Assim dá para instalar como aplicativo e o navegador para de pedir a autorização da pasta toda vez.",
-    "Na primeira vez em cada computador: escolha a pasta de dados da rede (DXCORE-dados) e, quando pedir, \"Permitir em todas as visitas\" ou instale pelo botão \"Instalar o DXCORE neste computador\"."
+    "O DXCORE passa a abrir pelo endereço da internet (sem internet, abre a cópia do computador). Assim dá para instalar como aplicativo e o navegador para de pedir a autorização da pasta toda vez."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1490148,
-  "sha256": "c600488152a7ca1dacd4ea4e76b98f2df515b0d978c3910762f445c484f719af",
-  "assinatura": "c9HKSs53QE2zsx3H4lIeg02fXbVHPWsKFFbnI7cfODn9i6Ob9JsbOD9AuKvWTY+hFG4Y/DJzT/+jO88EJOeLUYVoqrcDnzBUprGd03fB9WPx9BZNAZQOvTANPKC4abmrHqlPAvlHLIMeVJHybsysN/r84JtuOwc5ww75iDKsPRvSa0wsA6pxBdyezcEMiqBTTaMA8kJ5A1zVnZ3mdZCpU6OvavRWkXvbibykeTGZmLmWJvM4auydwvmRhBkYalsIncO0AlAlE3UWvhnPk2hZRSv44/3t9dFtdNq6tdvpVg1OmEfNXtd9hMZG7+DQuXn6hnEQlpataslppGIWXXTBnw==",
+  "tamanho": 1498836,
+  "sha256": "b1fe187f265bf1b5b85c0069e7467f2f57c161bd2bf2f32dca2d78fa217b83b0",
+  "assinatura": "J+oQTJCdDNcld6O8Xaa7tRxpM1zSWighjNA76ixXGDhuniYnGFBSWWfBKVLhI+zpBb80qBOW5RKW6ABGCTeSDdG8a5FkYjZcdEhtVyOX9jJPy1P22UJ1N6RaksEBy116rNtM0a/LgNDVhRHpGidzquELlSiay7AdEYx7VLtTCs+rKRrzRCVEDLmOQE7nhxrHUZqtCw4m0a96kgvvSvhpGLpPF1AibjywsH11teOa2PBk1Mjc5fKNZMiXGt/Kss8LFy0dW0Ojsm60GG+Lu/F/x75GknH1sZd78jPqUWDDElrg2F2/as+e+7bsMstaslYesijAfIvLhc1kIzgwp2yrKA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
-      "sha256": "4e3cefbc50c747bc9ccc9b711d453237dfc5471b9a554fd1fdbb808682868c3b"
+      "sha256": "b50a4d995aa216fcd5feb23b297ee2f32bf059bdca770df657163b8cb3d4440f"
     },
     {
       "arquivo": "abrir.vbs",
@@ -26,7 +26,11 @@
     {
       "arquivo": "voltar-versao-anterior.bat",
       "sha256": "f11cfa8380d568cede6dabc3cb9847800ff5ebad872ee1fc4f1538bcc4cea905"
+    },
+    {
+      "arquivo": "servidor.ps1",
+      "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "Z5au0skj2mG5hppxEul41aolCX6jHOxIqO/dRSdBU7R8Iuqkh4/KeJotgjM4jr59jVZ+XNxv881IrtxvRlOh3ZBiujYGzqaPIkc1Sx7fw9utqpNif/TYPQfkcaq6KfWl+1eMw84gz3FLMp4bpZm4CkU8DoU8dWX6b76oaeeQYvnHJThmMCpZaeLssH20Qt+4DxxA0F5ZpzDzCP8/JCH04IVAPE863Zmf1bIdxSKs4AQwpML9MBlxOWZaomuk5BdGbYjMrGBKBCU8rqA8w6eSbwxoDFZLtnBe5dVFe7dBDcXqViBR1F0//2G8a8We3NpAtbnwf/5skloHCd/NwRYrRA=="
+  "assinatura_extras": "ZYM+z0Zlpa/vr+66iJ3/n4FOTIeFDz1wENdioxeFQC8+LeQTOYt2Vn3kCRLbymhH6Mj0DTYeNN6ggBB3k24ojn4IeGNqQjmZ9vGH00sMZJgSQwgJZL7US6QULkeEpAooUjAhfu+EKCMTQbTgHsS28yWdkUqBpSghMdMB8fbhIvNARAOvLr1JAlfzB8OoM7e4yMMk4UmL75uok/dXr87sOW+khBFaCRBWhbR1ugAr4ChucEHa/Hi+Fomjhk8qRWLdc7QZfPimC7A8vbjn9GTbYefCrzn9vokFOgmKqH5pIhKfLBgyYHsAF4mqq5mJ2ryh/r0Uvroqu2lmKCfpU16Ijw=="
 }

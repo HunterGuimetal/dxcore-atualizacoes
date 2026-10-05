@@ -53,9 +53,34 @@ function Web {
   } catch {}
   return $null
 }
+# v8.12: servidor local (servidor.ps1). Com ele o DXCORE abre em http://127.0.0.1:47815 e a pasta de dados fica
+# definida de uma vez neste computador: o navegador não pede mais autorização. Se não subir, segue como antes.
+function PingLocal([string]$u) {
+  try { $rq = [Net.HttpWebRequest]::Create($u + 'api/ping'); $rq.Timeout = 1500; $rq.Proxy = $null; $rq.Headers.Add('X-DXCORE', '1'); $rs = $rq.GetResponse(); $ok = ([int]$rs.StatusCode -eq 200); $rs.Close(); return $ok } catch { return $false }
+}
+function TesteLocal([string]$u) { # confere se o servidor lê e responde direito (corpo, acentos) antes de usar
+  try {
+    $rq = [Net.HttpWebRequest]::Create($u + 'api/teste'); $rq.Method = 'POST'; $rq.Timeout = 3000; $rq.Proxy = $null; $rq.Headers.Add('X-DXCORE', '1')
+    $b = [Text.Encoding]::UTF8.GetBytes('DXCORE ação 123'); $rq.ContentLength = $b.Length; $st = $rq.GetRequestStream(); $st.Write($b, 0, $b.Length); $st.Close()
+    $rs = $rq.GetResponse(); $sr = New-Object IO.StreamReader($rs.GetResponseStream(), [Text.Encoding]::UTF8); $t = $sr.ReadToEnd(); $rs.Close()
+    return ((($t | ConvertFrom-Json).eco) -eq 'DXCORE ação 123')
+  } catch { Log ('teste do servidor: ' + $_.Exception.Message); return $false }
+}
+function Servidor {
+  $u = 'http://127.0.0.1:47815/'; $sv = Join-Path $dir 'servidor.ps1'
+  if (-not (Test-Path $sv)) { return $null }
+  if (-not (PingLocal $u)) {
+    try { Start-Process -FilePath 'powershell.exe' -WindowStyle Hidden -ArgumentList @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-STA', '-WindowStyle', 'Hidden', '-File', "`"$sv`"") } catch { Log ('servidor: ' + $_.Exception.Message); return $null }
+    for ($i = 0; $i -lt 24; $i++) { Start-Sleep -Milliseconds 250; if (PingLocal $u) { break } }
+  }
+  if ((PingLocal $u) -and (TesteLocal $u)) { Log 'abrindo pelo servidor local'; return ($u + 'DXCORE.html') }
+  Log 'servidor local não respondeu: abrindo do jeito anterior'; return $null
+}
 function Abrir {
   $uri = ([Uri]$html).AbsoluteUri
-  $w = Web
+  $loc = Servidor
+  $w = $null; if (-not $loc) { $w = Web }
+  if ($loc) { $uri = $loc }
   if ($w) {
     try {
       $rq = [Net.HttpWebRequest]::Create($w); $rq.Method = 'HEAD'; $rq.Timeout = 4000; $rq.UserAgent = 'DXCORE-lancador'
