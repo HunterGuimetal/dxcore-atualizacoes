@@ -1,16 +1,15 @@
 {
-  "versao": "8.10",
+  "versao": "8.11",
   "data": "2026-10-05",
   "notas": [
+    "Orçamento: nova opção \"Material fornecido pelo cliente (parte)\". Digite os kg que o cliente fornece e o DXCORE cobra só o material que falta para completar o pedido.",
     "O DXCORE passa a abrir pelo endereço da internet (sem internet, abre a cópia do computador). Assim dá para instalar como aplicativo e o navegador para de pedir a autorização da pasta toda vez.",
-    "Na primeira vez em cada computador: escolha a pasta de dados da rede (DXCORE-dados) e, quando pedir, \"Permitir em todas as visitas\" ou instale pelo botão \"Instalar o DXCORE neste computador\".",
-    "Tubo em STEP: ponta com corte curvo (boca de lobo para encaixar em tubo redondo ou curva) agora aparece com o aviso certo, sem dizer que o tubo é dobrado.",
-    "Da versão 8.9.1: tubo desenhado na diagonal do modelo (ex.: FBH 2, FHS Q) passa a ser lido."
+    "Na primeira vez em cada computador: escolha a pasta de dados da rede (DXCORE-dados) e, quando pedir, \"Permitir em todas as visitas\" ou instale pelo botão \"Instalar o DXCORE neste computador\"."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1485768,
-  "sha256": "2ae4793173f1dfcf329c5c18305efe97d01dc8f39fb5e3e0cc6599d6012df5ed",
-  "assinatura": "NlkrZs8zdT3H0uO44iy91PcAGmifSiO/XhePfJ022YTwZBP90RnVy3cjJbaHOf2RuASnAar1eHbpJkmgVM2VEiNS4e+TPLyOg00qFTL7UveSQ/40T2fWOXesIPZGM0rCTfIBVLIiCUbLePFItsD41X2zLtOvVMH9sx8bbrLUA7H9rtNnUhqoXDydgg3/wZ1+n2cvBzjHM/oEp6HDmxS8g3vSJ1dgMJmd2NySaEMHTg501tROxh1Aq0+RKcVEnQTAgb6X7uSuzMIIz6Ps8nKnFEGLpVTTebT+hbe5UeH2MkP23hJK6hNEtsyt0xF2OMnsIQudA6OQZgCgwfJtxVsvAw==",
+  "tamanho": 1490148,
+  "sha256": "c600488152a7ca1dacd4ea4e76b98f2df515b0d978c3910762f445c484f719af",
+  "assinatura": "c9HKSs53QE2zsx3H4lIeg02fXbVHPWsKFFbnI7cfODn9i6Ob9JsbOD9AuKvWTY+hFG4Y/DJzT/+jO88EJOeLUYVoqrcDnzBUprGd03fB9WPx9BZNAZQOvTANPKC4abmrHqlPAvlHLIMeVJHybsysN/r84JtuOwc5ww75iDKsPRvSa0wsA6pxBdyezcEMiqBTTaMA8kJ5A1zVnZ3mdZCpU6OvavRWkXvbibykeTGZmLmWJvM4auydwvmRhBkYalsIncO0AlAlE3UWvhnPk2hZRSv44/3t9dFtdNq6tdvpVg1OmEfNXtd9hMZG7+DQuXn6hnEQlpataslppGIWXXTBnw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -29,5 +28,5 @@
       "sha256": "f11cfa8380d568cede6dabc3cb9847800ff5ebad872ee1fc4f1538bcc4cea905"
     }
   ],
-  "assinatura_extras": "JPosHJwg0VYkOlXORCR/tKWCu7ini7NrGEzikGnha++3j84vA9QrT8KprjHXjjeIMShuNIBvmw/2SU/zUyX/P++stbdF7RnXfgjnbhMkcJpPdyQboRkZv44vC7L3PEr9RI4fqcYMIAxsqNUUT3PpXxlGxG6HjGm2YjxDCIzCSXoM+VkdaFJOZjIetJfYBh2w1eigK868Qz43+rBvHKazusaKfdetgHNbjpQWiT77/DbW7hcErY9wSk/6h4lbFF5URcTIjVMXLvLf7yo6lE8igoWEyPEXL14vKdPUeNztrJM2MBB4lQgCFRfThninu8NK02i18LHNg+SBlkTvpjvbqA=="
+  "assinatura_extras": "Z5au0skj2mG5hppxEul41aolCX6jHOxIqO/dRSdBU7R8Iuqkh4/KeJotgjM4jr59jVZ+XNxv881IrtxvRlOh3ZBiujYGzqaPIkc1Sx7fw9utqpNif/TYPQfkcaq6KfWl+1eMw84gz3FLMp4bpZm4CkU8DoU8dWX6b76oaeeQYvnHJThmMCpZaeLssH20Qt+4DxxA0F5ZpzDzCP8/JCH04IVAPE863Zmf1bIdxSKs4AQwpML9MBlxOWZaomuk5BdGbYjMrGBKBCU8rqA8w6eSbwxoDFZLtnBe5dVFe7dBDcXqViBR1F0//2G8a8We3NpAtbnwf/5skloHCd/NwRYrRA=="
 }
