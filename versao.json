@@ -1,15 +1,15 @@
 {
-  "versao": "8.14",
+  "versao": "8.14.1",
   "data": "2026-10-05",
   "notas": [
+    "Correção: a proposta em PDF (e a OS gerada do orçamento) agora mostram \"Somente dobra\" ou \"Corte a laser (sem dobra)\" conforme o serviço escolhido.",
     "Orçamento: escolha do serviço cobrado: Corte e dobra, Só corte ou Só dobra (peças já cortadas pelo cliente).",
-    "Computador com o atalho antigo (de antes da 7.8) mostra um aviso para baixar e rodar o instalador uma vez. É isso que faz a pasta de dados ficar fixa, sem pedir autorização.",
-    "Pasta de dados definida como padrão no computador: o atalho abre o DXCORE por um servidor local e o navegador não pede mais autorização da pasta. Na primeira vez, escolha a DXCORE-dados da rede uma única vez."
+    "Computador com o atalho antigo (de antes da 7.8) mostra um aviso para baixar e rodar o instalador uma vez. É isso que faz a pasta de dados ficar fixa, sem pedir autorização."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1503816,
-  "sha256": "9ea05349785595944e599facd6a0f6009f7f5ecad1f13992b3bd24dab7f5b8d2",
-  "assinatura": "gmh6t3cKnOGnYCUZt38S+fN6qR0z28RBxzqAc89TIw3UHVoli3g0zucgagu3HdC9eOGPu3tYy5LWHiHAAtEqDJjTpvDIn+P8mxeD5EOHsm0RdHEN0XwnSh2qeY2oDGjO0LMr7dHRsA/T5kkFwMyj2TlmoMlWxnWCBGrf+5zovjG7uYTB7lrA42V9/GZeSOA/XSai5/BplV0Cesj68QV3U794Rtwu58nHpm5RiPA5BDfTSu96mpo/m6RQCmX8fIFaFcyU5TnQOXvAMtj5n5hR1r1LJu143vekLRMMe2IcBh9GQaqft+OY9HAzuq8j/NBsCbUyHrOsURDjdQzo7QEKCQ==",
+  "tamanho": 1504724,
+  "sha256": "1f16077fd13e80e5504b839655f5bd4c4242199d08d8e9d01f449890f274dbb4",
+  "assinatura": "KXc6C7TSchNAm6XOm3SkFFQxDv8/7IB/EpQ38mi/HQnbVdNce78cpmNRA4wdRcYM9Lw4dUNjQ/ClAUh1fHfgx54op0G1ya/pycG9j2fRnoEc6uKMIBlvYa817VoY5sYqpEcW6SWXWyL7f4nS9RU0LQ4bw4t2qqne/NYRGn+yYYgHmi9arCPv1cX/NEg8MogMIVzzrHdA+4+yjhbXKk6w2n4sB/0NyLGBC/G16Pysxiy1nNpzFL50rhbJB0r5lnNAoLfxLTW2HytZLs8hgk/+ym6cDngi5Krmnxoi7WuYj7oXg6w1rU1h+0+D0Tlz6/svAFYcZp8kMU2EvlzqvuwowQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -32,5 +32,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "jftlmXADYPc75JhILQoLja3Qwv04N8rf+M2DRpQ7Zx6jyEa0mNutBBdt9mT6Q+ClM85m2VLWodefz7OOJK7QpLpqN0HE2IcQEnuOcy3t0jdkp2rn//q6rePuZgIJJpBicFlr3yRDc6xkzvjpw28JxHVj7V9v+mi5g7Ow5jaX3caeFIdmbTDYpwINT3ujSt+b6dkbV8sBxnASzzLJXsvzPw9ct+JPLDc+BlBQ72SVxxOUt5MQnDk6JwRwfWm6ZIZXyi6NRP5PkkmcKc7Q9wFcbT8/KPEsEgvFm2rKohUsmbK30i2Dbg7loMDn7mwiCowu/ppnAYJGaHRSCpyofDEbeQ=="
+  "assinatura_extras": "O5GxhcwGFpiY1kCj03Q1d9nMFm3jpNrzWUckaL00nWuY/2zczsBc0xlVL5o69/VLdgyBhZqV5IxWAge26MQIlNSRUttCql0DDYr2nWGJEQMaOoqBVAzFnD+rJGTlYpu+YbW6uE/qD9YZgFfGkjiuPW4pVLsj1/+RCFPEZpz9HbzYXwaZ8PFzFu7l+u8VBgnIiqCekSDWH3zVAjcBTfOyWhI/0bGWtBcHkjCpHMswWH1aov74thlxVTBpb6W/aZg4q1/MZFSIIB1Lfm29CpURIFp4cKk90UqqqSpePOhnpYA9BJ0ipq+XM8QneDYE+oHGgkf1owvfmO1Ras6lI7pA/A=="
 }
