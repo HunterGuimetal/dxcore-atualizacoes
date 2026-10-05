@@ -1,0 +1,12 @@
+{
+  "titulo": "GUIMETAL",
+  "subtitulo": "Corte a laser · dobra · solda · acabamento",
+  "cidade": "Curitiba/PR",
+  "links": [
+    { "icone": "chat", "texto": "Peça seu orçamento no WhatsApp", "detalhe": "(41) 99868-1497", "url": "https://wa.me/5541998681497?text=Ol%C3%A1!%20Vim%20pelo%20Instagram%20e%20quero%20um%20or%C3%A7amento.", "destaque": true },
+    { "icone": "arquivo", "texto": "Envie seu desenho (DXF, DWG, PDF, STEP)", "detalhe": "projetos@guimetal.com.br", "url": "mailto:projetos@guimetal.com.br?subject=Desenho%20para%20or%C3%A7amento" },
+    { "icone": "site", "texto": "Conheça a GUIMETAL", "detalhe": "guimetal.com.br", "url": "https://guimetal.com.br" },
+    { "icone": "mapa", "texto": "Como chegar", "detalhe": "Rua Salvador Ferrante, 174 · Boqueirão", "url": "https://www.google.com/maps/search/?api=1&query=Rua%20Salvador%20Ferrante%2C%20174%2C%20Boqueir%C3%A3o%2C%20Curitiba%20PR" }
+  ],
+  "rodape": "Guimetal Metalúrgica Ltda · Rua Salvador Ferrante, 174 · Boqueirão · Curitiba/PR"
+}

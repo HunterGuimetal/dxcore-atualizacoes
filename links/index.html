@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GUIMETAL · Links</title>
+<meta name="description" content="GUIMETAL · Corte a laser, dobra, solda e acabamento em Curitiba/PR. Orçamento pelo WhatsApp.">
+<meta property="og:title" content="GUIMETAL · Corte a laser e dobra em Curitiba">
+<meta property="og:description" content="Peça seu orçamento pelo WhatsApp ou envie seu desenho.">
+<meta name="theme-color" content="#14110F">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231E1A18'/%3E%3Cpath d='M44 22a14 14 0 1 0 2 14H33' fill='none' stroke='%23FF6600' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #14110F; --bg2: #1E1A18; --card: #231E1B; --line: #3A322D; --ink: #F5F0EC; --muted: #B5A9A0; --orange: #FF6600; --orange2: #FF8533;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; }
+  body {
+    background: var(--bg); color: var(--ink);
+    font: 16px/1.4 "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(255,102,0,.22), transparent 60%),
+      repeating-linear-gradient(135deg, rgba(255,255,255,.018) 0 2px, transparent 2px 14px);
+    display: flex; justify-content: center;
+    padding: max(28px, env(safe-area-inset-top)) 16px max(28px, env(safe-area-inset-bottom));
+  }
+  main { width: 100%; max-width: 460px; }
+  header { text-align: center; margin: 18px 0 26px; }
+  .marca {
+    width: 86px; height: 86px; margin: 0 auto 16px; border-radius: 22px; background: var(--bg2);
+    border: 1px solid var(--line); display: grid; place-items: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,.45), inset 0 0 0 1px rgba(255,102,0,.15);
+  }
+  .marca svg { width: 52px; height: 52px; }
+  h1 { margin: 0; font-size: 30px; letter-spacing: .06em; font-weight: 800; }
+  h1 .m { color: var(--orange); }
+  .sub { margin: 6px 0 2px; color: var(--muted); font-size: 14px; letter-spacing: .02em; }
+  .cid { display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; padding: 4px 12px; border: 1px solid var(--line); border-radius: 20px; font-size: 12.5px; color: var(--muted); }
+  .cid i { width: 7px; height: 7px; border-radius: 50%; background: var(--orange); display: inline-block; }
+  nav { display: grid; gap: 12px; }
+  a.lk {
+    display: flex; align-items: center; gap: 14px; padding: 14px 16px; min-height: 64px;
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    color: var(--ink); text-decoration: none; transition: transform .15s ease, border-color .15s ease, background .15s ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+  a.lk:hover, a.lk:focus-visible { border-color: var(--orange); transform: translateY(-1px); outline: none; }
+  a.lk:active { transform: scale(.985); }
+  a.lk.top { background: linear-gradient(135deg, #FF6600, #E24E00); border-color: transparent; box-shadow: 0 10px 26px rgba(255,102,0,.3); }
+  a.lk.top .ic { background: rgba(255,255,255,.18); color: #fff; }
+  a.lk.top small { color: rgba(255,255,255,.85); }
+  .ic { flex: none; width: 40px; height: 40px; border-radius: 12px; background: rgba(255,102,0,.12); color: var(--orange2); display: grid; place-items: center; }
+  .ic svg { width: 22px; height: 22px; }
+  .tx { flex: 1; min-width: 0; }
+  .tx b { display: block; font-size: 15.5px; font-weight: 650; }
+  .tx small { display: block; color: var(--muted); font-size: 12.5px; margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .seta { flex: none; opacity: .55; }
+  footer { margin-top: 30px; text-align: center; color: var(--muted); font-size: 12px; line-height: 1.6; }
+  footer b { color: var(--ink); font-weight: 500; }
+  @media (prefers-reduced-motion: reduce) { a.lk { transition: none; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="marca" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M46 21a16 16 0 1 0 2.4 15H33" fill="none" stroke="#FF6600" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <h1 id="t">GUI<span class="m">METAL</span></h1>
+    <p class="sub" id="s">Corte a laser · dobra · solda · acabamento</p>
+    <span class="cid"><i></i><span id="c">Curitiba/PR</span></span>
+  </header>
+  <nav id="L" aria-label="Links da GUIMETAL"></nav>
+  <footer id="f"></footer>
+</main>
+<script>
+// Os links ficam no arquivo links.json (mesma pasta). Para mudar, edite só ele.
+const ICONES = {
+  chat: '<path d="M4 5h16v10H9l-5 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8 9h8M8 12h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+  arquivo: '<path d="M7 3h7l5 5v13H7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M14 3v5h5M10 14l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
+  site: '<circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18" fill="none" stroke="currentColor" stroke-width="2"/>',
+  mapa: '<path d="M12 21s7-6.2 7-11.5a7 7 0 1 0-14 0C5 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/>',
+  email: '<rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
+  catalogo: '<path d="M4 5h7v14H4zM13 5h7v14h-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
+  video: '<rect x="3" y="6" width="13" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 10l5-3v10l-5-3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
+  link: '<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+};
+const PADRAO = {"titulo":"GUIMETAL","subtitulo":"Corte a laser · dobra · solda · acabamento","cidade":"Curitiba/PR","links":[{"icone":"chat","texto":"Peça seu orçamento no WhatsApp","detalhe":"(41) 99868-1497","url":"https://wa.me/5541998681497?text=Ol%C3%A1!%20Vim%20pelo%20Instagram%20e%20quero%20um%20or%C3%A7amento.","destaque":true},{"icone":"site","texto":"Conheça a GUIMETAL","detalhe":"guimetal.com.br","url":"https://guimetal.com.br"}],"rodape":"Guimetal Metalúrgica Ltda · Curitiba/PR"};
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const seguro = u => /^(https?:|mailto:|tel:)/i.test(String(u || '').trim());
+function mostrar(d) {
+  const t = String(d.titulo || 'GUIMETAL');
+  document.getElementById('t').innerHTML = /^GUIMETAL$/i.test(t) ? 'GUI<span class="m">METAL</span>' : esc(t);
+  document.getElementById('s').textContent = d.subtitulo || '';
+  document.getElementById('c').textContent = d.cidade || '';
+  document.getElementById('L').innerHTML = (d.links || []).filter(l => l && l.texto && seguro(l.url)).map(l => {
+    const ext = /^https?:/i.test(l.url);
+    return '<a class="lk' + (l.destaque ? ' top' : '') + '" href="' + esc(l.url) + '"' + (ext ? ' target="_blank" rel="noopener"' : '') + '>' +
+      '<span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true">' + (ICONES[l.icone] || ICONES.link) + '</svg></span>' +
+      '<span class="tx"><b>' + esc(l.texto) + '</b>' + (l.detalhe ? '<small>' + esc(l.detalhe) + '</small>' : '') + '</span>' +
+      '<svg class="seta" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>';
+  }).join('');
+  document.getElementById('f').innerHTML = '<b>' + esc(d.rodape || '') + '</b><br>© ' + new Date().getFullYear() + ' GUIMETAL';
+}
+mostrar(PADRAO);
+fetch('links.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(d => { if (d) mostrar(d); }).catch(() => {});
+</script>
+</body>
+</html>
