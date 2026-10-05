@@ -1,16 +1,17 @@
 {
-  "versao": "8.9.1",
+  "versao": "8.9.2",
   "data": "2026-10-05",
   "notas": [
-    "Correção: tubo em STEP desenhado na diagonal (inclinado no modelo) não era reconhecido. Agora lê normal (ex.: FBH 2, tubo 25 × 25 × 1,2 com cortes a 45°).",
+    "Tubo em STEP: ponta com corte curvo (boca de lobo para encaixar em tubo redondo ou curva) agora aparece com o aviso certo, sem dizer que o tubo é dobrado.",
+    "Da versão 8.9.1: tubo desenhado na diagonal do modelo (ex.: FBH 2, FHS Q) passa a ser lido.",
     "Gerador de peças: recorte por pontos. Clique os pontos e feche no primeiro: dentro da peça vira janela, na borda tira o pedaço. Depois dá para ampliar e mudar de lugar.",
     "Orçamento: a sobra pequena em volta das peças agora é cobrada. Só o retalho que vale guardar (300 mm de lado ou mais, ajustável) fica fora do preço.",
     "Limpar: lê DXF binário, e o DXF que não abre pelo leitor normal é tentado pelo leitor de DWG."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1478375,
-  "sha256": "00ab99cd8c3b0740ff9229cacddad79ddc003b9e3b6a5da2cfc11c523905f16c",
-  "assinatura": "M6dsH6Lvrg/CIcZK+ukvFQqENhi4JRBBa/cLNR84yAwOPEhhMj5Zbo7MwjZAtXcFicQi0V/mFSA2NoeRvJv8bX6M5mrMnbkyHIIwCCHkBpUFeS3wnnI6nWi8QsyJ9PgWNkr1RDK2y6hUnXcQa+fk3bbmtSVj22l1cFAf9uy2CpWNxnEFapxphPGfQ3UhpCaW84CDQR0eYk+NOgwIX/f5/TT+RHbP0TWUKO6aRgSUHFbv80H65ZeBLGsRNsQ0fK844IV/2r67urgZXOUjNPpiQvm0qR48F3yTwbQPZrC8v6nSW9SHF7YfzO9O8SraYBl+Pgm3YHIs7f9+kzdo1Vx+AA==",
+  "tamanho": 1479203,
+  "sha256": "7de5c01041f43b65927b3816d4a25b99b3c18477cb9d90ca73db0e7e1ec135d7",
+  "assinatura": "cTGhNhJ2PLbHkK3HylpJ8NIm1wshiyBda1Lc/lH+haHO6EduSaP5Z1AVpa/PENdcXke5mXXqhmCBIFbj8PYnQjIXwgq0BiwUa12ZkJCXuBblN/JDJUoyydBN/g1mApOQXekjIrWGEyD3hdpYRwOyrd4Mth5J2LUL2c2SHr7LBdWDJA8q6qH+90lksZ6EV3qFsfA6GbpTEehRKbuF5FYVWrNBzcwM8DfZuLWdNRY5mL33vRB23NkA7y1MICahiPZLhT8ruzGlbed45w9YdosP9kNJN39phJeHI8v9koe6YDfEna3+8xz+OQ1b6j6qlnJH2W6cjhav2SrdWqPOqfelNA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -29,5 +30,5 @@
       "sha256": "f11cfa8380d568cede6dabc3cb9847800ff5ebad872ee1fc4f1538bcc4cea905"
     }
   ],
-  "assinatura_extras": "ZQzc9+Tg9ssd7q5vv/nQchp266fv+HQGrjcjxBTurF6AYNUOdmA6Wqxk2ytQOfRTqZPkfU/3vVUljdjyRvlkFcc9tc77JRMGdoJD+IGKdD50mfk2G2GtQYDbK0joEut+KN7D+SOPaLk6ztCkvzlCXADhBg5YtnRN5RwdqP+6sbPCoQ272ApDWyPrYD4ngqi3oFGnZs8LNqSX7cARNGMzP2IrbQ4sNSzS+eygjMKM7U1pH/b+S9LDWDnKbNkdHfvOFCCCVZVird620l6QKkhxkmnHD0N4aVTUdgg3BlI4YtwLrAIuqzNorwLd0V9Go1lsecN2spMyalRkN8e/VsevrA=="
+  "assinatura_extras": "Qqs1xeMyOV8w+UGRCiJurHCVj6xNGt39BsaY3cpt6VQ5nsmkGJb2igy1KauOIrSE21zbEdYd4qwGLlsBJB1V5RAng/3hUp2jIf6VlInfkDyvCHWIc+dlb5GbKvKZ7RueUAzNuIZpHdc8aHJW87kGXI78r1UsryvENTyqeo3xTPtIhkHxO6xJ6k3LLttQBPZ6BUfUcFyvVg76KPaUsau7nH+6rb/4FTaUSCSSdfmtLy1w6+MtKzUMcctjco9+yKJ4Z+ARo6zAiMY8ePcoArsdtpO4A/7thvktB015WCO5mTNuxRfgfX3s6vrepzJBJObLZpDPvbV5lk+vsqS/+YCh5w=="
 }
