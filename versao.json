@@ -1,15 +1,15 @@
 {
-  "versao": "8.15",
+  "versao": "8.16",
   "data": "2026-10-05",
   "notas": [
-    "Limpar / Converter lê IGES (.igs/.iges) de tubo, igual ao STEP: perfil, parede, comprimento, furos, pontas e o corte para o orçamento.",
-    "Correção: a proposta em PDF (e a OS gerada do orçamento) agora mostram \"Somente dobra\" ou \"Corte a laser (sem dobra)\" conforme o serviço escolhido.",
-    "Orçamento: escolha do serviço cobrado: Corte e dobra, Só corte ou Só dobra (peças já cortadas pelo cliente)."
+    "Proposta em PDF com o botão \"Aprovar pelo WhatsApp\" e um QR Code: o cliente toca (ou aponta a câmera) e o WhatsApp da GUIMETAL abre com a mensagem de aprovação pronta, com o número do orçamento e o valor.",
+    "Calculadora e Proposta em PDF: novo botão \"Aprovação do WhatsApp\". Cole a mensagem do cliente e o DXCORE acha o orçamento, confere o valor e aprova; com um clique já gera a OS.",
+    "O orçamento aprovado mostra por onde e quando foi aprovado, e guarda a mensagem do cliente."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1532188,
-  "sha256": "e69ea6ad2ef6ff55d0883537d273955e8fa6cbd82d2b28a614e9f4b4ca978210",
-  "assinatura": "AJlOoNo/lcUOzNYaD2oAqfPCEF6gPlm77r2P/jPzlLhdrozb0RE/yg0icWN9fCQM7eNJwXuTO1Qcg7mEIo1FrVaQGwAj/owvIC9UnD3fUHzVjndaWteV1lZRoTWs8XdQDO/LOINuPI9yvkj0JHCI0xWJUsKZP27NRPHLvsP/peAI1IqMi4THYELu5alZEcIM3m1bcxLX8O/ysGjz8O8YD16eyjJncxXt2b2MN1aVm8iAoxn7gL3/elAxdRi7UezP5qVhU048d+NK0FROqstbeqwHCd6XcsxtU0h0WSPqLxd4juJZ0P0QsK0D9YVSoBgRPh9BXI41lG/B43SqF9vI/w==",
+  "tamanho": 1550372,
+  "sha256": "82ae3a42b5b3c4336d7840d8ed103ae08a7969ee4f266c9aea44c41915a22d2e",
+  "assinatura": "XZkuXKr6oYwVK5TFdI5XuMD8RVhjYrGNATOO30BvkgXTCye5an8t11PL/XhD+tOoBuJycW27nqmuy/PvLXtFko5J5L3mCnXqF2OlnYNLCRNFyYVwUdRdHpHeXymG001ioJ1QCkU4wLgz5K+hYdWEetzRQAHIADkeMwWDCjjXvO1NcIKpALCtP8H2EMBa+2J1BOrF4oWfcpNgywAKAan0CS94EkkWfHTGDJM8Wk2kRh8WOTyI58zj1cNBIalKeX/Q2L3ngopP4+kbrhIprwq0ad7Fl2aEhCfTzvvrnGrzIHkGZWDd/k7p8rinVVGb1BLslLbpsc8OmfnPIwWOPA5BIw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -32,5 +32,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "fxLfRyJ3rpsMtHkZ+8yFsgR7sAfEWzbh+ppnI2RozgZUpIpsW/kkhYRg6eiadH9GJGXkJJAW4hF93wja5k11s80NBnoIrQUNg0Ia5sWfVz3CApqXsDpmeaD28sGifqa7PLgxN+VdmgDDLAxrczS9Wz/4aNScf3AieiSI5t1Pclo94DN+DefStDLG5NQZzziFspT6Ktje96QWPnPmTeqIg/vZ5u9SQZJwiSZBs5lgqrUzeIXtEnwmOyjV8kdJoG6HhLGcfMpZFqHxxapfWGW6euCyEaBAu5qBydO4+rqEshbM15Zho8VDYvR3thJPXg+an2TDRBJJ0tLQVjN7g+9uFQ=="
+  "assinatura_extras": "HtrmCnGM1D6ogZqN+RbSdkHVfG5oqEHMUlh7ABbraJOwQ4lDyRfw34nM7nFrJz9n+ly23fvi8atA6Wv68TQoAUd+gbmOVoekM5A/mCtO2ZAz1DpR3vR5ZppLNY+KZvqtnaitW/eZZMMSCJKS3kn/quEICjVUnH+LPkFM6OUxV66YtbcS1ymWMsCAwcKs/XDTXLF9KvyY6Z3PwDMcVTI62MdBB12PGm/U4uw9vUbHgkIcOepzTcT6ghUH06ns3T7v6pQV70dxrB0KRT+d0+R7V+2xvfagcrpvWFmYuCROScWxELua1d5nvHF6/ij2LC+bztoaLDGOQjJwfdpn7K8H1Q=="
 }
