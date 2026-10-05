@@ -43,10 +43,28 @@ function Atalho {
     }
   } catch { Log ('atalho: ' + $_.Exception.Message) }
 }
+# v8.10: abre pelo endereço da internet (GitHub Pages). Assim o Edge/Chrome guarda a autorização da pasta de dados
+# e o DXCORE pode ser instalado como aplicativo. Sem internet (ou se o endereço não responder), abre a cópia do computador.
+function Web {
+  try {
+    $c = Get-Content (Join-Path $dir 'atualizacao.json') -Raw | ConvertFrom-Json
+    if ($c.web) { return $c.web }
+    if ($c.repo -and -not $c.token) { $p = $c.repo.Split('/'); return ('https://' + $p[0].ToLower() + '.github.io/' + $p[1] + '/DXCORE.html') }
+  } catch {}
+  return $null
+}
 function Abrir {
   $uri = ([Uri]$html).AbsoluteUri
+  $w = Web
+  if ($w) {
+    try {
+      $rq = [Net.HttpWebRequest]::Create($w); $rq.Method = 'HEAD'; $rq.Timeout = 4000; $rq.UserAgent = 'DXCORE-lancador'
+      $rs = $rq.GetResponse(); $okw = ([int]$rs.StatusCode -eq 200); $rs.Close()
+      if ($okw) { $uri = $w; Log ('abrindo pela internet: ' + $w) }
+    } catch { Log ('endereço da internet não respondeu, abrindo a cópia do computador: ' + $_.Exception.Message) }
+  }
   $n = Navegador
-  if ($n) { Start-Process $n "--app=`"$uri`"" } else { Start-Process $html }
+  if ($n) { Start-Process $n "--app=`"$uri`"" } elseif ($uri -ne ([Uri]$html).AbsoluteUri) { Start-Process $uri } else { Start-Process $html }
 }
 
 try {

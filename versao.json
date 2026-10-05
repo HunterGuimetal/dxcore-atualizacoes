@@ -1,21 +1,20 @@
 {
-  "versao": "8.9.2",
+  "versao": "8.10",
   "data": "2026-10-05",
   "notas": [
+    "O DXCORE passa a abrir pelo endereço da internet (sem internet, abre a cópia do computador). Assim dá para instalar como aplicativo e o navegador para de pedir a autorização da pasta toda vez.",
+    "Na primeira vez em cada computador: escolha a pasta de dados da rede (DXCORE-dados) e, quando pedir, \"Permitir em todas as visitas\" ou instale pelo botão \"Instalar o DXCORE neste computador\".",
     "Tubo em STEP: ponta com corte curvo (boca de lobo para encaixar em tubo redondo ou curva) agora aparece com o aviso certo, sem dizer que o tubo é dobrado.",
-    "Da versão 8.9.1: tubo desenhado na diagonal do modelo (ex.: FBH 2, FHS Q) passa a ser lido.",
-    "Gerador de peças: recorte por pontos. Clique os pontos e feche no primeiro: dentro da peça vira janela, na borda tira o pedaço. Depois dá para ampliar e mudar de lugar.",
-    "Orçamento: a sobra pequena em volta das peças agora é cobrada. Só o retalho que vale guardar (300 mm de lado ou mais, ajustável) fica fora do preço.",
-    "Limpar: lê DXF binário, e o DXF que não abre pelo leitor normal é tentado pelo leitor de DWG."
+    "Da versão 8.9.1: tubo desenhado na diagonal do modelo (ex.: FBH 2, FHS Q) passa a ser lido."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1479203,
-  "sha256": "7de5c01041f43b65927b3816d4a25b99b3c18477cb9d90ca73db0e7e1ec135d7",
-  "assinatura": "cTGhNhJ2PLbHkK3HylpJ8NIm1wshiyBda1Lc/lH+haHO6EduSaP5Z1AVpa/PENdcXke5mXXqhmCBIFbj8PYnQjIXwgq0BiwUa12ZkJCXuBblN/JDJUoyydBN/g1mApOQXekjIrWGEyD3hdpYRwOyrd4Mth5J2LUL2c2SHr7LBdWDJA8q6qH+90lksZ6EV3qFsfA6GbpTEehRKbuF5FYVWrNBzcwM8DfZuLWdNRY5mL33vRB23NkA7y1MICahiPZLhT8ruzGlbed45w9YdosP9kNJN39phJeHI8v9koe6YDfEna3+8xz+OQ1b6j6qlnJH2W6cjhav2SrdWqPOqfelNA==",
+  "tamanho": 1485768,
+  "sha256": "2ae4793173f1dfcf329c5c18305efe97d01dc8f39fb5e3e0cc6599d6012df5ed",
+  "assinatura": "NlkrZs8zdT3H0uO44iy91PcAGmifSiO/XhePfJ022YTwZBP90RnVy3cjJbaHOf2RuASnAar1eHbpJkmgVM2VEiNS4e+TPLyOg00qFTL7UveSQ/40T2fWOXesIPZGM0rCTfIBVLIiCUbLePFItsD41X2zLtOvVMH9sx8bbrLUA7H9rtNnUhqoXDydgg3/wZ1+n2cvBzjHM/oEp6HDmxS8g3vSJ1dgMJmd2NySaEMHTg501tROxh1Aq0+RKcVEnQTAgb6X7uSuzMIIz6Ps8nKnFEGLpVTTebT+hbe5UeH2MkP23hJK6hNEtsyt0xF2OMnsIQudA6OQZgCgwfJtxVsvAw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
-      "sha256": "00ea423a52ec762b9036a6aa1635d688caf0c850d6a82fe746baba5c9816c089"
+      "sha256": "4e3cefbc50c747bc9ccc9b711d453237dfc5471b9a554fd1fdbb808682868c3b"
     },
     {
       "arquivo": "abrir.vbs",
@@ -30,5 +29,5 @@
       "sha256": "f11cfa8380d568cede6dabc3cb9847800ff5ebad872ee1fc4f1538bcc4cea905"
     }
   ],
-  "assinatura_extras": "Qqs1xeMyOV8w+UGRCiJurHCVj6xNGt39BsaY3cpt6VQ5nsmkGJb2igy1KauOIrSE21zbEdYd4qwGLlsBJB1V5RAng/3hUp2jIf6VlInfkDyvCHWIc+dlb5GbKvKZ7RueUAzNuIZpHdc8aHJW87kGXI78r1UsryvENTyqeo3xTPtIhkHxO6xJ6k3LLttQBPZ6BUfUcFyvVg76KPaUsau7nH+6rb/4FTaUSCSSdfmtLy1w6+MtKzUMcctjco9+yKJ4Z+ARo6zAiMY8ePcoArsdtpO4A/7thvktB015WCO5mTNuxRfgfX3s6vrepzJBJObLZpDPvbV5lk+vsqS/+YCh5w=="
+  "assinatura_extras": "JPosHJwg0VYkOlXORCR/tKWCu7ini7NrGEzikGnha++3j84vA9QrT8KprjHXjjeIMShuNIBvmw/2SU/zUyX/P++stbdF7RnXfgjnbhMkcJpPdyQboRkZv44vC7L3PEr9RI4fqcYMIAxsqNUUT3PpXxlGxG6HjGm2YjxDCIzCSXoM+VkdaFJOZjIetJfYBh2w1eigK868Qz43+rBvHKazusaKfdetgHNbjpQWiT77/DbW7hcErY9wSk/6h4lbFF5URcTIjVMXLvLf7yo6lE8igoWEyPEXL14vKdPUeNztrJM2MBB4lQgCFRfThninu8NK02i18LHNg+SBlkTvpjvbqA=="
 }
