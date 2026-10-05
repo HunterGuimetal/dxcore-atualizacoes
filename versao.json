@@ -1,15 +1,15 @@
 {
-  "versao": "8.14.1",
+  "versao": "8.15",
   "data": "2026-10-05",
   "notas": [
+    "Limpar / Converter lê IGES (.igs/.iges) de tubo, igual ao STEP: perfil, parede, comprimento, furos, pontas e o corte para o orçamento.",
     "Correção: a proposta em PDF (e a OS gerada do orçamento) agora mostram \"Somente dobra\" ou \"Corte a laser (sem dobra)\" conforme o serviço escolhido.",
-    "Orçamento: escolha do serviço cobrado: Corte e dobra, Só corte ou Só dobra (peças já cortadas pelo cliente).",
-    "Computador com o atalho antigo (de antes da 7.8) mostra um aviso para baixar e rodar o instalador uma vez. É isso que faz a pasta de dados ficar fixa, sem pedir autorização."
+    "Orçamento: escolha do serviço cobrado: Corte e dobra, Só corte ou Só dobra (peças já cortadas pelo cliente)."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1504724,
-  "sha256": "1f16077fd13e80e5504b839655f5bd4c4242199d08d8e9d01f449890f274dbb4",
-  "assinatura": "KXc6C7TSchNAm6XOm3SkFFQxDv8/7IB/EpQ38mi/HQnbVdNce78cpmNRA4wdRcYM9Lw4dUNjQ/ClAUh1fHfgx54op0G1ya/pycG9j2fRnoEc6uKMIBlvYa817VoY5sYqpEcW6SWXWyL7f4nS9RU0LQ4bw4t2qqne/NYRGn+yYYgHmi9arCPv1cX/NEg8MogMIVzzrHdA+4+yjhbXKk6w2n4sB/0NyLGBC/G16Pysxiy1nNpzFL50rhbJB0r5lnNAoLfxLTW2HytZLs8hgk/+ym6cDngi5Krmnxoi7WuYj7oXg6w1rU1h+0+D0Tlz6/svAFYcZp8kMU2EvlzqvuwowQ==",
+  "tamanho": 1532188,
+  "sha256": "e69ea6ad2ef6ff55d0883537d273955e8fa6cbd82d2b28a614e9f4b4ca978210",
+  "assinatura": "AJlOoNo/lcUOzNYaD2oAqfPCEF6gPlm77r2P/jPzlLhdrozb0RE/yg0icWN9fCQM7eNJwXuTO1Qcg7mEIo1FrVaQGwAj/owvIC9UnD3fUHzVjndaWteV1lZRoTWs8XdQDO/LOINuPI9yvkj0JHCI0xWJUsKZP27NRPHLvsP/peAI1IqMi4THYELu5alZEcIM3m1bcxLX8O/ysGjz8O8YD16eyjJncxXt2b2MN1aVm8iAoxn7gL3/elAxdRi7UezP5qVhU048d+NK0FROqstbeqwHCd6XcsxtU0h0WSPqLxd4juJZ0P0QsK0D9YVSoBgRPh9BXI41lG/B43SqF9vI/w==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -32,5 +32,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "O5GxhcwGFpiY1kCj03Q1d9nMFm3jpNrzWUckaL00nWuY/2zczsBc0xlVL5o69/VLdgyBhZqV5IxWAge26MQIlNSRUttCql0DDYr2nWGJEQMaOoqBVAzFnD+rJGTlYpu+YbW6uE/qD9YZgFfGkjiuPW4pVLsj1/+RCFPEZpz9HbzYXwaZ8PFzFu7l+u8VBgnIiqCekSDWH3zVAjcBTfOyWhI/0bGWtBcHkjCpHMswWH1aov74thlxVTBpb6W/aZg4q1/MZFSIIB1Lfm29CpURIFp4cKk90UqqqSpePOhnpYA9BJ0ipq+XM8QneDYE+oHGgkf1owvfmO1Ras6lI7pA/A=="
+  "assinatura_extras": "fxLfRyJ3rpsMtHkZ+8yFsgR7sAfEWzbh+ppnI2RozgZUpIpsW/kkhYRg6eiadH9GJGXkJJAW4hF93wja5k11s80NBnoIrQUNg0Ia5sWfVz3CApqXsDpmeaD28sGifqa7PLgxN+VdmgDDLAxrczS9Wz/4aNScf3AieiSI5t1Pclo94DN+DefStDLG5NQZzziFspT6Ktje96QWPnPmTeqIg/vZ5u9SQZJwiSZBs5lgqrUzeIXtEnwmOyjV8kdJoG6HhLGcfMpZFqHxxapfWGW6euCyEaBAu5qBydO4+rqEshbM15Zho8VDYvR3thJPXg+an2TDRBJJ0tLQVjN7g+9uFQ=="
 }
