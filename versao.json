@@ -1,16 +1,16 @@
 {
-  "versao": "8.8",
-  "data": "2026-10-02",
+  "versao": "8.9",
+  "data": "2026-10-05",
   "notas": [
-    "Gerador de peças: novo modelo \"Caixa (cantos abertos)\", com as 4 dobras e a caixa dobrada no 3D.",
-    "Gerador de peças: \"Corte manual\". Risque com o mouse onde a peça deve ser cortada; fica o lado maior, com opção de ficar com o outro lado ou desfazer.",
-    "Encaixe automático em fileiras alternadas (normal e girada 180°), com linha comum onde as faces se encostam.",
-    "Orçamento: chapa com mais de 80% de aproveitamento é cobrada inteira."
+    "Gerador de peças: recorte por pontos. Clique os pontos e feche no primeiro: dentro da peça vira janela, na borda tira o pedaço. Depois dá para ampliar e mudar de lugar.",
+    "Orçamento: a sobra pequena em volta das peças agora é cobrada. Só o retalho que vale guardar (300 mm de lado ou mais, ajustável) fica fora do preço.",
+    "Limpar: lê DXF binário, e o DXF que não abre pelo leitor normal é tentado pelo leitor de DWG.",
+    "Da versão 8.8: caixa com cantos abertos, encaixe em fileiras com linha comum e chapa acima de 80% cobrada inteira."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1461967,
-  "sha256": "f39c0a65d2022cb48b9fe27a87ee51c1f8726fce923c13c7382eafd51ec97d29",
-  "assinatura": "GM5aNPQeUkImARIjt35K710jdb+kAdgggCqA6H985iCUh2xl3h/R8k67P4Ur0csIKQyQx10bIaHfeCNLm5OIZkCC8J1+JiAyCs9RScog90L5XrJJrTA9vtQhTKevfFaKDfiWpjGq+VGukm0uvcmNwyU3vDORKZCqieKNh5vtw0ZzU4+yYHW5TTXcyo2aASE99TKkdJZ7EdODk/+0rqAEmYM+TQAr56lvxov9gjnktf9tgR4ifG21UizEZKbye5zcknDfQN45qbvNoRJA4R0ov09qMPBj6TqB06PEgR7UUtr8ELZJ6vtMC4LwG9TBMn/83EHphTEyUmRbSYhUwIUF/w==",
+  "tamanho": 1477635,
+  "sha256": "e65029479e95d7f730c158b55ae790a3a0470da702c25c352ea00026ba552637",
+  "assinatura": "JvqT2ToeiPvv4QHvRSwO02baisPkBzXVukowtk2Z1c2/MYnpFYKZvY52MI0cD97rx3WpHNp0Wl5l5d1i3HbuU+KKJ9Bmkbf2QqSU12wQBGsS2mcvvhTyZS3OeQgGbseCgA+ltJkGTK29R78+Gpntf81wibmgC4BO/h2I3h9AgVmbs+vO12ifTX7zDljBxenStOGD1h1/08fx+FY+KHXp/P9tDf/3fYIbHj4EdFL4K6YcKXx555vhz2NVAhXkuNJJw+yja/6Rd4S9GwkS3jkcol9yMn1iJhtaApNWf1PWc+rCml3jc6GFWMB3d+l2qp2AVu7fLh+sBFaG8jFQvkcxrg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -29,5 +29,5 @@
       "sha256": "f11cfa8380d568cede6dabc3cb9847800ff5ebad872ee1fc4f1538bcc4cea905"
     }
   ],
-  "assinatura_extras": "G6MbMxBmFoVMw0MscJkvN+AvPJtPrUrZyhsf0FtXwMAkqQ1IJSBsJSOScbbrHiCgYs6JuBG2OQjBBKlLQn57Q4IvITUVeTZwlCFFBXqpNmUT6/0rZWc/EuyKMSnxg4+rtzecmDjzZj9q+WpEacHfVKoqHM1QWmyV8amkpOSxYKk7oyxgh7PD9ZFEUGnz8TnRO18YbQu/yAlP9WG7/753bQhA7F89GaShCQff5tHZ/1lPVgPdhoNF4rOLXVbgbfIYER9HPQWZDoCumxto5RRlN5kJMSwLTQbtcWGXA5mrU7z6xUXZ/UY99hpG4PjKUFAgsclvLkkKz7weDN9KAzuRsw=="
+  "assinatura_extras": "Me3E8B4LCIHwjCvEpZSWYEFCS9vehlY9W6XJf2QtNxCqQo5UgeDMF2jJfzXTReU0APU3hT/cUtOjNJsBoiHxWi7DB5NOlLCrjcseSwnQI7OvAKDG9f7G0Tg/1nMJ0X6Ia5uM/f2XHbW2lTaIgGwhW8WlfnNVNYLotGoQD5A0X+Mim+apd9rz1rv2CHoshwfMFkFL9H8ydGc8YSoQwsjFgId9Jzp8S1eAZpHgTqTg7niGbXbz5j0FWTcITN0yN20Z26CtmHhJPTSV+ZunMQlgv2XyguFdq5KYEoSNGggaQWVS0CmBjY9fJQb/pEAg7ioQmlYnM/eNsYcQQ4VVAQeSiA=="
 }

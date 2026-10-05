@@ -1,11 +1,11 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.8** (2026-10-02)
+Versão atual: **8.9** (2026-10-05)
 
-- Gerador de peças: novo modelo "Caixa (cantos abertos)", com as 4 dobras e a caixa dobrada no 3D.
-- Gerador de peças: "Corte manual". Risque com o mouse onde a peça deve ser cortada; fica o lado maior, com opção de ficar com o outro lado ou desfazer.
-- Encaixe automático em fileiras alternadas (normal e girada 180°), com linha comum onde as faces se encostam.
-- Orçamento: chapa com mais de 80% de aproveitamento é cobrada inteira.
+- Gerador de peças: recorte por pontos. Clique os pontos e feche no primeiro: dentro da peça vira janela, na borda tira o pedaço. Depois dá para ampliar e mudar de lugar.
+- Orçamento: a sobra pequena em volta das peças agora é cobrada. Só o retalho que vale guardar (300 mm de lado ou mais, ajustável) fica fora do preço.
+- Limpar: lê DXF binário, e o DXF que não abre pelo leitor normal é tentado pelo leitor de DWG.
+- Da versão 8.8: caixa com cantos abertos, encaixe em fileiras com linha comum e chapa acima de 80% cobrada inteira.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
