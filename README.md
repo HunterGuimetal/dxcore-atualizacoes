@@ -1,10 +1,10 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.23** (2026-10-06)
+Versão atual: **8.24** (2026-10-06)
 
-- Projetar 3D: agora o furo muda de lugar com o mouse (ou o dedo, no celular). É só pegar o furo e arrastar.
-- O furo anda de 1 em 1 mm, encaixa no meio da chapa e se alinha com os outros furos (linha azul). Shift: 0,1 mm; Alt: livre. Setas do teclado: 1 mm (Shift: 10 mm).
-- Arrastando, o furo para sozinho no limite: sobra mínima igual à espessura da chapa até a borda e até os outros furos. Ctrl+Z desfaz o movimento.
+- Novo: Gerador/Editor de peças (aba Produção), no 3D. Tem todos os modelos do gerador (chapa com furos, flange, oblonga, rasgos, mão francesa, caixa e peça dobrada L/U/Z/chapéu/livre), com as mesmas contas e o mesmo DXF.
+- Editor de linhas: Aparar entre dois pontos (ou o trecho até os cruzamentos), Linha com ímã nas pontas, meios e cruzamentos, e Apagar. Recorte desenhado com o mouse (janela ou pegando a borda, com arco exato), Furo, Dobra, Girar e Espelhar.
+- Importar peça (DXF, DWG, PDF, STEP, Parasolid), vista dobrada, e descrição, código, material, espessura e quantidade no carimbo do DXF. O Gerador de peças clássico continua na tela enquanto o novo é conferido.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
