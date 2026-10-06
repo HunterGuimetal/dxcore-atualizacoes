@@ -1,10 +1,10 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.21** (2026-10-06)
+Versão atual: **8.22** (2026-10-06)
 
-- Orçamento: serviço de solda. Nova opção "Só solda (peças do cliente)" e a seção Solda em todo orçamento (dá para somar solda ao corte e dobra).
-- Cada linha de solda: o que soldar, processo (MIG, TIG ou ponteado), metros de cordão e/ou pontos por conjunto, quantidade e acabamento. Cobrada pela hora do soldador; se já souber o tempo, digite as horas.
-- A solda aparece na proposta em PDF, na impressão, na OS (processo Solda) e na planilha de análise. A gerência ajusta os valores em Parâmetros e preços › Solda.
+- Novo (beta): Projetar 3D, na aba Produção. Começo do CAD 3D da GUIMETAL: a chapa aparece em 3D, desenhada pela placa de vídeo.
+- Clique numa face e puxe a seta laranja (ou digite a medida) para mudar comprimento, largura, espessura, raio do canto e diâmetro do furo. Ctrl+Z e Ctrl+Y desfazem e refazem.
+- Ferramenta Furo, Salvar e Abrir projeto na pasta de dados, Baixar DXF da planificada e Mandar para o Limpar (de lá, orçar como sempre). Funciona no celular: um dedo gira, dois dedos aproximam.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

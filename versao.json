@@ -1,15 +1,15 @@
 {
-  "versao": "8.21",
+  "versao": "8.22",
   "data": "2026-10-06",
   "notas": [
-    "Orçamento: serviço de solda. Nova opção \"Só solda (peças do cliente)\" e a seção Solda em todo orçamento (dá para somar solda ao corte e dobra).",
-    "Cada linha de solda: o que soldar, processo (MIG, TIG ou ponteado), metros de cordão e/ou pontos por conjunto, quantidade e acabamento. Cobrada pela hora do soldador; se já souber o tempo, digite as horas.",
-    "A solda aparece na proposta em PDF, na impressão, na OS (processo Solda) e na planilha de análise. A gerência ajusta os valores em Parâmetros e preços › Solda."
+    "Novo (beta): Projetar 3D, na aba Produção. Começo do CAD 3D da GUIMETAL: a chapa aparece em 3D, desenhada pela placa de vídeo.",
+    "Clique numa face e puxe a seta laranja (ou digite a medida) para mudar comprimento, largura, espessura, raio do canto e diâmetro do furo. Ctrl+Z e Ctrl+Y desfazem e refazem.",
+    "Ferramenta Furo, Salvar e Abrir projeto na pasta de dados, Baixar DXF da planificada e Mandar para o Limpar (de lá, orçar como sempre). Funciona no celular: um dedo gira, dois dedos aproximam."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1658172,
-  "sha256": "9871ef43edfabddbf8a2b5bf4a36ad4b6e1d8e103c7ca389ad366206fb3fde75",
-  "assinatura": "HCmZhC1xkng9b7nIBKRACSCPM6ZNlTIp2DJAsEh52nOTTLtNKM4Y+xQyG8LH3OQ1B5ssV9pB17CSYUOfkPP8r7wn9QUGW+QLADWXFWbTzuKuq3e9qBse+YJdtcdiwuAvq4HEkD9Ahf+WfVoQcaZJ8rhek377MN+vol4mPHUsmcGwK2ndEYHubpUrfd2DK69EAj7tImrxhOEnrfPEiCc3QFnG0PkQ6hwsf4AAmP2dhZhUIeMxUupH+gWyXY6NOzdwIvEJniv2yGsynjurpahYNteiu4Taxx3ARsWpY1/BNVj96DePqbl4NugY7xUgSYeZacvvQ+3n/5eLUo4d7PG9Rg==",
+  "tamanho": 2475488,
+  "sha256": "63e3090ea3ea1305544578f540e9ae8a81f25521c122efef3c304ac5bad90fef",
+  "assinatura": "RCiuYKTHLGP6lLn6sV1nzTnNEKfpLIuEqraDBIkSP7ygwTsRDq4Nc+RpkpLX8BNVlJbbrBm57kdP6syXZgJRNIzJqN+Xew7IDBnmV480f8b/CrFnOIwxFdx6BeUDGM9FzgwFNJ+uT1fAwgqgNaTYH6zPNQrjYLVIBIpJQfe+HJMJP77/kDhUDncpODeAwhtFyOnSMhiXFO0gn6qzONaVFhVzb+eA8izS2ibKDttlxmsYpaVQmkM1PK27xqK9QvaCS66kIdPG7MW+jLkhioVL1sNWD7uX+eRCDBWWZ1KxXaoExVZPLgDFsIFHC6SJy8zBccUgNWb9/4siRgRXOnZjRg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -32,5 +32,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "RW5J1i05gFl/36g9wM8K7yMBDm6NA6NmPpkrh1rrThE1I3txUr7qeL/bc5bRP3d8RrKkI3WLm8IqKuGmbzbzCP7LyA+6fVu7ntlOOHL+WKat8CnWvzVTid0JqS0aYf/jFco29sI5/Vc+bLzHVRjwR/EKaqduZeWZkksYpWiTn/y8abuNHspINvQAtsFBWOdlkqzBWCkB418Pu5mHmT/mvO/XyRQVPUSDAakehZqU2YOOMTNR8SqCQseVf8o+nHrj6bHtCwjiiPa6gqILg3gKFdB02FA5EM6k4z+n6NkC3V7t/5dh0CyclbcISDgieEBrpySictMYoEzcnJKh+7rr0A=="
+  "assinatura_extras": "Zdjff5YeiqD8ALbDB+nvUd6VQIOGA70aRjEi9utUV5DInv3O5LEfjjO9fhZyUb70mLcNRYBKyLw96tzu9GtsygDUxlly0rXZbDBl47/YpP1gIpc9hyS6hpFJU9sNCYBaYdB79pdOqYWwl3TiqVyCT4Fo8AZT/gbR5gaOgbe2fm6+jN8v6aig+xkixO4IzTdh8ft6gD6bGinnAoQEOmqBZxRW8ecFDKBnRI4o2eBmL/6fmMkTMysEcFEY0zLOhIPM6WRCvG7/77oRy7Adcah6j+0V0YP9v8qMaKf2sQKtyOB3oZsnY7OED84ExaaPL7eHjdgp/QEonlpjR6sjqCfbZQ=="
 }
