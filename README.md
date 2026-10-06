@@ -1,10 +1,10 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.24** (2026-10-06)
+Versão atual: **8.25** (2026-10-06)
 
-- Novo: Gerador/Editor de peças (aba Produção), no 3D. Tem todos os modelos do gerador (chapa com furos, flange, oblonga, rasgos, mão francesa, caixa e peça dobrada L/U/Z/chapéu/livre), com as mesmas contas e o mesmo DXF.
-- Editor de linhas: Aparar entre dois pontos (ou o trecho até os cruzamentos), Linha com ímã nas pontas, meios e cruzamentos, e Apagar. Recorte desenhado com o mouse (janela ou pegando a borda, com arco exato), Furo, Dobra, Girar e Espelhar.
-- Importar peça (DXF, DWG, PDF, STEP, Parasolid), vista dobrada, e descrição, código, material, espessura e quantidade no carimbo do DXF. O Gerador de peças clássico continua na tela enquanto o novo é conferido.
+- Orçamento: botão Clonar. Abre uma cópia (mesmo cliente, peças e solda) para somar outra etapa; ao salvar vira um orçamento novo e o original continua igual.
+- Solda: novo processo Solda laser, e a solda agora é cobrada pela quantidade de cordões por conjunto (cada processo tem o seu tempo por cordão em Parâmetros › Solda). Orçamentos antigos por metro continuam com o mesmo valor.
+- Proposta em PDF: o valor total não encosta mais no rótulo, mesmo com valores grandes. Link de acompanhamento: escolha as etapas que o cliente vê, incluindo Solda e acabamento.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

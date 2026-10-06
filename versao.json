@@ -1,15 +1,15 @@
 {
-  "versao": "8.24",
+  "versao": "8.25",
   "data": "2026-10-06",
   "notas": [
-    "Novo: Gerador/Editor de peças (aba Produção), no 3D. Tem todos os modelos do gerador (chapa com furos, flange, oblonga, rasgos, mão francesa, caixa e peça dobrada L/U/Z/chapéu/livre), com as mesmas contas e o mesmo DXF.",
-    "Editor de linhas: Aparar entre dois pontos (ou o trecho até os cruzamentos), Linha com ímã nas pontas, meios e cruzamentos, e Apagar. Recorte desenhado com o mouse (janela ou pegando a borda, com arco exato), Furo, Dobra, Girar e Espelhar.",
-    "Importar peça (DXF, DWG, PDF, STEP, Parasolid), vista dobrada, e descrição, código, material, espessura e quantidade no carimbo do DXF. O Gerador de peças clássico continua na tela enquanto o novo é conferido."
+    "Orçamento: botão Clonar. Abre uma cópia (mesmo cliente, peças e solda) para somar outra etapa; ao salvar vira um orçamento novo e o original continua igual.",
+    "Solda: novo processo Solda laser, e a solda agora é cobrada pela quantidade de cordões por conjunto (cada processo tem o seu tempo por cordão em Parâmetros › Solda). Orçamentos antigos por metro continuam com o mesmo valor.",
+    "Proposta em PDF: o valor total não encosta mais no rótulo, mesmo com valores grandes. Link de acompanhamento: escolha as etapas que o cliente vê, incluindo Solda e acabamento."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2616848,
-  "sha256": "c7e97519ed2949ced99f9f27554df4d4f12269a694b50ed00b61e6879c8e5a27",
-  "assinatura": "iBNLuUrPFCZbYH2tRYv475Y+joVSV/VXWjKS5Y82YMyadC45cqzrGQDdWNf5QYD7Jl0/PyHB5rnI6CZZqrLMnzzt5cJ5ypgzbDLCO7f9RZ34muMQ8AQAy5ZbRMdg4EKDov9lNS+46Nh9Lzui87NGmjsEjFvTnkM4jZ/qMGToMW7JYyc/UZSbA56T7nLVb2GV2BLeSMuXtw+1G173/vkvjlCmMaZnnedmxGmZAkwaBtoz6jxNVMxIpgcJU/hDnXVONzRiqK5K40tSIu5y4tMh2+WFpLK8tbPK+NsvCuyJjzulHo2qJPvKlwv1Bd5zj2uWicHeuhHadXwbBE3E4ZXb+A==",
+  "tamanho": 2625172,
+  "sha256": "32a06296ccb82f5eb3341ac0125ce8e69984fe52df04f376f3f39e291c5856e9",
+  "assinatura": "iSzfL7W7uybt6JdeYIKZQk3ZBlWBm+y5nJ77OAUPD9B9CPRdk1pQ+Ngvc00QVHAwPQJaL+NE8IqecGUAR1jeBhEPuwUF+alKvezbYwKgkUo6/zAWgGvUNlmqb5h/aNia2qPYuK5hDQ126/VevSdRUdpLQH+mLnFJuOBe3Z/ngtd6SG59G7IPpJaeckBECuihrQBSohOkW5PLIbRQnKVNS8CTe8p9LS6g5OTiICQdPR9vh/jbKciO0Zub12ZCsaYPOBEtLnKuFAEJmCND/OCI5krkd4F/2QDK1MTUHldT0fGnsSQl/y/Rw6Rf2t5MpQ3CuXZbR/rm1derf0UKxo8j1A==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -32,5 +32,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "WUd58qdnbNSFu/sCm1sfOvX4SFTVRubShGQ90QHWhSlWl6DxrWLuyRMTCsc9l1AtceiXbrM1kpraR4Ydo1CqCmtMAjZcF2DG9hXr+H4UD6oT1IxNL1B6hgcPfw6pPsPkJ288DNKvm+C/yvJNGdfUI6s2KcdS9NhAbMXq6nlCKBcIvqTQYM5sQaDwEMx7bDRqPscjEKga1RTSjztRkcbj+j+ieesjbu+ykytFq8n2iGWy33PMVf+61deT/bspm0x0FhKh+zGx5hnX8neqF8q/DG3mlUs8d4M2W8+NxZlB+oK+q71Zgun7wXkOfYeLv0532pVeknnDN6s7oC7p7aWQkg=="
+  "assinatura_extras": "G8puZ6VyTLGYWtKldY3OSRKZcXNlOuVK9XOPaGpULLtXQo27hBE5xxXp0RkBBUDa+sfg53bfVXmHQ4HAxMAmWaJrjrdTHgT0ARUrqnileNWsvyoAnrQ5K30RXwVf3as9QXYYMcDIqTxXtVCbXE33qVe+l/fkbolKjOEjdLCdhSftEeyN8Rzc531dURTBpAOz9/+r5g+OQpLnA7luSqkASy67Cq7DnCD+Xi6PMzoO/OLQcnLZZXWMfsOsQzulmGDojbvFD77JzvI9QsSI6oACbRlPHuyvqrE6SjGX49V++6AASvMTgWMTtDd4xwD3N7Z5dkjE2gJvQPobHfIw5or3ew=="
 }
