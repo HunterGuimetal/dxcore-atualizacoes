@@ -1,14 +1,15 @@
 {
-  "versao": "8.20",
+  "versao": "8.21",
   "data": "2026-10-06",
   "notas": [
-    "Encaixe: peça dentro de peça. As peças menores do pedido são cortadas dentro do vazado (janela quadrada, redonda, oblonga…) das peças maiores, com o espaçamento entre peças em volta. Vale também quando a peça maior é girada na chapa, e sai certo no DXF da chapa.",
-    "O orçamento mostra quantas peças foram para dentro de outras e não cobra de novo o aço delas (ele já está no retângulo da peça maior). A gerência pode mudar isso em Parâmetros e preços."
+    "Orçamento: serviço de solda. Nova opção \"Só solda (peças do cliente)\" e a seção Solda em todo orçamento (dá para somar solda ao corte e dobra).",
+    "Cada linha de solda: o que soldar, processo (MIG, TIG ou ponteado), metros de cordão e/ou pontos por conjunto, quantidade e acabamento. Cobrada pela hora do soldador; se já souber o tempo, digite as horas.",
+    "A solda aparece na proposta em PDF, na impressão, na OS (processo Solda) e na planilha de análise. A gerência ajusta os valores em Parâmetros e preços › Solda."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1640088,
-  "sha256": "c8e468de8ce8b27ce7607ce004131f7473786761c86b3c9403e385b004a7444b",
-  "assinatura": "T9Upm3DNVfnGnYL0OcdZZ6mfHAZoJ3kNX2n6NEElh3zkmSsokaK8eqHLIgiqFDQn894Jf5vECGGwiW1OpeIAoQ7ixiBRApKSQn8drXIMeOq7E0hlbrP1JIJPr1NifzLLdKABURPlLdQOYJLxEvBMuI+MQCYYLjWdXrraksdeZMPi7OCQv/Lslcer7GuSwUO9RFiVFeyt75nYkc/k3to2AiXOHPeWhJBCzbm4OJTfT2bF586EYcKX33E5kzGU2zWyBJ4wkESK+1ioUztlJB6mJkm8TXCO/HaG4FgjR2l7sUcf3o6BoLI/Ot2NVzBFSaMWHP+2a9MKbI8/6uYwBz8MoA==",
+  "tamanho": 1658172,
+  "sha256": "9871ef43edfabddbf8a2b5bf4a36ad4b6e1d8e103c7ca389ad366206fb3fde75",
+  "assinatura": "HCmZhC1xkng9b7nIBKRACSCPM6ZNlTIp2DJAsEh52nOTTLtNKM4Y+xQyG8LH3OQ1B5ssV9pB17CSYUOfkPP8r7wn9QUGW+QLADWXFWbTzuKuq3e9qBse+YJdtcdiwuAvq4HEkD9Ahf+WfVoQcaZJ8rhek377MN+vol4mPHUsmcGwK2ndEYHubpUrfd2DK69EAj7tImrxhOEnrfPEiCc3QFnG0PkQ6hwsf4AAmP2dhZhUIeMxUupH+gWyXY6NOzdwIvEJniv2yGsynjurpahYNteiu4Taxx3ARsWpY1/BNVj96DePqbl4NugY7xUgSYeZacvvQ+3n/5eLUo4d7PG9Rg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +32,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "FQ7qzTwoTMvHM5qtCB8azF+H6fAewWTryWyNyHZUErubZmG/cINesQpIV8LyUT7KrEiEItOhjY36u/H7Y28/WnVRCddFaoU7HBZ+R2DJ3EJZDM8izMOkCt4kVZC4XKZuyqL3En9tKBHdrDMK89iHcVO3xG/nvpLehv8MX/s+4ShH28ZTvQJA5NG99EGZ//qn1coROq6cZmGR9gScmY9iRpipLH5puhqXMiuj1iRYVOMMXuTDFlpcbVzwyxfGcm4VvoZE3+a96+UqG9kYKYPw/0O1Xr7BzX+rHm/r4aKg19sZIn0eo0Pq0SzY/Qcx47iC7yxqIFLQC1KtQycgc/F3Kw=="
+  "assinatura_extras": "RW5J1i05gFl/36g9wM8K7yMBDm6NA6NmPpkrh1rrThE1I3txUr7qeL/bc5bRP3d8RrKkI3WLm8IqKuGmbzbzCP7LyA+6fVu7ntlOOHL+WKat8CnWvzVTid0JqS0aYf/jFco29sI5/Vc+bLzHVRjwR/EKaqduZeWZkksYpWiTn/y8abuNHspINvQAtsFBWOdlkqzBWCkB418Pu5mHmT/mvO/XyRQVPUSDAakehZqU2YOOMTNR8SqCQseVf8o+nHrj6bHtCwjiiPa6gqILg3gKFdB02FA5EM6k4z+n6NkC3V7t/5dh0CyclbcISDgieEBrpySictMYoEzcnJKh+7rr0A=="
 }
