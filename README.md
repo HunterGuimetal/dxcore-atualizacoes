@@ -1,9 +1,11 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.18** (2026-10-06)
+Versão atual: **8.19** (2026-10-06)
 
-- Gerência: novo bloco "Exportar para análise" na Tela inicial. Gera uma planilha Excel com orçamentos, itens com preço, OS, etapas, clientes, estoque, inspeções, romaneios e retalhos, pronta para analisar no Excel ou no Claude.
-- A pasta de dados agora tem o arquivo LEIA-ME-DADOS.md, que explica o que é cada pasta e cada campo. Serve para quem for analisar os dados (pessoa ou o Claude) entender tudo sem adivinhar.
+- Limpar / Converter: novo quadro "Revisão para fabricação". Confere cada desenho antes de cortar: furo menor que a espessura, furo perto da dobra, aba curta para a dobradeira, furo perto da borda, furos muito juntos, peça pequena demais para a grelha, peça maior que a chapa, dobra maior que a dobradeira e espessura acima do limite.
+- Botão "Relatório para o cliente (PDF)": mostra cada desenho com os pontos de atenção marcados em vermelho e as dobras em azul, pronto para mandar ao cliente.
+- Orçamento: botão "Abrir arquivo da peça". Escolha os desenhos (DXF, DWG, PDF, STEP, IGES) direto do orçamento, sem sair da tela; as peças entram no orçamento e mostram os pontos de atenção.
+- Parâmetros e preços: comprimento útil da dobradeira (para o aviso de dobra comprida).
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

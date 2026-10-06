@@ -1,14 +1,16 @@
 {
-  "versao": "8.18",
+  "versao": "8.19",
   "data": "2026-10-06",
   "notas": [
-    "Gerência: novo bloco \"Exportar para análise\" na Tela inicial. Gera uma planilha Excel com orçamentos, itens com preço, OS, etapas, clientes, estoque, inspeções, romaneios e retalhos, pronta para analisar no Excel ou no Claude.",
-    "A pasta de dados agora tem o arquivo LEIA-ME-DADOS.md, que explica o que é cada pasta e cada campo. Serve para quem for analisar os dados (pessoa ou o Claude) entender tudo sem adivinhar."
+    "Limpar / Converter: novo quadro \"Revisão para fabricação\". Confere cada desenho antes de cortar: furo menor que a espessura, furo perto da dobra, aba curta para a dobradeira, furo perto da borda, furos muito juntos, peça pequena demais para a grelha, peça maior que a chapa, dobra maior que a dobradeira e espessura acima do limite.",
+    "Botão \"Relatório para o cliente (PDF)\": mostra cada desenho com os pontos de atenção marcados em vermelho e as dobras em azul, pronto para mandar ao cliente.",
+    "Orçamento: botão \"Abrir arquivo da peça\". Escolha os desenhos (DXF, DWG, PDF, STEP, IGES) direto do orçamento, sem sair da tela; as peças entram no orçamento e mostram os pontos de atenção.",
+    "Parâmetros e preços: comprimento útil da dobradeira (para o aviso de dobra comprida)."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 1598424,
-  "sha256": "e6a4f49f60032036393926b39e6e7a36fd3aee2dfcde40f4c56b18f56196b2a3",
-  "assinatura": "SNTe7WLrlocmH61fDE2kv5cgajgeEbCxpz82t7IpN822DD6l48Oh+ktvShlREwfzeqJq99y62xHmvigYPi5FVgYnYuLTBDs//jsbN3TQSmIq/jETTJ3q4CmoguQmW1TrN2/y9Sp+Ul37YreumL2Plvo+mL3LW06VQp/2Dw9fv2HIHyVo+fSC2GBM5WQI2o7EzZCfbfQS3++4guv14gtfiTDVmKLJq3lSTwhywO1UM+SXSKXH5liA7eL7SSKQvuTDNtliVURMUGa3ySeFNNjDxqpDdleV1uLhqYfHA+c4ZUewILhKsUIuOkNai68XBdrUgWBGmIHkO829ku2pbHrDWQ==",
+  "tamanho": 1624920,
+  "sha256": "9b8491593b02264bdc8d6ba0e332e57d54e83144d4947a082e9532d6310db59e",
+  "assinatura": "Yndz30PSzUXx+Pe51tN7Ya8fb2HWtW39eHO4tXN0if85T1354qXJe36rK8e3tX9q+V0hn5OQClHN1o+eke9cK1JtazV8VACb/OsHQUljz5jsiPmmc4WEHLUOkfOJ0nBM4ZB7Hzn63FLrERok4QqitLH8tf5pJU2+x55B8FbWxt8uZZipsSszz7aeSAAeaQtl7NCpS1eElWRehe7ItXPYEN0WTO9lKNTPyO97OUcBUFSylJKE8sTxs4hxk0ALi2iH1N/HAax2lOmkFo6QCdQo+rMV8e87EP5NzOvceCgWpJJIvEPsnvTVlk7RwCFNNOqQS/ZwAjE5AMS3PmXlFsfpqg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +33,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "DwKwW2TIu0K+bq9JffxzbvJaLp9VjVS4PgbPCIqfKgM/z5i+EsrMD4xW/JcWzJOrxxwyiTn6eszewD11B+ueZMmz6qxpnBV38nWYkoW3fIDqHATr8mVIdX3JvWXO9iHPey4dccn/CyC3So0+BnDj6VF4qivRZkTMUYt2Zv9qvYCrhavpBW0z0NhlIWxoXhy/fOI3nCRhf/8jIfDXU17aiq7uunIqkLp8Bnl9zhzuaIqlVX1WCN8dZi2I4T8B34ZQ+kjp3w6T6LwHpPnRiHZ1xTw5tOecvAfhSt/Vc5Y5XTMi8X8PgnxpmIi/ihl0sZaJ2/jK2vOIDiBB8SNiJvMHcA=="
+  "assinatura_extras": "gD5DeYXbaoKLpIqLKu1Ti34DpSt2+iA6y6CQCSiD+GL2MfsQ1xupRi085dvMOmNHZIeNpTeZGysobTHyMB5WS2fkPBNT3u0PDd0NbTbVwl8uDQ8FeFqDUci1wJP5q+2aIv4XnmPkc2zU0pcQOJJBw2PGTJqV7zpcfgk9beL+9WtI0VNMOMM29Oy9839S6Hsfvd8F32vqKHHT0huPDO8sLARAL9xEn98AAVgvmpCDces8v9Avzp6++Bw577TSPud8MAPG5yjugsKzaS+OvDZ2vKBhsMJhC4GryOZqLIkf/QEYcxRe2/YC+TVL8eq11kk2GCEUmg1SGs5T33Weq+JIhw=="
 }
