@@ -1,15 +1,15 @@
 {
-  "versao": "8.22",
+  "versao": "8.23",
   "data": "2026-10-06",
   "notas": [
-    "Novo (beta): Projetar 3D, na aba Produção. Começo do CAD 3D da GUIMETAL: a chapa aparece em 3D, desenhada pela placa de vídeo.",
-    "Clique numa face e puxe a seta laranja (ou digite a medida) para mudar comprimento, largura, espessura, raio do canto e diâmetro do furo. Ctrl+Z e Ctrl+Y desfazem e refazem.",
-    "Ferramenta Furo, Salvar e Abrir projeto na pasta de dados, Baixar DXF da planificada e Mandar para o Limpar (de lá, orçar como sempre). Funciona no celular: um dedo gira, dois dedos aproximam."
+    "Projetar 3D: agora o furo muda de lugar com o mouse (ou o dedo, no celular). É só pegar o furo e arrastar.",
+    "O furo anda de 1 em 1 mm, encaixa no meio da chapa e se alinha com os outros furos (linha azul). Shift: 0,1 mm; Alt: livre. Setas do teclado: 1 mm (Shift: 10 mm).",
+    "Arrastando, o furo para sozinho no limite: sobra mínima igual à espessura da chapa até a borda e até os outros furos. Ctrl+Z desfaz o movimento."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2475488,
-  "sha256": "63e3090ea3ea1305544578f540e9ae8a81f25521c122efef3c304ac5bad90fef",
-  "assinatura": "RCiuYKTHLGP6lLn6sV1nzTnNEKfpLIuEqraDBIkSP7ygwTsRDq4Nc+RpkpLX8BNVlJbbrBm57kdP6syXZgJRNIzJqN+Xew7IDBnmV480f8b/CrFnOIwxFdx6BeUDGM9FzgwFNJ+uT1fAwgqgNaTYH6zPNQrjYLVIBIpJQfe+HJMJP77/kDhUDncpODeAwhtFyOnSMhiXFO0gn6qzONaVFhVzb+eA8izS2ibKDttlxmsYpaVQmkM1PK27xqK9QvaCS66kIdPG7MW+jLkhioVL1sNWD7uX+eRCDBWWZ1KxXaoExVZPLgDFsIFHC6SJy8zBccUgNWb9/4siRgRXOnZjRg==",
+  "tamanho": 2520012,
+  "sha256": "843b25623eeaafaee2fbc610c5e3973d1a2948a3ac9d72c09f943e70192c4418",
+  "assinatura": "hQoQCfC5JnTeoI1zyYvzFOYgC+8hNipBla+vcI8tGLOXmwVpT/E8iaBZCqe90ydI0RF5pR1j0Nx1ytH92H63PDiI8JByLcDVEwDoeKx4Jk3IGJNUXRMcXZW8ZuXQ1QPiIPBApYoDKfoJdo1hq9wolRd0M23oWvmKfJHJIxK4BQOi20M1Xilww6r8J2OZM9tqL/M6vSAlyoZi+pqUGxqCMJ65ki/Km285ByoSYbYdhtY7RnpnZ+MBvDewqIDzDfTZK5i4c9zXPYEvvmdhE1zYjVlR6Ifc2bnfPeJEaw9PjKmXlwk2TjT6ZiKYHd3OgPesQZgU5cAto3puoCwmpwYLKA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -32,5 +32,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "Zdjff5YeiqD8ALbDB+nvUd6VQIOGA70aRjEi9utUV5DInv3O5LEfjjO9fhZyUb70mLcNRYBKyLw96tzu9GtsygDUxlly0rXZbDBl47/YpP1gIpc9hyS6hpFJU9sNCYBaYdB79pdOqYWwl3TiqVyCT4Fo8AZT/gbR5gaOgbe2fm6+jN8v6aig+xkixO4IzTdh8ft6gD6bGinnAoQEOmqBZxRW8ecFDKBnRI4o2eBmL/6fmMkTMysEcFEY0zLOhIPM6WRCvG7/77oRy7Adcah6j+0V0YP9v8qMaKf2sQKtyOB3oZsnY7OED84ExaaPL7eHjdgp/QEonlpjR6sjqCfbZQ=="
+  "assinatura_extras": "aFruA7EjXGld5VJildoyy/qO4JTXsGZJfmK0J4Mk9P9KoQnfqZ4FBBIyOqGbCTVBxIuThCecmIvOQX/wnCiWS4lb63ubVT73nXg1zooUw2G34rKQ4rOiTsQsVz67/WzPb7WFi3QL9cAuvg42ZtLEVhniYY2qLkMUjb9+4ErJvQuYoOnOP9P6uu9SfhKPqnhnbr9W/s1Mvf/D5uAd0Ul9JYrI7ogX5O9LWxaQZlk2ZmXLMe+N9odSAOv7G9NATuUBjAQKOER4eTuYsEPX2FG8UFTxqB9Vc3noCH8Qb1n9wmaka/kGFuNRIQm3cvfQPhNL4qmQ2LKb7i3fLiGiwrrH5w=="
 }
