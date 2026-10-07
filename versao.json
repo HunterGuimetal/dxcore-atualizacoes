@@ -1,14 +1,14 @@
 {
-  "versao": "8.28",
+  "versao": "8.29",
   "data": "2026-10-07",
   "notas": [
-    "Gerador/Editor de peças: o Salvar pergunta onde guardar. Peça de cliente: o DXF e o desenho em PDF vão para a pasta do projeto do cliente. Modelo na biblioteca: a peça entra na Biblioteca de peças. Ou só salvar o projeto.",
-    "Na pasta do cliente e na biblioteca aparece o botão para abrir a peça de volta no Gerador/Editor e continuar mexendo. Salvar de novo atualiza os arquivos, sem duplicar."
+    "Novo botão Voltar no alto de todas as telas: volta uma tela de cada vez (projeto → cliente → lista de clientes, OS → lista de OS, orçamento → calculadora…), sem precisar ir até o Início.",
+    "Também volta com Alt + ← no teclado e com o voltar do celular (gesto ou botão). Com uma janela aberta, o voltar fecha a janela primeiro."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2685076,
-  "sha256": "0ac95ebe4355a8d6a987bd425d280e9e4bc89b02f95ff53b8306a0796db719ad",
-  "assinatura": "jff2eQRNKlaz7tAIaUCAFG+9mfWXyo6Vn7xpe7Q2YilWng+w47sxo12o5QX9hmchAovBlukSgvuGDdMGcj2q7EnU1MtablzzY80q/faEuGQt+ZUKPEZo+jDhEJUQG4BfSCV4DaVHHBVQZmDQZkxU9eMeit3cqOnotck8lrQJBvUncrfSrlAViRCiWrDECXlHSF+N63spUK46HPt8Et00ifwo2yz57e9BWPm0QE135OxWoIjPQB+NISR6IIPW8rE6fJBOOAfjprJvBnPhGWlpYz9DjvQVSYs5br/pFNouIGtw4GthGNRjA5X7zZJw8c5+YL7X0umzSRRJLoR1Fhe9ZA==",
+  "tamanho": 2689712,
+  "sha256": "666bd8224ddb3efb39bcf44d6c12d303539b5a8e2cd2e986224c1cf4b458b859",
+  "assinatura": "ClWWiYhgOQGOlOxk4JHn6vI9U8VoxuLQswruLtI00OPcJ5Eb9FIo9JLcaTwhxQp/CsNOWDL9ecO803HTYKI8YI+Wx1GPg8d33cPa88RScbqfTSv4XIwvV7VlYvQJtBdqKEosvHUsjiponrlwWm4rPPReuBdT6OzvcMezY74yHP9RThufJOmHU6gXo6/vawZMMxC42m/5SZ+uI4L5Dbht2uJ+u9zXgwaV77clntb7wK2kS3RG6Xzs+PDfLcAFRlufYX5y2sguhlsivIxNvG9FBNJbv8gGTk6ZR2YdPcNG7AkO5xCrfx1UIghEqkTFV3wnnN5jyF/wJHTrblAJuPc0oA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "EqTDonCr6IZCY2BIuc4QV2gKrMndvJgVUkvziNKya9tiWzbPt/jjoIZzEuI3b7ZdrCJKyJWgoYE8OaureDlqUf+1vElprcwP29uA2AQ/olRbGOwNIir5kz86zx2keAXEkuTbalw/lkOo7Jm0YBbi754HzBypcQLhF9yr0ZiNnYenHtTW8c3jbwelkKABJWY4vViJGEN3w5vrpJQFDQ8yezx0c/5xS7fS5nTKu//Z9saTF8B6uSImZ3DHkCtNalCNbDgvjuNJZajHxOCsZz7YVT9Y/TGiquXEats+0pFHgkAoDnITQoQU8Fn6TG6+xutE9cOdGIIgkZXGcUrY6o1UdA=="
+  "assinatura_extras": "PTwvXGkWMUoS/QBeevLAq3PdbFcfiHfoSph6Lg/LrH4ywuzCr7+sqyb0P9PHUJzDcIwxIhnKMGYJ9bJscgV2qOyFnNUsRX/85keGN/s0y0DA/opTVsZlGvBm4EeY5j/emTaPKjUDwKCgBFTlwA7UC1J93+Fldd9bUIC14hfK28B8dwceYj7rkdMfibjKYnn/ygNuFDenF9m0sYkKYy+vEECTMJ6LoHrqprfjEPJwjm5qxwOGG52RUD4jXE3VH7Jfp+ZU+xE1s9WBHedsEO1J65srmv0fkh7jvebNj/yreWcA5K1iYEAi16xrwRS2PsY4Fbt+Xv47xvpTpe8mH2dT5A=="
 }
