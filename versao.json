@@ -1,14 +1,16 @@
 {
-  "versao": "8.34",
+  "versao": "8.35",
   "data": "2026-10-07",
   "notas": [
-    "Gerador/Editor de peças: ao salvar uma peça nova como peça de cliente, a janela não escolhe mais sozinha o projeto do cliente da última vez — o cliente fica lembrado, mas o projeto vem em branco para você escolher ou criar um novo em + Novo.",
-    "O botão Novo deixa claro que começa um projeto novo (o atual fecha; se tiver mudança sem salvar, ele pergunta antes). Para renomear o projeto, dê dois cliques no nome dele, no alto da árvore."
+    "Gerador/Editor de peças: arraste a linha de dobra com o mouse (ou o dedo) — ela mostra a distância até as bordas enquanto anda, de 1 em 1 mm.",
+    "Clique numa dobra para ver as medidas verdes até as bordas; clique na medida e digite o valor.",
+    "Dobra inclinada: na ferramenta Dobra escolha Inclinada e clique dois pontos. Vista dobrada, DXF e desenho em PDF já entendem a dobra inclinada.",
+    "Novo modelo U afunilado (rampa): calha com alma em trapézio e abas que afinam — digite as medidas por fora do desenho (largura e altura da aba nas duas pontas, comprimento) e a planificada sai pronta."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2754768,
-  "sha256": "c6a0699cbaecfacf7c1aabf1852bde9ae358fb7ac052025cc6013b068d45af2f",
-  "assinatura": "eu+z5eJTEqZbt3rM1oSO+4OKX2iFTjenBKf4ro9ij/Wi59NBEm4dy3gg3kKUN0DazTg/CMM/vwOOxR/BUWr5X+9XoLBvxcFBwyJpJdRYCf/kpGnvHCANk84+ec9B6VwROE+Nq6gYz4S/tJOzi/uKZHN5SwDUWZAHhRGUTkQS+n6cZuf64mkIcPt+wriiv0PNdsxLzLk/StlGxo68y2m7IWFVFvHNy8Omio4eh0dlRb9WctJ6oybn/Tu2ZulkpWzlKpnRpj3i4bDX+5SBCaeHAnmX0Hp4X49mruZzNGm3TzwHf9nRVwScULDcIBoYBxgm+p1pAsaYUq6WyVk5YuGVVA==",
+  "tamanho": 2770708,
+  "sha256": "2ee4d4081c4384c61a9f5a436b4872d811a20174026e7bcce8d7098fd69adea7",
+  "assinatura": "cKl/z6NQRoNTRzXLc5pirt8vnS0EsQltOjbi5G2BBxbnU9UGFH20fxsbbwRiocYd/NpUEvnJyB33H64ACqhtWNFMXGDyf6FgLgBQQetnaJWNSCzDZe4q68jenj9pBOeUEv+hE5zy3P36p2HNCCRYpJuyYtdCmxO+8WH4NqcmB+B6ocljMsvJVFHRHcIpbHJAxboCaXfYeesyUrg/2rxuMrzGB/N3cGevFCPRTL9THN072stkE8NigHBfaRBS9RXxBOjATuRAZlmValNjWc81MgSRZBI1ucT3oXZJmrhJoCJkpiKo3bSkneFgWQFjuTqOq7CnkjiC3neX43kyfCDmjg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +33,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "VZ0nO0Qm+JOqLKMBxpEx8biTHEu4JzMJhs4qK1dzYMGVjsHC2WytqN5tBlNjfmDBmrC4G2Yl5apyfAw42m9jb80g/gB3Qd0FE8+kLDzNqyqUiZMmzMljCjTqE4pFwbr1BPsZ+hfnfTNgNQER92LMcWv0sr9tQdQ0Nu0Iw0pEs2eB0zuANiSZCRp++a63Ck+9K8v2A3XBkAdrWXng3oRznoGwYSIHNPxX2ANqN/ZX5oIpzvHH6EllmuHHjylr0hbTHK/iPJ7Wqx3FOAj11/7NNlBzAO0b0y5sUXPOwZ7Mz9Nk/D3BduaKgTNP04dvmGub2i38dqt+AYfN3yIDRUUBow=="
+  "assinatura_extras": "YehwFRWU/Hw9CnNKryLrlLVPUe6OvjGcGqnIpgzabzeTew0v9+DmMqX3Ik4oFwC4ngKh+lXWI6uBV1djl3tqp0cSuPDGXMSqLCJTi+QIZ2KgNuUYYvlbFInmW5SSAapiNbMiJ1o6Y1rq6zIzOJU+CW2Ya7AcvNKnSiH02SvU05dL8towU98EHAHWASW8b16X1dEzjnePDKrKOxMcjwbP/y9tOUAOUtEMGYRIGDbDJMgqsfvyWf9eKVHZYYsJopMcvj0q71MTiipRR557U7tpj6MfiZRpf6TjoxtMJpX/QHimQNq901qTierirzdRYiNZnsEsEHG/cca+eLHuJIAz6g=="
 }
