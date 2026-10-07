@@ -1,15 +1,16 @@
 {
-  "versao": "8.30",
+  "versao": "8.31",
   "data": "2026-10-07",
   "notas": [
-    "Gerador/Editor de peças: arraste com o mouse (ou o dedo) as pontas, as linhas e as bordas dos furos do desenho. As cotas e as relações seguram o resto: o retângulo continua no esquadro e o lado com cota não muda.",
-    "Nova ferramenta Relação (tecla K): Horizontal, Vertical, Paralela, Perpendicular, Igual, Tangente, Concêntrico, Ângulo e Fixar. Os símbolos aparecem na peça; clique num símbolo para tirar a relação.",
-    "Quando uma cota ou relação não fecha com as outras, o aviso agora diz com quem ela briga. As relações automáticas (H/V, tangência, raio dos arcos) aparecem tracejadas com a ferramenta Relação e também podem ser tiradas."
+    "Gerador/Editor de peças: novas ferramentas Arco (por 3 pontos), Círculo (centro e borda, ou digite o diâmetro), Arredondar e Chanfrar cantos — um canto de cada vez ou todos de uma vez, com prévia ao passar o mouse.",
+    "O arredondado já sai tangente às linhas; se o raio não cabe, o aviso diz até quanto cabe.",
+    "A barra de ferramentas do Gerador/Editor agora quebra em duas linhas em telas menores, sem esconder botões.",
+    "Correção: linha desenhada encostando no meio de outra podia deixar um pedacinho invisível que impedia a peça de fechar."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2715528,
-  "sha256": "f61535f25d0b64a7773e807dd8db1e9dab27bdd6987859a67f87fcd743fe6424",
-  "assinatura": "f3iCXDu/io6xvgggRdKmClQjAnK/+i1TyIfxC7l1GswtYL6kYrVounur1Yt4Zgk+0OuXEmyRMOU2KlMZFjoiqtYEb7sLrRFh60er92n6QUZhyjj1CK1s0dMRL9pqvRvYfFxZaSLDfmpJv2To8bKsOBeAZao5hk0P0AeAI5vixfbSlm0vdYx0NjAHk7Z6et+VQeT0PXxZiaNwxucekQcDVZAvK1Y86O7waStg69WQ7c0PJB8JEFShl/neaZNeZsySTxACXseTumiWLHD1fzdOyhHhwkC/83Te46RTPjZSsoPCFXkjW9raHe3cppr3dxP4cmp8nkpXl4FcIHEI0VNNHg==",
+  "tamanho": 2731060,
+  "sha256": "e3f7f47e728ce1e135dd7c5379ea6225097863b5d3de9fd6cb6b975da12c4a55",
+  "assinatura": "MVxqzcugFTBqpzaqS1KAo6F7vxDBR+jJsaVF89JDzjU+kNE2KPh9asmGN2PBTzt8q8WoStD3NfV8xd1xdCaNsogYZnpjfTGBwdszro3A6NV0Du1wzqJ51aJDgwh4ojILc0jdeByLEJVAvuvxbjOKPD71f4Xb6ZlpzWXYIk10IyO9xEU59MhT7O17UhFq+WI5S6CYPN6DtU+4KQcdF2WC0aIwzFFCpNEp+t8WthWqiOxAu+HP0ZDqd3Ot9F9lOAEKhU76Y9WBWZVrmVzrx4CnoMrxygVk902kmA14aaXE4kSD2RfqR4NhG6aq1WBEPXN9ezvTG1u2ZhtJW4Ow04d/1A==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -32,5 +33,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "KmOaxJW+ec7BJdEN0cqEvGXQVRpq/FMi5zoogVlND/788Nzz/JiXHIrVH8Li3CL4z85fcD8oT6bMNqrs27bNAKB+YDHKeKxJ5CjKnSVxxofB/kyLTLYZm04zqlo/fv/vBsgeP1+fYhk0ivmOw5xq7pM+Te3U02Vgy3Sv/BtvwsbdOi5Wkt0roNCQxoH+0gpz8Eu4Sy/EkaLJUDPPRbvv3l2+gj1q+9AY/eiM0qT6hfHH6UECAW3Kp+l2QSEFKCEfna5d+L5804opnZVFjKKNfa2H5kv4oJ8TnVvnaxgnniz0W+WQFh6PjDfL1c9lxFB8gZXNWWnX4M7QVAsjN9eeWw=="
+  "assinatura_extras": "E/tN/NpmDceE3HCv2WhEQ6gussMBkFLEt7P0hsSSPwwNTY2cMg4l4e3SGmCa5v+RuRwiqWlwD/SgMZ+TbtoMYYgX7ROG9BKO2CDiTcdLaJF/u0GkPu2uJlxgO8nZ+erui+6+m8JLl5YdXOKmKVmqn2DPaqdwFhvj1rL3JK1AUa5wqFnOhMVx1JZ+QpzyIWh47UPQ5T1Z5QcGk7w7qgqAFUJeA3nc5W4uE5RSNVkeFQ0jQPlulyT0XZlLHOcBw6mPSCYrGfKSjUe+jXiryZY88cc/llhOqLOJ9FpuuEQ/AoBJ4QfWymmqMO6nKNEXhyu2rf4PkQvLfQiF8A1ha5sIXQ=="
 }
