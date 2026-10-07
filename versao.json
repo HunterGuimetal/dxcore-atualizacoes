@@ -1,13 +1,14 @@
 {
-  "versao": "8.36",
+  "versao": "8.37",
   "data": "2026-10-07",
   "notas": [
-    "Correção visual: o aviso de atalho desatualizado (computadores que ainda abrem o DXCORE pelo atalho antigo) aparecia com o texto espalhado pela faixa. Agora fica alinhado, com o botão para baixar o instalador do lado."
+    "Gerador/Editor de peças: nova ferramenta Selecionar (tecla S) — clique ou arraste uma janela para escolher várias linhas, arcos, círculos e furos de uma vez (janela para a direita pega o que está dentro; para a esquerda, o que encosta).",
+    "Com a seleção: Mover, Copiar (várias cópias seguidas), Girar, Espelhar (podendo manter o original) e Apagar (ou Delete). Cada ação é um passo do Ctrl+Z."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2770224,
-  "sha256": "c0d4635c793242becfebf99715374015b61028914b57270ed37c3fbea49fce12",
-  "assinatura": "N7CMIwO2yeMrLQIVI20Zu+GVD6nmfu1t6V+oMabot22wn8EXpUyGyaajX97S5WlOQ7RBH3/gThXXkJwOS0wpK244xBoDRvi/apKgqi0b6U/U3aTM3YTt7wNkIHR0ShJZTrhZPGOQvLeFA6jvT8C8sAcLRnjQ0HVu5+N4C/aiUMEAULOpqaYfuZxtwGCd/XBOX4kYM4zHBMDxnTGpmKsEb7+ImkUQGNiRyza4ybUSj1KX83o9+dRFvdNrNzt1DKPs3bXk93kb0qlTGV3xnLQlzzcPnm2Zcd7kNukKA/G4HsQ8UWXF1Ou/yyIu2FAu1Q8nSVMfOS8RBbtT1seWcmQY3g==",
+  "tamanho": 2785424,
+  "sha256": "9ae219f114723fb3845b59917fe1699c75882cd0faae6cdef20ad323def2a75d",
+  "assinatura": "VVPQ3a37+lmiqEvt5DET7S2qazFVni6ocHfDZMd2QLx/TpzGJiAKngPrOlryT+11ooNJEkbZYB+XTFBlnFvqp76eyzJwMB55+vyQo/kO6Y/EwBaa6nEME9EIXTG9YG7QHNyAxUiJIxk58UDNv00bfDbL7ydUpZgjIlCU204GUevPz6JhpF+h/4gpkow1olLnIgiMSSdZL/liwnuDxycuGyiczgb5T13V5f1GETlbWyh9/xbNQujaGgjbBQDASUkYnbMlMdRw0Pqws78Rl1bxx43EQ8NwvwrbPSpb2omwmXGdolu5jA8ATm5aAYNBOBCKPostKqN7HxVBHsn3T7nyLg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -30,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "b9867rwlrepPhr1RBbvc1OBclxmb3y9lWvhyBRMY1ClCPTf2WDezBPfmCoTFHhuD/kiMG0pK9uSx8gWEfUXtanyQFHrJUadmg8jmw49RqjXWR4Ms3yGfpmd4AmQb0LM1bC28A+q9b1gjbLzahqJaCOXiwi1jzYNwJVzEdM1huRF7yV5QDf/RUXqflOuOr5HUG8jr/q4eS6E/Pfn95Tg2DovcAiqbq28VFIqmbRKRaCQe4P6hHkXV3wIl6IfnjVUD7/U6hD4aICVVyxDA6PDpSIQBRU9ZqvxXtmFq0CZnOfBGgwkMP05HNlvIz+DPQbHxER6tmMxjpCL1sEWnqg/DIA=="
+  "assinatura_extras": "Zwmsl16b9S6aLJoL/ZsiJ175v0bx44bqOOSXkvHE2iC28cV8wGJrxrh036lmUg9a8M2hzPTYV1+tnILyp/vVE+qtn6Nw3G6g8hz+XqssgwBcic24qNwqyULHnzVSt0rpA5o+cEr6SbHtxtB4nasLiaLcn/maAuEWSKdE2mLeTFqJShhWDMIPg2w/alWVgQ3gKHKplpfuUNWsEQCCZss/FZ/POrjoGWQLOPrszb6DbkoIwu33nAcD5qs0muGZC7NVzg2JmxJ8SyzoMNwFJFkGu9kd2zE1f66Zr5d7bavZMMiNocAZIaHhFgic63WPwoheE1v+lgcseCmXoCdCPMd4jA=="
 }
