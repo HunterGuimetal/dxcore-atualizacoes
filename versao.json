@@ -1,15 +1,15 @@
 {
-  "versao": "8.25",
-  "data": "2026-10-06",
+  "versao": "8.26",
+  "data": "2026-10-07",
   "notas": [
-    "Orçamento: botão Clonar. Abre uma cópia (mesmo cliente, peças e solda) para somar outra etapa; ao salvar vira um orçamento novo e o original continua igual.",
-    "Solda: novo processo Solda laser, e a solda agora é cobrada pela quantidade de cordões por conjunto (cada processo tem o seu tempo por cordão em Parâmetros › Solda). Orçamentos antigos por metro continuam com o mesmo valor.",
-    "Proposta em PDF: o valor total não encosta mais no rótulo, mesmo com valores grandes. Link de acompanhamento: escolha as etapas que o cliente vê, incluindo Solda e acabamento."
+    "Gerador/Editor de peças: nova ferramenta Cota. Clique numa linha (comprimento), círculo (Ø), arco (raio) ou em dois pontos (distância) e digite a medida: a peça muda e continua no esquadro.",
+    "As cotas ficam na tela em azul: clique no número para mudar. Retas na horizontal/vertical e cantos arredondados são mantidos sozinhos. Cota que briga com outra dá aviso e não estraga o desenho.",
+    "Botão Cotas no canto da tela esconde ou mostra as medidas. Ctrl+Z desfaz cada cota."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2625172,
-  "sha256": "32a06296ccb82f5eb3341ac0125ce8e69984fe52df04f376f3f39e291c5856e9",
-  "assinatura": "iSzfL7W7uybt6JdeYIKZQk3ZBlWBm+y5nJ77OAUPD9B9CPRdk1pQ+Ngvc00QVHAwPQJaL+NE8IqecGUAR1jeBhEPuwUF+alKvezbYwKgkUo6/zAWgGvUNlmqb5h/aNia2qPYuK5hDQ126/VevSdRUdpLQH+mLnFJuOBe3Z/ngtd6SG59G7IPpJaeckBECuihrQBSohOkW5PLIbRQnKVNS8CTe8p9LS6g5OTiICQdPR9vh/jbKciO0Zub12ZCsaYPOBEtLnKuFAEJmCND/OCI5krkd4F/2QDK1MTUHldT0fGnsSQl/y/Rw6Rf2t5MpQ3CuXZbR/rm1derf0UKxo8j1A==",
+  "tamanho": 2652416,
+  "sha256": "09fb1a9319dcedbe66c0bd988fbebd5267350e58b6c5a50d12645e102e67cd15",
+  "assinatura": "iFC+OWgaYCh0MLzAsctjLzEFDYjcGWqK8HfLx4wE5xb/oZHNecuyEr8lNvfEDdr4Yv9OsX0V5CEqQs2zBl4jNvUIdhaAAQRvLbw1vXlbVLYRMHQPdeKod8KZ0KtHvor9pkWnjfiTZvePQUA7XUiOU2ZUat9swvb62FmF+kpzc+cGa7Fd9iJLbq9Rp5ehBVvWKLdPn45rl1JFlvgraAqVf1GmHAzKWCZx0aMLUSn1edW/Gn+2LSHLmt1K604nRAI/QIBixgVcl9IAcFdX5MuEiOJRmQHzaaVX92PbwehORfZR2aqkDrHE/6hoKOjsqQ6VVWqWR3UAjNts87iS/T1MZg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -32,5 +32,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "G8puZ6VyTLGYWtKldY3OSRKZcXNlOuVK9XOPaGpULLtXQo27hBE5xxXp0RkBBUDa+sfg53bfVXmHQ4HAxMAmWaJrjrdTHgT0ARUrqnileNWsvyoAnrQ5K30RXwVf3as9QXYYMcDIqTxXtVCbXE33qVe+l/fkbolKjOEjdLCdhSftEeyN8Rzc531dURTBpAOz9/+r5g+OQpLnA7luSqkASy67Cq7DnCD+Xi6PMzoO/OLQcnLZZXWMfsOsQzulmGDojbvFD77JzvI9QsSI6oACbRlPHuyvqrE6SjGX49V++6AASvMTgWMTtDd4xwD3N7Z5dkjE2gJvQPobHfIw5or3ew=="
+  "assinatura_extras": "dkNTtEVVMYP5TtbaClGtfs8GuHXTpwHk7GObQ8h7U71Is+KzLIxW3pDX0V7FZcsXct3rRDHVkdtA+22JZgaOOlSz/0T3dDUKiG1D4+TvR4MavUkVN0TuKOIhQc/SmJUD84pDC7GIV8n3vvRBJzMpLT4k5VjQvP4Gg6cLQJNycVZWuKMOdzrEv7OKcv1wopxg+fzd25DihTYoIascyB6pRljlOd8mv8YY1EJMsvdn06j7GgTPvSCjfqmBYkxXyUV6Zzk+iH3SuY7xQGhSbbfFZIsAsZnyZc7OvmCSviKYFR3dox00pzKkBXjvp7yPRDSnWgyYMeS8+s1SuLmqnWhtuQ=="
 }
