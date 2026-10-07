@@ -1,14 +1,13 @@
 {
-  "versao": "8.32",
+  "versao": "8.33",
   "data": "2026-10-07",
   "notas": [
-    "Gerador/Editor de peças: nova ferramenta Deslocar — cópia paralela de um contorno, furo ou linha a X mm (para dentro ou para fora). Faz janela com aba, borda paralela e furo em volta de furo; os arcos mudam de raio na medida exata.",
-    "Nova ferramenta Padrão — copia furos e recortes em linha (quantidade e passo na horizontal e na vertical) ou em círculo (centro, quantidade e ângulo, como furação de flange). Se uma cópia sai da chapa, nada muda e o aviso diz."
+    "Correção no Gerador/Editor de peças: ao começar uma peça nova (ou abrir outro projeto), a peça anterior ficava aparecendo por baixo do plano. Agora a tela é limpa por completo."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2754288,
-  "sha256": "82077346439cb021af6dd56d04d57408889f7752c66650cb726210b3a04d0c51",
-  "assinatura": "ATudxoJjlm5XOM/LVmXAJHOc1d8EflsmWZOOB/V7gBCrjpKYDVjnPAeGAH8q16D7e0us/8+6DG7typmHhn/d+yWgw3GfbO9gPmBVuyYhAyWkbiOj6clCWeNtxNFgMjWzWT0/6DlErJgm80rwUQpLww7M+yDGNXLPoeLbBr4218umMZ8cfB5K4TVk0+GST2Ls6QV2nI5xaH77pTmG62+d9bi7NEREJzWvYbmFUB8ZQTGkIjJxCBaozs2BiucnGNZrr/suOpEUnhWzoe80dLH6BcQIDmULSohFjHy7kk+AENFNLwYlXsfpwDVxHGn5naZOEglqtu2OhU33qEAO2A0CFQ==",
+  "tamanho": 2753932,
+  "sha256": "8a7ba2740f6dbd3c4aa16f99a2fa9608966d56d8129ce100636ae7f50d1ed1a2",
+  "assinatura": "i8Vcl33QaB2PidLg2+4yu3gPFwRocgtHp0AkKUzgAxGK4jHyLb7/3/xQlF6nCmGFqUq4t/j43ERMYz2GzhL3fycsINnYg39ViqtDPANBoIFqZK8j7NdF+FBmJcLAEplioT2d1PLBb5184qS6A8XiI2FYpx65q3NsiAEX5Ex7p3XoWMPb1wltsCavpDDzgsIjWmg9cHH87fUiz7Yatd20ZRPNPI6v2lvj4eVlXPgYlHy1buQX73hbGSE+b6Fh97dBKde0yeyKnJY/eIn7ibmlpHqvAw3aWtuslA2KDnym4jCDb0fFW0Ho2Y6KYLsbB4H/Ho0PeVHppFMmKx8osWr8fQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +30,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "VaXgSzDJa7IpBKRVcqdeB+O+AolxVXtjnl9wsHzMYdrGl6OsgETjIDe7trmq4ej00kt3TfBp0Oeze+qpRLamvjBs+Kwt09mf7bmQLk/apeniHXUrQF7Rtbgv9HiUzhWTIST9hNENgMxGZB7jTt5PBAy6thxAjAeoo813cEgIV+umFf6+KzdwEm80LW69fduulwnKpUzIjtHHu5ys/7s6M3WKsXVGBcvruVmMYDdyhGzKq3NF457NQrMMLxxxBV/1h0n4TXXeIac9NFYUwco+WajCx/d0aUXq3tRob9pFCqG4Dij3+kUunXEtKqQ3dNZ6+EnSWeqC/VwVW9k7mRfbCg=="
+  "assinatura_extras": "QnpLfOAEMg9SlmZShkQClzRCjLdsTdJkznIDkaV7uENnPOVbXusFYn454mlClEN6sWb6+Vh8uGrpkDMYn8bBND16MjLKqQFA60Cc4eVde2mPlalSlilFD1VivdKIYGN8vdp1IzX2gu7HZmuMgWRXsriC2TRD/jvl5VAnx55J+rnJ0aEYsIKCAizRHr3YRzbcZGCzy1kXh3vol3uyB9hJpL1qcbfKQKS8FzcF9QtTxhXXFchmaTQyep9Czm9t48Y6EvDodS30K7j2Eyn+CTOVggtGEyRXSh9wDFo05JNoPOgqY1wJsVhOnpeSVdUM5VzodV5kYvsTlKojLi4zq+iqHg=="
 }
