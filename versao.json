@@ -1,14 +1,14 @@
 {
-  "versao": "8.37",
+  "versao": "8.38",
   "data": "2026-10-07",
   "notas": [
-    "Gerador/Editor de peças: nova ferramenta Selecionar (tecla S) — clique ou arraste uma janela para escolher várias linhas, arcos, círculos e furos de uma vez (janela para a direita pega o que está dentro; para a esquerda, o que encosta).",
-    "Com a seleção: Mover, Copiar (várias cópias seguidas), Girar, Espelhar (podendo manter o original) e Apagar (ou Delete). Cada ação é um passo do Ctrl+Z."
+    "Mais rápido com a pasta de dados da rede: as telas não releem mais todos os arquivos a cada clique. A mesma lista pedida por várias partes da tela é lida uma vez só e fica guardada por alguns segundos (o que este computador grava aparece na hora; o que outro PC grava aparece em até 2,5 s). Num teste com 600 OS, o Painel do dia passou de 1.950 arquivos lidos para nenhum.",
+    "Calculadora: em pedido grande, o total é recalculado quando você para de digitar, sem travar a digitação. Uma quantidade gigante digitada errado não trava mais o programa: o encaixe é feito num bloco e repetido, com aviso para conferir a quantidade."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2785424,
-  "sha256": "9ae219f114723fb3845b59917fe1699c75882cd0faae6cdef20ad323def2a75d",
-  "assinatura": "VVPQ3a37+lmiqEvt5DET7S2qazFVni6ocHfDZMd2QLx/TpzGJiAKngPrOlryT+11ooNJEkbZYB+XTFBlnFvqp76eyzJwMB55+vyQo/kO6Y/EwBaa6nEME9EIXTG9YG7QHNyAxUiJIxk58UDNv00bfDbL7ydUpZgjIlCU204GUevPz6JhpF+h/4gpkow1olLnIgiMSSdZL/liwnuDxycuGyiczgb5T13V5f1GETlbWyh9/xbNQujaGgjbBQDASUkYnbMlMdRw0Pqws78Rl1bxx43EQ8NwvwrbPSpb2omwmXGdolu5jA8ATm5aAYNBOBCKPostKqN7HxVBHsn3T7nyLg==",
+  "tamanho": 2791272,
+  "sha256": "349463ae3acb2d0628920f6ee44948cab6c880621a7f325b4073680b9e2c351e",
+  "assinatura": "Uk92P3mvJOUVYYA1YB8fiIRS+D3/8VcRn7jmVsDp2KXF+aq87o47C48eRe9B6T3LLVwiBpy9ItzVxWwge3cR4q0XZH4x547UCe6YIhUP1/uRiOnP4vTtuv3ymWTHJejpaKriG925earbiTMBRooB9848tRn/EurywedQ6mbOWDpETCCVqMxjVzy2EC6yYNGgs+D+6J/d1qvT8QAEcKp+tkIYtdoorWeazCWnxs4APVwIe1dFGs3l3dLQXzi74FkWpJE6GehzAsvXvIfmRLsB5aiecfL5YNFaNKUuoQPzKsGEPo3MAVRB4NgGkSyzmhQj1nLyl4NtWNXViakR9XtuWA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "Zwmsl16b9S6aLJoL/ZsiJ175v0bx44bqOOSXkvHE2iC28cV8wGJrxrh036lmUg9a8M2hzPTYV1+tnILyp/vVE+qtn6Nw3G6g8hz+XqssgwBcic24qNwqyULHnzVSt0rpA5o+cEr6SbHtxtB4nasLiaLcn/maAuEWSKdE2mLeTFqJShhWDMIPg2w/alWVgQ3gKHKplpfuUNWsEQCCZss/FZ/POrjoGWQLOPrszb6DbkoIwu33nAcD5qs0muGZC7NVzg2JmxJ8SyzoMNwFJFkGu9kd2zE1f66Zr5d7bavZMMiNocAZIaHhFgic63WPwoheE1v+lgcseCmXoCdCPMd4jA=="
+  "assinatura_extras": "PihBnccT12Iu7HX1jfCQWfashcXM5oxpSosvrvZsS2wo/51287recVTrBvDtaywmw+AS3ghRVM7vwGjFb9ARVqzc+mLwPMC0j3680004e+m6EwY7EqGKrqUVWEp3rmKF0rZGq1aR1jEil0bk0s03Xu/V6nG522ps3+AEHxYRkU59R8MbRa0bRR7896iyP75jlwBpjLVFQi+i5bUS5V2n6G5kr0rHP+JYFVHNi6S2OGMKQBUwhMdkorJGJRI+uWZO6efP6yP45pAROJYyT4SMnj3LQqkACFD6AtD4gdwnsNEKXxCHT0KmwUWq5OEUnsXkOrJieg4KiCI3Z7tPg0dLsg=="
 }
