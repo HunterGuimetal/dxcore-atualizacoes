@@ -1,14 +1,14 @@
 {
-  "versao": "8.38",
+  "versao": "8.39",
   "data": "2026-10-07",
   "notas": [
-    "Mais rápido com a pasta de dados da rede: as telas não releem mais todos os arquivos a cada clique. A mesma lista pedida por várias partes da tela é lida uma vez só e fica guardada por alguns segundos (o que este computador grava aparece na hora; o que outro PC grava aparece em até 2,5 s). Num teste com 600 OS, o Painel do dia passou de 1.950 arquivos lidos para nenhum.",
-    "Calculadora: em pedido grande, o total é recalculado quando você para de digitar, sem travar a digitação. Uma quantidade gigante digitada errado não trava mais o programa: o encaixe é feito num bloco e repetido, com aviso para conferir a quantidade."
+    "Gerador/Editor de peças: nova ferramenta Aba (tecla B). Clique numa borda reta da chapa, diga a altura por fora e a aba já sai planificada certa, com a linha de dobra no lugar. Chapa 300 × 200 com duas abas de 50 dobra exatamente 300 × 200 × 50.",
+    "A vista Dobrada mostra a dobra com o raio de verdade (raio interno igual à espessura, ou o que você escolher em Mais, no painel da dobra). As medidas por fora da peça dobrada batem com o desenho, inclusive no U afunilado (rampa)."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2791272,
-  "sha256": "349463ae3acb2d0628920f6ee44948cab6c880621a7f325b4073680b9e2c351e",
-  "assinatura": "Uk92P3mvJOUVYYA1YB8fiIRS+D3/8VcRn7jmVsDp2KXF+aq87o47C48eRe9B6T3LLVwiBpy9ItzVxWwge3cR4q0XZH4x547UCe6YIhUP1/uRiOnP4vTtuv3ymWTHJejpaKriG925earbiTMBRooB9848tRn/EurywedQ6mbOWDpETCCVqMxjVzy2EC6yYNGgs+D+6J/d1qvT8QAEcKp+tkIYtdoorWeazCWnxs4APVwIe1dFGs3l3dLQXzi74FkWpJE6GehzAsvXvIfmRLsB5aiecfL5YNFaNKUuoQPzKsGEPo3MAVRB4NgGkSyzmhQj1nLyl4NtWNXViakR9XtuWA==",
+  "tamanho": 2803112,
+  "sha256": "6ff16e663d384866a83b92e3fd2a49242dee46e739c43112168caf356eaceecf",
+  "assinatura": "Whbudk2O/Fe9IyONcBSfig+Nu0LjF6Ww2qeAeze2400nepIEf8lYVkPqNxbeOs+IIrxGECN9pShMSz5B8U1UbtHlaW00MkisWWEtwacA/aYhwxSbg3bmJQGJkRXspKk7H2sNapcV2InLN5PwNSLs/UWJ5KD9Bh34VgrMjewrjb8pt2YKh3xMdU8vz9z/OuQXmH9uZImVn254xuIcuGRN/tIsfuhhOVdfcZwVCxWMfzKnt85L485Lxc1d3P+76Qu8baPXmEDe+wlfJxdoRBHLglKOS3iUZI+DfcltaY+JfRGUindCeCrLz2TGWUxAMfNDWQXDrVvsCYsxJM5KzHPryA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "PihBnccT12Iu7HX1jfCQWfashcXM5oxpSosvrvZsS2wo/51287recVTrBvDtaywmw+AS3ghRVM7vwGjFb9ARVqzc+mLwPMC0j3680004e+m6EwY7EqGKrqUVWEp3rmKF0rZGq1aR1jEil0bk0s03Xu/V6nG522ps3+AEHxYRkU59R8MbRa0bRR7896iyP75jlwBpjLVFQi+i5bUS5V2n6G5kr0rHP+JYFVHNi6S2OGMKQBUwhMdkorJGJRI+uWZO6efP6yP45pAROJYyT4SMnj3LQqkACFD6AtD4gdwnsNEKXxCHT0KmwUWq5OEUnsXkOrJieg4KiCI3Z7tPg0dLsg=="
+  "assinatura_extras": "cVlSANTL4fYeFSjQgPK2sX3tpyqtJIAPWgR4um19Gn55hBOklPkPKEMbuCG3sO9edCuO7itu91SprvtXv9II1XQsjwptFOHETth/PT9hTaH3P1/MZI6yAkyl9a0m6Z1ldp8iJYUucaTyQIzNRvUfZf/EyGITVVaYtk+4RtxUwv+692jrW9ZEy3cDNfaNTcmQHUyDob7/BdF5FHDO8YwAoY0y03Vzm+4OW0zC/pMN/XU2HmjtYKnazWJEzvCCggBSn5tp1qeaLaOdnNFVmYdqHoCjejxCpLguo8oOpLABaJeg5tO960koyRa7mWBj37YFL718vE1o4kmjNFFxD4u4uA=="
 }
