@@ -1,15 +1,14 @@
 {
-  "versao": "8.26",
+  "versao": "8.27",
   "data": "2026-10-07",
   "notas": [
-    "Gerador/Editor de peças: nova ferramenta Cota. Clique numa linha (comprimento), círculo (Ø), arco (raio) ou em dois pontos (distância) e digite a medida: a peça muda e continua no esquadro.",
-    "As cotas ficam na tela em azul: clique no número para mudar. Retas na horizontal/vertical e cantos arredondados são mantidos sozinhos. Cota que briga com outra dá aviso e não estraga o desenho.",
-    "Botão Cotas no canto da tela esconde ou mostra as medidas. Ctrl+Z desfaz cada cota."
+    "Gerador/Editor de peças: botão PDF. Baixa o desenho da peça pronto para mandar ao cliente ou imprimir.",
+    "O PDF tem a planificada com as medidas totais, os furos (Ø) e as dobras, a vista 3D da peça (dobrada, quando tem dobra) e os dados de fabricação: material, espessura, quantidade, peso, área e corte."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2652416,
-  "sha256": "09fb1a9319dcedbe66c0bd988fbebd5267350e58b6c5a50d12645e102e67cd15",
-  "assinatura": "iFC+OWgaYCh0MLzAsctjLzEFDYjcGWqK8HfLx4wE5xb/oZHNecuyEr8lNvfEDdr4Yv9OsX0V5CEqQs2zBl4jNvUIdhaAAQRvLbw1vXlbVLYRMHQPdeKod8KZ0KtHvor9pkWnjfiTZvePQUA7XUiOU2ZUat9swvb62FmF+kpzc+cGa7Fd9iJLbq9Rp5ehBVvWKLdPn45rl1JFlvgraAqVf1GmHAzKWCZx0aMLUSn1edW/Gn+2LSHLmt1K604nRAI/QIBixgVcl9IAcFdX5MuEiOJRmQHzaaVX92PbwehORfZR2aqkDrHE/6hoKOjsqQ6VVWqWR3UAjNts87iS/T1MZg==",
+  "tamanho": 2669144,
+  "sha256": "02c08816ec03f1fdc9fe0858ab138e154e7f1275177f2328ef591893b4afbb53",
+  "assinatura": "IgC7aVQgBFGVeWIBViF5peOXV+mb/foDX1qsDurluqk7GYT7CSMPU4rGKEfB9GIfSM9E2LlV3qDaDKCX9ifXPjmN4szAJI4Fnl8gVDMaB7Yw3u+xr/149DHJCbbI32goGCFyvy8v97DJBsbyh5r+yVB8hR/t6HT/nm5wj+zfUToeGZO1Eehps9YaRO/tyWu4EbJn9l8PVqxqyMMG8XQcC7zHjFuUxMwQXMt4NoOijqHwTz0+DBNGeuJASir+/UUGxTJz9wI3INc5wY/Tvamis4PcVe71/2PigxXlBLPi/ewcTYaoYqZZQveEsF74o5NkXAUc32TfN6yalC5lGSo1jg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -32,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "dkNTtEVVMYP5TtbaClGtfs8GuHXTpwHk7GObQ8h7U71Is+KzLIxW3pDX0V7FZcsXct3rRDHVkdtA+22JZgaOOlSz/0T3dDUKiG1D4+TvR4MavUkVN0TuKOIhQc/SmJUD84pDC7GIV8n3vvRBJzMpLT4k5VjQvP4Gg6cLQJNycVZWuKMOdzrEv7OKcv1wopxg+fzd25DihTYoIascyB6pRljlOd8mv8YY1EJMsvdn06j7GgTPvSCjfqmBYkxXyUV6Zzk+iH3SuY7xQGhSbbfFZIsAsZnyZc7OvmCSviKYFR3dox00pzKkBXjvp7yPRDSnWgyYMeS8+s1SuLmqnWhtuQ=="
+  "assinatura_extras": "NYYoggEfRkRBgmQU7kl6XJydYxmdTecXA6NkIqNFFFuFw3YyY1Os821tVpK+GeBw6mUItixyKJKzu/Aztsjb6jho2dwEpHTSnH+UKapFJieSBJWlshjl5DKVqIVHruwykSQXxaqqRUneeBOfBAMq5zEQa5dGvU4eoEF8aYzPBkwER6VGjqBrGmM2zssLHHnHqBROhcVPAs/vhf4PSvBzOefpAH5pqj0tkwXxsFB19FzBAULdY6PJ86QgNa6fvhdnT4Gdi/10jEnGwF+/YTYItzBs9jY77XI+oXygNJ0eDRpPd7crWc31Q/le3J/y9nSL/R7Pms2h0K665VXMV05F6g=="
 }
