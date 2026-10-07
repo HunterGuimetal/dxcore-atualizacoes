@@ -1,16 +1,13 @@
 {
-  "versao": "8.35",
+  "versao": "8.36",
   "data": "2026-10-07",
   "notas": [
-    "Gerador/Editor de peças: arraste a linha de dobra com o mouse (ou o dedo) — ela mostra a distância até as bordas enquanto anda, de 1 em 1 mm.",
-    "Clique numa dobra para ver as medidas verdes até as bordas; clique na medida e digite o valor.",
-    "Dobra inclinada: na ferramenta Dobra escolha Inclinada e clique dois pontos. Vista dobrada, DXF e desenho em PDF já entendem a dobra inclinada.",
-    "Novo modelo U afunilado (rampa): calha com alma em trapézio e abas que afinam — digite as medidas por fora do desenho (largura e altura da aba nas duas pontas, comprimento) e a planificada sai pronta."
+    "Correção visual: o aviso de atalho desatualizado (computadores que ainda abrem o DXCORE pelo atalho antigo) aparecia com o texto espalhado pela faixa. Agora fica alinhado, com o botão para baixar o instalador do lado."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2770708,
-  "sha256": "2ee4d4081c4384c61a9f5a436b4872d811a20174026e7bcce8d7098fd69adea7",
-  "assinatura": "cKl/z6NQRoNTRzXLc5pirt8vnS0EsQltOjbi5G2BBxbnU9UGFH20fxsbbwRiocYd/NpUEvnJyB33H64ACqhtWNFMXGDyf6FgLgBQQetnaJWNSCzDZe4q68jenj9pBOeUEv+hE5zy3P36p2HNCCRYpJuyYtdCmxO+8WH4NqcmB+B6ocljMsvJVFHRHcIpbHJAxboCaXfYeesyUrg/2rxuMrzGB/N3cGevFCPRTL9THN072stkE8NigHBfaRBS9RXxBOjATuRAZlmValNjWc81MgSRZBI1ucT3oXZJmrhJoCJkpiKo3bSkneFgWQFjuTqOq7CnkjiC3neX43kyfCDmjg==",
+  "tamanho": 2770224,
+  "sha256": "c0d4635c793242becfebf99715374015b61028914b57270ed37c3fbea49fce12",
+  "assinatura": "N7CMIwO2yeMrLQIVI20Zu+GVD6nmfu1t6V+oMabot22wn8EXpUyGyaajX97S5WlOQ7RBH3/gThXXkJwOS0wpK244xBoDRvi/apKgqi0b6U/U3aTM3YTt7wNkIHR0ShJZTrhZPGOQvLeFA6jvT8C8sAcLRnjQ0HVu5+N4C/aiUMEAULOpqaYfuZxtwGCd/XBOX4kYM4zHBMDxnTGpmKsEb7+ImkUQGNiRyza4ybUSj1KX83o9+dRFvdNrNzt1DKPs3bXk93kb0qlTGV3xnLQlzzcPnm2Zcd7kNukKA/G4HsQ8UWXF1Ou/yyIu2FAu1Q8nSVMfOS8RBbtT1seWcmQY3g==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -33,5 +30,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "YehwFRWU/Hw9CnNKryLrlLVPUe6OvjGcGqnIpgzabzeTew0v9+DmMqX3Ik4oFwC4ngKh+lXWI6uBV1djl3tqp0cSuPDGXMSqLCJTi+QIZ2KgNuUYYvlbFInmW5SSAapiNbMiJ1o6Y1rq6zIzOJU+CW2Ya7AcvNKnSiH02SvU05dL8towU98EHAHWASW8b16X1dEzjnePDKrKOxMcjwbP/y9tOUAOUtEMGYRIGDbDJMgqsfvyWf9eKVHZYYsJopMcvj0q71MTiipRR557U7tpj6MfiZRpf6TjoxtMJpX/QHimQNq901qTierirzdRYiNZnsEsEHG/cca+eLHuJIAz6g=="
+  "assinatura_extras": "b9867rwlrepPhr1RBbvc1OBclxmb3y9lWvhyBRMY1ClCPTf2WDezBPfmCoTFHhuD/kiMG0pK9uSx8gWEfUXtanyQFHrJUadmg8jmw49RqjXWR4Ms3yGfpmd4AmQb0LM1bC28A+q9b1gjbLzahqJaCOXiwi1jzYNwJVzEdM1huRF7yV5QDf/RUXqflOuOr5HUG8jr/q4eS6E/Pfn95Tg2DovcAiqbq28VFIqmbRKRaCQe4P6hHkXV3wIl6IfnjVUD7/U6hD4aICVVyxDA6PDpSIQBRU9ZqvxXtmFq0CZnOfBGgwkMP05HNlvIz+DPQbHxER6tmMxjpCL1sEWnqg/DIA=="
 }
