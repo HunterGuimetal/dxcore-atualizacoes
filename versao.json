@@ -1,14 +1,15 @@
 {
-  "versao": "8.29",
+  "versao": "8.30",
   "data": "2026-10-07",
   "notas": [
-    "Novo botão Voltar no alto de todas as telas: volta uma tela de cada vez (projeto → cliente → lista de clientes, OS → lista de OS, orçamento → calculadora…), sem precisar ir até o Início.",
-    "Também volta com Alt + ← no teclado e com o voltar do celular (gesto ou botão). Com uma janela aberta, o voltar fecha a janela primeiro."
+    "Gerador/Editor de peças: arraste com o mouse (ou o dedo) as pontas, as linhas e as bordas dos furos do desenho. As cotas e as relações seguram o resto: o retângulo continua no esquadro e o lado com cota não muda.",
+    "Nova ferramenta Relação (tecla K): Horizontal, Vertical, Paralela, Perpendicular, Igual, Tangente, Concêntrico, Ângulo e Fixar. Os símbolos aparecem na peça; clique num símbolo para tirar a relação.",
+    "Quando uma cota ou relação não fecha com as outras, o aviso agora diz com quem ela briga. As relações automáticas (H/V, tangência, raio dos arcos) aparecem tracejadas com a ferramenta Relação e também podem ser tiradas."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2689712,
-  "sha256": "666bd8224ddb3efb39bcf44d6c12d303539b5a8e2cd2e986224c1cf4b458b859",
-  "assinatura": "ClWWiYhgOQGOlOxk4JHn6vI9U8VoxuLQswruLtI00OPcJ5Eb9FIo9JLcaTwhxQp/CsNOWDL9ecO803HTYKI8YI+Wx1GPg8d33cPa88RScbqfTSv4XIwvV7VlYvQJtBdqKEosvHUsjiponrlwWm4rPPReuBdT6OzvcMezY74yHP9RThufJOmHU6gXo6/vawZMMxC42m/5SZ+uI4L5Dbht2uJ+u9zXgwaV77clntb7wK2kS3RG6Xzs+PDfLcAFRlufYX5y2sguhlsivIxNvG9FBNJbv8gGTk6ZR2YdPcNG7AkO5xCrfx1UIghEqkTFV3wnnN5jyF/wJHTrblAJuPc0oA==",
+  "tamanho": 2715528,
+  "sha256": "f61535f25d0b64a7773e807dd8db1e9dab27bdd6987859a67f87fcd743fe6424",
+  "assinatura": "f3iCXDu/io6xvgggRdKmClQjAnK/+i1TyIfxC7l1GswtYL6kYrVounur1Yt4Zgk+0OuXEmyRMOU2KlMZFjoiqtYEb7sLrRFh60er92n6QUZhyjj1CK1s0dMRL9pqvRvYfFxZaSLDfmpJv2To8bKsOBeAZao5hk0P0AeAI5vixfbSlm0vdYx0NjAHk7Z6et+VQeT0PXxZiaNwxucekQcDVZAvK1Y86O7waStg69WQ7c0PJB8JEFShl/neaZNeZsySTxACXseTumiWLHD1fzdOyhHhwkC/83Te46RTPjZSsoPCFXkjW9raHe3cppr3dxP4cmp8nkpXl4FcIHEI0VNNHg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +32,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "PTwvXGkWMUoS/QBeevLAq3PdbFcfiHfoSph6Lg/LrH4ywuzCr7+sqyb0P9PHUJzDcIwxIhnKMGYJ9bJscgV2qOyFnNUsRX/85keGN/s0y0DA/opTVsZlGvBm4EeY5j/emTaPKjUDwKCgBFTlwA7UC1J93+Fldd9bUIC14hfK28B8dwceYj7rkdMfibjKYnn/ygNuFDenF9m0sYkKYy+vEECTMJ6LoHrqprfjEPJwjm5qxwOGG52RUD4jXE3VH7Jfp+ZU+xE1s9WBHedsEO1J65srmv0fkh7jvebNj/yreWcA5K1iYEAi16xrwRS2PsY4Fbt+Xv47xvpTpe8mH2dT5A=="
+  "assinatura_extras": "KmOaxJW+ec7BJdEN0cqEvGXQVRpq/FMi5zoogVlND/788Nzz/JiXHIrVH8Li3CL4z85fcD8oT6bMNqrs27bNAKB+YDHKeKxJ5CjKnSVxxofB/kyLTLYZm04zqlo/fv/vBsgeP1+fYhk0ivmOw5xq7pM+Te3U02Vgy3Sv/BtvwsbdOi5Wkt0roNCQxoH+0gpz8Eu4Sy/EkaLJUDPPRbvv3l2+gj1q+9AY/eiM0qT6hfHH6UECAW3Kp+l2QSEFKCEfna5d+L5804opnZVFjKKNfa2H5kv4oJ8TnVvnaxgnniz0W+WQFh6PjDfL1c9lxFB8gZXNWWnX4M7QVAsjN9eeWw=="
 }
