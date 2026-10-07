@@ -1,14 +1,14 @@
 {
-  "versao": "8.27",
+  "versao": "8.28",
   "data": "2026-10-07",
   "notas": [
-    "Gerador/Editor de peças: botão PDF. Baixa o desenho da peça pronto para mandar ao cliente ou imprimir.",
-    "O PDF tem a planificada com as medidas totais, os furos (Ø) e as dobras, a vista 3D da peça (dobrada, quando tem dobra) e os dados de fabricação: material, espessura, quantidade, peso, área e corte."
+    "Gerador/Editor de peças: o Salvar pergunta onde guardar. Peça de cliente: o DXF e o desenho em PDF vão para a pasta do projeto do cliente. Modelo na biblioteca: a peça entra na Biblioteca de peças. Ou só salvar o projeto.",
+    "Na pasta do cliente e na biblioteca aparece o botão para abrir a peça de volta no Gerador/Editor e continuar mexendo. Salvar de novo atualiza os arquivos, sem duplicar."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2669144,
-  "sha256": "02c08816ec03f1fdc9fe0858ab138e154e7f1275177f2328ef591893b4afbb53",
-  "assinatura": "IgC7aVQgBFGVeWIBViF5peOXV+mb/foDX1qsDurluqk7GYT7CSMPU4rGKEfB9GIfSM9E2LlV3qDaDKCX9ifXPjmN4szAJI4Fnl8gVDMaB7Yw3u+xr/149DHJCbbI32goGCFyvy8v97DJBsbyh5r+yVB8hR/t6HT/nm5wj+zfUToeGZO1Eehps9YaRO/tyWu4EbJn9l8PVqxqyMMG8XQcC7zHjFuUxMwQXMt4NoOijqHwTz0+DBNGeuJASir+/UUGxTJz9wI3INc5wY/Tvamis4PcVe71/2PigxXlBLPi/ewcTYaoYqZZQveEsF74o5NkXAUc32TfN6yalC5lGSo1jg==",
+  "tamanho": 2685076,
+  "sha256": "0ac95ebe4355a8d6a987bd425d280e9e4bc89b02f95ff53b8306a0796db719ad",
+  "assinatura": "jff2eQRNKlaz7tAIaUCAFG+9mfWXyo6Vn7xpe7Q2YilWng+w47sxo12o5QX9hmchAovBlukSgvuGDdMGcj2q7EnU1MtablzzY80q/faEuGQt+ZUKPEZo+jDhEJUQG4BfSCV4DaVHHBVQZmDQZkxU9eMeit3cqOnotck8lrQJBvUncrfSrlAViRCiWrDECXlHSF+N63spUK46HPt8Et00ifwo2yz57e9BWPm0QE135OxWoIjPQB+NISR6IIPW8rE6fJBOOAfjprJvBnPhGWlpYz9DjvQVSYs5br/pFNouIGtw4GthGNRjA5X7zZJw8c5+YL7X0umzSRRJLoR1Fhe9ZA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "NYYoggEfRkRBgmQU7kl6XJydYxmdTecXA6NkIqNFFFuFw3YyY1Os821tVpK+GeBw6mUItixyKJKzu/Aztsjb6jho2dwEpHTSnH+UKapFJieSBJWlshjl5DKVqIVHruwykSQXxaqqRUneeBOfBAMq5zEQa5dGvU4eoEF8aYzPBkwER6VGjqBrGmM2zssLHHnHqBROhcVPAs/vhf4PSvBzOefpAH5pqj0tkwXxsFB19FzBAULdY6PJ86QgNa6fvhdnT4Gdi/10jEnGwF+/YTYItzBs9jY77XI+oXygNJ0eDRpPd7crWc31Q/le3J/y9nSL/R7Pms2h0K665VXMV05F6g=="
+  "assinatura_extras": "EqTDonCr6IZCY2BIuc4QV2gKrMndvJgVUkvziNKya9tiWzbPt/jjoIZzEuI3b7ZdrCJKyJWgoYE8OaureDlqUf+1vElprcwP29uA2AQ/olRbGOwNIir5kz86zx2keAXEkuTbalw/lkOo7Jm0YBbi754HzBypcQLhF9yr0ZiNnYenHtTW8c3jbwelkKABJWY4vViJGEN3w5vrpJQFDQ8yezx0c/5xS7fS5nTKu//Z9saTF8B6uSImZ3DHkCtNalCNbDgvjuNJZajHxOCsZz7YVT9Y/TGiquXEats+0pFHgkAoDnITQoQU8Fn6TG6+xutE9cOdGIIgkZXGcUrY6o1UdA=="
 }
