@@ -1,11 +1,10 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.43** (2026-10-08)
+Versão atual: **8.44** (2026-10-08)
 
-- Clientes: a tela não lista mais os clientes, só a busca. Digite 2 letras do nome ou fantasia (ou 3 números do CNPJ) e os resultados aparecem na hora, sem acento e sem maiúscula fazerem diferença.
-- Escolher o cliente agora é por busca no orçamento, na OS, no romaneio, ao guardar arquivo, no Gerador/Editor e na biblioteca: digite parte do nome, fantasia ou CNPJ e escolha com o mouse ou com as setas e Enter.
-- Pasta de dados › Testar velocidade: mede quanto cada parte da pasta da rede demora e gera um resultado para copiar e mandar ao suporte do DXCORE.
-- A tela inicial não espera mais a pasta da rede para mostrar os setores.
+- Bem mais rápido com a pasta da rede: o vilão era a lista de orçamentos. Cada orçamento guarda o desenho e o encaixe das peças, e o DXCORE relia todos eles a cada poucos segundos (23 s por vez), travando o resto. Agora os orçamentos são lidos uma vez e depois só o que mudou, igual aos clientes. Vale para qualquer lista pesada (OS, inspeções…).
+- Na primeira abertura depois da atualização, um computador organiza as listas (pode demorar um pouco essa única vez). Depois abre rápido em todos.
+- Teste de velocidade mostra também o tamanho de cada lista.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
