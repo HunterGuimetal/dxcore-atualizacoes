@@ -1,14 +1,16 @@
 {
-  "versao": "8.42",
+  "versao": "8.43",
   "data": "2026-10-08",
   "notas": [
-    "Tela inicial na hora: trocar de setor não espera mais a pasta de dados. A tela aparece com os últimos números e eles se atualizam sozinhos quando a pasta responde. Clicar rápido em vários setores também não embaralha mais a tela.",
-    "Menos pedidos à pasta da rede: os computadores conferem as mudanças juntos (uma consulta só para todas as listas) e, depois de uma importação grande, não releem mais a importação inteira a cada poucos segundos."
+    "Clientes: a tela não lista mais os clientes, só a busca. Digite 2 letras do nome ou fantasia (ou 3 números do CNPJ) e os resultados aparecem na hora, sem acento e sem maiúscula fazerem diferença.",
+    "Escolher o cliente agora é por busca no orçamento, na OS, no romaneio, ao guardar arquivo, no Gerador/Editor e na biblioteca: digite parte do nome, fantasia ou CNPJ e escolha com o mouse ou com as setas e Enter.",
+    "Pasta de dados › Testar velocidade: mede quanto cada parte da pasta da rede demora e gera um resultado para copiar e mandar ao suporte do DXCORE.",
+    "A tela inicial não espera mais a pasta da rede para mostrar os setores."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2851348,
-  "sha256": "8716d0e53330dbd63248587bb9c0989f526a1019bfc2eb972e8a691f772465d5",
-  "assinatura": "b8JXLkY8PEBXIUS5h2cbNDAkD5i0wm1OKnVo+EJA0r+W/AjroDNIl0IMqwwwPDgb32+JlVHkwMLLMgBz19IcwL4e3xNMcss3g0Rs4ZKhUhVIFsjnhL5IA/QEGyrYUWNrKZsXLUbnZOfw5PBkca5Eaq/zfPPlbci/VhwkbwpG+ZEAU2geLRNTwxr4zNQ44FBgwtuVCpwLNXlwBwxIMOoWdd4FyNgrgH9XBzyOlvEM+fXfP8qBubriHlsCRjhnq2dpqEZMZymoABTNNwFpqAjO7W25S693FrYoMtMl2Oili23sjev84qoLvykFpUwYCIyYPgw402alMmabo2Sh5wcfGA==",
+  "tamanho": 2865848,
+  "sha256": "0437c6b1d072e9c6d36be56084dae737323bb533b1d706d177fcc3b423fedfd9",
+  "assinatura": "gI/SgDajQjlrZwiZOrY6SDRsdRLdO6/U2iaKUfhwabOXBmBqee1+SRa47VcZCrgs0uWoQ9s7PkLEvBApbOduL3AgLr2Zg1/Wm0OqAPbuxJsEndrUcDO3IsO4S00Y0JsR5G2ih8imTNyZpPIt1V19mm0zJ2N+Y8BZ68//LxyStMDpYFc7v+7tZXOvewZ61jaddJKT1H77iLcU4NP3h0rqZ76VG2wGOGAyzbzH6IR6cOcu+k6S8LrU7HhTGgyEK9d+mdOwNClrG+lFscEu4hg9UN3Qt1kwyl7eT83m5iYlU8OdnZjYhnxAI7hdnrTuq+TmsSkjrNQyXg07w6LUfYsb4w==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +33,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "GC3EDoXCk6yxx5k6z6y+96whSDLn/c2jzfnIOK1HBKDLLHx+ckg/lD5x88Lnt/Fvwo/4zwCwS1NBTNEwDsvfW1aR5rHK6XAnPtn9ntEqOVpMFwuK0GxDXh9mBMHikg5EcEbzOCaz6qvqrqXKJVX7/Vqq2UFDYc7fTmUXQYBuouZZjEV0X5LeAzEboa7hJmkWcJNpDqrbBrFMqxSkYw10SCN6CL0RCn8wA3UlqcjGf2B6DHTg8pOL50je9tUq0Vwfgtm97qI+coa9coG7+zJmhdZQR/61GSwGT+xmD6gWCTN4LMjjRTdxAOnFWZ7LibTrs6B/a0QNTSflTTCFfgxY9Q=="
+  "assinatura_extras": "HnDAulFOfownIj934VPpE15G6wucMXZ7+S+50n5wRZPrRT5w3AErMY31AblL2Eq/u1bHnaUIh3E/TnbxdJf5wpjY7aCYDpqj+vAM2eGlXnIXqxvjh/LhuSvWhQ4FHd03+DTLx1+CSZyp4GvM2UdVFL6Dd/vz6pKYCsm6JBP+lLM9Wdcg+pFDHM9mharNTjr+cBue2JmiRQrTtZYJJ7rh8D6Cz+l1e2OyjghWCbXjWQiY9GiEaTCmrkFGf3ZoEFjlyW7Je29ME4uoBYmjhvBSsTb6OBhLy8YPK9ZHhErcMiVKLd3qseM5RFbXIV08/U1c6KZYRkWXmO2NZq5GUfv4Iw=="
 }
