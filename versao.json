@@ -1,14 +1,14 @@
 {
-  "versao": "8.39",
-  "data": "2026-10-07",
+  "versao": "8.40",
+  "data": "2026-10-08",
   "notas": [
-    "Gerador/Editor de peças: nova ferramenta Aba (tecla B). Clique numa borda reta da chapa, diga a altura por fora e a aba já sai planificada certa, com a linha de dobra no lugar. Chapa 300 × 200 com duas abas de 50 dobra exatamente 300 × 200 × 50.",
-    "A vista Dobrada mostra a dobra com o raio de verdade (raio interno igual à espessura, ou o que você escolher em Mais, no painel da dobra). As medidas por fora da peça dobrada batem com o desenho, inclusive no U afunilado (rampa)."
+    "Clientes: novo botão Importar planilha. Traz os clientes exportados do GreenApp (ou de qualquer Excel/CSV) de uma vez: o DXCORE liga as colunas sozinho, confere cada CNPJ/CPF, não duplica quem já está cadastrado (só completa o que está em branco) e mostra quem ficou de fora e por quê, com a lista para corrigir. Dá para desfazer a importação no final.",
+    "Endereço, CEP e inscrição estadual vão para as observações do cliente, e o código do cliente no ERP fica guardado na ficha."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2803112,
-  "sha256": "6ff16e663d384866a83b92e3fd2a49242dee46e739c43112168caf356eaceecf",
-  "assinatura": "Whbudk2O/Fe9IyONcBSfig+Nu0LjF6Ww2qeAeze2400nepIEf8lYVkPqNxbeOs+IIrxGECN9pShMSz5B8U1UbtHlaW00MkisWWEtwacA/aYhwxSbg3bmJQGJkRXspKk7H2sNapcV2InLN5PwNSLs/UWJ5KD9Bh34VgrMjewrjb8pt2YKh3xMdU8vz9z/OuQXmH9uZImVn254xuIcuGRN/tIsfuhhOVdfcZwVCxWMfzKnt85L485Lxc1d3P+76Qu8baPXmEDe+wlfJxdoRBHLglKOS3iUZI+DfcltaY+JfRGUindCeCrLz2TGWUxAMfNDWQXDrVvsCYsxJM5KzHPryA==",
+  "tamanho": 2837176,
+  "sha256": "93277de9b5b033184e4b7e627efd807323427b3a72c4f8aefc3f2aca7fac9a0e",
+  "assinatura": "ODla3T2tf/NCFyaUsYYourK+lAaJvqzgPvY5cKv21czVj1qlv+t48gEtEEqh3AU57EEdAyRwnzMA0YJ/luduSg5by2WavwY930XxRNs420A3wAM98ouN97mkD3HZCVz9vY93Anm8hEAASkmbSI9c5s07Wqzul9URvRMZanR8DVqjeYATzrrYdXj2sIzGLmbSEMOVs2LuV31VGLTQ3Wwq98T5+D6TT9CBSot+DC/70/Rao6otfHsh6Lrbg0MJ9jew4gmoMURybEuOo80OjzHNkPIrbzyk7Fp5WYwY1HspEDKXYnSwl5Gp6zAImnpBdXSNvVZ+h9ObnOmmQI/LBOdSxQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "cVlSANTL4fYeFSjQgPK2sX3tpyqtJIAPWgR4um19Gn55hBOklPkPKEMbuCG3sO9edCuO7itu91SprvtXv9II1XQsjwptFOHETth/PT9hTaH3P1/MZI6yAkyl9a0m6Z1ldp8iJYUucaTyQIzNRvUfZf/EyGITVVaYtk+4RtxUwv+692jrW9ZEy3cDNfaNTcmQHUyDob7/BdF5FHDO8YwAoY0y03Vzm+4OW0zC/pMN/XU2HmjtYKnazWJEzvCCggBSn5tp1qeaLaOdnNFVmYdqHoCjejxCpLguo8oOpLABaJeg5tO960koyRa7mWBj37YFL718vE1o4kmjNFFxD4u4uA=="
+  "assinatura_extras": "YF9l9rjUMH2lbZQRvbi0wXFWs2YJZgoBP2DeYpg/oeEz+SfSCiAZEt9KXe3xlhpqTZ9yXPndg1SQ06YM8ImqDD5NSVKQzqrb5N29+PtVWaFz11U00PMcM0CGcdSrWx4GLA1l8HQIgkgBQY+rViGmAlyTWd4/+IijZVmR/nZST9rmao5fORpRDhV5oBFKXuFwbTCUol8OKYSQR974u1qJ+GoxEJb4eHIAoSqhhi+aWAD4CYHXzLV+Pdz2kbdrZI89WsjVSz1Td/8F3PPrlQIQ1SW0RvJnPOSNVKWGMQtsA0fDsPQ5EJ/TEMtrZGVN0deInwvIvLULBE0/f/04NEZ8ig=="
 }
