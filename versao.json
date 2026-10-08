@@ -1,15 +1,13 @@
 {
-  "versao": "8.44",
+  "versao": "8.45",
   "data": "2026-10-08",
   "notas": [
-    "Bem mais rápido com a pasta da rede: o vilão era a lista de orçamentos. Cada orçamento guarda o desenho e o encaixe das peças, e o DXCORE relia todos eles a cada poucos segundos (23 s por vez), travando o resto. Agora os orçamentos são lidos uma vez e depois só o que mudou, igual aos clientes. Vale para qualquer lista pesada (OS, inspeções…).",
-    "Na primeira abertura depois da atualização, um computador organiza as listas (pode demorar um pouco essa única vez). Depois abre rápido em todos.",
-    "Teste de velocidade mostra também o tamanho de cada lista."
+    "Calculadora e Proposta em PDF abrem a lista de orçamentos mais rápido: a lista não copia mais cada orçamento inteiro (com desenhos) só para mostrar. Abrir um orçamento continua lendo ele completo."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2867156,
-  "sha256": "472d0ed6587f488265a628980d38061fe57fc4a74995f80230302d43d852861a",
-  "assinatura": "aSqF/lGBj0ixNRZ5TVbRd20rLKbtB9jme1esTJgrT6yUhrL0Yxm5HR6YzVM4NO8EmIi6XywUyamuUK5DG4GLxSrFKQXlL2PbwrpF92EitjWnylaH/TkcbfslD2+6wmpzR2Wc3cKO4NymZGDqe7DZrTi9VlRf3F1A7dMUHxRU77z0R2LjcNzv30hnFn7qUShAbSR7hnbTtdbHlrHupxG2adtPULf0yAqnWaD28rS+jKDp9bGNvS1k24sFyhgJFmMWtjA+UCo8oF1vPofT5/ksqHD7d944sxbrL+J/SohcCdz7AEHrK7U4M71K3TZ58yNGxe+B+wgca2htraFbRQoCIg==",
+  "tamanho": 2866800,
+  "sha256": "98dd8092dd854d5cba6906f2e5186647429554b9c88ce0cb991ab3beb68c3355",
+  "assinatura": "flAn+RJiH77AbleHXBbDVwdA/EO+iWxSxneQEm1aZ7KS9FPsnX+aTuSb1JGVS6ailZxOPSP8s1rO/hB2+U8abKetNlY0zZxazN+Dw1Uu3STDNUGlCUVgbGhSVF9+8D61jT3LPvB6+hn7thYzTIbIhOlgBE064nsah+pbdlz83MitIKBZvQZIboB42dTe+mUxHcAbHsVEgR6FAN7E4D0afHDO/tIvOTJZc7721RpZuE5USosPa6wy3NL6LSKWRxF8mf01RVmXiEp5rZHLBhpXPoNCtszsfTaATz+BcqtuTBbmOIql2C7r/HPLJ99+Md/KsJ0Wc+rccVO1pHJ76YjpWQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -32,5 +30,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "OBzMkndS4qhm+HWW6gespTkt8HJUeiPnZIGDbj7yjGcXyJY/AAhmNlM2emRRQALnoUd2zYc9GtwKePjBxb0Jy8H2SRQigZeu7Sfd1bRBR8OADiKszpCoPKUUZnJCbJBrYQI01q5lJvL5QabdBfKxkufD8kBmvHkhqW3b1EcpEAu5UbtvrxNJj079GFQtI/4hOXiu5LE3wi3iuJQoIcGN0i1hPv5EYEugMQZj29mM6KjIZosazJvQc2IO9ffpuDZmmt79I9Osxd3Ej0TsEFTjoboDpNzhr6xLXiO3ZiQ//wNlmFZY4tt80DAoDJiQAcFJxLcmo1QFle6+ailX/DSw1A=="
+  "assinatura_extras": "BpnNPGgkaacIrbwRxxYhXdykWqGC2YSFvYfwPQJOV6OG0QqW9truaDptwM7+OcdsJhK0QxjxxYkx+jSEvXfgI8AhEEw1m8GUQZM4FAD0N7rWCkhkIP4G7pvoiTU3FQjYMD3UO5IwZk9IsBUgzLp/aQNREjMKgnYzinR4n7w9HFVuTlo7hp5iJzjvZfdssvtGRzBxRVHTYgXemTYXF1vyetlDBjArAlavM1ImqrpcIeOZWIcgf3Ib/hmGYnmNw+bWK1bbNk9Z7P21uM2oM+47fdtBQlnv1eKsEpGNl7Kc3bZc9yqVF6OBhaZsTM3lqtKxQrCx7FL9tncWaq11VU4tpA=="
 }
