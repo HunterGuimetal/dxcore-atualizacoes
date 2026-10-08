@@ -1,14 +1,14 @@
 {
-  "versao": "8.40",
+  "versao": "8.41",
   "data": "2026-10-08",
   "notas": [
-    "Clientes: novo botão Importar planilha. Traz os clientes exportados do GreenApp (ou de qualquer Excel/CSV) de uma vez: o DXCORE liga as colunas sozinho, confere cada CNPJ/CPF, não duplica quem já está cadastrado (só completa o que está em branco) e mostra quem ficou de fora e por quê, com a lista para corrigir. Dá para desfazer a importação no final.",
-    "Endereço, CEP e inscrição estadual vão para as observações do cliente, e o código do cliente no ERP fica guardado na ficha."
+    "Aguenta milhares de clientes: a lista inteira agora é lida de uma vez só (um arquivo-resumo na pasta de dados) e depois cada computador relê apenas o que outro computador mudou. Antes, com 7 mil clientes, o DXCORE relia 7 mil arquivos a cada poucos segundos e travava. Na primeira vez que abrir depois da atualização, um computador organiza a lista (pode levar um pouco); depois fica rápido em todos.",
+    "Clientes: a tela mostra os 150 primeiros e a busca acha qualquer um pelo nome, nome fantasia ou CNPJ. Importar planilha grava várias fichas ao mesmo tempo e mostra o andamento, sem travar a tela."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2837176,
-  "sha256": "93277de9b5b033184e4b7e627efd807323427b3a72c4f8aefc3f2aca7fac9a0e",
-  "assinatura": "ODla3T2tf/NCFyaUsYYourK+lAaJvqzgPvY5cKv21czVj1qlv+t48gEtEEqh3AU57EEdAyRwnzMA0YJ/luduSg5by2WavwY930XxRNs420A3wAM98ouN97mkD3HZCVz9vY93Anm8hEAASkmbSI9c5s07Wqzul9URvRMZanR8DVqjeYATzrrYdXj2sIzGLmbSEMOVs2LuV31VGLTQ3Wwq98T5+D6TT9CBSot+DC/70/Rao6otfHsh6Lrbg0MJ9jew4gmoMURybEuOo80OjzHNkPIrbzyk7Fp5WYwY1HspEDKXYnSwl5Gp6zAImnpBdXSNvVZ+h9ObnOmmQI/LBOdSxQ==",
+  "tamanho": 2848380,
+  "sha256": "fd186df6a5358b6d15ed7b1201dc894e4e0a6e8fded2c3d01e01d49a8dd28b88",
+  "assinatura": "RIv82TyhCoJhsXJ4QHO5/9ZgxLKgqUmgEO6RW+3qRH1zIImjc/4lUZpCRQgoL3Z9jCK1usVZ37dngD954ausk2dKCuhfF7axJQ48K27leiegZWrxKv2m0eOZRbtmCs+s2ldA51WZkP3lDHCbq+f3fFFgfd39DqI50gEOLT5PQW7F60x4O7HTp3lr2Kg60t5YGPlrHC9rAq3x7snTyavUG6INWyEDMOc0Y1JRf/iTy0w4/0M3xuK8xDwQOdhxs0rxQgdSlQtyWfv7bWGJG8jsE6eZu+hnKB8TZNvkYUdBzx1PAJoOCctha1URGBb3gFDhzVATNQoFlBkHkebh3o2wXg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "YF9l9rjUMH2lbZQRvbi0wXFWs2YJZgoBP2DeYpg/oeEz+SfSCiAZEt9KXe3xlhpqTZ9yXPndg1SQ06YM8ImqDD5NSVKQzqrb5N29+PtVWaFz11U00PMcM0CGcdSrWx4GLA1l8HQIgkgBQY+rViGmAlyTWd4/+IijZVmR/nZST9rmao5fORpRDhV5oBFKXuFwbTCUol8OKYSQR974u1qJ+GoxEJb4eHIAoSqhhi+aWAD4CYHXzLV+Pdz2kbdrZI89WsjVSz1Td/8F3PPrlQIQ1SW0RvJnPOSNVKWGMQtsA0fDsPQ5EJ/TEMtrZGVN0deInwvIvLULBE0/f/04NEZ8ig=="
+  "assinatura_extras": "TSA8nhzIl6fp7+MSpJyuYl7qNMhswDjl/0KjM/WJ+XFjsMbtLmAbgM66BnD8kZezPKbuq0N8jfw9Xgk/Wvs45S/ZJ5NNDapK63lk7HeczzxnN6jbc4hbVws8HC8Ird8+1sxuy214L/BCVFL7jNE/mC10L4NWHyFPU+v3boYU0ggyMxXTRgHdzqJGsGa7Gh1vVX3lZRLuVFh/4A4eG7PMXIxSTFXnS/FGaFuowSFvl8AJ4G3IgvHnW3QPveraRUSB8mE1BztOrdR6AoIXHUXT+r3nYgQnuyK66MCkkXiG6zbhtltQfyz/IWXRYEQ4nF8wUiF7XJfhSKSL6u1dlPHQ2Q=="
 }
