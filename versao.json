@@ -1,13 +1,14 @@
 {
-  "versao": "8.47",
+  "versao": "8.48",
   "data": "2026-10-08",
   "notas": [
-    "Endereço próprio: o DXCORE e a página de acompanhamento do pedido agora ficam em dxcore.guimetal.com.br. Os links novos que o cliente recebe já saem com o endereço da GUIMETAL; os links antigos continuam funcionando (levam para o endereço novo)."
+    "Gerador/Editor: novas ferramentas Retângulo (tecla G, por dois cantos ou pelo centro, ou digitando 100 x 50) e Rasgo (tecla U, furo oblongo: centro das duas pontas e a largura, reto ou inclinado).",
+    "No painel, as medidas aparecem com até 3 casas (ex.: 197,134); o valor guardado continua exato."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2872348,
-  "sha256": "577d9ac3902fcd37d08e7a24e8154ee62891848b866ed23f1b5b3e3ec089eda3",
-  "assinatura": "jLPmQEIhdFp+acjCRyIdHMTpKQuzJzURcjZ/mZYXR3fOBZfkzzv5WAikVYcmSNh7Y6SnX0NtcyyQtoU5vRprcFgdCwOzQrGRlnVzzO1LcMIJhYCSUefxv5Go4PSWNytGehd+ho/omwgnOILZs1tDcq69L99nRV3GTnN6QhjIqfJeEaeqt1RF0qF4ctZf/piwPRuoN9MZnhX/iHCRi2nHRL7bkgzYQwJoHJQCAveOdctmQSt+WRSPxRL/L1N7VNn50B9eruoOzD/Ms2OcgdhmYxskN2C0DmUqpj7JFLG8efBZxihIPT004p5gynj/dOZVLnJTtHSlNkCO24amCW/B+Q==",
+  "tamanho": 2880544,
+  "sha256": "97b9ef703a963734459721ae1e5f5b9f931d6d40083724fdcd3c9e93ff77a1b8",
+  "assinatura": "EBwu0HUL0/XzAUWqG3DG+8qm/KwTfISCfURu1dBhZMPraahfOs1vypETqFEyTQnr1DS2WI8FkhR+l4YHrzRsI684MdQuSNActk4dqZwMcmIlS4hSSY2B7D0Kdl3CV4SqOZ6xJ0yNV59tscRRL9C7MugxrDBWuLiS6EfZy9T8JPJcPBtVNYR+vn62I26SJzCrU0vL8Nkn+0Eujf35UC/eDj1bADHueHro7UtLnjbViPqQQcbJZlq44isU72LNCiyhj4QRYd1GeJyFSbwdLAoxW5bD47RlasjOWWawtoJcKCSFpQ0C78cfV2Lid0VdC8WJBrTSYrHeNVt7iwaVtpkXPA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -30,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "ZcW4rnAmdOPH0Nl5DCWGmF2VOPwSSSAWThVSTiGEsh7EjujZ6cHX5Yfl2GWmocB0/AZLAbMB4d4taJpai3rvuKR/+JZK/MsiCggBO6hxYJdFpQZXwYjeZZz0iOZ6A7e1wkoq/RJBLANDOSYQhjaFOpUrcdS+1p12Tk/IP6tg9TYVVJomJFgFk9UkPph5dOStZXuRDs3+JMqJ91Sip/QPmhu/GKOMioxptxL/ozebsOEMVcTUvLbY/p9i3r2ekXw5ba4gAVQ8mHSApoVDLQRGeukjKUODPlDk1ceYFR0+Lx4NDFID6/qDbPoLRg9wd95gkbz/D5P35JFMG4UA4iOwAQ=="
+  "assinatura_extras": "cx+cJROB4Ee5j3+xFKQzCMq2vhBA1rIbgly+CGRGcBxXL6dEV2nQQh+zzpAxu4ztQMfQx626GHM6ZR/NE6koMBy4bGHNeLTkU4AU91KSmAvdcPI/awihk/pKr3drs2IYUkinL1ExLaK8hGqtZUz8/kQ8EftYa0wZpEz+DQc6wQN5q2l0lPDBdx7aI2mwc1gCzsfNZXjfg14zbzktrZM1bFOKmOj+B0tprokYviX3tEMnzw+N71AW3LGS1CcXCyu6OQGnaRNuIkqpGXxIC84GYrVmk19IvVTnWyOtP4vIbhBfAPu/RVq28Nid3Zit7D+FbCFMYy/4gQgXA8jttpjS9A=="
 }
