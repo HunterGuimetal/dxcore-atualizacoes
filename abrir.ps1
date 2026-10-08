@@ -49,6 +49,7 @@ function Web {
   try {
     $c = Get-Content (Join-Path $dir 'atualizacao.json') -Raw | ConvertFrom-Json
     if ($c.web) { return $c.web }
+    if ($c.repo -eq 'HunterGuimetal/dxcore-atualizacoes' -and -not $c.token) { return 'https://dxcore.guimetal.com.br/DXCORE.html' }
     if ($c.repo -and -not $c.token) { $p = $c.repo.Split('/'); return ('https://' + $p[0].ToLower() + '.github.io/' + $p[1] + '/DXCORE.html') }
   } catch {}
   return $null

@@ -1,18 +1,17 @@
 {
-  "versao": "8.46",
+  "versao": "8.47",
   "data": "2026-10-08",
   "notas": [
-    "Orçamentos em duas partes na pasta da rede: as listas (calculadora, proposta, painel, estoque, tela inicial) leem só o resumo de cada orçamento, e o desenho das peças é lido apenas quando você abre aquele orçamento. Os 74 orçamentos tinham 54 MB lidos a cada abertura; o resumo deles fica com poucos KB.",
-    "Na primeira abertura depois da atualização, um computador separa os orçamentos antigos (uma vez só, leva alguns segundos). Nada muda no uso: abrir, editar, aprovar, gerar PDF e clonar funcionam igual."
+    "Endereço próprio: o DXCORE e a página de acompanhamento do pedido agora ficam em dxcore.guimetal.com.br. Os links novos que o cliente recebe já saem com o endereço da GUIMETAL; os links antigos continuam funcionando (levam para o endereço novo)."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2872636,
-  "sha256": "e9c07384edc85438862af53f542e3a1a19c293ee16fc12530cd489c33aadbd18",
-  "assinatura": "fVuaEnbeM1qdwyNMbgfOT5DLsjqEv6ZBGKHYVSrDSmLsdaYFfWdjy6uUDwvsQF0q9Eq7RVc0FdKUiizmO6jyb/R8YLuZCmQxbVw3YrsHWmqEv+2stCTS/Xjgc3FmPF3/1xTUEKlPZapaLWPAW1Qb7Agn6Lq7rm45cn+ZrY4sUSJ1dGtHQlbi+MSofCB6aCqWWYtgsgvZw/ixOYSPouXA/6vaaIipn/dO3oqCSSar66WVMJd8xwndQ5CWeoxBDnO9H4VXE9dPesqTCHrQzjdVU+H2w43y9Wy7tZKMxRvHsKwlS9U79DOkNJlklVI4WdAdE+4Dd/tj0RAFL9m4m9G1Hg==",
+  "tamanho": 2872348,
+  "sha256": "577d9ac3902fcd37d08e7a24e8154ee62891848b866ed23f1b5b3e3ec089eda3",
+  "assinatura": "jLPmQEIhdFp+acjCRyIdHMTpKQuzJzURcjZ/mZYXR3fOBZfkzzv5WAikVYcmSNh7Y6SnX0NtcyyQtoU5vRprcFgdCwOzQrGRlnVzzO1LcMIJhYCSUefxv5Go4PSWNytGehd+ho/omwgnOILZs1tDcq69L99nRV3GTnN6QhjIqfJeEaeqt1RF0qF4ctZf/piwPRuoN9MZnhX/iHCRi2nHRL7bkgzYQwJoHJQCAveOdctmQSt+WRSPxRL/L1N7VNn50B9eruoOzD/Ms2OcgdhmYxskN2C0DmUqpj7JFLG8efBZxihIPT004p5gynj/dOZVLnJTtHSlNkCO24amCW/B+Q==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
-      "sha256": "b50a4d995aa216fcd5feb23b297ee2f32bf059bdca770df657163b8cb3d4440f"
+      "sha256": "1332cff9a33b75101ffcba223e7623b70956f767ba5a4dba2adee6c514bc440d"
     },
     {
       "arquivo": "abrir.vbs",
@@ -31,5 +30,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "UtHSrMHDXIOKDiHs+fBN/6a/aJsSH1W8EE14f/xFQLYwTzip8DgYTkKQff/V4dfbLKdFMyvHqkYS/I3IIhk4/pKSQuXqlrI82AulF0VcZL9uPnNZDPBOMpjSNS0TMo44yKHFyw40kzaLwStnUT9V9u19voybWK92YN2cIGxl6YV+HcV4Yqlk1I6bTR/T6GXgS4+5QqMc61zWmXuI6DzhoCYB+wQMQemwq8amajboAN9ZYKfP8TbtuoY6uOwkzuvh/2O6+jLrU+vNd0FPPjgIhSR8BYjktPdUtr/I5qBrtZCK1JoOO9tThdJaD9xCNEWZSl826oUPvEzGUAr//9mMIg=="
+  "assinatura_extras": "ZcW4rnAmdOPH0Nl5DCWGmF2VOPwSSSAWThVSTiGEsh7EjujZ6cHX5Yfl2GWmocB0/AZLAbMB4d4taJpai3rvuKR/+JZK/MsiCggBO6hxYJdFpQZXwYjeZZz0iOZ6A7e1wkoq/RJBLANDOSYQhjaFOpUrcdS+1p12Tk/IP6tg9TYVVJomJFgFk9UkPph5dOStZXuRDs3+JMqJ91Sip/QPmhu/GKOMioxptxL/ozebsOEMVcTUvLbY/p9i3r2ekXw5ba4gAVQ8mHSApoVDLQRGeukjKUODPlDk1ceYFR0+Lx4NDFID6/qDbPoLRg9wd95gkbz/D5P35JFMG4UA4iOwAQ=="
 }
