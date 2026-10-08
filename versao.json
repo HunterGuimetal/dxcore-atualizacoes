@@ -1,13 +1,14 @@
 {
-  "versao": "8.45",
+  "versao": "8.46",
   "data": "2026-10-08",
   "notas": [
-    "Calculadora e Proposta em PDF abrem a lista de orçamentos mais rápido: a lista não copia mais cada orçamento inteiro (com desenhos) só para mostrar. Abrir um orçamento continua lendo ele completo."
+    "Orçamentos em duas partes na pasta da rede: as listas (calculadora, proposta, painel, estoque, tela inicial) leem só o resumo de cada orçamento, e o desenho das peças é lido apenas quando você abre aquele orçamento. Os 74 orçamentos tinham 54 MB lidos a cada abertura; o resumo deles fica com poucos KB.",
+    "Na primeira abertura depois da atualização, um computador separa os orçamentos antigos (uma vez só, leva alguns segundos). Nada muda no uso: abrir, editar, aprovar, gerar PDF e clonar funcionam igual."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2866800,
-  "sha256": "98dd8092dd854d5cba6906f2e5186647429554b9c88ce0cb991ab3beb68c3355",
-  "assinatura": "flAn+RJiH77AbleHXBbDVwdA/EO+iWxSxneQEm1aZ7KS9FPsnX+aTuSb1JGVS6ailZxOPSP8s1rO/hB2+U8abKetNlY0zZxazN+Dw1Uu3STDNUGlCUVgbGhSVF9+8D61jT3LPvB6+hn7thYzTIbIhOlgBE064nsah+pbdlz83MitIKBZvQZIboB42dTe+mUxHcAbHsVEgR6FAN7E4D0afHDO/tIvOTJZc7721RpZuE5USosPa6wy3NL6LSKWRxF8mf01RVmXiEp5rZHLBhpXPoNCtszsfTaATz+BcqtuTBbmOIql2C7r/HPLJ99+Md/KsJ0Wc+rccVO1pHJ76YjpWQ==",
+  "tamanho": 2872636,
+  "sha256": "e9c07384edc85438862af53f542e3a1a19c293ee16fc12530cd489c33aadbd18",
+  "assinatura": "fVuaEnbeM1qdwyNMbgfOT5DLsjqEv6ZBGKHYVSrDSmLsdaYFfWdjy6uUDwvsQF0q9Eq7RVc0FdKUiizmO6jyb/R8YLuZCmQxbVw3YrsHWmqEv+2stCTS/Xjgc3FmPF3/1xTUEKlPZapaLWPAW1Qb7Agn6Lq7rm45cn+ZrY4sUSJ1dGtHQlbi+MSofCB6aCqWWYtgsgvZw/ixOYSPouXA/6vaaIipn/dO3oqCSSar66WVMJd8xwndQ5CWeoxBDnO9H4VXE9dPesqTCHrQzjdVU+H2w43y9Wy7tZKMxRvHsKwlS9U79DOkNJlklVI4WdAdE+4Dd/tj0RAFL9m4m9G1Hg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -30,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "BpnNPGgkaacIrbwRxxYhXdykWqGC2YSFvYfwPQJOV6OG0QqW9truaDptwM7+OcdsJhK0QxjxxYkx+jSEvXfgI8AhEEw1m8GUQZM4FAD0N7rWCkhkIP4G7pvoiTU3FQjYMD3UO5IwZk9IsBUgzLp/aQNREjMKgnYzinR4n7w9HFVuTlo7hp5iJzjvZfdssvtGRzBxRVHTYgXemTYXF1vyetlDBjArAlavM1ImqrpcIeOZWIcgf3Ib/hmGYnmNw+bWK1bbNk9Z7P21uM2oM+47fdtBQlnv1eKsEpGNl7Kc3bZc9yqVF6OBhaZsTM3lqtKxQrCx7FL9tncWaq11VU4tpA=="
+  "assinatura_extras": "UtHSrMHDXIOKDiHs+fBN/6a/aJsSH1W8EE14f/xFQLYwTzip8DgYTkKQff/V4dfbLKdFMyvHqkYS/I3IIhk4/pKSQuXqlrI82AulF0VcZL9uPnNZDPBOMpjSNS0TMo44yKHFyw40kzaLwStnUT9V9u19voybWK92YN2cIGxl6YV+HcV4Yqlk1I6bTR/T6GXgS4+5QqMc61zWmXuI6DzhoCYB+wQMQemwq8amajboAN9ZYKfP8TbtuoY6uOwkzuvh/2O6+jLrU+vNd0FPPjgIhSR8BYjktPdUtr/I5qBrtZCK1JoOO9tThdJaD9xCNEWZSl826oUPvEzGUAr//9mMIg=="
 }
