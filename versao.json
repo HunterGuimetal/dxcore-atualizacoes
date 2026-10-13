@@ -1,14 +1,14 @@
 {
-  "versao": "8.52",
+  "versao": "8.53",
   "data": "2026-10-13",
   "notas": [
-    "Orçamento: ao escolher o cliente aparece o histórico dele (orçamentos, aprovados e quanto fecha, quanto já comprou, ticket médio, OS em andamento, último aprovado e por que perdemos).",
-    "Calculadora: novo botão Indicadores com a conversão dos últimos 6 meses por mês e por vendedor, o valor aprovado, o ticket médio, os dias até aprovar e os motivos de perda."
+    "Backup automático: todo dia o DXCORE guarda sozinho uma cópia de todos os dados (clientes, OS, orçamentos, estoque, configurações) na pasta _backup da pasta de dados, mantendo os 10 últimos dias e o primeiro de cada mês. Em Backup dos dados dá para baixar a cópia ou recuperar o que foi apagado por engano.",
+    "Importar backup: cliente sem CNPJ não é mais confundido com outro cliente sem CNPJ."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2942548,
-  "sha256": "969eade0ef8c01b64ebb5c46ba401b3e675ccb979238b0db610d6f143f6bbc0c",
-  "assinatura": "asoxHutXGQnvOYf5Mf1t4uULBuwaIu1sA/Q5CB1b7g7r3D/H71GMBcb7RbW8XuOKGYnhN9gSoAKSAlcuW7tyxERvvG69SVlx9zGHpX/a/mhDUC9hz2WAtpB21+hJgTY5SxkdcNbYj5vQZHjkKLqxruzgb68xNbmirtxdBCszZ66zVEjD57JFPbJ31gK4u7aoY0FQ6K+b6zNnRpKd5yDrtudjHHS3siO27jZge6BkeWdMxrV2Lgziic1jdjQ2GazT91E0nXBaxjH1wD7iBhHx1WMXz7HjQLpI0aREKNJtnoqKHsCeKG/nTixOLtT7va935aiOG8kVzGsoQgs3IZ+hUQ==",
+  "tamanho": 2952040,
+  "sha256": "c0d3c59d65c58d0b6a28ebbbdc85ff04871b3553997e3fbcbf579ed5d1def0d8",
+  "assinatura": "SQAncNpGRcGurAiXt92Bvz6ZSyOG//eVoH74xZKJ8MyBmlVnqVxKKTv6BXB5YHhdradzeEVeAjuncHHIIcoakHGQZCtWBfL6UPlhJ/KSSowSIPV4nCtoNN94KDL7bVztvL/jcl4n8bDTbM215tKTAG67KFKVO8UNKNRvjiLHyZpC2U/7OfiCPyRYYn8mj+Y8c5xzjkSPJS4lQhOZTNRJUXXkC2eX5xm0NkX29pJ8PvF6mY21/aMH7VO8vrxTUvgheiyM+60McOW6EyCz3cu1xEk4IiDM2STCUQbNr4Q0nAvKPz/YwnEV60Wy/Um4t706QWSVyEHuHoslZee1mRBFEg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "Q8578hbyyDXP+r8x1u0Mp5TqgPHH/wGbR+BbC60ByqNYSpxVj36PRGR6gRIjnVvElYMa8u/dr/rjH9gPw24OnII8J1fAysSvJ0W4c/DGDdtL6Ke+o3hq/L9HRDnP79tzNz/9wECJoVSoj0n3tyclQuw4PUvq3EnDkDxam1Bwc1SuQbzEgiRXfiDe7PHZ8IkzLuxtuWCK26bdVDVLRg3lV5hzC2at5X4Ae1vmjOVuUOrGx5GZaHvLuKGmCNwjM4AZDzyaugmcKjy//gXUdLSCrtatzwtS8Pkksd8fCO8NSM0UL/r0/l11eIIwjbpEOZNllODl9/bBHDCOtyNmPcaCzg=="
+  "assinatura_extras": "RaJ7R9OW9LG95jgrye7L/+dRtpVN4hg7qvOOuMrI1suDXNDmbMAi7hxvVlfDPSepwqoeA3Bxpqr2sGYtJSCnhx/a+uD8SzIspxG+Q8h5ZfNN8twIzTF6y0EvjNrep0y27eGLLRhUsrajuRMfeKxBOtDthrt/gXnl0pLg6iPI4fpFf3X6m/M6znI4ONaei7KNZY81Gh53Bag895x8UguiubCvswpmr1UCL5iYWbeNOf8o1dhzAlhwSmYj3sCmhFJ7fB0OeBW2SlAJtgUYzht//dsXHJ218U4Y1yj8/MvdKcPw0Q0fJ7QtQuTYNUrxTHuNFzJzVjE0WoHHCRpGAvY4Mw=="
 }

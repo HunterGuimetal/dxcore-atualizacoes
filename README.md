@@ -1,9 +1,9 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.52** (2026-10-13)
+Versão atual: **8.53** (2026-10-13)
 
-- Orçamento: ao escolher o cliente aparece o histórico dele (orçamentos, aprovados e quanto fecha, quanto já comprou, ticket médio, OS em andamento, último aprovado e por que perdemos).
-- Calculadora: novo botão Indicadores com a conversão dos últimos 6 meses por mês e por vendedor, o valor aprovado, o ticket médio, os dias até aprovar e os motivos de perda.
+- Backup automático: todo dia o DXCORE guarda sozinho uma cópia de todos os dados (clientes, OS, orçamentos, estoque, configurações) na pasta _backup da pasta de dados, mantendo os 10 últimos dias e o primeiro de cada mês. Em Backup dos dados dá para baixar a cópia ou recuperar o que foi apagado por engano.
+- Importar backup: cliente sem CNPJ não é mais confundido com outro cliente sem CNPJ.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
