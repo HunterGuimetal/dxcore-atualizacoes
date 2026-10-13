@@ -1,14 +1,14 @@
 {
-  "versao": "8.50",
+  "versao": "8.51",
   "data": "2026-10-13",
   "notas": [
-    "Estoque: entrada de chapas pelo XML da NF-e do fornecedor. O DXCORE reconhece as chapas da nota (material, película, espessura ou bitola, tamanho), converte kg em chapas, mostra para conferir e guarda fornecedor, nota e custo por kg. A mesma nota não entra duas vezes.",
-    "Calculadora: nova aba \"Para cobrar\" com os orçamentos enviados há 3 dias ou mais sem resposta. O botão WhatsApp abre a conversa do cliente com a mensagem pronta e anota a cobrança; \"Perdido\" pergunta o motivo. A tela inicial avisa quantos orçamentos estão para cobrar."
+    "Quadro de produção: botões Iniciar, Pausar e Concluir no cartão da OS. O operador marca quando começa e termina cada etapa; Concluir já leva a OS para a próxima etapa.",
+    "Na OS, nova tabela Tempo de produção: tempo trabalhado em cada etapa comparado com o tempo de máquina do orçamento (corte e solda), e quanto o pedido rendeu por hora trabalhada."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2918884,
-  "sha256": "a3b89cf875edf122ee37fdc6cb24110eceeb10cb61fbbc5f0a780762e57fd10b",
-  "assinatura": "i+wwuMKx7EB974ECzkxorJ5YMdupOuyXlNRiCMFAV4pX9BqzS/cnJXswn0QWf9MxwtrUwWHL1s8Hbyu85dGv7mrxp+bm67xXSpfzRAOSfOnrGau6GTIyETtXBCW+8m7ShU72RSYrvJksTuAI0Nx5PiSU6L067RaJw6b53t/5laUqiQW+5weTx02sTmQIkzyiFcZ21rUI7wImsTT/DyCK+T0eBRTWoRqQGGqvG/EhE6icSb3wdKH0bjrvXK4IbVVvUSc+gWJ7/zGwRmCB8dQ9/nu+7e9IX5y+4dPC7lVlBGvxY4KDHiKguxed4AByso6e4FQriFV2u3gSt9KQdpr9sQ==",
+  "tamanho": 2931132,
+  "sha256": "8e6ae0d7d628e2c824c3737f3ae25a89630912ba51b07b67e4d43b5fed4ea71d",
+  "assinatura": "Fsv+FkKU6jabGOH0BsQDjxYFrLqV8HQH4w7pKvBcPhYcBHTU2KIPtjZ74Ik459HtXTfBeeteNAA5o0l0e55IxDi+UfNp2Z5gzhazuCjP6hNwJigMoRaeKr5vjrEluN2jNCkKhx8koQKSfSARh1sXTP3DTLxOi6gcQnV/BA6Wxfsl0HS2jh5lA4hjTARGdfalppnqeQi0M1IrYv/GCEa/RY/zZrO92A3Dx1DyZO4OntIg1SOyQ9gKZunqugBAuxphF6GYfTPx/tZbeN4nbrWEolOJqBcev8fWGzEuoMmc0KsW1rQKbCy6iWfGPXn4tVsXNehqpB0H3TmWlYiMMQsNTA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "JJa4y6dnSBD7+T7A/33cfYwQCo1rhB+hIQ66IB/JooBCg07rgexxtJjruLOZFyA9V5sp2U/awC1xCL7ACt2MavUImVWPFzGUWiJq2OcZtaewLZn7zugyyI6NMT5LGVskL9SegPd+HKx+Mv5YVyGmci9qepleXB46aW8Kgy3K+3rOetD/1qG1cFUf4nRXMQYSNZLfT5OaROST6HVm5lJ3cjEkAso6c2e7FNRynrHWGs2TF1SOifgh66KapxDfnnyXpUbUswSywT6ThrBevw2wv7uM6U6W0Ee6VWJ8TqsgrsqGSsUOf48G7EMufUqQrMejoOmpHXmEkOmFIdmrvSaJBg=="
+  "assinatura_extras": "Y5kPjBe2my3nk4wF4b4rTrs0EF7jIZz4he0eYc5UuxPYtr71QbV08+fIkVr+8NDsL/ek9MkIJ0v2JBIh9zoupclwJuCXmjtFcg0RNnxolAhYLHmyGZz01EG5o9rgq8vlSQRrHbh+EYjOjAn46DqlXeCkaLvWtTlueI43k/5m5MJYZHIDpiRBv2eEP9SD4yxwLtgvKuWnFxLFV6pTdLiO357be59spwGvPEiTYADOv/zBGkh5GIvs7BQ44aihYOyTejeoLP769bXnsMZR2KalsNBLm2dqZ86sqwU04B6vBcP4T5oSXiIqXvVjPPasU1LsKmm0/GOq8+yVapE6ONJiQQ=="
 }
