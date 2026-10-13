@@ -1,14 +1,14 @@
 {
-  "versao": "8.51",
+  "versao": "8.52",
   "data": "2026-10-13",
   "notas": [
-    "Quadro de produção: botões Iniciar, Pausar e Concluir no cartão da OS. O operador marca quando começa e termina cada etapa; Concluir já leva a OS para a próxima etapa.",
-    "Na OS, nova tabela Tempo de produção: tempo trabalhado em cada etapa comparado com o tempo de máquina do orçamento (corte e solda), e quanto o pedido rendeu por hora trabalhada."
+    "Orçamento: ao escolher o cliente aparece o histórico dele (orçamentos, aprovados e quanto fecha, quanto já comprou, ticket médio, OS em andamento, último aprovado e por que perdemos).",
+    "Calculadora: novo botão Indicadores com a conversão dos últimos 6 meses por mês e por vendedor, o valor aprovado, o ticket médio, os dias até aprovar e os motivos de perda."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2931132,
-  "sha256": "8e6ae0d7d628e2c824c3737f3ae25a89630912ba51b07b67e4d43b5fed4ea71d",
-  "assinatura": "Fsv+FkKU6jabGOH0BsQDjxYFrLqV8HQH4w7pKvBcPhYcBHTU2KIPtjZ74Ik459HtXTfBeeteNAA5o0l0e55IxDi+UfNp2Z5gzhazuCjP6hNwJigMoRaeKr5vjrEluN2jNCkKhx8koQKSfSARh1sXTP3DTLxOi6gcQnV/BA6Wxfsl0HS2jh5lA4hjTARGdfalppnqeQi0M1IrYv/GCEa/RY/zZrO92A3Dx1DyZO4OntIg1SOyQ9gKZunqugBAuxphF6GYfTPx/tZbeN4nbrWEolOJqBcev8fWGzEuoMmc0KsW1rQKbCy6iWfGPXn4tVsXNehqpB0H3TmWlYiMMQsNTA==",
+  "tamanho": 2942548,
+  "sha256": "969eade0ef8c01b64ebb5c46ba401b3e675ccb979238b0db610d6f143f6bbc0c",
+  "assinatura": "asoxHutXGQnvOYf5Mf1t4uULBuwaIu1sA/Q5CB1b7g7r3D/H71GMBcb7RbW8XuOKGYnhN9gSoAKSAlcuW7tyxERvvG69SVlx9zGHpX/a/mhDUC9hz2WAtpB21+hJgTY5SxkdcNbYj5vQZHjkKLqxruzgb68xNbmirtxdBCszZ66zVEjD57JFPbJ31gK4u7aoY0FQ6K+b6zNnRpKd5yDrtudjHHS3siO27jZge6BkeWdMxrV2Lgziic1jdjQ2GazT91E0nXBaxjH1wD7iBhHx1WMXz7HjQLpI0aREKNJtnoqKHsCeKG/nTixOLtT7va935aiOG8kVzGsoQgs3IZ+hUQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "Y5kPjBe2my3nk4wF4b4rTrs0EF7jIZz4he0eYc5UuxPYtr71QbV08+fIkVr+8NDsL/ek9MkIJ0v2JBIh9zoupclwJuCXmjtFcg0RNnxolAhYLHmyGZz01EG5o9rgq8vlSQRrHbh+EYjOjAn46DqlXeCkaLvWtTlueI43k/5m5MJYZHIDpiRBv2eEP9SD4yxwLtgvKuWnFxLFV6pTdLiO357be59spwGvPEiTYADOv/zBGkh5GIvs7BQ44aihYOyTejeoLP769bXnsMZR2KalsNBLm2dqZ86sqwU04B6vBcP4T5oSXiIqXvVjPPasU1LsKmm0/GOq8+yVapE6ONJiQQ=="
+  "assinatura_extras": "Q8578hbyyDXP+r8x1u0Mp5TqgPHH/wGbR+BbC60ByqNYSpxVj36PRGR6gRIjnVvElYMa8u/dr/rjH9gPw24OnII8J1fAysSvJ0W4c/DGDdtL6Ke+o3hq/L9HRDnP79tzNz/9wECJoVSoj0n3tyclQuw4PUvq3EnDkDxam1Bwc1SuQbzEgiRXfiDe7PHZ8IkzLuxtuWCK26bdVDVLRg3lV5hzC2at5X4Ae1vmjOVuUOrGx5GZaHvLuKGmCNwjM4AZDzyaugmcKjy//gXUdLSCrtatzwtS8Pkksd8fCO8NSM0UL/r0/l11eIIwjbpEOZNllODl9/bBHDCOtyNmPcaCzg=="
 }
