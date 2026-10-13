@@ -1,9 +1,9 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.48** (2026-10-08)
+Versão atual: **8.49** (2026-10-13)
 
-- Gerador/Editor: novas ferramentas Retângulo (tecla G, por dois cantos ou pelo centro, ou digitando 100 x 50) e Rasgo (tecla U, furo oblongo: centro das duas pontas e a largura, reto ou inclinado).
-- No painel, as medidas aparecem com até 3 casas (ex.: 197,134); o valor guardado continua exato.
+- Painel do dia: OS pronta (esperando entrega) não aparece mais como atrasada nem como "vence hoje". Atrasada é só a OS que ainda está em produção depois do prazo.
+- Orçamento de tubo: nova parte "Tubos (barras)" no resumo, com as barras desenhadas em 3D: cada peça numa cor, os cortes, a sobra, a garra da máquina e o aproveitamento de cada barra. O botão "Ver barras em 3D" abre em tela grande.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

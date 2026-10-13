@@ -1,14 +1,14 @@
 {
-  "versao": "8.48",
-  "data": "2026-10-08",
+  "versao": "8.49",
+  "data": "2026-10-13",
   "notas": [
-    "Gerador/Editor: novas ferramentas Retângulo (tecla G, por dois cantos ou pelo centro, ou digitando 100 x 50) e Rasgo (tecla U, furo oblongo: centro das duas pontas e a largura, reto ou inclinado).",
-    "No painel, as medidas aparecem com até 3 casas (ex.: 197,134); o valor guardado continua exato."
+    "Painel do dia: OS pronta (esperando entrega) não aparece mais como atrasada nem como \"vence hoje\". Atrasada é só a OS que ainda está em produção depois do prazo.",
+    "Orçamento de tubo: nova parte \"Tubos (barras)\" no resumo, com as barras desenhadas em 3D: cada peça numa cor, os cortes, a sobra, a garra da máquina e o aproveitamento de cada barra. O botão \"Ver barras em 3D\" abre em tela grande."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2880544,
-  "sha256": "97b9ef703a963734459721ae1e5f5b9f931d6d40083724fdcd3c9e93ff77a1b8",
-  "assinatura": "EBwu0HUL0/XzAUWqG3DG+8qm/KwTfISCfURu1dBhZMPraahfOs1vypETqFEyTQnr1DS2WI8FkhR+l4YHrzRsI684MdQuSNActk4dqZwMcmIlS4hSSY2B7D0Kdl3CV4SqOZ6xJ0yNV59tscRRL9C7MugxrDBWuLiS6EfZy9T8JPJcPBtVNYR+vn62I26SJzCrU0vL8Nkn+0Eujf35UC/eDj1bADHueHro7UtLnjbViPqQQcbJZlq44isU72LNCiyhj4QRYd1GeJyFSbwdLAoxW5bD47RlasjOWWawtoJcKCSFpQ0C78cfV2Lid0VdC8WJBrTSYrHeNVt7iwaVtpkXPA==",
+  "tamanho": 2893740,
+  "sha256": "d893b0cd021087d3f4fdee9846c13bd6cb3eb75ca93256b10a7a2c04d8cbe72e",
+  "assinatura": "aLpzkxHipurPUIraJSCg7FQTo9xoOU7+RcLA7BRzxT6tDHStTzEocQ2raY82vtP+cgkJ36mcavHel1k0xUQ8RFnwrhohXCG1lJ/hQQ+AtAhrHqlSFPNOjKbuVIWVsoOcyf9A+9a1nGUYpautS8COeEsRWMnEJ5TCay7/oISDtFM5T0RY0AO6i8g6fG4CkfGMG4QbmMa1eEVjmljYXVSszpFqCtMc9b/g+OwbHPxXDoHM3nF6ITO51d0MAspLsjaJuSpcC6asU8q4Vy1TWqjidvRa3i/C/2+5YumLEWkUVi+07EfXe2d+PbdRMfrz/L2c3oNYKGaTmwFZ1BvhSmTH9g==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "cx+cJROB4Ee5j3+xFKQzCMq2vhBA1rIbgly+CGRGcBxXL6dEV2nQQh+zzpAxu4ztQMfQx626GHM6ZR/NE6koMBy4bGHNeLTkU4AU91KSmAvdcPI/awihk/pKr3drs2IYUkinL1ExLaK8hGqtZUz8/kQ8EftYa0wZpEz+DQc6wQN5q2l0lPDBdx7aI2mwc1gCzsfNZXjfg14zbzktrZM1bFOKmOj+B0tprokYviX3tEMnzw+N71AW3LGS1CcXCyu6OQGnaRNuIkqpGXxIC84GYrVmk19IvVTnWyOtP4vIbhBfAPu/RVq28Nid3Zit7D+FbCFMYy/4gQgXA8jttpjS9A=="
+  "assinatura_extras": "ewDJb7WaUHQ2BswFRku9POEOObmxWVqi5jS9R+fInxY5MS2IhEIPWat+IIJCbBsCErTqLyReQAWixU/2QOcudVsxYKGEcEkME9ciwyA+W92EQoAAFYmCL7y86W3BJdpaVz9uzYJQEZrqyM2jmVKNxl/FmTqcSY5nCn4T6m9zfSHVmlQaVlilEfO7c1CF/+cDu9ITg3Ge0YOXP6tp7T+tv8JXtOLlw2Yd6sZAkOEK3qxVBTb00DZMGQqmbIqAbwXNZW9Uq1GSCXFG1EyqrvLR7gKcsrWWt91CxsyPyGLepWT0noOkaM+M2qAJLUMPj8CUqxxRfcFG68Gv2nU/32HAqw=="
 }
