@@ -1,9 +1,9 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.49** (2026-10-13)
+Versão atual: **8.50** (2026-10-13)
 
-- Painel do dia: OS pronta (esperando entrega) não aparece mais como atrasada nem como "vence hoje". Atrasada é só a OS que ainda está em produção depois do prazo.
-- Orçamento de tubo: nova parte "Tubos (barras)" no resumo, com as barras desenhadas em 3D: cada peça numa cor, os cortes, a sobra, a garra da máquina e o aproveitamento de cada barra. O botão "Ver barras em 3D" abre em tela grande.
+- Estoque: entrada de chapas pelo XML da NF-e do fornecedor. O DXCORE reconhece as chapas da nota (material, película, espessura ou bitola, tamanho), converte kg em chapas, mostra para conferir e guarda fornecedor, nota e custo por kg. A mesma nota não entra duas vezes.
+- Calculadora: nova aba "Para cobrar" com os orçamentos enviados há 3 dias ou mais sem resposta. O botão WhatsApp abre a conversa do cliente com a mensagem pronta e anota a cobrança; "Perdido" pergunta o motivo. A tela inicial avisa quantos orçamentos estão para cobrar.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

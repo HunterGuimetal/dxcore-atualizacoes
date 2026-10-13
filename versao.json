@@ -1,14 +1,14 @@
 {
-  "versao": "8.49",
+  "versao": "8.50",
   "data": "2026-10-13",
   "notas": [
-    "Painel do dia: OS pronta (esperando entrega) não aparece mais como atrasada nem como \"vence hoje\". Atrasada é só a OS que ainda está em produção depois do prazo.",
-    "Orçamento de tubo: nova parte \"Tubos (barras)\" no resumo, com as barras desenhadas em 3D: cada peça numa cor, os cortes, a sobra, a garra da máquina e o aproveitamento de cada barra. O botão \"Ver barras em 3D\" abre em tela grande."
+    "Estoque: entrada de chapas pelo XML da NF-e do fornecedor. O DXCORE reconhece as chapas da nota (material, película, espessura ou bitola, tamanho), converte kg em chapas, mostra para conferir e guarda fornecedor, nota e custo por kg. A mesma nota não entra duas vezes.",
+    "Calculadora: nova aba \"Para cobrar\" com os orçamentos enviados há 3 dias ou mais sem resposta. O botão WhatsApp abre a conversa do cliente com a mensagem pronta e anota a cobrança; \"Perdido\" pergunta o motivo. A tela inicial avisa quantos orçamentos estão para cobrar."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2893740,
-  "sha256": "d893b0cd021087d3f4fdee9846c13bd6cb3eb75ca93256b10a7a2c04d8cbe72e",
-  "assinatura": "aLpzkxHipurPUIraJSCg7FQTo9xoOU7+RcLA7BRzxT6tDHStTzEocQ2raY82vtP+cgkJ36mcavHel1k0xUQ8RFnwrhohXCG1lJ/hQQ+AtAhrHqlSFPNOjKbuVIWVsoOcyf9A+9a1nGUYpautS8COeEsRWMnEJ5TCay7/oISDtFM5T0RY0AO6i8g6fG4CkfGMG4QbmMa1eEVjmljYXVSszpFqCtMc9b/g+OwbHPxXDoHM3nF6ITO51d0MAspLsjaJuSpcC6asU8q4Vy1TWqjidvRa3i/C/2+5YumLEWkUVi+07EfXe2d+PbdRMfrz/L2c3oNYKGaTmwFZ1BvhSmTH9g==",
+  "tamanho": 2918884,
+  "sha256": "a3b89cf875edf122ee37fdc6cb24110eceeb10cb61fbbc5f0a780762e57fd10b",
+  "assinatura": "i+wwuMKx7EB974ECzkxorJ5YMdupOuyXlNRiCMFAV4pX9BqzS/cnJXswn0QWf9MxwtrUwWHL1s8Hbyu85dGv7mrxp+bm67xXSpfzRAOSfOnrGau6GTIyETtXBCW+8m7ShU72RSYrvJksTuAI0Nx5PiSU6L067RaJw6b53t/5laUqiQW+5weTx02sTmQIkzyiFcZ21rUI7wImsTT/DyCK+T0eBRTWoRqQGGqvG/EhE6icSb3wdKH0bjrvXK4IbVVvUSc+gWJ7/zGwRmCB8dQ9/nu+7e9IX5y+4dPC7lVlBGvxY4KDHiKguxed4AByso6e4FQriFV2u3gSt9KQdpr9sQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +31,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "ewDJb7WaUHQ2BswFRku9POEOObmxWVqi5jS9R+fInxY5MS2IhEIPWat+IIJCbBsCErTqLyReQAWixU/2QOcudVsxYKGEcEkME9ciwyA+W92EQoAAFYmCL7y86W3BJdpaVz9uzYJQEZrqyM2jmVKNxl/FmTqcSY5nCn4T6m9zfSHVmlQaVlilEfO7c1CF/+cDu9ITg3Ge0YOXP6tp7T+tv8JXtOLlw2Yd6sZAkOEK3qxVBTb00DZMGQqmbIqAbwXNZW9Uq1GSCXFG1EyqrvLR7gKcsrWWt91CxsyPyGLepWT0noOkaM+M2qAJLUMPj8CUqxxRfcFG68Gv2nU/32HAqw=="
+  "assinatura_extras": "JJa4y6dnSBD7+T7A/33cfYwQCo1rhB+hIQ66IB/JooBCg07rgexxtJjruLOZFyA9V5sp2U/awC1xCL7ACt2MavUImVWPFzGUWiJq2OcZtaewLZn7zugyyI6NMT5LGVskL9SegPd+HKx+Mv5YVyGmci9qepleXB46aW8Kgy3K+3rOetD/1qG1cFUf4nRXMQYSNZLfT5OaROST6HVm5lJ3cjEkAso6c2e7FNRynrHWGs2TF1SOifgh66KapxDfnnyXpUbUswSywT6ThrBevw2wv7uM6U6W0Ee6VWJ8TqsgrsqGSsUOf48G7EMufUqQrMejoOmpHXmEkOmFIdmrvSaJBg=="
 }
