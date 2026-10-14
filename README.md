@@ -1,13 +1,13 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.63** (2026-10-14)
+Versão atual: **8.64** (2026-10-14)
 
-- CAD · Desmembrar: a peça vira várias do mesmo projeto, cortando nas dobras escolhidas (caixa vira fundo + laterais para solda), separando peças soltas de um desenho ou o contorno selecionado. Mandar para o Limpar leva todas.
-- CAD · Etapas de fabricação por peça: o botão Sugerir monta pela peça (corte, gravação, roscas, dobras na ordem, solda); dá para editar a ordem. Saem no PDF com quadradinho para marcar.
-- Gerador: tubos como modelo (redondo, quadrado, retangular e oblongo), com peso por metro e botão Orçar tubo. STEP e IGES de tubo abrem direto como tubo.
-- Tubo redondo com rosca externa numa ou nas duas pontas, para porca: métrica ou BSP (gás) escolhida pelo Ø, chanfro de 45° na entrada e a rosca desenhada em 3D. Vai para o orçamento com o número de roscas.
-- IGES de chapa: agora abre no gerador e no Limpar, planificado como o STEP.
-- Orçamento: tubo oblongo e roscas no item de tubo.
+- Nova ferramenta TUBOS (no início, em Produção): o tubo deitado em 3D com o material de verdade. Redondo, quadrado, retangular, oblongo e barra redonda.
+- Tubos · Pontas: reta, em ângulo (meia-esquadria) e boca de lobo para soldar em tubo redondo, com o Ø do outro tubo, atravessado ou em pé, o ângulo entre eles e fora do centro.
+- Tubos · Furos, roscas (pré-furo), oblongos e recortes: clique no tubo onde quer (ou na parede desenrolada), em qualquer face; repetir em fila com passo; setas movem.
+- Tubos · Rosca externa na ponta do tubo redondo ou da barra, para porca (métrica ou gás/BSP), com chanfro de 45°.
+- Tubos · Parede desenrolada, peso, kg/m, corte exato, perfurações e quantas peças cabem na barra. Orçar tubo manda tudo exato para a Calculadora; Salvar e Abrir na pasta de dados.
+- Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

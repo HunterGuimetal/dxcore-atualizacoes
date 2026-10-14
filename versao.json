@@ -1,18 +1,18 @@
 {
-  "versao": "8.63",
+  "versao": "8.64",
   "data": "2026-10-14",
   "notas": [
-    "CAD · Desmembrar: a peça vira várias do mesmo projeto, cortando nas dobras escolhidas (caixa vira fundo + laterais para solda), separando peças soltas de um desenho ou o contorno selecionado. Mandar para o Limpar leva todas.",
-    "CAD · Etapas de fabricação por peça: o botão Sugerir monta pela peça (corte, gravação, roscas, dobras na ordem, solda); dá para editar a ordem. Saem no PDF com quadradinho para marcar.",
-    "Gerador: tubos como modelo (redondo, quadrado, retangular e oblongo), com peso por metro e botão Orçar tubo. STEP e IGES de tubo abrem direto como tubo.",
-    "Tubo redondo com rosca externa numa ou nas duas pontas, para porca: métrica ou BSP (gás) escolhida pelo Ø, chanfro de 45° na entrada e a rosca desenhada em 3D. Vai para o orçamento com o número de roscas.",
-    "IGES de chapa: agora abre no gerador e no Limpar, planificado como o STEP.",
-    "Orçamento: tubo oblongo e roscas no item de tubo."
+    "Nova ferramenta TUBOS (no início, em Produção): o tubo deitado em 3D com o material de verdade. Redondo, quadrado, retangular, oblongo e barra redonda.",
+    "Tubos · Pontas: reta, em ângulo (meia-esquadria) e boca de lobo para soldar em tubo redondo, com o Ø do outro tubo, atravessado ou em pé, o ângulo entre eles e fora do centro.",
+    "Tubos · Furos, roscas (pré-furo), oblongos e recortes: clique no tubo onde quer (ou na parede desenrolada), em qualquer face; repetir em fila com passo; setas movem.",
+    "Tubos · Rosca externa na ponta do tubo redondo ou da barra, para porca (métrica ou gás/BSP), com chanfro de 45°.",
+    "Tubos · Parede desenrolada, peso, kg/m, corte exato, perfurações e quantas peças cabem na barra. Orçar tubo manda tudo exato para a Calculadora; Salvar e Abrir na pasta de dados.",
+    "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3089412,
-  "sha256": "5c5611f2c9c2d21a75d58755a22802d8f9df370230322c2ab6f066fbc8060f32",
-  "assinatura": "MM1wzCWHUT08NsUSylXzLugdmkSsIW+TfkkebGt0wCN+xwkWntPLHGr/DdQ45SvgStHKEGDvRdFK49kaHEWVEN68q7aIj2bQPcg0ATtKNgCqrJ7kjJ/azpfcWjZaPr4aqH9sEcUa/SX2+sZlKadLTVYc6cM+bwqBrU9Y1scPlT7KhaM6FX24Zz4jDncvQOXzkIaT5Xn2sU2SYDBQiyvVLbVZhH4sACvRoPMLq1/7LaYI8mxUgyeWfqXk2x4d7oUQlOOezmUmJFjyc2EIUeoj/lbDfcjn2IJZrEehfciNASRfZOwXd7Q5MweYzxVXAC0HF+0Kj6nucfMXsgNrXU90nA==",
+  "tamanho": 3189376,
+  "sha256": "bbe9435dd6fe3e2d77d5f068183adc72626b547361439e1a50b972cc33fe7458",
+  "assinatura": "ckBQVMK75+33yImQe2Qz+GT54Z95LEyTzDl1BTZQO3uch+wclIiRNlFcyW9CiLqWeOxihbsyPMI60lw5kmCRMV2Zb1cUB6Yg512U2MUuhdKnqBShf92a5XsH158uZ3pRh5gyaYqNI8S1vZKkBNIzyqFwsNHJvCpLAhm+R+upgdPcipVMNPWQZJv4D0ncmcVXcNb+mv/cyKMyeZM7bpt5Za4jzws3GiWpro4v9MLqwph7+atW6WOtplVZ184UaYiw2oCe8qhlruTMr51JKoazptYM3u9NWmz7mbaChcGYxxtgd8/Bxk6w3qaLTIwR5dtIEWQM9E7CRx7rTACCfqKOig==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -35,5 +35,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "E/mCOGG3LDGor3Faaa8b4CSy9o37r01Qq0nid/t1glF8OErbnKOhfIXAWBv41bSJyTYRLv5NdqIeaFENqT+exm0z3bZBTAkiUWEu2iN/nkF1ZL0/ThCvX3xNNIH/rLl1G4HA0xzleJt/i4E5tGeNjuUl2u8DE0M6Z1qvBGW5YsZTj5xU3MhKR9iyUzvUFjgOeJ6SYvQRmo+AHhgHsZ8MZNwjnIk+grfCi5p0SU7aT0Ykl2FkOeVaDBLMDQr1CYWDBNE8arQXypjlXwig1UdkRuS3ad7Iaa0BHDqXGsEvs0jTPCwfpoDxA89Hi5MlTz32iQ7bg/UYDdCM5+VKvS1dCA=="
+  "assinatura_extras": "BdMtDCje/0joUAS2zS8xn6jHSUWMHKXw0s0eXiAYKdAM7z4g41/enFPFISyird3Oy+lcq6XaQJ/SU5ND6ENnq3sVoGwEZXFJs7BRX+IOqRX/T6SvW7Qg+gsJPou0KDc5aRhx37AYwA95eaK5shAIGn4uaWV8chplj8rVZhZC6K9QmirPIPUJlsDqhbjNt8IwSTHNSq0i32ZZg/AwIrmU9ncL31W3hFak7upKKGW6dYV370/YuJVudJ95oh53F4FFSM3EzaA26Na2JXhzjxAIZKqskANitqbRNBJ9gLzRHUxNB6ZBArJN4CGb5F8zwWH2kUGevVIpFe6BdFJ0VBQAAw=="
 }
