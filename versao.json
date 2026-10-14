@@ -1,16 +1,18 @@
 {
-  "versao": "8.54",
+  "versao": "8.55",
   "data": "2026-10-14",
   "notas": [
+    "Orçamento cobra a gravação a laser: a peça que vem do Limpar ou da biblioteca já traz os metros de gravação (campo Gravação por peça), que entram como tempo de máquina. A velocidade fica em Parâmetros e preços › Gravação a laser (padrão 6.000 mm/min).",
+    "Na proposta, a peça com gravação aparece como \"Corte a laser com gravação\". A biblioteca guarda a gravação junto com o DXF.",
     "CAD · Gravação a laser (tecla X): escreva código, nome ou lote na peça. Letra de traço simples, desenhada para o laser marcar rápido. Sai no DXF na camada GRAVACAO e no PDF da peça; dá para mudar texto, altura, ângulo e lugar pela árvore.",
     "CAD · Polígono (tecla P): sextavado, quadrado, oitavado e outros, pelo canto ou pela medida entre faces (como a chave). Dá para digitar a medida.",
     "CAD · Medir (tecla M): distância, ΔX, ΔY e ângulo entre dois pontos, e o comprimento, Ø ou raio do que está embaixo do mouse, sem mudar a peça.",
     "Limpar: a camada de gravação (GRAVACAO, ETCH, MARCAÇÃO) aparece em azul, vai junto no DXF limpo e não entra no comprimento de corte nem nas perfurações."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2976632,
-  "sha256": "ab6374499b2f13c7f9e4254c5eada28b20d765b90adfb8d81028519a3c3be6d3",
-  "assinatura": "OCOAjQ1Rz8LCaM4E4iZhbNKgTxph2CDZKbt9FhYhUUmNqFIGXzId2o75DB9w3lKb5iKlmoXBqrPYcSnLBntO7/WCKvAZsvrQpn+Ah7VTRvvE6EEnnaUd/FWLn/yvXd9b/KjMWbYKTzfsl+4qGKzjwm+ES6avhriI8rAiYwLKYix/CmWAq5HXvDSwpn3qHFhCAutyyb4aYCNGrm1kmlT18j2yTDj8QXTJGoLdiBcz/t2H2C/Nn8RTm6u+nG2DyTzPC3bfcLiV8TX0Pde8Rgmh6RvI9H51/t6ajQRSNQkLjjuspyAaarf3v9YTVCXJUcnBv/f2QbeKvvbdVe5m27KFBA==",
+  "tamanho": 2979640,
+  "sha256": "91dfe5dde537d05717fe82f205c8bc5eb07ee39803cc90eefdfdf3acc8091b0e",
+  "assinatura": "L+ljx4yKqN3Fw0OiZNqkZfRdnpfov4+JfsODFz3KGNdVBf8h7oR3UtfEqQ+Z85EOx/pou8q8k6xcbPjyog495Usw6Vf5kdrdZK8u4BNRymA/oyHSMHNbe8Q0myXa5TwDJQopYvG4Wi75NMfL6vOho8lshWgUHHN400LSEBzP2RgRonsT+o2br5UHMrQ97q5VJp7Pk7Ma/MVZMctFpGpMsZ5CivTte6iaaEwr7Vr1sCPi9WHhv6ufUU3xUUcQ2uuxRanNt5rHzUuqvVmMDXcH0nwantWc004fMPmS4ugwf8F30SUmqG9p8MaAIS88vJospOvVmGYYVorB/9BpSvnI5Q==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -33,5 +35,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "gCauO1W/GC3/B63/4cP5GolFLpYIdaKgS7NrJNpbUB+NAqbBcYm6fA1LcsJsIgKZNyFIyC/y2UwQllP9q8rwwhsKabLCQQYstOsc98pujEA79pVHjARWFR6B0mHILZuJ161QYjceojTnR9WRPdmwXCCi5TC29OvxngIsTRrQr0ewMxqbYSm3pw7pwTs/LIWr3E2TbvHDgLwsmHWy2LKAxUFqi3Qte9Nqd4WoWZ1+cIjqpf3IYo36M1coIKY9Z5slwg+anuelixr5leDeST5/lmKJjfpNLBn2c7yxSI69l1XoKpntf5hz2ZslAimpaDymt8dENMz7cE+BLpIaU/9ZSQ=="
+  "assinatura_extras": "Ww54+okVH1MWgDZBiugshcx8tTklYb2nYxPDttpq9owR2RqcRoJyt/fCO83UKBeyGhouztQU9FcPi0m0i+cgUVrhOnZe3CvCsq9WtLqzVmVo/bJii/AHMf9Agq8q7kRm8/VfmG2S/hTzsbe+lXmJGLR4OkNtXnzEFwRAOjJUIoTcraCwFY/IC4y7xAhHbJaY/NuDG0VKeLrqX+E2J0LN8fc+kF3YwCKkC6hfPV4d58u+pi4GKgA+ELK/JMH/qtnR+oIyCBLWnY2mfMi6G2wdDPDY2Zp43I+AT8rEM9m1Q4Z29dg/F2sDUPyjVdbK0CtuuPo5p8QEaqevL2TNZFXU4g=="
 }
