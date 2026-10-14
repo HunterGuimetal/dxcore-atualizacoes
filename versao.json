@@ -1,16 +1,16 @@
 {
-  "versao": "8.56",
+  "versao": "8.57",
   "data": "2026-10-14",
   "notas": [
+    "CAD · Caixa / bandeja por fora: em Novo, digite comprimento, largura e altura de fora e a planificada sai com raio e fator K de verdade (dobrada, bate a medida).",
+    "Cantos fechados para solda: as abas do comprimento cobrem a ponta das abas da largura, com folga ajustável (padrão 0,5 mm) e alívio onde as dobras se cruzam. Também dá para escolher cantos abertos.",
     "CAD · Texto vazado (stencil): na ferramenta Texto (tecla X), escolha Vazada. O laser corta as letras e as pontes seguram o miolo do O, A, B… (nada cai, fica só o vazado). Letra própria em estilo industrial; entra no corte e nas perfurações do orçamento.",
-    "A ferramenta Gravação virou Texto, com duas letras: Gravação (traço que só marca) e Vazada (corta). Dá para trocar uma pela outra na árvore.",
-    "Orçamento cobra a gravação a laser: a peça que vem do Limpar ou da biblioteca já traz os metros de gravação (campo Gravação por peça), que entram como tempo de máquina. A velocidade fica em Parâmetros e preços › Gravação a laser (padrão 6.000 mm/min).",
-    "Na proposta, a peça com gravação aparece como \"Corte a laser com gravação\". A biblioteca guarda a gravação junto com o DXF."
+    "A ferramenta Gravação virou Texto, com duas letras: Gravação (traço que só marca) e Vazada (corta). Dá para trocar uma pela outra na árvore."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2989176,
-  "sha256": "4b92d5d2b0ab5e9df7a3f908f4937050524c1504a69e068c5e4834971e286177",
-  "assinatura": "D4dwNNqiCoYNlBRLkJ8ydIz1GeP3aZcBk9bFcGIIdDwU9nmj1rIgTRTIVrgV9JgPWl80ck0NVvSknVpnLX4z1al/QdjGcJVcqeP7Sa91h3GlCAKMSE+fYsfWON8JzD7W2ECmypg9ieHb334e2Mg5xGIvqwuExwAVyzub5jjp4Vj71j93yl/1noneVR3ZYcHNpOrfK+Tec+yBcWhgN6SVOPA2XNak47z0cdVVIHwwfghaGJ9rNh1ZzsI36epQRWWLgenoSZACiakitgN2e5UEpsg25ZrzXMBf8kNwwJ8c9DGq3RgA/AH+CyZFDQRwYBJdo/BfiZ9wJj5z1Mle/jfvxA==",
+  "tamanho": 2993192,
+  "sha256": "eded900c24c879ff5c9142b1f0240308f64d981efc6218b426b7d78b72a22e83",
+  "assinatura": "dm4UnUi5hTfrr2Y1tDw66GZwyLPfWawJMqV2a2um05uv6OBaNQRDt15mJsvmwTZZ3kT0T7cFCGBsBaGBhQpWS3guwA6qt6p8r3GzKyYAjUqtS7veaPLRfd7S7h/jeEO5RbRNudj7Fk+d427IIYx3jgjoaI61pHCz8VeLC3K1baq+FKJqTbdvbjsnQnAQwtMh5oXwJQVevKGHIHCbqW0JBEVaM2vPP3usCYw29LGWBKtXxN1dy1+jUaQVCZxDc83FePTHT3QVnc91ivQEK5gUQ/cPGRegSlgl6Rbg6TJdp6EOrCUQrMhsfeFavYrY4jZdkpZwnXgRVuDgk29SqT+dMQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -33,5 +33,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "Xt+fdecFz70gLQAKDonY0qindbuSPvkmiWxmXXnc748lctJi/Rz79eq/K+XY++afMgHcNK6Xy0Q3v1qP8ZMmu+V1LRv2Svlgpf+JmMMO+W3oefTevx5tKTM0hSIwJ8vzXgUDGvuci7BolPVUhjD4ecitZ3WzxE2lYyeHyUWOLc15dMFK7OwfeJPSO3svvPzvfYdLWpD/+PllObtfVFo6SmOhe9qEGaQQS3qJKmFAUo6cDqQVRBvGwINVx4sWhWB2B9O96ZRPU/2s0eO/iPssFLuI+FSrQRJtkxTn77hIIcSRHZrYxE8OQkAw85031jFZvtjdS/XHY7bZ2KRkH7uqsQ=="
+  "assinatura_extras": "QP66IjikOqde8LGwfOWIkKIEReOEbQvKPZMVMA2Dsw1Wji+C/UELPXJIVkZfuWiBxxwmBVAw2iynvAtBuoEwH5YC4lEC028YnDxPlE4aD76KAQxyfvdQthRCIR7wu2R5sR+CLqJvdL9pTV/wVRhSfJxO4IB7XTB+oT2V5Tj7MXZe9EtcWm22pAp1yvqqP1i8+KG/W7J9t9s+ZuMjptUjkVjxB3S5ybDf11qIMnrk1UFGiC6Dn7UrLezA+Chjia6dOY9PWJy9PrVWbXSWupaGdiq2PCbXHnPQcjoFEueRhRFVqFdyCb7qOXB6y7QvkPHC27egzs1HcgxpYYBQWOYvNQ=="
 }
