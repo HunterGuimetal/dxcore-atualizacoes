@@ -1,9 +1,11 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.53** (2026-10-13)
+Versão atual: **8.54** (2026-10-14)
 
-- Backup automático: todo dia o DXCORE guarda sozinho uma cópia de todos os dados (clientes, OS, orçamentos, estoque, configurações) na pasta _backup da pasta de dados, mantendo os 10 últimos dias e o primeiro de cada mês. Em Backup dos dados dá para baixar a cópia ou recuperar o que foi apagado por engano.
-- Importar backup: cliente sem CNPJ não é mais confundido com outro cliente sem CNPJ.
+- CAD · Gravação a laser (tecla X): escreva código, nome ou lote na peça. Letra de traço simples, desenhada para o laser marcar rápido. Sai no DXF na camada GRAVACAO e no PDF da peça; dá para mudar texto, altura, ângulo e lugar pela árvore.
+- CAD · Polígono (tecla P): sextavado, quadrado, oitavado e outros, pelo canto ou pela medida entre faces (como a chave). Dá para digitar a medida.
+- CAD · Medir (tecla M): distância, ΔX, ΔY e ângulo entre dois pontos, e o comprimento, Ø ou raio do que está embaixo do mouse, sem mudar a peça.
+- Limpar: a camada de gravação (GRAVACAO, ETCH, MARCAÇÃO) aparece em azul, vai junto no DXF limpo e não entra no comprimento de corte nem nas perfurações.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

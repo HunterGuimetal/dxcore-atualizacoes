@@ -1,14 +1,16 @@
 {
-  "versao": "8.53",
-  "data": "2026-10-13",
+  "versao": "8.54",
+  "data": "2026-10-14",
   "notas": [
-    "Backup automático: todo dia o DXCORE guarda sozinho uma cópia de todos os dados (clientes, OS, orçamentos, estoque, configurações) na pasta _backup da pasta de dados, mantendo os 10 últimos dias e o primeiro de cada mês. Em Backup dos dados dá para baixar a cópia ou recuperar o que foi apagado por engano.",
-    "Importar backup: cliente sem CNPJ não é mais confundido com outro cliente sem CNPJ."
+    "CAD · Gravação a laser (tecla X): escreva código, nome ou lote na peça. Letra de traço simples, desenhada para o laser marcar rápido. Sai no DXF na camada GRAVACAO e no PDF da peça; dá para mudar texto, altura, ângulo e lugar pela árvore.",
+    "CAD · Polígono (tecla P): sextavado, quadrado, oitavado e outros, pelo canto ou pela medida entre faces (como a chave). Dá para digitar a medida.",
+    "CAD · Medir (tecla M): distância, ΔX, ΔY e ângulo entre dois pontos, e o comprimento, Ø ou raio do que está embaixo do mouse, sem mudar a peça.",
+    "Limpar: a camada de gravação (GRAVACAO, ETCH, MARCAÇÃO) aparece em azul, vai junto no DXF limpo e não entra no comprimento de corte nem nas perfurações."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2952040,
-  "sha256": "c0d3c59d65c58d0b6a28ebbbdc85ff04871b3553997e3fbcbf579ed5d1def0d8",
-  "assinatura": "SQAncNpGRcGurAiXt92Bvz6ZSyOG//eVoH74xZKJ8MyBmlVnqVxKKTv6BXB5YHhdradzeEVeAjuncHHIIcoakHGQZCtWBfL6UPlhJ/KSSowSIPV4nCtoNN94KDL7bVztvL/jcl4n8bDTbM215tKTAG67KFKVO8UNKNRvjiLHyZpC2U/7OfiCPyRYYn8mj+Y8c5xzjkSPJS4lQhOZTNRJUXXkC2eX5xm0NkX29pJ8PvF6mY21/aMH7VO8vrxTUvgheiyM+60McOW6EyCz3cu1xEk4IiDM2STCUQbNr4Q0nAvKPz/YwnEV60Wy/Um4t706QWSVyEHuHoslZee1mRBFEg==",
+  "tamanho": 2976632,
+  "sha256": "ab6374499b2f13c7f9e4254c5eada28b20d765b90adfb8d81028519a3c3be6d3",
+  "assinatura": "OCOAjQ1Rz8LCaM4E4iZhbNKgTxph2CDZKbt9FhYhUUmNqFIGXzId2o75DB9w3lKb5iKlmoXBqrPYcSnLBntO7/WCKvAZsvrQpn+Ah7VTRvvE6EEnnaUd/FWLn/yvXd9b/KjMWbYKTzfsl+4qGKzjwm+ES6avhriI8rAiYwLKYix/CmWAq5HXvDSwpn3qHFhCAutyyb4aYCNGrm1kmlT18j2yTDj8QXTJGoLdiBcz/t2H2C/Nn8RTm6u+nG2DyTzPC3bfcLiV8TX0Pde8Rgmh6RvI9H51/t6ajQRSNQkLjjuspyAaarf3v9YTVCXJUcnBv/f2QbeKvvbdVe5m27KFBA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -31,5 +33,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "RaJ7R9OW9LG95jgrye7L/+dRtpVN4hg7qvOOuMrI1suDXNDmbMAi7hxvVlfDPSepwqoeA3Bxpqr2sGYtJSCnhx/a+uD8SzIspxG+Q8h5ZfNN8twIzTF6y0EvjNrep0y27eGLLRhUsrajuRMfeKxBOtDthrt/gXnl0pLg6iPI4fpFf3X6m/M6znI4ONaei7KNZY81Gh53Bag895x8UguiubCvswpmr1UCL5iYWbeNOf8o1dhzAlhwSmYj3sCmhFJ7fB0OeBW2SlAJtgUYzht//dsXHJ218U4Y1yj8/MvdKcPw0Q0fJ7QtQuTYNUrxTHuNFzJzVjE0WoHHCRpGAvY4Mw=="
+  "assinatura_extras": "gCauO1W/GC3/B63/4cP5GolFLpYIdaKgS7NrJNpbUB+NAqbBcYm6fA1LcsJsIgKZNyFIyC/y2UwQllP9q8rwwhsKabLCQQYstOsc98pujEA79pVHjARWFR6B0mHILZuJ161QYjceojTnR9WRPdmwXCCi5TC29OvxngIsTRrQr0ewMxqbYSm3pw7pwTs/LIWr3E2TbvHDgLwsmHWy2LKAxUFqi3Qte9Nqd4WoWZ1+cIjqpf3IYo36M1coIKY9Z5slwg+anuelixr5leDeST5/lmKJjfpNLBn2c7yxSI69l1XoKpntf5hz2ZslAimpaDymt8dENMz7cE+BLpIaU/9ZSQ=="
 }
