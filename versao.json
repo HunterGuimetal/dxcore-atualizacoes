@@ -1,7 +1,8 @@
 {
-  "versao": "8.64",
+  "versao": "8.65",
   "data": "2026-10-14",
   "notas": [
+    "Proposta em PDF: nova aba Perdidos, com a data e o motivo da perda de cada orçamento. O botão Resgatar volta o orçamento para Enviado (entra de novo em Para cobrar) para tentar outra vez com o cliente.",
     "Nova ferramenta TUBOS (no início, em Produção): o tubo deitado em 3D com o material de verdade. Redondo, quadrado, retangular, oblongo e barra redonda.",
     "Tubos · Pontas: reta, em ângulo (meia-esquadria) e boca de lobo para soldar em tubo redondo, com o Ø do outro tubo, atravessado ou em pé, o ângulo entre eles e fora do centro.",
     "Tubos · Furos, roscas (pré-furo), oblongos e recortes: clique no tubo onde quer (ou na parede desenrolada), em qualquer face; repetir em fila com passo; setas movem.",
@@ -10,9 +11,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3189376,
-  "sha256": "bbe9435dd6fe3e2d77d5f068183adc72626b547361439e1a50b972cc33fe7458",
-  "assinatura": "ckBQVMK75+33yImQe2Qz+GT54Z95LEyTzDl1BTZQO3uch+wclIiRNlFcyW9CiLqWeOxihbsyPMI60lw5kmCRMV2Zb1cUB6Yg512U2MUuhdKnqBShf92a5XsH158uZ3pRh5gyaYqNI8S1vZKkBNIzyqFwsNHJvCpLAhm+R+upgdPcipVMNPWQZJv4D0ncmcVXcNb+mv/cyKMyeZM7bpt5Za4jzws3GiWpro4v9MLqwph7+atW6WOtplVZ184UaYiw2oCe8qhlruTMr51JKoazptYM3u9NWmz7mbaChcGYxxtgd8/Bxk6w3qaLTIwR5dtIEWQM9E7CRx7rTACCfqKOig==",
+  "tamanho": 3192124,
+  "sha256": "02e4657f450dd633856e3502b7884a5ee4288e415a23cd93ce83fc6dfecb2220",
+  "assinatura": "TgSz3Ta0zjqcyE/tmtoK7z6aUrJiZegze3RHDbIx56d4bcGjRj1HnfXJiosWaEV6XNFZf4LqiajyDyPHaIpGxLuSD/FgUyX9WMX32Ky6MLaRoHPBcPDS7yhK7NL8ZcA2C9hkfQcj31JqiO3ZNcIkIa6J+CzQ8KkjwcU/NP1G9IbUGv5lBH3xIIUPX9YGT8RHztN6IIS2bRe6pbCEU/jG/AjPlwqFhuOL2rYY+Y2zCLWdHgsKL3n4zRmnVmTjFpYUgP4rty9EmEC39BFa0wMb3TgvEfW20t0NhqpZM0p2CQZ86VNjk1HDb19TncO5aw9ITzQXmnrLhl7fgZB2T5QUnA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -35,5 +36,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "BdMtDCje/0joUAS2zS8xn6jHSUWMHKXw0s0eXiAYKdAM7z4g41/enFPFISyird3Oy+lcq6XaQJ/SU5ND6ENnq3sVoGwEZXFJs7BRX+IOqRX/T6SvW7Qg+gsJPou0KDc5aRhx37AYwA95eaK5shAIGn4uaWV8chplj8rVZhZC6K9QmirPIPUJlsDqhbjNt8IwSTHNSq0i32ZZg/AwIrmU9ncL31W3hFak7upKKGW6dYV370/YuJVudJ95oh53F4FFSM3EzaA26Na2JXhzjxAIZKqskANitqbRNBJ9gLzRHUxNB6ZBArJN4CGb5F8zwWH2kUGevVIpFe6BdFJ0VBQAAw=="
+  "assinatura_extras": "HfZX3Xy3oiftsTUnJIYuUamoNqVRnQjOxAL8m6wVejnZ2GYtM9XDoU1TmLWEaI+QLd/zAziqO3fK/bSNtX5CoxOcz0G3kxzErcuvEWGda577agpPJm6rAwaw0+OMQiX0JmiMiCFFGQgcsQXPvz1P+FsMFbw6v2RlYPO6n3iKib5k10GCieu+vfk+R/SgNGdx/TtRDZ+Lc2Cu2LyweqXYoAKr5Ku//4+rzIpHCKWAtJdtu9Oo1phO0Rbmr2SBitkhOZcnvd98Zi1TBIGQ/qLvn5S4haPm3Tqj+srRpzhe95BCEuTwp3kIvbfi3qcfoh3P4dfjKrWZJgHJSArp9oK1Wg=="
 }
