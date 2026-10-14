@@ -1,7 +1,10 @@
 {
-  "versao": "8.65",
+  "versao": "8.66",
   "data": "2026-10-14",
   "notas": [
+    "Tubos · Montagem: vários tubos no mesmo conjunto, cada um com posição e direção. Ramal: clique num tubo e sai outro dali, já encaixado.",
+    "Tubos · Encaixe automático: a ponta que encosta noutro tubo ganha a boca de lobo exata (qualquer ângulo, fora do centro) ou o corte plano na face do tubo quadrado; no canto, esquadria pela metade do ângulo. O comprimento se ajusta sozinho e acompanha as mudanças.",
+    "Tubos · Lista de corte do conjunto com peso total e barras por perfil; Orçar o conjunto manda todos os tubos para a Calculadora de uma vez.",
     "Proposta em PDF: nova aba Perdidos, com a data e o motivo da perda de cada orçamento. O botão Resgatar volta o orçamento para Enviado (entra de novo em Para cobrar) para tentar outra vez com o cliente.",
     "Nova ferramenta TUBOS (no início, em Produção): o tubo deitado em 3D com o material de verdade. Redondo, quadrado, retangular, oblongo e barra redonda.",
     "Tubos · Pontas: reta, em ângulo (meia-esquadria) e boca de lobo para soldar em tubo redondo, com o Ø do outro tubo, atravessado ou em pé, o ângulo entre eles e fora do centro.",
@@ -11,9 +14,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3192124,
-  "sha256": "02e4657f450dd633856e3502b7884a5ee4288e415a23cd93ce83fc6dfecb2220",
-  "assinatura": "TgSz3Ta0zjqcyE/tmtoK7z6aUrJiZegze3RHDbIx56d4bcGjRj1HnfXJiosWaEV6XNFZf4LqiajyDyPHaIpGxLuSD/FgUyX9WMX32Ky6MLaRoHPBcPDS7yhK7NL8ZcA2C9hkfQcj31JqiO3ZNcIkIa6J+CzQ8KkjwcU/NP1G9IbUGv5lBH3xIIUPX9YGT8RHztN6IIS2bRe6pbCEU/jG/AjPlwqFhuOL2rYY+Y2zCLWdHgsKL3n4zRmnVmTjFpYUgP4rty9EmEC39BFa0wMb3TgvEfW20t0NhqpZM0p2CQZ86VNjk1HDb19TncO5aw9ITzQXmnrLhl7fgZB2T5QUnA==",
+  "tamanho": 3224376,
+  "sha256": "fb4d05a0d31aa7343cddee6c369705aaf292f99c0847d66941fe8ffe98566991",
+  "assinatura": "fuIZBtaSzIU1P420CCgnhkUQ/pCHtFyo15Te/PHAcdbNxXHhso7QrzKvgI9OmIO5L9W5J3lnafYuUhgLW5qCNaAcMFVVE5/1rYAuFGOGQaDw4ayne+5EWdbNxJW2tLM7sbfN8RaVbMlxrHMgo7FrHJkFOA/ZqKhNiMRPbuECEh/j4s4/3OjX31xdeDjvofQ8CMNpJ41saRHJUocOnrOHHfBzykIQ6HapkjRum9EG6ikhXAua5n8mZpyRYDYOvu7GaGVyyCUvZTmyuXnDBJTJ5Y54OXJrwPt5UYsD992TUf6Yau1llJtJ+ZBiik33fIqnX95cDKz3rbp82r5y3Jk76A==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -36,5 +39,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "HfZX3Xy3oiftsTUnJIYuUamoNqVRnQjOxAL8m6wVejnZ2GYtM9XDoU1TmLWEaI+QLd/zAziqO3fK/bSNtX5CoxOcz0G3kxzErcuvEWGda577agpPJm6rAwaw0+OMQiX0JmiMiCFFGQgcsQXPvz1P+FsMFbw6v2RlYPO6n3iKib5k10GCieu+vfk+R/SgNGdx/TtRDZ+Lc2Cu2LyweqXYoAKr5Ku//4+rzIpHCKWAtJdtu9Oo1phO0Rbmr2SBitkhOZcnvd98Zi1TBIGQ/qLvn5S4haPm3Tqj+srRpzhe95BCEuTwp3kIvbfi3qcfoh3P4dfjKrWZJgHJSArp9oK1Wg=="
+  "assinatura_extras": "HIdh53temTkJHLK2XsejHie9f/nDl1xMzoz6MGSsjYzV7dOFfgp1IdlwES8BHIMLR/SIy/HMMdLdyFcX2QyGzz6VdCnvlalvjwsmo8A1fLpWZAb8Y+Yk7U+jhoUjPmvtw23f/CcuADJ+FfST9QtzDpBqBex+Gb6HUGu0c5nKJU2w1v0Xj0cqdiE+iR0ZBDfKFLxdhqRhqmQ7EHoWHDzD/cpvaEZPsyZyyUWbqMHIjbAFRjwfbupLxmaJjatL/qdpNCdHSX6ty/ZE0lscXnFSdLg1ocgYNV2REezCCd26vN5DG8EOUg9RRXWVauitfgXE2cVPAg/ty/FRsh9TjfQ/zg=="
 }
