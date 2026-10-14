@@ -1,17 +1,19 @@
 {
-  "versao": "8.61",
+  "versao": "8.62",
   "data": "2026-10-14",
   "notas": [
+    "Gerador: tubos como modelo (redondo, quadrado, retangular e oblongo), com peso por metro e botão Orçar tubo. STEP e IGES de tubo abrem direto como tubo.",
+    "Tubo redondo com rosca externa numa ou nas duas pontas, para porca: métrica ou BSP (gás) escolhida pelo Ø, chanfro de 45° na entrada e a rosca desenhada em 3D. Vai para o orçamento com o número de roscas.",
+    "IGES de chapa: agora abre no gerador e no Limpar, planificado como o STEP.",
+    "Orçamento: tubo oblongo e roscas no item de tubo.",
     "STEP do SolidWorks: corrigida a leitura que deixava a peça \"de lado\" e cortada pela metade. A espessura agora vem pela área das faces (antes, rasgos e furos oblongos confundiam).",
     "Chapa com dobras em mais de uma direção (abas em volta, orelhas, suporte com dobras cruzadas) agora planifica. Aba que sai de dentro de uma janela ganha 0,2 mm de folga de cada lado para o laser separar.",
-    "CAD com visual realista: material de verdade (aço carbono, inox escovado, galvanizado, alumínio, latão, cobre), reflexo de estúdio, sombra e borda do corte. O botão Realista liga e desliga.",
-    "CAD · Furo padrão como no SolidWorks: na ferramenta Furo escolha Passante (M3 a M20) ou Rosca (M3 a M20). Na rosca o laser corta o pré-furo certo (M6 → Ø5, M8 → Ø6,8…) e a rosca aparece desenhada em azul.",
-    "As roscas vão no carimbo do DXF e chegam sozinhas no orçamento (Roscas por peça), cobradas pelo preço por rosca de Parâmetros e preços (padrão R$ 2,00). No PDF aparecem como \"4× M6\"."
+    "CAD com visual realista: material de verdade (aço carbono, inox escovado, galvanizado, alumínio, latão, cobre), reflexo de estúdio, sombra e borda do corte. O botão Realista liga e desliga."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3048060,
-  "sha256": "9580c05099e3fcc17e44e49cf289ae424dc8a490d1dd6094cde17b7b2019f67d",
-  "assinatura": "Ps1PeTyyaoEEC4i5xc/TbdWxy7YB5WTnd4BHIRGAxIQlszC2S3dHC9w6Q6281UdqhHKPSPJdBLl55h/GUiIhzwvq6a7colTGPvg3e8LJISLwXzUp4o+SwPKjh1frXspV/UnpTSfGAhTRKbf2clNHm52od2a8bhQDbpHuVpjcWjJdMWXsjqEAD3hjsaEZ0x8O2oCnHbVjfh7oWHsLLfmZpceAcx95RTBS/RaUltzUzFik5amSmPBL0SJxMiEJ7KgumtXBRTeifQIdh9YWpULuVEyYT+2e8k3Q479sBPbZba/eaWfbqVtPzceDc3JC281RuILC7GYrrQjb6yrrUQSM7A==",
+  "tamanho": 3070616,
+  "sha256": "4d6ebee256df3111633ec0dc9606afda649f23d90f60a24f96d73e554f428c9e",
+  "assinatura": "bnJkeNy77F1nJ8MwEp2vMlvTUr4mX+iHH9w5cD4S7MxXidjvvH3RDWIAllpkb9j7ukInu2GRdrKjkCRAcCtXtfIP+DTHXXK79hqVL/y1RkuaDwvmOqKZTN7tPlE1gQmvcXtGreeciNtF9BUnNcX4xNj2TAFgIWaVe912KjaIpIqq45rW8onMi563kDMUq57M3Yaa9gJF0owoKPdqCYFUH3I5ay4A21jd5rlS8mJyTNh6c8P+t7XsjcQ9JYL3tnJ2mlDELecy+Hz2koMhHjdyZFWSn8vVV3/Tkse4m9W+CElKyeV87MDtY9Al5ZKBsUloEymEoU+i0Luaz82dMUSlYg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -34,5 +36,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "g/0NScwyuDpieLLmh/MnQrgYRYGbxJs8hhmqN3dUxD+k7bIO4SL8Pvzii4bBFCotGEiZgGoYiE8V+uc1AbWhu3onoRAm9+TXaClB45/vSiRzAhBbVFQnbJHXrq+Qg12Daa2pgXHabhRLhPzFVjIMiu8+pCxTY8l9TiqrqAE1L18K/scJF8rD/J87fzEe6mbRRmwJYPin0MAqIJuQd+NaEcGwyKCGuV40UgL4RMyQEgDqEFreRyN7OlDYhbYxCArVUMXDLBMi1pHciqZ1aBhv+PY+sIDGBVvyKXWLaAZS5MPaSIOqasdrhbH457+/RkBGmyu7wptwQyqUH6lEoFjD2g=="
+  "assinatura_extras": "DPyF/CGKYoWSAhTYgr0k/bStGDUQf6JCCeiLglzkYIwMkrZXBXKt1E8ewa0mOQ8FQtCfYO7Ld7PJz0Kh3d0ev0HG1agjPAg6aSNCjHK2/k9ca8LXH8pMy83ucFGnO+lCufSAhxUmtSIBaR7bwcoZ9B7anv6u6RURL0Fn92OjRgAiW2UqZVXSgoYEyTwSIovnnuTl5lgn04Sh8Xbn77+BV8Xv4RnCc87kVc/c0MAkE8EppXeUi+cBzgfvHJULvNIiubAq+NadkTX2jWn3gAiR7qKNhsSXdl8fA0ao6X+fhzL4E1qZIkoefXNq0r9AiaEoC2K6LvC2ZRpUN9Le844+fA=="
 }
