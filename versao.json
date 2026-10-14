@@ -1,18 +1,16 @@
 {
-  "versao": "8.55",
+  "versao": "8.56",
   "data": "2026-10-14",
   "notas": [
+    "CAD · Texto vazado (stencil): na ferramenta Texto (tecla X), escolha Vazada. O laser corta as letras e as pontes seguram o miolo do O, A, B… (nada cai, fica só o vazado). Letra própria em estilo industrial; entra no corte e nas perfurações do orçamento.",
+    "A ferramenta Gravação virou Texto, com duas letras: Gravação (traço que só marca) e Vazada (corta). Dá para trocar uma pela outra na árvore.",
     "Orçamento cobra a gravação a laser: a peça que vem do Limpar ou da biblioteca já traz os metros de gravação (campo Gravação por peça), que entram como tempo de máquina. A velocidade fica em Parâmetros e preços › Gravação a laser (padrão 6.000 mm/min).",
-    "Na proposta, a peça com gravação aparece como \"Corte a laser com gravação\". A biblioteca guarda a gravação junto com o DXF.",
-    "CAD · Gravação a laser (tecla X): escreva código, nome ou lote na peça. Letra de traço simples, desenhada para o laser marcar rápido. Sai no DXF na camada GRAVACAO e no PDF da peça; dá para mudar texto, altura, ângulo e lugar pela árvore.",
-    "CAD · Polígono (tecla P): sextavado, quadrado, oitavado e outros, pelo canto ou pela medida entre faces (como a chave). Dá para digitar a medida.",
-    "CAD · Medir (tecla M): distância, ΔX, ΔY e ângulo entre dois pontos, e o comprimento, Ø ou raio do que está embaixo do mouse, sem mudar a peça.",
-    "Limpar: a camada de gravação (GRAVACAO, ETCH, MARCAÇÃO) aparece em azul, vai junto no DXF limpo e não entra no comprimento de corte nem nas perfurações."
+    "Na proposta, a peça com gravação aparece como \"Corte a laser com gravação\". A biblioteca guarda a gravação junto com o DXF."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 2979640,
-  "sha256": "91dfe5dde537d05717fe82f205c8bc5eb07ee39803cc90eefdfdf3acc8091b0e",
-  "assinatura": "L+ljx4yKqN3Fw0OiZNqkZfRdnpfov4+JfsODFz3KGNdVBf8h7oR3UtfEqQ+Z85EOx/pou8q8k6xcbPjyog495Usw6Vf5kdrdZK8u4BNRymA/oyHSMHNbe8Q0myXa5TwDJQopYvG4Wi75NMfL6vOho8lshWgUHHN400LSEBzP2RgRonsT+o2br5UHMrQ97q5VJp7Pk7Ma/MVZMctFpGpMsZ5CivTte6iaaEwr7Vr1sCPi9WHhv6ufUU3xUUcQ2uuxRanNt5rHzUuqvVmMDXcH0nwantWc004fMPmS4ugwf8F30SUmqG9p8MaAIS88vJospOvVmGYYVorB/9BpSvnI5Q==",
+  "tamanho": 2989176,
+  "sha256": "4b92d5d2b0ab5e9df7a3f908f4937050524c1504a69e068c5e4834971e286177",
+  "assinatura": "D4dwNNqiCoYNlBRLkJ8ydIz1GeP3aZcBk9bFcGIIdDwU9nmj1rIgTRTIVrgV9JgPWl80ck0NVvSknVpnLX4z1al/QdjGcJVcqeP7Sa91h3GlCAKMSE+fYsfWON8JzD7W2ECmypg9ieHb334e2Mg5xGIvqwuExwAVyzub5jjp4Vj71j93yl/1noneVR3ZYcHNpOrfK+Tec+yBcWhgN6SVOPA2XNak47z0cdVVIHwwfghaGJ9rNh1ZzsI36epQRWWLgenoSZACiakitgN2e5UEpsg25ZrzXMBf8kNwwJ8c9DGq3RgA/AH+CyZFDQRwYBJdo/BfiZ9wJj5z1Mle/jfvxA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -35,5 +33,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "Ww54+okVH1MWgDZBiugshcx8tTklYb2nYxPDttpq9owR2RqcRoJyt/fCO83UKBeyGhouztQU9FcPi0m0i+cgUVrhOnZe3CvCsq9WtLqzVmVo/bJii/AHMf9Agq8q7kRm8/VfmG2S/hTzsbe+lXmJGLR4OkNtXnzEFwRAOjJUIoTcraCwFY/IC4y7xAhHbJaY/NuDG0VKeLrqX+E2J0LN8fc+kF3YwCKkC6hfPV4d58u+pi4GKgA+ELK/JMH/qtnR+oIyCBLWnY2mfMi6G2wdDPDY2Zp43I+AT8rEM9m1Q4Z29dg/F2sDUPyjVdbK0CtuuPo5p8QEaqevL2TNZFXU4g=="
+  "assinatura_extras": "Xt+fdecFz70gLQAKDonY0qindbuSPvkmiWxmXXnc748lctJi/Rz79eq/K+XY++afMgHcNK6Xy0Q3v1qP8ZMmu+V1LRv2Svlgpf+JmMMO+W3oefTevx5tKTM0hSIwJ8vzXgUDGvuci7BolPVUhjD4ecitZ3WzxE2lYyeHyUWOLc15dMFK7OwfeJPSO3svvPzvfYdLWpD/+PllObtfVFo6SmOhe9qEGaQQS3qJKmFAUo6cDqQVRBvGwINVx4sWhWB2B9O96ZRPU/2s0eO/iPssFLuI+FSrQRJtkxTn77hIIcSRHZrYxE8OQkAw85031jFZvtjdS/XHY7bZ2KRkH7uqsQ=="
 }
