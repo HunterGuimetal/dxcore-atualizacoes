@@ -1,16 +1,17 @@
 {
-  "versao": "8.59",
+  "versao": "8.60",
   "data": "2026-10-14",
   "notas": [
+    "CAD · Furo padrão como no SolidWorks: na ferramenta Furo escolha Passante (M3 a M20) ou Rosca (M3 a M20). Na rosca o laser corta o pré-furo certo (M6 → Ø5, M8 → Ø6,8…) e a rosca aparece desenhada em azul.",
+    "As roscas vão no carimbo do DXF e chegam sozinhas no orçamento (Roscas por peça), cobradas pelo preço por rosca de Parâmetros e preços (padrão R$ 2,00). No PDF aparecem como \"4× M6\".",
     "Caixa / bandeja: furos nas paredes (quantidade, Ø e altura do centro em cada aba do comprimento e da largura) e alça oblonga nas abas da largura. Já sai tudo na posição certa da planificada.",
     "Caixa / bandeja: no canto fechado, escolha quem passa por fora (abas do comprimento ou da largura).",
-    "PDF da peça: a planificada ganha as cotas de posição dos furos (X em cima, Y à esquerda, a partir do canto de baixo à esquerda).",
-    "PDF da peça com desenho técnico: a página 2 mostra a peça dobrada em três vistas (frente, superior e lateral, 1º diedro) com as medidas por fora, e a tabela de furos (F1, F2… com X, Y e Ø). Os furos aparecem numerados na planificada."
+    "PDF da peça: a planificada ganha as cotas de posição dos furos (X em cima, Y à esquerda, a partir do canto de baixo à esquerda)."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3009544,
-  "sha256": "c5c7d8f95cf96ba9004a1415337ff0c5890c2b9ba340b8cc197a0dcd8829b54f",
-  "assinatura": "kFvljid3f60l0hVBIVfGat+kCCiRDcXuPJ8EqrnRsweLaMr3kXJyvypk1xHzqxSOaGeuWEMfJK3rE41GN7VBJTmhe2OqPNisCd3/UJ3RTz061+koX81ao1K8sCAm9U+DprhKGB6tNjQ6fA/6FQNzvNHdi/fvd168a5mtOInMr4j5X1U912fYv5THVr6qg0ZDatWmetLLeeulcMki/nzX/xS49xi3WHooYNsH14lPfW2OqI0M0kcgGIbOW6xfILpudDAbOuBZZGYcpXtXLkwqUn487b31oKze1/7F8Cb4KGeZFXCiAEDI/57yD6VHJ6s4wxyOfnaXzxRkFS2ghkM/EQ==",
+  "tamanho": 3016716,
+  "sha256": "fc96d367ed68b7ba616fdabebeda07d1e30e30e639db5b20eed428329d675cb2",
+  "assinatura": "EviMrEl8tbmEGKUZKwQNf/5RXTgOOoBwLJJPoYRRAO6Eq8JpPT8y2AHWeO4P4LFsCuoZEMpsT5VKt7UX6z0PL5Ev/Wg+R3Uv906j0qLgYtkDTp9W0QMxyyYHjVM7Y1+RYKca5NR2zbhu5SNbJnAJR1i8G/ZLj+z5fzshEgTTvEDCCGOq9ywssaLwUi1VGGXVupA5/Rr0m25aocNnBh/AT5jFDLs3rAp5Hus/iKlPeuXxtqx1rmVaV9zuYiuExZa59oCMmf3s2eS75hdURfFAcE39aQhAWl4YcsQuO5jNkXzIUokMhctdlkQr++Lm3kJCu0sLQQAbxHg4vpbMNfwpLQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -33,5 +34,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "gOTuiRuXiOZUVWEgnxM+mA0AJIioSbMgiyTZljjpg0GIPTgmYBt9WNuFegExDHYdyTPTccjJVtD+ycbXvsCRQ3hoRNYK+XavIKCmezTZutlmodJqILhbS2ogm3jB+GHwFPW3YAVYQ9VLF9azpUv17CQ+yrYLkzmNe4E1tuLFqxpCXw4bh1FZyUQ5aSszHZe5DofhrDSXZOnIpspeia/exQtsdFDJKIKE32O3SCVb+4netJUDtxpnHRI1I5Sy4fRDq9IHfSC3AJ606v8zsS9vwbIdT5j9AtvgVKSJq6Kf0tclqbRmoL6wwauiTAk+thlDv4t7mmdoVnUSHTC9aZMDAw=="
+  "assinatura_extras": "a0NOZixddC+wWyvyqs4D/L7iM0ijfpeysO374VU84Q7RGH8TwOvlTdruEcK2HEeTu/no/WW8CkzXt5tvWx4nJObHuSDHqAQe2iXWpjmdFg/SGnV/p2kwPFqy8cmG/42mBP7Rw/dxzSrWRqZgaYu49chakD9CTlvZ9RoWvkSgoRMvupJilhscWjpBtVySsfegcLfGg0sPq9yc9TMcrfKoGIed0Fch2foc/wS3NBffWWS3ZgeEtZLgbaHIdUUy9H6VKsFClIQ463HLBGoN6Ntv3gpnmvs81uUxZNc6aJs9nmfcSLbeNcukdnSFcHlBYTyEhHaiQc7FFlVBEmdDYG0Y2w=="
 }
