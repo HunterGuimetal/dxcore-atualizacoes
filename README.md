@@ -1,8 +1,10 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.66** (2026-10-14)
+Versão atual: **8.67** (2026-10-14)
 
+- Tubos · Rasgo e lingueta: no encaixe, a ponta ganha 2 ou 4 linguetas e os rasgos saem sozinhos no outro tubo, exatamente onde elas entram (com folga). Entram no corte e no orçamento e acompanham as mudanças.
+- Tubos · Vista explodida (tecla E): afasta na tela os tubos encaixados para ver linguetas e rasgos.
 - Tubos · Montagem: vários tubos no mesmo conjunto, cada um com posição e direção. Ramal: clique num tubo e sai outro dali, já encaixado.
 - Tubos · Encaixe automático: a ponta que encosta noutro tubo ganha a boca de lobo exata (qualquer ângulo, fora do centro) ou o corte plano na face do tubo quadrado; no canto, esquadria pela metade do ângulo. O comprimento se ajusta sozinho e acompanha as mudanças.
 - Tubos · Lista de corte do conjunto com peso total e barras por perfil; Orçar o conjunto manda todos os tubos para a Calculadora de uma vez.
