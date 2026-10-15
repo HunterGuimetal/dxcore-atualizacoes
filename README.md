@@ -1,8 +1,10 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.71** (2026-10-15)
+Versão atual: **8.72** (2026-10-15)
 
+- Limpar · PDF, DXF ou DWG com várias peças na mesma folha: cada peça vira um item da lista (1/3, 2/3…), como as peças de uma montagem no SolidWorks. As vistas da mesma peça e as tabelas continuam fora.
+- Limpar · o texto de cada peça (POS. 02 - ORELHA - QTD: 4) vira descrição, quantidade e código do item; peças iguais repetidas viram um item só com a quantidade.
 - Gerador · STEP de chapa feito com canto vivo (sem raio na dobra) agora abre com todas as abas e furos: antes vinha só a face de baixo. Planifica com raio interno = espessura.
 - Gerador · peça importada com dobra abre dobrada e de pé, com a maior face no chão, como no modelo do cliente.
 - Gerador · furos e rasgos de STEP e Parasolid chegam como círculos e arcos de verdade (22 entidades em vez de 872), prontos para cota e edição.

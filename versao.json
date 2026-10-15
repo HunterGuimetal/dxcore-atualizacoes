@@ -1,7 +1,9 @@
 {
-  "versao": "8.71",
+  "versao": "8.72",
   "data": "2026-10-15",
   "notas": [
+    "Limpar · PDF, DXF ou DWG com várias peças na mesma folha: cada peça vira um item da lista (1/3, 2/3…), como as peças de uma montagem no SolidWorks. As vistas da mesma peça e as tabelas continuam fora.",
+    "Limpar · o texto de cada peça (POS. 02 - ORELHA - QTD: 4) vira descrição, quantidade e código do item; peças iguais repetidas viram um item só com a quantidade.",
     "Gerador · STEP de chapa feito com canto vivo (sem raio na dobra) agora abre com todas as abas e furos: antes vinha só a face de baixo. Planifica com raio interno = espessura.",
     "Gerador · peça importada com dobra abre dobrada e de pé, com a maior face no chão, como no modelo do cliente.",
     "Gerador · furos e rasgos de STEP e Parasolid chegam como círculos e arcos de verdade (22 entidades em vez de 872), prontos para cota e edição.",
@@ -26,9 +28,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3326000,
-  "sha256": "f3a5e70205e7944bcdf0a80d3e97074a773890f33b384696eade87232d0b3e5d",
-  "assinatura": "ZfU9b0U3LqjL9fdZ98QDHQEdJ580T9hfQWKXTZsPptjZI4JHECfQHTRiXJM57jye40tgwdHyA6mAAT7IRrx6A6FGXZNF6MOca5D875KzSWnUKFELQ0jkIhPHSXPwNb9Tp4qwQX63W5IojbevMbVBABrFXoMML6V0mj/qvhcFRH1c6Q7FGRQpMLK/ApopS5RA4a/4sH98qLOpXdx9rW3mkXjVaB2KxZUtcuBO41UB63Lar28pTa5A2R09AHmqJq0HaSn5FuU+cbIqpXbgv0yTOGH79RoSV9eJ2yAKbdVacLfcXFqtqeZErtyhO9wtXSUU8FvlnTwpR9sKB/evJFTkQQ==",
+  "tamanho": 3341220,
+  "sha256": "057ec98189b33386d349cc8c387058b7e7b65d9af9d98d0c1b3e737a6d0fd774",
+  "assinatura": "hqux6g+H+OCO8bq/JoxvF/+jgTVcO+aHPrDpcRUoOZ8m87iXP7/CJ49mbQMRtrFdRJP3dmnYTuK9Re4ESU0LBrJXeg6EH6yWeTFmfjrIVt/wJBSCVhNdNr0RnVtMp9dS2H1YM2PrUJrqfSyxsKsbcRH36Fb8k8ocPBQQ7okI4t3gl2To5v1MITfLoIC/DemsYUNzJgJWvTWwkg9LXblGMpla6eqTulidu+HlKHoNyxUEKyRrIw1VWXJbSLHn64wRuG7QcroLiXw7lqmhdpXBecdmIVEZFBtysmBuKonkfykovkGo8Cc5vEdZ1zwYWTWQf3XOC1RuhUjp7odfKp6+5g==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -51,5 +53,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "ZAUlRxnf4a+XHqknBMu7HMMrk4awnVJd/OuYKXjD6nzIuwNkcHxdZfvxHfkNliwSFWbl4Rap11BS7l3g/wyWtpjUVMBIDvyZCYokAXfm04HSy5rzMmRt+PflQEoTFLx6WebQpcnUDVmGEFzg7m1d63wioUsdNUUaCh7dJhaEenmBCUooWhMBouBRzbw4OIZayLk9lziXFxJ3jKioT1sHMu62OIstZpnLToLuoyijjZpEAV67QNMYnRpnfmoNldlfzluQgu68ZlSKNLUgoUJcWJ83U4QWOml8sBM8I/5cBLG2HMR2MfvAT/3aKVMetEV/L+pPpIUlO2IRrTDJTGouvA=="
+  "assinatura_extras": "Ri0Ltpo37VRxQ68OeoW4+SAe39BYCjK8+SLr4RgIAW5PJ70HHEjsxsZcSZOSvMmAjEjFfQJczoxhT23g48RnqHAP2Fo0E8bVemhbUWTlhQuvgR22xHlsozNpL0b0g2XmoH38uQ9VkTKZN2CrCf+053+st5ZKgkuCEAEdSA5UerzUQQ9y24Y7+tZ8YCaZJFlZzsAzod+7dc4+u1aMKDvCxLG/veT/ozdJ08IL6cDMo1Q9KWREH03K1AyOW4noTGvxaKbxP7XOAqyFj2s9PSxQscGsmu3w6EbmcqNSw6izmi88SrlOFB5vGEaFZe4cvhzeUOV0bAnRdgSBYAq6IfdOQg=="
 }
