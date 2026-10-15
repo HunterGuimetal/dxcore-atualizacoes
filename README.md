@@ -1,8 +1,11 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.69** (2026-10-14)
+Versão atual: **8.70** (2026-10-14)
 
+- Tubos · Barras (Auto Nest): todas as peças nas barras com zona morta, margem, espaço, retalhos primeiro e corte comum; aproveitamento, sobra, tempo de máquina e lista em CSV.
+- Tubos · Simular (F5): o laser percorre pontas, furos e gravação na ordem, com o relógio do tempo de máquina.
+- Tubos · Gravação no tubo (Add Text), furo passante, furos ao redor do tubo (matriz) e lista do Excel (colar as linhas e virar tubos). Tempo de máquina por peça no resultado.
 - Tubos · Mouse e teclas como no TubesT da máquina: roda apertada gira, Ctrl + roda apertada move, Shift/Ctrl + roda giram o tubo, F3 enquadra, F4 vista padrão, duplo clique abre as vistas, Esc, Delete, Ctrl+C/Ctrl+V. F1 mostra os atalhos.
 - Tubos · Nomes e barra como no TubesT: comprimento do tubo, zona morta, margem da frente e espaço entre peças (editáveis).
 - Tubos · Exportar: IGES (para o TubesT/TubePro da máquina) e STEP (SolidWorks/cliente) com o sólido exato, tubo deitado no eixo X, em mm: pontas, bocas de lobo, linguetas e furos com as superfícies de verdade.

@@ -1,7 +1,10 @@
 {
-  "versao": "8.69",
+  "versao": "8.70",
   "data": "2026-10-14",
   "notas": [
+    "Tubos · Barras (Auto Nest): todas as peças nas barras com zona morta, margem, espaço, retalhos primeiro e corte comum; aproveitamento, sobra, tempo de máquina e lista em CSV.",
+    "Tubos · Simular (F5): o laser percorre pontas, furos e gravação na ordem, com o relógio do tempo de máquina.",
+    "Tubos · Gravação no tubo (Add Text), furo passante, furos ao redor do tubo (matriz) e lista do Excel (colar as linhas e virar tubos). Tempo de máquina por peça no resultado.",
     "Tubos · Mouse e teclas como no TubesT da máquina: roda apertada gira, Ctrl + roda apertada move, Shift/Ctrl + roda giram o tubo, F3 enquadra, F4 vista padrão, duplo clique abre as vistas, Esc, Delete, Ctrl+C/Ctrl+V. F1 mostra os atalhos.",
     "Tubos · Nomes e barra como no TubesT: comprimento do tubo, zona morta, margem da frente e espaço entre peças (editáveis).",
     "Tubos · Exportar: IGES (para o TubesT/TubePro da máquina) e STEP (SolidWorks/cliente) com o sólido exato, tubo deitado no eixo X, em mm: pontas, bocas de lobo, linguetas e furos com as superfícies de verdade.",
@@ -20,9 +23,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3280372,
-  "sha256": "950d771e24c31914ed59ebf331ca2cb8fb8ae349a254a0ce0d3e2272f143530b",
-  "assinatura": "I3Zk3sXdysLfzvhZvDq152Ol5k6iQP9XjltnCJNRK7hxWpJDZNZnLyhwlDRepxS11AnJvcWStkfmfrNQWeX+b8Az7ddxJUIJzvMhSBVPmeE1eaMPqyhDAYj9Z1CWmu2ok2C8cfUlFrBz2IZdVcTxbvswF9Ix23iU1c/hdbYyuI7GB+Bc+mBCjmtWfGlq9f0CH4de/grMLxS7CKdz8K7VFrq7s2H9KdSVAri0f3A6co65lRB71r/VAD/dvOWY1Oyu4P/wYJBZcTwXObVpowtb79nHujZ2Po2kv9JTsWnbEMumPMBxWpZycKigmkZYgC3m0AkiCjK1h2Db5OekKFWTCw==",
+  "tamanho": 3313096,
+  "sha256": "53c1e46e7735240a9e59bcbc2226e48f1a642d2dd7c386a1ab52f073a0f056fd",
+  "assinatura": "f3JpGeX9Yks42vJ7gwuTJo4ATzjvo8SAMBRSHKDGSSEflyKHZuLw9ANqAG5w0LztQ0ZPTrfYnVRFcerbrPXNi3YMC6BJlSOLXAAeSgB70Khnz+u/4+evrQZkYFjnT7g1uB1axd0bzBTOGs+FYtMSfXlSP/x05Yaz5sjl6Eb/78MVPIscBzKGoP9dQC6vrOdPfjXvk4E282PQGzTaJ2sphsORyyu0YdZoYLHHw6/5eaBb5etwljR8PfKKP1zGsTX6aIzoxqCxdfuwhPx0EOG6SmpneTZ62TTj8U5+8yqqrksoHzZDx2mnIG4kUH6sR5kPJgoKi46KuB5N9h0QUmoCqw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -45,5 +48,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "HRPy2Rv3AsnZCkDVJKzkepcYMSKZeoUXREpG8Qhu+x1o/dhmi2F9tSjqAbQWvNy1nD9NVFsEBfUKvStmaYc/x7U5QykxY4D/mp8apRXYRRy6aBQk3NxILV1b2zv4eJKuhzXBQKo0VoBhopNVtPWFYOFovbYjF4LIxCsEfHzE/vWDLSNI2BiQTcNUHrYpx66fwzhcjHD/rTlaeTSgKIv8gGGQAqTx0vcHBbKh5gqSLj71yy0kHXDuYfCJsQepNMeJiH+W69rTur6pmuhNr0Z/2/tZJsb6BJWDryczvDlszcISYm92gfVttU5jUprh1dR2FE1oTiy4X8AGj/AoDUYSUA=="
+  "assinatura_extras": "XjUtS13cUmoqeK2TrJSqzcBfeoiqa1bHTOA16ZAnYCQUDptThs0/whzzCkuuJmHj7o0Ex8ZMYnC7bSPFz9SF7wcFQRcVHRiJhXn+dPkFS5T14lngPm9nY2IqT55aropJ/ZhjpXpeQrMGVuq06BeGXTdAeQ/3AfusEFnRfqZOuWhEnDjrEfHlfcpwnfUhQpgvqlGNUidca+28LIDA+89sKUtb1YV9i3ik+ccY1GUb35TibiplOo4v2ASp/5rtJ3orjJiQ7yVAsSTqBjcXxHICngE0dnt5sZaIuxT1gR7UZmBeLQRI0itpV7CwYkg+qxNpCowLKzdumnKbuCA+R8nk8Q=="
 }
