@@ -1,7 +1,8 @@
 {
-  "versao": "8.72",
+  "versao": "8.73",
   "data": "2026-10-15",
   "notas": [
+    "Gerador · modelo novo Flange com orelhas (junta de escapamento): corpo redondo, furo central, orelhas com furo e raio de concordância; distância e ângulo de cada orelha podem ser diferentes.",
     "Limpar · PDF, DXF ou DWG com várias peças na mesma folha: cada peça vira um item da lista (1/3, 2/3…), como as peças de uma montagem no SolidWorks. As vistas da mesma peça e as tabelas continuam fora.",
     "Limpar · o texto de cada peça (POS. 02 - ORELHA - QTD: 4) vira descrição, quantidade e código do item; peças iguais repetidas viram um item só com a quantidade.",
     "Gerador · STEP de chapa feito com canto vivo (sem raio na dobra) agora abre com todas as abas e furos: antes vinha só a face de baixo. Planifica com raio interno = espessura.",
@@ -28,9 +29,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3341220,
-  "sha256": "057ec98189b33386d349cc8c387058b7e7b65d9af9d98d0c1b3e737a6d0fd774",
-  "assinatura": "hqux6g+H+OCO8bq/JoxvF/+jgTVcO+aHPrDpcRUoOZ8m87iXP7/CJ49mbQMRtrFdRJP3dmnYTuK9Re4ESU0LBrJXeg6EH6yWeTFmfjrIVt/wJBSCVhNdNr0RnVtMp9dS2H1YM2PrUJrqfSyxsKsbcRH36Fb8k8ocPBQQ7okI4t3gl2To5v1MITfLoIC/DemsYUNzJgJWvTWwkg9LXblGMpla6eqTulidu+HlKHoNyxUEKyRrIw1VWXJbSLHn64wRuG7QcroLiXw7lqmhdpXBecdmIVEZFBtysmBuKonkfykovkGo8Cc5vEdZ1zwYWTWQf3XOC1RuhUjp7odfKp6+5g==",
+  "tamanho": 3347004,
+  "sha256": "6e7829599d7efb7a25e31fc7a2dc71a166d790f4399b0b675f029797da1ce60d",
+  "assinatura": "BM9dsX0igBWwoHKdJwZwPFKBjt9/JEmcp15Z3OBRcbJWOy/9m+fM/LOd49EEypzWLHL4IrS2KhAqD+9K5WdHPlRsBKDHWCMlp25dBpyEHgY95fDVZxOGOvLhASaN/DXeDzfE9FZJUU6GF/k97LqxBjbnb8CLW13FlPyEpxlPk78AedErYx9HbLhUNyPtaYEE02ghdBD5yMgF96h9oFA6WFwDYYehfyivavJSpg9LWFTmHu5DHUCaKY5zcs7eBJYLTrH992m8i/DEXEAUqg1+KBYcFMZ8nZVZickn3x1Qa9BcEVn6R7rOvWUXOQtbiLFuttmre/3FmuzP2Mz90Q9bzw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -53,5 +54,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "Ri0Ltpo37VRxQ68OeoW4+SAe39BYCjK8+SLr4RgIAW5PJ70HHEjsxsZcSZOSvMmAjEjFfQJczoxhT23g48RnqHAP2Fo0E8bVemhbUWTlhQuvgR22xHlsozNpL0b0g2XmoH38uQ9VkTKZN2CrCf+053+st5ZKgkuCEAEdSA5UerzUQQ9y24Y7+tZ8YCaZJFlZzsAzod+7dc4+u1aMKDvCxLG/veT/ozdJ08IL6cDMo1Q9KWREH03K1AyOW4noTGvxaKbxP7XOAqyFj2s9PSxQscGsmu3w6EbmcqNSw6izmi88SrlOFB5vGEaFZe4cvhzeUOV0bAnRdgSBYAq6IfdOQg=="
+  "assinatura_extras": "R61TSUVsTuzAoHzuinA70bbM8b+H0GuEkA+ttGF5MrAzn2Hpe6u+XPT0NIaYuZgd//WMxD7GYddZKCY5guC17H0WfUzsX2vlv3VkJ/Zxqt43X7nFLkfIjVXQMM0SOnTNMmXm9uI2XJ+LFidd9HV+c4+DAljfJehe9Rk9RSd7gsZ1J/YsVhI9lIlDlCC2P7lBRwC0KTiqDfIPiZqWrO5NcbuPTYYAwnBvOQdsvlJQage2vPdbvd30uvZ+QGM3JYqCDqetDueVRkAfw9HmwEEmsrd7OzkjdW7DcITRtdNhpVcRmIqf+eAAYETsfWs1uDV0EdR1+AfsSF3r0j79t2rjYQ=="
 }
