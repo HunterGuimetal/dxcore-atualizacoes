@@ -1,7 +1,10 @@
 {
-  "versao": "8.70",
-  "data": "2026-10-14",
+  "versao": "8.71",
+  "data": "2026-10-15",
   "notas": [
+    "Gerador · STEP de chapa feito com canto vivo (sem raio na dobra) agora abre com todas as abas e furos: antes vinha só a face de baixo. Planifica com raio interno = espessura.",
+    "Gerador · peça importada com dobra abre dobrada e de pé, com a maior face no chão, como no modelo do cliente.",
+    "Gerador · furos e rasgos de STEP e Parasolid chegam como círculos e arcos de verdade (22 entidades em vez de 872), prontos para cota e edição.",
     "Tubos · Barras (Auto Nest): todas as peças nas barras com zona morta, margem, espaço, retalhos primeiro e corte comum; aproveitamento, sobra, tempo de máquina e lista em CSV.",
     "Tubos · Simular (F5): o laser percorre pontas, furos e gravação na ordem, com o relógio do tempo de máquina.",
     "Tubos · Gravação no tubo (Add Text), furo passante, furos ao redor do tubo (matriz) e lista do Excel (colar as linhas e virar tubos). Tempo de máquina por peça no resultado.",
@@ -23,9 +26,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3313096,
-  "sha256": "53c1e46e7735240a9e59bcbc2226e48f1a642d2dd7c386a1ab52f073a0f056fd",
-  "assinatura": "f3JpGeX9Yks42vJ7gwuTJo4ATzjvo8SAMBRSHKDGSSEflyKHZuLw9ANqAG5w0LztQ0ZPTrfYnVRFcerbrPXNi3YMC6BJlSOLXAAeSgB70Khnz+u/4+evrQZkYFjnT7g1uB1axd0bzBTOGs+FYtMSfXlSP/x05Yaz5sjl6Eb/78MVPIscBzKGoP9dQC6vrOdPfjXvk4E282PQGzTaJ2sphsORyyu0YdZoYLHHw6/5eaBb5etwljR8PfKKP1zGsTX6aIzoxqCxdfuwhPx0EOG6SmpneTZ62TTj8U5+8yqqrksoHzZDx2mnIG4kUH6sR5kPJgoKi46KuB5N9h0QUmoCqw==",
+  "tamanho": 3326000,
+  "sha256": "f3a5e70205e7944bcdf0a80d3e97074a773890f33b384696eade87232d0b3e5d",
+  "assinatura": "ZfU9b0U3LqjL9fdZ98QDHQEdJ580T9hfQWKXTZsPptjZI4JHECfQHTRiXJM57jye40tgwdHyA6mAAT7IRrx6A6FGXZNF6MOca5D875KzSWnUKFELQ0jkIhPHSXPwNb9Tp4qwQX63W5IojbevMbVBABrFXoMML6V0mj/qvhcFRH1c6Q7FGRQpMLK/ApopS5RA4a/4sH98qLOpXdx9rW3mkXjVaB2KxZUtcuBO41UB63Lar28pTa5A2R09AHmqJq0HaSn5FuU+cbIqpXbgv0yTOGH79RoSV9eJ2yAKbdVacLfcXFqtqeZErtyhO9wtXSUU8FvlnTwpR9sKB/evJFTkQQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -48,5 +51,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "XjUtS13cUmoqeK2TrJSqzcBfeoiqa1bHTOA16ZAnYCQUDptThs0/whzzCkuuJmHj7o0Ex8ZMYnC7bSPFz9SF7wcFQRcVHRiJhXn+dPkFS5T14lngPm9nY2IqT55aropJ/ZhjpXpeQrMGVuq06BeGXTdAeQ/3AfusEFnRfqZOuWhEnDjrEfHlfcpwnfUhQpgvqlGNUidca+28LIDA+89sKUtb1YV9i3ik+ccY1GUb35TibiplOo4v2ASp/5rtJ3orjJiQ7yVAsSTqBjcXxHICngE0dnt5sZaIuxT1gR7UZmBeLQRI0itpV7CwYkg+qxNpCowLKzdumnKbuCA+R8nk8Q=="
+  "assinatura_extras": "ZAUlRxnf4a+XHqknBMu7HMMrk4awnVJd/OuYKXjD6nzIuwNkcHxdZfvxHfkNliwSFWbl4Rap11BS7l3g/wyWtpjUVMBIDvyZCYokAXfm04HSy5rzMmRt+PflQEoTFLx6WebQpcnUDVmGEFzg7m1d63wioUsdNUUaCh7dJhaEenmBCUooWhMBouBRzbw4OIZayLk9lziXFxJ3jKioT1sHMu62OIstZpnLToLuoyijjZpEAV67QNMYnRpnfmoNldlfzluQgu68ZlSKNLUgoUJcWJ83U4QWOml8sBM8I/5cBLG2HMR2MfvAT/3aKVMetEV/L+pPpIUlO2IRrTDJTGouvA=="
 }

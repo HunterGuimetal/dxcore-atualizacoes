@@ -1,8 +1,11 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.70** (2026-10-14)
+Versão atual: **8.71** (2026-10-15)
 
+- Gerador · STEP de chapa feito com canto vivo (sem raio na dobra) agora abre com todas as abas e furos: antes vinha só a face de baixo. Planifica com raio interno = espessura.
+- Gerador · peça importada com dobra abre dobrada e de pé, com a maior face no chão, como no modelo do cliente.
+- Gerador · furos e rasgos de STEP e Parasolid chegam como círculos e arcos de verdade (22 entidades em vez de 872), prontos para cota e edição.
 - Tubos · Barras (Auto Nest): todas as peças nas barras com zona morta, margem, espaço, retalhos primeiro e corte comum; aproveitamento, sobra, tempo de máquina e lista em CSV.
 - Tubos · Simular (F5): o laser percorre pontas, furos e gravação na ordem, com o relógio do tempo de máquina.
 - Tubos · Gravação no tubo (Add Text), furo passante, furos ao redor do tubo (matriz) e lista do Excel (colar as linhas e virar tubos). Tempo de máquina por peça no resultado.
