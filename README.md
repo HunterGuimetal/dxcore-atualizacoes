@@ -1,8 +1,10 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.67** (2026-10-14)
+Versão atual: **8.68** (2026-10-14)
 
+- Tubos · Exportar: IGES (para o TubesT/TubePro da máquina) e STEP (SolidWorks/cliente) com o sólido exato, tubo deitado no eixo X, em mm: pontas, bocas de lobo, linguetas e furos com as superfícies de verdade.
+- Tubos · Conjunto inteiro em .zip: cada tubo em IGES e STEP para cortar, mais o conjunto montado em STEP.
 - Tubos · Rasgo e lingueta: no encaixe, a ponta ganha 2 ou 4 linguetas e os rasgos saem sozinhos no outro tubo, exatamente onde elas entram (com folga). Entram no corte e no orçamento e acompanham as mudanças.
 - Tubos · Vista explodida (tecla E): afasta na tela os tubos encaixados para ver linguetas e rasgos.
 - Tubos · Montagem: vários tubos no mesmo conjunto, cada um com posição e direção. Ramal: clique num tubo e sai outro dali, já encaixado.
