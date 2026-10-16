@@ -1,7 +1,9 @@
 {
-  "versao": "8.76",
+  "versao": "8.77",
   "data": "2026-10-16",
   "notas": [
+    "Limpar · escalas de 1:1 a 1:20 (e 1:25 a 1:100, ampliações 2:1 a 10:1): a escala vem do carimbo, da escala escrita em cada vista ou das cotas. Folha com peças em escalas diferentes: cada peça usa a escala da sua vista.",
+    "Limpar · espessura pela vista lateral também em escala 1:10 a 1:20, e a de cada peça na folha com várias peças.",
     "Limpar · PDF/DXF com várias peças lado a lado da mesma altura (ou da mesma largura) agora separa cada peça num item da lista: antes elas eram tomadas como vistas de uma peça só e só a primeira aparecia.",
     "Gerador · arquivo com várias peças (PDF, DXF, DWG, montagem STEP ou Parasolid) vira um projeto com uma peça para cada, com nome, código e quantidade de cada uma, para o técnico conferir e editar uma por uma.",
     "Ordem de serviço · a OS impressa mostra o desenho de cada peça, igual à proposta em PDF (também nas OS já criadas a partir de orçamento e nas de DXF do projeto).",
@@ -32,9 +34,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3357284,
-  "sha256": "afeb97757b9879e9a88b31acdcdc710f9e487cfc1ae09a2cecb6427e53a5f425",
-  "assinatura": "h7LG/rwmygYZnigO4HtggosCakEa9BjuPRGAqPX/WMXNhcnw3/CJvTgd8af/gOaNWlkSo/ytdH1AP102KqGGsDjOGQVLWRY0VnP8M6JLu0Omi2RRFaSReyu1cT3LPY7f1c3kAHVyzUrUElpKY9RIeQUgUZ8zTHKtHtI9loP1H70LTnbsuSDOQqbav+BD3yJtTTfGBtqQpRVEseSFlgjQYw3fzsBow4SM84SoFxDmxahErCzxSUldMYBnlQjSMy1AV8lumlcVqyGZIuaX07/dxQ9Zx2MbsonSXEkzaMUhfIdTN7oOHh6IB9lbRBeDJI+mJnuNcHg/5E3KCyk+IuzMfg==",
+  "tamanho": 3362992,
+  "sha256": "60680bcf63f8cf31874f9f9d6f3e18bb3993e9898e2c4c9ed740c16d5f071ee0",
+  "assinatura": "MZe3Nxx+H7poyB72VJMco0N5pI50dmsj5ZpNaEQ61dI4QNeNliWMli9LZJl89CTn+ak4xcpHscckUBbD7cX8hWuVMzbzDHLk5fCz4Yv6b4BG+r7MBi+tfOzHXGUSSyxVg7ic+Z+aZsKiTsy11y0MNsbDE1f66mZ2d58YEZVPJ2HXela00b7SzwMmLGxZoHxyXafykVDROmcda54ZkyVd7jrI/MwGYNHa6Ix3bDXHZz7gTGa65xmLGglLPgCkMGDtw4owbLm0BvtdYglbC1mrpiqGB1XFeZuVIJ4GR4xZ+osMDJvRFRGAkXsc0wvY40pF08Qk2p6UEOCtmzH02dfyeg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -57,5 +59,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "aq42Rf9NPHueTO3NDI8gh7dS40TPLun1EGc655iVmwBNW7L9nE25SE2jjf15BglyHZiIYyA1DAtF132TCmpKzrAPqMfb4kiPchOyeTzHxAwbtmUWROPFsutjlFQUbgZrzh4GZoe1SICFDWEotJQiBTKSGTL+YUcGZPo7+mMwKIoXKcFmHjIYwvsvD29NY6Jfe9FDHIJgLpInMjXRCQbYCPwiznEr1iq7D+Q+U6oINnljTVjdaifIw1KtPG4hJgkzh0m2/LOO0YOVuZbpajXOagWn/xA8MHdvtRL/JrKxkSu+vWJ0dMagUDbSE8KK1fzg3wxZVniXqZOijyc7zSYlwQ=="
+  "assinatura_extras": "fBqBj14bX799hyFmPAaVAxaLzOlvPAetjTmZkuPmRsVNSm8zB0/RAaSAzNzWi5CY/KkrVKyBR7YsF2XJ7xeGknh/bO15FS3kovp8bUNjE3VM4H03aVGF7zIUvGQTEuP9q9H59+Ah6UErakReQ9XRb/2KmOwWAjtJUoaiO+JLWgMh7E3N1EZx3K1/TCcighvxYD1zsIFJJtEe+v72p4fvHkyZXxRSi1mnQh37H0ek+N3RHI5gvkOTLRTFUGCqtdGrCq1Hh79iWuqEB861oNWbOR0oLzrVzEboIqADUCgIdBQfj+mbA0xMWyiEpzSz+mn6aZL2f3Sbs7nCcUbvd4VPGg=="
 }

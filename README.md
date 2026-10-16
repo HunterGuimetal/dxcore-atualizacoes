@@ -1,8 +1,10 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.76** (2026-10-16)
+Versão atual: **8.77** (2026-10-16)
 
+- Limpar · escalas de 1:1 a 1:20 (e 1:25 a 1:100, ampliações 2:1 a 10:1): a escala vem do carimbo, da escala escrita em cada vista ou das cotas. Folha com peças em escalas diferentes: cada peça usa a escala da sua vista.
+- Limpar · espessura pela vista lateral também em escala 1:10 a 1:20, e a de cada peça na folha com várias peças.
 - Limpar · PDF/DXF com várias peças lado a lado da mesma altura (ou da mesma largura) agora separa cada peça num item da lista: antes elas eram tomadas como vistas de uma peça só e só a primeira aparecia.
 - Gerador · arquivo com várias peças (PDF, DXF, DWG, montagem STEP ou Parasolid) vira um projeto com uma peça para cada, com nome, código e quantidade de cada uma, para o técnico conferir e editar uma por uma.
 - Ordem de serviço · a OS impressa mostra o desenho de cada peça, igual à proposta em PDF (também nas OS já criadas a partir de orçamento e nas de DXF do projeto).
