@@ -1,7 +1,8 @@
 {
-  "versao": "8.75",
+  "versao": "8.76",
   "data": "2026-10-16",
   "notas": [
+    "Limpar · PDF/DXF com várias peças lado a lado da mesma altura (ou da mesma largura) agora separa cada peça num item da lista: antes elas eram tomadas como vistas de uma peça só e só a primeira aparecia.",
     "Gerador · arquivo com várias peças (PDF, DXF, DWG, montagem STEP ou Parasolid) vira um projeto com uma peça para cada, com nome, código e quantidade de cada uma, para o técnico conferir e editar uma por uma.",
     "Ordem de serviço · a OS impressa mostra o desenho de cada peça, igual à proposta em PDF (também nas OS já criadas a partir de orçamento e nas de DXF do projeto).",
     "Gerador · modelo novo Flange com orelhas (junta de escapamento): corpo redondo, furo central, orelhas com furo e raio de concordância; distância e ângulo de cada orelha podem ser diferentes.",
@@ -31,9 +32,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3356116,
-  "sha256": "a0f668991f12cce543db20486a9641848805e308b5a372d44b12ee12b4e6a5d6",
-  "assinatura": "SbHiBvEKWdHQPcLncLxh43rQyZXOIrBnIGjqyC5A6IoK4hi3g/KWO1H8SeNWSmthH3T+H9dAert3x9CpsKUXfZ9GiFnKxecUV1iY/bgNjq7kdpxxzAcnx5OHbndSUG8zBoSmOvbnldP+SypHB44N5/tTZTwYxDM8utK9OgOFvuHl7PcMIG3WD9HJmAz594+kFjiAd4+/KgPbb1KFNWl0QwgE2vLtRHSSr5gnhaQdnhkzoGJiD+WwHtvXyl6IMtcTt/6pY8oOnVRPQ0SEGvR5ikJx7v1v6UXIGL9i/MtNwjpjGQOOieknONf9ry2ByTOeWXXOduUFRUh4FCEp9m3rRQ==",
+  "tamanho": 3357284,
+  "sha256": "afeb97757b9879e9a88b31acdcdc710f9e487cfc1ae09a2cecb6427e53a5f425",
+  "assinatura": "h7LG/rwmygYZnigO4HtggosCakEa9BjuPRGAqPX/WMXNhcnw3/CJvTgd8af/gOaNWlkSo/ytdH1AP102KqGGsDjOGQVLWRY0VnP8M6JLu0Omi2RRFaSReyu1cT3LPY7f1c3kAHVyzUrUElpKY9RIeQUgUZ8zTHKtHtI9loP1H70LTnbsuSDOQqbav+BD3yJtTTfGBtqQpRVEseSFlgjQYw3fzsBow4SM84SoFxDmxahErCzxSUldMYBnlQjSMy1AV8lumlcVqyGZIuaX07/dxQ9Zx2MbsonSXEkzaMUhfIdTN7oOHh6IB9lbRBeDJI+mJnuNcHg/5E3KCyk+IuzMfg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -56,5 +57,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "XygjokY370sPk3xTApc6uQQq0IfRDpyq4s9ThbTxy0wqn64CRbXtcsixjwcy2AaYJA+/gLZP788bMQBrp+vEzU54NI3oY6rTU4xsjJwN4rieYB9ejHWz2QrF7F3RO73iEsiwhomUNlNS1p1FxzZyfZHN0hEIQPq6/p6N0eNSopPk23J4PkoW+2260cqb/dVOB7GBqH5JQh7uJbBWtxeskW2mpwS8d69VZzPyRKO0iQYUfQs1pBfS+NeRi25nrH/W0sVK5LM9uWOZipudm7O/xOX4JodAba4hREGHDPYusaqe/B0nEFs8J0vht3wQeWJVfx5hMXdSSW+hyWQ5rfg1TQ=="
+  "assinatura_extras": "aq42Rf9NPHueTO3NDI8gh7dS40TPLun1EGc655iVmwBNW7L9nE25SE2jjf15BglyHZiIYyA1DAtF132TCmpKzrAPqMfb4kiPchOyeTzHxAwbtmUWROPFsutjlFQUbgZrzh4GZoe1SICFDWEotJQiBTKSGTL+YUcGZPo7+mMwKIoXKcFmHjIYwvsvD29NY6Jfe9FDHIJgLpInMjXRCQbYCPwiznEr1iq7D+Q+U6oINnljTVjdaifIw1KtPG4hJgkzh0m2/LOO0YOVuZbpajXOagWn/xA8MHdvtRL/JrKxkSu+vWJ0dMagUDbSE8KK1fzg3wxZVniXqZOijyc7zSYlwQ=="
 }

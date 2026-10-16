@@ -1,8 +1,9 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.75** (2026-10-16)
+Versão atual: **8.76** (2026-10-16)
 
+- Limpar · PDF/DXF com várias peças lado a lado da mesma altura (ou da mesma largura) agora separa cada peça num item da lista: antes elas eram tomadas como vistas de uma peça só e só a primeira aparecia.
 - Gerador · arquivo com várias peças (PDF, DXF, DWG, montagem STEP ou Parasolid) vira um projeto com uma peça para cada, com nome, código e quantidade de cada uma, para o técnico conferir e editar uma por uma.
 - Ordem de serviço · a OS impressa mostra o desenho de cada peça, igual à proposta em PDF (também nas OS já criadas a partir de orçamento e nas de DXF do projeto).
 - Gerador · modelo novo Flange com orelhas (junta de escapamento): corpo redondo, furo central, orelhas com furo e raio de concordância; distância e ângulo de cada orelha podem ser diferentes.
