@@ -1,7 +1,8 @@
 {
-  "versao": "8.79",
+  "versao": "8.80",
   "data": "2026-10-19",
   "notas": [
+    "Limpar · Guardar no cliente com várias peças de uma vez: as marcadas ou todas da lista vão para o projeto do cliente, cada uma como DXF limpo com os dados dela (sem precisar baixar uma por uma).",
     "Limpar · peça com lados inclinados e furos redondos feitos em spline (painéis, gabinetes) não é mais confundida com vista isométrica: as peças grandes do desenho voltam para a lista.",
     "Limpar · peça desenhada em diagonal fica de pé sozinha: medidas, DXF limpo, orçamento e encaixe na chapa já saem com a peça reta. Botão Manter como no desenho para voltar ao ângulo original.",
     "Limpar · escalas de 1:1 a 1:20 (e 1:25 a 1:100, ampliações 2:1 a 10:1): a escala vem do carimbo, da escala escrita em cada vista ou das cotas. Folha com peças em escalas diferentes: cada peça usa a escala da sua vista.",
@@ -36,9 +37,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3371064,
-  "sha256": "7103ad7edef846d4e48c23f52af44575164615b8c180a5f2f2fc79ce42cac943",
-  "assinatura": "C/e0UNQ8gci/BDhSBKTpqpDsaDSaW/ytS2iARAaGaTB6+AifE/nj3lBnXZYnSvnMf93An+WRz5nImyPxWWtfX08Lbu3/n6Lim6sJg3uYX5LG+D9yrPNAxr/okWhzieHD9XtqI3P5qFTXnfbEmcE8ef8Q/qmzlJEubc7jX83bMkbUFMAdYbWoGy+lq9yBjjROaLkpYEYYgqIpR5N84OyQiGmZi88quuAg5sw3EaxmtlxsiPwp1plxkib9NiRTeULVGOHt8zk6cKWYUQIIQlxEiHkZ12h9/BPf+CMMl/XlTPTs0vRYqs89OliURV/y1nvIaFG+TEP4z+WHcqI0BQdnBg==",
+  "tamanho": 3375324,
+  "sha256": "f7f218fec2a6af04dcef6dab61530c049e1e63f9d11d032198404988b7a4ad8b",
+  "assinatura": "A1GOc8oJMnJivZ20yk0m1ku/ep14AxeVQqFz4BKck/Mmk1bIVOzg/P+E09Wn1dHyJWNH7oWbd6ghSY4ITYCz1a8sP/SRx26cdBB9vPm45ufgkgHR/M9HWk0jeBUgkQsG2Q+WmL8Sg1bIkMQy5YXunDyt6+GSUL2U8gItAVjEgdqKj3RrN0ZQmYKcOZMsvc1Tkatu45I0pUHx4d9505vRn3wPoPN+TzGsl4RTqIkOivwkzhsQkZhEHepStR9tv5yLSNEGt3dYaMyxYNNSKu+QWEzjwo/146MXkWGzb12eM2wOebhulL2/3M8/PyeyHl7YmhfOxIsxbPYajy02iuvQ1w==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -61,5 +62,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "AW2JaHSimiKPIp76o+31qQ/gPBCbcKDdqJrddk40M8HvotzfJDfiAg+hvJF7qitWb0RYP3EDhBnwaox8vX1HC6aEzqzkURBaKa4J5cFY9SUIEELacZhZHEWPWggQG5IPOomKl/fNqHtZt6OgMm09JnpfJU5AZpjgEN7d38W7Pk9PNfXe2XopkyoTg9/3zaKITeTYIB4nMT57kOF1Fq9sBhqe9U6Kn48YfpdmlUwm1Bid9LC77syEu+NnZZZBRwZKegQniJbvbE1/FyaqFRlx/Hz6PmSlMyjJac1g4lxv8DfexnLVandpzjBPu+oO64v+Nhyx0nqdnlnwXNz/AON0uQ=="
+  "assinatura_extras": "dqWwb6JEqaqZ1HADIIE8TJmUU6EIOTSO9P1/DXOlixzxVV5THH/IRCkURRogSjMKKX1WPKCA5N8JwIsnTQ6hoNxuGU0PHBSxhRnH6Pa3AHm9q8t3gyEo3yxYI+VFfHJ26AjvC1BQInKuHd8u1n8Usa1SwGdhMmlRsd7jEwfiIeJED7vch1Ycvqa43qO0E2LGzPWhvbK+nKXJHVg079mHBT0kfM6NxKNRNA0Xl0kpw2ORXlu8dlgl92OzbhWP/67Io0lFROCJizCZ/flXwH9hzfRZQD4ziyXrB9tyzZC1XAtQnPxbDt7fctSFynE990DCDrJ5EM5W1NE/rdCHtVdgOg=="
 }
