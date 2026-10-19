@@ -1,8 +1,9 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.77** (2026-10-16)
+Versão atual: **8.78** (2026-10-19)
 
+- Limpar · peça desenhada em diagonal fica de pé sozinha: medidas, DXF limpo, orçamento e encaixe na chapa já saem com a peça reta. Botão Manter como no desenho para voltar ao ângulo original.
 - Limpar · escalas de 1:1 a 1:20 (e 1:25 a 1:100, ampliações 2:1 a 10:1): a escala vem do carimbo, da escala escrita em cada vista ou das cotas. Folha com peças em escalas diferentes: cada peça usa a escala da sua vista.
 - Limpar · espessura pela vista lateral também em escala 1:10 a 1:20, e a de cada peça na folha com várias peças.
 - Limpar · PDF/DXF com várias peças lado a lado da mesma altura (ou da mesma largura) agora separa cada peça num item da lista: antes elas eram tomadas como vistas de uma peça só e só a primeira aparecia.
