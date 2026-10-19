@@ -1,8 +1,9 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.80** (2026-10-19)
+Versão atual: **8.81** (2026-10-19)
 
+- O Gerador de peças clássico saiu: fica só o Gerador/Editor de peças. O botão Ajustar no Gerador/Editor do Planificar dobra (Limpar) abre a peça dobrada direto no Gerador/Editor.
 - Limpar · Guardar no cliente com várias peças de uma vez: as marcadas ou todas da lista vão para o projeto do cliente, cada uma como DXF limpo com os dados dela (sem precisar baixar uma por uma).
 - Limpar · peça com lados inclinados e furos redondos feitos em spline (painéis, gabinetes) não é mais confundida com vista isométrica: as peças grandes do desenho voltam para a lista.
 - Limpar · peça desenhada em diagonal fica de pé sozinha: medidas, DXF limpo, orçamento e encaixe na chapa já saem com a peça reta. Botão Manter como no desenho para voltar ao ângulo original.
