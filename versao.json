@@ -1,7 +1,8 @@
 {
-  "versao": "8.82",
+  "versao": "8.83",
   "data": "2026-10-20",
   "notas": [
+    "Proposta em PDF · tubo aparece em 3D na tabela (não parece mais chapa). Toque no desenho de qualquer peça e a proposta abre a página com a peça em 3D em quatro ângulos (frente, lado, trás e cima), com botão para voltar.",
     "Ordem de serviço · peça com dobra sai com a vista dobrada em perspectiva, junto da planificada.",
     "O Gerador de peças clássico saiu: fica só o Gerador/Editor de peças. O botão Ajustar no Gerador/Editor do Planificar dobra (Limpar) abre a peça dobrada direto no Gerador/Editor.",
     "Limpar · Guardar no cliente com várias peças de uma vez: as marcadas ou todas da lista vão para o projeto do cliente, cada uma como DXF limpo com os dados dela (sem precisar baixar uma por uma).",
@@ -39,9 +40,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3374404,
-  "sha256": "5c0cb775c62b1c154031c1570b7c290f292a2174c92368bd1a138a11a1f66579",
-  "assinatura": "Fwq5xih6yP01ISrUtn7XJAQIeV1Wi2CKY3rkKpvM/eQK5XNA/apVZXUe3PXvxIKdAzfRGj6zLJjcftZpnURDCwRzTpdXM2Ic4oR3RGkU2NfjzOyJevDvKCxGDubSJI9iFz1Lz7R3sS4vW2XoUbjSTx6Tva9wHn6MIkYmmcExQcy2G/ulJ8wXpJtPWoWINEhNJmGL5RYJOwUoUbmlfT+BTFtH+bOVmkZGNneFdX/KEzou7IWdIQ0e43h26SaiVxlYxbb2WtMODQx87Jny0l1uTquTAvOj1759PHagYWTf8eC7oPci5N4VhE/OSjDcioj2flFWfxqt9Kf8WnHmfyl0lg==",
+  "tamanho": 3395900,
+  "sha256": "6db53ab52a5d10f091fb5dc27025fb58ed9688d1bfba7ffe6c7b32edc1b7c40f",
+  "assinatura": "KAGoYru5Y6wiymvm8pjQlt3A5McT9XqQp6u0Y8FvBelbml+PATDAw3GZCHNQvrl835T4gei8KwhdS3kRHgEPIIFPQzAm4nunu6uRVC9jiH5WSDlYWRNeKbY1luMIEhA03/7q8H/TulRqdZEBlLTcYvetVcK65w63S/RRhuwaeOG/cOKuh1X0Bmkg5GBDbwY8TlZLbzBN0awelGWvqybu3b87+vdFm79BObC1QERBvOEAoU6qqzN7rn0Prg5jdCvgsDhC0hEATdzaZQr225A+r40vWzbFrXcOcCGyO8feeJfImtU8/bq4z67Qwfb3XU+Zs9P0/hbAW1eVtFmlrI+GkQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -64,5 +65,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "FJSCRNnh91CjRrFFoFUmG2IyN/KPE6SQ0stxQfF+Li8KWBR/xi6cgqHnFPZpe/5QHfxZiR+wwf3BX8BqyOLsLZiJt+wIcGuMoJwZ5XmpKrEVDwiYvBSQMgnHLKg5QyLOoqh/Fm3xCOz54K/nBNi2zsZlKETyuokPdAdM8kO8f9kOVHtLGtBfOq5UYeMm0wRdAsbwn6Sa4PWgNPuS/1kwUo+YXAHWeVf4RRHrrJtPqxYp7jzHVy/PfPLuHdBxfg57TyQ0+97khNJgJnl2VSV5k3mQtLiT90ACKaxKDKfnzDw9/pG8VDjbelUUefhAweiTrTzhtBNw/n/7mRy+CYaWdA=="
+  "assinatura_extras": "RXOmFsQZgNAx3U8yDFVuk7TUMREekdmlotiVQpgBW0w+yp7HtGPxPnQl9q6YR9vYNNBMGKTr/YOhcgVMK+s4utP8uYZESiCLiO9S5htrVR1XnaGljs4naolIm4Phh3k0LhPWz8GEqgxR9AJLsHY0b1/ix9utplYrMrXEt5SKoxv9JBUVb6mT3ppiWi0VTNe4JahIDLK8Sy2j47OC1Nx5SzdTHo/c4ttdCW41aQbcWNxkjbX/ANKtWjAB3+XkId4X0XvOpPJw0bb07r2bWM1yBK+lj5GWfkItkdybm1hzJgYDSQwdfpOwA6CPeQFdN1h7AfbCVDbn++DMiepiIiaNew=="
 }
