@@ -1,7 +1,8 @@
 {
-  "versao": "8.81",
-  "data": "2026-10-19",
+  "versao": "8.82",
+  "data": "2026-10-20",
   "notas": [
+    "Ordem de serviço · peça com dobra sai com a vista dobrada em perspectiva, junto da planificada.",
     "O Gerador de peças clássico saiu: fica só o Gerador/Editor de peças. O botão Ajustar no Gerador/Editor do Planificar dobra (Limpar) abre a peça dobrada direto no Gerador/Editor.",
     "Limpar · Guardar no cliente com várias peças de uma vez: as marcadas ou todas da lista vão para o projeto do cliente, cada uma como DXF limpo com os dados dela (sem precisar baixar uma por uma).",
     "Limpar · peça com lados inclinados e furos redondos feitos em spline (painéis, gabinetes) não é mais confundida com vista isométrica: as peças grandes do desenho voltam para a lista.",
@@ -38,9 +39,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3366340,
-  "sha256": "0d1f80618d28bb975fa38edffa80a73cf8c11c2f7eafef9add7066a6f86ae5ec",
-  "assinatura": "P3yGR69SbidGaxTtITuu5JQ6KJprmQ1NFPfBwh15ckoBpiKzM+E7XVs1ptSCW8MflDiK/8PEnSr3VOg4qU9UECixjTf5SAU1SFZFhBUDjsa4xHQzL0PbhXRRI9tGhmgjhY7Ez8gSs6Q6xIaUW9AxeqUqJgIjGc5B43K+MqNN30exj/YspoElfAwETTg5d6xuLhEGfcUkcUgiMIfzw+A/L9aRhqwTqXqxj1v+rZ6RTc1RTeHfjbL7jgMSNSJYMGj4mHPeUgJtMEqrXhhgAjoNCnatABJWpUjYmAtSA6zTlFtTmcQ0FACRJ5aj5aOARpjhPC1q3zScuFUQcwRgNjyjww==",
+  "tamanho": 3374404,
+  "sha256": "5c0cb775c62b1c154031c1570b7c290f292a2174c92368bd1a138a11a1f66579",
+  "assinatura": "Fwq5xih6yP01ISrUtn7XJAQIeV1Wi2CKY3rkKpvM/eQK5XNA/apVZXUe3PXvxIKdAzfRGj6zLJjcftZpnURDCwRzTpdXM2Ic4oR3RGkU2NfjzOyJevDvKCxGDubSJI9iFz1Lz7R3sS4vW2XoUbjSTx6Tva9wHn6MIkYmmcExQcy2G/ulJ8wXpJtPWoWINEhNJmGL5RYJOwUoUbmlfT+BTFtH+bOVmkZGNneFdX/KEzou7IWdIQ0e43h26SaiVxlYxbb2WtMODQx87Jny0l1uTquTAvOj1759PHagYWTf8eC7oPci5N4VhE/OSjDcioj2flFWfxqt9Kf8WnHmfyl0lg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -63,5 +64,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "WnXxXvDeNpF4B8hjxj4jU9nTWgPIrXyEcA/UDHFrOZ4cx8Zb9VZoDsHhaK3Lr2p/hxsFYInfEjMJ7pIB6GFHQTobsK3/aB2l8Lh7AMDH6Y7T3xviiN2M1zRLw7VPZzgASizpLtvv+uoEN7K39B7d7Syb14m4n9CqDy+ZJZQ/BGn6rvOtHeiCAZQgGjDRO21Zs+HJR52RADWdGGfrnpCvprEfIADnlXkp5FLDHX4L3ECu3q3qCyO+EJSK7isGNsN8SY/ajc3OB7XMPjTb9eSvq2KAk0ff+lrHafPx3YINmkS/J7T99aa0WB67gtzS+De7eehnjmHxqHaNw9H1RXChCQ=="
+  "assinatura_extras": "FJSCRNnh91CjRrFFoFUmG2IyN/KPE6SQ0stxQfF+Li8KWBR/xi6cgqHnFPZpe/5QHfxZiR+wwf3BX8BqyOLsLZiJt+wIcGuMoJwZ5XmpKrEVDwiYvBSQMgnHLKg5QyLOoqh/Fm3xCOz54K/nBNi2zsZlKETyuokPdAdM8kO8f9kOVHtLGtBfOq5UYeMm0wRdAsbwn6Sa4PWgNPuS/1kwUo+YXAHWeVf4RRHrrJtPqxYp7jzHVy/PfPLuHdBxfg57TyQ0+97khNJgJnl2VSV5k3mQtLiT90ACKaxKDKfnzDw9/pG8VDjbelUUefhAweiTrTzhtBNw/n/7mRy+CYaWdA=="
 }
