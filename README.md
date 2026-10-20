@@ -1,8 +1,9 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.83** (2026-10-20)
+Versão atual: **8.84** (2026-10-20)
 
+- Proposta em PDF · tubos da ferramenta Tubos saem no 3D com os furos, rasgos e cortes das pontas no lugar certo, e a página de cada peça mostra o nome dela (ex.: Apoio banco). Tubo comprido ganha vistas na largura toda da página.
 - Proposta em PDF · tubo aparece em 3D na tabela (não parece mais chapa). Toque no desenho de qualquer peça e a proposta abre a página com a peça em 3D em quatro ângulos (frente, lado, trás e cima), com botão para voltar.
 - Ordem de serviço · peça com dobra sai com a vista dobrada em perspectiva, junto da planificada.
 - O Gerador de peças clássico saiu: fica só o Gerador/Editor de peças. O botão Ajustar no Gerador/Editor do Planificar dobra (Limpar) abre a peça dobrada direto no Gerador/Editor.
