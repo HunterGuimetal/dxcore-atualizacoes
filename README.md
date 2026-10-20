@@ -1,8 +1,9 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.85** (2026-10-20)
+Versão atual: **8.86** (2026-10-20)
 
+- Tubos · o IGES/STEP de tubo "plano" (para dobrar) agora entra inteiro na ferramenta Tubos: entalhes em V, janelas que passam pelo canto e formas quaisquer viram "Recorte livre" com a forma exata do arquivo; ponta recortada (degraus, dentes, encaixe) vira ponta "Arquivo"; furo que o arquivo partiu em dois volta a ser um só. Sai certo no 3D, na parede desenrolada, na simulação, no corte e perfurações do orçamento, na proposta e no IGES/STEP para o TubePro (testado relendo o arquivo exportado: mesmo corte do original).
 - Proposta em PDF · tubos lidos de IGES/STEP (pelo Limpar ou pela ferramenta Tubos) agora saem no 3D com todos os furos, janelas, entalhes em V e cortes das pontas, mesmo os que passam pelo canto do tubo. O nome da peça vem do nome do arquivo (ex.: APOIO_DO_BANCO_FRENTE.IGS vira "Apoio do banco frente") e aparece na tabela e na página 3D. Na ferramenta Tubos, enquanto o tubo importado não for mexido, o orçamento usa o corte exato do arquivo.
 - Proposta em PDF · tubos da ferramenta Tubos saem no 3D com os furos, rasgos e cortes das pontas no lugar certo, e a página de cada peça mostra o nome dela (ex.: Apoio banco). Tubo comprido ganha vistas na largura toda da página.
 - Proposta em PDF · tubo aparece em 3D na tabela (não parece mais chapa). Toque no desenho de qualquer peça e a proposta abre a página com a peça em 3D em quatro ângulos (frente, lado, trás e cima), com botão para voltar.

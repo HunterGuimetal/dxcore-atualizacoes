@@ -1,7 +1,8 @@
 {
-  "versao": "8.85",
+  "versao": "8.86",
   "data": "2026-10-20",
   "notas": [
+    "Tubos · o IGES/STEP de tubo \"plano\" (para dobrar) agora entra inteiro na ferramenta Tubos: entalhes em V, janelas que passam pelo canto e formas quaisquer viram \"Recorte livre\" com a forma exata do arquivo; ponta recortada (degraus, dentes, encaixe) vira ponta \"Arquivo\"; furo que o arquivo partiu em dois volta a ser um só. Sai certo no 3D, na parede desenrolada, na simulação, no corte e perfurações do orçamento, na proposta e no IGES/STEP para o TubePro (testado relendo o arquivo exportado: mesmo corte do original).",
     "Proposta em PDF · tubos lidos de IGES/STEP (pelo Limpar ou pela ferramenta Tubos) agora saem no 3D com todos os furos, janelas, entalhes em V e cortes das pontas, mesmo os que passam pelo canto do tubo. O nome da peça vem do nome do arquivo (ex.: APOIO_DO_BANCO_FRENTE.IGS vira \"Apoio do banco frente\") e aparece na tabela e na página 3D. Na ferramenta Tubos, enquanto o tubo importado não for mexido, o orçamento usa o corte exato do arquivo.",
     "Proposta em PDF · tubos da ferramenta Tubos saem no 3D com os furos, rasgos e cortes das pontas no lugar certo, e a página de cada peça mostra o nome dela (ex.: Apoio banco). Tubo comprido ganha vistas na largura toda da página.",
     "Proposta em PDF · tubo aparece em 3D na tabela (não parece mais chapa). Toque no desenho de qualquer peça e a proposta abre a página com a peça em 3D em quatro ângulos (frente, lado, trás e cima), com botão para voltar.",
@@ -42,9 +43,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3405052,
-  "sha256": "d0a03948354badf0b7442bc907e5f2988e2aaae46bd61b6d458ce8a5743f265f",
-  "assinatura": "UQOwxtpJOTtY0EvadvnaevAh0bZo9ATorfTK7efUuN73cxf+F7fC+IkYHxt1eoCPEHyazb9xJI8fa80619UivGWQLZiT90v6FTmdx62+1IRxUpVkQKzINDcUarAxpb8rxAt9dB4ypTF8MuikZUUVBDh/9vQqyN0r8siLw/8ZjE45jgr1dgcJeN8QmcR0TSYmq4Cm0NFJhk4ecu3ZQf6oJ/3gYTeHz2qkNdpiOdIqwl4V4lR4kXbyrCPQUqysmo3HQeWTzeiQ5a5JUO1/BVt4Fv8mYTMcDkldjMWA+HmEONhk3TR5PvVs+NmZxMzQI+/bhbgs/h19dqx9Or0pjETShw==",
+  "tamanho": 3436680,
+  "sha256": "6f3697c925bfe547a961cae4805cb67d9d0e863bf228e216f74cd549990cabda",
+  "assinatura": "WZjOVyXCayiXMmjktGIbn3sylVSSK6B14+s3E2KQwIFUolLZdXyMPNWQ5z+BikyUwecLhG51+LBZV2wy34hHT27WTru0sF+NZbX+2r7/rZNe5k+F/HQuWS/d3h1SX/eIv3WTb5j3lXG8MUIEYWIyVLrPtpnHhuPmPKd/iGQhUIbgo9eIglvahIgop2eg6dNr6bjwXXA51cQ0IG8aPGegzimigFNh6hdHIQNLmI0LUHDO9f8U7hNizkZT/ERABEVG0bG/Ik/qEBOAfMex5L/GQw614PaYZonqR2sID67EAJhOAEapkxO7HOQ0wh2Z8QAqOMiIZNi8QCVZ02MJrQUrbg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -67,5 +68,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "kLXpAbWLSqc4gNh/sERTs3lz8Tnnz2WBdZxqjTKKIEMbB0MPkdszt8OAGREoTK/m+j903DlwG578kzyMIgX8GSDMSCsk9ZSQila9eG811GhEvb71hR8OjTrTks4KRAcvDVHhfsLuOj3Sx8XYhUtYGmHbXBdfPEiQ4ZZJb8cT5zTogc8PDSnhPuMuZRyyp5YWJ2b+R0j0xjZVAZFO0W9hDPaMaaUIFMf/aicJJLbozE1URLwZoVYSbtwXJsR9PmRJZJ9teqE0KiDscJyRSVnhGfIAsogK4/Gt7sEVvBBe29zDrXaN5VxttGcQhi9I05Cvt7dpveG076ELFMTG3qpyuQ=="
+  "assinatura_extras": "hFXPcJZj+kdJsUWgYeetCBmXQUI3ls+nn2nSbygtl/AWEdi8p/3Evp+EOkUz/8qFXnnmIYVbC6/VEjo/sFsfgd6nRx6/LJwLhj2+ezi59EVrI9RlaLU1pD58toXgcNKJTGgzXHyCqV++uClnyFkgScY36w+TqewuiJDVILosbxbCTW1zB04W6/sj6PkQHh7/tE8F3Fem5NkkrTN/k709ZsJXQooPqFyKlIEBU3hjfqNnnrX7ge/vURl1PetP83IsmN5lGQL4yDW/UHUs8ZcLZFeq+kVtnkw2/XpUcWSDM3vsSZE5xyHnRB4ND+SS5BxNkaZ3JpdFRjIpMYS9pLeAkg=="
 }
