@@ -1,7 +1,8 @@
 {
-  "versao": "8.84",
+  "versao": "8.85",
   "data": "2026-10-20",
   "notas": [
+    "Proposta em PDF · tubos lidos de IGES/STEP (pelo Limpar ou pela ferramenta Tubos) agora saem no 3D com todos os furos, janelas, entalhes em V e cortes das pontas, mesmo os que passam pelo canto do tubo. O nome da peça vem do nome do arquivo (ex.: APOIO_DO_BANCO_FRENTE.IGS vira \"Apoio do banco frente\") e aparece na tabela e na página 3D. Na ferramenta Tubos, enquanto o tubo importado não for mexido, o orçamento usa o corte exato do arquivo.",
     "Proposta em PDF · tubos da ferramenta Tubos saem no 3D com os furos, rasgos e cortes das pontas no lugar certo, e a página de cada peça mostra o nome dela (ex.: Apoio banco). Tubo comprido ganha vistas na largura toda da página.",
     "Proposta em PDF · tubo aparece em 3D na tabela (não parece mais chapa). Toque no desenho de qualquer peça e a proposta abre a página com a peça em 3D em quatro ângulos (frente, lado, trás e cima), com botão para voltar.",
     "Ordem de serviço · peça com dobra sai com a vista dobrada em perspectiva, junto da planificada.",
@@ -41,9 +42,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3400176,
-  "sha256": "524c248271b5260b874d7e3ab3343e3d377a0dedbd0b4f3c6444ded7286e78a3",
-  "assinatura": "FzkR8WhPWCZb/3/zAkPp0Cja9e/vLqmY+v3e8bflQFMzzGNf1uv6EKAF6yslHCZF6GVCrxYT/uEPqkzXyS2q1G2KxuW4wrid1dxlMvHGVnLFL+/Sac6uabtwvR17c4MXjNkD8rKu2YvhGHk3VoN1vk2uNvqVOQ76yBRblBBGr3jkDmSJZiWEY/athtlUAKKULHYqFDrMitEGIeUYOW5XWEhNO1sEdej/cOxZIgOg5H7Y5koOFStUNn7cew0ZVlYxRE003NH3AuT3dlhVTsHqLc7wk4pmiMdN/rX6UmbglHHnnbzn6alMUnTkg2WC95aJUiIPP22voI30Htpu/rf2Aw==",
+  "tamanho": 3405052,
+  "sha256": "d0a03948354badf0b7442bc907e5f2988e2aaae46bd61b6d458ce8a5743f265f",
+  "assinatura": "UQOwxtpJOTtY0EvadvnaevAh0bZo9ATorfTK7efUuN73cxf+F7fC+IkYHxt1eoCPEHyazb9xJI8fa80619UivGWQLZiT90v6FTmdx62+1IRxUpVkQKzINDcUarAxpb8rxAt9dB4ypTF8MuikZUUVBDh/9vQqyN0r8siLw/8ZjE45jgr1dgcJeN8QmcR0TSYmq4Cm0NFJhk4ecu3ZQf6oJ/3gYTeHz2qkNdpiOdIqwl4V4lR4kXbyrCPQUqysmo3HQeWTzeiQ5a5JUO1/BVt4Fv8mYTMcDkldjMWA+HmEONhk3TR5PvVs+NmZxMzQI+/bhbgs/h19dqx9Or0pjETShw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -66,5 +67,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "VrLiOn53yFG8TJVrYvctYoQv4Prcue3PGNVC8+Ygj/IbxCP9ufBfi/c4/g8BiPU7bORYpVqblB/L2MDVR90Rc2mEVTyGhEfvan7rsuJEywL/2UlYS6wznqGW+sULs+Ej4wx104hBMyWluNFXNndtVX6MhT48tb3UcQFcXqOCjnf6zxHiFDPMVGURYYM3+QMCfZyz7rH7/+teO8yKm4TPDpS5x5tWbJ2zJGTLwIBRH0nRlOO+/SevjH1L0S5ecpNJsUcAQtlWRTdyJvyswX17BUjLDN5tRrrPdJn8mILv+UkKkS5sVvxxjJ0qoQo36AaN7HebXmk9qVt5Yvv2j8dL3Q=="
+  "assinatura_extras": "kLXpAbWLSqc4gNh/sERTs3lz8Tnnz2WBdZxqjTKKIEMbB0MPkdszt8OAGREoTK/m+j903DlwG578kzyMIgX8GSDMSCsk9ZSQila9eG811GhEvb71hR8OjTrTks4KRAcvDVHhfsLuOj3Sx8XYhUtYGmHbXBdfPEiQ4ZZJb8cT5zTogc8PDSnhPuMuZRyyp5YWJ2b+R0j0xjZVAZFO0W9hDPaMaaUIFMf/aicJJLbozE1URLwZoVYSbtwXJsR9PmRJZJ9teqE0KiDscJyRSVnhGfIAsogK4/Gt7sEVvBBe29zDrXaN5VxttGcQhi9I05Cvt7dpveG076ELFMTG3qpyuQ=="
 }
