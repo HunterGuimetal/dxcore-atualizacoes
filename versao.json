@@ -1,7 +1,8 @@
 {
-  "versao": "9.1",
+  "versao": "9.2",
   "data": "2026-10-21",
   "notas": [
+    "Tela inicial · a Mesa de corte e dobra agora corta em velocidade constante, como a máquina: o cabeçote anda até cada furo com o laser desligado, fura (com um clarão) e corta sempre no mesmo ritmo, do primeiro furo até o contorno. Mostra a etapa (Furando, Indo ao próximo, Corte a laser) e as dobras ficaram um pouco mais lentas para acompanhar.",
     "Tela inicial · nova vitrine \"Mesa de corte e dobra\": a chapa entra, o laser fura e recorta a peça (furos primeiro, contorno por último, com faíscas), a peça sai da chapa e as abas dobram a 90° uma de cada vez. Revezam uma cantoneira, um perfil U e uma bandeja de 4 abas, com a etapa e os metros de corte em tempo real. Leve: roda a 60 quadros só enquanto a tela inicial está aberta.",
     "DXCORE 9 · visual novo em todas as telas: grafite com o laranja GUIMETAL como laser, cartões com luz que segue o mouse, botões e campos com acabamento fino, e transições suaves entre as telas (a tela nova sobe e aparece, um laser passa no cabeçalho, as ferramentas entram em cascata no início). Portal, Projetar e Tubos no mesmo visual. O fundo animado pesado virou um fundo leve só em CSS (as luzes andam só na tela inicial), para manter tudo fluido a 60 quadros por segundo.",
     "Limpar · microjunta também no contorno de fora da peça quando ele veio em pedaços (linhas e arcos soltos ou polilinha que fecha sem estar marcada como fechada): antes só dava para pôr nos furos de dentro.",
@@ -49,9 +50,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3488338,
-  "sha256": "8f63dd35125af6da76c3536bd5ed9e7c62f5c4a1446bbb67ffa9f3390169388c",
-  "assinatura": "Rhpx7aCLEc8vMTfzfEmXtyzPbuuErjsoCIIpH9XoqVefOa9+YsPW7wxMHtHc0YQmwEbmE/kSRte8C4QFjKJK8pJqbosKcesUJaUwWYJT75S5X7KNaDv+Ah0+ElVCYDUsDNPSceMjKdNmT4a3FLz31lbjfrn29s5ByOE6cl8Z3puJGbF6RkLK83dBax7dKyH8s+m3MFsgfBUFf9e/+TWN7w8Oj2nfn5egFDnX2Wk140D1XHhwauBU9RpiaGNTAij/DiBhgmPr9HP24jP1pb9iaqHvrkrh/wL+qvsWNGoSlEiCFH3qCESnuVZA/qwsHpE+IJmCh32tCrWHyx3WU5mjLA==",
+  "tamanho": 3491350,
+  "sha256": "020cdb2efbc8fd1ff08ed7360e4f88baa885e0281c9977361a5c08c050242d2a",
+  "assinatura": "j3RtqPluVCV/ksjhUszxqAP3FqlMesGxhT8uDa27w6MvDggo5e7JaUUaKEkjfqFIWYoXczx5XB9AAi/elTFEsy5SJpBDWfKcmORWQYj0OqsZqhR5mFkPxmXFuAfhX3VmH8xMwuTy2m7DfnZToFm1kj+eMt1pm49CGXsCLbq8IxVOOADdX/2mdYywwN2tw043jAsD+sAKTrB4ERV+3SDnhjJYI4FpgIjP/tVSWQowVRyi1tl8Elt1QtiVrTWvpJXOD4uMUMLQRtxxyUcmEtLpTaTnzKJ5EQcecjgQWhFEOL1czcgbqX+EJx4vijsYgSt/1Sj3qFXPZ3vM03/SV7vlAg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -74,5 +75,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "R+/FzkfaQMEJEZdtgx51d82fyx00hRWhdfv8qR2TVyJg7JCqxkfDI1PYrkSIh4WjpNOpDyDaxCfdKw73HgCgK8gwwbwU+0AVQUFK8Ef833q0QtrabSrIia+05QhKmXNIdk82AvT1dK0JrBE2hz5WUD9XmhSG4c9bRpvhxkqdEWQSKmCTqmIfIHCxCZI1MMvTzsH1u6nSq3rKZG0x9XwpHD8TXEUHDG8xfllCx3CIDjmztTMQXd9mIWN9nHSUgjWDznoR99ZGkKN6s4Y4do39PGgvRRgzrj8+pqkRN5yVp2ZJo4DePXRoZDB2vZnZNLoLDX14V1kgT870eDK0nhgJGQ=="
+  "assinatura_extras": "N2My22Lp1t7jBjnJImhLP5VFPv2i2jMEQPix6+tyfpTlMYw2vLy243FFbLHvt4vrSYyh/aKU1mNwaHWFFOjlBTO/bXQ+O7J5E5MzLWsn+pjH1Mdfp/6kZHI3WM13/I0zijyh7UIDDehVWS9qqYx98he8mgdAR7bq1QBccu+kynmS2y7m2+NhTaiNHSLpEH8fMO4OTXmocSmmaJ6dGfjf52tmIPBdy2E/cKpaR6kJL2Eno4FF9boZKK9mP9ilHO+DT5Czoxw0NqMajo19EPbY0vAXR9tnEuUya7b8ma22BQS4Ng6/sI3/HR8jzeGHVAqpc8VBKLXEuXLlw5Ma8Bdbtw=="
 }
