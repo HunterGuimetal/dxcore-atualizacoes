@@ -1,8 +1,9 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.87** (2026-10-21)
+Versão atual: **8.88** (2026-10-21)
 
+- Limpar · microjuntas automáticas, como o CypCut e o FreeNest fazem: o DXF sai com pedacinhos sem cortar para a peça ficar presa na chapa. Vão nos trechos retos, longe dos cantos e espalhadas em volta da peça; a quantidade vem do tamanho e a largura da espessura. Na prévia dá para pôr e tirar com um clique, usar em todos os arquivos e guardar como padrão. Cada microjunta conta como uma perfuração no orçamento.
 - Orçamento · código e descrição não vêm mais trocados quando o carimbo do cliente tem o código escrito no campo da descrição (ou o nome da peça no campo do código): cada um vai para o seu lugar. E ganhou o botão "⇄ trocar" ao lado do Código (no orçamento, na OS e no Limpar) para inverter os dois num clique quando precisar.
 - Tubos · o IGES/STEP de tubo "plano" (para dobrar) agora entra inteiro na ferramenta Tubos: entalhes em V, janelas que passam pelo canto e formas quaisquer viram "Recorte livre" com a forma exata do arquivo; ponta recortada (degraus, dentes, encaixe) vira ponta "Arquivo"; furo que o arquivo partiu em dois volta a ser um só. Sai certo no 3D, na parede desenrolada, na simulação, no corte e perfurações do orçamento, na proposta e no IGES/STEP para o TubePro (testado relendo o arquivo exportado: mesmo corte do original).
 - Proposta em PDF · tubos lidos de IGES/STEP (pelo Limpar ou pela ferramenta Tubos) agora saem no 3D com todos os furos, janelas, entalhes em V e cortes das pontas, mesmo os que passam pelo canto do tubo. O nome da peça vem do nome do arquivo (ex.: APOIO_DO_BANCO_FRENTE.IGS vira "Apoio do banco frente") e aparece na tabela e na página 3D. Na ferramenta Tubos, enquanto o tubo importado não for mexido, o orçamento usa o corte exato do arquivo.
