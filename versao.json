@@ -1,7 +1,8 @@
 {
-  "versao": "9.4",
+  "versao": "9.5",
   "data": "2026-10-21",
   "notas": [
+    "Busca rápida · aperte Ctrl + K (ou o botão Buscar no topo) em qualquer tela e digite poucas letras: acha clientes, projetos, orçamentos, OS, peças da biblioteca, retalhos, romaneios, arquivos guardados e as ferramentas. Sem acento e em qualquer ordem (\"os 12\", \"orc 40\", nome do cliente, CNPJ, código da peça). Setas para escolher, Enter abre. Também tem atalhos: novo orçamento, nova OS, abrir desenho no Limpar, achar retalho e novo romaneio. Mostra só o que o seu perfil pode abrir e lembra o que você abriu por último.",
     "Visual · ícones redesenhados: todos com o mesmo traço, cantos arredondados iguais e um detalhe em laranja, na tela inicial, nos setores, nas pastas e arquivos, nos botões do topo e no portal de entrada. Os ícones contam o que cada ferramenta faz (contorno de corte no Limpar, chapa e caneta no Projetar, tubo com furo nos Tubos, chapas empilhadas no Estoque, quadro com cartões na Produção).",
     "Visual · fonte própria do DXCORE (Inter) embutida no programa: textos, números e títulos ficam iguais em qualquer computador, mais nítidos e com números alinhados nas tabelas. Vale para o portal, todas as telas, o Projetar, os Tubos e os desenhos na tela.",
     "Tela inicial · a Mesa de corte e dobra agora corta em velocidade constante, como a máquina: o cabeçote anda até cada furo com o laser desligado, fura (com um clarão) e corta sempre no mesmo ritmo, do primeiro furo até o contorno. Mostra a etapa (Furando, Indo ao próximo, Corte a laser) e as dobras ficaram um pouco mais lentas para acompanhar.",
@@ -52,9 +53,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3967036,
-  "sha256": "2d1e60cd7dd40081df6c5034385b4675945f4eda56193dc7ba2f0045cdba2561",
-  "assinatura": "Hl/nF4uDmkjDZdq0qzOVL43J+6XzcimHvKlPXx2ElfqON7jtdrgOGT0UTtIdLAgIMl57c+FQR1NJoAOXPG/LlY87THZhSUYkPgDKPXbZE/pjenzcp73R2lsX4Or/oO2OAYGpRAuAecrHRgwAEZB2mJgoHv+Z7+R4NXINNbHoobDP9vdhF4n516jheqBMiMj1WOPVn9ZXqOmvOXnhcMmNNXK0b9ZCfT8AlERTEmKZHhdl69A02+qc59NMWA3IfaEd2ez10PRwoiK5pDbGMO1HlXR5uC72uVCS/0yMhU11VSlWDVRb9ANj8lQbxF4GSBpkK2g7dXMezUKjXH+PwVMXMw==",
+  "tamanho": 3992720,
+  "sha256": "c968420d910078937330dc7b68878cfdb2289c2ba94361c5bf6db4c76efecff5",
+  "assinatura": "FnI7RbHNWV9+pivaZGKJszgAB+Tbdspw8y+840h5/l2OVXPBu2hfVQ4FQvkdOL8LIB4AcAFKNO01Tkrve4vjJc2ahpz2JUTq0iUP0FNX/rHmSfuPWR5Fj/66CwPpQAFiArer45w0Cv8Qq/kpHLEbBsQR1AnLIx1OO8QrBQcG0tA2//9ioIxD3db7jUQt9sP+Fi2tvO9DQomE1ucJbXLdHEq75o25+FXgmWOSWo9K3jBlLGeOJJ/AVgSiYG9ijyhzZz8X0XfAHjl5ZBqfwnmjv1xH0kCB6wXFDBOVgktzppVtyoFFYM0v/90FSjN9tifXlXUgBuDiT/TDxwrgKD7Ciw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -77,5 +78,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "I1SEGzGn8KrUnocT56o2cSfcZZIaTlrmJJmd9kuatCBXqcK8XgL/g8iEPOJHgZQrbVad0QcAXpoUqlLj2EHg9MBl0zvwTcbY+xzWwTuUb/HILXmVWy/e96PEyOHdVNrTs62JrnfyVSjqUpoLSRgo8z0QeUqIsvIIYI/ppAiYy6tWdGx+QLNnZ3aIZufK2bnjyTRWw9FmgeP4Oyv2L2w/KJYtC8YdVsi9K8PPRdio5WzHnV7aqLYHUYALJOY7mTwGnh91FEg7HmS0SW6a6hHkJbMhzV1dON7fM7Y+IVMhpv7ezbjf3BuJ8wkC3tdRycTiK/B4p6bWRQvOfjHCPB4aKw=="
+  "assinatura_extras": "fLM68ucu2BlMAfLY7PUkuoiPDbJ0E8nyRdTcHcsvIz+c86Bki/D3XV9LTn1N9CuVpKgN5gZri3F+wX1tKJ05wUiOfugZvfrMB24xe11jyyzdZUMoymkSILlsx8Zl699aM1Bn/DzA/P8EPxZULMutl8ldoXe0ZoC/4DH7HXMgwqvXlMMzOKOWon5wDLB6e9awmXmJ5WmISDesedLktq91NOxnxrjm/IOEMqb/pvyN7QBBEuX+Ura9sghxVZO5TdGbcysrAkR0kErPW+YTGeQlYcGTK1JU38JJbOzFGUyVFWZc3Y3+fphc4/GPl4f6kxDPc76ap5g41QuR/i/GGjSLCQ=="
 }
