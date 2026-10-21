@@ -1,8 +1,9 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **8.90** (2026-10-21)
+Versão atual: **9.0** (2026-10-21)
 
+- DXCORE 9 · visual novo em todas as telas: grafite com o laranja GUIMETAL como laser, cartões com luz que segue o mouse, botões e campos com acabamento fino, e transições suaves entre as telas (a tela nova sobe e aparece, um laser passa no cabeçalho, as ferramentas entram em cascata no início). Portal, Projetar e Tubos no mesmo visual. O fundo animado pesado virou um fundo leve só em CSS (as luzes andam só na tela inicial), para manter tudo fluido a 60 quadros por segundo.
 - Limpar · microjunta também no contorno de fora da peça quando ele veio em pedaços (linhas e arcos soltos ou polilinha que fecha sem estar marcada como fechada): antes só dava para pôr nos furos de dentro.
 - Limpar · microjuntas agora só à mão: liga no cartão Microjuntas e clica no contorno onde quer cada uma (clique de novo tira). Nada é colocado sozinho.
 - Limpar · microjuntas automáticas, como o CypCut e o FreeNest fazem: o DXF sai com pedacinhos sem cortar para a peça ficar presa na chapa. Vão nos trechos retos, longe dos cantos e espalhadas em volta da peça; a quantidade vem do tamanho e a largura da espessura. Na prévia dá para pôr e tirar com um clique, usar em todos os arquivos e guardar como padrão. Cada microjunta conta como uma perfuração no orçamento.
