@@ -1,7 +1,8 @@
 {
-  "versao": "8.89",
+  "versao": "8.90",
   "data": "2026-10-21",
   "notas": [
+    "Limpar · microjunta também no contorno de fora da peça quando ele veio em pedaços (linhas e arcos soltos ou polilinha que fecha sem estar marcada como fechada): antes só dava para pôr nos furos de dentro.",
     "Limpar · microjuntas agora só à mão: liga no cartão Microjuntas e clica no contorno onde quer cada uma (clique de novo tira). Nada é colocado sozinho.",
     "Limpar · microjuntas automáticas, como o CypCut e o FreeNest fazem: o DXF sai com pedacinhos sem cortar para a peça ficar presa na chapa. Vão nos trechos retos, longe dos cantos e espalhadas em volta da peça; a quantidade vem do tamanho e a largura da espessura. Na prévia dá para pôr e tirar com um clique, usar em todos os arquivos e guardar como padrão. Cada microjunta conta como uma perfuração no orçamento.",
     "Orçamento · código e descrição não vêm mais trocados quando o carimbo do cliente tem o código escrito no campo da descrição (ou o nome da peça no campo do código): cada um vai para o seu lugar. E ganhou o botão \"⇄ trocar\" ao lado do Código (no orçamento, na OS e no Limpar) para inverter os dois num clique quando precisar.",
@@ -46,9 +47,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3462536,
-  "sha256": "6956fda2dc3e612a825901ea274ad6e04d5cf5fc184125e920bf7a46febde8b0",
-  "assinatura": "eC/DDDNCJrHbyexXAEh/4mCVaTSeunynw+3SiR/O6cFT8DTMAK95XQ6ubaxBd/GCw2bS2+aDZivcpKZrescRiXcDVdSKrKdbHx+mbqE8InZqCf+N7YcehBQhl2Ig0DoHJ15Rln9r3vPDdu7A89IqEhDmY4BO8T6BX+Ri1RZiKEa8lsuZaAYZEik8aJylwlj/6TQPrQUYEZyMdCmTMmhYKK+uOoHALP1QEihjbnAJhgTJXPf7s6H4Mgumb46l7ydDBAC2u97sHuNz9/HFcKKwsKCqqvOisFWfUqXK02HUKacug4sQ7AqzDUdKsh1sXaqVbgoT/9GCp6MGb3i92Bpqmg==",
+  "tamanho": 3465488,
+  "sha256": "d45fb66962618f88cf6a741f611f2d32711ee2ce594a444e27478522c1567e7e",
+  "assinatura": "CC7dfCvwnE77IFzT9q2xJPdf4abVEnHKV0Obd0iZppi2Bq0B5RsljmXEy7uI+jh0/Nf2/TyHODJrPQZp3WLeSgrRklYm95zXgJp9wwp0i7usRSttDkUrfgx1uX3mI4wCVT1eAGca5chWULgTXWC4zsE08s8kL6VezMXoD4sewWB22GSmJBhEb7VOXJGYNhIJi4WnLgcD92Jqr/BZqqBc6xU1RhuKeCxKLyERyuI0xvZCeBVum9wV6p4eZDAP/KQ2IxVpLjOonEtQz0bi7AopOqPutU8OMT8flCArOTLYmVs1+hs6uV1SFhQnBsJbZnP7Jwzf++oVUnfiQrDT+oWzhA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -71,5 +72,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "X0mDV4fd1tIunMv5WrcblBQMD6XD+C952jIsBFP+MoFcqMlVobPwTa7lNEw5mTPqlwF9nap6o27rwF3onxOlIjo5uISMnxDzTpj3BcVj7uVRgwna1/JMoZQKlDfllSL+a4rNK0StsZqO1FTT8iKleWymmgfczthPHdz30RldBVI1p+04k1qUD3OyDPaUvNVJh+A4aptP9MRrIdMll/qJCZpoYOnh7Ds28No1NHZlQgXyICoUzN9d5oFGToTvK5I8zM32/BeZL6MxJR3oapQsBoTpe4E90sYSJJHboDXyYYLN26Ylk1xf0zUb1iOPCreiu6NR/sGDuDhBK9gvlWciBA=="
+  "assinatura_extras": "AWGS40Og+Wf4lc8RHhVKWWYdD2C4UJyJAB4PkwY5Cm7s/Es756QkSVL8zLFUP0A1i/+PPKrW5MgrWfIXEsv6qvbR3jmpgOLLMILqw4Y8REEpDwyhurWkM2MPEI+aecqFrywkFEkJK2+ivl8EquLYR/RRq9CpQ79oom1ck05vyg1GO8XVucTd0rORb/LYPt546c1mGa9cLJqEFVe10H68Jb9/fK4ZoFAyzGuflYPo/VDBQNxEUX5UdAVISlCoyEnQsO3346AhTiwiMGdM4za2mWpZO7zhbztCyt5XqdQhTp0Q5oc2UvcJiApOCfq+MRbniT1X6hgheTlVyctjCn/CmQ=="
 }
