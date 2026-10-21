@@ -1,7 +1,8 @@
 {
-  "versao": "8.88",
+  "versao": "8.89",
   "data": "2026-10-21",
   "notas": [
+    "Limpar · microjuntas agora só à mão: liga no cartão Microjuntas e clica no contorno onde quer cada uma (clique de novo tira). Nada é colocado sozinho.",
     "Limpar · microjuntas automáticas, como o CypCut e o FreeNest fazem: o DXF sai com pedacinhos sem cortar para a peça ficar presa na chapa. Vão nos trechos retos, longe dos cantos e espalhadas em volta da peça; a quantidade vem do tamanho e a largura da espessura. Na prévia dá para pôr e tirar com um clique, usar em todos os arquivos e guardar como padrão. Cada microjunta conta como uma perfuração no orçamento.",
     "Orçamento · código e descrição não vêm mais trocados quando o carimbo do cliente tem o código escrito no campo da descrição (ou o nome da peça no campo do código): cada um vai para o seu lugar. E ganhou o botão \"⇄ trocar\" ao lado do Código (no orçamento, na OS e no Limpar) para inverter os dois num clique quando precisar.",
     "Tubos · o IGES/STEP de tubo \"plano\" (para dobrar) agora entra inteiro na ferramenta Tubos: entalhes em V, janelas que passam pelo canto e formas quaisquer viram \"Recorte livre\" com a forma exata do arquivo; ponta recortada (degraus, dentes, encaixe) vira ponta \"Arquivo\"; furo que o arquivo partiu em dois volta a ser um só. Sai certo no 3D, na parede desenrolada, na simulação, no corte e perfurações do orçamento, na proposta e no IGES/STEP para o TubePro (testado relendo o arquivo exportado: mesmo corte do original).",
@@ -45,9 +46,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3466656,
-  "sha256": "40091abc0e6ff59484be39991eb0d7e512e2dd03126d872dacb8f723bca9a806",
-  "assinatura": "NbfmPF4kn5oZKKPRzq0ExzD0HEywd0NoV9vANzgUlf0Xy1dFgFWAhi6kCUqF+aRHbGdnPV3V8Mkkinqt+XYQT8mHRfCOw098F25/NOb4su2Sw3vFrYXuL+EJYW7i1szAI1vnuqkSuiH0K42r5Br9Rtti8UCIBvJjh2VVtbA4gbvkIrD+pEplIbwoidam+mMLZvAutEtomzLJYfhNSj9jopeMl/q0BlxCGwxC56VS4uiWwXMhCQEaZPUZ6A8ULbJS7m3y2dIFXSNLCl8AB64TJ6sTBjfCM8jkakrpf1UxdKbksLb1c1ga4KzmOmeDH7VM0ebP5s7uqcjaxLc/J4Vu0g==",
+  "tamanho": 3462536,
+  "sha256": "6956fda2dc3e612a825901ea274ad6e04d5cf5fc184125e920bf7a46febde8b0",
+  "assinatura": "eC/DDDNCJrHbyexXAEh/4mCVaTSeunynw+3SiR/O6cFT8DTMAK95XQ6ubaxBd/GCw2bS2+aDZivcpKZrescRiXcDVdSKrKdbHx+mbqE8InZqCf+N7YcehBQhl2Ig0DoHJ15Rln9r3vPDdu7A89IqEhDmY4BO8T6BX+Ri1RZiKEa8lsuZaAYZEik8aJylwlj/6TQPrQUYEZyMdCmTMmhYKK+uOoHALP1QEihjbnAJhgTJXPf7s6H4Mgumb46l7ydDBAC2u97sHuNz9/HFcKKwsKCqqvOisFWfUqXK02HUKacug4sQ7AqzDUdKsh1sXaqVbgoT/9GCp6MGb3i92Bpqmg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -70,5 +71,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "ITm/l/wpKNckDqAbM7Q0gwKgt9m+6pk86gEpiLxhoeHyfMoc8hLSVcAKQQ0fOv5oCFTSbU006oTmtOtVa0hRpS6w64JspEgBLc1iAXZt4eLqqphHVOwHugKSMrxnA5CgxsUsZ78WW5Cbu+8qtS3j3m7nH5PSdAGOpJwbWYV7dnlsbfyig+VB/lrioC1De+cxg+pKRUN8XqT3nB71bGgfPwjaVMwCQ5I/4wUg2Qmqj/dHORHIHfMYr9bMBelqKEmQM5OiE0NvMnPdD6XcacO29jWfFtD74o+dGG2/weR0krKWZKrsV2I0Mlj9K7vYiumZeILpBoxZ/VOH3Y0vKXb9fQ=="
+  "assinatura_extras": "X0mDV4fd1tIunMv5WrcblBQMD6XD+C952jIsBFP+MoFcqMlVobPwTa7lNEw5mTPqlwF9nap6o27rwF3onxOlIjo5uISMnxDzTpj3BcVj7uVRgwna1/JMoZQKlDfllSL+a4rNK0StsZqO1FTT8iKleWymmgfczthPHdz30RldBVI1p+04k1qUD3OyDPaUvNVJh+A4aptP9MRrIdMll/qJCZpoYOnh7Ds28No1NHZlQgXyICoUzN9d5oFGToTvK5I8zM32/BeZL6MxJR3oapQsBoTpe4E90sYSJJHboDXyYYLN26Ylk1xf0zUb1iOPCreiu6NR/sGDuDhBK9gvlWciBA=="
 }
