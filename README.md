@@ -1,8 +1,9 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **9.3** (2026-10-21)
+Versão atual: **9.4** (2026-10-21)
 
+- Visual · ícones redesenhados: todos com o mesmo traço, cantos arredondados iguais e um detalhe em laranja, na tela inicial, nos setores, nas pastas e arquivos, nos botões do topo e no portal de entrada. Os ícones contam o que cada ferramenta faz (contorno de corte no Limpar, chapa e caneta no Projetar, tubo com furo nos Tubos, chapas empilhadas no Estoque, quadro com cartões na Produção).
 - Visual · fonte própria do DXCORE (Inter) embutida no programa: textos, números e títulos ficam iguais em qualquer computador, mais nítidos e com números alinhados nas tabelas. Vale para o portal, todas as telas, o Projetar, os Tubos e os desenhos na tela.
 - Tela inicial · a Mesa de corte e dobra agora corta em velocidade constante, como a máquina: o cabeçote anda até cada furo com o laser desligado, fura (com um clarão) e corta sempre no mesmo ritmo, do primeiro furo até o contorno. Mostra a etapa (Furando, Indo ao próximo, Corte a laser) e as dobras ficaram um pouco mais lentas para acompanhar.
 - Tela inicial · nova vitrine "Mesa de corte e dobra": a chapa entra, o laser fura e recorta a peça (furos primeiro, contorno por último, com faíscas), a peça sai da chapa e as abas dobram a 90° uma de cada vez. Revezam uma cantoneira, um perfil U e uma bandeja de 4 abas, com a etapa e os metros de corte em tempo real. Leve: roda a 60 quadros só enquanto a tela inicial está aberta.
