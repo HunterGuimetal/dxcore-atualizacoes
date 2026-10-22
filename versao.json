@@ -1,7 +1,8 @@
 {
-  "versao": "9.5",
+  "versao": "9.6",
   "data": "2026-10-21",
   "notas": [
+    "Visual · Painel do dia e Quadro de produção ganharam vida. No Painel, ao abrir, os números sobem até o valor, as barras das etapas crescem e as colunas do gráfico sobem da base; na atualização automática só o número que mudou anda (do valor antigo ao novo) e o cartão dele acende em laranja. No Quadro, quando uma OS muda de etapa (arrastando, pelas setas ou por outro computador) o cartão desliza até a coluna nova e acende ao chegar, os outros se ajeitam no lugar e o contador da coluna pulsa. A coluna onde você vai soltar fica destacada. Tudo a 60 fps.",
     "Busca rápida · aperte Ctrl + K (ou o botão Buscar no topo) em qualquer tela e digite poucas letras: acha clientes, projetos, orçamentos, OS, peças da biblioteca, retalhos, romaneios, arquivos guardados e as ferramentas. Sem acento e em qualquer ordem (\"os 12\", \"orc 40\", nome do cliente, CNPJ, código da peça). Setas para escolher, Enter abre. Também tem atalhos: novo orçamento, nova OS, abrir desenho no Limpar, achar retalho e novo romaneio. Mostra só o que o seu perfil pode abrir e lembra o que você abriu por último.",
     "Visual · ícones redesenhados: todos com o mesmo traço, cantos arredondados iguais e um detalhe em laranja, na tela inicial, nos setores, nas pastas e arquivos, nos botões do topo e no portal de entrada. Os ícones contam o que cada ferramenta faz (contorno de corte no Limpar, chapa e caneta no Projetar, tubo com furo nos Tubos, chapas empilhadas no Estoque, quadro com cartões na Produção).",
     "Visual · fonte própria do DXCORE (Inter) embutida no programa: textos, números e títulos ficam iguais em qualquer computador, mais nítidos e com números alinhados nas tabelas. Vale para o portal, todas as telas, o Projetar, os Tubos e os desenhos na tela.",
@@ -53,9 +54,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 3992720,
-  "sha256": "c968420d910078937330dc7b68878cfdb2289c2ba94361c5bf6db4c76efecff5",
-  "assinatura": "FnI7RbHNWV9+pivaZGKJszgAB+Tbdspw8y+840h5/l2OVXPBu2hfVQ4FQvkdOL8LIB4AcAFKNO01Tkrve4vjJc2ahpz2JUTq0iUP0FNX/rHmSfuPWR5Fj/66CwPpQAFiArer45w0Cv8Qq/kpHLEbBsQR1AnLIx1OO8QrBQcG0tA2//9ioIxD3db7jUQt9sP+Fi2tvO9DQomE1ucJbXLdHEq75o25+FXgmWOSWo9K3jBlLGeOJJ/AVgSiYG9ijyhzZz8X0XfAHjl5ZBqfwnmjv1xH0kCB6wXFDBOVgktzppVtyoFFYM0v/90FSjN9tifXlXUgBuDiT/TDxwrgKD7Ciw==",
+  "tamanho": 4003464,
+  "sha256": "0379116f86828b10b0d3205b0abc6d14579454b73492e435d7e174d44d4d6ff2",
+  "assinatura": "en78y5N7k6mCWRpBR4iZWRAr24EiGuCE2WqNPQhbcdJqpbkacw6YcGlpiQJgKVyrGcM2YQJOCtChNziFSD6jchM3Yq8TxHdIaXzNYsOpO7rVFdBwzeu4NvtD9FUFM3k8MJ+fNTXILZhZBONTZgs736EzWKUJxl5MChkxhwwJ2z3jPsHQX1uYEBhdYMsXqdRzImVSwLbIksW2w/1JP3UQszV7WDocAicd8Z8dAsKdlraud2anYBVJw2t8ZtOYdfEVLCWVw+xKEVDW1N++TPC2EgUsqqZjyMFI8DNw8uv1IKgCxqhhUwjh1H3KK5hn7KK2k9eVFsbgil3nsPu2vE6WGQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -78,5 +79,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "fLM68ucu2BlMAfLY7PUkuoiPDbJ0E8nyRdTcHcsvIz+c86Bki/D3XV9LTn1N9CuVpKgN5gZri3F+wX1tKJ05wUiOfugZvfrMB24xe11jyyzdZUMoymkSILlsx8Zl699aM1Bn/DzA/P8EPxZULMutl8ldoXe0ZoC/4DH7HXMgwqvXlMMzOKOWon5wDLB6e9awmXmJ5WmISDesedLktq91NOxnxrjm/IOEMqb/pvyN7QBBEuX+Ura9sghxVZO5TdGbcysrAkR0kErPW+YTGeQlYcGTK1JU38JJbOzFGUyVFWZc3Y3+fphc4/GPl4f6kxDPc76ap5g41QuR/i/GGjSLCQ=="
+  "assinatura_extras": "fx9MfjMW9PLAgtP9moy7OWjSSIzIhVeMvAEDMxwr10D+yexZAoIFJiq2C9K7EQig4N99RGNClJ2Bq4z3R/PaEjIppQUUia5mJZei7VJFf7vB/RfHEto1rCuq5kbEApD+ic/E3jQRqXybOC7k0xN3Z/1JN8HdPeBxw/YIB/N3WgiaOBwMVHD/5MwXTJ8wLZInQq7VqYGf8FjcniTTmEAOqSxgxD6H07NlMrROotPoUzjEZDFxHaPeIG+pDER0j9ckMNMI4m9w7JKL59EVMv2EyhZkjQfXMPyoh1/77mfkkEwWLi7J+JMuCeylCGZn0fSKg55cNG0tW5tyvLghOvloiw=="
 }

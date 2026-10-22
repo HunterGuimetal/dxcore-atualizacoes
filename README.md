@@ -1,8 +1,9 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **9.5** (2026-10-21)
+Versão atual: **9.6** (2026-10-21)
 
+- Visual · Painel do dia e Quadro de produção ganharam vida. No Painel, ao abrir, os números sobem até o valor, as barras das etapas crescem e as colunas do gráfico sobem da base; na atualização automática só o número que mudou anda (do valor antigo ao novo) e o cartão dele acende em laranja. No Quadro, quando uma OS muda de etapa (arrastando, pelas setas ou por outro computador) o cartão desliza até a coluna nova e acende ao chegar, os outros se ajeitam no lugar e o contador da coluna pulsa. A coluna onde você vai soltar fica destacada. Tudo a 60 fps.
 - Busca rápida · aperte Ctrl + K (ou o botão Buscar no topo) em qualquer tela e digite poucas letras: acha clientes, projetos, orçamentos, OS, peças da biblioteca, retalhos, romaneios, arquivos guardados e as ferramentas. Sem acento e em qualquer ordem ("os 12", "orc 40", nome do cliente, CNPJ, código da peça). Setas para escolher, Enter abre. Também tem atalhos: novo orçamento, nova OS, abrir desenho no Limpar, achar retalho e novo romaneio. Mostra só o que o seu perfil pode abrir e lembra o que você abriu por último.
 - Visual · ícones redesenhados: todos com o mesmo traço, cantos arredondados iguais e um detalhe em laranja, na tela inicial, nos setores, nas pastas e arquivos, nos botões do topo e no portal de entrada. Os ícones contam o que cada ferramenta faz (contorno de corte no Limpar, chapa e caneta no Projetar, tubo com furo nos Tubos, chapas empilhadas no Estoque, quadro com cartões na Produção).
 - Visual · fonte própria do DXCORE (Inter) embutida no programa: textos, números e títulos ficam iguais em qualquer computador, mais nítidos e com números alinhados nas tabelas. Vale para o portal, todas as telas, o Projetar, os Tubos e os desenhos na tela.
