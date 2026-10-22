@@ -1,8 +1,8 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **9.19** (2026-10-22)
+Versão atual: **9.20** (2026-10-22)
 
-- Visual · trocar de setor na tela inicial agora é animado: as ferramentas que continuam deslizam do lugar antigo para o novo, as que saem se recolhem para o lado de onde você veio e as que chegam entram pelo lado para onde você foi. O destaque laranja escorrega da aba antiga até a nova, e isso vale para as abas de todas as telas (orçamentos, expedição, quadro...).
+- Orçamento de tubo · o material agora é sempre cobrado pela barra inteira: o DXCORE encaixa as peças de cada tubo nas barras (de 6 m, ou o que estiver em Parâmetros) e cobra todas as barras que o pedido gasta, não só os metros das peças. A sobra é dividida entre as peças daquele tubo, e o orçamento mostra quantas barras foram cobradas e quanto foi de sobra.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
