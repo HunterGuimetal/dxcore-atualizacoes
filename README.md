@@ -1,9 +1,9 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **9.17** (2026-10-22)
+Versão atual: **9.18** (2026-10-22)
 
-- Portal de entrada · visual novo de estação de trabalho: abertura com o laser desenhando o DX numa moldura técnica com cotas e a barra de carregamento; depois o painel de identificação (relógio, saudação, versão, último acesso) e os setores numa lista. Ao escolher o setor, a senha abre ali mesmo, embaixo dele. Ao fundo, uma prancheta técnica com uma cantoneira em 3D girando devagar e a mira com as coordenadas do mouse.
-- Tema claro · o portal de entrada agora segue o tema escolhido (escuro ou claro), igual ao resto do programa.
+- Pasta de dados mais rápida · os rascunhos do Limpar agora ficam em duas partes, como os orçamentos: a lista leva poucos bytes e os arquivos dos desenhos só são lidos quando você abre o rascunho (no teste da pasta da fábrica, 2 rascunhos pesavam 13,7 MB e levavam 3,5 s para ler; agora são poucos KB). A troca acontece sozinha na primeira abertura.
+- Pasta de dados · quando muitos orçamentos (ou outros registros) mudaram desde o último resumo, o DXCORE grava um resumo novo; assim a próxima abertura lê só ele em vez de buscar registro por registro.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

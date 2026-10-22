@@ -1,11 +1,19 @@
 {
-  "versao": "9.17",
+  "versao": "9.18",
   "data": "2026-10-22",
   "notas": [
-    "Portal de entrada · visual novo de estação de trabalho: abertura com o laser desenhando o DX numa moldura técnica com cotas e a barra de carregamento; depois o painel de identificação (relógio, saudação, versão, último acesso) e os setores numa lista. Ao escolher o setor, a senha abre ali mesmo, embaixo dele. Ao fundo, uma prancheta técnica com uma cantoneira em 3D girando devagar e a mira com as coordenadas do mouse.",
-    "Tema claro · o portal de entrada agora segue o tema escolhido (escuro ou claro), igual ao resto do programa."
+    "Pasta de dados mais rápida · os rascunhos do Limpar agora ficam em duas partes, como os orçamentos: a lista leva poucos bytes e os arquivos dos desenhos só são lidos quando você abre o rascunho (no teste da pasta da fábrica, 2 rascunhos pesavam 13,7 MB e levavam 3,5 s para ler; agora são poucos KB). A troca acontece sozinha na primeira abertura.",
+    "Pasta de dados · quando muitos orçamentos (ou outros registros) mudaram desde o último resumo, o DXCORE grava um resumo novo; assim a próxima abertura lê só ele em vez de buscar registro por registro."
   ],
   "historico": [
+    {
+      "versao": "9.18",
+      "data": "2026-10-22",
+      "notas": [
+        "Pasta de dados mais rápida · os rascunhos do Limpar agora ficam em duas partes, como os orçamentos: a lista leva poucos bytes e os arquivos dos desenhos só são lidos quando você abre o rascunho (no teste da pasta da fábrica, 2 rascunhos pesavam 13,7 MB e levavam 3,5 s para ler; agora são poucos KB). A troca acontece sozinha na primeira abertura.",
+        "Pasta de dados · quando muitos orçamentos (ou outros registros) mudaram desde o último resumo, o DXCORE grava um resumo novo; assim a próxima abertura lê só ele em vez de buscar registro por registro."
+      ]
+    },
     {
       "versao": "9.17",
       "data": "2026-10-22",
@@ -107,19 +115,12 @@
       "notas": [
         "Visual · ícones redesenhados: todos com o mesmo traço, cantos arredondados iguais e um detalhe em laranja, na tela inicial, nos setores, nas pastas e arquivos, nos botões do topo e no portal de entrada. Os ícones contam o que cada ferramenta faz (contorno de corte no Limpar, chapa e caneta no Projetar, tubo com furo nos Tubos, chapas empilhadas no Estoque, quadro com cartões na Produção)."
       ]
-    },
-    {
-      "versao": "9.3",
-      "data": "2026-10-21",
-      "notas": [
-        "Visual · fonte própria do DXCORE (Inter) embutida no programa: textos, números e títulos ficam iguais em qualquer computador, mais nítidos e com números alinhados nas tabelas. Vale para o portal, todas as telas, o Projetar, os Tubos e os desenhos na tela."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4121765,
-  "sha256": "684065ea83b631c8869a3975a539925d194577c819caf6de563649cebbd8048a",
-  "assinatura": "aFJXNlENCzLSpcDGYPbPOAmNgyzv0j/hgtKjlcHULs4NkiuIbQ/1W3694SL/m7eVOrdO1TB3U9citq3jwrxw+tf2VY4vLOCpOTciAKZ0sAepIKcGh3ALxnZB6lhF+cfS0y4TIOXqCtb7SQP1RqSNundbNQkhTMP5cXj1QitfqBKomeYFRhlCtaqdlN3EOP61eQYlaau709gUpjZpOJ8seyL8sqEY1Fzcg4SzT1VJZ2FJCAsDVEr4xU9kHFih58PzsYRD/XNw5X39wt24sfNSo2laA3ApE2lYAReNvsaECZtIoYwRu61WjHa0Sd+xYZ4PGgFhQdZEPNLn1MBf4MhMOw==",
+  "tamanho": 4125033,
+  "sha256": "e84dafa7410ccd7db1e6f17851472a940c146647d81600c5b094d5d89961ccbd",
+  "assinatura": "TAvujvrcg5wlryx0KMeXPX4lTzr38r8bBQZLK3iqn4OQMBPqZw95f3qW2ZUFRnsjS6eY5iXLzTowap0TYubpgyBdA8r9xxb0GJRRJ762eqrzIAQ/ZbicEloBUhO0m/0W1s41stsUG07DCO2Ms0cPYe5H8IiXlGpKRntOfr7IPCm4kK9OPTFOANWg8Vxmot1BFslY8fcEuql25v/3mmqd+8VoNS6jXwZxHQ0lkh3X7tzk9aOgqp19C1PTzO1tovGJ+I77HFX4E4SwYnsPae20UXsk9N8v2JrdimUyNDXhaprJj70nF7HqhsWpWssATOqVB8fJLfrQHlNBZzMLL7LhHw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -142,5 +143,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "Rn+6cqyf7yx1lhOg0ILyAuIaY0TBwusQc9E1VQZfU67SNxHxjChx7gurtFKplUY0xnYQHjyQMaI4ZSaVwARTvIlepv9FLc7f1vhmtpgQUEgatbp6wVlAWGOwQ0vhMpSPCqR/dQXNoAsoh/zwTYqdPrY/T4+WUFO45NOF65jvrFcNt8zl3ariEFsE8+/IcZHzB4B0PqfSG7Fctlqicf4mtOsmCUNoWKvJ6Jc9HWHqdX2jSSZRjeUYSv3K88MogrdnmdGtg6AMQikFkL02l927ISvDbA5FjaDP5J6/2Zqd7jNMmNHVVkLUDo+iFgbwDt91Gvoi6o1InZCAplKLOLRydg=="
+  "assinatura_extras": "PQSxa3XWxfNT6nompiTodHksz27wBhYJrZTdKX1j5puO2XkP32Y07Uw+W5/BpJwxeeNgn7zHUP2gyAS7+1LUESpLHb2l+kkRaCUyliX3JTqY3M5WOYHEHP/DoI/uSpLgtzOCrCtNdcH9pSr9d8IsjleOoOXblmcdjfkNxMsH2B+CuAxKGS1LObEZ/3qkfqs/H20kj5qjYXcohWJNemfWtNbd2SBlgBCiBPsqLEhXi5wQNONRpv0T7ke+ADYFH8aoApZyXypesQDS3e2mAwBJhNEYBznYGAUPZIp8H/RWQYy+ts9sy2FBUdaLl8nRCwit0nZzwWAQoeSFxKzCTJQ1Fg=="
 }
