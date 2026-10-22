@@ -1,7 +1,8 @@
 {
-  "versao": "9.9",
+  "versao": "9.10",
   "data": "2026-10-21",
   "notas": [
+    "Proposta em PDF · mais curta: cada peça mostra, na própria linha da tabela, a planificada e a miniatura em 3D lado a lado. Saíram as páginas extras de vistas em 3D (e o link de tocar na peça para abrir), então a proposta fica com poucas páginas mesmo com muitas peças.",
     "Limpar · o desenho se faz na tela: ao abrir um arquivo, cada contorno é traçado do começo ao fim com um ponto de luz na ponta, como o cabeçote do laser; as linhas que saem aparecem esmaecendo e as medidas entram no final. Trocar de arquivo na lista refaz o traçado rapidinho. Ver em 3D agora é uma transição: a chapa sai do desenho visto de cima, na mesma escala, e inclina até o 3D; o tubo entra girando. Ver em 2D faz o caminho contrário e o desenho se refaz. Clicar no desenho durante a animação pula para o fim.",
     "Visual · avisos com cara de \"deu certo\": quando algo é salvo, gerado, aprovado ou entregue, o aviso traz um círculo laranja com o visto se desenhando e uma barrinha do tempo, e o botão que você clicou ganha um visto por um instante. Quando algo dá errado, o aviso vem com um triângulo vermelho e um tremor curto. Clique no aviso para fechar. Telas que demoram para abrir (pasta da rede lenta) mostram o esqueleto da tela com um brilho passando, em vez da tela antiga ou em branco.",
     "Orçamento · o desconto agora pode ser em % ou em R$: ao lado do campo Desconto tem a escolha % | R$. Em R$ é o valor que sai do total (pode digitar 1.500 ou 1.500,50). Ao trocar de um para o outro, o número é convertido e o desconto continua o mesmo. O resumo mostra quanto o valor representa em %, a proposta em PDF diz \"Desconto de R$ … já aplicado\" e o preço de cada peça já sai com o desconto dividido. Avisa se o desconto for maior que o orçamento. Orçamentos antigos continuam em %.",
@@ -57,9 +58,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4029584,
-  "sha256": "39429eb22f981a3d6daae5f15f9af0f26cdcecff51eaba56f178aa940f6a4e81",
-  "assinatura": "F/CeYBASFEwQKApCxK7FUMFhHWTzDGnbTC3VB8oNz3pU0YCEZMWyqNplobZtrhV5h76poQW0KJvU/lfWQdpfZFAeimDOz+Gbp7O1R64kaTbDD/yhquAsxvvwVsAsQAXWDh5JlG4q5DI/bszR2OHToxL1YjEiso3i0Baw30jDJheK8sYT8LV5y/u8TlJZ8tJN7wnCACMatfnmpgGMcDjczknwAE1ker8G0zl1iJaf3JiUWWjgMFnAIlWQudA6s1P7haKZDkaWcvWc/62gSA8uJx/UR/BbDsMGcOwrrpOhcYV8JK62DtaA7KDzrn6uiB65j6BgLk/AIPX5HCixNByQiA==",
+  "tamanho": 4026350,
+  "sha256": "0424cf414619357903d2731d0d0a731afd9930634909c0ceec667da0d4e08d79",
+  "assinatura": "R+RmQLrGWJMFR1tuFfJzmPdsULs27uzJHgrj5EG/mDVnBNzHxULKzex7fs2n86i3CmKKEkKwwWXDKmocRtrwoJgDocuh+SV0LAw5NBqwo2fU6AGbk7DF2E2OzRA4gNXkwGlr8aPeRPWmz0Tp4qieuh7nNSDDL7hKmORND1njQ2qTi0LQDWgfW/IcfkXRzVDEXSSu0f6mW7qqu+hG2ufsW9IkGCF0RjjITMPWcoreofVkuVFs3DbBwXGNUyiwGQZD9MK/M3KUOyIxxl2lY7aJpH5uclvcfHPIdeAlk32XaXKr0PV33y3dK8OSAdJncjS2V0gcDM8lPnBAPmAzcDgCGw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -82,5 +83,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "BynrEv3XIjo0Y73iPUKt9rAftfShJfpKJJYspwfKSMLMDaR4ygo2JfLRsr5im3POZA4uN9q8tvU7nGGYPwKvmH5Wn9LBr0qCXe3ehQYOs9UcGcxfQnbIAPjjcGMPTPwfZ0CiaN6W1e1FR+cakqqmAEccdyrw8r2sfeEw6ID6fFPoouZKTTsuKODRoUXn04AuPn2KbPscfBIswGLeEW/D+9Zf/sTR7MNcjiynuVFn2xXxwRAfnPE4oENYJiPZBxHmk6O3mHXUop7JkFPxYRDT+KPEKze94057zUbSnph3waBpf+1dh45i8ZJSqevTMPRmVTUAOZVqXV9/fURhpmvBYA=="
+  "assinatura_extras": "Gxkgw+z6lB5kh8JRU7nAuty7s1z1J9DKaH6PPX4Rx2AnGcE+5GicvlkXt3Ww1d+VBTh9+KNtxuSvhYNKfRHpuc3T1t/vdSY7eJiXzpqTIFMLnY3Ao6VRfMmLHCWTDYIi8rJLOUpsgYQy2Ob6xjZZRJXEbWCHXkPo/5OrSByLXma++MBP+c1CsaUwCzJpPwu90DFFY8r1TvJCTutzsvQCb8SgjAgrjyWSbXsB4x+IOaa/h5V38OjOwWKNBOyYsnSRmGwtp8VJzJq3X6m+chYvd70soI9X1fQEsdfcQ3T1dd3VPXbgto1yPWIw4I0lzQtKFsvQzvhpa7dD5vqe5/adog=="
 }
