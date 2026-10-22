@@ -1,10 +1,17 @@
 {
-  "versao": "9.14",
-  "data": "2026-10-21",
+  "versao": "9.15",
+  "data": "2026-10-22",
   "notas": [
-    "Novidades · a janela de \"Seu DXCORE foi atualizado\" agora mostra só o que mudou desde a versão que estava no computador (separado por versão), e não a lista inteira desde o começo."
+    "Encaixe nas chapas · a grade agora usa o contorno exato da peça (antes sobrava uma folga extra de segurança de décimos de mm em volta de cada peça). Na hélice de 215 × 728 mm, a chapa 3000 × 1250 passou de 20 para 24 peças, igual ao CypCut, e a 3000 × 1500 de 26 para 28. O espaço entre as peças continua o que está configurado."
   ],
   "historico": [
+    {
+      "versao": "9.15",
+      "data": "2026-10-22",
+      "notas": [
+        "Encaixe nas chapas · a grade agora usa o contorno exato da peça (antes sobrava uma folga extra de segurança de décimos de mm em volta de cada peça). Na hélice de 215 × 728 mm, a chapa 3000 × 1250 passou de 20 para 24 peças, igual ao CypCut, e a 3000 × 1500 de 26 para 28. O espaço entre as peças continua o que está configurado."
+      ]
+    },
     {
       "versao": "9.14",
       "data": "2026-10-22",
@@ -105,19 +112,12 @@
       "notas": [
         "Tela inicial · nova vitrine \"Mesa de corte e dobra\": a chapa entra, o laser fura e recorta a peça (furos primeiro, contorno por último, com faíscas), a peça sai da chapa e as abas dobram a 90° uma de cada vez. Revezam uma cantoneira, um perfil U e uma bandeja de 4 abas, com a etapa e os metros de corte em tempo real. Leve: roda a 60 quadros só enquanto a tela inicial está aberta."
       ]
-    },
-    {
-      "versao": "9.0",
-      "data": "2026-10-21",
-      "notas": [
-        "DXCORE 9 · visual novo em todas as telas: grafite com o laranja GUIMETAL como laser, cartões com luz que segue o mouse, botões e campos com acabamento fino, e transições suaves entre as telas (a tela nova sobe e aparece, um laser passa no cabeçalho, as ferramentas entram em cascata no início). Portal, Projetar e Tubos no mesmo visual. O fundo animado pesado virou um fundo leve só em CSS (as luzes andam só na tela inicial), para manter tudo fluido a 60 quadros por segundo."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4118146,
-  "sha256": "3c999761a25d1158a3f0f6f41e36fdc7acac006206d6f70a86d5ceeb5900f36d",
-  "assinatura": "N3KLmSg00B/fua4OOs9A0aAFQcF4EAsTN04qw1NM7vCTwVPPOMXrAO3/t0P2nkuyI0+EPETsENwybYnbMhKHvVMeCVjx91LSuUqc1ZlIlhS0NN6gkRudAOGmUNGpCbWhM4tK9MJlkcqcDZD9igDRMK3Awqrk4sPW6gfbRSIsyrEf8ELYt87siiZO8n31uFa9IsaKStehrpeuKllPvTPa3CYg2F8HVQFzTYxRIQxvJDmdB6rJPdV/LW0FzUR7fj9q6nRwqG8imVlUv07yusja+rqzDgmCfRa5eoZHso6ANO4RQ0YBoUuTax+U/FW6xqunQVo859L2kwa14XMPRIDznQ==",
+  "tamanho": 4118302,
+  "sha256": "63972e99bb8334073bf33da4a32bd43fdf21e70b08c4102e3364db326ce31160",
+  "assinatura": "eWrFE3cHQpKhkLQmvZPifX7SRoBxSForhxVPLiWAH2/gIWsE1tVGKnt77DFJ+Zk64nfP2fkLLoeU4Ku+fK5/zLDsvth25ShhF803EYg5MPz73YZLLD3l8ZFS3YJK5oB/dLJxQiVs3mZrZJZ8rXsMivlL4GThE9tCmhi6xoxtwEaq2gGrxsHTXwFCWoaTivVd5SDhyaMgjDh1uLalp0BkSQbM0jVvguy6NzmsKEAPIAXuiXo1XnJPekGlW9NFSB7YfdyqCKXtM5p9DOxNf1fYtSuDnbnTyxqGw18OHbYqWAtGFITr2Rzb4X+88j0Gzv+FxL76J2mN9KqRIYVBV8hVyw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -140,5 +140,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "OY0g+IUoRY5IIyHhGxrWFm+ILwD1PNWQjtwSICKg2S22vfF7Vf3/WR1DvnC48ZeoAcR807FZ+a7H+7V3c/e/m1R8AUQZlRpN7P84IAb411/NDxnacu/WDokUKVRbCs9yZ/bBo3tr4RXuLTSs0FiH8T5Mvt78+tuFVRGr4Qu7Px5sGomG2wSOukG28F1sN3ghjcsBuZgjMI2KjWK8aC4lcZofTOH0KDVRc3SF4BHRooU2L+2GI2xGrZMRsOIZ4WaU/UCrzl9JfUUOVNDoN+cypkBZFNilZppYKXk5IHWRT2NuG9+abLLn6OkQt1btHkRSjEaI4eJyDMnETxA/P4/NLA=="
+  "assinatura_extras": "Td9IXuJQqW6jzCQSnNVVklCsBIu2e0NbxnliiA2z1mYanG2zIuYyxu7L0y04ZJ+OyLotBdU/BMu/80ZaBJgXLLeuoM9GAeOVRM3RwpnMjv8vkOb3AE5fdI1Oj2QZiAQ4Aq5vYs3n8GlZ9E9ZGe0U/PNSXhZ+8FbeZremGDexYj5whAmutWEAeLAc5G7USM7s0v/JSwpVKVp40no5TfBSP2AyO5MLj6TJGzAuK+BeICFkeKp/ZXv6whOD5QjNRx+sfpuIzxdEBcLFXUY/zcVXCSVrUzHuIrU7WH0dTKjAB+1mltgj5VYT/+I0CXASAgfz9FaCwgpdLmgeuPHeB3JfEQ=="
 }

@@ -1,8 +1,8 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **9.14** (2026-10-21)
+Versão atual: **9.15** (2026-10-22)
 
-- Novidades · a janela de "Seu DXCORE foi atualizado" agora mostra só o que mudou desde a versão que estava no computador (separado por versão), e não a lista inteira desde o começo.
+- Encaixe nas chapas · a grade agora usa o contorno exato da peça (antes sobrava uma folga extra de segurança de décimos de mm em volta de cada peça). Na hélice de 215 × 728 mm, a chapa 3000 × 1250 passou de 20 para 24 peças, igual ao CypCut, e a 3000 × 1500 de 26 para 28. O espaço entre as peças continua o que está configurado.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
