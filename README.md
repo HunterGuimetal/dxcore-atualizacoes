@@ -1,8 +1,11 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **9.11** (2026-10-21)
+Versão atual: **9.12** (2026-10-21)
 
+- Visual · tema claro opcional: no botão do seu usuário (canto de cima), em Aparência, escolha Escuro ou Claro (fica salvo neste computador). Também dá pelo Ctrl + K, digitando "tema". O Projetar, os Tubos e a mesa de corte da tela inicial continuam escuros, como programa de CAD.
+- Visual · telas vazias ilustradas: quando ainda não tem nada (orçamentos, OS, quadro, estoque, retalhos, biblioteca, programação, clientes), aparece um desenho do que vai ali, junto da explicação de como começar.
+- Modo TV · relógio grande com a data no canto da tela e a opção Alternar Quadro e Painel: a TV da fábrica troca sozinha entre o Quadro de produção e o Painel do dia a cada 40 segundos, sem sair da tela cheia, com uma linha laranja no alto mostrando quando vai trocar. Esc sai do modo TV.
 - Proposta em PDF · mais curta: cada peça mostra, na própria linha da tabela, só a miniatura em 3D (a planificada aparece apenas se a peça não tiver 3D). Saíram as páginas extras de vistas em 3D e o link de tocar na peça, então a proposta fica com poucas páginas mesmo com muitas peças.
 - Limpar · o desenho se faz na tela: ao abrir um arquivo, cada contorno é traçado do começo ao fim com um ponto de luz na ponta, como o cabeçote do laser; as linhas que saem aparecem esmaecendo e as medidas entram no final. Trocar de arquivo na lista refaz o traçado rapidinho. Ver em 3D agora é uma transição: a chapa sai do desenho visto de cima, na mesma escala, e inclina até o 3D; o tubo entra girando. Ver em 2D faz o caminho contrário e o desenho se refaz. Clicar no desenho durante a animação pula para o fim.
 - Visual · avisos com cara de "deu certo": quando algo é salvo, gerado, aprovado ou entregue, o aviso traz um círculo laranja com o visto se desenhando e uma barrinha do tempo, e o botão que você clicou ganha um visto por um instante. Quando algo dá errado, o aviso vem com um triângulo vermelho e um tremor curto. Clique no aviso para fechar. Telas que demoram para abrir (pasta da rede lenta) mostram o esqueleto da tela com um brilho passando, em vez da tela antiga ou em branco.

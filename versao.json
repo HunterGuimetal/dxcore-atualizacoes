@@ -1,7 +1,10 @@
 {
-  "versao": "9.11",
+  "versao": "9.12",
   "data": "2026-10-21",
   "notas": [
+    "Visual · tema claro opcional: no botão do seu usuário (canto de cima), em Aparência, escolha Escuro ou Claro (fica salvo neste computador). Também dá pelo Ctrl + K, digitando \"tema\". O Projetar, os Tubos e a mesa de corte da tela inicial continuam escuros, como programa de CAD.",
+    "Visual · telas vazias ilustradas: quando ainda não tem nada (orçamentos, OS, quadro, estoque, retalhos, biblioteca, programação, clientes), aparece um desenho do que vai ali, junto da explicação de como começar.",
+    "Modo TV · relógio grande com a data no canto da tela e a opção Alternar Quadro e Painel: a TV da fábrica troca sozinha entre o Quadro de produção e o Painel do dia a cada 40 segundos, sem sair da tela cheia, com uma linha laranja no alto mostrando quando vai trocar. Esc sai do modo TV.",
     "Proposta em PDF · mais curta: cada peça mostra, na própria linha da tabela, só a miniatura em 3D (a planificada aparece apenas se a peça não tiver 3D). Saíram as páginas extras de vistas em 3D e o link de tocar na peça, então a proposta fica com poucas páginas mesmo com muitas peças.",
     "Limpar · o desenho se faz na tela: ao abrir um arquivo, cada contorno é traçado do começo ao fim com um ponto de luz na ponta, como o cabeçote do laser; as linhas que saem aparecem esmaecendo e as medidas entram no final. Trocar de arquivo na lista refaz o traçado rapidinho. Ver em 3D agora é uma transição: a chapa sai do desenho visto de cima, na mesma escala, e inclina até o 3D; o tubo entra girando. Ver em 2D faz o caminho contrário e o desenho se refaz. Clicar no desenho durante a animação pula para o fim.",
     "Visual · avisos com cara de \"deu certo\": quando algo é salvo, gerado, aprovado ou entregue, o aviso traz um círculo laranja com o visto se desenhando e uma barrinha do tempo, e o botão que você clicou ganha um visto por um instante. Quando algo dá errado, o aviso vem com um triângulo vermelho e um tremor curto. Clique no aviso para fechar. Telas que demoram para abrir (pasta da rede lenta) mostram o esqueleto da tela com um brilho passando, em vez da tela antiga ou em branco.",
@@ -58,9 +61,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4026434,
-  "sha256": "eb7b27a187e3fa03d3a1855ee8215051eef03e54b1944a56c884c6ee6f9df77d",
-  "assinatura": "YkpJrOyDO76rvH1yvt3pFn36yEq0rEcKhPCenRKODlpLFn69GKU99MY7gCxL81k1VjQLBJqX5SQMk97zzsaHbLVObQ/HlE4y5ULcw0nMBMwAKFDdxjvpJ8+76aiR+N3fri8NCZnjcAV5VdWYcjaSwCiH4hfRpCvARZD/Aab+HLBlfPV7OwELZVWTLeg3kpDGk7f/FzpfNMl718/mW9T2Pz5dV9BWy3uKYzlFZV1/oGVUouhVpgwR+G2ca+7bjP+ZhM+TO97F0Y8fcKM/DJ9la/E4BJhcK4AkMe4tYdKnrR+W+GiegRn4ByMtHrglV2729Hwu0JdGMRtowM59GOHUYw==",
+  "tamanho": 4073710,
+  "sha256": "a0bdde442330e5c489b3b1e75bd722c3df93a9dcb34fbb7773f51dad6eb850cd",
+  "assinatura": "Uk9/2EUt9NOCwhKY/IdxY2HPOM+KDGb5r0Eiih6CSZQFE7xK/ZbUGxIo+qhKIxmj3ydc6i7uPtkJX3/azndt8DNqJgot1pPYIZMXKHenzQhU2kd68ZsVkkWoxbzqpfVmWSyx3tXNZf4a6cMH2fwmJh5QWDtG3rYDYLRk3RmM59jd4n2PqG9Vyw2GC/ChjnFWJ1zZl7rEgszTNv4v18MvjNZPbHO16rWy3eLylU9XNbzq0isDSQW/TvS5cnuLxPO3//hLh8djdnzFO1/1pLiHL5xYufM4OeZpfw7xwm0kxvZShjQ+PtVX+nvGAB/A9CWDkWcau+lEls4RWwKREQsXDA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -83,5 +86,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "BZbrFBajhzRO5HfzgRGCUw+MUMly1fa6U8e+tR3CY9hotzxV8QBXf5TrVaBA/6RX55TE7qrAxRJE2OGgLTqRNpq4wrTJnDGlrqDtH9AR/+mHaOkTLCUEWFDdSgO4xX3t4aHSN6cuuWZVSNSUBotrspel5BW26qurYbAixOOAP+EqFYwb1XQmxm5O7FyJv3483yDJkMzdO20EqbR2dohSg6nuOZrHupNf582am5+DXuZwp4f3s3DAsIPWEqEzyFVcMT2/fczhQSbAQaAdnSJxOK5LFbMSSyqyLNwhoxKpahsEf7x+ajqs05G6IXZzmW8k8l2E7H7GwICrApvJ31lgeA=="
+  "assinatura_extras": "bDTQiRxwHIvvg9LxusO+nAT3P1jxlHeuvyeGyPPjpBayFPGGqd1NbTA9a5aENY8XQm1GD27SQLQ9OvHisgB/WXs+xfMWDd5SgGtGoZdj1XnpS8WXyyhB+TgT0LZq/ng+lQVALLosf12SrInGM8XFafKdxij2RBqyKcHTD3oDpzTXZ7BcvbxrmcVFHv69limxguVobRFmBirTnyd5aNLrnQV7p32lxiFJ5PdDbLNO4eT9H+I8DiBy3/lWOkvjnc1a6UShvNTb+kR6tlCLNFlSXN4i5VRMnYRUm6CCeNYioxtxY35FNJkxN3u0BZdYkyHnou6oqbsNnOHqyXC7zNobxA=="
 }
