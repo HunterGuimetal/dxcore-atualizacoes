@@ -1,8 +1,10 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **9.12** (2026-10-21)
+Versão atual: **9.13** (2026-10-21)
 
+- Encaixe nas chapas · mais inteligente com peça repetida: o DXCORE agora procura a melhor grade, como o CypCut faz. Testa a peça sozinha e em par (uma girada 180° encostada na outra: triângulo com triângulo, L com L, U dentro de U), fileiras na diagonal e fileiras que descem nos vãos da de baixo (círculo e hexágono em colmeia). Depois completa as bordas peça a peça. Nos testes: discos 128 → 140 por chapa, hexágonos 119 → 144, peças em U 96 → 116, cantoneiras em L 112 → 124, triângulos 63 → 71. Com várias peças diferentes, o encaixe também testa outras ordens no tempo que sobra. Mudar só a quantidade não recalcula a grade (fica na hora).
+- Chapas em 2D · visual novo de mesa de trabalho: chapa com réguas em mm, grade fina e cantos marcados. Ao arrastar, a peça sai flutuando com sombra, segue o mouse suave, deixa o contorno no lugar de onde saiu, mostra as linhas de alinhamento e a posição X/Y. Se encostar em outra, as duas acendem em vermelho; ao soltar fora do lugar, ela volta deslizando.
 - Visual · tema claro opcional: no botão do seu usuário (canto de cima), em Aparência, escolha Escuro ou Claro (fica salvo neste computador). Também dá pelo Ctrl + K, digitando "tema". O Projetar, os Tubos e a mesa de corte da tela inicial continuam escuros, como programa de CAD.
 - Visual · telas vazias ilustradas: quando ainda não tem nada (orçamentos, OS, quadro, estoque, retalhos, biblioteca, programação, clientes), aparece um desenho do que vai ali, junto da explicação de como começar.
 - Modo TV · relógio grande com a data no canto da tela e a opção Alternar Quadro e Painel: a TV da fábrica troca sozinha entre o Quadro de produção e o Painel do dia a cada 40 segundos, sem sair da tela cheia, com uma linha laranja no alto mostrando quando vai trocar. Esc sai do modo TV.
