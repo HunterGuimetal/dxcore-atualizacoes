@@ -1,11 +1,17 @@
 {
-  "versao": "9.18",
+  "versao": "9.19",
   "data": "2026-10-22",
   "notas": [
-    "Pasta de dados mais rápida · os rascunhos do Limpar agora ficam em duas partes, como os orçamentos: a lista leva poucos bytes e os arquivos dos desenhos só são lidos quando você abre o rascunho (no teste da pasta da fábrica, 2 rascunhos pesavam 13,7 MB e levavam 3,5 s para ler; agora são poucos KB). A troca acontece sozinha na primeira abertura.",
-    "Pasta de dados · quando muitos orçamentos (ou outros registros) mudaram desde o último resumo, o DXCORE grava um resumo novo; assim a próxima abertura lê só ele em vez de buscar registro por registro."
+    "Visual · trocar de setor na tela inicial agora é animado: as ferramentas que continuam deslizam do lugar antigo para o novo, as que saem se recolhem para o lado de onde você veio e as que chegam entram pelo lado para onde você foi. O destaque laranja escorrega da aba antiga até a nova, e isso vale para as abas de todas as telas (orçamentos, expedição, quadro...)."
   ],
   "historico": [
+    {
+      "versao": "9.19",
+      "data": "2026-10-22",
+      "notas": [
+        "Visual · trocar de setor na tela inicial agora é animado: as ferramentas que continuam deslizam do lugar antigo para o novo, as que saem se recolhem para o lado de onde você veio e as que chegam entram pelo lado para onde você foi. O destaque laranja escorrega da aba antiga até a nova, e isso vale para as abas de todas as telas (orçamentos, expedição, quadro...)."
+      ]
+    },
     {
       "versao": "9.18",
       "data": "2026-10-22",
@@ -108,19 +114,12 @@
       "notas": [
         "Busca rápida · aperte Ctrl + K (ou o botão Buscar no topo) em qualquer tela e digite poucas letras: acha clientes, projetos, orçamentos, OS, peças da biblioteca, retalhos, romaneios, arquivos guardados e as ferramentas. Sem acento e em qualquer ordem (\"os 12\", \"orc 40\", nome do cliente, CNPJ, código da peça). Setas para escolher, Enter abre. Também tem atalhos: novo orçamento, nova OS, abrir desenho no Limpar, achar retalho e novo romaneio. Mostra só o que o seu perfil pode abrir e lembra o que você abriu por último."
       ]
-    },
-    {
-      "versao": "9.4",
-      "data": "2026-10-21",
-      "notas": [
-        "Visual · ícones redesenhados: todos com o mesmo traço, cantos arredondados iguais e um detalhe em laranja, na tela inicial, nos setores, nas pastas e arquivos, nos botões do topo e no portal de entrada. Os ícones contam o que cada ferramenta faz (contorno de corte no Limpar, chapa e caneta no Projetar, tubo com furo nos Tubos, chapas empilhadas no Estoque, quadro com cartões na Produção)."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4125033,
-  "sha256": "e84dafa7410ccd7db1e6f17851472a940c146647d81600c5b094d5d89961ccbd",
-  "assinatura": "TAvujvrcg5wlryx0KMeXPX4lTzr38r8bBQZLK3iqn4OQMBPqZw95f3qW2ZUFRnsjS6eY5iXLzTowap0TYubpgyBdA8r9xxb0GJRRJ762eqrzIAQ/ZbicEloBUhO0m/0W1s41stsUG07DCO2Ms0cPYe5H8IiXlGpKRntOfr7IPCm4kK9OPTFOANWg8Vxmot1BFslY8fcEuql25v/3mmqd+8VoNS6jXwZxHQ0lkh3X7tzk9aOgqp19C1PTzO1tovGJ+I77HFX4E4SwYnsPae20UXsk9N8v2JrdimUyNDXhaprJj70nF7HqhsWpWssATOqVB8fJLfrQHlNBZzMLL7LhHw==",
+  "tamanho": 4131469,
+  "sha256": "7d8917aa4a83c4e3946efaf371a493d26853da3f857e37e115c14aa1a1d8624a",
+  "assinatura": "Oe/7rRfbavrJmmwUNy8zMdwnsypMsLNhHBIWiaDJ1U3Q0t+FDopNEjPD/1BLw3Acq5tbLxhin8gN+l72UtqNxjfw4EJVi++kzuDQo2AsOXp2SnEnh+NHUMKjFd5Zh/4adv1frU6wZbPsRsb1mZrPys1Yu/DcHeN5mp7kz7jA1rdKwK/LZMUGtp4LUPa9hHXf5k4Tb6ymzgXXDewJEiuxCwdqUewHCe1da2YVBb2jiL2kbm8yqY5KVTdW3VrJyR8shTqsVybKuwV/6wcgFMi1iOuWfkW3Anep8VQxeA738kChORXTBIieQ/RPRXCNXmNXFTgngnCECYsTqhADhxUqUQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -143,5 +142,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "PQSxa3XWxfNT6nompiTodHksz27wBhYJrZTdKX1j5puO2XkP32Y07Uw+W5/BpJwxeeNgn7zHUP2gyAS7+1LUESpLHb2l+kkRaCUyliX3JTqY3M5WOYHEHP/DoI/uSpLgtzOCrCtNdcH9pSr9d8IsjleOoOXblmcdjfkNxMsH2B+CuAxKGS1LObEZ/3qkfqs/H20kj5qjYXcohWJNemfWtNbd2SBlgBCiBPsqLEhXi5wQNONRpv0T7ke+ADYFH8aoApZyXypesQDS3e2mAwBJhNEYBznYGAUPZIp8H/RWQYy+ts9sy2FBUdaLl8nRCwit0nZzwWAQoeSFxKzCTJQ1Fg=="
+  "assinatura_extras": "Vjkqi/b/T9YwHunfqvr4O8gcI+386lEoZBpUXOcw+8AhIMe89Zn8NNcI4jVxFZhSJm/O9wKXxAh6Vrr/SnBzv925qzReZCl5dEqCMbydIVPmZvpkGILN4ZXMHRHN7KGp+1kkUrSm+8L458sdDhAbgS3RlurwmhyxbOiVKq1QIIy/GdWf8eCKoXo6AZ2R6vbhK9m2CwyEKAffB5v8pIJcg0w2J00LYfXuTZoiYbvCBAglek1u0pmth3d8X/YWHdkds2XzGUYaGYxm9hSzgAK67LXGNnoxfJ5P8Yi9gueK2Q4b8txoKh0ZAmu1Xa1lnLoKTJXgCUOsrbIieBwXTRJ7Xw=="
 }
