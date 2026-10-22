@@ -1,10 +1,17 @@
 {
-  "versao": "9.15",
+  "versao": "9.16",
   "data": "2026-10-22",
   "notas": [
-    "Encaixe nas chapas · a grade agora usa o contorno exato da peça (antes sobrava uma folga extra de segurança de décimos de mm em volta de cada peça). Na hélice de 215 × 728 mm, a chapa 3000 × 1250 passou de 20 para 24 peças, igual ao CypCut, e a 3000 × 1500 de 26 para 28. O espaço entre as peças continua o que está configurado."
+    "Encaixe nas chapas · quando a largura ou o comprimento da peça são mudados à mão no orçamento, o encaixe agora usa o desenho da peça na medida nova (antes virava um retângulo e encaixava pior). Ex.: a hélice com 205 × 720 mm cabe 24 numa chapa 3000 × 1250."
   ],
   "historico": [
+    {
+      "versao": "9.16",
+      "data": "2026-10-22",
+      "notas": [
+        "Encaixe nas chapas · quando a largura ou o comprimento da peça são mudados à mão no orçamento, o encaixe agora usa o desenho da peça na medida nova (antes virava um retângulo e encaixava pior). Ex.: a hélice com 205 × 720 mm cabe 24 numa chapa 3000 × 1250."
+      ]
+    },
     {
       "versao": "9.15",
       "data": "2026-10-22",
@@ -105,19 +112,12 @@
       "notas": [
         "Tela inicial · a Mesa de corte e dobra agora corta em velocidade constante, como a máquina: o cabeçote anda até cada furo com o laser desligado, fura (com um clarão) e corta sempre no mesmo ritmo, do primeiro furo até o contorno. Mostra a etapa (Furando, Indo ao próximo, Corte a laser) e as dobras ficaram um pouco mais lentas para acompanhar."
       ]
-    },
-    {
-      "versao": "9.1",
-      "data": "2026-10-21",
-      "notas": [
-        "Tela inicial · nova vitrine \"Mesa de corte e dobra\": a chapa entra, o laser fura e recorta a peça (furos primeiro, contorno por último, com faíscas), a peça sai da chapa e as abas dobram a 90° uma de cada vez. Revezam uma cantoneira, um perfil U e uma bandeja de 4 abas, com a etapa e os metros de corte em tempo real. Leve: roda a 60 quadros só enquanto a tela inicial está aberta."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4118302,
-  "sha256": "63972e99bb8334073bf33da4a32bd43fdf21e70b08c4102e3364db326ce31160",
-  "assinatura": "eWrFE3cHQpKhkLQmvZPifX7SRoBxSForhxVPLiWAH2/gIWsE1tVGKnt77DFJ+Zk64nfP2fkLLoeU4Ku+fK5/zLDsvth25ShhF803EYg5MPz73YZLLD3l8ZFS3YJK5oB/dLJxQiVs3mZrZJZ8rXsMivlL4GThE9tCmhi6xoxtwEaq2gGrxsHTXwFCWoaTivVd5SDhyaMgjDh1uLalp0BkSQbM0jVvguy6NzmsKEAPIAXuiXo1XnJPekGlW9NFSB7YfdyqCKXtM5p9DOxNf1fYtSuDnbnTyxqGw18OHbYqWAtGFITr2Rzb4X+88j0Gzv+FxL76J2mN9KqRIYVBV8hVyw==",
+  "tamanho": 4119186,
+  "sha256": "30c6190c6a092dd12d58f846eeb4581135a51ec78094f666910524fb02f4d66b",
+  "assinatura": "KxNneu9kZ/NhKzRwFqsCWe726hoWNVub7V0qmFsKzGbw2Td1W1LZXYiy1x6oK5Qd0i2xXbzu+9aCNIEknEAllNveWIEP4ClwX4BKrbth4rG1K4z82RETHIlh/hgLqxGUmsFbibFRUFmaPQhShu4SsTf39RiymD0osCQehnFKb7bnvB3BllRkBvBUw6ff1qku7sIpS/kwjwHL2Sb6462V6KUto6zOraFMhXeN5jnSlaNpb6cMNy+lJc3hemJA4KgUqH9INqtXkVazpZisLnr1kNuxfNX6kBOXjFXIv8Vpa8MCzLyE9TPzpM4GmbS/KKEFrBxog3hm7JoieMaDictmiw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -140,5 +140,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "Td9IXuJQqW6jzCQSnNVVklCsBIu2e0NbxnliiA2z1mYanG2zIuYyxu7L0y04ZJ+OyLotBdU/BMu/80ZaBJgXLLeuoM9GAeOVRM3RwpnMjv8vkOb3AE5fdI1Oj2QZiAQ4Aq5vYs3n8GlZ9E9ZGe0U/PNSXhZ+8FbeZremGDexYj5whAmutWEAeLAc5G7USM7s0v/JSwpVKVp40no5TfBSP2AyO5MLj6TJGzAuK+BeICFkeKp/ZXv6whOD5QjNRx+sfpuIzxdEBcLFXUY/zcVXCSVrUzHuIrU7WH0dTKjAB+1mltgj5VYT/+I0CXASAgfz9FaCwgpdLmgeuPHeB3JfEQ=="
+  "assinatura_extras": "aiMYS3n9F/SXtJJS2+D3Cg7+S6sny533B6UQnog7G/DiPvd19ZXhQDzhyutjUlaF7AEDLTrNO7D56YKejNUhCz2fQFYWfXJSXaA1o3xvh5K3wxmTUjDSTpp9RHumthwIbBLiDn9+lo1+eO6HGQTfOyz+ybO2ofVJY6IfTzCbZAvZvmAAi5lhKGJShtzCZVU9ei4lSONgMrlgkPOyLYgoTL255IQyHPJW7RcIYa8zvk4J1+se/2qYtw1RPbuhTdBl2BqwZUrs2rI+w61TGM5nrSX9aWJwfJwGQOSzMZ67a7NeBNqfjQtMCEqt8toXQw9LzRLteOSTNRbNBQXofmC4Iw=="
 }
