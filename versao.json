@@ -1,10 +1,19 @@
 {
-  "versao": "9.16",
+  "versao": "9.17",
   "data": "2026-10-22",
   "notas": [
-    "Encaixe nas chapas · quando a largura ou o comprimento da peça são mudados à mão no orçamento, o encaixe agora usa o desenho da peça na medida nova (antes virava um retângulo e encaixava pior). Ex.: a hélice com 205 × 720 mm cabe 24 numa chapa 3000 × 1250."
+    "Portal de entrada · visual novo de estação de trabalho: abertura com o laser desenhando o DX numa moldura técnica com cotas e a barra de carregamento; depois o painel de identificação (relógio, saudação, versão, último acesso) e os setores numa lista. Ao escolher o setor, a senha abre ali mesmo, embaixo dele. Ao fundo, uma prancheta técnica com uma cantoneira em 3D girando devagar e a mira com as coordenadas do mouse.",
+    "Tema claro · o portal de entrada agora segue o tema escolhido (escuro ou claro), igual ao resto do programa."
   ],
   "historico": [
+    {
+      "versao": "9.17",
+      "data": "2026-10-22",
+      "notas": [
+        "Portal de entrada · visual novo de estação de trabalho: abertura com o laser desenhando o DX numa moldura técnica com cotas e a barra de carregamento; depois o painel de identificação (relógio, saudação, versão, último acesso) e os setores numa lista. Ao escolher o setor, a senha abre ali mesmo, embaixo dele. Ao fundo, uma prancheta técnica com uma cantoneira em 3D girando devagar e a mira com as coordenadas do mouse.",
+        "Tema claro · o portal de entrada agora segue o tema escolhido (escuro ou claro), igual ao resto do programa."
+      ]
+    },
     {
       "versao": "9.16",
       "data": "2026-10-22",
@@ -105,19 +114,12 @@
       "notas": [
         "Visual · fonte própria do DXCORE (Inter) embutida no programa: textos, números e títulos ficam iguais em qualquer computador, mais nítidos e com números alinhados nas tabelas. Vale para o portal, todas as telas, o Projetar, os Tubos e os desenhos na tela."
       ]
-    },
-    {
-      "versao": "9.2",
-      "data": "2026-10-21",
-      "notas": [
-        "Tela inicial · a Mesa de corte e dobra agora corta em velocidade constante, como a máquina: o cabeçote anda até cada furo com o laser desligado, fura (com um clarão) e corta sempre no mesmo ritmo, do primeiro furo até o contorno. Mostra a etapa (Furando, Indo ao próximo, Corte a laser) e as dobras ficaram um pouco mais lentas para acompanhar."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4119186,
-  "sha256": "30c6190c6a092dd12d58f846eeb4581135a51ec78094f666910524fb02f4d66b",
-  "assinatura": "KxNneu9kZ/NhKzRwFqsCWe726hoWNVub7V0qmFsKzGbw2Td1W1LZXYiy1x6oK5Qd0i2xXbzu+9aCNIEknEAllNveWIEP4ClwX4BKrbth4rG1K4z82RETHIlh/hgLqxGUmsFbibFRUFmaPQhShu4SsTf39RiymD0osCQehnFKb7bnvB3BllRkBvBUw6ff1qku7sIpS/kwjwHL2Sb6462V6KUto6zOraFMhXeN5jnSlaNpb6cMNy+lJc3hemJA4KgUqH9INqtXkVazpZisLnr1kNuxfNX6kBOXjFXIv8Vpa8MCzLyE9TPzpM4GmbS/KKEFrBxog3hm7JoieMaDictmiw==",
+  "tamanho": 4121765,
+  "sha256": "684065ea83b631c8869a3975a539925d194577c819caf6de563649cebbd8048a",
+  "assinatura": "aFJXNlENCzLSpcDGYPbPOAmNgyzv0j/hgtKjlcHULs4NkiuIbQ/1W3694SL/m7eVOrdO1TB3U9citq3jwrxw+tf2VY4vLOCpOTciAKZ0sAepIKcGh3ALxnZB6lhF+cfS0y4TIOXqCtb7SQP1RqSNundbNQkhTMP5cXj1QitfqBKomeYFRhlCtaqdlN3EOP61eQYlaau709gUpjZpOJ8seyL8sqEY1Fzcg4SzT1VJZ2FJCAsDVEr4xU9kHFih58PzsYRD/XNw5X39wt24sfNSo2laA3ApE2lYAReNvsaECZtIoYwRu61WjHa0Sd+xYZ4PGgFhQdZEPNLn1MBf4MhMOw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -140,5 +142,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "aiMYS3n9F/SXtJJS2+D3Cg7+S6sny533B6UQnog7G/DiPvd19ZXhQDzhyutjUlaF7AEDLTrNO7D56YKejNUhCz2fQFYWfXJSXaA1o3xvh5K3wxmTUjDSTpp9RHumthwIbBLiDn9+lo1+eO6HGQTfOyz+ybO2ofVJY6IfTzCbZAvZvmAAi5lhKGJShtzCZVU9ei4lSONgMrlgkPOyLYgoTL255IQyHPJW7RcIYa8zvk4J1+se/2qYtw1RPbuhTdBl2BqwZUrs2rI+w61TGM5nrSX9aWJwfJwGQOSzMZ67a7NeBNqfjQtMCEqt8toXQw9LzRLteOSTNRbNBQXofmC4Iw=="
+  "assinatura_extras": "Rn+6cqyf7yx1lhOg0ILyAuIaY0TBwusQc9E1VQZfU67SNxHxjChx7gurtFKplUY0xnYQHjyQMaI4ZSaVwARTvIlepv9FLc7f1vhmtpgQUEgatbp6wVlAWGOwQ0vhMpSPCqR/dQXNoAsoh/zwTYqdPrY/T4+WUFO45NOF65jvrFcNt8zl3ariEFsE8+/IcZHzB4B0PqfSG7Fctlqicf4mtOsmCUNoWKvJ6Jc9HWHqdX2jSSZRjeUYSv3K88MogrdnmdGtg6AMQikFkL02l927ISvDbA5FjaDP5J6/2Zqd7jNMmNHVVkLUDo+iFgbwDt91Gvoi6o1InZCAplKLOLRydg=="
 }
