@@ -1,7 +1,8 @@
 {
-  "versao": "9.7",
+  "versao": "9.8",
   "data": "2026-10-21",
   "notas": [
+    "Visual · avisos com cara de \"deu certo\": quando algo é salvo, gerado, aprovado ou entregue, o aviso traz um círculo laranja com o visto se desenhando e uma barrinha do tempo, e o botão que você clicou ganha um visto por um instante. Quando algo dá errado, o aviso vem com um triângulo vermelho e um tremor curto. Clique no aviso para fechar. Telas que demoram para abrir (pasta da rede lenta) mostram o esqueleto da tela com um brilho passando, em vez da tela antiga ou em branco.",
     "Orçamento · o desconto agora pode ser em % ou em R$: ao lado do campo Desconto tem a escolha % | R$. Em R$ é o valor que sai do total (pode digitar 1.500 ou 1.500,50). Ao trocar de um para o outro, o número é convertido e o desconto continua o mesmo. O resumo mostra quanto o valor representa em %, a proposta em PDF diz \"Desconto de R$ … já aplicado\" e o preço de cada peça já sai com o desconto dividido. Avisa se o desconto for maior que o orçamento. Orçamentos antigos continuam em %.",
     "Visual · Painel do dia e Quadro de produção ganharam vida. No Painel, ao abrir, os números sobem até o valor, as barras das etapas crescem e as colunas do gráfico sobem da base; na atualização automática só o número que mudou anda (do valor antigo ao novo) e o cartão dele acende em laranja. No Quadro, quando uma OS muda de etapa (arrastando, pelas setas ou por outro computador) o cartão desliza até a coluna nova e acende ao chegar, os outros se ajeitam no lugar e o contador da coluna pulsa. A coluna onde você vai soltar fica destacada. Tudo a 60 fps.",
     "Busca rápida · aperte Ctrl + K (ou o botão Buscar no topo) em qualquer tela e digite poucas letras: acha clientes, projetos, orçamentos, OS, peças da biblioteca, retalhos, romaneios, arquivos guardados e as ferramentas. Sem acento e em qualquer ordem (\"os 12\", \"orc 40\", nome do cliente, CNPJ, código da peça). Setas para escolher, Enter abre. Também tem atalhos: novo orçamento, nova OS, abrir desenho no Limpar, achar retalho e novo romaneio. Mostra só o que o seu perfil pode abrir e lembra o que você abriu por último.",
@@ -55,9 +56,9 @@
     "Tubos · Importar STEP/IGES de tubo: perfil, pontas (reta, ângulo, boca de lobo) e furos viram tubo editável. O Gerador de peças ficou só para chapa e manda os tubos para cá."
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4008776,
-  "sha256": "6b43666abf1bbd63d903a7011dd719c8806c6a3e91e74b6e850c8ac15da76831",
-  "assinatura": "Gz0WqbjvsSfc93jx/1dYNPEf49QTUFDOQlxNu/tJF5Mio9ehfLD4jKq9muXfKw+QOIaOB9HkmsMuQb5ji5OUWbr/XNghX5y18g8Y5OkRby4BWKQBwuDYbfCslJ3aFdkpQqj1jZXF/3UTs2TZWeLTZoHq3uYNqagydY4N1eFgYfBM8xnIaxU2X31Z8Op3pelWvTUfqiUaOBhuZHJa/qatfbYSfLyLH5CDH5BV5XrzGNtc2WJuN3AuggjLYsXMxaJmeEMGOVfQUBSpi0vQMk2tM/On5A+tsp87G96DiCnZ2vvkpy2jQJJ3wVPwiZDNFCAkiO0JlW6xoBn9gWFVTe3xiw==",
+  "tamanho": 4022524,
+  "sha256": "5fe45ac6510b8378d9b2ffd20c13d0cb7e24a7db4b51e567f96c296f3d4fb8f5",
+  "assinatura": "H5q9Hwe+J7qM9z6vMgVe7f2t0/OLNwD9wlSnJec1P+J1wYnnfPi9+XcisnaQ1HJjEon23rZZpLsab3G/9K7jdaLnVt3ZTc/iwEE5avI0GcfRwgoUergUWLZK1LTyAlWKQQDIhVidt57BWLO+xbU0iqbpw5/d5faTfj3Lkhmrsx2dAlKgfni5oo8G/cWlhcX1r7Mo0+/5o0Tq0SMLRJuxaXfFalEAOA+IW9laGAUM/SNbg5sU6oUW9fztIDvDwQDaJgD1lH+KL5le6LgzNlRS0lAtQHdeQxg/RJiLEwP9+kKqhMcu9DrccZwWUI9bMb4hSs/Nr9CaseLjXVjMd5vmEw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -80,5 +81,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "FnuNmKIM5jrx5kwSMl4vGoMBwGjVsrpEchE1AdRk6YNhGlbJut+GKHL+z52WjrqGXGb9Eh1g82j418fN2AXs9+2Cm11qn2cTQd+vpA+xnizjCHDMzWpbmYA5UdLhnNlaJfShLfmUhq49UJCm210w0/derUXrJmF3CqRx1pQh6jKCNR4UGrkLvyHACRHGp28boxgxnGwWry8exdPlZyxX3FXnkZqnBROcVD3f0iMBhr+3+luTDPV2IvChcOkSmuPhhfUuwG2oCYrXWxYojGwvlD0gek/UX5zO3PoDrLNAAl/SBFyvyDIWk/b40CxKhxq7HLnDj/LepSCgGa0P2aF7Sg=="
+  "assinatura_extras": "Zonoiq1JcrQZP5ypkjPSe20VInUUiMzkonQiYyLkxcL93VqbY8sCWn3crv3Gele7t/8VDYiixHgz99ffQBDL/DKa5QNkm5GE/UeOZjrAt7EjjhwoLoyxmVxMRddoyXd/OGeCm/rVNKYfmR1TtZSf3yoGhoBvwfePv7xRSMDzPIJucu6Q+6UABtGeczq1hco+Fh7JPwN23u+l5wBGgebqzzYP2+OBuCBi3+lPjFb79pgKZieBIFVoxTVBnWqegTZFg3kqWAQ8eGsklZ82oBUDeAXSUG8nvR6oLUq9PJyfzwVJDXwjg7Rk6cKd11qKytVZcfDFQs1Nd7FWWbNyOlyWYw=="
 }
