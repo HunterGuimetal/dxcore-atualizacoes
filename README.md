@@ -1,9 +1,9 @@
 # DXCORE by GUIMETAL · atualizações
 
 Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **9.10** (2026-10-21)
+Versão atual: **9.11** (2026-10-21)
 
-- Proposta em PDF · mais curta: cada peça mostra, na própria linha da tabela, a planificada e a miniatura em 3D lado a lado. Saíram as páginas extras de vistas em 3D (e o link de tocar na peça para abrir), então a proposta fica com poucas páginas mesmo com muitas peças.
+- Proposta em PDF · mais curta: cada peça mostra, na própria linha da tabela, só a miniatura em 3D (a planificada aparece apenas se a peça não tiver 3D). Saíram as páginas extras de vistas em 3D e o link de tocar na peça, então a proposta fica com poucas páginas mesmo com muitas peças.
 - Limpar · o desenho se faz na tela: ao abrir um arquivo, cada contorno é traçado do começo ao fim com um ponto de luz na ponta, como o cabeçote do laser; as linhas que saem aparecem esmaecendo e as medidas entram no final. Trocar de arquivo na lista refaz o traçado rapidinho. Ver em 3D agora é uma transição: a chapa sai do desenho visto de cima, na mesma escala, e inclina até o 3D; o tubo entra girando. Ver em 2D faz o caminho contrário e o desenho se refaz. Clicar no desenho durante a animação pula para o fim.
 - Visual · avisos com cara de "deu certo": quando algo é salvo, gerado, aprovado ou entregue, o aviso traz um círculo laranja com o visto se desenhando e uma barrinha do tempo, e o botão que você clicou ganha um visto por um instante. Quando algo dá errado, o aviso vem com um triângulo vermelho e um tremor curto. Clique no aviso para fechar. Telas que demoram para abrir (pasta da rede lenta) mostram o esqueleto da tela com um brilho passando, em vez da tela antiga ou em branco.
 - Orçamento · o desconto agora pode ser em % ou em R$: ao lado do campo Desconto tem a escolha % | R$. Em R$ é o valor que sai do total (pode digitar 1.500 ou 1.500,50). Ao trocar de um para o outro, o número é convertido e o desconto continua o mesmo. O resumo mostra quanto o valor representa em %, a proposta em PDF diz "Desconto de R$ … já aplicado" e o preço de cada peça já sai com o desconto dividido. Avisa se o desconto for maior que o orçamento. Orçamentos antigos continuam em %.
