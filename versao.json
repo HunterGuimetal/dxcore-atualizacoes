@@ -1,10 +1,17 @@
 {
-  "versao": "9.20",
-  "data": "2026-10-22",
+  "versao": "9.21",
+  "data": "2026-10-23",
   "notas": [
-    "Orçamento de tubo · o material agora é sempre cobrado pela barra inteira: o DXCORE encaixa as peças de cada tubo nas barras (de 6 m, ou o que estiver em Parâmetros) e cobra todas as barras que o pedido gasta, não só os metros das peças. A sobra é dividida entre as peças daquele tubo, e o orçamento mostra quantas barras foram cobradas e quanto foi de sobra."
+    "Limpar · contagem de dobras corrigida: duas linhas de dobra paralelas a até 40 mm uma da outra eram tratadas como uma dobra só (como se fossem o começo e o fim da mesma dobra). Uma peça com aba curta e 3 dobras contava 2. Agora só junta linhas bem próximas (poucos mm, conforme a espessura) e quando todas as dobras do desenho são desenhadas assim; nos outros casos, cada linha é uma dobra."
   ],
   "historico": [
+    {
+      "versao": "9.21",
+      "data": "2026-10-23",
+      "notas": [
+        "Limpar · contagem de dobras corrigida: duas linhas de dobra paralelas a até 40 mm uma da outra eram tratadas como uma dobra só (como se fossem o começo e o fim da mesma dobra). Uma peça com aba curta e 3 dobras contava 2. Agora só junta linhas bem próximas (poucos mm, conforme a espessura) e quando todas as dobras do desenho são desenhadas assim; nos outros casos, cada linha é uma dobra."
+      ]
+    },
     {
       "versao": "9.20",
       "data": "2026-10-22",
@@ -107,19 +114,12 @@
       "notas": [
         "Orçamento · o desconto agora pode ser em % ou em R$: ao lado do campo Desconto tem a escolha % | R$. Em R$ é o valor que sai do total (pode digitar 1.500 ou 1.500,50). Ao trocar de um para o outro, o número é convertido e o desconto continua o mesmo. O resumo mostra quanto o valor representa em %, a proposta em PDF diz \"Desconto de R$ … já aplicado\" e o preço de cada peça já sai com o desconto dividido. Avisa se o desconto for maior que o orçamento. Orçamentos antigos continuam em %."
       ]
-    },
-    {
-      "versao": "9.6",
-      "data": "2026-10-21",
-      "notas": [
-        "Visual · Painel do dia e Quadro de produção ganharam vida. No Painel, ao abrir, os números sobem até o valor, as barras das etapas crescem e as colunas do gráfico sobem da base; na atualização automática só o número que mudou anda (do valor antigo ao novo) e o cartão dele acende em laranja. No Quadro, quando uma OS muda de etapa (arrastando, pelas setas ou por outro computador) o cartão desliza até a coluna nova e acende ao chegar, os outros se ajeitam no lugar e o contador da coluna pulsa. A coluna onde você vai soltar fica destacada. Tudo a 60 fps."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4133285,
-  "sha256": "6070f68b44da011106e596416e6becd7591839cf635758003afc904e42621c58",
-  "assinatura": "DdSNhhrfUWXoD1yK79F2dPkjEMO6Oc3j7BFCAvBkqsB2RDUnYlkenllizmPSqIbZL7cjjlTEFZ0saOrShqdHZIrVEUzdibPD0mrZZC3EcOmgbdTDrn/2Ohf2OLsyNU1NCt9duOxb4SKwez2Ouh5PuPurAloKqjktl3vTYo74+2s48I1zWkdmE2A3jwlEQatS5msPMSZdL1ieYxLPBPksuIrQIvGcpZlPTrWcT2tZbS0Karon9ZfH7MsJ20s/lY5yFkIK3WCUvwcxcgbc4chY3JJoC38/lNr+mGAsm4nBS5G5cv9vLBp9dSzOHcNxQFwOHYzaOoER9b/mFH2ttfJQhA==",
+  "tamanho": 4134933,
+  "sha256": "6ed93ca024a08fa02262adab30f29180bf5860f248d7131f9c7af6853ff7b313",
+  "assinatura": "ZfpMU2KRHwWRLQ+FkjJ5lguU2+yU7PJ/pwThqynf/LLKQJN2OolaaygTwvUXi2Cl9fVry2LLwd+RdRBRPMeDNqCDSnS773mmBxV91MLr0Hrr8e9gjfIf0bJqyPOjdsdnWN2HCcT+cJdwWhx4nml6lo54hKwnHdZ8gIwdZo4gT9pz1Zs6DjfOditTNOkBwgLHR9Qd+jcHrNPwz0KqFnq1lq7qYSd9ZKAu36oiCepkMVINGeLcdE6lpCwxAkRyaPMPYSrmflpW4brbsGFSHRrGiCs7ImUkqVq4v4R2UJ2tjQ1ZsyP+TMIuaMtVz0B6H63fE1G+5B281mk+YbLCTSiqgQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -142,5 +142,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "C9sTaQlcKntxmo4SvaDMxoYB4Gk+bWZVxdW+Usimk6bfRi+X6Y1gwSmKwbgywrBbb/r7nCi109ioGFaBpAq+HNXmB+AuWyuQ792bfsbxJRJn10pv9i3ozsh4epuaSIVvgbbQpHc8ZioFNBw8fv357ZU+Yce5GLnb0WYhMxlE1bF6t8N0nyLxgZL46dxWhTT2BJwXaGxW6LMsK4Ag8JOpSBORJI5/YdrYhJqWLaQkyg7Z4nGaJ7tsH7ZpN9kdfnogppjwYS3xlBMtnvqi8wHTnjj/ACaQ292ydI8hsimTU3BxLG6/ALQrU1paqbXeOZ3RCRQR+3NCHMltijtyuk9wfg=="
+  "assinatura_extras": "LQR7t+iu0lHrFXZ0ruBk+l5qDWQX/Zh14AcvmEa1O9YJyTwaangnv5kXahXfn13kp8GOZFQw8k2W9nTX/uI84ZEYf13+ZrDSg1jjZWqJGNdmWFpQOhoKmfDsoM9kZlow3ipJYesD+FBPGq6pGN6QAt70cnZoTDQKfklIY6TFFzsGasAZ8fS+oEbSXCJ0LIuC2nmOi0+4QXLba8GUY1FHGvt/mAevLtAJ9nQvyYzOZqsMRXVUJpx1UAI/75V50iTlPovUJkG2aYOTvPBeBG0d/iBZ8oZqPhZK0MJlY1owPbE/vD9OT+8+8X6neEtWEGX/AD43BSN6vMCvEgGb9Twz1Q=="
 }
