@@ -1,10 +1,17 @@
 {
-  "versao": "9.21",
+  "versao": "9.22",
   "data": "2026-10-23",
   "notas": [
-    "Limpar · contagem de dobras corrigida: duas linhas de dobra paralelas a até 40 mm uma da outra eram tratadas como uma dobra só (como se fossem o começo e o fim da mesma dobra). Uma peça com aba curta e 3 dobras contava 2. Agora só junta linhas bem próximas (poucos mm, conforme a espessura) e quando todas as dobras do desenho são desenhadas assim; nos outros casos, cada linha é uma dobra."
+    "Orçamento · nova opção Cobrar a chapa inteira (em Material): cobra todas as chapas usadas inteiras, sem descontar os retalhos que sobram. Sem marcar, continua como antes: só a chapa com mais de 80% de uso é cobrada inteira; nas outras, o retalho que vale guardar fica fora do preço. Fica salva no orçamento."
   ],
   "historico": [
+    {
+      "versao": "9.22",
+      "data": "2026-10-23",
+      "notas": [
+        "Orçamento · nova opção Cobrar a chapa inteira (em Material): cobra todas as chapas usadas inteiras, sem descontar os retalhos que sobram. Sem marcar, continua como antes: só a chapa com mais de 80% de uso é cobrada inteira; nas outras, o retalho que vale guardar fica fora do preço. Fica salva no orçamento."
+      ]
+    },
     {
       "versao": "9.21",
       "data": "2026-10-23",
@@ -107,19 +114,12 @@
       "notas": [
         "Visual · avisos com cara de \"deu certo\": quando algo é salvo, gerado, aprovado ou entregue, o aviso traz um círculo laranja com o visto se desenhando e uma barrinha do tempo, e o botão que você clicou ganha um visto por um instante. Quando algo dá errado, o aviso vem com um triângulo vermelho e um tremor curto. Clique no aviso para fechar. Telas que demoram para abrir (pasta da rede lenta) mostram o esqueleto da tela com um brilho passando, em vez da tela antiga ou em branco."
       ]
-    },
-    {
-      "versao": "9.7",
-      "data": "2026-10-21",
-      "notas": [
-        "Orçamento · o desconto agora pode ser em % ou em R$: ao lado do campo Desconto tem a escolha % | R$. Em R$ é o valor que sai do total (pode digitar 1.500 ou 1.500,50). Ao trocar de um para o outro, o número é convertido e o desconto continua o mesmo. O resumo mostra quanto o valor representa em %, a proposta em PDF diz \"Desconto de R$ … já aplicado\" e o preço de cada peça já sai com o desconto dividido. Avisa se o desconto for maior que o orçamento. Orçamentos antigos continuam em %."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4134933,
-  "sha256": "6ed93ca024a08fa02262adab30f29180bf5860f248d7131f9c7af6853ff7b313",
-  "assinatura": "ZfpMU2KRHwWRLQ+FkjJ5lguU2+yU7PJ/pwThqynf/LLKQJN2OolaaygTwvUXi2Cl9fVry2LLwd+RdRBRPMeDNqCDSnS773mmBxV91MLr0Hrr8e9gjfIf0bJqyPOjdsdnWN2HCcT+cJdwWhx4nml6lo54hKwnHdZ8gIwdZo4gT9pz1Zs6DjfOditTNOkBwgLHR9Qd+jcHrNPwz0KqFnq1lq7qYSd9ZKAu36oiCepkMVINGeLcdE6lpCwxAkRyaPMPYSrmflpW4brbsGFSHRrGiCs7ImUkqVq4v4R2UJ2tjQ1ZsyP+TMIuaMtVz0B6H63fE1G+5B281mk+YbLCTSiqgQ==",
+  "tamanho": 4136069,
+  "sha256": "d73a4c77ebd7a3d5ffe5e5dc751cc808b2bfc033fd6008a2f401ca850e6e2692",
+  "assinatura": "beuQ2sOG3isdJuV6WD9uVnAYZ8qwiNa8BHr0p97LC4R25hmPgyEMoSizdmFxpnc/0bGvFv45Gv7lbcVEXxWoVMDazZprGmAH7zHbkhBK5otY9RdI6f/Dsv5GFOyHRHqwHhf/SZcu0H9vCYMfJ8IlxJEafhLLbAtjHt7AQmM7HqnGrabVKL2mMpMjc4R4B7qMMO8JqjUl0O3WORsrj2tZtjbmBlQJj49LWzsAxvE14m69f4D6v9tDT1aSZUSYnTdZjN1DjY07kaLL1Em6a9aqamgv0LqAIGIDI+Zq7a9rtB3z9xBEbLvGd3WUrY7MorS5XaqciAAO5X9CJoyAkXAnIw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -142,5 +142,5 @@
       "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
     }
   ],
-  "assinatura_extras": "LQR7t+iu0lHrFXZ0ruBk+l5qDWQX/Zh14AcvmEa1O9YJyTwaangnv5kXahXfn13kp8GOZFQw8k2W9nTX/uI84ZEYf13+ZrDSg1jjZWqJGNdmWFpQOhoKmfDsoM9kZlow3ipJYesD+FBPGq6pGN6QAt70cnZoTDQKfklIY6TFFzsGasAZ8fS+oEbSXCJ0LIuC2nmOi0+4QXLba8GUY1FHGvt/mAevLtAJ9nQvyYzOZqsMRXVUJpx1UAI/75V50iTlPovUJkG2aYOTvPBeBG0d/iBZ8oZqPhZK0MJlY1owPbE/vD9OT+8+8X6neEtWEGX/AD43BSN6vMCvEgGb9Twz1Q=="
+  "assinatura_extras": "gC1E03Ts5woGiybd8hFNTcxjFSi1z1v7Mi1nTNiJVI7I3dhN/K17406Swt9Bsko3jLB9F9Yi6FYxE+1JkpAKTB+/WYuWXxp0Q++tvTNv3HTbYzTPlC8vqusxgfrGs2Z3TipFWFauJhCNEoy07A2ZJ6EAfgFd2JXLTZMmM1ebmLaEFOGrXOJVC55VIF90jP0yo0fqTMKD0mCr+qpMhe0cZCz7nD+Jz6itWbhXPRpYdPpjmAskKVqy9fuTkKJazr+TJE6plU33MCT3mhYlfMahNcl1VXRseVGN9qpPhANfp6x+bKqfeafSn/nE84RY40mkJJOJiqMDjAyrMciNSGsQbA=="
 }
