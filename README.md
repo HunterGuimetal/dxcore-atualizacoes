@@ -1,8 +1,10 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.23** (2026-10-26)
+Versão atual: **9.24** (2026-10-26)
 
-- Marca · o DXCORE passa a ser identificado como software independente, desenvolvido por Jadson Eliel Rampão Silva. Saiu o "by GUIMETAL" dos títulos, telas, Manual, licença e arquivos do instalador; os dados da empresa usuária (nome, contato, endereço) continuam saindo iguais nas propostas, OS, etiquetas e mensagens. O atalho novo se chama "DXCORE" (o antigo continua funcionando). Senhas, dados e backups não mudam.
+- Segurança · senhas novas dos setores (a gerência entrega as novas; as antigas deixam de valer) e as senhas não vão mais no pacote do instalador.
+- Segurança · chave própria do programa e chave própria dos backups. O backup automático diário passa a ser protegido. Os backups antigos continuam abrindo normalmente.
+- Leitor de DWG · agora vem do próprio canal do DXCORE e só roda se a impressão digital conferir; não depende mais de serviço de terceiros.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

@@ -1,0 +1,6 @@
+Leitor de DWG usado pelo DXCORE
+- libredwg-web 0.8.2 (WebAssembly), compilado de github.com/mlightcad/libredwg-web
+  (commit 45a2a21), baseado na LibreDWG (GNU, www.gnu.org/software/libredwg).
+- Licenca: GNU GPL versao 3 (texto em COPYING.txt). Codigo-fonte: nos enderecos acima.
+- O DXCORE baixa estes arquivos sob demanda e so os executa se o SHA-256 conferir
+  com o valor gravado no programa no build.

@@ -1,10 +1,21 @@
 {
-  "versao": "9.23",
+  "versao": "9.24",
   "data": "2026-10-26",
   "notas": [
-    "Marca · o DXCORE passa a ser identificado como software independente, desenvolvido por Jadson Eliel Rampão Silva. Saiu o \"by GUIMETAL\" dos títulos, telas, Manual, licença e arquivos do instalador; os dados da empresa usuária (nome, contato, endereço) continuam saindo iguais nas propostas, OS, etiquetas e mensagens. O atalho novo se chama \"DXCORE\" (o antigo continua funcionando). Senhas, dados e backups não mudam."
+    "Segurança · senhas novas dos setores (a gerência entrega as novas; as antigas deixam de valer) e as senhas não vão mais no pacote do instalador.",
+    "Segurança · chave própria do programa e chave própria dos backups. O backup automático diário passa a ser protegido. Os backups antigos continuam abrindo normalmente.",
+    "Leitor de DWG · agora vem do próprio canal do DXCORE e só roda se a impressão digital conferir; não depende mais de serviço de terceiros."
   ],
   "historico": [
+    {
+      "versao": "9.24",
+      "data": "2026-10-26",
+      "notas": [
+        "Segurança · senhas novas dos setores (a gerência entrega as novas; as antigas deixam de valer) e as senhas não vão mais no pacote do instalador.",
+        "Segurança · chave própria do programa e chave própria dos backups. O backup automático diário passa a ser protegido. Os backups antigos continuam abrindo normalmente.",
+        "Leitor de DWG · agora vem do próprio canal do DXCORE e só roda se a impressão digital conferir; não depende mais de serviço de terceiros."
+      ]
+    },
     {
       "versao": "9.23",
       "data": "2026-10-26",
@@ -107,19 +118,12 @@
       "notas": [
         "Proposta em PDF · mais curta: cada peça mostra, na própria linha da tabela, a planificada e a miniatura em 3D lado a lado. Saíram as páginas extras de vistas em 3D (e o link de tocar na peça para abrir), então a proposta fica com poucas páginas mesmo com muitas peças."
       ]
-    },
-    {
-      "versao": "9.9",
-      "data": "2026-10-21",
-      "notas": [
-        "Limpar · o desenho se faz na tela: ao abrir um arquivo, cada contorno é traçado do começo ao fim com um ponto de luz na ponta, como o cabeçote do laser; as linhas que saem aparecem esmaecendo e as medidas entram no final. Trocar de arquivo na lista refaz o traçado rapidinho. Ver em 3D agora é uma transição: a chapa sai do desenho visto de cima, na mesma escala, e inclina até o 3D; o tubo entra girando. Ver em 2D faz o caminho contrário e o desenho se refaz. Clicar no desenho durante a animação pula para o fim."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4138654,
-  "sha256": "ae10d355cb6366cef1ffbb04e73435bb5f66b03bb8161a664e38664104225d42",
-  "assinatura": "UWVQZTfgQOFLxCUHlTtzCB/jb4rLrwari2BNcbxKaJhVDGhmYpw2TrHS1fAcQqNZqC34PeHWzTXh+Oybae6GJUlQoYAdjY7NauRHWi6/FuBqfteCPqlLvTBrMjb0/T/muZPApnclfBh9maHv/3nU7h2VwWztOaQdmWd74uFQF0NjuPduX12a4QfMNPdNbcX3EiVAdOINFwd581u51v1hDci6iXaZiQjwuVFQmVeeSFhGG8X0frls6+y8jxmWvXGj45rcITm1+J2gRkHyV3t8e3DvycosR/Rd+Tosb1Y84IKgTVHFGFMnrCIUNR2Halrhy+aDIqmLo9CcQ8pMGCE6aQ==",
+  "tamanho": 4143787,
+  "sha256": "bbe5bcac7396ad7a172dc90324a4cc4a0fed2e04b58640605096a36a78aa6ce5",
+  "assinatura": "gMIeDDZIktnw6N5OjyhD6Ai8v6R4t23g3zq1dPCC660lE2W8czzQxj5VMybW2Sr8c7MXwQbHEtVjAKxmTA5IQ7rRYXonX+XiZm5CMzdOP+bAwrp4LAcu7GihKI3JMGRi/J00a/6hRgRbx0PvSRgh3TnEVnlnOq0/0YBIF3qq4+5agPfNicAS1JxDnWS8FlYmnKV88WpKesC2WkimC/wCt8yq7Q1mjMiVkuVNoOifp2Z4UR0qax2FBLoXTA/PJcife9VCQCrl/AJrLkj3IFUlYWU3AcFaVBoveJOzXeRdlbXttLfUc1o3byeU1vZ+9M2ZnuxfHHIwaVr62ROAgMsNTg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -142,5 +146,5 @@
       "sha256": "a253d0c1152a35a1a2c7a725108365d1ea82cbcf76560f67cb3dfb2bdc9c3ecd"
     }
   ],
-  "assinatura_extras": "UT51mF27IT8bEjiV6jG5+UKdiYS4yqr9bzskZE360lJnJqf4G88rvfqgmfcAkHLdA5GaJoUQkgwdJcBisv6xWa5DfKC1muemEYarnGHCQHgCM5fxQB65qdsYNjnFiXk1b4DHQV13JcEeQi/UWMdTjwNMjsyfoBvRipOMVdAae+Eep9yFZo/LFsy7wR0mV3/1uswpJUUnmvspwJ//7GMl0fcmscgUhnmtXWx3kAPqJ9sqCo2t+y4vj72tYiTLbxef5kRU6SIKnRNfxuZCp2vzBe24i98b+kwTa5JPR8VXtRoYbeoB2eFkvOyLUnYYdRh+/YvXrvlalQVyESkrNfYKKg=="
+  "assinatura_extras": "hEfaAFLCRxwshjPy7F8zIq4LBtAH0gq+CAeh7Svrey1OlILo4R2I4OQar6Hl38D2sV9IIcHE94gC4OZPx2cvmcFGbxS60o8ss2KCY0Sd621p5TDjuHtq227iuQLxbgxsWqSk1aAWk5gHDKajWvL4McBQUhjIhKxOEIpCRerZvuiWCn+4HIKiPQrUjaktH1rzDG/dU4hix4gVL6Rp61djKrFs92p+l5cukyw0D1R8+m46C2LDO8Oci6LJ++yKhIRQUt6QfJXSXY/ZXgvNTM1TVRDZBVOso4/06CVeslob77FdfTpjQ2pDWOGzGILvW6EVlteelQo5RiHIWX3guXCBaQ=="
 }
