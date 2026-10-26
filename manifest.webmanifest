@@ -1,7 +1,7 @@
 {
-  "name": "DXCORE by GUIMETAL",
+  "name": "DXCORE",
   "short_name": "DXCORE",
-  "description": "Programa da GUIMETAL: limpar desenhos, orçamento, produção e expedição.",
+  "description": "DXCORE: limpar desenhos, orçamento, produção e expedição.",
   "lang": "pt-BR",
   "start_url": "DXCORE.html",
   "scope": "./",

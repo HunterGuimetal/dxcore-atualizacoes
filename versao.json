@@ -1,10 +1,17 @@
 {
-  "versao": "9.22",
-  "data": "2026-10-23",
+  "versao": "9.23",
+  "data": "2026-10-26",
   "notas": [
-    "Orçamento · nova opção Cobrar a chapa inteira (em Material): cobra todas as chapas usadas inteiras, sem descontar os retalhos que sobram. Sem marcar, continua como antes: só a chapa com mais de 80% de uso é cobrada inteira; nas outras, o retalho que vale guardar fica fora do preço. Fica salva no orçamento."
+    "Marca · o DXCORE passa a ser identificado como software independente, desenvolvido por Jadson Eliel Rampão Silva. Saiu o \"by GUIMETAL\" dos títulos, telas, Manual, licença e arquivos do instalador; os dados da empresa usuária (nome, contato, endereço) continuam saindo iguais nas propostas, OS, etiquetas e mensagens. O atalho novo se chama \"DXCORE\" (o antigo continua funcionando). Senhas, dados e backups não mudam."
   ],
   "historico": [
+    {
+      "versao": "9.23",
+      "data": "2026-10-26",
+      "notas": [
+        "Marca · o DXCORE passa a ser identificado como software independente, desenvolvido por Jadson Eliel Rampão Silva. Saiu o \"by GUIMETAL\" dos títulos, telas, Manual, licença e arquivos do instalador; os dados da empresa usuária (nome, contato, endereço) continuam saindo iguais nas propostas, OS, etiquetas e mensagens. O atalho novo se chama \"DXCORE\" (o antigo continua funcionando). Senhas, dados e backups não mudam."
+      ]
+    },
     {
       "versao": "9.22",
       "data": "2026-10-23",
@@ -107,27 +114,20 @@
       "notas": [
         "Limpar · o desenho se faz na tela: ao abrir um arquivo, cada contorno é traçado do começo ao fim com um ponto de luz na ponta, como o cabeçote do laser; as linhas que saem aparecem esmaecendo e as medidas entram no final. Trocar de arquivo na lista refaz o traçado rapidinho. Ver em 3D agora é uma transição: a chapa sai do desenho visto de cima, na mesma escala, e inclina até o 3D; o tubo entra girando. Ver em 2D faz o caminho contrário e o desenho se refaz. Clicar no desenho durante a animação pula para o fim."
       ]
-    },
-    {
-      "versao": "9.8",
-      "data": "2026-10-21",
-      "notas": [
-        "Visual · avisos com cara de \"deu certo\": quando algo é salvo, gerado, aprovado ou entregue, o aviso traz um círculo laranja com o visto se desenhando e uma barrinha do tempo, e o botão que você clicou ganha um visto por um instante. Quando algo dá errado, o aviso vem com um triângulo vermelho e um tremor curto. Clique no aviso para fechar. Telas que demoram para abrir (pasta da rede lenta) mostram o esqueleto da tela com um brilho passando, em vez da tela antiga ou em branco."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4136069,
-  "sha256": "d73a4c77ebd7a3d5ffe5e5dc751cc808b2bfc033fd6008a2f401ca850e6e2692",
-  "assinatura": "beuQ2sOG3isdJuV6WD9uVnAYZ8qwiNa8BHr0p97LC4R25hmPgyEMoSizdmFxpnc/0bGvFv45Gv7lbcVEXxWoVMDazZprGmAH7zHbkhBK5otY9RdI6f/Dsv5GFOyHRHqwHhf/SZcu0H9vCYMfJ8IlxJEafhLLbAtjHt7AQmM7HqnGrabVKL2mMpMjc4R4B7qMMO8JqjUl0O3WORsrj2tZtjbmBlQJj49LWzsAxvE14m69f4D6v9tDT1aSZUSYnTdZjN1DjY07kaLL1Em6a9aqamgv0LqAIGIDI+Zq7a9rtB3z9xBEbLvGd3WUrY7MorS5XaqciAAO5X9CJoyAkXAnIw==",
+  "tamanho": 4138654,
+  "sha256": "ae10d355cb6366cef1ffbb04e73435bb5f66b03bb8161a664e38664104225d42",
+  "assinatura": "UWVQZTfgQOFLxCUHlTtzCB/jb4rLrwari2BNcbxKaJhVDGhmYpw2TrHS1fAcQqNZqC34PeHWzTXh+Oybae6GJUlQoYAdjY7NauRHWi6/FuBqfteCPqlLvTBrMjb0/T/muZPApnclfBh9maHv/3nU7h2VwWztOaQdmWd74uFQF0NjuPduX12a4QfMNPdNbcX3EiVAdOINFwd581u51v1hDci6iXaZiQjwuVFQmVeeSFhGG8X0frls6+y8jxmWvXGj45rcITm1+J2gRkHyV3t8e3DvycosR/Rd+Tosb1Y84IKgTVHFGFMnrCIUNR2Halrhy+aDIqmLo9CcQ8pMGCE6aQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
-      "sha256": "1332cff9a33b75101ffcba223e7623b70956f767ba5a4dba2adee6c514bc440d"
+      "sha256": "90d47c6d8f29bcce68d03dbb056adc7b4f6901b0459380b5be4df9e3b7d0b767"
     },
     {
       "arquivo": "abrir.vbs",
-      "sha256": "87fd22e65cf271fb84f88b65860b1df13970d300b8b3114027b71df6c11e706c"
+      "sha256": "03329a295d70ff7cdf2453f96b3e82499bd52db5a516a8ef6fcd50e2085d0b04"
     },
     {
       "arquivo": "DXCORE.ico",
@@ -139,8 +139,8 @@
     },
     {
       "arquivo": "servidor.ps1",
-      "sha256": "e745c2005920b1fcc44cf88ab16914a5661760336202057c2971583acc08e352"
+      "sha256": "a253d0c1152a35a1a2c7a725108365d1ea82cbcf76560f67cb3dfb2bdc9c3ecd"
     }
   ],
-  "assinatura_extras": "gC1E03Ts5woGiybd8hFNTcxjFSi1z1v7Mi1nTNiJVI7I3dhN/K17406Swt9Bsko3jLB9F9Yi6FYxE+1JkpAKTB+/WYuWXxp0Q++tvTNv3HTbYzTPlC8vqusxgfrGs2Z3TipFWFauJhCNEoy07A2ZJ6EAfgFd2JXLTZMmM1ebmLaEFOGrXOJVC55VIF90jP0yo0fqTMKD0mCr+qpMhe0cZCz7nD+Jz6itWbhXPRpYdPpjmAskKVqy9fuTkKJazr+TJE6plU33MCT3mhYlfMahNcl1VXRseVGN9qpPhANfp6x+bKqfeafSn/nE84RY40mkJJOJiqMDjAyrMciNSGsQbA=="
+  "assinatura_extras": "UT51mF27IT8bEjiV6jG5+UKdiYS4yqr9bzskZE360lJnJqf4G88rvfqgmfcAkHLdA5GaJoUQkgwdJcBisv6xWa5DfKC1muemEYarnGHCQHgCM5fxQB65qdsYNjnFiXk1b4DHQV13JcEeQi/UWMdTjwNMjsyfoBvRipOMVdAae+Eep9yFZo/LFsy7wR0mV3/1uswpJUUnmvspwJ//7GMl0fcmscgUhnmtXWx3kAPqJ9sqCo2t+y4vj72tYiTLbxef5kRU6SIKnRNfxuZCp2vzBe24i98b+kwTa5JPR8VXtRoYbeoB2eFkvOyLUnYYdRh+/YvXrvlalQVyESkrNfYKKg=="
 }

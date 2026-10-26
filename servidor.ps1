@@ -1,4 +1,4 @@
-﻿# DXCORE by GUIMETAL - servidor local (v8.12)
+﻿# DXCORE - servidor local (v8.12)
 # Roda escondido enquanto o Windows estiver aberto. Entrega o DXCORE em http://127.0.0.1:47815 e lê/grava a
 # pasta de dados escolhida uma vez (fica salva em dados.json). Assim o navegador não pede mais autorização da pasta.
 # Só atende o próprio computador (127.0.0.1) e só o próprio DXCORE (confere o endereço e o cabeçalho X-DXCORE).
@@ -42,7 +42,7 @@ function UsarPasta([string]$p) {
     $p = Join-Path $p 'DXCORE-dados'; if (-not (Test-Path -LiteralPath $p)) { New-Item -ItemType Directory -Path $p -Force | Out-Null }
   }
   $marca = Join-Path $p 'dxcore.json'
-  if (-not (Test-Path -LiteralPath $marca)) { [IO.File]::WriteAllText($marca, '{"app":"DXCORE","aviso":"Pasta de dados do DXCORE by GUIMETAL. Não apague nem edite os arquivos daqui."}', [Text.Encoding]::UTF8) }
+  if (-not (Test-Path -LiteralPath $marca)) { [IO.File]::WriteAllText($marca, '{"app":"DXCORE","aviso":"Pasta de dados do DXCORE. Não apague nem edite os arquivos daqui."}', [Text.Encoding]::UTF8) }
   SalvarRaiz $p; Log ('pasta de dados: ' + $p)
 }
 function Resp($s, [int]$code, [string]$ctype, [byte[]]$body) {

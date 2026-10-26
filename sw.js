@@ -1,4 +1,4 @@
-// DXCORE by GUIMETAL: abre sempre a versão mais nova publicada; sem internet, abre a última que ficou guardada.
+// DXCORE: abre sempre a versão mais nova publicada; sem internet, abre a última que ficou guardada.
 const CACHE = 'dxcore-v1';
 self.addEventListener('install', e => { self.skipWaiting(); e.waitUntil(caches.open(CACHE).then(c => c.addAll(['DXCORE.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png']).catch(() => {}))); });
 self.addEventListener('activate', e => { e.waitUntil(self.clients.claim()); });

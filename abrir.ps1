@@ -1,4 +1,4 @@
-﻿# DXCORE by GUIMETAL - lancador com atualizacao automatica
+﻿# DXCORE - lancador com atualizacao automatica
 # Ao abrir: confere se tem versao nova publicada, baixa, confere o SHA-256 e a assinatura digital,
 # guarda a versao anterior (DXCORE.anterior.html) e abre o programa. Sem internet, abre a versao instalada.
 $ErrorActionPreference = 'Stop'
@@ -33,12 +33,14 @@ function Atalho {
     $ws = New-Object -ComObject WScript.Shell
     $vbs = Join-Path $dir 'abrir.vbs'; $ico = (Join-Path $dir 'DXCORE.ico') + ',0'; $wscript = Join-Path $env:WINDIR 'System32\wscript.exe'
     foreach ($p in @([Environment]::GetFolderPath('Desktop'), (Join-Path ([Environment]::GetFolderPath('StartMenu')) 'Programs'))) {
-      $f = Join-Path $p 'DXCORE by GUIMETAL.lnk'
+      foreach ($nome in @('DXCORE.lnk', 'DXCORE by GUIMETAL.lnk')) { # v9.23: nome novo do atalho; o antigo continua sendo conferido
+      $f = Join-Path $p $nome
       if (-not (Test-Path $f)) { continue }
       $s = $ws.CreateShortcut($f)
       if ($s.IconLocation -ne $ico -or $s.TargetPath -ne $wscript) {
         $s.TargetPath = $wscript; $s.Arguments = "`"$vbs`""; $s.IconLocation = $ico; $s.WorkingDirectory = $dir; $s.Save()
         Log ('atalho consertado: ' + $f)
+      }
       }
     }
   } catch { Log ('atalho: ' + $_.Exception.Message) }
@@ -49,7 +51,8 @@ function Web {
   try {
     $c = Get-Content (Join-Path $dir 'atualizacao.json') -Raw | ConvertFrom-Json
     if ($c.web) { return $c.web }
-    if ($c.repo -eq 'HunterGuimetal/dxcore-atualizacoes' -and -not $c.token) { return 'https://dxcore.guimetal.com.br/DXCORE.html' }
+    $wPadrao = 'https://dxcore.guimetal.com.br/DXCORE.html'; $rPadrao = 'HunterGuimetal/dxcore-atualizacoes' # v9.23: endereço próprio do cliente (atualizacao-config.json "web", posto no build)
+    if ($wPadrao -and $wPadrao -notlike '__DX*' -and $c.repo -eq $rPadrao -and -not $c.token) { return $wPadrao }
     if ($c.repo -and -not $c.token) { $p = $c.repo.Split('/'); return ('https://' + $p[0].ToLower() + '.github.io/' + $p[1] + '/DXCORE.html') }
   } catch {}
   return $null

@@ -1,8 +1,8 @@
-# DXCORE by GUIMETAL · atualizações
+# DXCORE · atualizações
 
-Arquivos que os computadores da GUIMETAL baixam para atualizar o DXCORE.
-Versão atual: **9.22** (2026-10-23)
+Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
+Versão atual: **9.23** (2026-10-26)
 
-- Orçamento · nova opção Cobrar a chapa inteira (em Material): cobra todas as chapas usadas inteiras, sem descontar os retalhos que sobram. Sem marcar, continua como antes: só a chapa com mais de 80% de uso é cobrada inteira; nas outras, o retalho que vale guardar fica fora do preço. Fica salva no orçamento.
+- Marca · o DXCORE passa a ser identificado como software independente, desenvolvido por Jadson Eliel Rampão Silva. Saiu o "by GUIMETAL" dos títulos, telas, Manual, licença e arquivos do instalador; os dados da empresa usuária (nome, contato, endereço) continuam saindo iguais nas propostas, OS, etiquetas e mensagens. O atalho novo se chama "DXCORE" (o antigo continua funcionando). Senhas, dados e backups não mudam.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
