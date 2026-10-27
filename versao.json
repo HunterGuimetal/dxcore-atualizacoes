@@ -1,12 +1,17 @@
 {
-  "versao": "9.24",
-  "data": "2026-10-26",
+  "versao": "9.25",
+  "data": "2026-10-27",
   "notas": [
-    "Segurança · senhas novas dos setores (a gerência entrega as novas; as antigas deixam de valer) e as senhas não vão mais no pacote do instalador.",
-    "Segurança · chave própria do programa e chave própria dos backups. O backup automático diário passa a ser protegido. Os backups antigos continuam abrindo normalmente.",
-    "Leitor de DWG · agora vem do próprio canal do DXCORE e só roda se a impressão digital conferir; não depende mais de serviço de terceiros."
+    "Orçamento · nova opção Material do cliente em cada peça (chapa ou tubo): o material daquela peça não é cobrado, as chapas do cliente são encaixadas à parte e não saem do estoque. A proposta mostra \"(do cliente)\" na peça e a OS avisa quais peças usam o material do cliente. A opção do orçamento todo continua igual."
   ],
   "historico": [
+    {
+      "versao": "9.25",
+      "data": "2026-10-27",
+      "notas": [
+        "Orçamento · nova opção Material do cliente em cada peça (chapa ou tubo): o material daquela peça não é cobrado, as chapas do cliente são encaixadas à parte e não saem do estoque. A proposta mostra \"(do cliente)\" na peça e a OS avisa quais peças usam o material do cliente. A opção do orçamento todo continua igual."
+      ]
+    },
     {
       "versao": "9.24",
       "data": "2026-10-26",
@@ -111,19 +116,12 @@
       "notas": [
         "Proposta em PDF · mais curta: cada peça mostra, na própria linha da tabela, só a miniatura em 3D (a planificada aparece apenas se a peça não tiver 3D). Saíram as páginas extras de vistas em 3D e o link de tocar na peça, então a proposta fica com poucas páginas mesmo com muitas peças."
       ]
-    },
-    {
-      "versao": "9.10",
-      "data": "2026-10-21",
-      "notas": [
-        "Proposta em PDF · mais curta: cada peça mostra, na própria linha da tabela, a planificada e a miniatura em 3D lado a lado. Saíram as páginas extras de vistas em 3D (e o link de tocar na peça para abrir), então a proposta fica com poucas páginas mesmo com muitas peças."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4143787,
-  "sha256": "bbe5bcac7396ad7a172dc90324a4cc4a0fed2e04b58640605096a36a78aa6ce5",
-  "assinatura": "gMIeDDZIktnw6N5OjyhD6Ai8v6R4t23g3zq1dPCC660lE2W8czzQxj5VMybW2Sr8c7MXwQbHEtVjAKxmTA5IQ7rRYXonX+XiZm5CMzdOP+bAwrp4LAcu7GihKI3JMGRi/J00a/6hRgRbx0PvSRgh3TnEVnlnOq0/0YBIF3qq4+5agPfNicAS1JxDnWS8FlYmnKV88WpKesC2WkimC/wCt8yq7Q1mjMiVkuVNoOifp2Z4UR0qax2FBLoXTA/PJcife9VCQCrl/AJrLkj3IFUlYWU3AcFaVBoveJOzXeRdlbXttLfUc1o3byeU1vZ+9M2ZnuxfHHIwaVr62ROAgMsNTg==",
+  "tamanho": 4148783,
+  "sha256": "22409d84b543b723eac105cbdf95a6f75ba037d40a3503958e991e2f9e3ec2a1",
+  "assinatura": "X0rTbbQWTUtDEyG6Qwd89lD/4Lea8+MbzOhnn8UNTsatGzXqHUXq/HJsJ0QPff6mzIszcYyh4Q7zP/fMm1WBvyZKMNSrPQqBx1/PO5h73Ldyw/U3Ey0AH/2mjTNSHN6QPOUNSCrVXQN85/NX7bGWd9z9+GkmIM6SQEst1pKsyCHqrmHldCpG1NqGCRoxW4QC/AnF6xg0XyFCtNP1D1JZGHYoaAIBxOmI+/oylbYnYdMXy3Mu5I/QGEFX7tOkNiQ4LEGSU7WqIIWDDh2nnaQ3t2jEvx1+VRv3XjlUNgOmtID4al0p93tV/3fs7DTIEmA1Ianr60ZiVRcH+5yrtlJUeg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +144,5 @@
       "sha256": "a253d0c1152a35a1a2c7a725108365d1ea82cbcf76560f67cb3dfb2bdc9c3ecd"
     }
   ],
-  "assinatura_extras": "hEfaAFLCRxwshjPy7F8zIq4LBtAH0gq+CAeh7Svrey1OlILo4R2I4OQar6Hl38D2sV9IIcHE94gC4OZPx2cvmcFGbxS60o8ss2KCY0Sd621p5TDjuHtq227iuQLxbgxsWqSk1aAWk5gHDKajWvL4McBQUhjIhKxOEIpCRerZvuiWCn+4HIKiPQrUjaktH1rzDG/dU4hix4gVL6Rp61djKrFs92p+l5cukyw0D1R8+m46C2LDO8Oci6LJ++yKhIRQUt6QfJXSXY/ZXgvNTM1TVRDZBVOso4/06CVeslob77FdfTpjQ2pDWOGzGILvW6EVlteelQo5RiHIWX3guXCBaQ=="
+  "assinatura_extras": "MW5w/HTbulH7obpCD5pC7xYOPHq5NKes5IDt6iREd8tK3zD8BK14uOYBKIS9p1EG6/axrhj89X9taUDr+FmXklagDjwFQel0WxuHaz+SHiqP0wplsNZL06cm6vQVzW8AZC/W75gUh66lgZJGc7hfeeiYOU472CE+pQubmxcTVRsyvn9EOrNHt5bnsSAdBQkCaPMP1s9AdDsAFNfGiRgOFTHx1m/6LAp06E0HyaNgMdot/88+mqRsHzxzAwvraOELAy43QCXns6xkl7ltIgfLiZq1vqQ0T4wYr0qYveqnBvjPlI0mzDGxnvOnqgbwpPUljx8oBGCwmiAaxcwQWZHuoQ=="
 }
