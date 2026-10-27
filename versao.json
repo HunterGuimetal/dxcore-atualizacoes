@@ -1,10 +1,19 @@
 {
-  "versao": "9.25",
+  "versao": "9.26",
   "data": "2026-10-27",
   "notas": [
-    "Orçamento · nova opção Material do cliente em cada peça (chapa ou tubo): o material daquela peça não é cobrado, as chapas do cliente são encaixadas à parte e não saem do estoque. A proposta mostra \"(do cliente)\" na peça e a OS avisa quais peças usam o material do cliente. A opção do orçamento todo continua igual."
+    "Licença · o DXCORE passa a ter planos (Básico, Profissional e Full), licença mensal ou vitalícia e limite de computadores por plano. A GUIMETAL tem licença vitalícia no plano Full: nada muda no uso.",
+    "Organização interna · cada empresa usuária tem a sua configuração, as suas chaves e a sua licença."
   ],
   "historico": [
+    {
+      "versao": "9.26",
+      "data": "2026-10-27",
+      "notas": [
+        "Licença · o DXCORE passa a ter planos (Básico, Profissional e Full), licença mensal ou vitalícia e limite de computadores por plano. A GUIMETAL tem licença vitalícia no plano Full: nada muda no uso.",
+        "Organização interna · cada empresa usuária tem a sua configuração, as suas chaves e a sua licença."
+      ]
+    },
     {
       "versao": "9.25",
       "data": "2026-10-27",
@@ -109,19 +118,12 @@
         "Visual · telas vazias ilustradas: quando ainda não tem nada (orçamentos, OS, quadro, estoque, retalhos, biblioteca, programação, clientes), aparece um desenho do que vai ali, junto da explicação de como começar.",
         "Modo TV · relógio grande com a data no canto da tela e a opção Alternar Quadro e Painel: a TV da fábrica troca sozinha entre o Quadro de produção e o Painel do dia a cada 40 segundos, sem sair da tela cheia, com uma linha laranja no alto mostrando quando vai trocar. Esc sai do modo TV."
       ]
-    },
-    {
-      "versao": "9.11",
-      "data": "2026-10-21",
-      "notas": [
-        "Proposta em PDF · mais curta: cada peça mostra, na própria linha da tabela, só a miniatura em 3D (a planificada aparece apenas se a peça não tiver 3D). Saíram as páginas extras de vistas em 3D e o link de tocar na peça, então a proposta fica com poucas páginas mesmo com muitas peças."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4148783,
-  "sha256": "22409d84b543b723eac105cbdf95a6f75ba037d40a3503958e991e2f9e3ec2a1",
-  "assinatura": "X0rTbbQWTUtDEyG6Qwd89lD/4Lea8+MbzOhnn8UNTsatGzXqHUXq/HJsJ0QPff6mzIszcYyh4Q7zP/fMm1WBvyZKMNSrPQqBx1/PO5h73Ldyw/U3Ey0AH/2mjTNSHN6QPOUNSCrVXQN85/NX7bGWd9z9+GkmIM6SQEst1pKsyCHqrmHldCpG1NqGCRoxW4QC/AnF6xg0XyFCtNP1D1JZGHYoaAIBxOmI+/oylbYnYdMXy3Mu5I/QGEFX7tOkNiQ4LEGSU7WqIIWDDh2nnaQ3t2jEvx1+VRv3XjlUNgOmtID4al0p93tV/3fs7DTIEmA1Ianr60ZiVRcH+5yrtlJUeg==",
+  "tamanho": 4167183,
+  "sha256": "42e52541373baa0377bd83fd125e332526a2fcd96c57daecd7a1e6a35bf97255",
+  "assinatura": "Xe0lwEn/HkI1g1KXMC8eJqhwKxCwjgKM6dFTWErLFsnlkB/Ts9IIAh4bavk7Az7VfRmxiGCwro+tSpNIPbeaSlhuWRcu5NUOFDnSykWJXQ9EX/qw+O6TMkqwTn58DUBD36B0N+VUVIaLK61kFhXlh4vN7St/ek9VsSYCa1QqLNtYlICHcLWrVfnSOmem5Engexc7o2skGVLT8nhtu3gJtmkq4UZonrNZhsqnYsKz+BuO/wFEKkuEtGsMaxYF0Sp4k9xqyfjP2F3Y5C91R8yqAVMf7CsBkcDUzXURztYc06e6v0GtXfxrEv+IUH6IdbkLzx5vWotRzvpfnOGM58QHoA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -144,5 +146,5 @@
       "sha256": "a253d0c1152a35a1a2c7a725108365d1ea82cbcf76560f67cb3dfb2bdc9c3ecd"
     }
   ],
-  "assinatura_extras": "MW5w/HTbulH7obpCD5pC7xYOPHq5NKes5IDt6iREd8tK3zD8BK14uOYBKIS9p1EG6/axrhj89X9taUDr+FmXklagDjwFQel0WxuHaz+SHiqP0wplsNZL06cm6vQVzW8AZC/W75gUh66lgZJGc7hfeeiYOU472CE+pQubmxcTVRsyvn9EOrNHt5bnsSAdBQkCaPMP1s9AdDsAFNfGiRgOFTHx1m/6LAp06E0HyaNgMdot/88+mqRsHzxzAwvraOELAy43QCXns6xkl7ltIgfLiZq1vqQ0T4wYr0qYveqnBvjPlI0mzDGxnvOnqgbwpPUljx8oBGCwmiAaxcwQWZHuoQ=="
+  "assinatura_extras": "LsMqxriWKqX01BXCQ/NMgnlKj3b8mZbjclm530QsSaobhFs8OTe9V1GOjrRhMP6XSfayR08VnUMDqeh7tpE8Dx0LAJju/3fM7+fqPxzgc8KLKYV4eYWPoC/RetnbRENUDtkzf/EutrKz31t+BvFeMBK3JOxfCAa1Udv4OTN8Vu12rDzvuFJl3koBsvDL14oeUKlkdEvn+d4bofQS3IzkvM3b52fDI1X5CSqwl5VP34FK8ETy9St2AGFshe+iSsnIjd90kjUpSDAdP05yJ93hkWq8nlXyb6W2WVRgJFvgE2m2NFpI/gUz9qXGej+MeMZh16z7gsswnR1PcW6IrQb73A=="
 }
