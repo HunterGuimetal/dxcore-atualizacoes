@@ -1,10 +1,17 @@
 {
-  "versao": "9.27",
+  "versao": "9.28",
   "data": "2026-10-27",
   "notas": [
-    "Proposta e OS · figura das peças: chapa sempre em 2D (o desenho da peça) e tubo sempre em 3D."
+    "Gerador de peças · novo modelo U com abas variáveis (mão francesa): alma reta, abas que crescem de uma ponta à outra e rasgos na alma. Medidas por fora como no desenho; mostra a peça dobrada em 3D e a planificada com as linhas de dobra."
   ],
   "historico": [
+    {
+      "versao": "9.28",
+      "data": "2026-10-27",
+      "notas": [
+        "Gerador de peças · novo modelo U com abas variáveis (mão francesa): alma reta, abas que crescem de uma ponta à outra e rasgos na alma. Medidas por fora como no desenho; mostra a peça dobrada em 3D e a planificada com as linhas de dobra."
+      ]
+    },
     {
       "versao": "9.27",
       "data": "2026-10-27",
@@ -107,20 +114,12 @@
       "notas": [
         "Novidades · a janela de \"Seu DXCORE foi atualizado\" agora mostra só o que mudou desde a versão que estava no computador (separado por versão), e não a lista inteira desde o começo."
       ]
-    },
-    {
-      "versao": "9.13",
-      "data": "2026-10-21",
-      "notas": [
-        "Encaixe nas chapas · mais inteligente com peça repetida: o DXCORE agora procura a melhor grade, como o CypCut faz. Testa a peça sozinha e em par (uma girada 180° encostada na outra: triângulo com triângulo, L com L, U dentro de U), fileiras na diagonal e fileiras que descem nos vãos da de baixo (círculo e hexágono em colmeia). Depois completa as bordas peça a peça. Nos testes: discos 128 → 140 por chapa, hexágonos 119 → 144, peças em U 96 → 116, cantoneiras em L 112 → 124, triângulos 63 → 71. Com várias peças diferentes, o encaixe também testa outras ordens no tempo que sobra. Mudar só a quantidade não recalcula a grade (fica na hora).",
-        "Chapas em 2D · visual novo de mesa de trabalho: chapa com réguas em mm, grade fina e cantos marcados. Ao arrastar, a peça sai flutuando com sombra, segue o mouse suave, deixa o contorno no lugar de onde saiu, mostra as linhas de alinhamento e a posição X/Y. Se encostar em outra, as duas acendem em vermelho; ao soltar fora do lugar, ela volta deslizando."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4168939,
-  "sha256": "73bf7559da34c827a904ac175b9439c15b63a6d8dcbb2fe5462090ccb2f09d96",
-  "assinatura": "jgXFLehc9aL5RS/qPR1BIhvKD5/0qSjwMeldEYzalxw/UKFywcFcHoF23sPKkBEAw57zxI9yMRSQKb8J5zVwlL4EHVZuaSqO64bcUdLd3qvVySScO9UK4ySZVKoWlUcEnnAmGR9uPtUwwlMdbKPxMeOuOIetfVbRgSfmUYgeBzHU0wlMafVKtypHwMs9QKzFuXRNnR844slF7GvfRXUqZpkHIb8uBKPM+KAkFv+E9f44Jx6mAi5ImkDddME9EMdeoK1Fq3kSGiZUeGsotEkKjLI5Arq8kKP5KS5156zPv0zcGDG9HQiUbXbrNi5Ebf8h/DJebZR1o4l1/1PjWF01Bg==",
+  "tamanho": 4172155,
+  "sha256": "f5470894267e4b221700443a1cff1bc0ba033f76d6a2f58566982e9a50ec1263",
+  "assinatura": "dC23FkU5+bhscQRfGwJ7nh5V8BvZNpocFA6zBlSmuE2bB74PYG+ldhfaPrsks941aqlz+cHqggKasN/NSAn9Yq2KPGPb0qbptqgl/ShXHE5hGm2i1s3JTdxF9MKfoO+1K2BESDvyXXpExEE5lMBTNN8x/NwVwLjVsM4NzxFhcMrgtN4OJC6/HDTjrJX7laiDeno+6NtOT9iSxMtg66Ln9kPKUlbJytqSQSnCIzSVNSXcTIQOD4WFrPi/9snHdYtRVuvHRKDTc4INf48YY4vUJp1ZK0iuKKW90vo80mzYtL12Oc7tmUyhrORWjaeaPm8CtTKiJZvzZzxOxJI44NC6sw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -143,5 +142,5 @@
       "sha256": "a253d0c1152a35a1a2c7a725108365d1ea82cbcf76560f67cb3dfb2bdc9c3ecd"
     }
   ],
-  "assinatura_extras": "QxvVf3acX064n6XMoIaU9CijB6K/JaVZEyQskpqTqnXTxqvqdz+CoSBZxjm6PpGg3eo0BYC/gt+Hf9I6PbQvIwfURJ9AkB3x30avswyILqf7G0Zk7FXOlkkRpRT9d/fObZXzYzLf2JM+VTugM2QHQgHteMJkK43xB/xkL3CB0c2bKr0IAURaIB+vpW9qAr+llcVSI1un2Ft8YgqtH7WvUziMoxq6WcwHFiBCwgkapedVu+a9pphF6iV+wYZosEegh7AGyA5eyOtqo+fDUknhZOjNmpWALwpqxNcsmaDtVmm4DxIdiZIdKxEakJUuLlqfHcGZxq3IwxN6JeRF2D2NtA=="
+  "assinatura_extras": "BtW2ZCHrMI1+KCIxzDk6iV1lmndnv5qcWGIIJC7Cbx9l/Dsr3dd9YVkWWn5K7KYNIEKVWDq3xqQPVIr/qhwFM5VsPYLesjfH6LN9AlGtCnh0+lzkhPCFz+mD+eAPQ1nIp62mfkrYPU3AG3/9/t0F+4niusS+Phm8fkrup6S4gu7QayMRtEdzFR2Ijs/x7W5jprlRDFYOxDlxxku2ZIGzIhurJwiQ7u2y7qJ7TeqKReD+NDR7nJb5LasLpPLbnD01aFof0PAxncWSr9AXYbNkB4KbMBSEUSCyB2l47zZMo1FZNrdtHb4k6k4fqfZAqPFrTeTCtduHjOLJu5nu/+6l5A=="
 }
