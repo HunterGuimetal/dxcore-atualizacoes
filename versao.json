@@ -1,11 +1,17 @@
 {
-  "versao": "9.26",
+  "versao": "9.27",
   "data": "2026-10-27",
   "notas": [
-    "Licença · o DXCORE passa a ter planos (Básico, Profissional e Full), licença mensal ou vitalícia e limite de computadores por plano. A GUIMETAL tem licença vitalícia no plano Full: nada muda no uso.",
-    "Organização interna · cada empresa usuária tem a sua configuração, as suas chaves e a sua licença."
+    "Proposta e OS · figura das peças: chapa sempre em 2D (o desenho da peça) e tubo sempre em 3D."
   ],
   "historico": [
+    {
+      "versao": "9.27",
+      "data": "2026-10-27",
+      "notas": [
+        "Proposta e OS · figura das peças: chapa sempre em 2D (o desenho da peça) e tubo sempre em 3D."
+      ]
+    },
     {
       "versao": "9.26",
       "data": "2026-10-27",
@@ -109,21 +115,12 @@
         "Encaixe nas chapas · mais inteligente com peça repetida: o DXCORE agora procura a melhor grade, como o CypCut faz. Testa a peça sozinha e em par (uma girada 180° encostada na outra: triângulo com triângulo, L com L, U dentro de U), fileiras na diagonal e fileiras que descem nos vãos da de baixo (círculo e hexágono em colmeia). Depois completa as bordas peça a peça. Nos testes: discos 128 → 140 por chapa, hexágonos 119 → 144, peças em U 96 → 116, cantoneiras em L 112 → 124, triângulos 63 → 71. Com várias peças diferentes, o encaixe também testa outras ordens no tempo que sobra. Mudar só a quantidade não recalcula a grade (fica na hora).",
         "Chapas em 2D · visual novo de mesa de trabalho: chapa com réguas em mm, grade fina e cantos marcados. Ao arrastar, a peça sai flutuando com sombra, segue o mouse suave, deixa o contorno no lugar de onde saiu, mostra as linhas de alinhamento e a posição X/Y. Se encostar em outra, as duas acendem em vermelho; ao soltar fora do lugar, ela volta deslizando."
       ]
-    },
-    {
-      "versao": "9.12",
-      "data": "2026-10-21",
-      "notas": [
-        "Visual · tema claro opcional: no botão do seu usuário (canto de cima), em Aparência, escolha Escuro ou Claro (fica salvo neste computador). Também dá pelo Ctrl + K, digitando \"tema\". O Projetar, os Tubos e a mesa de corte da tela inicial continuam escuros, como programa de CAD.",
-        "Visual · telas vazias ilustradas: quando ainda não tem nada (orçamentos, OS, quadro, estoque, retalhos, biblioteca, programação, clientes), aparece um desenho do que vai ali, junto da explicação de como começar.",
-        "Modo TV · relógio grande com a data no canto da tela e a opção Alternar Quadro e Painel: a TV da fábrica troca sozinha entre o Quadro de produção e o Painel do dia a cada 40 segundos, sem sair da tela cheia, com uma linha laranja no alto mostrando quando vai trocar. Esc sai do modo TV."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4167183,
-  "sha256": "42e52541373baa0377bd83fd125e332526a2fcd96c57daecd7a1e6a35bf97255",
-  "assinatura": "Xe0lwEn/HkI1g1KXMC8eJqhwKxCwjgKM6dFTWErLFsnlkB/Ts9IIAh4bavk7Az7VfRmxiGCwro+tSpNIPbeaSlhuWRcu5NUOFDnSykWJXQ9EX/qw+O6TMkqwTn58DUBD36B0N+VUVIaLK61kFhXlh4vN7St/ek9VsSYCa1QqLNtYlICHcLWrVfnSOmem5Engexc7o2skGVLT8nhtu3gJtmkq4UZonrNZhsqnYsKz+BuO/wFEKkuEtGsMaxYF0Sp4k9xqyfjP2F3Y5C91R8yqAVMf7CsBkcDUzXURztYc06e6v0GtXfxrEv+IUH6IdbkLzx5vWotRzvpfnOGM58QHoA==",
+  "tamanho": 4168939,
+  "sha256": "73bf7559da34c827a904ac175b9439c15b63a6d8dcbb2fe5462090ccb2f09d96",
+  "assinatura": "jgXFLehc9aL5RS/qPR1BIhvKD5/0qSjwMeldEYzalxw/UKFywcFcHoF23sPKkBEAw57zxI9yMRSQKb8J5zVwlL4EHVZuaSqO64bcUdLd3qvVySScO9UK4ySZVKoWlUcEnnAmGR9uPtUwwlMdbKPxMeOuOIetfVbRgSfmUYgeBzHU0wlMafVKtypHwMs9QKzFuXRNnR844slF7GvfRXUqZpkHIb8uBKPM+KAkFv+E9f44Jx6mAi5ImkDddME9EMdeoK1Fq3kSGiZUeGsotEkKjLI5Arq8kKP5KS5156zPv0zcGDG9HQiUbXbrNi5Ebf8h/DJebZR1o4l1/1PjWF01Bg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +143,5 @@
       "sha256": "a253d0c1152a35a1a2c7a725108365d1ea82cbcf76560f67cb3dfb2bdc9c3ecd"
     }
   ],
-  "assinatura_extras": "LsMqxriWKqX01BXCQ/NMgnlKj3b8mZbjclm530QsSaobhFs8OTe9V1GOjrRhMP6XSfayR08VnUMDqeh7tpE8Dx0LAJju/3fM7+fqPxzgc8KLKYV4eYWPoC/RetnbRENUDtkzf/EutrKz31t+BvFeMBK3JOxfCAa1Udv4OTN8Vu12rDzvuFJl3koBsvDL14oeUKlkdEvn+d4bofQS3IzkvM3b52fDI1X5CSqwl5VP34FK8ETy9St2AGFshe+iSsnIjd90kjUpSDAdP05yJ93hkWq8nlXyb6W2WVRgJFvgE2m2NFpI/gUz9qXGej+MeMZh16z7gsswnR1PcW6IrQb73A=="
+  "assinatura_extras": "QxvVf3acX064n6XMoIaU9CijB6K/JaVZEyQskpqTqnXTxqvqdz+CoSBZxjm6PpGg3eo0BYC/gt+Hf9I6PbQvIwfURJ9AkB3x30avswyILqf7G0Zk7FXOlkkRpRT9d/fObZXzYzLf2JM+VTugM2QHQgHteMJkK43xB/xkL3CB0c2bKr0IAURaIB+vpW9qAr+llcVSI1un2Ft8YgqtH7WvUziMoxq6WcwHFiBCwgkapedVu+a9pphF6iV+wYZosEegh7AGyA5eyOtqo+fDUknhZOjNmpWALwpqxNcsmaDtVmm4DxIdiZIdKxEakJUuLlqfHcGZxq3IwxN6JeRF2D2NtA=="
 }
