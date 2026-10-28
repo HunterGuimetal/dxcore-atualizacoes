@@ -108,7 +108,12 @@ function Atender($c) {
       }
       'ls' {
         $p = Caminho $q['p']; $o = New-Object Collections.Generic.List[string]
-        if (Test-Path -LiteralPath $p) { foreach ($it in (Get-ChildItem -LiteralPath $p -Force)) { $o.Add('{"n":' + (J $it.Name) + ',"k":"' + $(if ($it.PSIsContainer) { 'directory' } else { 'file' }) + '"}') } }
+        # v9.29: arquivo vem com tamanho (s) e data (m, ms desde 1970 UTC): o DXCORE pula o que não mudou sem baixar
+        $ep = New-Object DateTime 1970, 1, 1, 0, 0, 0, ([DateTimeKind]::Utc)
+        if (Test-Path -LiteralPath $p) { foreach ($it in (Get-ChildItem -LiteralPath $p -Force)) {
+          if ($it.PSIsContainer) { $o.Add('{"n":' + (J $it.Name) + ',"k":"directory"}') }
+          else { $mt = [long][Math]::Floor(($it.LastWriteTimeUtc - $ep).TotalMilliseconds); $o.Add('{"n":' + (J $it.Name) + ',"k":"file","s":' + [string]$it.Length + ',"m":' + [string]$mt + '}') }
+        } }
         RespJ $s 200 ('[' + ($o -join ',') + ']'); return
       }
       'all' {

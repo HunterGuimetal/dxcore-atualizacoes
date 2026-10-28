@@ -1,10 +1,19 @@
 {
-  "versao": "9.28",
-  "data": "2026-10-27",
+  "versao": "9.29",
+  "data": "2026-10-28",
   "notas": [
-    "Gerador de peças · novo modelo U com abas variáveis (mão francesa): alma reta, abas que crescem de uma ponta à outra e rasgos na alma. Medidas por fora como no desenho; mostra a peça dobrada em 3D e a planificada com as linhas de dobra."
+    "Velocidade · o DXCORE estava relendo, pela rede, um a um, os registros de alterações de todos os computadores (127 arquivos) a cada tela aberta. Agora apaga os registros antigos que o resumo já cobre e só relê o que mudou. Na primeira abertura ele faz essa faxina; depois cada tela pede até 5 vezes menos à pasta da rede.",
+    "Servidor local · passa a informar o tamanho e a data de cada arquivo, para o DXCORE não baixar o que não mudou (vale depois que o computador for reiniciado)."
   ],
   "historico": [
+    {
+      "versao": "9.29",
+      "data": "2026-10-28",
+      "notas": [
+        "Velocidade · o DXCORE estava relendo, pela rede, um a um, os registros de alterações de todos os computadores (127 arquivos) a cada tela aberta. Agora apaga os registros antigos que o resumo já cobre e só relê o que mudou. Na primeira abertura ele faz essa faxina; depois cada tela pede até 5 vezes menos à pasta da rede.",
+        "Servidor local · passa a informar o tamanho e a data de cada arquivo, para o DXCORE não baixar o que não mudou (vale depois que o computador for reiniciado)."
+      ]
+    },
     {
       "versao": "9.28",
       "data": "2026-10-27",
@@ -107,19 +116,12 @@
       "notas": [
         "Encaixe nas chapas · a grade agora usa o contorno exato da peça (antes sobrava uma folga extra de segurança de décimos de mm em volta de cada peça). Na hélice de 215 × 728 mm, a chapa 3000 × 1250 passou de 20 para 24 peças, igual ao CypCut, e a 3000 × 1500 de 26 para 28. O espaço entre as peças continua o que está configurado."
       ]
-    },
-    {
-      "versao": "9.14",
-      "data": "2026-10-22",
-      "notas": [
-        "Novidades · a janela de \"Seu DXCORE foi atualizado\" agora mostra só o que mudou desde a versão que estava no computador (separado por versão), e não a lista inteira desde o começo."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4172155,
-  "sha256": "f5470894267e4b221700443a1cff1bc0ba033f76d6a2f58566982e9a50ec1263",
-  "assinatura": "dC23FkU5+bhscQRfGwJ7nh5V8BvZNpocFA6zBlSmuE2bB74PYG+ldhfaPrsks941aqlz+cHqggKasN/NSAn9Yq2KPGPb0qbptqgl/ShXHE5hGm2i1s3JTdxF9MKfoO+1K2BESDvyXXpExEE5lMBTNN8x/NwVwLjVsM4NzxFhcMrgtN4OJC6/HDTjrJX7laiDeno+6NtOT9iSxMtg66Ln9kPKUlbJytqSQSnCIzSVNSXcTIQOD4WFrPi/9snHdYtRVuvHRKDTc4INf48YY4vUJp1ZK0iuKKW90vo80mzYtL12Oc7tmUyhrORWjaeaPm8CtTKiJZvzZzxOxJI44NC6sw==",
+  "tamanho": 4174343,
+  "sha256": "ce64fd1d04b085f31ff3eb0910d40b77aa35ef72cf33662322e2f534016742d6",
+  "assinatura": "fvIxuYAuMC/0SuREorNGDkXTHidt1smmxPkVhaRWjONEcO0h3H9u/7O4tbXJNAHDytGrDZSa3ufiv93tbL4w7caFUdh2bdSpk85/aOpN3lxq7GwURcpMdcZLguwRVXXP7apqhPx6NPRkgbXaLS07jz3SlLrSUpv1kTZUQ9BsC7Y/hyRccBbv+wfv5WMmsMs3pTofDiGGcxcq4bjS8/UATpryrgZYQBUhll9AbR2jWujg2QqJ/+84NuDO16Iw7t4FprudMMi7OEq76FRO7vikBno1s7pgIZ99OfNlKm7volCH73a9VH2Va5fGt0ej0GfrPmXMh4ym0dJF4bc1vl7hjQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -139,8 +141,8 @@
     },
     {
       "arquivo": "servidor.ps1",
-      "sha256": "a253d0c1152a35a1a2c7a725108365d1ea82cbcf76560f67cb3dfb2bdc9c3ecd"
+      "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "BtW2ZCHrMI1+KCIxzDk6iV1lmndnv5qcWGIIJC7Cbx9l/Dsr3dd9YVkWWn5K7KYNIEKVWDq3xqQPVIr/qhwFM5VsPYLesjfH6LN9AlGtCnh0+lzkhPCFz+mD+eAPQ1nIp62mfkrYPU3AG3/9/t0F+4niusS+Phm8fkrup6S4gu7QayMRtEdzFR2Ijs/x7W5jprlRDFYOxDlxxku2ZIGzIhurJwiQ7u2y7qJ7TeqKReD+NDR7nJb5LasLpPLbnD01aFof0PAxncWSr9AXYbNkB4KbMBSEUSCyB2l47zZMo1FZNrdtHb4k6k4fqfZAqPFrTeTCtduHjOLJu5nu/+6l5A=="
+  "assinatura_extras": "Z7wpVnyFEH7P67Mi4OznT3KHPp3s4ue5vdyaEsnaX8OLZUXG6QJnD7RiIQTgPEAaeTtMxdOqSNZOrnbeRTIeOVxgs7/tqLMBnkb8VugrapmrWkUa2RMThryyD1V01XsLkxbN0aTGIh1Rhf+D7iWgg4idQYUYv3QSXXF+MtyxQ8dVprzyD3YHTkK9DUyoCrLcUekn5mIWczJxJNnZ3mNdDhyOr4/hE5q7xUFqWxsx8LYJMhX7SLf/EMFE7UzsDTHVElP1kHMSDrzaCQHzr8/LNAEuN9A4yp1w92CAJ6klNtmCGxTs97OLR9rh8nEWXZ4iuxypDXK05lGgzo3YnCm4lQ=="
 }
