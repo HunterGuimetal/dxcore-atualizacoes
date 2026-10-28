@@ -1,9 +1,9 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.29** (2026-10-28)
+Versão atual: **9.30** (2026-10-28)
 
-- Velocidade · o DXCORE estava relendo, pela rede, um a um, os registros de alterações de todos os computadores (127 arquivos) a cada tela aberta. Agora apaga os registros antigos que o resumo já cobre e só relê o que mudou. Na primeira abertura ele faz essa faxina; depois cada tela pede até 5 vezes menos à pasta da rede.
-- Servidor local · passa a informar o tamanho e a data de cada arquivo, para o DXCORE não baixar o que não mudou (vale depois que o computador for reiniciado).
+- Velocidade na calculadora · o encaixe fino das peças (a conta mais pesada) agora roda em segundo plano, sem travar a tela. Um orçamento com 150 peças abre em cerca de 2 s (antes, 15 s travado) e mudar uma quantidade responde em menos de meio segundo (antes, 4,6 s). Enquanto o encaixe fino calcula, aparece uma estimativa e a mensagem "Calculando o encaixe fino"; o valor final é o mesmo de antes.
+- Salvar, proposta em PDF, OS, estoque, painel e exportação sempre usam o encaixe fino.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

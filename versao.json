@@ -1,11 +1,19 @@
 {
-  "versao": "9.29",
+  "versao": "9.30",
   "data": "2026-10-28",
   "notas": [
-    "Velocidade · o DXCORE estava relendo, pela rede, um a um, os registros de alterações de todos os computadores (127 arquivos) a cada tela aberta. Agora apaga os registros antigos que o resumo já cobre e só relê o que mudou. Na primeira abertura ele faz essa faxina; depois cada tela pede até 5 vezes menos à pasta da rede.",
-    "Servidor local · passa a informar o tamanho e a data de cada arquivo, para o DXCORE não baixar o que não mudou (vale depois que o computador for reiniciado)."
+    "Velocidade na calculadora · o encaixe fino das peças (a conta mais pesada) agora roda em segundo plano, sem travar a tela. Um orçamento com 150 peças abre em cerca de 2 s (antes, 15 s travado) e mudar uma quantidade responde em menos de meio segundo (antes, 4,6 s). Enquanto o encaixe fino calcula, aparece uma estimativa e a mensagem \"Calculando o encaixe fino\"; o valor final é o mesmo de antes.",
+    "Salvar, proposta em PDF, OS, estoque, painel e exportação sempre usam o encaixe fino."
   ],
   "historico": [
+    {
+      "versao": "9.30",
+      "data": "2026-10-28",
+      "notas": [
+        "Velocidade na calculadora · o encaixe fino das peças (a conta mais pesada) agora roda em segundo plano, sem travar a tela. Um orçamento com 150 peças abre em cerca de 2 s (antes, 15 s travado) e mudar uma quantidade responde em menos de meio segundo (antes, 4,6 s). Enquanto o encaixe fino calcula, aparece uma estimativa e a mensagem \"Calculando o encaixe fino\"; o valor final é o mesmo de antes.",
+        "Salvar, proposta em PDF, OS, estoque, painel e exportação sempre usam o encaixe fino."
+      ]
+    },
     {
       "versao": "9.29",
       "data": "2026-10-28",
@@ -109,19 +117,12 @@
       "notas": [
         "Encaixe nas chapas · quando a largura ou o comprimento da peça são mudados à mão no orçamento, o encaixe agora usa o desenho da peça na medida nova (antes virava um retângulo e encaixava pior). Ex.: a hélice com 205 × 720 mm cabe 24 numa chapa 3000 × 1250."
       ]
-    },
-    {
-      "versao": "9.15",
-      "data": "2026-10-22",
-      "notas": [
-        "Encaixe nas chapas · a grade agora usa o contorno exato da peça (antes sobrava uma folga extra de segurança de décimos de mm em volta de cada peça). Na hélice de 215 × 728 mm, a chapa 3000 × 1250 passou de 20 para 24 peças, igual ao CypCut, e a 3000 × 1500 de 26 para 28. O espaço entre as peças continua o que está configurado."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4174343,
-  "sha256": "ce64fd1d04b085f31ff3eb0910d40b77aa35ef72cf33662322e2f534016742d6",
-  "assinatura": "fvIxuYAuMC/0SuREorNGDkXTHidt1smmxPkVhaRWjONEcO0h3H9u/7O4tbXJNAHDytGrDZSa3ufiv93tbL4w7caFUdh2bdSpk85/aOpN3lxq7GwURcpMdcZLguwRVXXP7apqhPx6NPRkgbXaLS07jz3SlLrSUpv1kTZUQ9BsC7Y/hyRccBbv+wfv5WMmsMs3pTofDiGGcxcq4bjS8/UATpryrgZYQBUhll9AbR2jWujg2QqJ/+84NuDO16Iw7t4FprudMMi7OEq76FRO7vikBno1s7pgIZ99OfNlKm7volCH73a9VH2Va5fGt0ej0GfrPmXMh4ym0dJF4bc1vl7hjQ==",
+  "tamanho": 4185539,
+  "sha256": "48bf7d629803a7e26684de30ca28d8744dbbc73017088321146c3dd32cd73069",
+  "assinatura": "gWjCCRBzBJnSjUGYu0QZTkIlEasmzqBJVnQ9Qca4+/GAT/WRLs1Qgo+bB3xVrDUImuAdKZ81+ZjgcqFmbulsGxGNFovok3pF8I3hE0OOfyeYLfYdof3f/yAcBLs/9NPKcxgAD3VkF4iiJVwk3VWPl7bpNWZivLoM3vytECy/xLPSlCAN/3gIFUf4uaR1NjculXRDVxlUXWDNRvTBL92zQSgpn9EI18oyVHGC8a3olRNaDcFxYlj+oDc5shB6N+8bTJQBHC4nI/pP3HKHBGE3gCbJ/xy4ja7MQoPQuBzKK6U0aWclik4RXvxYWq4UUXJKMJMnaa6FysVgAe21FAO/Pw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -144,5 +145,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "Z7wpVnyFEH7P67Mi4OznT3KHPp3s4ue5vdyaEsnaX8OLZUXG6QJnD7RiIQTgPEAaeTtMxdOqSNZOrnbeRTIeOVxgs7/tqLMBnkb8VugrapmrWkUa2RMThryyD1V01XsLkxbN0aTGIh1Rhf+D7iWgg4idQYUYv3QSXXF+MtyxQ8dVprzyD3YHTkK9DUyoCrLcUekn5mIWczJxJNnZ3mNdDhyOr4/hE5q7xUFqWxsx8LYJMhX7SLf/EMFE7UzsDTHVElP1kHMSDrzaCQHzr8/LNAEuN9A4yp1w92CAJ6klNtmCGxTs97OLR9rh8nEWXZ4iuxypDXK05lGgzo3YnCm4lQ=="
+  "assinatura_extras": "I6eUIwpYVph/tLm29J8guoq2u1wnvTfiir08P3c6NL2BfFf6wrTNl5Z2vob6kDwlwmJEtlAM2DrowioO+Y0sqMX3QH8PBfaK2dFWNpG4kgbLl7T+m/e6Gey+o51yYY933qImztOUknTpX8phU2BNqI+xoDiu9bLJBJrcKsZkOu+L1ml45KPNjwyW3vYIDoEUoYpu9IbBIIVIFxMzEXXYWWOwE/bq//Y7ALPR11m/Mi84EzTfMPXBciDqLrTIOu8uXnsWuPr51BoyUfP809ZDG5g76QhLDmU0tdQjwjOI6U8Da2UKtucJSlbKcYsLdelnkfynsmAWFk1I88yf84yNEQ=="
 }
