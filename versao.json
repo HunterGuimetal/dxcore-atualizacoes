@@ -1,12 +1,17 @@
 {
-  "versao": "9.31",
+  "versao": "9.32",
   "data": "2026-10-28",
   "notas": [
-    "Limpar · PDF com as cotas desenhadas em traço (AutoCAD impresso pelo \"Microsoft Print to PDF\"): o DXCORE agora lê os números das cotas pela forma dos traços. Com isso acha a escala sozinho (ex.: 1:5) e o tamanho da peça sai certo, conferido com as cotas.",
-    "PDF impresso \"ajustado à página\" (um pouco fora de escala): o tamanho é acertado pela cota maior da peça (1130 fica 1130, não 1132).",
-    "Folha com várias peças: cada peça pega o nome (ex.: MODELO 1) e a quantidade (ex.: 40 PEÇAS) dos textos ao lado dela, mesmo quando estão em textos separados."
+    "Calculadora · Parâmetros e preços: novo campo Mesa do laser (comprimento × largura em mm). A gerência coloca o tamanho da mesa da máquina e o DXCORE usa esse tamanho como a chapa inteira no encaixe, na escolha do tamanho da chapa e no aviso de peça maior que a mesa. Padrão: 3000 × 1500."
   ],
   "historico": [
+    {
+      "versao": "9.32",
+      "data": "2026-10-28",
+      "notas": [
+        "Calculadora · Parâmetros e preços: novo campo Mesa do laser (comprimento × largura em mm). A gerência coloca o tamanho da mesa da máquina e o DXCORE usa esse tamanho como a chapa inteira no encaixe, na escolha do tamanho da chapa e no aviso de peça maior que a mesa. Padrão: 3000 × 1500."
+      ]
+    },
     {
       "versao": "9.31",
       "data": "2026-10-28",
@@ -112,20 +117,12 @@
         "Pasta de dados mais rápida · os rascunhos do Limpar agora ficam em duas partes, como os orçamentos: a lista leva poucos bytes e os arquivos dos desenhos só são lidos quando você abre o rascunho (no teste da pasta da fábrica, 2 rascunhos pesavam 13,7 MB e levavam 3,5 s para ler; agora são poucos KB). A troca acontece sozinha na primeira abertura.",
         "Pasta de dados · quando muitos orçamentos (ou outros registros) mudaram desde o último resumo, o DXCORE grava um resumo novo; assim a próxima abertura lê só ele em vez de buscar registro por registro."
       ]
-    },
-    {
-      "versao": "9.17",
-      "data": "2026-10-22",
-      "notas": [
-        "Portal de entrada · visual novo de estação de trabalho: abertura com o laser desenhando o DX numa moldura técnica com cotas e a barra de carregamento; depois o painel de identificação (relógio, saudação, versão, último acesso) e os setores numa lista. Ao escolher o setor, a senha abre ali mesmo, embaixo dele. Ao fundo, uma prancheta técnica com uma cantoneira em 3D girando devagar e a mira com as coordenadas do mouse.",
-        "Tema claro · o portal de entrada agora segue o tema escolhido (escuro ou claro), igual ao resto do programa."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4201863,
-  "sha256": "003a671a9a3e743759fb2dddd4e9845c349430fd9ae4d414e79289471bb06204",
-  "assinatura": "H3tdDjjX25IT2ByN7GoiYlRlvo46ih6NMw7oYkpaAjlTjEbbMeP6XGcCp2W7gWBwYwlX6QRwgb8l35gk3zlgVtduQTV1E0A6j9aL+jXiMN8P9eIxfyEFXYeAPs+8IreJzbbmMBWZB6fnRZQBDyP+Sgbp4iDYMUDgmmxfgmz6IKuPZfkLfjdwHoW+ABpf/eibr+b0mqzGv/00/9Si7dfVwrKCgmi7HvNpBs/g25vf041f+DMwpQQsEdJvAUKbuw0oYDAqmjiHrLpPdPDHGKh17FtL7xh+u9xOmS+BK4Ww7UlfLPiYtptd5q5kTgOn4X/RXAuy9WFN3o2evH87fxCU7w==",
+  "tamanho": 4203355,
+  "sha256": "14e31a9b13f6d9de9208780759db6bde0a25e0a292810ba9ceb1ae733b5ad1d3",
+  "assinatura": "DKuyu0iYEUGzWkzHrcTrB0lUBl8cGPMp0oXqjCYkpd8p+Y6r9sgfueO3jvkxBp5w3H3/6t9gjpw+zcx3qSW0ngep6GE8Bo4AjfJJTyrpsPkDnm5/T58l3VcdxTL/KQGb4en3Qab/YCLjKbTOUkpm7jzDdzYcPoxlyXuL9l/4urzSJ9C8C4E9MoAVdpfrodzSmLCR3nOwssirfdblzgWcoRSAi9zaeY7wV4c5HN22ucjCtznDtugmYUBRsSfJ3Sq9ELmLxFQP1mVewgZT1VHGMVGbSSomLvd3b3beA2kSV5LmAv/3+pqvTC6J0QnW4NzBHakP1j3jH775WCT59YkNOA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +145,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "GjSD9GQkniTRMuZh4O50pQP2HU5hF4JstLcuXBi4pf5/LAd2xTT+pBadaUjJ8mK6HRv5B4n2bTkh0+hX4dBs0/5Z4wIMTwDjdBr8LAy955o+/XB9D7rfuTXlzx2U8rjskV6PZMwGL5GAxJRKiQ+Gq9xKvYGBrvVpOxfANLtEIrkL9SXhjgOA4xEhYPVqk5nP9ARbPcqISEFp+unqS6lM6CAMJZJ61LYVzB/TkhUUbf15H5lYDHVXIzB/EBujwqxawh1zJ4rWqg6rCiz7fWvxYeOexFjSfZez7Oe7s6xySw44W+Qk69d5xKgzxZtQ2t3pSL6ksZelPnb5k0dnWgyS0g=="
+  "assinatura_extras": "SySchdpgDrnkjQmPNjOkt7Ihn2/U+6lJfL27GNjqjNrhdee6P0T2sbQsy+k8dp0hef0E7j5Rq4A2aYJiZDet9m1ZGZV+VU4x25pIQ4ByW5dR60dm5LnrEh6mjVVkOBvI+K7tfhBbx60/6KMdcipMpB9L9MrDCej/RgqpH1222EI37LBylXbqgfPT6un/4qjERpqbdwW4PIvgKUfyje6fhiTw2wDlFcIdgI04RXi4W7SdKxLVXJW5FtjRyXkrEhdfgKAfKnFz50i9VAkDLu4ZJJPKD1BcnswYSCaOeosLTaPCyshtJGLiA0oNLxWhQlJ5C2kR6RyCEXvRsyM+NiFxxg=="
 }
