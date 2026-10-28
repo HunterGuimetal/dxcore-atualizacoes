@@ -1,11 +1,21 @@
 {
-  "versao": "9.30",
+  "versao": "9.31",
   "data": "2026-10-28",
   "notas": [
-    "Velocidade na calculadora · o encaixe fino das peças (a conta mais pesada) agora roda em segundo plano, sem travar a tela. Um orçamento com 150 peças abre em cerca de 2 s (antes, 15 s travado) e mudar uma quantidade responde em menos de meio segundo (antes, 4,6 s). Enquanto o encaixe fino calcula, aparece uma estimativa e a mensagem \"Calculando o encaixe fino\"; o valor final é o mesmo de antes.",
-    "Salvar, proposta em PDF, OS, estoque, painel e exportação sempre usam o encaixe fino."
+    "Limpar · PDF com as cotas desenhadas em traço (AutoCAD impresso pelo \"Microsoft Print to PDF\"): o DXCORE agora lê os números das cotas pela forma dos traços. Com isso acha a escala sozinho (ex.: 1:5) e o tamanho da peça sai certo, conferido com as cotas.",
+    "PDF impresso \"ajustado à página\" (um pouco fora de escala): o tamanho é acertado pela cota maior da peça (1130 fica 1130, não 1132).",
+    "Folha com várias peças: cada peça pega o nome (ex.: MODELO 1) e a quantidade (ex.: 40 PEÇAS) dos textos ao lado dela, mesmo quando estão em textos separados."
   ],
   "historico": [
+    {
+      "versao": "9.31",
+      "data": "2026-10-28",
+      "notas": [
+        "Limpar · PDF com as cotas desenhadas em traço (AutoCAD impresso pelo \"Microsoft Print to PDF\"): o DXCORE agora lê os números das cotas pela forma dos traços. Com isso acha a escala sozinho (ex.: 1:5) e o tamanho da peça sai certo, conferido com as cotas.",
+        "PDF impresso \"ajustado à página\" (um pouco fora de escala): o tamanho é acertado pela cota maior da peça (1130 fica 1130, não 1132).",
+        "Folha com várias peças: cada peça pega o nome (ex.: MODELO 1) e a quantidade (ex.: 40 PEÇAS) dos textos ao lado dela, mesmo quando estão em textos separados."
+      ]
+    },
     {
       "versao": "9.30",
       "data": "2026-10-28",
@@ -110,19 +120,12 @@
         "Portal de entrada · visual novo de estação de trabalho: abertura com o laser desenhando o DX numa moldura técnica com cotas e a barra de carregamento; depois o painel de identificação (relógio, saudação, versão, último acesso) e os setores numa lista. Ao escolher o setor, a senha abre ali mesmo, embaixo dele. Ao fundo, uma prancheta técnica com uma cantoneira em 3D girando devagar e a mira com as coordenadas do mouse.",
         "Tema claro · o portal de entrada agora segue o tema escolhido (escuro ou claro), igual ao resto do programa."
       ]
-    },
-    {
-      "versao": "9.16",
-      "data": "2026-10-22",
-      "notas": [
-        "Encaixe nas chapas · quando a largura ou o comprimento da peça são mudados à mão no orçamento, o encaixe agora usa o desenho da peça na medida nova (antes virava um retângulo e encaixava pior). Ex.: a hélice com 205 × 720 mm cabe 24 numa chapa 3000 × 1250."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4185539,
-  "sha256": "48bf7d629803a7e26684de30ca28d8744dbbc73017088321146c3dd32cd73069",
-  "assinatura": "gWjCCRBzBJnSjUGYu0QZTkIlEasmzqBJVnQ9Qca4+/GAT/WRLs1Qgo+bB3xVrDUImuAdKZ81+ZjgcqFmbulsGxGNFovok3pF8I3hE0OOfyeYLfYdof3f/yAcBLs/9NPKcxgAD3VkF4iiJVwk3VWPl7bpNWZivLoM3vytECy/xLPSlCAN/3gIFUf4uaR1NjculXRDVxlUXWDNRvTBL92zQSgpn9EI18oyVHGC8a3olRNaDcFxYlj+oDc5shB6N+8bTJQBHC4nI/pP3HKHBGE3gCbJ/xy4ja7MQoPQuBzKK6U0aWclik4RXvxYWq4UUXJKMJMnaa6FysVgAe21FAO/Pw==",
+  "tamanho": 4201863,
+  "sha256": "003a671a9a3e743759fb2dddd4e9845c349430fd9ae4d414e79289471bb06204",
+  "assinatura": "H3tdDjjX25IT2ByN7GoiYlRlvo46ih6NMw7oYkpaAjlTjEbbMeP6XGcCp2W7gWBwYwlX6QRwgb8l35gk3zlgVtduQTV1E0A6j9aL+jXiMN8P9eIxfyEFXYeAPs+8IreJzbbmMBWZB6fnRZQBDyP+Sgbp4iDYMUDgmmxfgmz6IKuPZfkLfjdwHoW+ABpf/eibr+b0mqzGv/00/9Si7dfVwrKCgmi7HvNpBs/g25vf041f+DMwpQQsEdJvAUKbuw0oYDAqmjiHrLpPdPDHGKh17FtL7xh+u9xOmS+BK4Ww7UlfLPiYtptd5q5kTgOn4X/RXAuy9WFN3o2evH87fxCU7w==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -145,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "I6eUIwpYVph/tLm29J8guoq2u1wnvTfiir08P3c6NL2BfFf6wrTNl5Z2vob6kDwlwmJEtlAM2DrowioO+Y0sqMX3QH8PBfaK2dFWNpG4kgbLl7T+m/e6Gey+o51yYY933qImztOUknTpX8phU2BNqI+xoDiu9bLJBJrcKsZkOu+L1ml45KPNjwyW3vYIDoEUoYpu9IbBIIVIFxMzEXXYWWOwE/bq//Y7ALPR11m/Mi84EzTfMPXBciDqLrTIOu8uXnsWuPr51BoyUfP809ZDG5g76QhLDmU0tdQjwjOI6U8Da2UKtucJSlbKcYsLdelnkfynsmAWFk1I88yf84yNEQ=="
+  "assinatura_extras": "GjSD9GQkniTRMuZh4O50pQP2HU5hF4JstLcuXBi4pf5/LAd2xTT+pBadaUjJ8mK6HRv5B4n2bTkh0+hX4dBs0/5Z4wIMTwDjdBr8LAy955o+/XB9D7rfuTXlzx2U8rjskV6PZMwGL5GAxJRKiQ+Gq9xKvYGBrvVpOxfANLtEIrkL9SXhjgOA4xEhYPVqk5nP9ARbPcqISEFp+unqS6lM6CAMJZJ61LYVzB/TkhUUbf15H5lYDHVXIzB/EBujwqxawh1zJ4rWqg6rCiz7fWvxYeOexFjSfZez7Oe7s6xySw44W+Qk69d5xKgzxZtQ2t3pSL6ksZelPnb5k0dnWgyS0g=="
 }
