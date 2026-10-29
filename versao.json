@@ -1,10 +1,19 @@
 {
-  "versao": "9.32",
-  "data": "2026-10-28",
+  "versao": "9.33",
+  "data": "2026-10-29",
   "notas": [
-    "Calculadora · Parâmetros e preços: novo campo Mesa do laser (comprimento × largura em mm). A gerência coloca o tamanho da mesa da máquina e o DXCORE usa esse tamanho como a chapa inteira no encaixe, na escolha do tamanho da chapa e no aviso de peça maior que a mesa. Padrão: 3000 × 1500."
+    "Proposta em PDF · segure Ctrl e clique nos orçamentos para selecionar (no celular, toque e segure; Shift + clique marca o intervalo). Com orçamentos selecionados aparece a barra para Selecionar todos, Cancelar ou Excluir (com confirmação). Delete exclui e Esc cancela.",
+    "Visual · efeito vidro nos temas claro e escuro: o fundo ganhou luzes suaves paradas e as caixas, listas, cartões, janelas e o cabeçalho ficaram translúcidos com desfoque."
   ],
   "historico": [
+    {
+      "versao": "9.33",
+      "data": "2026-10-29",
+      "notas": [
+        "Proposta em PDF · segure Ctrl e clique nos orçamentos para selecionar (no celular, toque e segure; Shift + clique marca o intervalo). Com orçamentos selecionados aparece a barra para Selecionar todos, Cancelar ou Excluir (com confirmação). Delete exclui e Esc cancela.",
+        "Visual · efeito vidro nos temas claro e escuro: o fundo ganhou luzes suaves paradas e as caixas, listas, cartões, janelas e o cabeçalho ficaram translúcidos com desfoque."
+      ]
+    },
     {
       "versao": "9.32",
       "data": "2026-10-28",
@@ -109,20 +118,12 @@
       "notas": [
         "Visual · trocar de setor na tela inicial agora é animado: as ferramentas que continuam deslizam do lugar antigo para o novo, as que saem se recolhem para o lado de onde você veio e as que chegam entram pelo lado para onde você foi. O destaque laranja escorrega da aba antiga até a nova, e isso vale para as abas de todas as telas (orçamentos, expedição, quadro...)."
       ]
-    },
-    {
-      "versao": "9.18",
-      "data": "2026-10-22",
-      "notas": [
-        "Pasta de dados mais rápida · os rascunhos do Limpar agora ficam em duas partes, como os orçamentos: a lista leva poucos bytes e os arquivos dos desenhos só são lidos quando você abre o rascunho (no teste da pasta da fábrica, 2 rascunhos pesavam 13,7 MB e levavam 3,5 s para ler; agora são poucos KB). A troca acontece sozinha na primeira abertura.",
-        "Pasta de dados · quando muitos orçamentos (ou outros registros) mudaram desde o último resumo, o DXCORE grava um resumo novo; assim a próxima abertura lê só ele em vez de buscar registro por registro."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4203355,
-  "sha256": "14e31a9b13f6d9de9208780759db6bde0a25e0a292810ba9ceb1ae733b5ad1d3",
-  "assinatura": "DKuyu0iYEUGzWkzHrcTrB0lUBl8cGPMp0oXqjCYkpd8p+Y6r9sgfueO3jvkxBp5w3H3/6t9gjpw+zcx3qSW0ngep6GE8Bo4AjfJJTyrpsPkDnm5/T58l3VcdxTL/KQGb4en3Qab/YCLjKbTOUkpm7jzDdzYcPoxlyXuL9l/4urzSJ9C8C4E9MoAVdpfrodzSmLCR3nOwssirfdblzgWcoRSAi9zaeY7wV4c5HN22ucjCtznDtugmYUBRsSfJ3Sq9ELmLxFQP1mVewgZT1VHGMVGbSSomLvd3b3beA2kSV5LmAv/3+pqvTC6J0QnW4NzBHakP1j3jH775WCT59YkNOA==",
+  "tamanho": 4222071,
+  "sha256": "a4c44de6df2fb1127ad0cc0ef333a489660e5dfae7f2135477e4640427bb0696",
+  "assinatura": "RiIf5lCYTiBsB4D0PyOAx4YX7V6Zwn6HtG+MA2UyXiyorFqiKIu4bE4sB0Xx/8+hMynufzvTGq/W0mK+j/xoIhu4fa83CgYKE3hn9GJt/EmOFB0OyoF4Pnfnz/0ZViZRAaBqKmIEPUPqE/gV0F9qgAIjO4RPLte4Q8x0FGM2NuDbAEunU6+HYYKmj/XV1eZcZ8GBwuP6+xaxXeZkKU6ixmkDIvnjNjEZumqGuBrMuM4zXXxIg5lIkQe2wk1TaDGgdQSxhy+Z5axOO0T7c7GcIzBAsBAXKQs44fSDtmB231M13LVM3uJcuk9AyiKcbhZIkxRvTXgtpkH7ZPO1lPGNTg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -145,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "SySchdpgDrnkjQmPNjOkt7Ihn2/U+6lJfL27GNjqjNrhdee6P0T2sbQsy+k8dp0hef0E7j5Rq4A2aYJiZDet9m1ZGZV+VU4x25pIQ4ByW5dR60dm5LnrEh6mjVVkOBvI+K7tfhBbx60/6KMdcipMpB9L9MrDCej/RgqpH1222EI37LBylXbqgfPT6un/4qjERpqbdwW4PIvgKUfyje6fhiTw2wDlFcIdgI04RXi4W7SdKxLVXJW5FtjRyXkrEhdfgKAfKnFz50i9VAkDLu4ZJJPKD1BcnswYSCaOeosLTaPCyshtJGLiA0oNLxWhQlJ5C2kR6RyCEXvRsyM+NiFxxg=="
+  "assinatura_extras": "c2MXV0dnXv+4znnKPEMjGSzVjxknPYUPvPPNYL+Yu+Z6kavhcSWX0v6I3sxCTHj6IDZSKJ9bGODIbzxrHiYQdnHx1kk+Xol7wmU8wB+t6NXw0TMpsBWRR4Y6H78vkhgbtvoqHToK87CPQmfN+AedfoSx7hfZwv3pnGpC1LYjt60JMw51UmOvs8fArRtZZuoUTNGGa/972fN6/WI0PXfcMPPdlLdcfgLRoWYVe5aCILD7OxqoozTrjD5XZ5l5VKvhJJLfFdAeDqvu5+dCMCbOxTUinE4wNZ8bPlf0Y09C3vTIvG1r8hjOOJ80/Up82bbp+Cq4xnKHo9DEtMPYK0ivRw=="
 }
