@@ -1,11 +1,17 @@
 {
-  "versao": "9.33",
+  "versao": "9.34",
   "data": "2026-10-29",
   "notas": [
-    "Proposta em PDF · segure Ctrl e clique nos orçamentos para selecionar (no celular, toque e segure; Shift + clique marca o intervalo). Com orçamentos selecionados aparece a barra para Selecionar todos, Cancelar ou Excluir (com confirmação). Delete exclui e Esc cancela.",
-    "Visual · efeito vidro nos temas claro e escuro: o fundo ganhou luzes suaves paradas e as caixas, listas, cartões, janelas e o cabeçalho ficaram translúcidos com desfoque."
+    "Visual · vidro estilo Apple, sem cor: fundo neutro com luz branca suave e as caixas, cartões, listas, janelas e o cabeçalho bem transparentes, desfocando o que está atrás, com brilho fino na borda. Vale nos temas claro e escuro, desde a tela de entrada dos setores. A luz laranja do fundo saiu."
   ],
   "historico": [
+    {
+      "versao": "9.34",
+      "data": "2026-10-29",
+      "notas": [
+        "Visual · vidro estilo Apple, sem cor: fundo neutro com luz branca suave e as caixas, cartões, listas, janelas e o cabeçalho bem transparentes, desfocando o que está atrás, com brilho fino na borda. Vale nos temas claro e escuro, desde a tela de entrada dos setores. A luz laranja do fundo saiu."
+      ]
+    },
     {
       "versao": "9.33",
       "data": "2026-10-29",
@@ -111,19 +117,12 @@
       "notas": [
         "Orçamento de tubo · o material agora é sempre cobrado pela barra inteira: o DXCORE encaixa as peças de cada tubo nas barras (de 6 m, ou o que estiver em Parâmetros) e cobra todas as barras que o pedido gasta, não só os metros das peças. A sobra é dividida entre as peças daquele tubo, e o orçamento mostra quantas barras foram cobradas e quanto foi de sobra."
       ]
-    },
-    {
-      "versao": "9.19",
-      "data": "2026-10-22",
-      "notas": [
-        "Visual · trocar de setor na tela inicial agora é animado: as ferramentas que continuam deslizam do lugar antigo para o novo, as que saem se recolhem para o lado de onde você veio e as que chegam entram pelo lado para onde você foi. O destaque laranja escorrega da aba antiga até a nova, e isso vale para as abas de todas as telas (orçamentos, expedição, quadro...)."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4222071,
-  "sha256": "a4c44de6df2fb1127ad0cc0ef333a489660e5dfae7f2135477e4640427bb0696",
-  "assinatura": "RiIf5lCYTiBsB4D0PyOAx4YX7V6Zwn6HtG+MA2UyXiyorFqiKIu4bE4sB0Xx/8+hMynufzvTGq/W0mK+j/xoIhu4fa83CgYKE3hn9GJt/EmOFB0OyoF4Pnfnz/0ZViZRAaBqKmIEPUPqE/gV0F9qgAIjO4RPLte4Q8x0FGM2NuDbAEunU6+HYYKmj/XV1eZcZ8GBwuP6+xaxXeZkKU6ixmkDIvnjNjEZumqGuBrMuM4zXXxIg5lIkQe2wk1TaDGgdQSxhy+Z5axOO0T7c7GcIzBAsBAXKQs44fSDtmB231M13LVM3uJcuk9AyiKcbhZIkxRvTXgtpkH7ZPO1lPGNTg==",
+  "tamanho": 4236376,
+  "sha256": "0542432b7c3aed754ad2841c393eaf8a6f5d0fe8f808dfd3d458ec2981c5426e",
+  "assinatura": "DeY//uunGULISfXowbOjFc83VjG88BXU73hSUrcyNb20sAc4znoepeLI6WP4gniJbe33tYQprRrKtN/E8wfboN3oIdw6WEDtIgBEv9S+1PEiy+9NCSkNfdme6hfF8PU5fi9butiLVBMwuOoqirIZhBxkzszKGSYrlcKxoKKWoRCzQCfuYxdD6fyVfTpsC9e4KLvncSEwknkqJQgkxYCxKoMjoGe0MgC2yEyyL97NMbpugcFLn3aYHi/f7AR1HZWzqAlvA4jwUBlyZXVDMVuWsd6zQEQJZ9hWBzWNaGzkjlqO00rFv5wDzyaqha+nkHnHQcWytHiBYrpW8xh0Fc0cvQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +145,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "c2MXV0dnXv+4znnKPEMjGSzVjxknPYUPvPPNYL+Yu+Z6kavhcSWX0v6I3sxCTHj6IDZSKJ9bGODIbzxrHiYQdnHx1kk+Xol7wmU8wB+t6NXw0TMpsBWRR4Y6H78vkhgbtvoqHToK87CPQmfN+AedfoSx7hfZwv3pnGpC1LYjt60JMw51UmOvs8fArRtZZuoUTNGGa/972fN6/WI0PXfcMPPdlLdcfgLRoWYVe5aCILD7OxqoozTrjD5XZ5l5VKvhJJLfFdAeDqvu5+dCMCbOxTUinE4wNZ8bPlf0Y09C3vTIvG1r8hjOOJ80/Up82bbp+Cq4xnKHo9DEtMPYK0ivRw=="
+  "assinatura_extras": "cU1hMxPRybEEAwOX5LJ9OvW5vhQZlqMxiflq5HiUSCeRX+i4DfvJQMSoRQAcaGb3TRHTEd0KggWitOkkKRrS/pfdpkHoqWbX1aO/ZQhj46lD39e4+LWjWZLzkC9Re4jgqZ1EmWBXIWmo2ADCT458f6EzjPcEwN0uV7wexTlzzvyipgCVtImKm2fnH9cko248pa2OZC2VUGet2IPsxAWBVDUQG16wOHEih8lC8CnFiCRUZv55qPeAYNcIYZAWKl7fYEfEq03wO/ujYbJAzSZ0JKoili+x+bE2sKi6x0+ITkNcT33yzMMjywgNuY1iuEhb/6zmjQsDQkKQXbQMBg+UCA=="
 }
