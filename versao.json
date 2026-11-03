@@ -1,10 +1,17 @@
 {
-  "versao": "9.37",
+  "versao": "9.38",
   "data": "2026-11-03",
   "notas": [
-    "Limpar · PDF de projeto (planta baixa, vistas do móvel, legenda de acabamentos, como os de arquitetura do ArchiCAD) agora é reconhecido e recusado com explicação, em vez de virar peça. Antes o Limpar tirava \"peças\" da legenda e das etiquetas. Para esses casos: peça ao cliente o DXF/DWG das peças ou o STEP, ou desenvolva as chapas no Gerador."
+    "Limpar · mudar a Mesa do laser em Parâmetros e preços agora vale na hora para as peças que já estavam abertas no Limpar. Antes o aviso \"peça maior que a chapa da laser\" continuava com o tamanho antigo até reabrir o arquivo."
   ],
   "historico": [
+    {
+      "versao": "9.38",
+      "data": "2026-11-03",
+      "notas": [
+        "Limpar · mudar a Mesa do laser em Parâmetros e preços agora vale na hora para as peças que já estavam abertas no Limpar. Antes o aviso \"peça maior que a chapa da laser\" continuava com o tamanho antigo até reabrir o arquivo."
+      ]
+    },
     {
       "versao": "9.37",
       "data": "2026-11-03",
@@ -112,19 +119,12 @@
         "Segurança · chave própria do programa e chave própria dos backups. O backup automático diário passa a ser protegido. Os backups antigos continuam abrindo normalmente.",
         "Leitor de DWG · agora vem do próprio canal do DXCORE e só roda se a impressão digital conferir; não depende mais de serviço de terceiros."
       ]
-    },
-    {
-      "versao": "9.23",
-      "data": "2026-10-26",
-      "notas": [
-        "Marca · o DXCORE passa a ser identificado como software independente, desenvolvido por Jadson Eliel Rampão Silva. Saiu o \"by GUIMETAL\" dos títulos, telas, Manual, licença e arquivos do instalador; os dados da empresa usuária (nome, contato, endereço) continuam saindo iguais nas propostas, OS, etiquetas e mensagens. O atalho novo se chama \"DXCORE\" (o antigo continua funcionando). Senhas, dados e backups não mudam."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4242176,
-  "sha256": "9c406b26fd19b5c2f57f2f90e86f336d623600d48ffe7a0ea317c3c95246743a",
-  "assinatura": "a7KIZy+jwwFseNQJtj+Xi0eAemOgrCcpukzH+8bePnWBa3ZFraqIcmlFw0Kh1nOhA/DUnZdZwEwRfE9dIJJlu5O1BH04ZZTUtUG8slv+6gwmXlnK+nR0WDw11uGAWJcwsHhnmWdvcS54n6TtCgzC0FoVVApMC4VKT3u3ZzGtAd38HSZV1rgm/Og0S2H0kBxYD0zYiDmjn9ap99t/fVAU3ywdStUTQwZFSThyS11lNe6EmXRkxujBARb/zkqvV2Kh7rVoVd3BQHqQW6FOQ3JyoAFk9cP6VjXjGjYdLSvwK767/G1yfdU3SptpO0UzSGlqP+JA3v8U+ypd/obhx5iwpg==",
+  "tamanho": 4242668,
+  "sha256": "e49f503ee6696fbb458f24a908ac2418f6462e7dc8c0ba2f74608a63a7f00416",
+  "assinatura": "T6JlcpIeJ5OYzq8vxdbN2jlwG9kjYh5mWyoh+/oIrNiVMaZI+wDrYc2rJkYhtB3Lv6yySbvhxPlpeB3h1Z9Hk7vsN/rIiGirFAmcsYQAh80dmPU1fCrerhncIQ77XYbHJJkWka3IES3nxFVQjRFPEHsoIluWQ4LDEYK/V3e25APo9WV4vUUIVfcEr/45hOIpnLDZ4n3PAyvVxNNspwytlREZGSZlS0PVX82vOc6mhRUmqbQVcFiPYq2IdemwH/rGEtWZoKhEouNSGlzIXFFVj0E+c7Ix+T+GLyrE//1Gce20gy6PZ70sfNNMMsYgDxdLGzbuKj3tZCuwRej313KwYQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "b0IN+SiR8o7jvqKtDCpS2Gj+sUblEWB65W8nm8887y5hRi/RXYMkfidDTcjsIuf3DU2IWilSL5XEIhhyjGpU5Np9HlAykwBT3P30v2mgYmG5sIj6LRiMnKIIWtCJVjNFpx0sS6Z1jjqT5aztv34sGKHpTfYJCPGhZaZ0q2XZJDpzUHKemwtAioma8MyCD1EEE6DZUka1XBYgRDT/n0QYFcDuCe0H+Tbg7P4suW1tfDx0BlghS84zExQZoIT+HEQr2OTjJgztjvfXWh8ubQWZAZ8aGHiEAGCnPb7k6nHSGCbCKAgRqONCpa06GR8xmumO6HG3iTiLEglszH4lb0kOXg=="
+  "assinatura_extras": "fxh6imBtmiJNMKh8ZdMRZwSF7ZXkf/mkyqhrJEna21/qH+TejbonDdcU9Aw1wXLUuEln9DXoQ2VSLipKu8At494eZVV8kKfxBJiQsx+J70IT86e1a9gUEy4WogwV7l86RJK1hRHMoU3Q2hQ+vlTOEHNlWAZg2D3YRmLrBSox//93nMZzsMWNVIj6tVQKdvoQjMg//cjsFxKEcP5rCGNWuLiF+WEJNd3Yylw2kRV4yzF0aJIhDArQRbxRsJSQa3O83f2+NoSLWZTvrkO+luUz7ucdkMZlNeG5TxpwHJGJe5+x7QmcL0XSf91abv19eD+o6QJsTXZk35dV/KmVC/omnA=="
 }
