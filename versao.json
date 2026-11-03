@@ -1,11 +1,19 @@
 {
-  "versao": "9.40",
+  "versao": "9.41",
   "data": "2026-11-03",
   "notas": [
-    "Limpar · Dividir para caber na mesa agora leva as linhas de dobra: cada parte sai com o trecho da dobra dela (camada DOBRA).",
-    "Limpar · dobra desenhada com uma linha só (no centro da dobra) passa a aparecer no aviso. Antes só contava a dobra desenhada com as duas linhas da faixa."
+    "Parâmetros e preços · novo campo Margem da chapa (padrão 10 mm em cada lado), que antes era fixo.",
+    "Limpar e Dividir para caber na mesa passam a usar a mesma área útil da Calculadora (mesa menos a margem). Antes o Limpar aceitava a peça na chapa cheia e a Calculadora recusava. Quando é a largura que não cabe, o aviso explica que dividir não resolve."
   ],
   "historico": [
+    {
+      "versao": "9.41",
+      "data": "2026-11-03",
+      "notas": [
+        "Parâmetros e preços · novo campo Margem da chapa (padrão 10 mm em cada lado), que antes era fixo.",
+        "Limpar e Dividir para caber na mesa passam a usar a mesma área útil da Calculadora (mesa menos a margem). Antes o Limpar aceitava a peça na chapa cheia e a Calculadora recusava. Quando é a largura que não cabe, o aviso explica que dividir não resolve."
+      ]
+    },
     {
       "versao": "9.40",
       "data": "2026-11-03",
@@ -111,20 +119,12 @@
       "notas": [
         "Proposta e OS · figura das peças: chapa sempre em 2D (o desenho da peça) e tubo sempre em 3D."
       ]
-    },
-    {
-      "versao": "9.26",
-      "data": "2026-10-27",
-      "notas": [
-        "Licença · o DXCORE passa a ter planos (Básico, Profissional e Full), licença mensal ou vitalícia e limite de computadores por plano. A GUIMETAL tem licença vitalícia no plano Full: nada muda no uso.",
-        "Organização interna · cada empresa usuária tem a sua configuração, as suas chaves e a sua licença."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4259696,
-  "sha256": "17b0104d465ae6e5358b85fe7fec4329f4abf28f0f207bba6b9ed84c6c647eaa",
-  "assinatura": "WSKKBA3abLoB7z8wKm7YvMOTdwEYuDhIE/58ROAb1sB4TNqiMcnCVXAW4ApyGiGYCz90LAwNYozMk5Q5062hFqBzE4Eu2GDbuJcVHxv/PKtyW2CGHSn4C25mV5MetICGKyAYroNTcRgS2TAZAGxtOHtvlBAuMfvy5b9DMcjBv4Wpq/ylMGmUgMVpx+vUL4hRTpcKJqOU+m4/n6Fv/lTOy56pisnux9ju5HVsIu9goPLO7HM4y4Quh32iwR+fzMH3X6VlnuHxbEzZG+Lom/sUkf1NwuuYqPtLPKozTA0d14um97tPz3ER6Wx62ANkaB7397Xcs6YXZ6O8MnzbII79Qw==",
+  "tamanho": 4261284,
+  "sha256": "feb9ed097367612e2ce9c5750272d34c4c909dc3631d9b989305894e09e867ac",
+  "assinatura": "bbwrxXBLOoKSR7/jh4P1OraG19nnoFJwNmnLgafnmw6njy1Q5j9+hIrKpP9O4UeuZFdwsw+MJHpKYFdgJjdDJKp0eRNOAVc9ESH/G+32JeS6ShCTzJYVWdAQH1jqiBpX6uw1q/b6s6v4e09vvyzXuN4Fhrxwxp/co7bfogJwivYb1EZVcQm8fNLugBTtXSjylmB2YOUIPDjhMsdtn7j+PbJ4POYRN5Wt4TZj22XLZl9m6th0kc5qtkzDfY9qPOiJhp4sHAfUdoBRCJSmRlfd6eT3AgEgaCeFLglUJRW1tlmvNElUA1VkPq5qSC1ZlmEB5lWjPhqnmKJIVY0T+fKqHA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "WuG2m5R/H+y+Qmz5Q1C6EAp+ZH3SGXUUJcrzgfPuall0oGhwBp0kzzRd9TMtVoUiRn9dG+zhjleGsUSKNqc9DCzmP3zfv5yziMwxWO7NYzjKsDJR/dZSJcRIgyGnYKcPi5Szeh5d9cGs1a2F+hspmCKpOz5HL/2MlQNdhaC5TudgmefItZ3qkEVBZ4RWgx+sOVhoV6nXSgpf5MsZmrzyG8KGqavb6Mwv9r4AJy7112PaRCxv7ggwhWLGxcVTw3C+J6vpBDbj7MbwDV/fMXizvmImDxKgP8yvkqYG4YoOwE1e3mpBDN+YIsn8L1hXVgLrJhfpQ/z9BKqOZ5PJEWDX+g=="
+  "assinatura_extras": "CaphFP5cBCpQODRjg9PXq6sV/9tE7gKZXDUqPLCdBiAobN/Tquhq+MVp3N1TfICiZ5R8/iwmcy/5xYCvalHMvq9v1zlQ0ohf2gBBp4K3+FturlAl8t3nPgFlcdp//y04B6D+U15mMoqAGcYpZzUB4ma3/kCDHG4G2qYrfVsY68Q5a1yBHdpDTFonM25tjTS+YIJv/NRS+0EYDM96MGAaVFnShvFvzHqBDSQCfF7L7iLRy1e5yIKQWwW+mPyGInhkD5caw7LOCtmQYY91EV8KpA1uZOoLNqfvkPjb2guM11X85+L3ydkr4kbq/UlPG2wSXQ8zJ6TAEDCeDcUmWz4s0Q=="
 }
