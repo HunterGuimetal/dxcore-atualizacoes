@@ -1,10 +1,19 @@
 {
-  "versao": "9.39",
+  "versao": "9.40",
   "data": "2026-11-03",
   "notas": [
-    "Limpar · peça maior que a mesa do laser: novo botão Dividir para caber na mesa. O DXCORE divide a peça em partes para soldar depois e escolhe sozinho onde cortar pelo reaproveitamento: a sobra maior numa chapa só (retalho bom), de preferência sobre uma linha de marcação (a solda cai na caverna) e sem passar por furo. Mostra as partes, a solda da emenda, as chapas e a sobra de cada uma; as partes entram na lista com o material, a espessura e a quantidade da peça inteira."
+    "Limpar · Dividir para caber na mesa agora leva as linhas de dobra: cada parte sai com o trecho da dobra dela (camada DOBRA).",
+    "Limpar · dobra desenhada com uma linha só (no centro da dobra) passa a aparecer no aviso. Antes só contava a dobra desenhada com as duas linhas da faixa."
   ],
   "historico": [
+    {
+      "versao": "9.40",
+      "data": "2026-11-03",
+      "notas": [
+        "Limpar · Dividir para caber na mesa agora leva as linhas de dobra: cada parte sai com o trecho da dobra dela (camada DOBRA).",
+        "Limpar · dobra desenhada com uma linha só (no centro da dobra) passa a aparecer no aviso. Antes só contava a dobra desenhada com as duas linhas da faixa."
+      ]
+    },
     {
       "versao": "9.39",
       "data": "2026-11-03",
@@ -110,19 +119,12 @@
         "Licença · o DXCORE passa a ter planos (Básico, Profissional e Full), licença mensal ou vitalícia e limite de computadores por plano. A GUIMETAL tem licença vitalícia no plano Full: nada muda no uso.",
         "Organização interna · cada empresa usuária tem a sua configuração, as suas chaves e a sua licença."
       ]
-    },
-    {
-      "versao": "9.25",
-      "data": "2026-10-27",
-      "notas": [
-        "Orçamento · nova opção Material do cliente em cada peça (chapa ou tubo): o material daquela peça não é cobrado, as chapas do cliente são encaixadas à parte e não saem do estoque. A proposta mostra \"(do cliente)\" na peça e a OS avisa quais peças usam o material do cliente. A opção do orçamento todo continua igual."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4257236,
-  "sha256": "a93c524aca45c47c4dec15f08b7a922c4aa22ebbe2d93ff19643065edc9af0df",
-  "assinatura": "THGRoPx4x9vZ5HM1vYCG/XwalLixNPH7V3Orp0nl4gMQzrmd289IIhGaNiJ/iCFoREkOfaiavBCgtnDtlN6XzHg6eWvzU1U5qPqtcwsg352TLi4OxHr0X2OkixDDZviTKazV5uQSU3sriVWHMKUFqGJwMoKaISkUOVo2V/gyxGK0PHcAKQZy1VcYrEvQXBU996Ij9M02NI4DHsaQu6L1RRdHnTCwGDjPkre+LnKaHcQnR7dAV9FvtNlzemolMCC9T+OU36urkUv81v4RcOarduppJcLorBASehEZO289GE4f9TkH7nHaTxNPDgZIsiPiZ3dI+CWqEJYEHA2E8cUbfg==",
+  "tamanho": 4259696,
+  "sha256": "17b0104d465ae6e5358b85fe7fec4329f4abf28f0f207bba6b9ed84c6c647eaa",
+  "assinatura": "WSKKBA3abLoB7z8wKm7YvMOTdwEYuDhIE/58ROAb1sB4TNqiMcnCVXAW4ApyGiGYCz90LAwNYozMk5Q5062hFqBzE4Eu2GDbuJcVHxv/PKtyW2CGHSn4C25mV5MetICGKyAYroNTcRgS2TAZAGxtOHtvlBAuMfvy5b9DMcjBv4Wpq/ylMGmUgMVpx+vUL4hRTpcKJqOU+m4/n6Fv/lTOy56pisnux9ju5HVsIu9goPLO7HM4y4Quh32iwR+fzMH3X6VlnuHxbEzZG+Lom/sUkf1NwuuYqPtLPKozTA0d14um97tPz3ER6Wx62ANkaB7397Xcs6YXZ6O8MnzbII79Qw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -145,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "I0LISPG8K4NkFlX/trURNgdfV0TM96zM5/qt9Xfv5c7lKVyC6SbvfnFSYM3wfeq9nU+gsfXHBbsxN86PjXpqQibC4MTQ3n7WEmlxZdwZSrHJTjIG+xsaqrVRyaRIfO0D6lYbzSRVnTVRSYXZXF/3tWNX8wpc8NWlB+89VuguiHfM2Yj8wyrQnx7NNbiWFB6dVf6gOTMnhhamZQyjuRjP19dq7wSgkR0zOp4hpr5HxAV88HZkx2n9LqQGVzugn2YGfnR2BDcro6IyCz2ZJwZBc6u4kXDtH09KIiIxfbTT6+mTgw76B6cPy5C2EMrRhVeuU4aMc78oCab3lpvhAHJhHg=="
+  "assinatura_extras": "WuG2m5R/H+y+Qmz5Q1C6EAp+ZH3SGXUUJcrzgfPuall0oGhwBp0kzzRd9TMtVoUiRn9dG+zhjleGsUSKNqc9DCzmP3zfv5yziMwxWO7NYzjKsDJR/dZSJcRIgyGnYKcPi5Szeh5d9cGs1a2F+hspmCKpOz5HL/2MlQNdhaC5TudgmefItZ3qkEVBZ4RWgx+sOVhoV6nXSgpf5MsZmrzyG8KGqavb6Mwv9r4AJy7112PaRCxv7ggwhWLGxcVTw3C+J6vpBDbj7MbwDV/fMXizvmImDxKgP8yvkqYG4YoOwE1e3mpBDN+YIsn8L1hXVgLrJhfpQ/z9BKqOZ5PJEWDX+g=="
 }
