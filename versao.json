@@ -1,10 +1,17 @@
 {
-  "versao": "9.36",
+  "versao": "9.37",
   "data": "2026-11-03",
   "notas": [
-    "Tubos e tubo do Gerador · Orçar tubo e Orçar o conjunto também ficam só no perfil Gerência."
+    "Limpar · PDF de projeto (planta baixa, vistas do móvel, legenda de acabamentos, como os de arquitetura do ArchiCAD) agora é reconhecido e recusado com explicação, em vez de virar peça. Antes o Limpar tirava \"peças\" da legenda e das etiquetas. Para esses casos: peça ao cliente o DXF/DWG das peças ou o STEP, ou desenvolva as chapas no Gerador."
   ],
   "historico": [
+    {
+      "versao": "9.37",
+      "data": "2026-11-03",
+      "notas": [
+        "Limpar · PDF de projeto (planta baixa, vistas do móvel, legenda de acabamentos, como os de arquitetura do ArchiCAD) agora é reconhecido e recusado com explicação, em vez de virar peça. Antes o Limpar tirava \"peças\" da legenda e das etiquetas. Para esses casos: peça ao cliente o DXF/DWG das peças ou o STEP, ou desenvolva as chapas no Gerador."
+      ]
+    },
     {
       "versao": "9.36",
       "data": "2026-11-03",
@@ -112,19 +119,12 @@
       "notas": [
         "Marca · o DXCORE passa a ser identificado como software independente, desenvolvido por Jadson Eliel Rampão Silva. Saiu o \"by GUIMETAL\" dos títulos, telas, Manual, licença e arquivos do instalador; os dados da empresa usuária (nome, contato, endereço) continuam saindo iguais nas propostas, OS, etiquetas e mensagens. O atalho novo se chama \"DXCORE\" (o antigo continua funcionando). Senhas, dados e backups não mudam."
       ]
-    },
-    {
-      "versao": "9.22",
-      "data": "2026-10-23",
-      "notas": [
-        "Orçamento · nova opção Cobrar a chapa inteira (em Material): cobra todas as chapas usadas inteiras, sem descontar os retalhos que sobram. Sem marcar, continua como antes: só a chapa com mais de 80% de uso é cobrada inteira; nas outras, o retalho que vale guardar fica fora do preço. Fica salva no orçamento."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4239696,
-  "sha256": "50c7fcc6bf641812863bf06b7d54dcfec69092869950438df064fd5b0d00da85",
-  "assinatura": "hIHctgp8RqKFMt9nRpNRSMCiPbXqIaCqJzcHxuk/wTDGvBInFo+LT/Po1SjAbYVPaTCT+zCm2ixP+elKHVplMXHp0DSaqdqdNZeU+8ck8FXdOXLS+/PqVDuH4OS/piPCAcDSdAoyM3a9GlyybD6ii1V0Q5X2E5lHLeAdyK+Z7+cmDfPnAPim736EkfxjvI244Z8DuRtqmlVX7tDlYlOG50kdzH+thwIuBf3hZ2jbqH2jrOBbpocBKyvvJNIBQFw4fiy4JRdREaqOCdLXXhdMpUMhRSk+NsT+MHEB0pEm6q8H0Dc4rcXSJib3bijO41hNPVyKABluAD0ychS78e0AOg==",
+  "tamanho": 4242176,
+  "sha256": "9c406b26fd19b5c2f57f2f90e86f336d623600d48ffe7a0ea317c3c95246743a",
+  "assinatura": "a7KIZy+jwwFseNQJtj+Xi0eAemOgrCcpukzH+8bePnWBa3ZFraqIcmlFw0Kh1nOhA/DUnZdZwEwRfE9dIJJlu5O1BH04ZZTUtUG8slv+6gwmXlnK+nR0WDw11uGAWJcwsHhnmWdvcS54n6TtCgzC0FoVVApMC4VKT3u3ZzGtAd38HSZV1rgm/Og0S2H0kBxYD0zYiDmjn9ap99t/fVAU3ywdStUTQwZFSThyS11lNe6EmXRkxujBARb/zkqvV2Kh7rVoVd3BQHqQW6FOQ3JyoAFk9cP6VjXjGjYdLSvwK767/G1yfdU3SptpO0UzSGlqP+JA3v8U+ypd/obhx5iwpg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "deXJcIYi+1t4I0K+0vBxe/OvDQNi2c9+Ct24BvqGaDLxAZdl3Juv24Bdh7+/h/OVsaLYyy65t6IBtVcLNy9TVGeSeZfYDzc8uScXus6dobilWi6cHpX1ZAsMuIfU/tiZ1WKX8+xh+Rz4zUM9NfUgyJjokz3JO1vzmkbxe0LgZULT75z47oCGDHa/91V6nOmRYgreydzZ4M+hvD/05vX5MRZnppeJLBi0pnDiIHpfbbWyAwNkpenSUDizVuIqBb4SzxQGU6OKCtcxkYWv9bsw64GpYGqxRCVYr8Gn2JfOjHr7BQvA/nG71L+A9N5Y6G4FR5xhR1bJxql9fyFRMfDNdw=="
+  "assinatura_extras": "b0IN+SiR8o7jvqKtDCpS2Gj+sUblEWB65W8nm8887y5hRi/RXYMkfidDTcjsIuf3DU2IWilSL5XEIhhyjGpU5Np9HlAykwBT3P30v2mgYmG5sIj6LRiMnKIIWtCJVjNFpx0sS6Z1jjqT5aztv34sGKHpTfYJCPGhZaZ0q2XZJDpzUHKemwtAioma8MyCD1EEE6DZUka1XBYgRDT/n0QYFcDuCe0H+Tbg7P4suW1tfDx0BlghS84zExQZoIT+HEQr2OTjJgztjvfXWh8ubQWZAZ8aGHiEAGCnPb7k6nHSGCbCKAgRqONCpa06GR8xmumO6HG3iTiLEglszH4lb0kOXg=="
 }
