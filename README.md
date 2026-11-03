@@ -1,10 +1,10 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.42** (2026-11-03)
+Versão atual: **9.43** (2026-11-03)
 
-- Encaixe · orçamento com mais de um tipo de peça recortada: cada tipo vai na sua grade encaixada (a ponta de uma peça entra no vão da vizinha, em fileiras, como no CypCut), um bloco depois do outro. Antes ia para o encaixe livre e as peças ficavam espalhadas e misturadas. Ex.: 1500 + 1500 peças em I de 60 × 23 mm cabem em 1 chapa de 3000 × 1250 (antes, 2).
-- Encaixe · com a mesma quantidade de chapas, a grade organizada tem preferência sobre o encaixe livre.
-- Encaixe · montar a grade ficou mais de 2 vezes mais rápido.
+- Encaixe · pedido grande (mais de 3.000 peças) com peça recortada agora é encaixado com a quantidade inteira, sem dividir em blocos repetidos. Antes podia sobrar chapa: ex. 6.000 peças em chapa de 2500 × 1250 davam 4 chapas; agora 3.
+- Encaixe · com vários tipos de peça, o DXCORE testa a ordem dos blocos e fica com a que gasta menos chapa e deixa a última mais vazia.
+- Encaixe · chapa de fechamento: quando as peças da última chapa cabem num tamanho menor (3000 × 1250, 2500 × 1250, 2000 × 1000...), o orçamento avisa qual tamanho usar só na última e quanto de chapa economiza.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

@@ -1,12 +1,21 @@
 {
-  "versao": "9.42",
+  "versao": "9.43",
   "data": "2026-11-03",
   "notas": [
-    "Encaixe · orçamento com mais de um tipo de peça recortada: cada tipo vai na sua grade encaixada (a ponta de uma peça entra no vão da vizinha, em fileiras, como no CypCut), um bloco depois do outro. Antes ia para o encaixe livre e as peças ficavam espalhadas e misturadas. Ex.: 1500 + 1500 peças em I de 60 × 23 mm cabem em 1 chapa de 3000 × 1250 (antes, 2).",
-    "Encaixe · com a mesma quantidade de chapas, a grade organizada tem preferência sobre o encaixe livre.",
-    "Encaixe · montar a grade ficou mais de 2 vezes mais rápido."
+    "Encaixe · pedido grande (mais de 3.000 peças) com peça recortada agora é encaixado com a quantidade inteira, sem dividir em blocos repetidos. Antes podia sobrar chapa: ex. 6.000 peças em chapa de 2500 × 1250 davam 4 chapas; agora 3.",
+    "Encaixe · com vários tipos de peça, o DXCORE testa a ordem dos blocos e fica com a que gasta menos chapa e deixa a última mais vazia.",
+    "Encaixe · chapa de fechamento: quando as peças da última chapa cabem num tamanho menor (3000 × 1250, 2500 × 1250, 2000 × 1000...), o orçamento avisa qual tamanho usar só na última e quanto de chapa economiza."
   ],
   "historico": [
+    {
+      "versao": "9.43",
+      "data": "2026-11-03",
+      "notas": [
+        "Encaixe · pedido grande (mais de 3.000 peças) com peça recortada agora é encaixado com a quantidade inteira, sem dividir em blocos repetidos. Antes podia sobrar chapa: ex. 6.000 peças em chapa de 2500 × 1250 davam 4 chapas; agora 3.",
+        "Encaixe · com vários tipos de peça, o DXCORE testa a ordem dos blocos e fica com a que gasta menos chapa e deixa a última mais vazia.",
+        "Encaixe · chapa de fechamento: quando as peças da última chapa cabem num tamanho menor (3000 × 1250, 2500 × 1250, 2000 × 1000...), o orçamento avisa qual tamanho usar só na última e quanto de chapa economiza."
+      ]
+    },
     {
       "versao": "9.42",
       "data": "2026-11-03",
@@ -115,19 +124,12 @@
         "Velocidade · o DXCORE estava relendo, pela rede, um a um, os registros de alterações de todos os computadores (127 arquivos) a cada tela aberta. Agora apaga os registros antigos que o resumo já cobre e só relê o que mudou. Na primeira abertura ele faz essa faxina; depois cada tela pede até 5 vezes menos à pasta da rede.",
         "Servidor local · passa a informar o tamanho e a data de cada arquivo, para o DXCORE não baixar o que não mudou (vale depois que o computador for reiniciado)."
       ]
-    },
-    {
-      "versao": "9.28",
-      "data": "2026-10-27",
-      "notas": [
-        "Gerador de peças · novo modelo U com abas variáveis (mão francesa): alma reta, abas que crescem de uma ponta à outra e rasgos na alma. Medidas por fora como no desenho; mostra a peça dobrada em 3D e a planificada com as linhas de dobra."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4266032,
-  "sha256": "7a9d4aa0b0f270aeb3401c593c90ed90d03d48a484f6fdf2732c3d6123bae13c",
-  "assinatura": "IfjH4fV+ZQbr3PuO7xK5nucxm/LmrSf9hsJd/YlW/IhLNqrIivSxjMxMEF3jdQAHw1ETfzG1FSrgSEalM5cU/cOoK0YWcmnCBu8J5fFE82nzDGpPlrTIyivxdeP6ZDD+gZGdg5has6x4zs0LMAY/bcCML557MDp8ZhEWhMC0Y5dg1l92xBpJU0P1/wcnFnd/Fsp7Jp/JtIK9AxJq9oHyu/bz8v/DMqWgujly8/1VqURNA/0tYal/I1nOQc9ZKhpf1aku15TpBluM0Yzt1owqewVzX+oC8A9ctoSXW7+1hFYvX/Ute/WTaZI8PvBr2Z6XJH/uVTkcvFvcoRfJ35m6QA==",
+  "tamanho": 4270584,
+  "sha256": "9a9686f6763c373a615e7f18696b740ddb31ea3bd7b29cd8631790795cc0770e",
+  "assinatura": "T/8D/kLTiqox1ofcCOke7Q0xosdwiw9xICxJufP+LjP+1GYy6CYHC8lpiG5uKZzMSK+jXQqwcbq3fgQu3iThvvAz57GYWDfvys76Tt6AhMj9tSpdVome1EaMN1QWD1Pb47obHcbq4D+dLCEynUiSWcXwo8G9qGxRcSjnmc/c9jqyyx+MF+eJwPSArk/cAE1GtfHG5dXZ5QcWPhx1xnSfkXDTO8oTC4YAf8+Jc8qkRRi/dKj87VtcnZlgR0fd8nQLQmGUIIaHWc13AQVcPkKn9vRCmF614o1QnFiWYDRJT9Rw5ke/KBSK6tG0C8JMyat5kwOPA9Kx7DeA+P+fY60R2A==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -150,5 +152,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "LzTVTZy1SmNdTh4Aed+AiICgS5dJla6XiZEoJu35kdgwQlIDg82RNtero+Fcp7xjRaiTiiM7OCypM5RMd0Xfp3bg/GH34/0NUrNksKxPapvgL+qK7U7BTEhJ/fMP9bELtfqo6/fdQLDOz3G33VH5Rh6E7Vuk/E/nqz3NHP/GxQGk6+5okmb94/7VhugJrSn7Al3dGdaRi48TQcUEcFpioOrqHvCUsbpdWyhMKt1vi7DYPngsiVrVmjo4qFB0S8FZl+W9noA6ryNO+I3ubyckvgIUS8yLMOyVo93PCwUNXIrI+VEdLnGjSvG3s3m8nGsoTGrw/1HLVPJ0cpQ9XrdXjA=="
+  "assinatura_extras": "j4OY2LwcGlSdapfXKZstD0E0CD85/yoN9rrzpB8v+xJSSGcOa5RhAbgOf/A2sa0olqMyTI41OZj7Xv77xwYLeQYsWjflwN4OzgqkiKcIaM0K6OXd//YTNlXiWuJhyGrkfgI4OCYEIFMnVEBdkP/VBzgT/FTo/F0SwthavPV+6Bnwtmn997jUB+ajPKW2144z4RRUp5Sv+GuE0nAksjURnGylB74Ff399ftys0JpDuyn1OpvTb4OzPfRT22cSWJF/cpQ9gQaqt8k5wEUNPjVLpoHZsqiPn7Bhuf46pBQQ3QAjd8/NfiqaVW47fJXAmtGbsPQy43OkUEPf+AvL8icSKA=="
 }
