@@ -1,8 +1,10 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.34** (2026-10-29)
+Versão atual: **9.35** (2026-11-03)
 
-- Visual · vidro estilo Apple, sem cor: fundo neutro com luz branca suave e as caixas, cartões, listas, janelas e o cabeçalho bem transparentes, desfocando o que está atrás, com brilho fino na borda. Vale nos temas claro e escuro, desde a tela de entrada dos setores. A luz laranja do fundo saiu.
+- Limpar / Converter · fica sempre no setor Produção.
+- Limpar / Converter · mandar peças para o orçamento (Orçar esta peça, Orçar todas/marcadas) agora é só no perfil Gerência. Os outros perfis limpam, convertem e salvam o DXF normalmente.
+- Limpar / Converter · com 2 ou mais peças marcadas (ou Marcar todas), o botão Salvar DXF salva todas as marcadas de uma vez, não só a peça aberta.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

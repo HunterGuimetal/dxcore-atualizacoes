@@ -1,10 +1,21 @@
 {
-  "versao": "9.34",
-  "data": "2026-10-29",
+  "versao": "9.35",
+  "data": "2026-11-03",
   "notas": [
-    "Visual · vidro estilo Apple, sem cor: fundo neutro com luz branca suave e as caixas, cartões, listas, janelas e o cabeçalho bem transparentes, desfocando o que está atrás, com brilho fino na borda. Vale nos temas claro e escuro, desde a tela de entrada dos setores. A luz laranja do fundo saiu."
+    "Limpar / Converter · fica sempre no setor Produção.",
+    "Limpar / Converter · mandar peças para o orçamento (Orçar esta peça, Orçar todas/marcadas) agora é só no perfil Gerência. Os outros perfis limpam, convertem e salvam o DXF normalmente.",
+    "Limpar / Converter · com 2 ou mais peças marcadas (ou Marcar todas), o botão Salvar DXF salva todas as marcadas de uma vez, não só a peça aberta."
   ],
   "historico": [
+    {
+      "versao": "9.35",
+      "data": "2026-11-03",
+      "notas": [
+        "Limpar / Converter · fica sempre no setor Produção.",
+        "Limpar / Converter · mandar peças para o orçamento (Orçar esta peça, Orçar todas/marcadas) agora é só no perfil Gerência. Os outros perfis limpam, convertem e salvam o DXF normalmente.",
+        "Limpar / Converter · com 2 ou mais peças marcadas (ou Marcar todas), o botão Salvar DXF salva todas as marcadas de uma vez, não só a peça aberta."
+      ]
+    },
     {
       "versao": "9.34",
       "data": "2026-10-29",
@@ -110,19 +121,12 @@
       "notas": [
         "Limpar · contagem de dobras corrigida: duas linhas de dobra paralelas a até 40 mm uma da outra eram tratadas como uma dobra só (como se fossem o começo e o fim da mesma dobra). Uma peça com aba curta e 3 dobras contava 2. Agora só junta linhas bem próximas (poucos mm, conforme a espessura) e quando todas as dobras do desenho são desenhadas assim; nos outros casos, cada linha é uma dobra."
       ]
-    },
-    {
-      "versao": "9.20",
-      "data": "2026-10-22",
-      "notas": [
-        "Orçamento de tubo · o material agora é sempre cobrado pela barra inteira: o DXCORE encaixa as peças de cada tubo nas barras (de 6 m, ou o que estiver em Parâmetros) e cobra todas as barras que o pedido gasta, não só os metros das peças. A sobra é dividida entre as peças daquele tubo, e o orçamento mostra quantas barras foram cobradas e quanto foi de sobra."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4236376,
-  "sha256": "0542432b7c3aed754ad2841c393eaf8a6f5d0fe8f808dfd3d458ec2981c5426e",
-  "assinatura": "DeY//uunGULISfXowbOjFc83VjG88BXU73hSUrcyNb20sAc4znoepeLI6WP4gniJbe33tYQprRrKtN/E8wfboN3oIdw6WEDtIgBEv9S+1PEiy+9NCSkNfdme6hfF8PU5fi9butiLVBMwuOoqirIZhBxkzszKGSYrlcKxoKKWoRCzQCfuYxdD6fyVfTpsC9e4KLvncSEwknkqJQgkxYCxKoMjoGe0MgC2yEyyL97NMbpugcFLn3aYHi/f7AR1HZWzqAlvA4jwUBlyZXVDMVuWsd6zQEQJZ9hWBzWNaGzkjlqO00rFv5wDzyaqha+nkHnHQcWytHiBYrpW8xh0Fc0cvQ==",
+  "tamanho": 4238924,
+  "sha256": "d045a62d03c72abef6dd97beed531dc2932a0c1e0fbc947179577005bd230a0e",
+  "assinatura": "i7W5L7+WIyO/9yrmv3E5ISXtbur/DxFM2Wetu30HvpoLct84nN7FQomJsDotsAzt8mUecs5CeVNITSqo/QZBJLs3xO50XSB6dSS2BQQADydPefQYtYBZSvd26dsQR0fhjy7W5Ds3rSrCxnXO5+khXipIDB+XZgpvvS9dJsvgjjeNeaX6OtZ4nS09/sC6h9N5FPkHdb9WiinFWjr9DGxxGBO6EqqGcYNI8YaW40akYzX8ZcJtc/z+eIK8FNB/Ap7woJm63P5+m4rIVazxoWIVUGmgtkM4d2GzrzN+2SM5P4RcDCSAhtQLehStxzqPu5ZTctTAO3ieeeqUJ+GcvmKXZA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -145,5 +149,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "cU1hMxPRybEEAwOX5LJ9OvW5vhQZlqMxiflq5HiUSCeRX+i4DfvJQMSoRQAcaGb3TRHTEd0KggWitOkkKRrS/pfdpkHoqWbX1aO/ZQhj46lD39e4+LWjWZLzkC9Re4jgqZ1EmWBXIWmo2ADCT458f6EzjPcEwN0uV7wexTlzzvyipgCVtImKm2fnH9cko248pa2OZC2VUGet2IPsxAWBVDUQG16wOHEih8lC8CnFiCRUZv55qPeAYNcIYZAWKl7fYEfEq03wO/ujYbJAzSZ0JKoili+x+bE2sKi6x0+ITkNcT33yzMMjywgNuY1iuEhb/6zmjQsDQkKQXbQMBg+UCA=="
+  "assinatura_extras": "kQddwr/lP79tQc6UzD2t7vjWWyo0Q0ZpBFpCdThN470jOMVz5J+I4PAD+4rhkSisFY/3zvXMHSLHsdwy193jzUpRhcZok12ivgnIos7kNbOk2AjCFipv0WpaipQzmtdGwE6WkKi/f9zsZYssM8obM/qIV5JNpvaxgn+MoU1LINbXfYYHsUGeJU3QUH52zkGzluiEaRrwN8aGrxFP+EmBHBDBfQ7u597BENC+Xpl91gqmtMwIGEJULw2mecuWet62SSjfsFA2SWBxppJMl7xMlJW+b+CxsPuzh1sTgD7JkoVHsyCLHPDJPICfHL66x4/iILnO3Zhe1BslDHmt8PWCsw=="
 }
