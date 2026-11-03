@@ -1,11 +1,21 @@
 {
-  "versao": "9.41",
+  "versao": "9.42",
   "data": "2026-11-03",
   "notas": [
-    "Parâmetros e preços · novo campo Margem da chapa (padrão 10 mm em cada lado), que antes era fixo.",
-    "Limpar e Dividir para caber na mesa passam a usar a mesma área útil da Calculadora (mesa menos a margem). Antes o Limpar aceitava a peça na chapa cheia e a Calculadora recusava. Quando é a largura que não cabe, o aviso explica que dividir não resolve."
+    "Encaixe · orçamento com mais de um tipo de peça recortada: cada tipo vai na sua grade encaixada (a ponta de uma peça entra no vão da vizinha, em fileiras, como no CypCut), um bloco depois do outro. Antes ia para o encaixe livre e as peças ficavam espalhadas e misturadas. Ex.: 1500 + 1500 peças em I de 60 × 23 mm cabem em 1 chapa de 3000 × 1250 (antes, 2).",
+    "Encaixe · com a mesma quantidade de chapas, a grade organizada tem preferência sobre o encaixe livre.",
+    "Encaixe · montar a grade ficou mais de 2 vezes mais rápido."
   ],
   "historico": [
+    {
+      "versao": "9.42",
+      "data": "2026-11-03",
+      "notas": [
+        "Encaixe · orçamento com mais de um tipo de peça recortada: cada tipo vai na sua grade encaixada (a ponta de uma peça entra no vão da vizinha, em fileiras, como no CypCut), um bloco depois do outro. Antes ia para o encaixe livre e as peças ficavam espalhadas e misturadas. Ex.: 1500 + 1500 peças em I de 60 × 23 mm cabem em 1 chapa de 3000 × 1250 (antes, 2).",
+        "Encaixe · com a mesma quantidade de chapas, a grade organizada tem preferência sobre o encaixe livre.",
+        "Encaixe · montar a grade ficou mais de 2 vezes mais rápido."
+      ]
+    },
     {
       "versao": "9.41",
       "data": "2026-11-03",
@@ -112,19 +122,12 @@
       "notas": [
         "Gerador de peças · novo modelo U com abas variáveis (mão francesa): alma reta, abas que crescem de uma ponta à outra e rasgos na alma. Medidas por fora como no desenho; mostra a peça dobrada em 3D e a planificada com as linhas de dobra."
       ]
-    },
-    {
-      "versao": "9.27",
-      "data": "2026-10-27",
-      "notas": [
-        "Proposta e OS · figura das peças: chapa sempre em 2D (o desenho da peça) e tubo sempre em 3D."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4261284,
-  "sha256": "feb9ed097367612e2ce9c5750272d34c4c909dc3631d9b989305894e09e867ac",
-  "assinatura": "bbwrxXBLOoKSR7/jh4P1OraG19nnoFJwNmnLgafnmw6njy1Q5j9+hIrKpP9O4UeuZFdwsw+MJHpKYFdgJjdDJKp0eRNOAVc9ESH/G+32JeS6ShCTzJYVWdAQH1jqiBpX6uw1q/b6s6v4e09vvyzXuN4Fhrxwxp/co7bfogJwivYb1EZVcQm8fNLugBTtXSjylmB2YOUIPDjhMsdtn7j+PbJ4POYRN5Wt4TZj22XLZl9m6th0kc5qtkzDfY9qPOiJhp4sHAfUdoBRCJSmRlfd6eT3AgEgaCeFLglUJRW1tlmvNElUA1VkPq5qSC1ZlmEB5lWjPhqnmKJIVY0T+fKqHA==",
+  "tamanho": 4266032,
+  "sha256": "7a9d4aa0b0f270aeb3401c593c90ed90d03d48a484f6fdf2732c3d6123bae13c",
+  "assinatura": "IfjH4fV+ZQbr3PuO7xK5nucxm/LmrSf9hsJd/YlW/IhLNqrIivSxjMxMEF3jdQAHw1ETfzG1FSrgSEalM5cU/cOoK0YWcmnCBu8J5fFE82nzDGpPlrTIyivxdeP6ZDD+gZGdg5has6x4zs0LMAY/bcCML557MDp8ZhEWhMC0Y5dg1l92xBpJU0P1/wcnFnd/Fsp7Jp/JtIK9AxJq9oHyu/bz8v/DMqWgujly8/1VqURNA/0tYal/I1nOQc9ZKhpf1aku15TpBluM0Yzt1owqewVzX+oC8A9ctoSXW7+1hFYvX/Ute/WTaZI8PvBr2Z6XJH/uVTkcvFvcoRfJ35m6QA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +150,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "CaphFP5cBCpQODRjg9PXq6sV/9tE7gKZXDUqPLCdBiAobN/Tquhq+MVp3N1TfICiZ5R8/iwmcy/5xYCvalHMvq9v1zlQ0ohf2gBBp4K3+FturlAl8t3nPgFlcdp//y04B6D+U15mMoqAGcYpZzUB4ma3/kCDHG4G2qYrfVsY68Q5a1yBHdpDTFonM25tjTS+YIJv/NRS+0EYDM96MGAaVFnShvFvzHqBDSQCfF7L7iLRy1e5yIKQWwW+mPyGInhkD5caw7LOCtmQYY91EV8KpA1uZOoLNqfvkPjb2guM11X85+L3ydkr4kbq/UlPG2wSXQ8zJ6TAEDCeDcUmWz4s0Q=="
+  "assinatura_extras": "LzTVTZy1SmNdTh4Aed+AiICgS5dJla6XiZEoJu35kdgwQlIDg82RNtero+Fcp7xjRaiTiiM7OCypM5RMd0Xfp3bg/GH34/0NUrNksKxPapvgL+qK7U7BTEhJ/fMP9bELtfqo6/fdQLDOz3G33VH5Rh6E7Vuk/E/nqz3NHP/GxQGk6+5okmb94/7VhugJrSn7Al3dGdaRi48TQcUEcFpioOrqHvCUsbpdWyhMKt1vi7DYPngsiVrVmjo4qFB0S8FZl+W9noA6ryNO+I3ubyckvgIUS8yLMOyVo93PCwUNXIrI+VEdLnGjSvG3s3m8nGsoTGrw/1HLVPJ0cpQ9XrdXjA=="
 }
