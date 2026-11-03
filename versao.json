@@ -1,10 +1,17 @@
 {
-  "versao": "9.38",
+  "versao": "9.39",
   "data": "2026-11-03",
   "notas": [
-    "Limpar · mudar a Mesa do laser em Parâmetros e preços agora vale na hora para as peças que já estavam abertas no Limpar. Antes o aviso \"peça maior que a chapa da laser\" continuava com o tamanho antigo até reabrir o arquivo."
+    "Limpar · peça maior que a mesa do laser: novo botão Dividir para caber na mesa. O DXCORE divide a peça em partes para soldar depois e escolhe sozinho onde cortar pelo reaproveitamento: a sobra maior numa chapa só (retalho bom), de preferência sobre uma linha de marcação (a solda cai na caverna) e sem passar por furo. Mostra as partes, a solda da emenda, as chapas e a sobra de cada uma; as partes entram na lista com o material, a espessura e a quantidade da peça inteira."
   ],
   "historico": [
+    {
+      "versao": "9.39",
+      "data": "2026-11-03",
+      "notas": [
+        "Limpar · peça maior que a mesa do laser: novo botão Dividir para caber na mesa. O DXCORE divide a peça em partes para soldar depois e escolhe sozinho onde cortar pelo reaproveitamento: a sobra maior numa chapa só (retalho bom), de preferência sobre uma linha de marcação (a solda cai na caverna) e sem passar por furo. Mostra as partes, a solda da emenda, as chapas e a sobra de cada uma; as partes entram na lista com o material, a espessura e a quantidade da peça inteira."
+      ]
+    },
     {
       "versao": "9.38",
       "data": "2026-11-03",
@@ -110,21 +117,12 @@
       "notas": [
         "Orçamento · nova opção Material do cliente em cada peça (chapa ou tubo): o material daquela peça não é cobrado, as chapas do cliente são encaixadas à parte e não saem do estoque. A proposta mostra \"(do cliente)\" na peça e a OS avisa quais peças usam o material do cliente. A opção do orçamento todo continua igual."
       ]
-    },
-    {
-      "versao": "9.24",
-      "data": "2026-10-26",
-      "notas": [
-        "Segurança · senhas novas dos setores (a gerência entrega as novas; as antigas deixam de valer) e as senhas não vão mais no pacote do instalador.",
-        "Segurança · chave própria do programa e chave própria dos backups. O backup automático diário passa a ser protegido. Os backups antigos continuam abrindo normalmente.",
-        "Leitor de DWG · agora vem do próprio canal do DXCORE e só roda se a impressão digital conferir; não depende mais de serviço de terceiros."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4242668,
-  "sha256": "e49f503ee6696fbb458f24a908ac2418f6462e7dc8c0ba2f74608a63a7f00416",
-  "assinatura": "T6JlcpIeJ5OYzq8vxdbN2jlwG9kjYh5mWyoh+/oIrNiVMaZI+wDrYc2rJkYhtB3Lv6yySbvhxPlpeB3h1Z9Hk7vsN/rIiGirFAmcsYQAh80dmPU1fCrerhncIQ77XYbHJJkWka3IES3nxFVQjRFPEHsoIluWQ4LDEYK/V3e25APo9WV4vUUIVfcEr/45hOIpnLDZ4n3PAyvVxNNspwytlREZGSZlS0PVX82vOc6mhRUmqbQVcFiPYq2IdemwH/rGEtWZoKhEouNSGlzIXFFVj0E+c7Ix+T+GLyrE//1Gce20gy6PZ70sfNNMMsYgDxdLGzbuKj3tZCuwRej313KwYQ==",
+  "tamanho": 4257236,
+  "sha256": "a93c524aca45c47c4dec15f08b7a922c4aa22ebbe2d93ff19643065edc9af0df",
+  "assinatura": "THGRoPx4x9vZ5HM1vYCG/XwalLixNPH7V3Orp0nl4gMQzrmd289IIhGaNiJ/iCFoREkOfaiavBCgtnDtlN6XzHg6eWvzU1U5qPqtcwsg352TLi4OxHr0X2OkixDDZviTKazV5uQSU3sriVWHMKUFqGJwMoKaISkUOVo2V/gyxGK0PHcAKQZy1VcYrEvQXBU996Ij9M02NI4DHsaQu6L1RRdHnTCwGDjPkre+LnKaHcQnR7dAV9FvtNlzemolMCC9T+OU36urkUv81v4RcOarduppJcLorBASehEZO289GE4f9TkH7nHaTxNPDgZIsiPiZ3dI+CWqEJYEHA2E8cUbfg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +145,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "fxh6imBtmiJNMKh8ZdMRZwSF7ZXkf/mkyqhrJEna21/qH+TejbonDdcU9Aw1wXLUuEln9DXoQ2VSLipKu8At494eZVV8kKfxBJiQsx+J70IT86e1a9gUEy4WogwV7l86RJK1hRHMoU3Q2hQ+vlTOEHNlWAZg2D3YRmLrBSox//93nMZzsMWNVIj6tVQKdvoQjMg//cjsFxKEcP5rCGNWuLiF+WEJNd3Yylw2kRV4yzF0aJIhDArQRbxRsJSQa3O83f2+NoSLWZTvrkO+luUz7ucdkMZlNeG5TxpwHJGJe5+x7QmcL0XSf91abv19eD+o6QJsTXZk35dV/KmVC/omnA=="
+  "assinatura_extras": "I0LISPG8K4NkFlX/trURNgdfV0TM96zM5/qt9Xfv5c7lKVyC6SbvfnFSYM3wfeq9nU+gsfXHBbsxN86PjXpqQibC4MTQ3n7WEmlxZdwZSrHJTjIG+xsaqrVRyaRIfO0D6lYbzSRVnTVRSYXZXF/3tWNX8wpc8NWlB+89VuguiHfM2Yj8wyrQnx7NNbiWFB6dVf6gOTMnhhamZQyjuRjP19dq7wSgkR0zOp4hpr5HxAV88HZkx2n9LqQGVzugn2YGfnR2BDcro6IyCz2ZJwZBc6u4kXDtH09KIiIxfbTT6+mTgw76B6cPy5C2EMrRhVeuU4aMc78oCab3lpvhAHJhHg=="
 }
