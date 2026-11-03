@@ -1,12 +1,17 @@
 {
-  "versao": "9.35",
+  "versao": "9.36",
   "data": "2026-11-03",
   "notas": [
-    "Limpar / Converter · fica sempre no setor Produção.",
-    "Limpar / Converter · mandar peças para o orçamento (Orçar esta peça, Orçar todas/marcadas) agora é só no perfil Gerência. Os outros perfis limpam, convertem e salvam o DXF normalmente.",
-    "Limpar / Converter · com 2 ou mais peças marcadas (ou Marcar todas), o botão Salvar DXF salva todas as marcadas de uma vez, não só a peça aberta."
+    "Tubos e tubo do Gerador · Orçar tubo e Orçar o conjunto também ficam só no perfil Gerência."
   ],
   "historico": [
+    {
+      "versao": "9.36",
+      "data": "2026-11-03",
+      "notas": [
+        "Tubos e tubo do Gerador · Orçar tubo e Orçar o conjunto também ficam só no perfil Gerência."
+      ]
+    },
     {
       "versao": "9.35",
       "data": "2026-11-03",
@@ -114,19 +119,12 @@
       "notas": [
         "Orçamento · nova opção Cobrar a chapa inteira (em Material): cobra todas as chapas usadas inteiras, sem descontar os retalhos que sobram. Sem marcar, continua como antes: só a chapa com mais de 80% de uso é cobrada inteira; nas outras, o retalho que vale guardar fica fora do preço. Fica salva no orçamento."
       ]
-    },
-    {
-      "versao": "9.21",
-      "data": "2026-10-23",
-      "notas": [
-        "Limpar · contagem de dobras corrigida: duas linhas de dobra paralelas a até 40 mm uma da outra eram tratadas como uma dobra só (como se fossem o começo e o fim da mesma dobra). Uma peça com aba curta e 3 dobras contava 2. Agora só junta linhas bem próximas (poucos mm, conforme a espessura) e quando todas as dobras do desenho são desenhadas assim; nos outros casos, cada linha é uma dobra."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4238924,
-  "sha256": "d045a62d03c72abef6dd97beed531dc2932a0c1e0fbc947179577005bd230a0e",
-  "assinatura": "i7W5L7+WIyO/9yrmv3E5ISXtbur/DxFM2Wetu30HvpoLct84nN7FQomJsDotsAzt8mUecs5CeVNITSqo/QZBJLs3xO50XSB6dSS2BQQADydPefQYtYBZSvd26dsQR0fhjy7W5Ds3rSrCxnXO5+khXipIDB+XZgpvvS9dJsvgjjeNeaX6OtZ4nS09/sC6h9N5FPkHdb9WiinFWjr9DGxxGBO6EqqGcYNI8YaW40akYzX8ZcJtc/z+eIK8FNB/Ap7woJm63P5+m4rIVazxoWIVUGmgtkM4d2GzrzN+2SM5P4RcDCSAhtQLehStxzqPu5ZTctTAO3ieeeqUJ+GcvmKXZA==",
+  "tamanho": 4239696,
+  "sha256": "50c7fcc6bf641812863bf06b7d54dcfec69092869950438df064fd5b0d00da85",
+  "assinatura": "hIHctgp8RqKFMt9nRpNRSMCiPbXqIaCqJzcHxuk/wTDGvBInFo+LT/Po1SjAbYVPaTCT+zCm2ixP+elKHVplMXHp0DSaqdqdNZeU+8ck8FXdOXLS+/PqVDuH4OS/piPCAcDSdAoyM3a9GlyybD6ii1V0Q5X2E5lHLeAdyK+Z7+cmDfPnAPim736EkfxjvI244Z8DuRtqmlVX7tDlYlOG50kdzH+thwIuBf3hZ2jbqH2jrOBbpocBKyvvJNIBQFw4fiy4JRdREaqOCdLXXhdMpUMhRSk+NsT+MHEB0pEm6q8H0Dc4rcXSJib3bijO41hNPVyKABluAD0ychS78e0AOg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -149,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "kQddwr/lP79tQc6UzD2t7vjWWyo0Q0ZpBFpCdThN470jOMVz5J+I4PAD+4rhkSisFY/3zvXMHSLHsdwy193jzUpRhcZok12ivgnIos7kNbOk2AjCFipv0WpaipQzmtdGwE6WkKi/f9zsZYssM8obM/qIV5JNpvaxgn+MoU1LINbXfYYHsUGeJU3QUH52zkGzluiEaRrwN8aGrxFP+EmBHBDBfQ7u597BENC+Xpl91gqmtMwIGEJULw2mecuWet62SSjfsFA2SWBxppJMl7xMlJW+b+CxsPuzh1sTgD7JkoVHsyCLHPDJPICfHL66x4/iILnO3Zhe1BslDHmt8PWCsw=="
+  "assinatura_extras": "deXJcIYi+1t4I0K+0vBxe/OvDQNi2c9+Ct24BvqGaDLxAZdl3Juv24Bdh7+/h/OVsaLYyy65t6IBtVcLNy9TVGeSeZfYDzc8uScXus6dobilWi6cHpX1ZAsMuIfU/tiZ1WKX8+xh+Rz4zUM9NfUgyJjokz3JO1vzmkbxe0LgZULT75z47oCGDHa/91V6nOmRYgreydzZ4M+hvD/05vX5MRZnppeJLBi0pnDiIHpfbbWyAwNkpenSUDizVuIqBb4SzxQGU6OKCtcxkYWv9bsw64GpYGqxRCVYr8Gn2JfOjHr7BQvA/nG71L+A9N5Y6G4FR5xhR1bJxql9fyFRMfDNdw=="
 }
