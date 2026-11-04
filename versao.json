@@ -1,10 +1,17 @@
 {
-  "versao": "9.44",
+  "versao": "9.45",
   "data": "2026-11-04",
   "notas": [
-    "Gerador de peças · novo modelo Cantoneira com furos e recorte: cantoneira L dobrada de chapa, com furos iguais nas duas abas e recorte nas pontas (trecho reto a partir da quina e recuo na borda). Medidas por fora, como no desenho; o padrão já vem de uma cantoneira 64 × 64 em aço carbono 6,35 mm com 1689 mm."
+    "Calculadora · novo + Cantoneira: orçamento de cantoneira pronta (laminada, já dobrada). Só corte e furação na laser de tubo; material cobrado por kg (peso da seção em L × preço do kg); peças distribuídas nas barras de 6 m, com garra e perda, como no tubo."
   ],
   "historico": [
+    {
+      "versao": "9.45",
+      "data": "2026-11-04",
+      "notas": [
+        "Calculadora · novo + Cantoneira: orçamento de cantoneira pronta (laminada, já dobrada). Só corte e furação na laser de tubo; material cobrado por kg (peso da seção em L × preço do kg); peças distribuídas nas barras de 6 m, com garra e perda, como no tubo."
+      ]
+    },
     {
       "versao": "9.44",
       "data": "2026-11-04",
@@ -113,20 +120,12 @@
         "PDF impresso \"ajustado à página\" (um pouco fora de escala): o tamanho é acertado pela cota maior da peça (1130 fica 1130, não 1132).",
         "Folha com várias peças: cada peça pega o nome (ex.: MODELO 1) e a quantidade (ex.: 40 PEÇAS) dos textos ao lado dela, mesmo quando estão em textos separados."
       ]
-    },
-    {
-      "versao": "9.30",
-      "data": "2026-10-28",
-      "notas": [
-        "Velocidade na calculadora · o encaixe fino das peças (a conta mais pesada) agora roda em segundo plano, sem travar a tela. Um orçamento com 150 peças abre em cerca de 2 s (antes, 15 s travado) e mudar uma quantidade responde em menos de meio segundo (antes, 4,6 s). Enquanto o encaixe fino calcula, aparece uma estimativa e a mensagem \"Calculando o encaixe fino\"; o valor final é o mesmo de antes.",
-        "Salvar, proposta em PDF, OS, estoque, painel e exportação sempre usam o encaixe fino."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4273840,
-  "sha256": "daaf53ae10c9a8d47ec4c3845bb8b3cf53fcd76d721c4e32f5f6ff1597b6a393",
-  "assinatura": "LmGMqxYrzCT7OHo0zY18Op30jpHr8sELtwsnnwvJo4Af77La2eNU9MZuqFiScQRr58RJXcnrfo/4rLtaz+1AXJWBGUpRVc8ESif+EnPuElQ0Ic9gaxt6+/89kRDaD/grc+SWoChXOatoL8Rdac8WlTWCvj+qzAVow6n56zhRxo9h/1c4nITuK53PbgK9eQdaE6JQpcWONQLpFH41+vEX+9PuNGH9K7oB26Neytatjpzygeao4nlCWNDw0OKvJSTC5++pHltHYwIIeHCuVjduZK50SIkuG0RszZUDjJ+dMxPZunLofYLFFu6ErKGcPrFwosGkodj37E0K8HacPCv5JQ==",
+  "tamanho": 4277944,
+  "sha256": "4e494481a3f291842b484f930aff30927217d33242658cdb1677ab0a13ab6aa9",
+  "assinatura": "ElIumWMSVGICTGc5vEG888N444hWf2i69GfpTSqlE0/YdQbuGHVltfBbn6glbEMgprf7t+jRFe6bCzECg1oocu91yAag6Ubhp0aKUclap9H4CKWIOqQO/rtX89ndsYEzqxvxGNRKT8dHUGCtSxEwvZPiFLUPWgr+goMpp5NmTXi5jcsLrNQH4AmKPPIFgrRmRfcmRg+iPWX5cPvsjMoU6LU1IaSHD2LliUxsr1G5AXlS6Ml6Ji6gisnZHjmE4bpBiwYVIl6buGikpQeoLpMtkWKeeChJStks9Go0guTkVenAZKI/l1ympj2SFGNHWJbk/GY61Dc4fvr98eY3qmPg6g==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -149,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "eTbJm/z1x6Q824qLRsGE8pVmuOxay0n5j9ARb7WnLuPid73cSdjzByFWtQYo5H2fI4D2ZAux99ff83dL2LXR3sdGB+uGJs5cD1aoD8Eayg7SNkS3HCJ9ssfY6/2Exd9YVeOhQy/As3/MPswlUfX8bYz49zqy+g5Z9h8s50ybvkpc2CF32R5G1POIqTFDa59Tmn5qAHC6KlqrDHOVqR0t5dFZ6EB2EfdB3a4a2ZgLK8a3nSdfXR48DeiUvySRnv+F7qjomiiDNMtZhYkrT6Wj3pm8m+rUgei5Hf8s4iStJu2kGmYR0SwqczvvUrih8kDYaqOaK/9SD7dAAuXHZV7+bw=="
+  "assinatura_extras": "LDq1Ymur/MhbX1nUKVv6DbOYAmAUFDtT63uDOYeJt47Fo81hyi3qxZ64lbRHWH2LiOtKXiKTpKCC1Fd8o5on8X/X+i21PXrZGa2IqwdZs0LKfbd8C/+thKrUg3WqNZ9lZeRH/5p1PkE5K/caYwXAsUQcSRpaGzstvNm9Yn3ohR+rA1Do41p6JOC/c7Axj0v/RoqYzA8Upka6vkdT3TzjYQtqy9Ufreh4rhhHinTbosPEDM/Gb0zWYY+Y8GGQTj4cFoijzEVU/TO4dyIZE8AQOkxvTAX+/aIQlmKJXnRQTpLgorqPVqTcfXw8HGdllpE5jSI3i0UAJZL9sE+jQoNMUA=="
 }
