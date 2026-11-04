@@ -1,10 +1,17 @@
 {
-  "versao": "9.49",
+  "versao": "9.50",
   "data": "2026-11-04",
   "notas": [
-    "Assistente do DXCORE (botão Assistente, no topo): responde como fazer as coisas pelo Manual, calcula peso de chapa, tubo e cantoneira, abre ferramentas, orça cantoneira e muda parâmetros (espaçamento, margem, mesa) por frase. Funciona sem internet. Tudo que muda alguma coisa pede Confirmar, e cada perfil só faz o que já pode fazer no DXCORE."
+    "Assistente com visual novo: janela de vidro flutuante, que você arrasta pela tela pela barra de cima (o DXCORE lembra onde ela ficou), respostas em balões brancos, animação ao abrir, fechar e a cada mensagem, e os três pontinhos enquanto ele responde. Nos temas claro e escuro. Esc fecha."
   ],
   "historico": [
+    {
+      "versao": "9.50",
+      "data": "2026-11-04",
+      "notas": [
+        "Assistente com visual novo: janela de vidro flutuante, que você arrasta pela tela pela barra de cima (o DXCORE lembra onde ela ficou), respostas em balões brancos, animação ao abrir, fechar e a cada mensagem, e os três pontinhos enquanto ele responde. Nos temas claro e escuro. Esc fecha."
+      ]
+    },
     {
       "versao": "9.49",
       "data": "2026-11-04",
@@ -108,21 +115,12 @@
       "notas": [
         "Tubos e tubo do Gerador · Orçar tubo e Orçar o conjunto também ficam só no perfil Gerência."
       ]
-    },
-    {
-      "versao": "9.35",
-      "data": "2026-11-03",
-      "notas": [
-        "Limpar / Converter · fica sempre no setor Produção.",
-        "Limpar / Converter · mandar peças para o orçamento (Orçar esta peça, Orçar todas/marcadas) agora é só no perfil Gerência. Os outros perfis limpam, convertem e salvam o DXF normalmente.",
-        "Limpar / Converter · com 2 ou mais peças marcadas (ou Marcar todas), o botão Salvar DXF salva todas as marcadas de uma vez, não só a peça aberta."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4305940,
-  "sha256": "7c86205ed5f8182d2df0fbcdac5c76f28166129e9e64134e26296d64551a2021",
-  "assinatura": "NhtxTz/PouX1ASW0k4qkzyuuAyRIAJRiObvvCpCES0Z7GGQs4spz05wcXTfPIFpe25OJl229JrHnt0SqwBApIdBm4EaTdrpQcCvw21wH7MEn7gfF3zi6XDuTdnzYdgL5IXfNNZbWlqCasV3GNNh6+4lL6/5FkPvwGhefcyKILQy5MyfCop9baP0mX+TVc3wlyR9mjVZevkMT/ywp5lhW6VFhbtDcKBY+Jz/l1hPapDSxn4gcK8ZIvxYoMr8TY6IAkTTAKY/2wfR/feynn3u6La55pu6Q+uVn/o8XeLDpRBL1jRy6o+9DCd1XX+3gjcPzzqpc0AFkYUoQB7qItZ7tSA==",
+  "tamanho": 4318788,
+  "sha256": "0158572e90523de7cc231b008a7a085c0924d104e5071e4754ae2c843ba3860d",
+  "assinatura": "OitjHlMNVMIrk07A+Je9TB36JRCw+coIzlxJSZjNoye5pOjd4YQ7hN1YgkMKajpldKv64elCNK/lF78uneYmGBPY2gzKN5R4oVVTAjuWdDLZKNLtayLPB823ikEryASVNRC2nXylEQ+ki26Drfu/uuLu/TYGqo28vRCoe4mXYER8SoVbgaMy7BTJsFA+kGUDP8h+78FBTRQC2l/BPIJEJuqqjfPqBWIAH7OD+sqMUB7fqbMfrgyICetV6RLOhTSpf84/JV9LaDhJOx6/T4aZ8CAj9ZUUAHeTqARd2oFV/dm37hBfG5CpxhCNY2Xi+tFlE1AdbFNGCmqbX9fpTC2miQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -145,5 +143,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "hv6VQ8e5UqQ9+AsYloIFBSNdyGmuHSW2ResIcSvW6C4fqxwjapd1VrReBLV7bwHFJy7jBNzqw1+F4+5Yql12Uvfuuz5rFxuxRKGr/jdGVEegEfDMd4OZFfY/a1VC1PxRxyAG53RLPcfAXQW9pQhiVjOyJ22b4CpVKMgba/WHi8/o9Gywt4Hy43DohZQlmHaq9LkeuojfVHXr6n8RsPvyeLJxLoibL4EY8p4wKdxoyKs24OoSUPFYxprlBBNo+yqoMJO/Rtk8hyQefw0TneYYCjBsH/RUIiozxqouNiZym9ALka2ba1XnVFSRd9BXo5XbTQLmBfaN0XqxwCq+N8r7og=="
+  "assinatura_extras": "OCqo0aPWUN0rcdHi1Qyy3uikqYcexq49CPQ6hax6JnwbuWjC3DrpUN0t8D60+qgJ416h1cYizulf9zQ1Vr7y3DnvQXzBNfyMkGQNbHstot9Yktmvdmml8cJA87Vb2oMbrmkgQ+954/ApUTkcSQpkVSJfdDRR8CfX9hS2sDbkIoj8zw29w7jXQpa4y4eITVgKCZdvBluEZk5+/inTQO+FhYxStNCUuaWwCodyi84NmfarixVvu1Lru4LyHrJ93wmEvfCyhLGohgP6N2MwZIY62Z5zyTgKfUy5Ya3SiJ0qRVBxgDjv8JzBo/J9udikGRSl6dBPUgOEd9GgV8472myJlg=="
 }
