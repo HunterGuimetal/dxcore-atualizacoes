@@ -1,8 +1,8 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.47** (2026-11-04)
+Versão atual: **9.48** (2026-11-04)
 
-- Gerador de peças · Cantoneira com furos e recorte: novo campo Como vem a cantoneira. Pronta (laminada), o padrão: vai só para o orçamento como cantoneira (corte e furação), sem dobra; Baixar DXF, PDF e Mandar para o Limpar ficam bloqueados com aviso, para não virar chapa planificada e cobrar dobra. Dobrada de chapa: continua planificada, com dobra, para o Limpar.
+- Gerador de peças · a cantoneira pronta continua sendo cantoneira depois de editar o desenho (mudar Ø do furo, arrastar furo, girar, linhas editáveis): o botão segue Orçar cantoneira e nunca manda para o Limpar. Furos e recortes que você mudar à mão entram na conta de corte e de contornos do orçamento.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

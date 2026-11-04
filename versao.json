@@ -1,10 +1,17 @@
 {
-  "versao": "9.47",
+  "versao": "9.48",
   "data": "2026-11-04",
   "notas": [
-    "Gerador de peças · Cantoneira com furos e recorte: novo campo Como vem a cantoneira. Pronta (laminada), o padrão: vai só para o orçamento como cantoneira (corte e furação), sem dobra; Baixar DXF, PDF e Mandar para o Limpar ficam bloqueados com aviso, para não virar chapa planificada e cobrar dobra. Dobrada de chapa: continua planificada, com dobra, para o Limpar."
+    "Gerador de peças · a cantoneira pronta continua sendo cantoneira depois de editar o desenho (mudar Ø do furo, arrastar furo, girar, linhas editáveis): o botão segue Orçar cantoneira e nunca manda para o Limpar. Furos e recortes que você mudar à mão entram na conta de corte e de contornos do orçamento."
   ],
   "historico": [
+    {
+      "versao": "9.48",
+      "data": "2026-11-04",
+      "notas": [
+        "Gerador de peças · a cantoneira pronta continua sendo cantoneira depois de editar o desenho (mudar Ø do furo, arrastar furo, girar, linhas editáveis): o botão segue Orçar cantoneira e nunca manda para o Limpar. Furos e recortes que você mudar à mão entram na conta de corte e de contornos do orçamento."
+      ]
+    },
     {
       "versao": "9.47",
       "data": "2026-11-04",
@@ -110,20 +117,12 @@
       "notas": [
         "Visual · vidro estilo Apple, sem cor: fundo neutro com luz branca suave e as caixas, cartões, listas, janelas e o cabeçalho bem transparentes, desfocando o que está atrás, com brilho fino na borda. Vale nos temas claro e escuro, desde a tela de entrada dos setores. A luz laranja do fundo saiu."
       ]
-    },
-    {
-      "versao": "9.33",
-      "data": "2026-10-29",
-      "notas": [
-        "Proposta em PDF · segure Ctrl e clique nos orçamentos para selecionar (no celular, toque e segure; Shift + clique marca o intervalo). Com orçamentos selecionados aparece a barra para Selecionar todos, Cancelar ou Excluir (com confirmação). Delete exclui e Esc cancela.",
-        "Visual · efeito vidro nos temas claro e escuro: o fundo ganhou luzes suaves paradas e as caixas, listas, cartões, janelas e o cabeçalho ficaram translúcidos com desfoque."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4280800,
-  "sha256": "669adfcc7f6be04726c69c44d1e8eeeeae6cf16299d2835f5f58ae439714961b",
-  "assinatura": "RRPOkl6C9yTFRN2ZbYK663Z2sZXa6AtUjZYbbqhdEnLpY0ELTekYw9La/lYL5MO0A01XLGQn28ca3fU1riQ9+EpDYfC7Zv51hQ9z3pJMxxgAF6DemSEft9I0anZ7qhbr5zMjMiwyc/WImhRjEgl+J6Gp23WvjZudQSqYNEBx17P6Sk1I0ksnEE3eK7j49zA7YV1zD5Ar2acaUY/qjNOFzQ4/KhEV8WET6v3uWIHf9Wv9wY4f9EjWRyY2g98Ag2AJOIOki43YY86HfNlvnw0QlRZTZQEc4+W7k9TM2K4eCsrK3IyaVh0xphgFeZDzJE4aUlJuQ1x20DtR4SgdabjPdA==",
+  "tamanho": 4282012,
+  "sha256": "c52bfc3d072374c5ef3288c6c2c8f0f628622cd89957e56e6ada48d7867553f2",
+  "assinatura": "jT7JXMHWDB7V0vNSGDdAk6Ew+UBrJhDJQk1hyQOgdgTJkDauEjH7KaI37CNwTP0dYP+Ko8tNolPpPj2+nqMUaSxrMsaDIg5gd0QFkeVBxCV+ya8B9+oqg4y6l6IqSFNy/KOXTJgO8fhwuPv1yEEu+I0oz+XzJwYaVMNC0jOvtE2UzhCVbPQiugjU9r4mnUamXYne6ttj0rk1VIw12fJkVQEkDOXajMxmnTo7BeMNvKFRN3DabcPH3oUsZ8tUuUnnrBgtf2umL6yL5u3GA1b0+VEbRTzl0ndDIWrh4eaJDz/azPNKzqmgUyxsMN4jE8UIHPaCShOo1c7solhOyxC4Fw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +145,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "Z3anqbhxyuW8GeozLd1XVZNjn1XpNMcNc8LYunNqkWRVIEKFZwyKZNt06Bgvq0vg+kpHI7dUdXr/04x7Uv69s490gZzc1gemfwxJmQaMlYtzm8SOYoWr8UE+/F9F9JWa/rToBJpKW+EJ3aSHvxTV2p62ck6A+VeMZzWY0kM9yLntvzCs/D7Ko4n1EWciSuszdq3V+DrdyELupmJGObVNzEIYvKQZnGBIwI7iGAN28dacwiFp/K+wlWt4vuTkum5I41hK4h8RClS2LKFwo4LV8SxyFzALbmhxBvmcdY6qMkGILEyejWwHUV+M1WRobthRNyhCRXvjyZ53Tqgvl49jcA=="
+  "assinatura_extras": "HTpt2Sz8M1WGRhiBczmtM1RXGrDva+gNXiSuYpkz4PMkRsaMAuwUONuVqnGgUAgLCEvPhBuPJAugcHkr3RLquuYhXCuAhkL3H4kx1D2lwHj3Yj3DMx/A0BycPA+5e5gwkStWhEW+QqG7ID2BzfOlKVOUiDV+VKtlTxlxtpyER1ieDDbdPZ0LhBXJHqZwU3DqxJ65zFX88aQF+tvvtsiCSN2xsF0w2MoUF2RvAQB5M5u4yR5v3khLyAtDUdh/rzmHDMsujxlZIoQHo9QCxM6xuzWWFjBAX4h7adjRO1tvJQTzIVYaLfIPi9na/WbKIKr/2RBHfsIGbEa1IuFYKYQuqw=="
 }
