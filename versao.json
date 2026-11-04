@@ -1,10 +1,17 @@
 {
-  "versao": "9.50",
+  "versao": "9.51",
   "data": "2026-11-04",
   "notas": [
-    "Assistente com visual novo: janela de vidro flutuante, que você arrasta pela tela pela barra de cima (o DXCORE lembra onde ela ficou), respostas em balões brancos, animação ao abrir, fechar e a cada mensagem, e os três pontinhos enquanto ele responde. Nos temas claro e escuro. Esc fecha."
+    "Assistente · acha e abre orçamento por palavra-chave: abrir orçamento de AMATA, abrir orçamento 2026-0012, orçamentos de cantoneira. Procura no cliente, no número, no título, nas peças e no vendedor; com um resultado abre direto, com vários mostra a lista (do mais recente) para escolher. Só para quem tem acesso à Calculadora."
   ],
   "historico": [
+    {
+      "versao": "9.51",
+      "data": "2026-11-04",
+      "notas": [
+        "Assistente · acha e abre orçamento por palavra-chave: abrir orçamento de AMATA, abrir orçamento 2026-0012, orçamentos de cantoneira. Procura no cliente, no número, no título, nas peças e no vendedor; com um resultado abre direto, com vários mostra a lista (do mais recente) para escolher. Só para quem tem acesso à Calculadora."
+      ]
+    },
     {
       "versao": "9.50",
       "data": "2026-11-04",
@@ -108,19 +115,12 @@
       "notas": [
         "Limpar · PDF de projeto (planta baixa, vistas do móvel, legenda de acabamentos, como os de arquitetura do ArchiCAD) agora é reconhecido e recusado com explicação, em vez de virar peça. Antes o Limpar tirava \"peças\" da legenda e das etiquetas. Para esses casos: peça ao cliente o DXF/DWG das peças ou o STEP, ou desenvolva as chapas no Gerador."
       ]
-    },
-    {
-      "versao": "9.36",
-      "data": "2026-11-03",
-      "notas": [
-        "Tubos e tubo do Gerador · Orçar tubo e Orçar o conjunto também ficam só no perfil Gerência."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4318788,
-  "sha256": "0158572e90523de7cc231b008a7a085c0924d104e5071e4754ae2c843ba3860d",
-  "assinatura": "OitjHlMNVMIrk07A+Je9TB36JRCw+coIzlxJSZjNoye5pOjd4YQ7hN1YgkMKajpldKv64elCNK/lF78uneYmGBPY2gzKN5R4oVVTAjuWdDLZKNLtayLPB823ikEryASVNRC2nXylEQ+ki26Drfu/uuLu/TYGqo28vRCoe4mXYER8SoVbgaMy7BTJsFA+kGUDP8h+78FBTRQC2l/BPIJEJuqqjfPqBWIAH7OD+sqMUB7fqbMfrgyICetV6RLOhTSpf84/JV9LaDhJOx6/T4aZ8CAj9ZUUAHeTqARd2oFV/dm37hBfG5CpxhCNY2Xi+tFlE1AdbFNGCmqbX9fpTC2miQ==",
+  "tamanho": 4324880,
+  "sha256": "797867982678b6e3c04da07d04737958dd7b9b8a97605f7f194040c72cdf4f90",
+  "assinatura": "S7tReOFY1g9EYoLnmDzsnwdRqO8uqHqpDVS/FNCYUf01MTd6NCIBAFnY92n/6b2moAFrTdkw1XuqwcrFGEaCh+XNftmWjlImjidaP3p3EJcL8vVhYqF1XjQcnK7BYroC/BcKTGwA+RKvAYg+DIywPAYRoH1Jy3yJwyuEhCgFIk7FLl6GN+gBJGZ9WXN++cKLv7XAjWh23HDge1OOX+jwgC00jNraEW4ea/3hp5nZThVe3JvhQ2HDDiQmVE+SRrpsZb7xTnjOUz8udhaoM6KWB7pYDbmQLtKoHcoYgzTZrMA1nEzymFvJUS128+NqcgH2iEpd5g/88qPaOCsKhHOkIw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -143,5 +143,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "OCqo0aPWUN0rcdHi1Qyy3uikqYcexq49CPQ6hax6JnwbuWjC3DrpUN0t8D60+qgJ416h1cYizulf9zQ1Vr7y3DnvQXzBNfyMkGQNbHstot9Yktmvdmml8cJA87Vb2oMbrmkgQ+954/ApUTkcSQpkVSJfdDRR8CfX9hS2sDbkIoj8zw29w7jXQpa4y4eITVgKCZdvBluEZk5+/inTQO+FhYxStNCUuaWwCodyi84NmfarixVvu1Lru4LyHrJ93wmEvfCyhLGohgP6N2MwZIY62Z5zyTgKfUy5Ya3SiJ0qRVBxgDjv8JzBo/J9udikGRSl6dBPUgOEd9GgV8472myJlg=="
+  "assinatura_extras": "SVslgFS3Okg73nZ8QTRBdctifwbsmGY6g0tCWk5QAuuZnEAuHYquV4LK3ev/gIsj65vHsnCk9zxD1RkAAKjDeEf+co6A6SbKDA3chEkfdU+jEsfus8C6tk/3a45TWGGwY6nOPoDfPQQhv5VtsURjswvMTQv1T62FgKQKH+xei6PQH5TUvBQV9sQYlQmCEXWTSrbPYz02kbrUBCu1bJtcxYV1r1klyMP8K2fu9hAD8zCUr1C3y20OkcY47q1c4kqNeSxtvnqozTwJG2OD2dlTnKB7zGmmNYBr2jn4vaepWQZGJa+RZaNRyb+SQfdoPVvQx/CJh+4jrSXaJH8AEzDsAw=="
 }

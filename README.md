@@ -1,8 +1,8 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.50** (2026-11-04)
+Versão atual: **9.51** (2026-11-04)
 
-- Assistente com visual novo: janela de vidro flutuante, que você arrasta pela tela pela barra de cima (o DXCORE lembra onde ela ficou), respostas em balões brancos, animação ao abrir, fechar e a cada mensagem, e os três pontinhos enquanto ele responde. Nos temas claro e escuro. Esc fecha.
+- Assistente · acha e abre orçamento por palavra-chave: abrir orçamento de AMATA, abrir orçamento 2026-0012, orçamentos de cantoneira. Procura no cliente, no número, no título, nas peças e no vendedor; com um resultado abre direto, com vários mostra a lista (do mais recente) para escolher. Só para quem tem acesso à Calculadora.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
