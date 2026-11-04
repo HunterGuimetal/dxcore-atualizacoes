@@ -1,12 +1,17 @@
 {
-  "versao": "9.43",
-  "data": "2026-11-03",
+  "versao": "9.44",
+  "data": "2026-11-04",
   "notas": [
-    "Encaixe · pedido grande (mais de 3.000 peças) com peça recortada agora é encaixado com a quantidade inteira, sem dividir em blocos repetidos. Antes podia sobrar chapa: ex. 6.000 peças em chapa de 2500 × 1250 davam 4 chapas; agora 3.",
-    "Encaixe · com vários tipos de peça, o DXCORE testa a ordem dos blocos e fica com a que gasta menos chapa e deixa a última mais vazia.",
-    "Encaixe · chapa de fechamento: quando as peças da última chapa cabem num tamanho menor (3000 × 1250, 2500 × 1250, 2000 × 1000...), o orçamento avisa qual tamanho usar só na última e quanto de chapa economiza."
+    "Gerador de peças · novo modelo Cantoneira com furos e recorte: cantoneira L dobrada de chapa, com furos iguais nas duas abas e recorte nas pontas (trecho reto a partir da quina e recuo na borda). Medidas por fora, como no desenho; o padrão já vem de uma cantoneira 64 × 64 em aço carbono 6,35 mm com 1689 mm."
   ],
   "historico": [
+    {
+      "versao": "9.44",
+      "data": "2026-11-04",
+      "notas": [
+        "Gerador de peças · novo modelo Cantoneira com furos e recorte: cantoneira L dobrada de chapa, com furos iguais nas duas abas e recorte nas pontas (trecho reto a partir da quina e recuo na borda). Medidas por fora, como no desenho; o padrão já vem de uma cantoneira 64 × 64 em aço carbono 6,35 mm com 1689 mm."
+      ]
+    },
     {
       "versao": "9.43",
       "data": "2026-11-03",
@@ -116,20 +121,12 @@
         "Velocidade na calculadora · o encaixe fino das peças (a conta mais pesada) agora roda em segundo plano, sem travar a tela. Um orçamento com 150 peças abre em cerca de 2 s (antes, 15 s travado) e mudar uma quantidade responde em menos de meio segundo (antes, 4,6 s). Enquanto o encaixe fino calcula, aparece uma estimativa e a mensagem \"Calculando o encaixe fino\"; o valor final é o mesmo de antes.",
         "Salvar, proposta em PDF, OS, estoque, painel e exportação sempre usam o encaixe fino."
       ]
-    },
-    {
-      "versao": "9.29",
-      "data": "2026-10-28",
-      "notas": [
-        "Velocidade · o DXCORE estava relendo, pela rede, um a um, os registros de alterações de todos os computadores (127 arquivos) a cada tela aberta. Agora apaga os registros antigos que o resumo já cobre e só relê o que mudou. Na primeira abertura ele faz essa faxina; depois cada tela pede até 5 vezes menos à pasta da rede.",
-        "Servidor local · passa a informar o tamanho e a data de cada arquivo, para o DXCORE não baixar o que não mudou (vale depois que o computador for reiniciado)."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4270584,
-  "sha256": "9a9686f6763c373a615e7f18696b740ddb31ea3bd7b29cd8631790795cc0770e",
-  "assinatura": "T/8D/kLTiqox1ofcCOke7Q0xosdwiw9xICxJufP+LjP+1GYy6CYHC8lpiG5uKZzMSK+jXQqwcbq3fgQu3iThvvAz57GYWDfvys76Tt6AhMj9tSpdVome1EaMN1QWD1Pb47obHcbq4D+dLCEynUiSWcXwo8G9qGxRcSjnmc/c9jqyyx+MF+eJwPSArk/cAE1GtfHG5dXZ5QcWPhx1xnSfkXDTO8oTC4YAf8+Jc8qkRRi/dKj87VtcnZlgR0fd8nQLQmGUIIaHWc13AQVcPkKn9vRCmF614o1QnFiWYDRJT9Rw5ke/KBSK6tG0C8JMyat5kwOPA9Kx7DeA+P+fY60R2A==",
+  "tamanho": 4273840,
+  "sha256": "daaf53ae10c9a8d47ec4c3845bb8b3cf53fcd76d721c4e32f5f6ff1597b6a393",
+  "assinatura": "LmGMqxYrzCT7OHo0zY18Op30jpHr8sELtwsnnwvJo4Af77La2eNU9MZuqFiScQRr58RJXcnrfo/4rLtaz+1AXJWBGUpRVc8ESif+EnPuElQ0Ic9gaxt6+/89kRDaD/grc+SWoChXOatoL8Rdac8WlTWCvj+qzAVow6n56zhRxo9h/1c4nITuK53PbgK9eQdaE6JQpcWONQLpFH41+vEX+9PuNGH9K7oB26Neytatjpzygeao4nlCWNDw0OKvJSTC5++pHltHYwIIeHCuVjduZK50SIkuG0RszZUDjJ+dMxPZunLofYLFFu6ErKGcPrFwosGkodj37E0K8HacPCv5JQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -152,5 +149,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "j4OY2LwcGlSdapfXKZstD0E0CD85/yoN9rrzpB8v+xJSSGcOa5RhAbgOf/A2sa0olqMyTI41OZj7Xv77xwYLeQYsWjflwN4OzgqkiKcIaM0K6OXd//YTNlXiWuJhyGrkfgI4OCYEIFMnVEBdkP/VBzgT/FTo/F0SwthavPV+6Bnwtmn997jUB+ajPKW2144z4RRUp5Sv+GuE0nAksjURnGylB74Ff399ftys0JpDuyn1OpvTb4OzPfRT22cSWJF/cpQ9gQaqt8k5wEUNPjVLpoHZsqiPn7Bhuf46pBQQ3QAjd8/NfiqaVW47fJXAmtGbsPQy43OkUEPf+AvL8icSKA=="
+  "assinatura_extras": "eTbJm/z1x6Q824qLRsGE8pVmuOxay0n5j9ARb7WnLuPid73cSdjzByFWtQYo5H2fI4D2ZAux99ff83dL2LXR3sdGB+uGJs5cD1aoD8Eayg7SNkS3HCJ9ssfY6/2Exd9YVeOhQy/As3/MPswlUfX8bYz49zqy+g5Z9h8s50ybvkpc2CF32R5G1POIqTFDa59Tmn5qAHC6KlqrDHOVqR0t5dFZ6EB2EfdB3a4a2ZgLK8a3nSdfXR48DeiUvySRnv+F7qjomiiDNMtZhYkrT6Wj3pm8m+rUgei5Hf8s4iStJu2kGmYR0SwqczvvUrih8kDYaqOaK/9SD7dAAuXHZV7+bw=="
 }
