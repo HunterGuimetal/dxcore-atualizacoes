@@ -1,10 +1,17 @@
 {
-  "versao": "9.48",
+  "versao": "9.49",
   "data": "2026-11-04",
   "notas": [
-    "Gerador de peças · a cantoneira pronta continua sendo cantoneira depois de editar o desenho (mudar Ø do furo, arrastar furo, girar, linhas editáveis): o botão segue Orçar cantoneira e nunca manda para o Limpar. Furos e recortes que você mudar à mão entram na conta de corte e de contornos do orçamento."
+    "Assistente do DXCORE (botão Assistente, no topo): responde como fazer as coisas pelo Manual, calcula peso de chapa, tubo e cantoneira, abre ferramentas, orça cantoneira e muda parâmetros (espaçamento, margem, mesa) por frase. Funciona sem internet. Tudo que muda alguma coisa pede Confirmar, e cada perfil só faz o que já pode fazer no DXCORE."
   ],
   "historico": [
+    {
+      "versao": "9.49",
+      "data": "2026-11-04",
+      "notas": [
+        "Assistente do DXCORE (botão Assistente, no topo): responde como fazer as coisas pelo Manual, calcula peso de chapa, tubo e cantoneira, abre ferramentas, orça cantoneira e muda parâmetros (espaçamento, margem, mesa) por frase. Funciona sem internet. Tudo que muda alguma coisa pede Confirmar, e cada perfil só faz o que já pode fazer no DXCORE."
+      ]
+    },
     {
       "versao": "9.48",
       "data": "2026-11-04",
@@ -110,19 +117,12 @@
         "Limpar / Converter · mandar peças para o orçamento (Orçar esta peça, Orçar todas/marcadas) agora é só no perfil Gerência. Os outros perfis limpam, convertem e salvam o DXF normalmente.",
         "Limpar / Converter · com 2 ou mais peças marcadas (ou Marcar todas), o botão Salvar DXF salva todas as marcadas de uma vez, não só a peça aberta."
       ]
-    },
-    {
-      "versao": "9.34",
-      "data": "2026-10-29",
-      "notas": [
-        "Visual · vidro estilo Apple, sem cor: fundo neutro com luz branca suave e as caixas, cartões, listas, janelas e o cabeçalho bem transparentes, desfocando o que está atrás, com brilho fino na borda. Vale nos temas claro e escuro, desde a tela de entrada dos setores. A luz laranja do fundo saiu."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4282012,
-  "sha256": "c52bfc3d072374c5ef3288c6c2c8f0f628622cd89957e56e6ada48d7867553f2",
-  "assinatura": "jT7JXMHWDB7V0vNSGDdAk6Ew+UBrJhDJQk1hyQOgdgTJkDauEjH7KaI37CNwTP0dYP+Ko8tNolPpPj2+nqMUaSxrMsaDIg5gd0QFkeVBxCV+ya8B9+oqg4y6l6IqSFNy/KOXTJgO8fhwuPv1yEEu+I0oz+XzJwYaVMNC0jOvtE2UzhCVbPQiugjU9r4mnUamXYne6ttj0rk1VIw12fJkVQEkDOXajMxmnTo7BeMNvKFRN3DabcPH3oUsZ8tUuUnnrBgtf2umL6yL5u3GA1b0+VEbRTzl0ndDIWrh4eaJDz/azPNKzqmgUyxsMN4jE8UIHPaCShOo1c7solhOyxC4Fw==",
+  "tamanho": 4305940,
+  "sha256": "7c86205ed5f8182d2df0fbcdac5c76f28166129e9e64134e26296d64551a2021",
+  "assinatura": "NhtxTz/PouX1ASW0k4qkzyuuAyRIAJRiObvvCpCES0Z7GGQs4spz05wcXTfPIFpe25OJl229JrHnt0SqwBApIdBm4EaTdrpQcCvw21wH7MEn7gfF3zi6XDuTdnzYdgL5IXfNNZbWlqCasV3GNNh6+4lL6/5FkPvwGhefcyKILQy5MyfCop9baP0mX+TVc3wlyR9mjVZevkMT/ywp5lhW6VFhbtDcKBY+Jz/l1hPapDSxn4gcK8ZIvxYoMr8TY6IAkTTAKY/2wfR/feynn3u6La55pu6Q+uVn/o8XeLDpRBL1jRy6o+9DCd1XX+3gjcPzzqpc0AFkYUoQB7qItZ7tSA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -145,5 +145,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "HTpt2Sz8M1WGRhiBczmtM1RXGrDva+gNXiSuYpkz4PMkRsaMAuwUONuVqnGgUAgLCEvPhBuPJAugcHkr3RLquuYhXCuAhkL3H4kx1D2lwHj3Yj3DMx/A0BycPA+5e5gwkStWhEW+QqG7ID2BzfOlKVOUiDV+VKtlTxlxtpyER1ieDDbdPZ0LhBXJHqZwU3DqxJ65zFX88aQF+tvvtsiCSN2xsF0w2MoUF2RvAQB5M5u4yR5v3khLyAtDUdh/rzmHDMsujxlZIoQHo9QCxM6xuzWWFjBAX4h7adjRO1tvJQTzIVYaLfIPi9na/WbKIKr/2RBHfsIGbEa1IuFYKYQuqw=="
+  "assinatura_extras": "hv6VQ8e5UqQ9+AsYloIFBSNdyGmuHSW2ResIcSvW6C4fqxwjapd1VrReBLV7bwHFJy7jBNzqw1+F4+5Yql12Uvfuuz5rFxuxRKGr/jdGVEegEfDMd4OZFfY/a1VC1PxRxyAG53RLPcfAXQW9pQhiVjOyJ22b4CpVKMgba/WHi8/o9Gywt4Hy43DohZQlmHaq9LkeuojfVHXr6n8RsPvyeLJxLoibL4EY8p4wKdxoyKs24OoSUPFYxprlBBNo+yqoMJO/Rtk8hyQefw0TneYYCjBsH/RUIiozxqouNiZym9ALka2ba1XnVFSRd9BXo5XbTQLmBfaN0XqxwCq+N8r7og=="
 }

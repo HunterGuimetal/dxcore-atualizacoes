@@ -1,8 +1,8 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.48** (2026-11-04)
+Versão atual: **9.49** (2026-11-04)
 
-- Gerador de peças · a cantoneira pronta continua sendo cantoneira depois de editar o desenho (mudar Ø do furo, arrastar furo, girar, linhas editáveis): o botão segue Orçar cantoneira e nunca manda para o Limpar. Furos e recortes que você mudar à mão entram na conta de corte e de contornos do orçamento.
+- Assistente do DXCORE (botão Assistente, no topo): responde como fazer as coisas pelo Manual, calcula peso de chapa, tubo e cantoneira, abre ferramentas, orça cantoneira e muda parâmetros (espaçamento, margem, mesa) por frase. Funciona sem internet. Tudo que muda alguma coisa pede Confirmar, e cada perfil só faz o que já pode fazer no DXCORE.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
