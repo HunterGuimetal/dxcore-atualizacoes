@@ -1,10 +1,17 @@
 {
-  "versao": "9.46",
+  "versao": "9.47",
   "data": "2026-11-04",
   "notas": [
-    "Gerador de peças · a Cantoneira com furos e recorte vai direto para o orçamento: botão Orçar cantoneira (só no perfil Gerência). O item chega como cantoneira pronta, com abas, espessura, comprimento, material, quantidade, contornos (pontas + furos) e os metros de corte das pontas, do recorte e dos furos já calculados."
+    "Gerador de peças · Cantoneira com furos e recorte: novo campo Como vem a cantoneira. Pronta (laminada), o padrão: vai só para o orçamento como cantoneira (corte e furação), sem dobra; Baixar DXF, PDF e Mandar para o Limpar ficam bloqueados com aviso, para não virar chapa planificada e cobrar dobra. Dobrada de chapa: continua planificada, com dobra, para o Limpar."
   ],
   "historico": [
+    {
+      "versao": "9.47",
+      "data": "2026-11-04",
+      "notas": [
+        "Gerador de peças · Cantoneira com furos e recorte: novo campo Como vem a cantoneira. Pronta (laminada), o padrão: vai só para o orçamento como cantoneira (corte e furação), sem dobra; Baixar DXF, PDF e Mandar para o Limpar ficam bloqueados com aviso, para não virar chapa planificada e cobrar dobra. Dobrada de chapa: continua planificada, com dobra, para o Limpar."
+      ]
+    },
     {
       "versao": "9.46",
       "data": "2026-11-04",
@@ -111,19 +118,12 @@
         "Proposta em PDF · segure Ctrl e clique nos orçamentos para selecionar (no celular, toque e segure; Shift + clique marca o intervalo). Com orçamentos selecionados aparece a barra para Selecionar todos, Cancelar ou Excluir (com confirmação). Delete exclui e Esc cancela.",
         "Visual · efeito vidro nos temas claro e escuro: o fundo ganhou luzes suaves paradas e as caixas, listas, cartões, janelas e o cabeçalho ficaram translúcidos com desfoque."
       ]
-    },
-    {
-      "versao": "9.32",
-      "data": "2026-10-28",
-      "notas": [
-        "Calculadora · Parâmetros e preços: novo campo Mesa do laser (comprimento × largura em mm). A gerência coloca o tamanho da mesa da máquina e o DXCORE usa esse tamanho como a chapa inteira no encaixe, na escolha do tamanho da chapa e no aviso de peça maior que a mesa. Padrão: 3000 × 1500."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4279752,
-  "sha256": "677d75fa46dcd31ae1498ede7b7d2c1e58eac7812dda560c677f0e49f7bfc392",
-  "assinatura": "OhWsxlhZo5eAvyU8Piwsm/drYvQjRD2xTUQzWKTgyPx9QDhqZz9Sd9MewqWZbpQgEzrwantY82O1b3Cisp2prx/NC1WGQzXcV4i3xrf3OsDyr78L0vXD+W5R6tsCSN7oJmZwaejDqE4Y7NkKPPh3XRzB4XndaW54L259xhcABKe8P5UkyZ9A/aNf/T1NQQqP4aH9Quz6V/qYojbowbkrj1bpUkaigx1M6QczuckCynJUQYbJXj3iV6yKCROf1svfgq9PJHra7uh9GPRJUFnwU+jNLqOm15huNyuMy/PApXzndIVtbOAjJNOyrz8RZrflHgOWpM5l1M0e/hLjOlr/8w==",
+  "tamanho": 4280800,
+  "sha256": "669adfcc7f6be04726c69c44d1e8eeeeae6cf16299d2835f5f58ae439714961b",
+  "assinatura": "RRPOkl6C9yTFRN2ZbYK663Z2sZXa6AtUjZYbbqhdEnLpY0ELTekYw9La/lYL5MO0A01XLGQn28ca3fU1riQ9+EpDYfC7Zv51hQ9z3pJMxxgAF6DemSEft9I0anZ7qhbr5zMjMiwyc/WImhRjEgl+J6Gp23WvjZudQSqYNEBx17P6Sk1I0ksnEE3eK7j49zA7YV1zD5Ar2acaUY/qjNOFzQ4/KhEV8WET6v3uWIHf9Wv9wY4f9EjWRyY2g98Ag2AJOIOki43YY86HfNlvnw0QlRZTZQEc4+W7k9TM2K4eCsrK3IyaVh0xphgFeZDzJE4aUlJuQ1x20DtR4SgdabjPdA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "X+rIDbLRCXl3I6gj/Cy9ll1xxHlwQhPWXDbeA+hcWXvib5oeyVwnZLQocX6W/1FnSHvbnLBK/wbUzSLyYel6KDgsvUgVPVIi8eYID1gcZ4dBLIuUeSWxry9j4zJ6dEOADGnxW9PTh6NDBBaihWE3wYBfeBToSh/i28fCbLtf2A86G62eCUp8yt3RNJN/KvGduyDXRnTqIAEULHL053FjMs7nhvyOAUw5A7H7+An9VO4YwJRwLiwCDGUUhAWimCoSxFgXEPtdORY8qIWeLSS6MvPEKsypBAX8Y8uPjsYHfGl9h0iovbaUn4eJAOwSKeR4AMZkPYTPITQy2aYzrS+5TA=="
+  "assinatura_extras": "Z3anqbhxyuW8GeozLd1XVZNjn1XpNMcNc8LYunNqkWRVIEKFZwyKZNt06Bgvq0vg+kpHI7dUdXr/04x7Uv69s490gZzc1gemfwxJmQaMlYtzm8SOYoWr8UE+/F9F9JWa/rToBJpKW+EJ3aSHvxTV2p62ck6A+VeMZzWY0kM9yLntvzCs/D7Ko4n1EWciSuszdq3V+DrdyELupmJGObVNzEIYvKQZnGBIwI7iGAN28dacwiFp/K+wlWt4vuTkum5I41hK4h8RClS2LKFwo4LV8SxyFzALbmhxBvmcdY6qMkGILEyejWwHUV+M1WRobthRNyhCRXvjyZ53Tqgvl49jcA=="
 }
