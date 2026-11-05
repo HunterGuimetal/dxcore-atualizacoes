@@ -1,0 +1,11 @@
+{
+  "produto": "DXCORE Finance",
+  "versao": "1.0.5",
+  "data": "2026-11-05",
+  "arquivo": "DXCORE-Finance-1.0.5-atualizacao.zip",
+  "sha256": "ba88f84c2b219c08bb10cc1b8a3dddc8c46c9216ca8d4ac8839a5307a3856338",
+  "tamanho": 10245393,
+  "notas": [
+    "Atualização automática: o DXCORE Finance agora se atualiza sozinho, como o Industrial (confere a assinatura digital, faz backup antes e volta à versão anterior se algo der errado)."
+  ]
+}

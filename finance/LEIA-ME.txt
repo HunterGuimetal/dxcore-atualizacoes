@@ -1,0 +1,4 @@
+DXCORE Finance · atualizações automáticas
+Os computadores com o DXCORE Finance instalado baixam daqui sozinhos.
+O arquivo é assinado digitalmente: não edite à mão.
+Versão atual: 1.0.5
