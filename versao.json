@@ -1,10 +1,23 @@
 {
-  "versao": "9.52",
+  "versao": "9.53",
   "data": "2026-11-06",
   "notas": [
-    "Projetista (Produção, plano Full) — fase 1: converse e monte o projeto sob medida. Modelos prontos e editáveis: estrutura de banco/aparador, bancada inox com espelho, estante, balcão com portas, caixa de chapa e plataforma/mezanino. Entende frases como quero uma bancada de 1800 com espelho 150, 2000x700x850, prateleira a 200 do chão, tubo 50x50x2, encaixa uma chapa 600x400 na lateral direita, cor azul na estrutura. 3D com montagem animada e cores; prancha técnica com traço de caneta digital (isométrica com etiquetas numeradas, vistas cotadas, solda, lista de peças, sequência de fabricação e carimbo); lista de corte, planificadas em DXF e envio para o orçamento."
+    "Projetista · 7 modelos novos: mesa, carrinho com rodízios, armário, prateleira de parede com mão francesa, rack porta-pallet, escada marinheiro e coifa (13 no total).",
+    "Projetista · novas frases: chapa dobrada em U ou L, reforço por baixo do tampo, furos em qualquer peça, travamento em X, rodízios e cuba (com recorte no tampo); entende medidas pelo número junto da palavra (bancada de 1800 com espelho 150, 2000x700x850, 1,2 m de profundidade).",
+    "Projetista · planificadas com raio e fator K de verdade (mesma conta do Gerador) e botão Mandar para o Limpar, com a quantidade de cada chapa.",
+    "Projetista · vista explodida no 3D (animada) e na prancha (guia de montagem); a prancha se desenha à caneta ao abrir."
   ],
   "historico": [
+    {
+      "versao": "9.53",
+      "data": "2026-11-06",
+      "notas": [
+        "Projetista · 7 modelos novos: mesa, carrinho com rodízios, armário, prateleira de parede com mão francesa, rack porta-pallet, escada marinheiro e coifa (13 no total).",
+        "Projetista · novas frases: chapa dobrada em U ou L, reforço por baixo do tampo, furos em qualquer peça, travamento em X, rodízios e cuba (com recorte no tampo); entende medidas pelo número junto da palavra (bancada de 1800 com espelho 150, 2000x700x850, 1,2 m de profundidade).",
+        "Projetista · planificadas com raio e fator K de verdade (mesma conta do Gerador) e botão Mandar para o Limpar, com a quantidade de cada chapa.",
+        "Projetista · vista explodida no 3D (animada) e na prancha (guia de montagem); a prancha se desenha à caneta ao abrir."
+      ]
+    },
     {
       "versao": "9.52",
       "data": "2026-11-06",
@@ -108,19 +121,12 @@
       "notas": [
         "Limpar · peça maior que a mesa do laser: novo botão Dividir para caber na mesa. O DXCORE divide a peça em partes para soldar depois e escolhe sozinho onde cortar pelo reaproveitamento: a sobra maior numa chapa só (retalho bom), de preferência sobre uma linha de marcação (a solda cai na caverna) e sem passar por furo. Mostra as partes, a solda da emenda, as chapas e a sobra de cada uma; as partes entram na lista com o material, a espessura e a quantidade da peça inteira."
       ]
-    },
-    {
-      "versao": "9.38",
-      "data": "2026-11-03",
-      "notas": [
-        "Limpar · mudar a Mesa do laser em Parâmetros e preços agora vale na hora para as peças que já estavam abertas no Limpar. Antes o aviso \"peça maior que a chapa da laser\" continuava com o tamanho antigo até reabrir o arquivo."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4412304,
-  "sha256": "53f575596c3d2b5876c3b582601c8d94376de1958872763b872acd3347e771a3",
-  "assinatura": "C0gsy6wdJMAd30IfVfqQO7hPZ4S7V9XoHn6fmcJzWiExCMIxig/t35olm+6yDUrIn2pk9ceoTs1HS7DFNkMwtBpj4BSjVlPpvrtfs1IHD+glRu9fw2kUgKHav0bHd7jt5RbBThdJgR3UvpiWQsXDINHJEjJYElLD6D32nLFUBWLewif3YpvpX+d/ahiKuNbe6zXBaGHxO9Eu/YHB7LidJdTKlKZz3CfxrKUFGoHI0cq2i6ehsHcTmhT7lvgi9r/aRtLvFdQrKrawqYKfxJP5MZSCGSDCGyijzGamm40ZcbmZVz4Ur0zr1sjBPImxTJDrXzIngPr5v6C1LDEMDKop4Q==",
+  "tamanho": 4435832,
+  "sha256": "10a37bc0274406e437e6a6e4dbdee44a7c8422a43a31f90247d85926cbf3de29",
+  "assinatura": "Ix+e+jxgDUCa3sZt6RgUOv6507dFnS8s9EuMOg8FlBgqXe8fNTNugYOPTIN+H4tRd4Z9qn4WADDWC/UCkcMeGG3mw9KSA161wjJZbPP/BT9yqnEVwOSPqloEuTZiIFHjINMe8UeqnSnyWMfXT9xNCZgNy3rx3dfCPC+XcUudEWyMn7UAEZ4pWYbjSty1GWAqnZt+A1i3pHbJfC2A/G2NUHBhkMRJmQCuldyMI0m+KuLWR8cATk84USfau2ffzoJxxFk8CSp997tUpel6VScnpYTehrOn+HK8NNw/JzOLnt0kjBSjdJ9qxICwXh2VMzGKuFBfAdumKPghLH1LAYT/4w==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -143,5 +149,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "AOMxodAjCOay6lHLMPMcnJdOdwbg0RJU2rd5YRSQruvZOlnSWUiEvdlUO+rlZuljUmG+L0mquBfFOg2SiRmKpi2zPD9ovDoqPoATg/J0NtFz3WdLKOTlrTFIsVvdzPEdbhkPXXjgxYy8h5WTl8wnNUY+uvflxFjrTU4+SrVdECF3WkSBB40F3RKU6RJ63cjjUQzAvO6gLyqcOb7m7pWAUZwvIS6l5ho7WJOjK517rb2eIY9LoqqJrik9lpNR/BvjJNxa3hOr4BWFCiwUAnskD9Y4oP/bSuIR6S052viKjXonZLNNi2j76PUSkkQ8T/sDNH+B649UcanW1J+eX8YzbA=="
+  "assinatura_extras": "VZ+mH+6HGi9uhR9IJorhue+igAKRRKIVxn9aXFUfz8VWYFaUhvyBEuWT68jRQtXO3anzEMXJOWqS+SdwcC41EEs3pnJKDe3oKuaKxHjIKasv2TW47uwMwSTUZPsGrlyXzIqvMARjlvZRIx54LI1PRozrKkF0Cc1cYBpWhu3kUAzia4nz8jXNQSsp6ROFof19sXdKgPOkaGqLngJTYdTvLTHpLGGDy8Yu1bZYViwUb+EfHpBStDNHmmpcy3ja9uXycIwipvzzR8nHlyod7HvANuesPzX2+E4WUunkGsbhZRJg2wKOyjXdNFkNN/BUqehzKubGDEZkdBedLrLaLlnxOw=="
 }
