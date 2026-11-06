@@ -1,10 +1,10 @@
 {
-  "versao": "9.59",
+  "versao": "9.60",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · HUD de engenheiro no próprio modelo 3D: as respostas aparecem como etiquetas presas nas peças, com linha de chamada, que acompanham a câmera quando você gira, aproxima ou move. Laranja = atenção, azul = ok.",
-    "Projetista · cotas 3D no modelo (comprimento, profundidade e altura), sempre nas arestas viradas para você; botão Cotas no topo ou “mostra as medidas”.",
-    "Projetista · revisão, análise de carga, dimensionamento, economia, custo e compra de material aparecem no HUD; “limpa o HUD” ou ✕ fecha."
+    "Projetista · voz: botão 🔊 no topo da conversa liga a fala; as respostas são faladas com a voz em português do próprio Windows (sem internet), com milímetros, quilos e reais ditos por extenso.",
+    "Projetista · microfone 🎙 ao lado da caixa de texto: clique e fale o comando (“sobe o tampo 30”, “revisa o projeto”). O reconhecimento é do navegador (Edge ou Chrome) e precisa de internet.",
+    "Projetista · mãos livres 🎧: fica ouvindo e responde quando você chama “Jarvis, …” ou “Projetista, …”. Orbe de áudio animada enquanto fala (azul) ou ouve (laranja)."
   ],
   "historico": [
     {
@@ -123,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4570900,
-  "sha256": "a3c0ac4d90fe6e6fc85708082450c2cdc4cf6730d2ccac13d688c6483092be40",
-  "assinatura": "K8K9SWRYKtvAGqE7xEDSwQEBc65s8GAnEFSO3AgIdV0n59FlL9ljEnw/1YtwPrxiTL/HGva/HTSTpZ1Pl7yR5PvymWiRrD0NMZjVn1o366/tVO1oDOQVOS8u4X+JdgGIZMaUblqAF26o1J9eCc0j7841wVrG3pbW/p4fjsBSODk9WH8rbZm0SnMyKJ6fVayvRT/Qqa3sbAoArxJ9Swh949ZiHspJXRcVk7giPc3NUjfZYVQbMLRweBw6qj9Nkd15OZU7ctdal8rvcyUtBbGw/dbMRiymqaw7VxrBIBP2WVSM13v1vloMTScRgRTroO5c8hDqAlxXZQdgNhbNIfX3FQ==",
+  "tamanho": 4580756,
+  "sha256": "89ba62f9c9c05b0ce93daf8ae24f318cc071ad1d3987c6351096fdb997e31a14",
+  "assinatura": "apB2O8Xs9WKvgwxRz0J4MwoRZfUlWG9GBk7vx9jM3EMHx+lpRMnXMtlsJzbPp91jqUaNHPInh4fX+Th38A8yNHdoSGnkajmHZ3/4IkD7mkcNy3Cw1RmHzQQx6WESajobw0jeFQmPPds8fN34MKUrIIgWHp+7AC0MHI9A7I6sXguRjc/hrfvQvH3vhXx/OkBmlNkFNig9RZLPPaXe/T/HvNt4faODEVAyNOzOFk+vlFFcJDXpzLAmes89a1BCGfz1NJFOdMrtFsxAc8DjQU0yWyWGUT5BGQBL153fiHWR96h7C6j5e/KCaf/VAq2vvTHb3rcAA2gjxETIDJhMOJsFbw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "A14TxsyUGHBwJuUCgi5m2SFI9cFaFAa3/YXq0Nc5cMAvVKkCxyxE6Ka+2TqkKRzEp1EHKXu/nMyaxdLOJ6phpzJG9MJ5uv6Mwsq5rEDIvHrkn6ilD5JuwHWsHY9PGHx9IKtsAE9pszvlG9AIe2q3unmTSOBGlSaawjBLisRuY3FXx9QwT2XniwF/P3tD+o6qClb2ke0p+Vp1vnjRNNvFJTMiztCqrNchpLvQULr8hPtZgzmF3Z3Ve1fq2in3SUz1SD7dPv0g1cAlIXPd+5E07bdd6Jr93vYlGVpxL1/qcCadfRnbKZl/OW2lR8jLmTyxNGRbLAd5E5DeshRrFAb0Dg=="
+  "assinatura_extras": "U8/XsjVuEvOtT9wXav8ctbDGvUSm+HD0OUhyoRygW7H10Xb9Fyri7XrUvHFTybQd3pYg10Mf/hEmWW8Zz3O0gwS8CjBnJnEAB0QVyUkv95UpVxj+M50eTFWn3tq3NYajrhON65m4ypWnpuIqYZb8tNepNUWpcR5+ixsDL11XvCpDo1Mq7PQn4ZVk0yYMTNKpmdWfBo1k/DBTBZdDPpYGiba13qr0I+Z3KiLNXBIkXxR8q+9739CH1vmnkhx7VjBIjEfo1ojQww4vY/ZihXPhy7eNiSimxiSnNpW7/boiFE9jm5ohwmrsJ9xvrh0zRADri1UqJy0zX32biBWPdoMCMA=="
 }
