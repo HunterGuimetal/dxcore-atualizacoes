@@ -1,12 +1,8 @@
 {
-  "versao": "9.55",
+  "versao": "9.56",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · arraste para a tela (ou use Importar peças) as peças que você já tem: DXF, DWG, STEP, IGES, Parasolid ou PDF, uma ou várias de uma vez. Chapas entram com o contorno e os furos de verdade; tubos de STEP/IGES entram como tubo.",
-    "Projetista · montar clicando e arrastando: clique na peça e arraste; passando por cima de outra ela assenta em cima, e encosta sozinha nas faces vizinhas. Barra da peça: Altura, Girar (R), Tombar (T), Assentar, Duplicar (Ctrl+D), Tirar (Delete) e Ctrl+Z para desfazer.",
-    "Projetista · Etapas: mostra o serviço montando (ou desmontando) passo a passo, com o que fazer em cada etapa, tocar/pausar e avançar/voltar.",
-    "Projetista · tela mais limpa: os modelos ficam na aba Protótipos, as medidas na aba Medidas, as entregas no menu Entregas e a conversa pode ser recolhida.",
-    "Projetista · prancha desenhada em canvas, fluida a 60 fps; botão Orçar visível no tema claro."
+    "Projetista · nova aba Pintar: um seletor só, com o tom (arco-íris) e a saturação/brilho num quadro, prévia ao vivo no 3D, tons de catálogo RAL, código da cor e acabamento da tinta (fosco, acetinado ou brilhante). A barra de bolinhas de cor saiu da tela."
   ],
   "historico": [
     {
@@ -125,9 +121,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4495988,
-  "sha256": "2b59b760b696ac7733d4ecb55dcb298518fe0794d6c40f73ba2b1154b309edf1",
-  "assinatura": "g7LNaP66U4Omg3bhdhUAVo4nc0C6BJCOexicTP2nkJbFMLgpcqVxJZlzVyNI9OCs8Wi90ceNYQiKc2gsj5XsaxHGNeX4Cy5WIVEC9YV0/J7y8Wy6mKVKlALbW+ciy8NRonYOyU7EZ9YHtcEgd939FQLqSmyVpTlfikPZSV/rvCKcirm0PzU5dmuzFRoVDTf4lYSKW7XCYzytOTTg1VzdC+1jcGQFTgv1JHdHC6u1wvzOM8KDqgJWs6P+3rmikrABM0qlTvaIRCzDy+Fc4RKerE3NV5yRVFpEw+DFWkLck87hzSKf9pKbdqbEBGjCwEcYXSIV+NSTYJlCSZJKBwYmzw==",
+  "tamanho": 4502052,
+  "sha256": "e4481085f8d379ab4f3c7a87476f09c881a21f62958f342b01f982e4db7706eb",
+  "assinatura": "amREAn8JaLlqqHzEzLH26iY56CRFkjzNutYPFEBP+gq/gYuYIq+kUxoZELtInJK+2hA7cQjofDwfaavjbjMuapDdPqx+YFNNKDPwdlNee3K6qZPNktZbG931ukQQwRBmBX3mRzpa2nZ1eyjF4h3x4MTINiw/XSBG0DQ91elnZ8XBuyE+Erdgm8Nh/e4nVN0rVT1R3EUhRNuZ680B4cogW8gObQqx5FEbuLt8fQRQPalrdVRXl3aovue8ZNDiNH8Q6H5RgYm1VSZeiWhxhvv0P40DmSj0jZzh6D3LbkwfvQ6mxY48l9BSa0CZhZL3vo9Xrge9j7fbKg1rCI6TlTICNg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -150,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "GKsR4xombrryex6BfnqIz2QzY3iF1Niw9f94QoAlr+nixZMaJXHpQ0OzPpZtlhcy43il7O4XnqeKryUVNHaV/p/sm6Ob6MF1fJfeKkcLQj10bWZszaVpFnRG5CPUEBJlpgUlmgHANc3R7GA9fldO1Bfg8jDkBI5X67f6E0Emd5vXVu149OvG+o9KuRPbN0VjtprMJK1xB26Bea/lv0fHnFSis3HUv6vQz4xuTT1RVRmeq/viYANqu2xF/097ziya6GkYkolQSN5df9SDoaiT16UTSdTPP7Jqae4arEq0b83jQLT+BUaSTl805kr4Dn/efkPm/uhFSO0cWoneGAI4NA=="
+  "assinatura_extras": "UhQZEnVLfl7G6Z8Dbcai2NQXTMe/mS3HSySHiCa6trPC0pcs3f5cYoePlYOO2HEUekUEtXMXHHRs1zQoKiLVcdgkoLI1NNtWJZJBhbMzzWZ+REQh6xfnOqo+8ZFJpeOVREJo+rAdp9ZSdY/0MdNm1W0v+FvPxP3Q8iNiC0SJQF7bvCkChHapPXSaTdIBKJZEXQhrtPUU4RrrriMiMntDNUKXq70yGlmGC/pHou2j4ij7jD4awlmsHbSBM2DLEX2oR4RkdN8K3IHiT2y7+vR0HdAQeJ3+HZTo+Xw/5qiNFScBJ5OAc0PgaABWQogQdt3CESsXst9Dz98jJ2dz/gSixw=="
 }
