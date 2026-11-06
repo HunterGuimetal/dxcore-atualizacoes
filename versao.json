@@ -1,11 +1,10 @@
 {
-  "versao": "9.65",
+  "versao": "9.66",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · “otimiza o projeto”: revisa, testa cada correção numa cópia, aplica a que mais sobe a nota (empate: a mais barata), confere e repete — ex.: bancada de açougue de 6,1 para 10/10 em 3 passos. Um “desfazer” volta tudo.",
-    "Projetista · “e se…?”: simula sem mudar nada e mostra hoje × com a mudança (custo, peso, carga do tampo e da prateleira, nota) — “e se eu tirar o espelho?”, “e se a altura for 950?”, “simula chapa 16” — com botão Aplicar (ou diga “aplicar”).",
-    "Projetista · uso do projeto: “é para açougue / peixaria / cozinha / laboratório / hospital / oficina / depósito / área externa” muda a carga exigida e os conselhos (ex.: inox 316 na peixaria).",
-    "Projetista · rodízios: calcula o menor tamanho que resolve pela carga de uso real; peso acima de 50 kg deixou de contar como problema na revisão (só acima de 100 kg)."
+    "Projetista · visual mais realista: tom neutro (menos contraste), inox escovado com reflexo anisotrópico, tinta com verniz no acabamento brilhante, piso de estúdio que recebe luz e sombra, sombra macia e sombra de contato embaixo do conjunto, arestas finas e discretas.",
+    "Projetista · mais nitidez: desenho com supersampling (1,5×) e antisserrilhado.",
+    "Projetista · movimento com o mouse suave: girar, aproximar e mover a vista deslizam com inércia, a 60 fps."
   ],
   "historico": [
     {
@@ -124,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4624712,
-  "sha256": "6cb1502b9b59170d986f89dc763bb2023cedbf16e75c35be2f6fbb0292bbc8f3",
-  "assinatura": "aPu0Z+miPY5UKfsd2HlwMly4rfJh5rVVJiA58mIIxINICYCCs3szVwA1oUK+hnZoKE550P1Jg2efaNe2i+5fXi4zpG3KA09UYPayeAUNlovxVhiM3ixYTE9QrHpZ5kPUSwBdECcVhwEhTgtbT05x0BvIyQInnr1GS/CXmOYyrfThpuhKtYj9nggXEFSFZfOEOTQu01FDKrAFKZNeYXnufpuvjxz3UTY275xmOeo9zE+Zssk4WhnPXJryPliwehgOYMJ6XDMbSGk+I4S4wFzcwyv+yPNAPxYlZTWf2xl6EUReqWUL76mgIkQkSkKj7CRhgqKwhogbFF3EFiqXCHWySA==",
+  "tamanho": 4626932,
+  "sha256": "0ed31e762f01cfa3b768861c5e977715661252264179ade1b7970f1a0b99bef5",
+  "assinatura": "Bz86eFvokKqaL7vkfeO5gHDgqgdzUl/ss+F+hBEzpMifA+hmlIC3aBVTRNg7z4CsGA8dYhAASTCm0CEih6wcG7fPgm/kL855tV273aCLMy6U7mAKrDs/zVKN/WiHBtWfNLZAxOfCSq5GcIXkAfyO99khEfvSQVODVELmMBxTDmtMCV+Yx7/yOTKqMZL7PPW+6ZYsxBHDRE+Zvx8Xv6FUvsE8D+BU/cRDCTVzgUQgLAl0UtoPuYGfItM59GAzDrxoPROvqNXHXGNcNljZClTRvUAq5YOEpyHghWjVe/SAbUbj2tWlYWmFFelkA0fI1rRUVPq7+CBP9dp+Bt5nWn88dQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -149,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "MT0ltcm3Ikw2YrZn/qmzEQ7wf8XoJL8fECTCg1WaDelB4tgoy3bQan8WmkCyj62zzrDV46XCq+WAmC7LbqLwl1FVMesf8U+QQIE0FeJzdXwdGhpUkR2NLJaui8fXdJCiInZ3dzvWoXeLS2j6L/rFRwQgxDzwtVqmjFO0RlOb/Q2n4hynZMhEuHwIjL6Xp2P6bNgQfxjFZg5Pjx3GH8887gz9tThKQDZJAQe6pkx6SugqXadm0W1vWgf8Cw05whgXeetS1eb5vU9Eu0Kmv/PKJVmlUVpJubBpYNY3R0z+VOgHm7yRuZ6B/vjj+2ce25PcntvmIbLVhVCV7xUwQbPnkA=="
+  "assinatura_extras": "QuP1i3XEnbWn94hSqO0suyQ/PkXdkobBRrC9gWhQG6DJ7rC/5YHliVuRfzBYsg3AYRbHbWnKokdS5paYKjXdcoQFyCmT7WzWvD/ZqZ9qzpcI+Ulm2M+Ul5XJcwzyjHD8fkdt27CB/ynSzvKlljawXZxbmrA65zPE6d5NEoDkNSu2XPa2YWpLUi+Ux0yxHdAxOaLaSj0oPAZBlPfyQ1hSVGso9HQl6b31+MSzWDmEd1Zc6x0gOFmBY4ldW8agTgByI5CatHHRPIOzVM0THbzDtlsk3JPgvAPE2wGNmzITesBlDpHCYNq3GUeS55iPEfSC7u84y6drL54I80WBmy4cMQ=="
 }
