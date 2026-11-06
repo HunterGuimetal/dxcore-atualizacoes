@@ -1,11 +1,10 @@
 {
-  "versao": "9.67",
+  "versao": "9.68",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · qualidade automática: em computador mais fraco, se o 3D começar a pesar, ele baixa a nitidez sozinho para manter o movimento fluido.",
-    "Projetista · visual mais realista: tom neutro (menos contraste), inox escovado com reflexo anisotrópico, tinta com verniz no acabamento brilhante, piso de estúdio que recebe luz e sombra, sombra macia e sombra de contato embaixo do conjunto, arestas finas e discretas.",
-    "Projetista · mais nitidez: desenho com supersampling (1,5×) e antisserrilhado.",
-    "Projetista · movimento com o mouse suave: girar, aproximar e mover a vista deslizam com inércia, a 60 fps."
+    "Projetista · estúdio de engenharia em volta do projeto: piso de concreto em placas, paredes, janela e quadro de prancha técnica. No tema escuro é noite, com luminárias acesas no teto; no tema claro é dia, com o sol entrando pela janela e desenhando a luz no piso. As paredes somem quando a câmera passa para fora. Botão 🏭 Estúdio liga/desliga.",
+    "Projetista · 📷 Foto para o cliente: imagem 2400 × 1650 do ângulo atual, com faixa da GUIMETAL, nome do projeto, medidas, material e data — pronta para o WhatsApp.",
+    "Projetista · ⟳ Vitrine 360°: o projeto gira sozinho e os painéis somem, para apresentar na tela ou numa TV; clique ou Esc para parar."
   ],
   "historico": [
     {
@@ -124,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4627448,
-  "sha256": "d8e16234f2cb875e8f61e89e3c1ac51cd955e46eb72573ac81723e8887e9df5c",
-  "assinatura": "g0bsRAwjx5tM87AHUbOOWvh9rCGesX2c9DSlV/cEaJ18rGy+vrgQLKk7qoSZY6CKb27ByPmb8+OEy/AnEJNZ5BThF5P6yR1cpSWZEVfZhRnBDhexMZzF69HTulsE9eCGjIlsod1YiFaAKxJGfsLKxymXkOSu+JJhu71TwOa7a99h3PGdnKgd8EtKtFnbbrMflToePlKqNgBdJIbpBU1qezB9Z+zJDMAGCDh8K+Vr6ato8nXPueBvedPD7e04zKw6JL9DVTG4DfD1kKIrPqOnHC+DKDmyvqh/nje5HsyveNEsF4sAcA3fXjoQfwMaz6mA8MLRoykBATmwq4vWKfMcBA==",
+  "tamanho": 4642344,
+  "sha256": "37f0287112b68dd7d97c74db219c97ca2286ca4a75929d020fe9aa1349a1ed53",
+  "assinatura": "U6XnStkYjpjzPmDw/2TzyNQa3hKQOBv0miL0kdquFl/617CvmCdPCaXnguemg9GYQ9beQBgcZV9WLPyXkowkLoiDc1Q6Zle/N3VwC4GpskJHAldfLH0siX/HV8fBJFFIQzmpmlHslxvxMZAdaX2Cvo0L6f6yd4ebi0gw21LczR++PFe0H/EW7kKmUBpn5dx7nl+bIhqnCs759SNAFLE2+yjO0j1lCey2E0HVOVA08EceKYEUlESzibS3omEChMaKwC1mO3/qWdoUn/diHliEX/VsdnLHjL2ES1QJI9zKID+0mm+/uj2zbVHNQA2dUw66sjCtnnWCoLczRIDzbUUDdg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -149,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "A8BMOkuLMoxNsA2oXo2cgC/uCzbZ8BdRcqj9Q9O/r/HflWNdSd1PMDEjc8OIvnDHhQSXf57CybAF7l1oxXk3dEPv31SzKUhLaVn4q0zdbLCI/WADAYR0dhgfaZGiAgPrLTTjjq2B97oBV9PNV3cx0QhHh8ElGwlr0Q7Cpbs4uWijEL5oiQDFFQMm2aE4/+3lmQjBSaiIUJ8lZn86l2dmp8PTdeDx8kcJWRGCo5pzCUbbHCZwU5kh20qhv3K+G3B1gEEpYlYTUQV5YfWu6lc5O6/KBAgJPQbFfHbyvmLa0wlBLad7A8BbbBDdQRI5xqpmzl/0L1jMGcv7KJruump8aQ=="
+  "assinatura_extras": "GwVpnBEx6/MGF0IFxML8oppiNaMCikKvBJHnfWATHZAJSnAKqKA77HjauBekC8ZPoATDVD+VIphKuNcwoWKCke0jmkgBJi350lEEPHk4nG/Ne4VCuqR0iq/1CSIvkiJCsSjYObBhezrb5XzGK5Kz4OgYkRRE9OSd1G+u7qCK5veqApcNlbhHsD41/ZdDJh0uFxVdIwYE4fFkfOCDQfrYbyHzxJCWSsfh3pKIjRBuosrlYR+nDhflwmWzT+suQojd/vhttXatS/pOHF1/BN86Lhoei/W3jPhNF0zHcntdmxbujDqYOewaTrwNx2CpSG6xTBLmvMo1Lhw1aFVBL1IZ6Q=="
 }
