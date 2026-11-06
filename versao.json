@@ -1,10 +1,17 @@
 {
-  "versao": "9.51",
-  "data": "2026-11-04",
+  "versao": "9.52",
+  "data": "2026-11-06",
   "notas": [
-    "Assistente · acha e abre orçamento por palavra-chave: abrir orçamento de AMATA, abrir orçamento 2026-0012, orçamentos de cantoneira. Procura no cliente, no número, no título, nas peças e no vendedor; com um resultado abre direto, com vários mostra a lista (do mais recente) para escolher. Só para quem tem acesso à Calculadora."
+    "Projetista (Produção, plano Full) — fase 1: converse e monte o projeto sob medida. Modelos prontos e editáveis: estrutura de banco/aparador, bancada inox com espelho, estante, balcão com portas, caixa de chapa e plataforma/mezanino. Entende frases como quero uma bancada de 1800 com espelho 150, 2000x700x850, prateleira a 200 do chão, tubo 50x50x2, encaixa uma chapa 600x400 na lateral direita, cor azul na estrutura. 3D com montagem animada e cores; prancha técnica com traço de caneta digital (isométrica com etiquetas numeradas, vistas cotadas, solda, lista de peças, sequência de fabricação e carimbo); lista de corte, planificadas em DXF e envio para o orçamento."
   ],
   "historico": [
+    {
+      "versao": "9.52",
+      "data": "2026-11-06",
+      "notas": [
+        "Projetista (Produção, plano Full) — fase 1: converse e monte o projeto sob medida. Modelos prontos e editáveis: estrutura de banco/aparador, bancada inox com espelho, estante, balcão com portas, caixa de chapa e plataforma/mezanino. Entende frases como quero uma bancada de 1800 com espelho 150, 2000x700x850, prateleira a 200 do chão, tubo 50x50x2, encaixa uma chapa 600x400 na lateral direita, cor azul na estrutura. 3D com montagem animada e cores; prancha técnica com traço de caneta digital (isométrica com etiquetas numeradas, vistas cotadas, solda, lista de peças, sequência de fabricação e carimbo); lista de corte, planificadas em DXF e envio para o orçamento."
+      ]
+    },
     {
       "versao": "9.51",
       "data": "2026-11-04",
@@ -108,19 +115,12 @@
       "notas": [
         "Limpar · mudar a Mesa do laser em Parâmetros e preços agora vale na hora para as peças que já estavam abertas no Limpar. Antes o aviso \"peça maior que a chapa da laser\" continuava com o tamanho antigo até reabrir o arquivo."
       ]
-    },
-    {
-      "versao": "9.37",
-      "data": "2026-11-03",
-      "notas": [
-        "Limpar · PDF de projeto (planta baixa, vistas do móvel, legenda de acabamentos, como os de arquitetura do ArchiCAD) agora é reconhecido e recusado com explicação, em vez de virar peça. Antes o Limpar tirava \"peças\" da legenda e das etiquetas. Para esses casos: peça ao cliente o DXF/DWG das peças ou o STEP, ou desenvolva as chapas no Gerador."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4324880,
-  "sha256": "797867982678b6e3c04da07d04737958dd7b9b8a97605f7f194040c72cdf4f90",
-  "assinatura": "S7tReOFY1g9EYoLnmDzsnwdRqO8uqHqpDVS/FNCYUf01MTd6NCIBAFnY92n/6b2moAFrTdkw1XuqwcrFGEaCh+XNftmWjlImjidaP3p3EJcL8vVhYqF1XjQcnK7BYroC/BcKTGwA+RKvAYg+DIywPAYRoH1Jy3yJwyuEhCgFIk7FLl6GN+gBJGZ9WXN++cKLv7XAjWh23HDge1OOX+jwgC00jNraEW4ea/3hp5nZThVe3JvhQ2HDDiQmVE+SRrpsZb7xTnjOUz8udhaoM6KWB7pYDbmQLtKoHcoYgzTZrMA1nEzymFvJUS128+NqcgH2iEpd5g/88qPaOCsKhHOkIw==",
+  "tamanho": 4412304,
+  "sha256": "53f575596c3d2b5876c3b582601c8d94376de1958872763b872acd3347e771a3",
+  "assinatura": "C0gsy6wdJMAd30IfVfqQO7hPZ4S7V9XoHn6fmcJzWiExCMIxig/t35olm+6yDUrIn2pk9ceoTs1HS7DFNkMwtBpj4BSjVlPpvrtfs1IHD+glRu9fw2kUgKHav0bHd7jt5RbBThdJgR3UvpiWQsXDINHJEjJYElLD6D32nLFUBWLewif3YpvpX+d/ahiKuNbe6zXBaGHxO9Eu/YHB7LidJdTKlKZz3CfxrKUFGoHI0cq2i6ehsHcTmhT7lvgi9r/aRtLvFdQrKrawqYKfxJP5MZSCGSDCGyijzGamm40ZcbmZVz4Ur0zr1sjBPImxTJDrXzIngPr5v6C1LDEMDKop4Q==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -143,5 +143,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "SVslgFS3Okg73nZ8QTRBdctifwbsmGY6g0tCWk5QAuuZnEAuHYquV4LK3ev/gIsj65vHsnCk9zxD1RkAAKjDeEf+co6A6SbKDA3chEkfdU+jEsfus8C6tk/3a45TWGGwY6nOPoDfPQQhv5VtsURjswvMTQv1T62FgKQKH+xei6PQH5TUvBQV9sQYlQmCEXWTSrbPYz02kbrUBCu1bJtcxYV1r1klyMP8K2fu9hAD8zCUr1C3y20OkcY47q1c4kqNeSxtvnqozTwJG2OD2dlTnKB7zGmmNYBr2jn4vaepWQZGJa+RZaNRyb+SQfdoPVvQx/CJh+4jrSXaJH8AEzDsAw=="
+  "assinatura_extras": "AOMxodAjCOay6lHLMPMcnJdOdwbg0RJU2rd5YRSQruvZOlnSWUiEvdlUO+rlZuljUmG+L0mquBfFOg2SiRmKpi2zPD9ovDoqPoATg/J0NtFz3WdLKOTlrTFIsVvdzPEdbhkPXXjgxYy8h5WTl8wnNUY+uvflxFjrTU4+SrVdECF3WkSBB40F3RKU6RJ63cjjUQzAvO6gLyqcOb7m7pWAUZwvIS6l5ho7WJOjK517rb2eIY9LoqqJrik9lpNR/BvjJNxa3hOr4BWFCiwUAnskD9Y4oP/bSuIR6S052viKjXonZLNNi2j76PUSkkQ8T/sDNH+B649UcanW1J+eX8YzbA=="
 }
