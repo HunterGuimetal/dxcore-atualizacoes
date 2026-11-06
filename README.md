@@ -1,8 +1,9 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.69** (2026-11-06)
+Versão atual: **9.70** (2026-11-06)
 
+- Projetista · a oficina ganhou quadros: pranchas técnicas (blueprint de bancada, fachada arquitetônica, vista explodida, planta baixa de cozinha industrial, detalhe de solda), pôster do DXCORE, placa “USE EPI”, relógio de parede e quadro branco com rascunhos de projeto.
 - Projetista · o estúdio virou uma oficina de caldeiraria: piso de concreto polido, teto industrial com treliças, tubulação vermelha, duto e luminárias pendentes, parede de painel perfurado com ferramentas, prateleira com caixas coloridas, janelões, porta, quadro elétrico e bancadas inox ao fundo com caixas de ferramenta vermelhas.
 - Projetista · câmera na altura dos olhos e ângulo mais aberto no modo oficina; noite com pendentes acesos (tema escuro) e dia com sol pelos janelões (tema claro).
 - Projetista · estúdio de engenharia em volta do projeto: piso de concreto em placas, paredes, janela e quadro de prancha técnica. No tema escuro é noite, com luminárias acesas no teto; no tema claro é dia, com o sol entrando pela janela e desenhando a luz no piso. As paredes somem quando a câmera passa para fora. Botão 🏭 Estúdio liga/desliga.
