@@ -1,13 +1,10 @@
 {
-  "versao": "9.58",
+  "versao": "9.59",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · dimensiona sozinho: “faz o tampo aguentar 250 kg” testa reforço e chapas mais grossas numa cópia do projeto e mostra as opções que passam, da mais barata, com botão para aplicar.",
-    "Projetista · “deixa mais barato”: testa cada economia (tubo menor, parede mais fina, sem espelho, sem reforço) e só recomenda o que não deixa nada fraco, com quanto economiza.",
-    "Projetista · “revisa o projeto”: nota de 0 a 10 com o que está bom e o que olhar (carga, mesa de corte 3000×1500, barra de 6 m, ergonomia, inox para alimento, porta, peso para carregar).",
-    "Projetista · “quantas barras?” (encaixe nas barras de 6 m com sobra e aproveitamento, chapas e comprados) e “quanto tempo leva?” (horas por etapa: corte, laser, dobra, montagem, solda, acabamento).",
-    "Projetista · opções A/B: “salva como opção A”, “compara as opções” (medidas, peso, peças, carga e custo lado a lado) e “volta para a opção A”.",
-    "Projetista · padrões da casa: “sempre usar tubo 30x30x1,2” entra em todo projeto novo; pedidos pela necessidade: “bancada para 3 pessoas”, “mesa para 8 pessoas”."
+    "Projetista · HUD de engenheiro no próprio modelo 3D: as respostas aparecem como etiquetas presas nas peças, com linha de chamada, que acompanham a câmera quando você gira, aproxima ou move. Laranja = atenção, azul = ok.",
+    "Projetista · cotas 3D no modelo (comprimento, profundidade e altura), sempre nas arestas viradas para você; botão Cotas no topo ou “mostra as medidas”.",
+    "Projetista · revisão, análise de carga, dimensionamento, economia, custo e compra de material aparecem no HUD; “limpa o HUD” ou ✕ fecha."
   ],
   "historico": [
     {
@@ -126,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4555124,
-  "sha256": "4893942f642a583f0905a15ac33b78242e9620296f72f1f0c29ec7970f3a9d31",
-  "assinatura": "crZ9Ux2OjP1mAfinP2SOecSqq3RR/G5Fu1ZuOZTaN0Qk1j04XMlBEWHeLF5rqbhhHbeEDUKDYwUFd5DFO2GbRfr8J9GmnzlEAb+NHlsJw9VsMldm1d3DmjyBUayDtBaebyoxYbP4gkWq63GSvOCfLO+yBdAZUR55470jNe3xmAEgVKi2yKCae7+1ziSXjEQWjNg7orXonzzMxm/GckK6E66AUJBLtJ6IJ0rBOJnHkWpNbGNpmYN2qijYAi9xoIzvE9Asb9Rqj0AcjHB01M/3RkKHaW7agTrMkAtnKUBSxK8yh5zF8gsJWGgvQFa/6GZgpTF7ufm4n5N+GIUulGyK0w==",
+  "tamanho": 4570900,
+  "sha256": "a3c0ac4d90fe6e6fc85708082450c2cdc4cf6730d2ccac13d688c6483092be40",
+  "assinatura": "K8K9SWRYKtvAGqE7xEDSwQEBc65s8GAnEFSO3AgIdV0n59FlL9ljEnw/1YtwPrxiTL/HGva/HTSTpZ1Pl7yR5PvymWiRrD0NMZjVn1o366/tVO1oDOQVOS8u4X+JdgGIZMaUblqAF26o1J9eCc0j7841wVrG3pbW/p4fjsBSODk9WH8rbZm0SnMyKJ6fVayvRT/Qqa3sbAoArxJ9Swh949ZiHspJXRcVk7giPc3NUjfZYVQbMLRweBw6qj9Nkd15OZU7ctdal8rvcyUtBbGw/dbMRiymqaw7VxrBIBP2WVSM13v1vloMTScRgRTroO5c8hDqAlxXZQdgNhbNIfX3FQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "RhmETNbpMiZ+oj0Oe525RqML8Mmv+ZyjGPpIDI5hXXF8sOez54dVClXfqdLRiU2RBwf0c5lD/XxF+i941pxac5Ki5ZC6d/G99ecip4T8im7FBKlhiVk6FCxBFNMa4w2gZ+6TpqG/A5WLA5/5dPQ9YdDO7+V/uq4YFLbPYhX3aXj1P7Ou2NS7CK05EmQdDZATTuO1VSqLnDeQdCQqTSY+IpPEHHFV2Ci85WPagW98liql/sovUne/DkklQpMbCpiViPBUsJbOuVS2NM60IW0q/1x/8A/qjiCAG7yEcDX7dajpWTknKOLnWRg3ODS40OWu86DU4XNtiE4+wq7Br8v9wQ=="
+  "assinatura_extras": "A14TxsyUGHBwJuUCgi5m2SFI9cFaFAa3/YXq0Nc5cMAvVKkCxyxE6Ka+2TqkKRzEp1EHKXu/nMyaxdLOJ6phpzJG9MJ5uv6Mwsq5rEDIvHrkn6ilD5JuwHWsHY9PGHx9IKtsAE9pszvlG9AIe2q3unmTSOBGlSaawjBLisRuY3FXx9QwT2XniwF/P3tD+o6qClb2ke0p+Vp1vnjRNNvFJTMiztCqrNchpLvQULr8hPtZgzmF3Z3Ve1fq2in3SUz1SD7dPv0g1cAlIXPd+5E07bdd6Jr93vYlGVpxL1/qcCadfRnbKZl/OW2lR8jLmTyxNGRbLAd5E5DeshRrFAb0Dg=="
 }
