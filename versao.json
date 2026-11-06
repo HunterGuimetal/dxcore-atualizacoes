@@ -1,8 +1,12 @@
 {
-  "versao": "9.56",
+  "versao": "9.57",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · nova aba Pintar: um seletor só, com o tom (arco-íris) e a saturação/brilho num quadro, prévia ao vivo no 3D, tons de catálogo RAL, código da cor e acabamento da tinta (fosco, acetinado ou brilhante). A barra de bolinhas de cor saiu da tela."
+    "Projetista · conversa mais esperta (sem internet e sem custo): lembra do assunto — “mais 20”, “menos 10”, “a prateleira também”, “sobe ele 30”, “deixa como antes”.",
+    "Projetista · entende gíria e erro de digitação (pratileira, metalon, perna, rodinha, rodabanca, pia), polegadas (3/4\", 1 1/4\"), bitola de chapa (chapa 16 = 1,5 mm) e medida relativa (aumenta a altura em 5 cm, 10% mais comprida).",
+    "Projetista · quando fica em dúvida, pergunta com botões (qual peça? quanto?) e, se não entender, sugere o que você quis dizer.",
+    "Projetista · conta de engenharia: quanto o tampo e as prateleiras aguentam, flambagem dos pés e capacidade dos rodízios, com aviso automático e botão para resolver (reforço, chapa mais grossa, rodízio maior).",
+    "Projetista · custo ao vivo na gerência: cada mudança mostra quanto subiu ou baixou pela calculadora; pergunte “quanto custa?”. Sugestões embaixo da conversa mudam conforme o projeto."
   ],
   "historico": [
     {
@@ -121,9 +125,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4502052,
-  "sha256": "e4481085f8d379ab4f3c7a87476f09c881a21f62958f342b01f982e4db7706eb",
-  "assinatura": "amREAn8JaLlqqHzEzLH26iY56CRFkjzNutYPFEBP+gq/gYuYIq+kUxoZELtInJK+2hA7cQjofDwfaavjbjMuapDdPqx+YFNNKDPwdlNee3K6qZPNktZbG931ukQQwRBmBX3mRzpa2nZ1eyjF4h3x4MTINiw/XSBG0DQ91elnZ8XBuyE+Erdgm8Nh/e4nVN0rVT1R3EUhRNuZ680B4cogW8gObQqx5FEbuLt8fQRQPalrdVRXl3aovue8ZNDiNH8Q6H5RgYm1VSZeiWhxhvv0P40DmSj0jZzh6D3LbkwfvQ6mxY48l9BSa0CZhZL3vo9Xrge9j7fbKg1rCI6TlTICNg==",
+  "tamanho": 4533520,
+  "sha256": "6e96f7aa8cc700ad0e90dd08fdbdf305ddb73e9f1c1c14b6014d74f676c82886",
+  "assinatura": "Cdc8gdThz9DY5NBXT+GGZoruURmangE7Mlcn69RblhDTTlb7b/sOQEky/MofBdqSVhrNagev/EDoYkim1Lr2b1fiCKAkqlqXsI8YDWHSwVt8+E2Im2d5kBvtmzncTF7H3QyFb9UYj65BuFurPodarRiGNgsaaI+qk3kHFYrURNFmtrUnVA75mORN+pzeMgPIr0zkq0JvSHtV7oyoHhSJUQ/CJv1rg3MNmsLB94Q1mVYbyhnc3fx3qNJ63Nw4TTC01ZeaX5tM6n2czyhsWcodMSiqXncjjpKcyn9tCs62bJfDU4SyN2kQYxSksG3bFRr+LGmLoG9yegfVavZvloshdg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +150,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "UhQZEnVLfl7G6Z8Dbcai2NQXTMe/mS3HSySHiCa6trPC0pcs3f5cYoePlYOO2HEUekUEtXMXHHRs1zQoKiLVcdgkoLI1NNtWJZJBhbMzzWZ+REQh6xfnOqo+8ZFJpeOVREJo+rAdp9ZSdY/0MdNm1W0v+FvPxP3Q8iNiC0SJQF7bvCkChHapPXSaTdIBKJZEXQhrtPUU4RrrriMiMntDNUKXq70yGlmGC/pHou2j4ij7jD4awlmsHbSBM2DLEX2oR4RkdN8K3IHiT2y7+vR0HdAQeJ3+HZTo+Xw/5qiNFScBJ5OAc0PgaABWQogQdt3CESsXst9Dz98jJ2dz/gSixw=="
+  "assinatura_extras": "J/n8AYWG7WR7ZEzSAC2LsZmI6fs9EH01aq0j/SARJYsMPmZYtFKllPRDjB4AUgi6ScYLbjuuHuXuZZbh9FmiTETnHhlBcM/t6Q8ESFVSYFHtPDvTi7WZZvP6KIHmdqlcajN1P/TNtDM460pOc/ceioR8q3bw75f3xLnj9C+PqZ/iPY3hYrCRScHjOcjLKgUyhu4bF2Xt7Tud4vY/fxbR4fjIn/WbuzXx8F10GxRoc7glkUyxy5tVY3HEc2I7UoKqImM5efDvqTimAk5KvuklCljoLuEURvhWO/PVqnE7oPOWmTVUlEWfypJpjIiqVXNGPLb74wgQq7IsIzQGrXNRlQ=="
 }
