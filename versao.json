@@ -1,13 +1,11 @@
 {
-  "versao": "9.62",
+  "versao": "9.63",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · pedido completo numa frase só: “bancada de 2 m em inox com cuba à direita, prateleira, rodízios e espelho de 15 cm” monta tudo de uma vez e lista o que fez.",
-    "Projetista · saber técnico: responde dúvidas de oficina — inox 304/430/316, TIG ou MIG, gás, raio e aba mínima de dobra, fator K, furos perto da borda, espessura e tubo recomendados, pintura, galvanização, acabamento do inox, ferrugem, ANVISA, NR-12, escada, ergonomia, rodízios, tolerâncias, empenamento, laser/plasma, alumínio, parafusos, cubas, coifa, estabilidade e mais.",
-    "Projetista · “por quê?”: explica o raciocínio do último aviso ou conta (carga, flambagem, rodízios, economia, ergonomia, estabilidade).",
-    "Projetista · confere a montagem: avisa peça batendo em outra, peça solta no ar e estante/armário que pode tombar (fixar na parede); a revisão desconta da nota.",
-    "Projetista · flambagem dos montantes pelo vão real entre prateleiras e travessas.",
-    "Projetista · projetos salvos neste computador: “salva o projeto como Bancada Sodexo”, “meus projetos”, “abre o projeto Bancada Sodexo”."
+    "Projetista · confere sozinho depois de cada mudança: “✓ Conferi: Tampo 140 → 360 kg — resolvido” ou “⚠ Piorou”, com botão de desfazer.",
+    "Projetista · peça nova pisca em laranja e aparece apontada no modelo (NOVO · Reforço do tampo ×3), mesmo quando fica escondida por baixo do tampo.",
+    "Projetista · corrigido: a revisão acusava o reforço “batendo” no tampo (as abas dobradas entravam na conta) e continuava pedindo reforço; pedir rodízio de outro tamanho agora troca em vez de somar mais 4.",
+    "Projetista · a revisão oferece botão para todos os pontos que dá para corrigir (reforço do tampo, da prateleira, rodízio maior); comandos simples deixaram de ser tratados como pedido completo."
   ],
   "historico": [
     {
@@ -126,9 +124,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4611408,
-  "sha256": "2b7cb3ba40f555533104b6c0efff6200bfd518b583e20d10c2042ebdc4f149a1",
-  "assinatura": "MIXlIKRgakw6+rboQcHl8KxsSzw0bbdZFEsbqds7zfpTW0Q5YitaDwMD1lK2JAIVZ0XePZCvzdk6t3sNA+7Z2hczkk2qDOTVKNgBF+cEfHDJGUKgGz7BwXp49rZqh2vIYt45RGHsJ5RVYrez5gzx7zQdvpQZUi8XFUXKkSfllOKJNDaeVKTjkhVvnm8SwLFP+Tite2bjf0HQXF8iCruXG3qoyQluMm/JtqZO1NWQd3Zo/IUcudK2me0GNyr2Sx9JlEjGtmaS5KAZj48ah67dGBKk6jRcmHRFVuEuw3RyDR1AseGpl05tdl/rbfUhlmfaO0T/XZ4bFaKXsaE6bXNhiQ==",
+  "tamanho": 4614604,
+  "sha256": "cad7e6aadfa32201ca11244960e3835f6afff88af32121c05fcd188a0d182936",
+  "assinatura": "ZxvbjBSFERPrhPdwmfEO95vpapWzKMTQctKkCls0bONvYpgJRwAQQSM0LBnSjXmNQiVBEA0U4ji0sv9ISW00C3nUs8Z5IuZh1wOrverU5ugDTEdGI2vb4j7eAYEwWoiGq0BvtUR1BPnLdjlVfvgts5iJ6nWlX0yzIiMd+JRLUqS+3CmeBspbVXCPmxO5+8CMF9ETMw90769e2/6wtuL0vU+cLZHgviAzSc+v2LuwglNMXDNq6tEW0BM7DXC2ySkTGuIjWnTi5bLXidqw6KLfNJSnQNAonV7cu/BWRuRWJFe0Sx/kb0rDyjDYyNFI/xe37f9ImNmsJ4lquDYIWgw7ZA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +149,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "R1Ejmcf9T/uTzZ/nbvw8vp5/duP7Yq/vHkiRVG9xJoyuXRqyelDGL0Vew1dY0rYuXx7FCsuxV0X4HwQg7wMOGqRGMD70huLsGvE3czLTtvcM2qCa9CfeME+cSL42ymDCjahLHOPz4z4JHtf/Q4CmSO+4uNQ2bJeKsXU+/fHSQvz0Yl2bXSi1NhNqXsQFXLZKGZFmIFG/7OfMN6NqKQ2jcn/PStwZ/rVZ29ZiC25ny33nG3p2GhTszf8UKwupkJVp3WkNSd2Q2jduHzC47Eb55UFZ8ff6pw8uDbPKrrlm4pJm3YgRLhVQi0gHFn678oE+dE7bYDVagBHP8bFFCBOUJQ=="
+  "assinatura_extras": "WTUvGGxXGP1lduHP6M8cW3CO3FXwRLKbwn4yy0Gt3mCa81A6hAwEdGeXEwOqQONCkhWNl4cK0l3MixOAYqLekGTwjwpSj34rcChsJ70XszV2DegT4lDzAFR7szHJIfXqL5F4tpG4vr1M7w7frSv/a6wTNVCTMKqWRGjSvDen/Q+M6gGI7QDJeX046Yp/FlGp7xcPDUkeZ9E2N5jMwGxBXEYpF4bbHXg2+D6Fg75b+IaP0NKiHUYZ4sQ98l5QhrzK7ip6nLJ3FvMVk4EC1SdSfFmw2RVtnbfGuWC1w8tD7M74GhD7tyIjYSoZs8MqP6aFo67EwToRzkavnxR0kiDp+w=="
 }
