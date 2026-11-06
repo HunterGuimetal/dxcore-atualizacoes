@@ -1,7 +1,8 @@
 {
-  "versao": "9.66",
+  "versao": "9.67",
   "data": "2026-11-06",
   "notas": [
+    "Projetista · qualidade automática: em computador mais fraco, se o 3D começar a pesar, ele baixa a nitidez sozinho para manter o movimento fluido.",
     "Projetista · visual mais realista: tom neutro (menos contraste), inox escovado com reflexo anisotrópico, tinta com verniz no acabamento brilhante, piso de estúdio que recebe luz e sombra, sombra macia e sombra de contato embaixo do conjunto, arestas finas e discretas.",
     "Projetista · mais nitidez: desenho com supersampling (1,5×) e antisserrilhado.",
     "Projetista · movimento com o mouse suave: girar, aproximar e mover a vista deslizam com inércia, a 60 fps."
@@ -123,9 +124,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4626932,
-  "sha256": "0ed31e762f01cfa3b768861c5e977715661252264179ade1b7970f1a0b99bef5",
-  "assinatura": "Bz86eFvokKqaL7vkfeO5gHDgqgdzUl/ss+F+hBEzpMifA+hmlIC3aBVTRNg7z4CsGA8dYhAASTCm0CEih6wcG7fPgm/kL855tV273aCLMy6U7mAKrDs/zVKN/WiHBtWfNLZAxOfCSq5GcIXkAfyO99khEfvSQVODVELmMBxTDmtMCV+Yx7/yOTKqMZL7PPW+6ZYsxBHDRE+Zvx8Xv6FUvsE8D+BU/cRDCTVzgUQgLAl0UtoPuYGfItM59GAzDrxoPROvqNXHXGNcNljZClTRvUAq5YOEpyHghWjVe/SAbUbj2tWlYWmFFelkA0fI1rRUVPq7+CBP9dp+Bt5nWn88dQ==",
+  "tamanho": 4627448,
+  "sha256": "d8e16234f2cb875e8f61e89e3c1ac51cd955e46eb72573ac81723e8887e9df5c",
+  "assinatura": "g0bsRAwjx5tM87AHUbOOWvh9rCGesX2c9DSlV/cEaJ18rGy+vrgQLKk7qoSZY6CKb27ByPmb8+OEy/AnEJNZ5BThF5P6yR1cpSWZEVfZhRnBDhexMZzF69HTulsE9eCGjIlsod1YiFaAKxJGfsLKxymXkOSu+JJhu71TwOa7a99h3PGdnKgd8EtKtFnbbrMflToePlKqNgBdJIbpBU1qezB9Z+zJDMAGCDh8K+Vr6ato8nXPueBvedPD7e04zKw6JL9DVTG4DfD1kKIrPqOnHC+DKDmyvqh/nje5HsyveNEsF4sAcA3fXjoQfwMaz6mA8MLRoykBATmwq4vWKfMcBA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +149,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "QuP1i3XEnbWn94hSqO0suyQ/PkXdkobBRrC9gWhQG6DJ7rC/5YHliVuRfzBYsg3AYRbHbWnKokdS5paYKjXdcoQFyCmT7WzWvD/ZqZ9qzpcI+Ulm2M+Ul5XJcwzyjHD8fkdt27CB/ynSzvKlljawXZxbmrA65zPE6d5NEoDkNSu2XPa2YWpLUi+Ux0yxHdAxOaLaSj0oPAZBlPfyQ1hSVGso9HQl6b31+MSzWDmEd1Zc6x0gOFmBY4ldW8agTgByI5CatHHRPIOzVM0THbzDtlsk3JPgvAPE2wGNmzITesBlDpHCYNq3GUeS55iPEfSC7u84y6drL54I80WBmy4cMQ=="
+  "assinatura_extras": "A8BMOkuLMoxNsA2oXo2cgC/uCzbZ8BdRcqj9Q9O/r/HflWNdSd1PMDEjc8OIvnDHhQSXf57CybAF7l1oxXk3dEPv31SzKUhLaVn4q0zdbLCI/WADAYR0dhgfaZGiAgPrLTTjjq2B97oBV9PNV3cx0QhHh8ElGwlr0Q7Cpbs4uWijEL5oiQDFFQMm2aE4/+3lmQjBSaiIUJ8lZn86l2dmp8PTdeDx8kcJWRGCo5pzCUbbHCZwU5kh20qhv3K+G3B1gEEpYlYTUQV5YfWu6lc5O6/KBAgJPQbFfHbyvmLa0wlBLad7A8BbbBDdQRI5xqpmzl/0L1jMGcv7KJruump8aQ=="
 }
