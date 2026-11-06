@@ -1,7 +1,9 @@
 {
-  "versao": "9.68",
+  "versao": "9.69",
   "data": "2026-11-06",
   "notas": [
+    "Projetista · o estúdio virou uma oficina de caldeiraria: piso de concreto polido, teto industrial com treliças, tubulação vermelha, duto e luminárias pendentes, parede de painel perfurado com ferramentas, prateleira com caixas coloridas, janelões, porta, quadro elétrico e bancadas inox ao fundo com caixas de ferramenta vermelhas.",
+    "Projetista · câmera na altura dos olhos e ângulo mais aberto no modo oficina; noite com pendentes acesos (tema escuro) e dia com sol pelos janelões (tema claro).",
     "Projetista · estúdio de engenharia em volta do projeto: piso de concreto em placas, paredes, janela e quadro de prancha técnica. No tema escuro é noite, com luminárias acesas no teto; no tema claro é dia, com o sol entrando pela janela e desenhando a luz no piso. As paredes somem quando a câmera passa para fora. Botão 🏭 Estúdio liga/desliga.",
     "Projetista · 📷 Foto para o cliente: imagem 2400 × 1650 do ângulo atual, com faixa da GUIMETAL, nome do projeto, medidas, material e data — pronta para o WhatsApp.",
     "Projetista · ⟳ Vitrine 360°: o projeto gira sozinho e os painéis somem, para apresentar na tela ou numa TV; clique ou Esc para parar."
@@ -123,9 +125,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4642344,
-  "sha256": "37f0287112b68dd7d97c74db219c97ca2286ca4a75929d020fe9aa1349a1ed53",
-  "assinatura": "U6XnStkYjpjzPmDw/2TzyNQa3hKQOBv0miL0kdquFl/617CvmCdPCaXnguemg9GYQ9beQBgcZV9WLPyXkowkLoiDc1Q6Zle/N3VwC4GpskJHAldfLH0siX/HV8fBJFFIQzmpmlHslxvxMZAdaX2Cvo0L6f6yd4ebi0gw21LczR++PFe0H/EW7kKmUBpn5dx7nl+bIhqnCs759SNAFLE2+yjO0j1lCey2E0HVOVA08EceKYEUlESzibS3omEChMaKwC1mO3/qWdoUn/diHliEX/VsdnLHjL2ES1QJI9zKID+0mm+/uj2zbVHNQA2dUw66sjCtnnWCoLczRIDzbUUDdg==",
+  "tamanho": 4646332,
+  "sha256": "99b72edb3175d5cca7fb974409b038b11a2ee79558151a03fde8e7ac070d94e6",
+  "assinatura": "GeWbG5+XXJ7L+NzIeeXZQ7ZHYxJdMv3k49Z9jzXhVLsxcrvPb8MRDofWXoao1YwtXY3e/UhdZ/Afu91kd/u9R2n5ciiklpAc5gwTyyPWamFE/J0t/DKcpsYYIihESB8CbADI51nsBmw/orC0gkHWrNfQHx9KcZGlJFK4Uf/kpForiSxPsvMbeR0ZieNWEtG0B4LU0rSMnr/Mg49zOCtm95KibonZdHtE6lMHVS2UnAVNiZOeRYlaVr9gNjOmhI3BP/+F0UqK+Tb2KwOTtMRu4ycWJn8o3cDTNe2iw0ybY+COp1pl6L/1Fdr3kTm7tymxtHXBSutF/iqDLYg0ttamVQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +150,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "GwVpnBEx6/MGF0IFxML8oppiNaMCikKvBJHnfWATHZAJSnAKqKA77HjauBekC8ZPoATDVD+VIphKuNcwoWKCke0jmkgBJi350lEEPHk4nG/Ne4VCuqR0iq/1CSIvkiJCsSjYObBhezrb5XzGK5Kz4OgYkRRE9OSd1G+u7qCK5veqApcNlbhHsD41/ZdDJh0uFxVdIwYE4fFkfOCDQfrYbyHzxJCWSsfh3pKIjRBuosrlYR+nDhflwmWzT+suQojd/vhttXatS/pOHF1/BN86Lhoei/W3jPhNF0zHcntdmxbujDqYOewaTrwNx2CpSG6xTBLmvMo1Lhw1aFVBL1IZ6Q=="
+  "assinatura_extras": "ZBHZCpgVTlI51C3u+WCKcHP8bsWVagfnSJSZOA1gsiRuJRTZoe+vqVPT/rvhrw0wtvEkUmn2P0svnFwu7YWBuW4qOWIzu/hXkeKpl5eMjnNnZOKJiBpreHxdgyHUZhac6O+QdKP9mi9B8NxULR7YR7Q2Izrvm8eQtC8laxPqSxbq5JGvs+XY/yZoIggF7UUQj7bwt0SCNcw390YEXOLiDC44baNHxZFZVe2awu2iSsxaj9uoXUFwKzGYjTJw92Tht3DUj/8RYtoMgYO+KLjnTR49eV7VmPzDQhNHpZCe5Pm2W761G3r6cIdk2aoInZBLPNMqGLGMTdkqpyL4blexQQ=="
 }
