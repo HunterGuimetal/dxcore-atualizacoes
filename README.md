@@ -1,12 +1,11 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.64** (2026-11-06)
+Versão atual: **9.65** (2026-11-06)
 
-- Projetista · confere sozinho depois de cada mudança: “✓ Conferi: Tampo 140 → 360 kg — resolvido” ou “⚠ Piorou”, com botão de desfazer.
-- Projetista · peça nova pisca em laranja e aparece apontada no modelo (NOVO · Reforço do tampo ×3), mesmo quando fica escondida por baixo do tampo.
-- Projetista · corrigido: a revisão acusava o reforço “batendo” no tampo (as abas dobradas entravam na conta) e continuava pedindo reforço; pedir rodízio de outro tamanho agora troca em vez de somar mais 4.
-- Projetista · a revisão oferece botão para todos os pontos que dá para corrigir (reforço do tampo, da prateleira, rodízio maior); comandos simples deixaram de ser tratados como pedido completo.
-- Projetista · corrigido: a mesa acusava o tampo “solto no ar”.
+- Projetista · “otimiza o projeto”: revisa, testa cada correção numa cópia, aplica a que mais sobe a nota (empate: a mais barata), confere e repete — ex.: bancada de açougue de 6,1 para 10/10 em 3 passos. Um “desfazer” volta tudo.
+- Projetista · “e se…?”: simula sem mudar nada e mostra hoje × com a mudança (custo, peso, carga do tampo e da prateleira, nota) — “e se eu tirar o espelho?”, “e se a altura for 950?”, “simula chapa 16” — com botão Aplicar (ou diga “aplicar”).
+- Projetista · uso do projeto: “é para açougue / peixaria / cozinha / laboratório / hospital / oficina / depósito / área externa” muda a carga exigida e os conselhos (ex.: inox 316 na peixaria).
+- Projetista · rodízios: calcula o menor tamanho que resolve pela carga de uso real; peso acima de 50 kg deixou de contar como problema na revisão (só acima de 100 kg).
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

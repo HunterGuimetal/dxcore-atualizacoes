@@ -1,12 +1,11 @@
 {
-  "versao": "9.64",
+  "versao": "9.65",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · confere sozinho depois de cada mudança: “✓ Conferi: Tampo 140 → 360 kg — resolvido” ou “⚠ Piorou”, com botão de desfazer.",
-    "Projetista · peça nova pisca em laranja e aparece apontada no modelo (NOVO · Reforço do tampo ×3), mesmo quando fica escondida por baixo do tampo.",
-    "Projetista · corrigido: a revisão acusava o reforço “batendo” no tampo (as abas dobradas entravam na conta) e continuava pedindo reforço; pedir rodízio de outro tamanho agora troca em vez de somar mais 4.",
-    "Projetista · a revisão oferece botão para todos os pontos que dá para corrigir (reforço do tampo, da prateleira, rodízio maior); comandos simples deixaram de ser tratados como pedido completo.",
-    "Projetista · corrigido: a mesa acusava o tampo “solto no ar”."
+    "Projetista · “otimiza o projeto”: revisa, testa cada correção numa cópia, aplica a que mais sobe a nota (empate: a mais barata), confere e repete — ex.: bancada de açougue de 6,1 para 10/10 em 3 passos. Um “desfazer” volta tudo.",
+    "Projetista · “e se…?”: simula sem mudar nada e mostra hoje × com a mudança (custo, peso, carga do tampo e da prateleira, nota) — “e se eu tirar o espelho?”, “e se a altura for 950?”, “simula chapa 16” — com botão Aplicar (ou diga “aplicar”).",
+    "Projetista · uso do projeto: “é para açougue / peixaria / cozinha / laboratório / hospital / oficina / depósito / área externa” muda a carga exigida e os conselhos (ex.: inox 316 na peixaria).",
+    "Projetista · rodízios: calcula o menor tamanho que resolve pela carga de uso real; peso acima de 50 kg deixou de contar como problema na revisão (só acima de 100 kg)."
   ],
   "historico": [
     {
@@ -125,9 +124,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4614760,
-  "sha256": "ba936104d0db0dc3849abd8cbb9d1405620eede9b1db8e5e8291695dddd5fbbf",
-  "assinatura": "E9xQcfMPCjZV6aMl//75iLxN2E2hrf/Lqf2yAplqF60oqCF9suyL/JLmW73TSpwV2fkAavNbedxSQZ2d4m4HE/CWXqWrZwACrmVACkcCuBqyHW6ZggFXGPcYGWbc11AvQi4Gi7g5TkV0nBK+NGSDM2rrndGglGfTypMiNXS2oY847flgEj8aXUcFR78Iw8xDzYrBNoQMVCBGfzeJBpcXdPh8hI9uikbHgf2k2Ju4XHLnI3WHV+nLkqAx5bUyG63yuuSJbNGOpkB+tfSy4xWFHM1BoUSbtxc5uvsEVA7JQJHxYks2d5eagFElX12mKJLXeqt8tHB3F1w/nMDX6PfuJg==",
+  "tamanho": 4624712,
+  "sha256": "6cb1502b9b59170d986f89dc763bb2023cedbf16e75c35be2f6fbb0292bbc8f3",
+  "assinatura": "aPu0Z+miPY5UKfsd2HlwMly4rfJh5rVVJiA58mIIxINICYCCs3szVwA1oUK+hnZoKE550P1Jg2efaNe2i+5fXi4zpG3KA09UYPayeAUNlovxVhiM3ixYTE9QrHpZ5kPUSwBdECcVhwEhTgtbT05x0BvIyQInnr1GS/CXmOYyrfThpuhKtYj9nggXEFSFZfOEOTQu01FDKrAFKZNeYXnufpuvjxz3UTY275xmOeo9zE+Zssk4WhnPXJryPliwehgOYMJ6XDMbSGk+I4S4wFzcwyv+yPNAPxYlZTWf2xl6EUReqWUL76mgIkQkSkKj7CRhgqKwhogbFF3EFiqXCHWySA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -150,5 +149,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "h6SDnucRrTg/vV+YiRAOwmKh+8PoMdxa9rLXstS613QCe4bf1wcgECzp4GHjRPdeVopM99w5oQm9Ur5k8dlVmv/I3zuwTKYq0QsppUIkv26Cfg/7KJCBI67KKUCvp+VKN8h3tp6YMfmwxdew+c0qMDUiwPuXnSdxSg/SKmAw/AzkoWkS9WeUS4aNpMQmdJ3qSoUTPqWnYjJu1xJgCAilWw6Y50WtEy1JembWcCzdpwq1NlI3Iedx6G7DLNZQbHX/oRAGAPEInkB7u1zL5nhuQrELOfQ6zFZlIQ1ixBKa4PNyk2mpKfhepqNK44Orls4x3MtGCa7iDw9A7LQC1DzOqw=="
+  "assinatura_extras": "MT0ltcm3Ikw2YrZn/qmzEQ7wf8XoJL8fECTCg1WaDelB4tgoy3bQan8WmkCyj62zzrDV46XCq+WAmC7LbqLwl1FVMesf8U+QQIE0FeJzdXwdGhpUkR2NLJaui8fXdJCiInZ3dzvWoXeLS2j6L/rFRwQgxDzwtVqmjFO0RlOb/Q2n4hynZMhEuHwIjL6Xp2P6bNgQfxjFZg5Pjx3GH8887gz9tThKQDZJAQe6pkx6SugqXadm0W1vWgf8Cw05whgXeetS1eb5vU9Eu0Kmv/PKJVmlUVpJubBpYNY3R0z+VOgHm7yRuZ6B/vjj+2ce25PcntvmIbLVhVCV7xUwQbPnkA=="
 }
