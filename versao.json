@@ -1,11 +1,12 @@
 {
-  "versao": "9.63",
+  "versao": "9.64",
   "data": "2026-11-06",
   "notas": [
     "Projetista · confere sozinho depois de cada mudança: “✓ Conferi: Tampo 140 → 360 kg — resolvido” ou “⚠ Piorou”, com botão de desfazer.",
     "Projetista · peça nova pisca em laranja e aparece apontada no modelo (NOVO · Reforço do tampo ×3), mesmo quando fica escondida por baixo do tampo.",
     "Projetista · corrigido: a revisão acusava o reforço “batendo” no tampo (as abas dobradas entravam na conta) e continuava pedindo reforço; pedir rodízio de outro tamanho agora troca em vez de somar mais 4.",
-    "Projetista · a revisão oferece botão para todos os pontos que dá para corrigir (reforço do tampo, da prateleira, rodízio maior); comandos simples deixaram de ser tratados como pedido completo."
+    "Projetista · a revisão oferece botão para todos os pontos que dá para corrigir (reforço do tampo, da prateleira, rodízio maior); comandos simples deixaram de ser tratados como pedido completo.",
+    "Projetista · corrigido: a mesa acusava o tampo “solto no ar”."
   ],
   "historico": [
     {
@@ -124,9 +125,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4614604,
-  "sha256": "cad7e6aadfa32201ca11244960e3835f6afff88af32121c05fcd188a0d182936",
-  "assinatura": "ZxvbjBSFERPrhPdwmfEO95vpapWzKMTQctKkCls0bONvYpgJRwAQQSM0LBnSjXmNQiVBEA0U4ji0sv9ISW00C3nUs8Z5IuZh1wOrverU5ugDTEdGI2vb4j7eAYEwWoiGq0BvtUR1BPnLdjlVfvgts5iJ6nWlX0yzIiMd+JRLUqS+3CmeBspbVXCPmxO5+8CMF9ETMw90769e2/6wtuL0vU+cLZHgviAzSc+v2LuwglNMXDNq6tEW0BM7DXC2ySkTGuIjWnTi5bLXidqw6KLfNJSnQNAonV7cu/BWRuRWJFe0Sx/kb0rDyjDYyNFI/xe37f9ImNmsJ4lquDYIWgw7ZA==",
+  "tamanho": 4614760,
+  "sha256": "ba936104d0db0dc3849abd8cbb9d1405620eede9b1db8e5e8291695dddd5fbbf",
+  "assinatura": "E9xQcfMPCjZV6aMl//75iLxN2E2hrf/Lqf2yAplqF60oqCF9suyL/JLmW73TSpwV2fkAavNbedxSQZ2d4m4HE/CWXqWrZwACrmVACkcCuBqyHW6ZggFXGPcYGWbc11AvQi4Gi7g5TkV0nBK+NGSDM2rrndGglGfTypMiNXS2oY847flgEj8aXUcFR78Iw8xDzYrBNoQMVCBGfzeJBpcXdPh8hI9uikbHgf2k2Ju4XHLnI3WHV+nLkqAx5bUyG63yuuSJbNGOpkB+tfSy4xWFHM1BoUSbtxc5uvsEVA7JQJHxYks2d5eagFElX12mKJLXeqt8tHB3F1w/nMDX6PfuJg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -149,5 +150,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "WTUvGGxXGP1lduHP6M8cW3CO3FXwRLKbwn4yy0Gt3mCa81A6hAwEdGeXEwOqQONCkhWNl4cK0l3MixOAYqLekGTwjwpSj34rcChsJ70XszV2DegT4lDzAFR7szHJIfXqL5F4tpG4vr1M7w7frSv/a6wTNVCTMKqWRGjSvDen/Q+M6gGI7QDJeX046Yp/FlGp7xcPDUkeZ9E2N5jMwGxBXEYpF4bbHXg2+D6Fg75b+IaP0NKiHUYZ4sQ98l5QhrzK7ip6nLJ3FvMVk4EC1SdSfFmw2RVtnbfGuWC1w8tD7M74GhD7tyIjYSoZs8MqP6aFo67EwToRzkavnxR0kiDp+w=="
+  "assinatura_extras": "h6SDnucRrTg/vV+YiRAOwmKh+8PoMdxa9rLXstS613QCe4bf1wcgECzp4GHjRPdeVopM99w5oQm9Ur5k8dlVmv/I3zuwTKYq0QsppUIkv26Cfg/7KJCBI67KKUCvp+VKN8h3tp6YMfmwxdew+c0qMDUiwPuXnSdxSg/SKmAw/AzkoWkS9WeUS4aNpMQmdJ3qSoUTPqWnYjJu1xJgCAilWw6Y50WtEy1JembWcCzdpwq1NlI3Iedx6G7DLNZQbHX/oRAGAPEInkB7u1zL5nhuQrELOfQ6zFZlIQ1ixBKa4PNyk2mpKfhepqNK44Orls4x3MtGCa7iDw9A7LQC1DzOqw=="
 }
