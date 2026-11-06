@@ -1,11 +1,12 @@
 {
-  "versao": "9.54",
+  "versao": "9.55",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · entende comandos de montagem: encaixa/apoia/solda o tampo na estrutura, sobe/desce/move peças, tira, alinha e centraliza.",
-    "Projetista · quantidade de conjuntos no topo (ou pela frase '5 conjuntos'): lista, prancha e peso mostram por conjunto e total.",
-    "Projetista · botão Orçar sempre abre um orçamento novo, com título do projeto e quantidades multiplicadas pelos conjuntos; nos outros perfis explica que é da gerência.",
-    "Projetista · protótipos corrigidos: abas do tampo no 3D, prateleira de parede com mão francesa, guarda-corpo do mezanino, coifa com filtros, parede de referência nos modelos fixados na parede."
+    "Projetista · arraste para a tela (ou use Importar peças) as peças que você já tem: DXF, DWG, STEP, IGES, Parasolid ou PDF, uma ou várias de uma vez. Chapas entram com o contorno e os furos de verdade; tubos de STEP/IGES entram como tubo.",
+    "Projetista · montar clicando e arrastando: clique na peça e arraste; passando por cima de outra ela assenta em cima, e encosta sozinha nas faces vizinhas. Barra da peça: Altura, Girar (R), Tombar (T), Assentar, Duplicar (Ctrl+D), Tirar (Delete) e Ctrl+Z para desfazer.",
+    "Projetista · Etapas: mostra o serviço montando (ou desmontando) passo a passo, com o que fazer em cada etapa, tocar/pausar e avançar/voltar.",
+    "Projetista · tela mais limpa: os modelos ficam na aba Protótipos, as medidas na aba Medidas, as entregas no menu Entregas e a conversa pode ser recolhida.",
+    "Projetista · prancha desenhada em canvas, fluida a 60 fps; botão Orçar visível no tema claro."
   ],
   "historico": [
     {
@@ -124,9 +125,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4449544,
-  "sha256": "007bdf15a0b0dd4f31e0026b6afce3861c3ece512114a1e9eb436fe02a6ce519",
-  "assinatura": "VCiYB4gIfXS0b8U/JHvg6/aaKe9jiUk9j+pl1ot9Lj5m4A1l5Xi/tBPBF9VI42OdxzuJ780UkQEK+BcWQfz+2+LTwLqCtGAH70Z2ESh/W6JLY261cFhmWV+AUzUgDcAGpsf+fWs7LKtsitaUJLPIw1i9FAK0Ere3SGEBOL9BlRpn+gcgO5DgCrHV7ldxvljqCNtNkDESYLr0BLG+qUGXTSaRFN8qewdxGYjzQrSGBbTO9A6zpt70HW8RrCJDVCxx2K8SMYZg73vwp7W1AzrrIOZmke72kvpdGUZ0GfQdTdeV1mi9Qtz4F/iu/E0hwfg5NQt/iKqkyNeWMFivwWQ/qA==",
+  "tamanho": 4495988,
+  "sha256": "2b59b760b696ac7733d4ecb55dcb298518fe0794d6c40f73ba2b1154b309edf1",
+  "assinatura": "g7LNaP66U4Omg3bhdhUAVo4nc0C6BJCOexicTP2nkJbFMLgpcqVxJZlzVyNI9OCs8Wi90ceNYQiKc2gsj5XsaxHGNeX4Cy5WIVEC9YV0/J7y8Wy6mKVKlALbW+ciy8NRonYOyU7EZ9YHtcEgd939FQLqSmyVpTlfikPZSV/rvCKcirm0PzU5dmuzFRoVDTf4lYSKW7XCYzytOTTg1VzdC+1jcGQFTgv1JHdHC6u1wvzOM8KDqgJWs6P+3rmikrABM0qlTvaIRCzDy+Fc4RKerE3NV5yRVFpEw+DFWkLck87hzSKf9pKbdqbEBGjCwEcYXSIV+NSTYJlCSZJKBwYmzw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -149,5 +150,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "auo9Wiv8DnqG8PsOIhgDfVx6FPty0rvapAZEsNIVKwRWEWbHeGK3aV317R7Qdx9lm4ZR198fTanbwH9ZUkXAW+2nLo0P3UhDfTHdk41RW9v+3I/3oGw2dO6K9Kk/GzA/nkqOwXgJ0PXBCDZFW9qBDLZdfqDYMJ4mlZ3jLCIUNkGL5HeW1qy4eHxcC8hX0oF3jRGMInEJ2K8KKBvLIGckxj+av8xvCWnSx7eR+omFe/tARLz3PIvJ9T53YHcz0dWWVckXcnQYpFmjyjH9dkBxjUbTXXecnxnm0n8bl3BKKbOfuvW3smCNX07PCyMvmP/DMl88qaagxC7wnZ4SNTHJRw=="
+  "assinatura_extras": "GKsR4xombrryex6BfnqIz2QzY3iF1Niw9f94QoAlr+nixZMaJXHpQ0OzPpZtlhcy43il7O4XnqeKryUVNHaV/p/sm6Ob6MF1fJfeKkcLQj10bWZszaVpFnRG5CPUEBJlpgUlmgHANc3R7GA9fldO1Bfg8jDkBI5X67f6E0Emd5vXVu149OvG+o9KuRPbN0VjtprMJK1xB26Bea/lv0fHnFSis3HUv6vQz4xuTT1RVRmeq/viYANqu2xF/097ziya6GkYkolQSN5df9SDoaiT16UTSdTPP7Jqae4arEq0b83jQLT+BUaSTl805kr4Dn/efkPm/uhFSO0cWoneGAI4NA=="
 }
