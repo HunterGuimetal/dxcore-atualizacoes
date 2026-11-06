@@ -1,11 +1,11 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.53** (2026-11-06)
+Versão atual: **9.54** (2026-11-06)
 
-- Projetista · 7 modelos novos: mesa, carrinho com rodízios, armário, prateleira de parede com mão francesa, rack porta-pallet, escada marinheiro e coifa (13 no total).
-- Projetista · novas frases: chapa dobrada em U ou L, reforço por baixo do tampo, furos em qualquer peça, travamento em X, rodízios e cuba (com recorte no tampo); entende medidas pelo número junto da palavra (bancada de 1800 com espelho 150, 2000x700x850, 1,2 m de profundidade).
-- Projetista · planificadas com raio e fator K de verdade (mesma conta do Gerador) e botão Mandar para o Limpar, com a quantidade de cada chapa.
-- Projetista · vista explodida no 3D (animada) e na prancha (guia de montagem); a prancha se desenha à caneta ao abrir.
+- Projetista · entende comandos de montagem: encaixa/apoia/solda o tampo na estrutura, sobe/desce/move peças, tira, alinha e centraliza.
+- Projetista · quantidade de conjuntos no topo (ou pela frase '5 conjuntos'): lista, prancha e peso mostram por conjunto e total.
+- Projetista · botão Orçar sempre abre um orçamento novo, com título do projeto e quantidades multiplicadas pelos conjuntos; nos outros perfis explica que é da gerência.
+- Projetista · protótipos corrigidos: abas do tampo no 3D, prateleira de parede com mão francesa, guarda-corpo do mezanino, coifa com filtros, parede de referência nos modelos fixados na parede.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

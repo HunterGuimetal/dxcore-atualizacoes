@@ -1,11 +1,11 @@
 {
-  "versao": "9.53",
+  "versao": "9.54",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · 7 modelos novos: mesa, carrinho com rodízios, armário, prateleira de parede com mão francesa, rack porta-pallet, escada marinheiro e coifa (13 no total).",
-    "Projetista · novas frases: chapa dobrada em U ou L, reforço por baixo do tampo, furos em qualquer peça, travamento em X, rodízios e cuba (com recorte no tampo); entende medidas pelo número junto da palavra (bancada de 1800 com espelho 150, 2000x700x850, 1,2 m de profundidade).",
-    "Projetista · planificadas com raio e fator K de verdade (mesma conta do Gerador) e botão Mandar para o Limpar, com a quantidade de cada chapa.",
-    "Projetista · vista explodida no 3D (animada) e na prancha (guia de montagem); a prancha se desenha à caneta ao abrir."
+    "Projetista · entende comandos de montagem: encaixa/apoia/solda o tampo na estrutura, sobe/desce/move peças, tira, alinha e centraliza.",
+    "Projetista · quantidade de conjuntos no topo (ou pela frase '5 conjuntos'): lista, prancha e peso mostram por conjunto e total.",
+    "Projetista · botão Orçar sempre abre um orçamento novo, com título do projeto e quantidades multiplicadas pelos conjuntos; nos outros perfis explica que é da gerência.",
+    "Projetista · protótipos corrigidos: abas do tampo no 3D, prateleira de parede com mão francesa, guarda-corpo do mezanino, coifa com filtros, parede de referência nos modelos fixados na parede."
   ],
   "historico": [
     {
@@ -124,9 +124,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4435832,
-  "sha256": "10a37bc0274406e437e6a6e4dbdee44a7c8422a43a31f90247d85926cbf3de29",
-  "assinatura": "Ix+e+jxgDUCa3sZt6RgUOv6507dFnS8s9EuMOg8FlBgqXe8fNTNugYOPTIN+H4tRd4Z9qn4WADDWC/UCkcMeGG3mw9KSA161wjJZbPP/BT9yqnEVwOSPqloEuTZiIFHjINMe8UeqnSnyWMfXT9xNCZgNy3rx3dfCPC+XcUudEWyMn7UAEZ4pWYbjSty1GWAqnZt+A1i3pHbJfC2A/G2NUHBhkMRJmQCuldyMI0m+KuLWR8cATk84USfau2ffzoJxxFk8CSp997tUpel6VScnpYTehrOn+HK8NNw/JzOLnt0kjBSjdJ9qxICwXh2VMzGKuFBfAdumKPghLH1LAYT/4w==",
+  "tamanho": 4449544,
+  "sha256": "007bdf15a0b0dd4f31e0026b6afce3861c3ece512114a1e9eb436fe02a6ce519",
+  "assinatura": "VCiYB4gIfXS0b8U/JHvg6/aaKe9jiUk9j+pl1ot9Lj5m4A1l5Xi/tBPBF9VI42OdxzuJ780UkQEK+BcWQfz+2+LTwLqCtGAH70Z2ESh/W6JLY261cFhmWV+AUzUgDcAGpsf+fWs7LKtsitaUJLPIw1i9FAK0Ere3SGEBOL9BlRpn+gcgO5DgCrHV7ldxvljqCNtNkDESYLr0BLG+qUGXTSaRFN8qewdxGYjzQrSGBbTO9A6zpt70HW8RrCJDVCxx2K8SMYZg73vwp7W1AzrrIOZmke72kvpdGUZ0GfQdTdeV1mi9Qtz4F/iu/E0hwfg5NQt/iKqkyNeWMFivwWQ/qA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -149,5 +149,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "VZ+mH+6HGi9uhR9IJorhue+igAKRRKIVxn9aXFUfz8VWYFaUhvyBEuWT68jRQtXO3anzEMXJOWqS+SdwcC41EEs3pnJKDe3oKuaKxHjIKasv2TW47uwMwSTUZPsGrlyXzIqvMARjlvZRIx54LI1PRozrKkF0Cc1cYBpWhu3kUAzia4nz8jXNQSsp6ROFof19sXdKgPOkaGqLngJTYdTvLTHpLGGDy8Yu1bZYViwUb+EfHpBStDNHmmpcy3ja9uXycIwipvzzR8nHlyod7HvANuesPzX2+E4WUunkGsbhZRJg2wKOyjXdNFkNN/BUqehzKubGDEZkdBedLrLaLlnxOw=="
+  "assinatura_extras": "auo9Wiv8DnqG8PsOIhgDfVx6FPty0rvapAZEsNIVKwRWEWbHeGK3aV317R7Qdx9lm4ZR198fTanbwH9ZUkXAW+2nLo0P3UhDfTHdk41RW9v+3I/3oGw2dO6K9Kk/GzA/nkqOwXgJ0PXBCDZFW9qBDLZdfqDYMJ4mlZ3jLCIUNkGL5HeW1qy4eHxcC8hX0oF3jRGMInEJ2K8KKBvLIGckxj+av8xvCWnSx7eR+omFe/tARLz3PIvJ9T53YHcz0dWWVckXcnQYpFmjyjH9dkBxjUbTXXecnxnm0n8bl3BKKbOfuvW3smCNX07PCyMvmP/DMl88qaagxC7wnZ4SNTHJRw=="
 }
