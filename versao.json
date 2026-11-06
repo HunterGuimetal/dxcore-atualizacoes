@@ -1,8 +1,13 @@
 {
-  "versao": "9.61",
+  "versao": "9.62",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · a voz falada saiu (a voz do Windows não ficou boa). Continuam o microfone 🎙 para dar comandos falando e o mãos livres 🎧 (“Jarvis, …”), com a orbe animada mostrando que está ouvindo."
+    "Projetista · pedido completo numa frase só: “bancada de 2 m em inox com cuba à direita, prateleira, rodízios e espelho de 15 cm” monta tudo de uma vez e lista o que fez.",
+    "Projetista · saber técnico: responde dúvidas de oficina — inox 304/430/316, TIG ou MIG, gás, raio e aba mínima de dobra, fator K, furos perto da borda, espessura e tubo recomendados, pintura, galvanização, acabamento do inox, ferrugem, ANVISA, NR-12, escada, ergonomia, rodízios, tolerâncias, empenamento, laser/plasma, alumínio, parafusos, cubas, coifa, estabilidade e mais.",
+    "Projetista · “por quê?”: explica o raciocínio do último aviso ou conta (carga, flambagem, rodízios, economia, ergonomia, estabilidade).",
+    "Projetista · confere a montagem: avisa peça batendo em outra, peça solta no ar e estante/armário que pode tombar (fixar na parede); a revisão desconta da nota.",
+    "Projetista · flambagem dos montantes pelo vão real entre prateleiras e travessas.",
+    "Projetista · projetos salvos neste computador: “salva o projeto como Bancada Sodexo”, “meus projetos”, “abre o projeto Bancada Sodexo”."
   ],
   "historico": [
     {
@@ -121,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4580604,
-  "sha256": "cfda76ac33ac176843d82f329df12487ee401561254f81356ef4bae5f46fb125",
-  "assinatura": "KuGOidikGqUq4kUi4U1Xv82tLROpbGkaF3ma59/Jd4MUfQCRTXWo514TNtBhziJe/UZhpyXmm1B2qZ7v+bcaarzmzQhmwSIoSBHXA/IZ/hCSoChza2GtvXhc144Vpgz/gfLaw7YTOifyeR9L652unw5ApsoisAVJYPUiCU1Zjd75ftLWSB9jtVaDgQLsdaQma1OJPhNfbrQimgfpJCBWjKM1X+zv28G22sHhBZkeWz3FkMPyY4+g6MRNTUwjR+egJY2uwc6vD6EFdTZfjkxbec/wJkSeStNe765TcJyHL21kMuGrs8xIrQqCw66/zwJlYzPIwXrzXylYY0wAcPme4Q==",
+  "tamanho": 4611408,
+  "sha256": "2b7cb3ba40f555533104b6c0efff6200bfd518b583e20d10c2042ebdc4f149a1",
+  "assinatura": "MIXlIKRgakw6+rboQcHl8KxsSzw0bbdZFEsbqds7zfpTW0Q5YitaDwMD1lK2JAIVZ0XePZCvzdk6t3sNA+7Z2hczkk2qDOTVKNgBF+cEfHDJGUKgGz7BwXp49rZqh2vIYt45RGHsJ5RVYrez5gzx7zQdvpQZUi8XFUXKkSfllOKJNDaeVKTjkhVvnm8SwLFP+Tite2bjf0HQXF8iCruXG3qoyQluMm/JtqZO1NWQd3Zo/IUcudK2me0GNyr2Sx9JlEjGtmaS5KAZj48ah67dGBKk6jRcmHRFVuEuw3RyDR1AseGpl05tdl/rbfUhlmfaO0T/XZ4bFaKXsaE6bXNhiQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "HsGjE7r/HwmGCKS6wUI9q2iYGr1Qj5ewVxdrrow7mdlKZ6g2Kri228oJKbWlfZp92+84tYQ2XhGIA35nXB78G5FJRXqJp2QgvmtVypMGavd1xhjM0LJxvY/Z5QKXSTI7nJQY1RPmWzCLIxyhQlf6ZPDZQAlgX9TXHsMSpGLLpfuCQsZrywaFW9erGbhvWO+0hFW6ME0X/P+PQnJ9EuD52I86NmhB5V+6ibNLP1gyMBxIeVp2+CWjUJfTW75db7Fc56Ze1RrpcFT0ZTKupZ8kWqpIDDT1VLpNP+28WN8UHru0p2FH9bnxnrVbIJsCAD+ZXzRAf80O2RLWN+EOfb8zGw=="
+  "assinatura_extras": "R1Ejmcf9T/uTzZ/nbvw8vp5/duP7Yq/vHkiRVG9xJoyuXRqyelDGL0Vew1dY0rYuXx7FCsuxV0X4HwQg7wMOGqRGMD70huLsGvE3czLTtvcM2qCa9CfeME+cSL42ymDCjahLHOPz4z4JHtf/Q4CmSO+4uNQ2bJeKsXU+/fHSQvz0Yl2bXSi1NhNqXsQFXLZKGZFmIFG/7OfMN6NqKQ2jcn/PStwZ/rVZ29ZiC25ny33nG3p2GhTszf8UKwupkJVp3WkNSd2Q2jduHzC47Eb55UFZ8ff6pw8uDbPKrrlm4pJm3YgRLhVQi0gHFn678oE+dE7bYDVagBHP8bFFCBOUJQ=="
 }
