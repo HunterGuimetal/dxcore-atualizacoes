@@ -1,8 +1,10 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.72** (2026-11-06)
+Versão atual: **9.73** (2026-11-06)
 
+- Gerador de peças · spiders (aranhas de vidro) em inox 304, 10 mm: 4 braços (X), 3 braços (T), 3 braços (Y, 120°), 2 braços em linha, 2 braços a 90° (canto), 1 braço e spider livre (ângulos à escolha). Miolo com furo de fixação, furo ou oblongo de regulagem na ponta, braço que afina e raio entre braço e miolo; furação extra no miolo opcional.
+- Gerador de peças · presilha estrutural (grampo de viga) dobrada em Z, com degrau da mesa da viga, aba de aperto e furo/oblongo do parafuso, e presilha plana com oblongos de regulagem — em inox 304.
 - Assistente · “orçar perfil U 40x75x40x3150 chapa 2,65” (aba × alma × aba × comprimento) ou “orçar perfil U 75x40x2,65 3150 mm 10 peças 4 furos” abre o orçamento com a viga U no laser de tubo; se faltar a espessura, ele pede.
 - Orçamento · perfil U pronto no laser de tubo (igual à cantoneira): botão “+ Perfil U” na calculadora, com alma, abas e espessura, material por kg e barra de 6 m.
 - Limpar · peça dobrada em U (ou L) maior que a mesa da laser ganha o botão “Orçar como perfil U (laser de tubo)” (ou cantoneira) no aviso, já com a seção e o comprimento tirados do desenho.
