@@ -1,7 +1,8 @@
 {
-  "versao": "9.79",
+  "versao": "9.80",
   "data": "2026-11-06",
   "notas": [
+    "Gerador de peças · Spider em V com degrau (GUIMETAL) em chapa inox de 5 mm.",
     "Gerador de peças · Spider em V com degrau pelo desenho da GUIMETAL: oblongos a 75 mm para o lado e 75 mm para cima do furo central (braços a 90°, 106,07 mm do centro ao oblongo, medido montado), oblongo na horizontal. A planificada já soma o que o degrau em Z estica no braço.",
     "Gerador de peças · Spider em V com degrau com as medidas da peça da GUIMETAL (paquímetro): miolo Ø 44,2, braço 16,9 mm no miolo e 35,8 mm na ponta, furo central Ø 14,3 e oblongo atravessado 20,9 × 11,1.",
     "Gerador de peças · Spider em V com degrau: medidas da GUIMETAL como padrão — raio do miolo 43,55 mm, braço com 35 mm no miolo e ponta com raio de 18 mm (36 mm de largura), oblongo 26 × 14 atravessado.",
@@ -138,8 +139,8 @@
   ],
   "arquivo": "DXCORE.html",
   "tamanho": 4680660,
-  "sha256": "787fc6cb6caf6fde1f3b62662a1da90deea1809b27c36e8999a3a61f4235f426",
-  "assinatura": "DSoTiOGSPArLVTEv4LDZ0qOD2QtPo45NrsZ3Bf1/Nd64u5Fr9Xi6EJK3Us2YyjCvip7xmm38KQVOdVGLBgzkB6G+K4Xsf3mRKpOZHK+4N/uWG5QBWLriGcOsuHRbN71Ucelzc2uhIkl1YjK8VsiWl3n48pjA8kZcfcuJvup4xuVSKF+VUOPybtRBfNKC2P+li2qhIaM1x/nBvg56KfWjyO+0JzO6NPwdBdwNFV3Z1Umpn0ofX9K8X1PTPuV59ZErZcddmlRG/8aTSrvCaMO5emOVZ/vyxtLUMQIiv+L7e3268qkLye7OkF9NjLobJTnS14kj3zu+4aWtDFwFJd7JqQ==",
+  "sha256": "efa2415f03c2cb75462e6a8301503d6fbf348eb5ec188af4bd4bbe6dc79d6ba0",
+  "assinatura": "Pdkd+qjvjfWSH7kzDXrQmjT3hfqyptWMZGAmF8iQZNEKjLReZg/JsHI2d/mUScX7MkSdHBpjZyX5FaKNrq4A2opkJWJ26iFmJUOMxeklTnJA5NrVCgd32eQl1y4SWW0/OqC3feX3LF0zjz76wHqOfAiYM43uHLRQ9NGy/OX481w2coIs0tOzw+j6Q6tGbjosikdkvtK5+glZzjr04zkeWMuC8NKZCCGBYejfqqyHNQku6R1TU8bus718TnChOApEXQu0swn90hgE2A2pd5IReISQainIPreTwqda9wOygf9zedzN4UqIx+AZfIIBxkmZV1jCaU9rHKofixakhvu0kA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -162,5 +163,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "XGwIKe43LQ+UfHXJPW6bgf35mJ35xQE9ddECJVWGi9yCU8riJ6ENC1bk3KMWfvjm6vFSmakanstkorQJb5xO5AU+gXNX/sLRJvf2SE/C47gnwPqhWYPfqB8xpIwO7IgmDqa+IOvjAsEnxXcRoTSpNHOWBm9H4mcvLdaB5Vb7VZNPgYvOBLNUfqaqGuP/kGoN4gRSQMs7frzqE6iXO76AbKVDQYN3jxgUzO04tlFmQtCaveGpWoA9IkhvUWN1TMxT69WTMVPID3PdpPgzhDXspsmkdDofc7E0jVAo/nc4VeSLKzIaDIH4+xVQ6gFdxYAcym6SSmYhYYVGur+2xV1Dhw=="
+  "assinatura_extras": "bhICtd4BhlMWiOo8u+iQmva3ssyT2zB+pL5w+cwJ5iqEyirUDJDrsN7nSTl6r3zC8ELSijTqpwAn6i3P88thajqPVjn1D800t/HgzngtUalnhMS84n9xBOnGV4Fl9f0R/54WRP0JGGfyP4mIcaGQHyfyQDiv+bclzMlfOaEdSM3oPT6U8s5YQpwpx+VAP4Cjmp6o2kqz5B5BTxSOXhrWlSEbQZ5StJCe0A1B0eoJy6XSL9HIBaJhvx5n9H5t7WbWDGoadlNGm18OjutAxF2XaM3kjZovBnTwpxiPMpejvWCaiRJSFsiomu3D9f8mkgeeKhBuTA2X8jnHRamZ+S2I4g=="
 }
