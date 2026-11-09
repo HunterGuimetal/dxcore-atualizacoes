@@ -1,7 +1,8 @@
 {
-  "versao": "9.73",
+  "versao": "9.74",
   "data": "2026-11-06",
   "notas": [
+    "Gerador de peças · presilha estrutural em L (inox 304, 6,35 mm): duas abas a 90° já planificadas, com furo ou oblongo de regulagem em cada aba, 1 a 4 furos na largura, distância de cada furo até a quina, raio e fator K.",
     "Gerador de peças · spiders (aranhas de vidro) em inox 304, 10 mm: 4 braços (X), 3 braços (T), 3 braços (Y, 120°), 2 braços em linha, 2 braços a 90° (canto), 1 braço e spider livre (ângulos à escolha). Miolo com furo de fixação, furo ou oblongo de regulagem na ponta, braço que afina e raio entre braço e miolo; furação extra no miolo opcional.",
     "Gerador de peças · presilha estrutural (grampo de viga) dobrada em Z, com degrau da mesa da viga, aba de aperto e furo/oblongo do parafuso, e presilha plana com oblongos de regulagem — em inox 304.",
     "Assistente · “orçar perfil U 40x75x40x3150 chapa 2,65” (aba × alma × aba × comprimento) ou “orçar perfil U 75x40x2,65 3150 mm 10 peças 4 furos” abre o orçamento com a viga U no laser de tubo; se faltar a espessura, ele pede.",
@@ -131,9 +132,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4675536,
-  "sha256": "85b957f1075e0bebbec564e16c6873ca44a314931502f9ccc3aa9a07b40eb073",
-  "assinatura": "QECTVnPHe1nsUgrkT32nIFZbNVdt/G69X2l30bJXvCnFW8rjlPiVDVuQ4OO5Voo/81MeBaXOtot+aCjhyaHVv/k6CIpqQnjGaf13uHVEe+gw8KTLOEbaXRoJZlSHZLJMmetaTqjwQri9l90/YN3RQyETYpYu0wjDww3JXNYXmvh3NJEQCUp9QEtCZ/E5uAm2gS74idyVo4cKSOLFx6aFkkPx8Og4L1NX+NyUhEPo9KxnnoIZ6JRoLhW8FTwmaen3yM24RhF8bnUOlc6WaXAvRQk6H3F7wIvK+WPnn4SD7xqM7MTEor+74Ioa1VPIal6s9E8XCIpVV9A7fJg+SHCd6A==",
+  "tamanho": 4677752,
+  "sha256": "7a74b58e3d0f0da3c5c15a7176e12bc799865cdd22e04a560f2508f0e06521cf",
+  "assinatura": "ZL9yPBi4OJVjRGB0H+rQu6z2kjNwLHH28AKNDABJxU2ME9pz2nnkmTWk+d152H+XgL71kpwrFA0X00k3W7JIHK3u9TPaMutARfZThRAgj9he1OaUV7LtDJ7jbbrp7vagtD9V9YcM4PUpf0SWpAnlpnp7hGtuNPbPifA3RfKGXhA0mKrmjfzKQhP1hkiB1wGdLQZ8A6XIJmiwoPOs1CZuw2qAu3VLB+kwyUrTUIX9llKhjKrSATzYgafCCrZ3F2LhHudy0nE0VcLPxP2Mo+frQYk07El7ZPvVgR14Ev0Qu9kQ1m9/tUOKKawa0HaToh1NbMMvzHMOMwO8PkzI+zQWBA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -156,5 +157,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "LQXJt5L5p+zZkVM0hhXGPY7Ms4Vtf2ppi/2Bdqw3Cb3yuZEyjXFSdzwL5bpApCdBmBgJ1TcSUBwU4rjbczVgluyB6zVjXlcb7k34QCD77zScl5Lo1OLmEGbSc0CmHvFzR0UgJIjwj39h0YT6OCEm/sX9oUohlsezRIhzx4aPl0IpwRCv16Y0z0dcflMdvKwV/icTB7DyiFdixvZUpJR99+smjcXIdYukNZdWgqgGLuRiPi61Ca1qBFCqDd5d+elkdfNwDI0JCzxkRovxA2wfPtj9MykJoVMVujCw6MGsFSTL6PDmZH4kOFkDkWsC6BaVsilyapIUV2hIfgoMV5pPKw=="
+  "assinatura_extras": "NJgOMbsIJJzwFxkftMVNMC4/oxINrAa8Yi/hzXwydD+4Ejwe1jmwGX8d0oyRxusYdWLojXRZ3aMueog2KgQdjVYySTHcEW83T1eJLSo61W5flo4qATH7qN/Q/NsEIbBQ5wcDMyN+Sp7MqaLmyKCUrLbamOjsKnliFpOk3+gl0JjkQQFZe+IpS0sf8B5WS3Vnq0HMwCQupxbp1pgMKkTNLYKLBJpZnTrhUdBxP7hC8u53tuTWmDVO8NX5TYSQIzVEdl65EOSa8bBXLNRUEO9975G1KOjfuQXdrIpSkZUu3pmSwt4rZwCB5auaiG08OaDRAdiZLKFY5hwGm1dt9Hk3rA=="
 }

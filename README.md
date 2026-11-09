@@ -1,8 +1,9 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.73** (2026-11-06)
+Versão atual: **9.74** (2026-11-06)
 
+- Gerador de peças · presilha estrutural em L (inox 304, 6,35 mm): duas abas a 90° já planificadas, com furo ou oblongo de regulagem em cada aba, 1 a 4 furos na largura, distância de cada furo até a quina, raio e fator K.
 - Gerador de peças · spiders (aranhas de vidro) em inox 304, 10 mm: 4 braços (X), 3 braços (T), 3 braços (Y, 120°), 2 braços em linha, 2 braços a 90° (canto), 1 braço e spider livre (ângulos à escolha). Miolo com furo de fixação, furo ou oblongo de regulagem na ponta, braço que afina e raio entre braço e miolo; furação extra no miolo opcional.
 - Gerador de peças · presilha estrutural (grampo de viga) dobrada em Z, com degrau da mesa da viga, aba de aperto e furo/oblongo do parafuso, e presilha plana com oblongos de regulagem — em inox 304.
 - Assistente · “orçar perfil U 40x75x40x3150 chapa 2,65” (aba × alma × aba × comprimento) ou “orçar perfil U 75x40x2,65 3150 mm 10 peças 4 furos” abre o orçamento com a viga U no laser de tubo; se faltar a espessura, ele pede.
