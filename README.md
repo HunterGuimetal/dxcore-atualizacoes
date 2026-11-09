@@ -1,8 +1,9 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.76** (2026-11-06)
+Versão atual: **9.77** (2026-11-06)
 
+- Gerador de peças · Spider em V com degrau: medidas da GUIMETAL como padrão — raio do miolo 43,55 mm, braço com 35 mm no miolo e ponta com raio de 18 mm (36 mm de largura), oblongo 26 × 14 atravessado.
 - Gerador de peças · Spider em V com degrau (o modelo da GUIMETAL): 2 braços em V que alargam até a ponta, miolo redondo com furo central, oblongo atravessado (ou ao longo do braço) e degrau em Z em cada braço, com as duas linhas de dobra marcadas na planificada. Inox 304, 8 mm.
 - Gerador de peças · presilha estrutural em L agora com a dobra ao longo do comprimento (como uma cantoneira curta): comprimento, abas por fora, até 8 furos ou oblongos em cada aba distribuídos ao longo do comprimento, distância da quina e da ponta.
 - Gerador de peças · presilha estrutural em L (inox 304, 6,35 mm): duas abas a 90° já planificadas, com furo ou oblongo de regulagem em cada aba, 1 a 4 furos na largura, distância de cada furo até a quina, raio e fator K.
