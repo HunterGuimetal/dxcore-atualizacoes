@@ -1,7 +1,8 @@
 {
-  "versao": "9.80",
+  "versao": "9.81",
   "data": "2026-11-06",
   "notas": [
+    "Gerador de peças · os spiders agora são só os da GUIMETAL, de 1 a 4 braços (1 braço, 2 em V, 3 braços e 4 em X), todos com as medidas do desenho e do paquímetro: inox 5 mm, miolo Ø 44,2 com furo Ø 14,3, braço 16,9 → 35,8 mm, 106,07 mm do centro ao oblongo (montado), oblongo horizontal 20,9 × 11,1 e degrau em Z com as dobras marcadas.",
     "Gerador de peças · Spider em V com degrau (GUIMETAL) em chapa inox de 5 mm.",
     "Gerador de peças · Spider em V com degrau pelo desenho da GUIMETAL: oblongos a 75 mm para o lado e 75 mm para cima do furo central (braços a 90°, 106,07 mm do centro ao oblongo, medido montado), oblongo na horizontal. A planificada já soma o que o degrau em Z estica no braço.",
     "Gerador de peças · Spider em V com degrau com as medidas da peça da GUIMETAL (paquímetro): miolo Ø 44,2, braço 16,9 mm no miolo e 35,8 mm na ponta, furo central Ø 14,3 e oblongo atravessado 20,9 × 11,1.",
@@ -138,9 +139,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4680660,
-  "sha256": "efa2415f03c2cb75462e6a8301503d6fbf348eb5ec188af4bd4bbe6dc79d6ba0",
-  "assinatura": "Pdkd+qjvjfWSH7kzDXrQmjT3hfqyptWMZGAmF8iQZNEKjLReZg/JsHI2d/mUScX7MkSdHBpjZyX5FaKNrq4A2opkJWJ26iFmJUOMxeklTnJA5NrVCgd32eQl1y4SWW0/OqC3feX3LF0zjz76wHqOfAiYM43uHLRQ9NGy/OX481w2coIs0tOzw+j6Q6tGbjosikdkvtK5+glZzjr04zkeWMuC8NKZCCGBYejfqqyHNQku6R1TU8bus718TnChOApEXQu0swn90hgE2A2pd5IReISQainIPreTwqda9wOygf9zedzN4UqIx+AZfIIBxkmZV1jCaU9rHKofixakhvu0kA==",
+  "tamanho": 4678684,
+  "sha256": "fc691745656e33f8942be972b6f97aa2c92467b6b3b3d80d581197ad291fce2d",
+  "assinatura": "TuMh8wKvLz6k0HGLkJBbVKIXH55zkRkC84TCypqOb8uV9dWN6kenwCZ/v6QBsYp/y/klvakevopkbAuAOIhUz0u6tOD1/k/qvGx6JV7o5qbfL5ziiqkfwuQcC9fshjs1Kd2ZofKyyot71/2wROKqZX7bXvA+kJb0GW2EYrfpMDQQeLDHNLlwS6fDVwuJ1ghfWFfR4sq1UVtFGIorp6MI9HNy4CckZEQsPFKZ9fUI8VchGIdAngJyNicqeHWkDJ1dethQNGb2AxdXwdaQVHh2pQ0OlAeOD1unhl7eY65jTdSuDeDyx5vyiEwDYSXL6osjRK8s6/xwhWEJreTkg4dR8Q==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -163,5 +164,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "bhICtd4BhlMWiOo8u+iQmva3ssyT2zB+pL5w+cwJ5iqEyirUDJDrsN7nSTl6r3zC8ELSijTqpwAn6i3P88thajqPVjn1D800t/HgzngtUalnhMS84n9xBOnGV4Fl9f0R/54WRP0JGGfyP4mIcaGQHyfyQDiv+bclzMlfOaEdSM3oPT6U8s5YQpwpx+VAP4Cjmp6o2kqz5B5BTxSOXhrWlSEbQZ5StJCe0A1B0eoJy6XSL9HIBaJhvx5n9H5t7WbWDGoadlNGm18OjutAxF2XaM3kjZovBnTwpxiPMpejvWCaiRJSFsiomu3D9f8mkgeeKhBuTA2X8jnHRamZ+S2I4g=="
+  "assinatura_extras": "fMfRj6EqKn23etyTxBdR3YG6+9jn57QqZRI50g5ArI+9OPKqIn32jsKbE980w8u3FXCnMsHJn6Eh+YZhbcvzAwt467UzU7vlfO82DLfsGcpsiaD5s9s0ywyj0vRbSDZFtBtCJP9yn4yORvKifiEW4v963QtG5gJelWd9ZeKmEwCgowzYuQX06WxFKNcHXFAcg6qDbnNrJcrJj3e+nTfOyJw/LwLNqpPpoDZyUTZrXKL1XgDO2lZ7XaX7McHDV7oIMWYuVJhg2rgtDUAQA+2g9k0mX190wCtb9Xjy4McBry8aSc0Q9fBRjfKYC/40XinLOVjjLjq5Cvrfb0UJEXojMw=="
 }
