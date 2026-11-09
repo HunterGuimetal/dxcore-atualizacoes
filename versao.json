@@ -1,7 +1,8 @@
 {
-  "versao": "9.71",
+  "versao": "9.72",
   "data": "2026-11-06",
   "notas": [
+    "Assistente · “orçar perfil U 40x75x40x3150 chapa 2,65” (aba × alma × aba × comprimento) ou “orçar perfil U 75x40x2,65 3150 mm 10 peças 4 furos” abre o orçamento com a viga U no laser de tubo; se faltar a espessura, ele pede.",
     "Orçamento · perfil U pronto no laser de tubo (igual à cantoneira): botão “+ Perfil U” na calculadora, com alma, abas e espessura, material por kg e barra de 6 m.",
     "Limpar · peça dobrada em U (ou L) maior que a mesa da laser ganha o botão “Orçar como perfil U (laser de tubo)” (ou cantoneira) no aviso, já com a seção e o comprimento tirados do desenho.",
     "Projetista · a oficina ganhou quadros: pranchas técnicas (blueprint de bancada, fachada arquitetônica, vista explodida, planta baixa de cozinha industrial, detalhe de solda), pôster do DXCORE, placa “USE EPI”, relógio de parede e quadro branco com rascunhos de projeto.",
@@ -128,9 +129,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4662460,
-  "sha256": "87359d345c7ac5bfdcc4e3f9e97027bb7fcba0b3a42333f8aca2101c16193ccb",
-  "assinatura": "TQwscyR3kAGS5ZFwjTyLMYIRqULgsnlDYixndbPxniMfwn8wutD26mn4darNPLBhhyLjvvGBWpX2Mq2wFMRE2whtpc1RQV3mjMC6P8U1T5vfOiN8KuVlhu2UCx+C96Ax5S3UQWvTimCEB4wJtE/5bEMFL6FNYXaaOquk8lgYu4aQ89o6a9/sqWYdZwubGEjouEgw5dTnnw3kxioC3sDqTZAcFy1Hl17bSvJS54DOpr9uJ8sxUDPFwioPBG2ER6borjTENEMMIt/ZthY68OqqOwFPB4IbkM58mM6oTp13Z/RA8mzpyI3PzbZULrEL2zi03trfT5ZeEXJ40ZJxYTIhlQ==",
+  "tamanho": 4665180,
+  "sha256": "f0ee6ddb99a0babcc6131990a2fa8ffcbc54f7724371aa8eba3ba916a0a55ccc",
+  "assinatura": "IG7KRClCJQ3GH5meRTC7A7MaSwVTGSgo6jvXdcLCzeSMTTwAtFCY2W1jXYd+DOLcIouIGVaszHmLo2xPCzrG9obfs4ItDBr1VqQZx5N/QwrL7bup+KaYlSdbouOMQqoYhpq2L9n8XCpXeWw784hdyzWIR7zwtBKWURkQNMfF1WeNnDAddKx7XYYn3im6uSLP8uL2WFX6ZLptLxoet5y2qivbCQgpWmbzF1gNoMhN9M6dJ/hQw1kE7SqIHITyuSgekrKgiPz6C5B2cY2IN4sNn4HBC6XP84Bb5omueJN/NBFf6XsBr7wm0YPQaMv+Ky7IRSE+gXd0mtWwEkNjIvo3Vg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -153,5 +154,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "N0+dzeYxXRE0dVazwAEfiTLbPa643fmGKfrxUZCCxQNbCiXCyGU5er4PBqxixPgRwiza2dv6I6xkkY1Y6VcvGV1su9iOga8DhA7MNXWfwCp1aS7j0TvudnSsdJ+aygQ/zPWxK6loyoomt/KHu907IAdg7QEvTWIy8ZdYayRExpdYLom3l5wDFhuiN9wPfyRSGBF/I/ihBGkF34mpx/Olrq74qeJchJ7vR7f2jsdiA0rx0+oN6meMJSxDSm27NOzDdDayvYW+4yTJOmuuorPkGSwVK2XYhTU/5TdRQWXKm3FbW1zHKe4MJagB4h8giIj8HBW1l+CWza4637BlpcyXUw=="
+  "assinatura_extras": "TozG/n7Xl1lIHa0UkOthKPnQ8UPHDtCCfPYQhJ5vOw+hGtGJ3NV96zhu7R2ubgSXp2BgjNyBKpeccPQgJU7BZaq7mtQSh/zd0ZEBzvAK7ga77xhfTSf8Skhhb0LhoJ5JwJrt8YxzFaNfPP75AsEThd1RUcY0SBzUj0JzLkcMZ4srX+gUwCgnatm4jiLVJz2a/z8Y7pNVS/abxIjnvGUHSkhsji902FD2pBdCgTSwSuUrwuCMMdwoPB1TxxF2jGdWw5/yoQnHaZM3ZzKw6zpctV23Zo/e9dTBtlRLX/AWEkzdP/Lga1jnHgkx9afDC+Wr6V42438/b7amxxkvBXbmRA=="
 }
