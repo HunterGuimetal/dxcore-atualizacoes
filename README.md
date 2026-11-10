@@ -1,10 +1,10 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.83** (2026-11-06)
+Versão atual: **9.84** (2026-11-06)
 
-- Vista dobrada com raio de verdade em todas as dobras (raio interno = espessura quando o modelo não diz): acabou a dobra em quina, "de bloquinho".
-- Caixa/bandeja: o canto aliviado fecha arredondado na vista dobrada (sem o furo no canto); canopla com os cantos encostando e espessura 1,0 mm.
-- Spiders: a decaída em Z aparece com as curvas da dobra.
+- Vista dobrada = peça acabada: cantos de caixa soldados e arredondados de cima a baixo, quinas quebradas (sem fio cortante) em todas as arestas.
+- Spiders: raio de concordância entre braço e miolo (5 mm, ajustável); inox escovado com reflexo de metal, sem estourar nas rampas.
+- A peça dobrada sempre assenta no chão (a grade não aparece mais por cima dela) e a textura escovada segue a chapa pela dobra.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
