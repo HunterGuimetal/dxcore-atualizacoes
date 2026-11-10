@@ -1,9 +1,9 @@
 {
-  "versao": "9.90",
+  "versao": "9.91",
   "data": "2026-11-06",
   "notas": [
-    "Projeto pronto (STEP) no Projetista: perfis U, L, C e Z de chapa dobrada saem planificados (largura desenvolvida, dobras e DXF); barras maciças e tubos com pontas em ângulo entram na lista de corte com o comprimento e o ângulo de cada ponta.",
-    "Abas Peças, Chapas (quantidade e m² por espessura) e Corte (metros e barras de 6 m por perfil), busca, ficha de cada peça com peso, Desmontar tudo, lista completa em planilha e parede/piso do desenho separados da fabricação."
+    "Gerador: DWG/DXF com dobras marcadas em linha tracejada (oculta/centro) que atravessam a peça agora entram como dobra.",
+    "Gerador: o sentido (PARA CIMA / PARA BAIXO), o ângulo e o raio escritos junto de cada dobra no desenho são lidos e aplicados."
   ],
   "historico": [
     {
@@ -122,9 +122,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4744224,
-  "sha256": "a02ba495671ec41e3e9f18421be8ec8ef50d888fd5dbb9f43be733ce7d1d337f",
-  "assinatura": "FSZyt3F6VOXeVNGuzEHWK3BRBMo0MSYrGItdrcf+tElD3DkC7uLQgTjaUwlrpSbZDJNXCU6q7VtWA+/770wcy6KFqu2OPZBXly8M87m8blZRCVMagObgkELEgTM3KKoZHNxaOsNws+YLNI6nfISoCAxadsWGxb2L109v4cVCcBQN/dIP31ZfXwdbcy0OdDG3WsWvZs7nDcB0a93XK09sG4r9wNJTc83K4ME2vi6nbSJgOeTpZIlaSfuumfv8rQP0AW25M1jCezlCq+czfb7dXkCg0goQJEsjpn4O/BgrNA6W7+ECmH4bD/Sa9c/IzyE7M9SEq+ztzR1+ti6KXx4fjw==",
+  "tamanho": 4748604,
+  "sha256": "a30b54ee590416ead4f6c3c3029c1d97562bd35cb8582e4f63da9eebfc81bc4e",
+  "assinatura": "kHA78XFwjA29+K8J+Sv9i3dE6xa83cOmuOlwy+7GE4R9dSRUeuDn2iX6VVuG6CSPSCAz5h427flK0rIQauZxcgA2T8/XOFo/22Lq4TMuXK0vLZj1cxaKH/ZogjPRoOYe/3Yh+YeFD2ijfX7oUZLWAohU9p6zLU1ZqRRXHqn+Zm0w7+rbKPDvI61Xuvj1kTOhBXVGxp7jhPmCuxZonmxXAAYcTbM3N4IC0cq3SKczEWcqRc7bSGnzi06BLrFgji/+99xC6DPebbY+IXXlUWFAYbj7+duDL2XKP25eJlCGzQ7qukBZfhPLwiMs2l4gnrIs+x7hj1bBuhkvS3BgwmYekw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "Hgct9IEIwSxfHA7dFz288YvkdkZHnwg4wsWQ8QR8P4LVDx3+UoTaXbJ5A8SmSzB3iIyJTStEzxG6uCosDJkVJjsSdco0Sn17dWPHpDsXEju5kF0hQohT0JSAtcWNVz6hVY8z3xaVqTsEU0uEFInvi/S4l1l4WuFHAzygB0Y/9O3hSlC/gt7iDah5bCtqEAKx5g15bbuNBHvrPmPL6aXs1TZqJRz1CHN0wLocCLmJHMMBAfneht6SLO69fxgWfInnnRP3POqqEzinEVJZyXhy718710zgEeu6LGtrROllbCd+ZrGwHo4qEMyogfxUY77xHvl1D9b/rlNZrXev7jYFnA=="
+  "assinatura_extras": "fv2raqu/228P/+JQDddD4IQ8vDcauCue/s8PIK6K1KR7o28xdGNRIxo5gbF/ACJI1RzCZTaVYABwOEpJfX8mfYYUECMNARDgkYJz8bFsucV9uP+LxUuh7w0fGeo0SBt1HiAOG+lSvZFkOfdzM5CwlQhoeby5PzKU/TdRwxe0BUKC9qnjXXaH91YgnYQEP9tSp+/VIS8OfvW5PKS8tdMQstNFs4Bk1rdj/frhp1QUmvPGLOsJbkjmlpYEg3sH/m5lLHzYK8CSyXpAb/U825ziW9zQUMjk07SEl9Xlz382Kjf9r52glwbUC6E5z+M0eNcMGs3x68/gALGHQBTzt1sv0g=="
 }
