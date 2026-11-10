@@ -1,9 +1,10 @@
 {
-  "versao": "9.91",
+  "versao": "9.92",
   "data": "2026-11-06",
   "notas": [
-    "Gerador: DWG/DXF com dobras marcadas em linha tracejada (oculta/centro) que atravessam a peça agora entram como dobra.",
-    "Gerador: o sentido (PARA CIMA / PARA BAIXO), o ângulo e o raio escritos junto de cada dobra no desenho são lidos e aplicados."
+    "Projetista · projeto pronto (STEP do SolidWorks): cada peça agora vai para o seu lugar na montagem. Antes todas caíam no ponto zero, empilhadas.",
+    "Projetista · montagem em pé (o eixo para cima do STEP estava invertido), sem as bancadas da oficina em volta, com parede e piso sólidos como a obra.",
+    "Projetista · peças repetidas na montagem (abraçadeiras, chapas de parede) agora aparecem e são contadas uma por uma."
   ],
   "historico": [
     {
@@ -122,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4748604,
-  "sha256": "a30b54ee590416ead4f6c3c3029c1d97562bd35cb8582e4f63da9eebfc81bc4e",
-  "assinatura": "kHA78XFwjA29+K8J+Sv9i3dE6xa83cOmuOlwy+7GE4R9dSRUeuDn2iX6VVuG6CSPSCAz5h427flK0rIQauZxcgA2T8/XOFo/22Lq4TMuXK0vLZj1cxaKH/ZogjPRoOYe/3Yh+YeFD2ijfX7oUZLWAohU9p6zLU1ZqRRXHqn+Zm0w7+rbKPDvI61Xuvj1kTOhBXVGxp7jhPmCuxZonmxXAAYcTbM3N4IC0cq3SKczEWcqRc7bSGnzi06BLrFgji/+99xC6DPebbY+IXXlUWFAYbj7+duDL2XKP25eJlCGzQ7qukBZfhPLwiMs2l4gnrIs+x7hj1bBuhkvS3BgwmYekw==",
+  "tamanho": 4750464,
+  "sha256": "d7d5c2b900c5d8e653857ca06d2f72770384629ddddc65d4b6de436c6dde7597",
+  "assinatura": "ZPiT1X/9NzB9DRlJltkMA9ZNyg0KhACFapoVw6gHdgB7C1MpJmMzHgO2nkpEPxgQPZVkKWDOSdoOlzjdq2E4vHb7mc7zI9DWWtjmGpdOlAvCk0ZcwPChwTw1mXq5txFMbkAzHuH4na9mq8r5A3/lPToSUCt+KvKu6c+nE3njUDAcah6wABQwsB4qcCc5+orM6GQDl5MHhkq+fLqaWTmyEUUEkzuMSTFcmNv9kcf3TsB9+qcKgyx/VZnlxYeSWw44YLhrJFFZs6i0eNq8c752s43rSnHcsdM6LPDQgRX7kV2+i43f1orhF+8OMfL2/xEFN1Lf9fdoZCZgXsNtIpwrVw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "fv2raqu/228P/+JQDddD4IQ8vDcauCue/s8PIK6K1KR7o28xdGNRIxo5gbF/ACJI1RzCZTaVYABwOEpJfX8mfYYUECMNARDgkYJz8bFsucV9uP+LxUuh7w0fGeo0SBt1HiAOG+lSvZFkOfdzM5CwlQhoeby5PzKU/TdRwxe0BUKC9qnjXXaH91YgnYQEP9tSp+/VIS8OfvW5PKS8tdMQstNFs4Bk1rdj/frhp1QUmvPGLOsJbkjmlpYEg3sH/m5lLHzYK8CSyXpAb/U825ziW9zQUMjk07SEl9Xlz382Kjf9r52glwbUC6E5z+M0eNcMGs3x68/gALGHQBTzt1sv0g=="
+  "assinatura_extras": "T03vdLO9t0eHSg+cNWA4gx2lRG+RnGG0quoKOb7UJKK3RRMKPKVbOWp4FIRSPhE7cmoKf9kMJ+Ggv3imbH1Wp6u6Nc1B5ISYGiQ3rAfecz516p2emQfKuc5vVr2/GxWq/ysO4q+WJmUKFwjnV5YfypzKqQwVK0ad0F0vRxrtGAHMNpu3wo6Cufwtn7i4bEoFZ378yiM0ahA6dV/iiaqdCYR4stXnnBvpymX6C0k+Qgo/UAdl18FgIDAw5Lp2OvdVYIbMLP901gdLEul4cos6dEupwoad6Nrwx+7G+Zh7R+0T3BJSaEh1KcwnsK8GAxhFqfpK8TNh3GsrazSkw9puOQ=="
 }
