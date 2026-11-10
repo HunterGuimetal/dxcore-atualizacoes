@@ -1,8 +1,10 @@
 {
-  "versao": "9.94",
+  "versao": "9.95",
   "data": "2026-11-06",
   "notas": [
-    "Gerador · novo modelo Placa de base com furo central e 4 furos (sapata de poste): vem pronto com 280 × 280 × 3/8\" em aço carbono, furo central de 103 mm e 4 furos de 23 mm a 205 mm um do outro. Todas as medidas podem ser trocadas."
+    "Projetista · projeto pronto (STEP): marque as peças pelo quadradinho, com Ctrl + clique na lista ou no 3D, ou com Marcar todas (respeita a busca).",
+    "Projetista · Excluir marcadas (ou tecla Delete), Deixar só as marcadas e Trazer de volta. As peças fora somem do 3D e saem das abas Chapas e Corte, da lista e do Chapas → Limpar.",
+    "Projetista · novo botão Orçar no projeto pronto: manda para a calculadora só as peças que ficaram, chapas e tubos já agrupados com a quantidade."
   ],
   "historico": [
     {
@@ -121,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4745548,
-  "sha256": "feb9463368f7f3259c592efa002dedce95eccc9000f4e5c64149ce164516cbac",
-  "assinatura": "Zes+j/I9qvMEu2VWOOedZ2G4zaGzjx+IPEDdw/wXe0bpNwEZN2DC++E+LSIt/zQHD1sX6PsxUP9brUjAuAfqPu/I2u/vPhmPZkMOjarK8j7GpgkFVhIOm1LRXGW+Ko+hGJGExXbbt6Yzz1bJKLoZrIw4GAH3ZEx2pAV5qzs/rKf/4RUUOc7br/vv10FKVnBgJmRNf8wb+4tbe01zol0hc/YB4yDdk08rB1bG+1RwfRVGqGI6Zos1ZQmISt89V40wFJGFlANVD542NjB0JHIPLpAknGP+yvCQkgCW4hyN9fmAThnbvT5fq5eTVVngDQlF0bbpU9YsvAzBFAwi6tXOzA==",
+  "tamanho": 4750556,
+  "sha256": "fef10cd556fc2ed575df9d30af8204a06bed2944ce1beb8d51936218d4ba3578",
+  "assinatura": "ASkQ06pANtOJ/lZbFsFrT/DAOCCIvnYijK1+/upGyiplFy6S80NxgI9SW6gskdACcB7PgfnXvaD/zuyEczM+vWZyrVQYcyuHxJ+ndD8T9iJmP4dBZh5MUoyCOQgIrdBPR1B+vZIz6J6Vq49gGoyXsk7EPxplY8WjLgwdenwiu5YAsX/pCDZVPFCE4gpmRkziZJZKgxaKOS0xO8kIame13yxv3oGzLsgmMRFOgz6GXWKO3VMIhWgb7sJ4B39vVztj3lQgnRLhFMGYaqzuAfXAyrVllxeWNvRXI9o4Rc97tn+RLkLHG/t9MU6Lo+ufY21QioDs5tzbQRlvPaMhHwnLyw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "DNwJ/GBcnMQM+nNgukU3kmAgIq3JB66l1kTYzY7VXJHnQzrS8ZPvtKq5qPCPSOIGBhqhyphLiiljw6ZIPHPMPmnkUMisQZy6cd5X01lZAvUq+03UHsaRbDhAEQ1kkFj4Xbfsc4fFl4AnJ4CFN+jOO6pzj/UZHuGcqpJaAewECeYlhkXeu8iYFFhtYK7VQThqMbh4eTKPNgWqpi0sBbJsQcMtA3Yj4Bkc1LNYRZCXlQjTipg61I9LPgZiCvDbID2YHawR/S6u8EL+sn0WP77syfQgWC5G3jfbBZs9MZgX+tBDKwWoknTTCEfThflPR3yscIZbT1U2lzfV5oFxo7tlfQ=="
+  "assinatura_extras": "fqejh/LCUEZo3HpDJDW7/Ld0gcauZC0LmovL5RLWWT2gZV6sF888D04YN0OeB7+CFzplIOSA4TjQXuawG6gNOJ2AaK3AwiMweOntS1Ha5zrW7W08OWa7HAguFmQHK1SJ/+AatkiCPgF3ZAzqEZ70wCF76mb5ns86BUFeAFPRwh3LWIzYbJp7UL3InfZHPl8tAMRiIxnhyZ6LvtuWxRamCAdBDYnP0rZ9ZK047HMKJnoCQdkVRZitIMO3YxZSYayD/zcReEuS4E66rE2QeGepG7Pa5yFcrxZSX74KSHGNx15OVghX0hWHYXQ6OehF36DEIqLC5i0Ppeh2GlI/lUBOgA=="
 }
