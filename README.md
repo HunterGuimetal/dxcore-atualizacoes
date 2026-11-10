@@ -1,10 +1,9 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.89** (2026-11-06)
+Versão atual: **9.90** (2026-11-06)
 
-- Projetista: solte um projeto pronto em STEP (montagem) e ele aparece inteiro, cada peça no lugar. Clique numa peça e em Desmontar para tirar ela do conjunto e ver a planificada e as medidas; a contagem junta as chapas iguais e manda tudo para o Limpar.
-- Spiders e peças com furos oblongos: distância entre os centros dos oblongos no Gerador, no PDF da peça e no Limpar.
-- Cadastro de cliente: campo CEP (empresa e pessoa física), preenchido pela Receita quando acha; digitando o CEP, a cidade vem sozinha.
+- Projeto pronto (STEP) no Projetista: perfis U, L, C e Z de chapa dobrada saem planificados (largura desenvolvida, dobras e DXF); barras maciças e tubos com pontas em ângulo entram na lista de corte com o comprimento e o ângulo de cada ponta.
+- Abas Peças, Chapas (quantidade e m² por espessura) e Corte (metros e barras de 6 m por perfil), busca, ficha de cada peça com peso, Desmontar tudo, lista completa em planilha e parede/piso do desenho separados da fabricação.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

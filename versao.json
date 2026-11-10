@@ -1,10 +1,9 @@
 {
-  "versao": "9.89",
+  "versao": "9.90",
   "data": "2026-11-06",
   "notas": [
-    "Projetista: solte um projeto pronto em STEP (montagem) e ele aparece inteiro, cada peça no lugar. Clique numa peça e em Desmontar para tirar ela do conjunto e ver a planificada e as medidas; a contagem junta as chapas iguais e manda tudo para o Limpar.",
-    "Spiders e peças com furos oblongos: distância entre os centros dos oblongos no Gerador, no PDF da peça e no Limpar.",
-    "Cadastro de cliente: campo CEP (empresa e pessoa física), preenchido pela Receita quando acha; digitando o CEP, a cidade vem sozinha."
+    "Projeto pronto (STEP) no Projetista: perfis U, L, C e Z de chapa dobrada saem planificados (largura desenvolvida, dobras e DXF); barras maciças e tubos com pontas em ângulo entram na lista de corte com o comprimento e o ângulo de cada ponta.",
+    "Abas Peças, Chapas (quantidade e m² por espessura) e Corte (metros e barras de 6 m por perfil), busca, ficha de cada peça com peso, Desmontar tudo, lista completa em planilha e parede/piso do desenho separados da fabricação."
   ],
   "historico": [
     {
@@ -123,9 +122,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4721520,
-  "sha256": "08e2bd73b7d814681d7df3b17be4abc76878f537dab835478c60f68ec7d5353c",
-  "assinatura": "gRupCCUAxi4sPK2TfrmiMxt5nL9T/le9x/6ktDRZInA23GbFsMdjcVKPtNezcAf4diPmr6WMQ8EQUwBRJTQJp5t26l516ZRLAgv3EM0g5EjRvauSKIl4bxvmoQHzW9otCYGLvfTdLzOHXajaNz8SN14Y8iWZgqgSGgPiN8vxgTqTjcB5f9z/sdRBcdy6yft2rpfr2V9Y+isievdyHBQ8tVAzHwiOxwBfL6SKax0QJhKwpWaFASnhYfFX1rs5sVOkCJJuaUW0uvR6RFRFj0ZMdbMnRWHH+wm2uY2r9UaX9lqutFWmTSMA3PiTYJO33VOlXfAYUGLiTwQtzdw+/slaiQ==",
+  "tamanho": 4744224,
+  "sha256": "a02ba495671ec41e3e9f18421be8ec8ef50d888fd5dbb9f43be733ce7d1d337f",
+  "assinatura": "FSZyt3F6VOXeVNGuzEHWK3BRBMo0MSYrGItdrcf+tElD3DkC7uLQgTjaUwlrpSbZDJNXCU6q7VtWA+/770wcy6KFqu2OPZBXly8M87m8blZRCVMagObgkELEgTM3KKoZHNxaOsNws+YLNI6nfISoCAxadsWGxb2L109v4cVCcBQN/dIP31ZfXwdbcy0OdDG3WsWvZs7nDcB0a93XK09sG4r9wNJTc83K4ME2vi6nbSJgOeTpZIlaSfuumfv8rQP0AW25M1jCezlCq+czfb7dXkCg0goQJEsjpn4O/BgrNA6W7+ECmH4bD/Sa9c/IzyE7M9SEq+ztzR1+ti6KXx4fjw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "kFmnqze4hljv3GELa0+0xjNukYuLLBvpYAhyhIOW79dVnNcgnFDg6zwAnArFiXPzMxo7f2LdASQw9YUE+dcd8qsrOoLd0qdYTcor4WHbnl9PPW1VHTErbY15mRlhLa03oBQbrznYZSOZCC56WJm1swXFeRza9phf3MDn2CMfHmIzoQnqHx4q9ZhWPT70wskKOYqdEoQ31XU3S2Gum/7aCf690/exZ4qd6aZ0lOjmjAZ3KzPeuddVBkag1ZPpW/EA2ztFcwpPSjMa1vxOGRR/n8Dqw+KPZYTGYeR2N10dOYRZgqZYVc9dXbkwqGCM3+DR2wTEgQhOY77jCcpPqGo8yQ=="
+  "assinatura_extras": "Hgct9IEIwSxfHA7dFz288YvkdkZHnwg4wsWQ8QR8P4LVDx3+UoTaXbJ5A8SmSzB3iIyJTStEzxG6uCosDJkVJjsSdco0Sn17dWPHpDsXEju5kF0hQohT0JSAtcWNVz6hVY8z3xaVqTsEU0uEFInvi/S4l1l4WuFHAzygB0Y/9O3hSlC/gt7iDah5bCtqEAKx5g15bbuNBHvrPmPL6aXs1TZqJRz1CHN0wLocCLmJHMMBAfneht6SLO69fxgWfInnnRP3POqqEzinEVJZyXhy718710zgEeu6LGtrROllbCd+ZrGwHo4qEMyogfxUY77xHvl1D9b/rlNZrXev7jYFnA=="
 }
