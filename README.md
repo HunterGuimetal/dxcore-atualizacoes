@@ -1,9 +1,10 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.82** (2026-11-06)
+Versão atual: **9.83** (2026-11-06)
 
-- Gerador: spiders da GUIMETAL exatos do DXF (1, 2, 3 e 4 braços, inox 5 mm), com a decaída em Z do braço na vista dobrada.
-- Gerador: nova canopla 60 × 50 inox 304 (furo 63 × 51,5 e 4 abas), exata do DXF.
+- Vista dobrada com raio de verdade em todas as dobras (raio interno = espessura quando o modelo não diz): acabou a dobra em quina, "de bloquinho".
+- Caixa/bandeja: o canto aliviado fecha arredondado na vista dobrada (sem o furo no canto); canopla com os cantos encostando e espessura 1,0 mm.
+- Spiders: a decaída em Z aparece com as curvas da dobra.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

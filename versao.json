@@ -1,9 +1,10 @@
 {
-  "versao": "9.82",
+  "versao": "9.83",
   "data": "2026-11-06",
   "notas": [
-    "Gerador: spiders da GUIMETAL exatos do DXF (1, 2, 3 e 4 braços, inox 5 mm), com a decaída em Z do braço na vista dobrada.",
-    "Gerador: nova canopla 60 × 50 inox 304 (furo 63 × 51,5 e 4 abas), exata do DXF."
+    "Vista dobrada com raio de verdade em todas as dobras (raio interno = espessura quando o modelo não diz): acabou a dobra em quina, \"de bloquinho\".",
+    "Caixa/bandeja: o canto aliviado fecha arredondado na vista dobrada (sem o furo no canto); canopla com os cantos encostando e espessura 1,0 mm.",
+    "Spiders: a decaída em Z aparece com as curvas da dobra."
   ],
   "historico": [
     {
@@ -122,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4678176,
-  "sha256": "6535a840f200802cc2479cfb051c6c5acfb1299f3fb3f7c3e6a0dfabd006dc37",
-  "assinatura": "T36ni7LR1rGfOwsRo1z09a6RE9dUboXTa6DufS+rnRAQi8ITtjgRDOhSHuZbplqWkzuc0LegLYra6K1WQg7rZGYKLuw8Tszcf9OSGTBEBlzrNQldYgEB439S/gI7QTWmM9ZaBLKfg46dnIZouytBMM0D2sgm/4EctzaC64TuZa/VZaHJVrcaoSPH2ykGeBkQCGIUhsG647rk1669er80CAc4Q7NAPiPc6gHmreD/aR4BREpnPSV8dhqgJH1E9ttNkzi7LnZ6I/aTjGz7lMJnZYQLvazUF8CgPtiZ62umWbAp7ZYXyb3rsS1iqlUAyxk93tM8IQy5mBqIaeP+js7GbQ==",
+  "tamanho": 4682720,
+  "sha256": "806824a04c4329a91f1b92aecee865798b68c3690534adb7fb1528c9526985cd",
+  "assinatura": "YiqVUpaF8S24Kf+LIg4Rt9gV31pe+iV9uu4S5n7a2PN1VOQJztIc0fnA3DLZKvObX/X4H3nng+UeZmXZ+yDa7macjOSgZqy+dMtKD8rkf3hucG0L52NPMxG555d8OFs7kCbMBjGqOZG/CHEkNFgpDJd4FZv+O5/76aF6mbR2aYnfK3r4W4ZZOxjnns8De27eP7mF9EI2ovFIZx/+Ewj744BFS3mA3rIoSLC04HsV2vTlA107e18CBnf3LHUsF1t+Gkn5wu+o6Izk0tlhyX6uv1glA+kpWDEsrHNPlm+FPLtjLhcpmtyOi5fVjDzsYM9cXKj+nAbvHkKcGksHW8BxdA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "KiKsbSDZWhuzqQPhxoyQk9GBqCZNAXzi6u9/kkr75KdcDgxJSwAlQ2O0kIkzVL4oCHGuf59e07n+clT5PesfAUqOnMPFYjmDpI1j9IQ6T33GHRekVOSEDhGQerdtteHYGUzfGgs6OrWKDrhVcOnNhiUg8+z3u/ox58TclPrmjgUtcLMTdleScaHZHolAanFj4AltE6pzHLMC/Y2KFcuu58+XgGLT6zCKV30mK0B27j6KDOxPoC8sJ6FLMAu+O8Ot8ueoaUMPBd1PfQoU3QGr8OCH/wzTT3/hPs1Y9IhIhPJei+W7tQvtS+TShEQ1jg6Ju8VOiyeVW74r8XZLChN5Vw=="
+  "assinatura_extras": "dTSmpAMhulpzoF1NePxRzXmpuWKBmc48PSPR6b2upnhba2m9cmtCqKk7I9M4p9OeN/HJQxulfV8heslpSowxLfod7TZkyNru4cFM4hKf96o3i7txx9Sm9R/1+Hplgr9n7ujuR42FDAzy40x79UtYGrhoKg07+zUoMZOCEBwSnLZ7i1CYB4UAYhFrTKwt3A1A2P2GM+gHiagg/8JNhEBKJ2bkjT7vlj2+ovqfH8ZcD6HDfdv3Is+cxf5+ymIxdHqgoCuEWi2naExn87M6HjcgoFyQMstpBdfCKQAcp48urOhVSY3oeciM2smur95jzC2OeDBc/Kb87IFokI7Ogt/DZg=="
 }
