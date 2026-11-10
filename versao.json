@@ -1,9 +1,8 @@
 {
-  "versao": "9.87",
+  "versao": "9.88",
   "data": "2026-11-06",
   "notas": [
-    "Spiders: o V entre o miolo e o braço volta marcado, como no DXF (raio 0; ainda dá para pôr raio no campo).",
-    "Spiders: 1ª dobra encostada no miolo."
+    "PDF da peça: a lista das dobras não fica mais em cima da tabela; a foto 3D enquadra a peça inteira (antes usava o zoom da tela); as vistas da peça dobrada mostram os cantos arredondados."
   ],
   "historico": [
     {
@@ -122,9 +121,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4691952,
-  "sha256": "6312a890b363035446cedb4f6a46ee1e83c1db0bc222aa18e5a069be2364fb28",
-  "assinatura": "da0J2v65vw/WsTgfZ8SzYiD6kJ16YeskuhB2RcqUPM0jIJYJs+oVLno2nIz5to4KL4bSd0C0VYKEFS0GXG9MmPnkSa73dXSviMzRZC1Ys5PKbhLp7mv4ago1FrPI+XFIsTzbM/YxoVavi0Xs/Trjh132uuwXqWYGhMpQUW69U6KZDO+0dkVulrnEvVklm3n7BiLDD+5PTmU2bx6U+t9QH6+W0v0MP4/xIkEUXwm2xWGZH03M85lWzrw0JsD8vif5b18LTvvHbdomYdPPe5bYrXDDwDIG8eSwZhe5wFWoZueTEBAdvRiDff4EpfjPw2CmYa6nItrRqMnOkxOTcmYfvA==",
+  "tamanho": 4692476,
+  "sha256": "eb4efaf9fcdcbc376f630a969e1e527a4ccc1d866413141b0d843ceba9197c47",
+  "assinatura": "FUwym3zRSH4gtbMShP0GA3gLEQtp5810pY4JNAWIaKeESpBfS1sowleuvMQoOVnbWH6sM5zri+OIo9YEq2AA8MSc/wQE2A5Ind/c0MoUsuo4CS26uxsaVvyJs8Or5h5jG+dYJQQsrnwidsdtZRKXGg7XVQCAUGkb0Mmz+5myNddNVsq6JClGfhkV1iNa27Il9YCE2q8sGiEriuR1MPnudPUBYouXBradauhasX7qjXPpX7v+iLhUJ/hMCWwuHVVBeD1CpVo5HG2ekDqholpgqLLmnBjEubV1aJ9K3644Z9BHQZBDXOd7r9U/X9MjOQ2k+ovyomN9x7zChHNaw1c31Q==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "SjlEHeAM3GOmfNK81PyInU++wGt25QTQPPtpAwMWdLsCeAzIN70sTC25JWiWNuzbDFYFA/4pGcrEbbRJHt168J9IO0oFkgNye/GsFg/oie5NcTPXPqal/mf4OA2rSqJiHbs1PHyl9Skin8jjJmfE7Xvg0fqLQOpa9f4mC/JXE1RWOO4LJ++3OzC8qB3eLbiFhUcQVb5r8qOiKWKc3CV8uS36boGhTxAKSfBWef1FUBmAae+DdLagQvEZLzafFeS+KLszyh/iVcDgr/fe6hMdT6cuQKPY7VqlthS7HMQn7eQwGehitQW1fvRo9vJdujicUXUGQdYtL9pcomZaQrKA0A=="
+  "assinatura_extras": "Cz+y5jJ9JZZM7lyF8yK7F3/6kwt8/sftlVv9mgnk0sZgRvb2nfRTv98thoM9goUkfID5eTvvZGy48AjBTiQCsNj1iGFpuHYaNWHGQwkVdGJqfxtDytDoc3bGV7hSWQJ3aI93nyGJxPGohL3N8TbkMpPktvHQEJbsF0cmlFYPRD5oGuRFJR4aQ3UfhShv8nUwDLL8Ligs865bxoTyZjSM4xY3k8XXKKOS8jB+A+Ft8qkywvyH7SmI8UmA4a3oRUlIj1r3Un9pwxErsK0esLKsNa4mpmB5hhFglym2m5MsrJ5V2xee8LZ5X2F3RIXjQ+YCHVN/wNySXusqVVQx/g3qSw=="
 }
