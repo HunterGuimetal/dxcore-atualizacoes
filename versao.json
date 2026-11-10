@@ -1,8 +1,10 @@
 {
-  "versao": "9.88",
+  "versao": "9.89",
   "data": "2026-11-06",
   "notas": [
-    "PDF da peça: a lista das dobras não fica mais em cima da tabela; a foto 3D enquadra a peça inteira (antes usava o zoom da tela); as vistas da peça dobrada mostram os cantos arredondados."
+    "Projetista: solte um projeto pronto em STEP (montagem) e ele aparece inteiro, cada peça no lugar. Clique numa peça e em Desmontar para tirar ela do conjunto e ver a planificada e as medidas; a contagem junta as chapas iguais e manda tudo para o Limpar.",
+    "Spiders e peças com furos oblongos: distância entre os centros dos oblongos no Gerador, no PDF da peça e no Limpar.",
+    "Cadastro de cliente: campo CEP (empresa e pessoa física), preenchido pela Receita quando acha; digitando o CEP, a cidade vem sozinha."
   ],
   "historico": [
     {
@@ -121,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4692476,
-  "sha256": "eb4efaf9fcdcbc376f630a969e1e527a4ccc1d866413141b0d843ceba9197c47",
-  "assinatura": "FUwym3zRSH4gtbMShP0GA3gLEQtp5810pY4JNAWIaKeESpBfS1sowleuvMQoOVnbWH6sM5zri+OIo9YEq2AA8MSc/wQE2A5Ind/c0MoUsuo4CS26uxsaVvyJs8Or5h5jG+dYJQQsrnwidsdtZRKXGg7XVQCAUGkb0Mmz+5myNddNVsq6JClGfhkV1iNa27Il9YCE2q8sGiEriuR1MPnudPUBYouXBradauhasX7qjXPpX7v+iLhUJ/hMCWwuHVVBeD1CpVo5HG2ekDqholpgqLLmnBjEubV1aJ9K3644Z9BHQZBDXOd7r9U/X9MjOQ2k+ovyomN9x7zChHNaw1c31Q==",
+  "tamanho": 4721520,
+  "sha256": "08e2bd73b7d814681d7df3b17be4abc76878f537dab835478c60f68ec7d5353c",
+  "assinatura": "gRupCCUAxi4sPK2TfrmiMxt5nL9T/le9x/6ktDRZInA23GbFsMdjcVKPtNezcAf4diPmr6WMQ8EQUwBRJTQJp5t26l516ZRLAgv3EM0g5EjRvauSKIl4bxvmoQHzW9otCYGLvfTdLzOHXajaNz8SN14Y8iWZgqgSGgPiN8vxgTqTjcB5f9z/sdRBcdy6yft2rpfr2V9Y+isievdyHBQ8tVAzHwiOxwBfL6SKax0QJhKwpWaFASnhYfFX1rs5sVOkCJJuaUW0uvR6RFRFj0ZMdbMnRWHH+wm2uY2r9UaX9lqutFWmTSMA3PiTYJO33VOlXfAYUGLiTwQtzdw+/slaiQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "Cz+y5jJ9JZZM7lyF8yK7F3/6kwt8/sftlVv9mgnk0sZgRvb2nfRTv98thoM9goUkfID5eTvvZGy48AjBTiQCsNj1iGFpuHYaNWHGQwkVdGJqfxtDytDoc3bGV7hSWQJ3aI93nyGJxPGohL3N8TbkMpPktvHQEJbsF0cmlFYPRD5oGuRFJR4aQ3UfhShv8nUwDLL8Ligs865bxoTyZjSM4xY3k8XXKKOS8jB+A+Ft8qkywvyH7SmI8UmA4a3oRUlIj1r3Un9pwxErsK0esLKsNa4mpmB5hhFglym2m5MsrJ5V2xee8LZ5X2F3RIXjQ+YCHVN/wNySXusqVVQx/g3qSw=="
+  "assinatura_extras": "kFmnqze4hljv3GELa0+0xjNukYuLLBvpYAhyhIOW79dVnNcgnFDg6zwAnArFiXPzMxo7f2LdASQw9YUE+dcd8qsrOoLd0qdYTcor4WHbnl9PPW1VHTErbY15mRlhLa03oBQbrznYZSOZCC56WJm1swXFeRza9phf3MDn2CMfHmIzoQnqHx4q9ZhWPT70wskKOYqdEoQ31XU3S2Gum/7aCf690/exZ4qd6aZ0lOjmjAZ3KzPeuddVBkag1ZPpW/EA2ztFcwpPSjMa1vxOGRR/n8Dqw+KPZYTGYeR2N10dOYRZgqZYVc9dXbkwqGCM3+DR2wTEgQhOY77jCcpPqGo8yQ=="
 }
