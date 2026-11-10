@@ -1,10 +1,9 @@
 {
-  "versao": "9.84",
+  "versao": "9.85",
   "data": "2026-11-06",
   "notas": [
-    "Vista dobrada = peça acabada: cantos de caixa soldados e arredondados de cima a baixo, quinas quebradas (sem fio cortante) em todas as arestas.",
-    "Spiders: raio de concordância entre braço e miolo (5 mm, ajustável); inox escovado com reflexo de metal, sem estourar nas rampas.",
-    "A peça dobrada sempre assenta no chão (a grade não aparece mais por cima dela) e a textura escovada segue a chapa pela dobra."
+    "Vista dobrada acabada sem as linhas de contorno (eram os pontinhos tracejados nas bordas arredondadas).",
+    "Inox e alumínio escovados com risco mais fino e relevo mais discreto, na peça plana e na dobrada."
   ],
   "historico": [
     {
@@ -123,9 +122,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4689212,
-  "sha256": "2c050a0ee3c548bd0902d3b604b792abc7724f507d0adddc7f0a581fcfc04357",
-  "assinatura": "EL6F2zagULS/vKMmdpJDhvVIcqGDKehqCMoakLVJc6oX1fwbFOkORSAmlMYGEy2akZDEd8kcydmCJvyoVmTKuis7uZVbv0sD3UDjNu568fHNoENcxLoX91CNFk3M+yxGdfvBaGt6vCnJ5+ATv3a+tVY0GFlnKtBycgUe2RCoasUxHINSlu1+lYUxOORiB3I/zugMhVaKJZPouH0g6oh8qnzMC4eIabf6m6RmT/S1tMEHSdYtcjiNEyJE+Rne9sps3kbjtL8aF7qbZlpd09EeirCtsixCYBONHe0K/45QOJ8FCc4/j+bTYMhS1ZMaz7ATmzJLR8DfwEBVj6aoKioycA==",
+  "tamanho": 4689196,
+  "sha256": "45dd6e8d040afa8e364e9596280bf35729719730fdff5d57abc87255aa0a8bd5",
+  "assinatura": "AUeTMpxXYVfEckrP7ZrdT+cKk3edHddvrkC0bXUn2tMw80UW3AAB3GwWFIJaGTmzE9BslqdMsIkWlkn07RvUvR9mEJrLMWpnJGeV/cb6+B4RlluKjOXv8q1QBtUwJGU2JTlDb3BsaP/B8/eGf/Oi7bIjRBkCUzzhKUaUA/bn0s4kNWfJfRJBT8UIFmWg0nheB3DeTReyRdpBVopRkgVrmzSly5CXC7xqK8SYxYYsMTLghf7NgKGwU97uaV3MdciPxQKWoZ7oAOfCXWevD8H+UsZ8MbVt0IXZ2TYQciC4b5rAsU47djUb0xi443zWVM9x0YY13SPDLRqJ17XI9cN2Ow==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "OOrqCZMvfoCDUhyCV4bFhniO8c1GNY5fVMeJGzo9v/1TlC7VpwSrfbYFWjhCWq046cpkj8lLoXNBSjn11+vDWd2WL6Idt/mcOZ/Bzph1DyBthLGRR+iSP7IbMEd7zpFMMJhF3erg1S8D4vQc81snYgxu2wiKOJiRduTobE8MAMv0LpW7ah/w0xJwPk9RpTHoE+IflsyJzcBPp5ePnL2jZlx3BHNXLXxqKpUUST8ew55NB1gr35YKeFQI1Gv7k1T13H5LRuEA34iQUoQ47JHCSX8s6Gb7pKN85UmsH1gDEIiAFcOfXzs7Ouc6yTpIf1CPiGpTXlb3xz3KdF6z2vju8A=="
+  "assinatura_extras": "KNWB7AGxIZkmfUD77xuCPa1jMP/93FasiCYlOk0BbI8kvvUm/pU25CdVgCYJ1VkpTN2KINfwUzUqbrlHYg0SgeqgLtDx392GOTDSrOx1JavpP8Pbp1QF6B6vqE9UJqur+YmNdMJSPiakbOb30hPTO3Y5XLxPa/Y1gxlUhO256FAUvidpg1jsQSZ14tZnW7Ld0I8CcxyTejsaYPc2FaZ2LQOqZEGc2src4W/w/bNTKalQpOTnGzaDUSkZJBZ8b4w6eGV4a3Au4VWiHwXkYSlpBQGB6Xw1PnowOmijhVfkuHCArdM4G4/D1acFUvVGDhhWYtjOIv98i2DiIUZP86pBtQ=="
 }
