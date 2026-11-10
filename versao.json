@@ -1,10 +1,10 @@
 {
-  "versao": "9.92",
+  "versao": "9.93",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · projeto pronto (STEP do SolidWorks): cada peça agora vai para o seu lugar na montagem. Antes todas caíam no ponto zero, empilhadas.",
-    "Projetista · montagem em pé (o eixo para cima do STEP estava invertido), sem as bancadas da oficina em volta, com parede e piso sólidos como a obra.",
-    "Projetista · peças repetidas na montagem (abraçadeiras, chapas de parede) agora aparecem e são contadas uma por uma."
+    "Projetista · novo cenário Laboratório DX no lugar da oficina: piso escuro com grade de projeto, plataforma com régua girando e anéis de neon, anel de varredura que sobe e desce lendo a peça, cantos holográficos, colunas de luz e partículas no ar.",
+    "Projetista · o cenário reage ao ângulo: um ponteiro no anel segue a câmera e, nas vistas de frente, lado e trás, acende um feixe no piso e a coluna de luz atrás pulsa.",
+    "Projetista · projeto pronto (STEP) também abre no Laboratório DX. O botão Estúdio continua alternando para o fundo neutro."
   ],
   "historico": [
     {
@@ -123,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4750464,
-  "sha256": "d7d5c2b900c5d8e653857ca06d2f72770384629ddddc65d4b6de436c6dde7597",
-  "assinatura": "ZPiT1X/9NzB9DRlJltkMA9ZNyg0KhACFapoVw6gHdgB7C1MpJmMzHgO2nkpEPxgQPZVkKWDOSdoOlzjdq2E4vHb7mc7zI9DWWtjmGpdOlAvCk0ZcwPChwTw1mXq5txFMbkAzHuH4na9mq8r5A3/lPToSUCt+KvKu6c+nE3njUDAcah6wABQwsB4qcCc5+orM6GQDl5MHhkq+fLqaWTmyEUUEkzuMSTFcmNv9kcf3TsB9+qcKgyx/VZnlxYeSWw44YLhrJFFZs6i0eNq8c752s43rSnHcsdM6LPDQgRX7kV2+i43f1orhF+8OMfL2/xEFN1Lf9fdoZCZgXsNtIpwrVw==",
+  "tamanho": 4744264,
+  "sha256": "376bf4f0d19e2c4f570a976d6aed238ff087c59fe8b1cdcb0f4ddfce5df0dbae",
+  "assinatura": "BGYTvFyPx5788yhoz17lDT83y9i1OMi77Xx2J0InObBDrbjdN9zt4Aw2yv99R1Yli53gVIkVCmsppXjQqjCtxEWY0PVPwyd96SnHxWzIt51pVz2OskiqFIhJkQRceCe99kqxwq4ajJFoyeb4nbx1LPMnsllr9GnNUpwn+C02GUrdgIKvqAm0UGoqgehezeeia0WTpsYw/En5AhWqRFYvSw9jCwFLBQbuWQSYQmncAI65NkzdVaejRQV10RIvJGcI9W/mTtG8YKaU4eMaKtk96CIP/nptZ4HyzYimb+TYGFgXrJaw5EAZ7lrqFR5LQVL2bAW+L22Jxyjg2Z74zWjONw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "T03vdLO9t0eHSg+cNWA4gx2lRG+RnGG0quoKOb7UJKK3RRMKPKVbOWp4FIRSPhE7cmoKf9kMJ+Ggv3imbH1Wp6u6Nc1B5ISYGiQ3rAfecz516p2emQfKuc5vVr2/GxWq/ysO4q+WJmUKFwjnV5YfypzKqQwVK0ad0F0vRxrtGAHMNpu3wo6Cufwtn7i4bEoFZ378yiM0ahA6dV/iiaqdCYR4stXnnBvpymX6C0k+Qgo/UAdl18FgIDAw5Lp2OvdVYIbMLP901gdLEul4cos6dEupwoad6Nrwx+7G+Zh7R+0T3BJSaEh1KcwnsK8GAxhFqfpK8TNh3GsrazSkw9puOQ=="
+  "assinatura_extras": "Ru01yPkpHv8q8aByQOsLbDauHqrhpjGQUFfOSr0vbzd9JP2nGcJwdOET0PRxAjviqxumLffJRId9j0sOoSrj7rQSzM75Typt0vXJXjsXrePvkC1ZgH8iQKRP63qxX260aNuGIOaiYXya68OYH+2uCmnrgap26Q/bnZ6Ms4rd+x9tJnye4MtTZ0R+foRtkLipjjzPi02QWUHM07xZUbBFAzYgn3DguwIF6L5ojBv4HeDiSQkbugPtxPH1KbPZ5P+CoOXfhaLOypbSzUp45m0xnOhkUHCYXaRVRXXNV65Gfxo+h9OG+kW09+fsLmM9Gku5hKJQgS3tiU/bFHvdBekg0g=="
 }
