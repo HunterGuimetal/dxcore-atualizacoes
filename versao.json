@@ -1,10 +1,8 @@
 {
-  "versao": "9.93",
+  "versao": "9.94",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · novo cenário Laboratório DX no lugar da oficina: piso escuro com grade de projeto, plataforma com régua girando e anéis de neon, anel de varredura que sobe e desce lendo a peça, cantos holográficos, colunas de luz e partículas no ar.",
-    "Projetista · o cenário reage ao ângulo: um ponteiro no anel segue a câmera e, nas vistas de frente, lado e trás, acende um feixe no piso e a coluna de luz atrás pulsa.",
-    "Projetista · projeto pronto (STEP) também abre no Laboratório DX. O botão Estúdio continua alternando para o fundo neutro."
+    "Gerador · novo modelo Placa de base com furo central e 4 furos (sapata de poste): vem pronto com 280 × 280 × 3/8\" em aço carbono, furo central de 103 mm e 4 furos de 23 mm a 205 mm um do outro. Todas as medidas podem ser trocadas."
   ],
   "historico": [
     {
@@ -123,9 +121,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4744264,
-  "sha256": "376bf4f0d19e2c4f570a976d6aed238ff087c59fe8b1cdcb0f4ddfce5df0dbae",
-  "assinatura": "BGYTvFyPx5788yhoz17lDT83y9i1OMi77Xx2J0InObBDrbjdN9zt4Aw2yv99R1Yli53gVIkVCmsppXjQqjCtxEWY0PVPwyd96SnHxWzIt51pVz2OskiqFIhJkQRceCe99kqxwq4ajJFoyeb4nbx1LPMnsllr9GnNUpwn+C02GUrdgIKvqAm0UGoqgehezeeia0WTpsYw/En5AhWqRFYvSw9jCwFLBQbuWQSYQmncAI65NkzdVaejRQV10RIvJGcI9W/mTtG8YKaU4eMaKtk96CIP/nptZ4HyzYimb+TYGFgXrJaw5EAZ7lrqFR5LQVL2bAW+L22Jxyjg2Z74zWjONw==",
+  "tamanho": 4745548,
+  "sha256": "feb9463368f7f3259c592efa002dedce95eccc9000f4e5c64149ce164516cbac",
+  "assinatura": "Zes+j/I9qvMEu2VWOOedZ2G4zaGzjx+IPEDdw/wXe0bpNwEZN2DC++E+LSIt/zQHD1sX6PsxUP9brUjAuAfqPu/I2u/vPhmPZkMOjarK8j7GpgkFVhIOm1LRXGW+Ko+hGJGExXbbt6Yzz1bJKLoZrIw4GAH3ZEx2pAV5qzs/rKf/4RUUOc7br/vv10FKVnBgJmRNf8wb+4tbe01zol0hc/YB4yDdk08rB1bG+1RwfRVGqGI6Zos1ZQmISt89V40wFJGFlANVD542NjB0JHIPLpAknGP+yvCQkgCW4hyN9fmAThnbvT5fq5eTVVngDQlF0bbpU9YsvAzBFAwi6tXOzA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "Ru01yPkpHv8q8aByQOsLbDauHqrhpjGQUFfOSr0vbzd9JP2nGcJwdOET0PRxAjviqxumLffJRId9j0sOoSrj7rQSzM75Typt0vXJXjsXrePvkC1ZgH8iQKRP63qxX260aNuGIOaiYXya68OYH+2uCmnrgap26Q/bnZ6Ms4rd+x9tJnye4MtTZ0R+foRtkLipjjzPi02QWUHM07xZUbBFAzYgn3DguwIF6L5ojBv4HeDiSQkbugPtxPH1KbPZ5P+CoOXfhaLOypbSzUp45m0xnOhkUHCYXaRVRXXNV65Gfxo+h9OG+kW09+fsLmM9Gku5hKJQgS3tiU/bFHvdBekg0g=="
+  "assinatura_extras": "DNwJ/GBcnMQM+nNgukU3kmAgIq3JB66l1kTYzY7VXJHnQzrS8ZPvtKq5qPCPSOIGBhqhyphLiiljw6ZIPHPMPmnkUMisQZy6cd5X01lZAvUq+03UHsaRbDhAEQ1kkFj4Xbfsc4fFl4AnJ4CFN+jOO6pzj/UZHuGcqpJaAewECeYlhkXeu8iYFFhtYK7VQThqMbh4eTKPNgWqpi0sBbJsQcMtA3Yj4Bkc1LNYRZCXlQjTipg61I9LPgZiCvDbID2YHawR/S6u8EL+sn0WP77syfQgWC5G3jfbBZs9MZgX+tBDKwWoknTTCEfThflPR3yscIZbT1U2lzfV5oFxo7tlfQ=="
 }
