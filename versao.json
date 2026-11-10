@@ -1,9 +1,9 @@
 {
-  "versao": "9.86",
+  "versao": "9.87",
   "data": "2026-11-06",
   "notas": [
-    "Spiders: 1ª dobra logo na saída do miolo, 2ª um pouco antes do oblongo (92 mm do centro), 25° (como o técnico da GUIMETAL indicou); as duas posições e o ângulo são ajustáveis.",
-    "Vista acabada: faces refeitas sem os vincos que apareciam no miolo e nos braços."
+    "Spiders: o V entre o miolo e o braço volta marcado, como no DXF (raio 0; ainda dá para pôr raio no campo).",
+    "Spiders: 1ª dobra encostada no miolo."
   ],
   "historico": [
     {
@@ -122,9 +122,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4691936,
-  "sha256": "4abdec38a69c3b5f4851600595b48cde4bf780bd137dbc31dd6ba9086e421c61",
-  "assinatura": "I/VplWvCiFGn2yUweGwbMCB9htqJb3gFwk1W5hmsQqlrX3wq9Fi4HTPj62l87spkf6tEQflp1h/UNXOg9DxQ6L7q+scNZW5mtAXy+YvItL/+OnKAL6b3ims+Nb62eIEsm5h036BjLRbFHvHyt+F5Db4BB74mJ0tPwX4WUYBfQf7eR0JjkLWo54ZjzPJ/WLlDGa4N05/Td1zwac+AvyJv7pgPRy2lu9XPTTn7sKXK9hMyCMbZJHUHs7iRk5iYpfB2U9zOS20lJLU6aKjANRz9g/kZzN6WPDOOTiu8a8gjYkBUy8r+7C+owycte4qJY5Po9GQW1CWWI4HjZLo3KtULyg==",
+  "tamanho": 4691952,
+  "sha256": "6312a890b363035446cedb4f6a46ee1e83c1db0bc222aa18e5a069be2364fb28",
+  "assinatura": "da0J2v65vw/WsTgfZ8SzYiD6kJ16YeskuhB2RcqUPM0jIJYJs+oVLno2nIz5to4KL4bSd0C0VYKEFS0GXG9MmPnkSa73dXSviMzRZC1Ys5PKbhLp7mv4ago1FrPI+XFIsTzbM/YxoVavi0Xs/Trjh132uuwXqWYGhMpQUW69U6KZDO+0dkVulrnEvVklm3n7BiLDD+5PTmU2bx6U+t9QH6+W0v0MP4/xIkEUXwm2xWGZH03M85lWzrw0JsD8vif5b18LTvvHbdomYdPPe5bYrXDDwDIG8eSwZhe5wFWoZueTEBAdvRiDff4EpfjPw2CmYa6nItrRqMnOkxOTcmYfvA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "SB4yFsA9gSMcN8qBWU6b1Mkuh8QZ4FTpwzDuQLb5IberZS40eftGQbs8xvpNh7dS+wwtSmv0W5m1whkmsFlKhrsOqjN3zE15ut0FMKlmuv83JRlZIgcUMGU0aGJbfJ6WQB2Uy6MXVnWOBezrnSJSv+bv1gb67UnOXUoVRurywYvW4BivnAiZFtGmyNa57Ie9QOTvd/wPxWZ7Tcc6Sj9NmZLph/4r34UzHn6/LF4gX7QkSlvfx4tW+TLAkUaHg91huiSE9+D5Lw+vFOQTwwAZ6Ny+kKnqJIOXZPApkxExjptlB1rqAHZexq8Oq5Mo4HgspQtJlMqie514uSOEWLbp2w=="
+  "assinatura_extras": "SjlEHeAM3GOmfNK81PyInU++wGt25QTQPPtpAwMWdLsCeAzIN70sTC25JWiWNuzbDFYFA/4pGcrEbbRJHt168J9IO0oFkgNye/GsFg/oie5NcTPXPqal/mf4OA2rSqJiHbs1PHyl9Skin8jjJmfE7Xvg0fqLQOpa9f4mC/JXE1RWOO4LJ++3OzC8qB3eLbiFhUcQVb5r8qOiKWKc3CV8uS36boGhTxAKSfBWef1FUBmAae+DdLagQvEZLzafFeS+KLszyh/iVcDgr/fe6hMdT6cuQKPY7VqlthS7HMQn7eQwGehitQW1fvRo9vJdujicUXUGQdYtL9pcomZaQrKA0A=="
 }
