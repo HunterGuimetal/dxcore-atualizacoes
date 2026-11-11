@@ -1,10 +1,10 @@
 {
-  "versao": "9.98",
+  "versao": "9.99",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · projeto pronto (STEP): o projeto de exemplo que fica escondido atrás não aparece mais no mouse. Antes ele mostrava etiquetas e a barra Mover/Tirar de peças invisíveis.",
-    "Projetista · Desmontar tudo agora tira peça por peça da montagem e as deixa deitadas no chão, em fileiras: chapas, perfis, tubos e barras. Cada uma ganha um número em cima, o mesmo da lista. Parede e piso saem da frente e Montar tudo devolve tudo ao lugar.",
-    "Projetista · na ficha de cada peça: Baixar DXF (planificada com furos e linhas de dobra, para chapas e perfis) e Baixar STEP (só aquela peça, para tubos, cantoneiras, perfis U e qualquer outra)."
+    "Gerador · novo modelo Calha de soleira com tampa vazada (inox 304): calha em U desigual (parede alta 30, fundo 30, parede baixa 12) com 1,2 mm, e tampa removível de 1,5 mm. As duas peças vêm no mesmo projeto e vão juntas para o Limpar, com as linhas de dobra e os furos.",
+    "Gerador · a tampa é encaixada, sem solda: apoia em cima das duas paredes, inclinada, com uma aba vertical por fora de cada parede e folga de 0,5 mm. Furos em 2 fileiras desencontradas (Ø6 a cada 20 mm). Ela acompanha sozinha as medidas da calha. No campo Tampa, Sem tampa tira a peça.",
+    "Calculadora · solda pelo comprimento: em cada linha de solda, Comprimento do cordão (mm) calcula o tempo sozinho, pela velocidade do processo. Com Ponteado a cada (mm), vira pontos."
   ],
   "historico": [
     {
@@ -123,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4772964,
-  "sha256": "c1ee11e0a3301861893faf43435895f9ebac7e81334518feb44bb28d8953efd9",
-  "assinatura": "YiJQXyxAEJ8RUqO8Gr3mSoJvJKCFEAs32sFzM3qcEF0DzG6N81r0URd4k7egK2g951uSOXPHH589DPQdk0tkXYmHVxRwMtLwKYy6dyS7wk3ErnIlgyfYZYdiK1gsD3vdkBUXd8ws+vIfQHwWkip7CZiWhjgNLHf2osSHvWuSwyZefW2Wns6kesyHapn2QYMcKnoFfBI05psVbVm7oWe2FfqsQnRS3/wn0/Rmd8x79yoYchTEfcjNJDhogvaFnR1eYJ6JEGIsY3MU6sYgAQBdPCPCUL9hVJJzV+fJDIu6yMHw9l3065TS6RAd9iIWblvJ7qobluYawitIKy/lTXehvw==",
+  "tamanho": 4779740,
+  "sha256": "7cae731883a5f607623fa8ecb88bce320df843aeec0f2d8f65c843af0ebb05a8",
+  "assinatura": "XBhD8ms9IjZW0I8Rj32a6R8EryF2FnJ93og5QGPBSP4XK7Cy7xIyIYwYNCJtV8K3nPTzfFPneHkLvdZh6q6XBRxNGOSU1UISr3dIYv0ZkQGNLDnDpkVAbodsuQMt9xUJOGQ1WpMOHWTT54KPpl1nCqXALzpEVAts9qP7vrA8cDHoOu+tM6O4xS72yplbwOfqn7VtaGIoyzIoh4BV6tjlLcbBhASmnLzp4TA3eXi36hL+cWhGupYHTFeAU4zliDFQwM4K2P4KSpqy6sa27OnE3y7SMTy3tlGbCpdKoFqAwe9IaYhVbWrj0qSa8NFa6MUuMzruEiqFyL59LgXfqXCV2w==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "Wh4VAGPax1Y8eLc9Sd9rDShiPKMp15rxueB3VWjPsGmAQr5quC/bkvIenvD0l+4cG7yTtvnFa9O485zLZQmjzG+VGRtsRW9w6jvbj/fHIUuDDTucqwSzoLXqx37159YmzOPeEhakyZGtpItgkh6B71CNhY9k7pLcc5Bs4d8IQ7/NN8x/iT74ZzhaeE6jWvGO9O8SgnpXo+tk3T54VuHxax77gLdhHHWx86orP+7wgciKDp/kelaHSFQznSxXBtlgaxBIptCpdlpiGqui2wvbgRWjLmSZTYYpcmGme+AFu7+wTpw4qFOHv9z+Q4wPAurjjbXtfpDcH45c5mzZnqSEBg=="
+  "assinatura_extras": "C5Z0BuGojoz8v1CHVQ/68Ijni/wLo7pjUmu9qDsRQRmwRVHtQoZwT7ztWjHYi+oKOyPhvTbTZnZ3nmaoLlAoXItwA37OPAzTPLOkLjR12t8kJyDa5Bfz9Qu1sOfpo4R2mXSF+jptHXtkVcv0PqIxGUXXT+PSrKPlFIa6v+Zk+HTov5u9oECYYQqVabMVTUeb0Rc0EvHybBWvmeueuEbByYkDiOeaeUXwvZejI/8srcNR5tCzXVjqsmuhnqVTdV3KeZxmWAsIgZfwRP1H3N6lFCvaezRZRsQFaj7vO0yVOpXLyYuNGBqUk7/NQIlbmQhXvCaF/a0oHWTd06GBgVdtPQ=="
 }
