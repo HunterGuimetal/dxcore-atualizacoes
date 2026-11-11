@@ -1,9 +1,10 @@
 {
-  "versao": "10.2",
+  "versao": "10.3",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · prancha técnica do projeto importado em desenho de linhas, sem as linhas escondidas: vistas frontal, lateral e superior com as cotas gerais em mm, mais a isométrica. A lista de peças vem numerada e agrupada por medida, com os totais. Na vista explodida, a isométrica grande leva o número de cada peça.",
-    "Projetista · Pintar funciona no projeto importado: pinta tubos, chapas, perfis ou barras, ou só as peças marcadas, com tom, RAL e acabamento. Antes o projeto sumia da tela."
+    "Projetista · o projeto importado não some mais ao pintar. A causa era o projeto de exemplo que fica por trás: ele refazia o cenário com luzes novas sem a sombra pronta, e a placa de vídeo parava de desenhar. Agora, com o projeto importado aberto, nada mexe no cenário dele.",
+    "Projetista · pintar pelo chat no projeto importado: \"pinta a estrutura de preto\", \"pinta as chapas de azul\", \"tira a pintura\".",
+    "Projetista · escolher um modelo em Protótipos fecha o projeto importado e abre o modelo normalmente."
   ],
   "historico": [
     {
@@ -122,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4807896,
-  "sha256": "3fac235b06a141c57698800c1d31cb8a0b456335207764912d4b7a9b31cb50f7",
-  "assinatura": "fYHXI1YWUTv5r1QBVDedZu8gxQno8/PZMjSuYPSSb7H9FWRk6JkEX5/lf72KJdLjVcjLE2xDoCacXxED5KSH6jNlAQoDgBGxl/LWcpFNw2SZ6BgmPjCoWwRKmQElGKjGuehSEchft19E4uH1dA7Ca0X+VrX1lT2y6dEXT2ydCxwmURVr76uFqb2XMkVEP80VDd+/poxDe/M/7HIe4qqOKD+iVFUH5vrTc/lSpUQ8yUqFkUOI8o9ut8Qvn0HKHVCR8s2ErAYVgJj7ztP1y2ilkHk3yHtO8CefTlZ9wfTh+ZwGvSYTkdqmbDDN18xzohIGlGtyG3dOfPxlYqaCUAN4AQ==",
+  "tamanho": 4809696,
+  "sha256": "db73250850a61e26789d6a0a0aefa34365d5af7de04beba3501b096d7bc508a9",
+  "assinatura": "hdBo4CFnnxB/wtteCKc3iVKT7Z2lrOeJGbfTIdNHZbJRgYvBJ8HHvv/AQBF7VlWMenqIpmUmTW1LR0mOd82sU+0ycFiiMCeN3On36CbFLSoUQoHCFQtBzqAvZGJA82HPxUkq4BtdhPX2VLdWk0S96vtfxeiycSjzIHjLn6wxlmpOhR14KNRJMEkeU5NOhDpIqCDg1VhtTWhXkNzdvv0yk8B2eSrbbfu5aiOmpRahY3NlqGKE6V6fc6nIgWlmETKLcKYHRyeVXR4KCz8KrF7wfMQbzu/6TdkIoM2AEm8fqWp82utUD28gPKl8Xn832JzjlpDchrodFkd4dImtxga7OQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "Qufwhc6cLOB7f3Mx1CrKwR+2mHvGFZcvYYDPOlqHn1IoSKVXj39OSJ1KkGxHfvcx7yH3xFb9OC147EnCNK5nJrhpcMW4Xoo2+PpNEhzutQsKL41Ksykb/VpTpVrNIXHOhm2bPBnv0WoW6lTsqa+E8OWZySlDhXbv7cGAmptpjDMqVRzWs06dqnFE59QpYLLd0LxM858GC6H6qj7VXh2HMDYAgf43zQNBQDf/ak6ySgeDdz8a12YUPsPnHfjBlc1Qrq7Y+mhIQR2cZFWdYf8t3krHItmutp0F6njP0hB/2WfMHLKScLWja13uzrRHPT0XTiHCbA5yZxZllmH9aQuyrQ=="
+  "assinatura_extras": "Sc/sh8FCH7W8NL4hoRB0UqHBJgNphu7K1rSvIBroMW2NxRmGsIXlbbGG6R6V8Gt/aFCrA4xJ3yriX5998IS0HX9S4QMjGAunOJhtvIMBY/v1uahuxbObXmKO3qXpHLWNI7NM9VzxGg3yROAgXb8613pbiG2bJ89KYMhKxO/mORmEP2iEv7cnyNSxu+ns5qqzHHwhWEAD4il7gMPyPCxzMqVE/+mk1hC7lgfO17oQdwBjJ62xBgdFCX9MEMNXUzROqhRTZBywIZ9jfXudIhT4gTP/AvSjZ0NETNe/fKhA18EgAYFDQ3jtCdELVQdHquuTXxsSMpASnnEHCvIBcHm00Q=="
 }
