@@ -1,13 +1,9 @@
 {
-  "versao": "10.1",
+  "versao": "10.2",
   "data": "2026-11-06",
   "notas": [
-    "Limpar · arco de polilinha maior que meia volta (bulge grande, como a ponta redonda da balança do buggy) agora sai certo. Antes virava o arco pequeno e a peça era lida pela metade.",
-    "Gerador · PDF da peça: em peça comprida e fina, a vista 3D grande é o detalhe de perto da ponta, com dobras, furos e o acabamento do material. A peça inteira vai num quadro menor, e o material e a espessura aparecem embaixo.",
-    "Projetista · projeto importado: conta as conexões soldadas (onde um tubo encosta no outro, boca de lobo ou chapa no tubo) e mede o cordão de cada uma. Os números de tubos, chapas, conexões, metros de solda e peso ficam no topo do painel.",
-    "Projetista · Orçar do projeto importado já leva a solda das conexões (laser, pelo comprimento do cordão) e o corte de cada tubo, com as bocas de lobo.",
-    "Projetista · os botões de cima valem para o projeto importado: Explodir (peças numeradas no chão), Etapas (monta peça por peça), Cotas, Entregas (prancha com vista montada ou explodida e lista numerada, lista de corte, DXF das chapas, Limpar) e os números do painel da direita.",
-    "Projetista · projeto grande mais leve: as curvas vêm simplificadas (cerca de 20 vezes menos pontos, a forma continua igual), a sombra só é recalculada quando as peças mexem e as animações do laboratório param sozinhas com a vista parada."
+    "Projetista · prancha técnica do projeto importado em desenho de linhas, sem as linhas escondidas: vistas frontal, lateral e superior com as cotas gerais em mm, mais a isométrica. A lista de peças vem numerada e agrupada por medida, com os totais. Na vista explodida, a isométrica grande leva o número de cada peça.",
+    "Projetista · Pintar funciona no projeto importado: pinta tubos, chapas, perfis ou barras, ou só as peças marcadas, com tom, RAL e acabamento. Antes o projeto sumia da tela."
   ],
   "historico": [
     {
@@ -126,9 +122,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4798184,
-  "sha256": "57a75b1c00b427da22fda92eecca4774749e90fe5d0ffccc8adc1fb9c1fb3335",
-  "assinatura": "YgrnsPuFJRNQTg8auiR+hwgN4VTnV4HY4OE9HqpTXMQJx7NhxJmLEmr4d8MW8UrlF9ybPLajdn6i043Tc3stSLFndWRNTRO9kIwfK9gfTMKi7hiHlfbxFHwdVP6399E+Fg9tJRUcYpUfo0C9mx9nzo0UNP4tl4g96hJJA+x8Lo71bP+z8ZhPbjGQtMTo4aoysCILu7DZ9vmp2Xf3oIM+34lKZZ7vvE3wppzzer3ZCsyPGi3BACvx02zMUKy+cuWlEOn6bSzQh+IApqUXqtYEdYuQjlDDtqMHn5lp2mUno+RXJ8YoEJuwk0VipsxUpZQhSp+4VlaFh9/m6gOIxaacSQ==",
+  "tamanho": 4807896,
+  "sha256": "3fac235b06a141c57698800c1d31cb8a0b456335207764912d4b7a9b31cb50f7",
+  "assinatura": "fYHXI1YWUTv5r1QBVDedZu8gxQno8/PZMjSuYPSSb7H9FWRk6JkEX5/lf72KJdLjVcjLE2xDoCacXxED5KSH6jNlAQoDgBGxl/LWcpFNw2SZ6BgmPjCoWwRKmQElGKjGuehSEchft19E4uH1dA7Ca0X+VrX1lT2y6dEXT2ydCxwmURVr76uFqb2XMkVEP80VDd+/poxDe/M/7HIe4qqOKD+iVFUH5vrTc/lSpUQ8yUqFkUOI8o9ut8Qvn0HKHVCR8s2ErAYVgJj7ztP1y2ilkHk3yHtO8CefTlZ9wfTh+ZwGvSYTkdqmbDDN18xzohIGlGtyG3dOfPxlYqaCUAN4AQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "G7d9onmT+uAzlYFa7f4/Xls/VunYD4vmc6BPI5T3ltzKdYd9J/ht44q+/qKV3OgtuEsZY/LpqAOQbBmuizZhU0M3VXE6p6utZH3s/qXhXz6kPlCeu44M/3jdSvb9rgz5MKVUD0WDyZA0HXWmQji5C4SzPwUqUSsMlZrV2bHW77as8Kx41P3vzsKd9tseLByI0qYxJBAKE5ibFMKkoLXi6z6uAEGF9GqWvdWDFqcz4I2WCqyXEhCixnQMyTN0hhPH/1fewwHLbfvHxFRu4YsbO4w9ehPTQCO8JusLw5TKII7bXDSLAI9HWNEWRdGQ3nFP9vVpl3xa5gu/fUhk4FEXPw=="
+  "assinatura_extras": "Qufwhc6cLOB7f3Mx1CrKwR+2mHvGFZcvYYDPOlqHn1IoSKVXj39OSJ1KkGxHfvcx7yH3xFb9OC147EnCNK5nJrhpcMW4Xoo2+PpNEhzutQsKL41Ksykb/VpTpVrNIXHOhm2bPBnv0WoW6lTsqa+E8OWZySlDhXbv7cGAmptpjDMqVRzWs06dqnFE59QpYLLd0LxM858GC6H6qj7VXh2HMDYAgf43zQNBQDf/ak6ySgeDdz8a12YUPsPnHfjBlc1Qrq7Y+mhIQR2cZFWdYf8t3krHItmutp0F6njP0hB/2WfMHLKScLWja13uzrRHPT0XTiHCbA5yZxZllmH9aQuyrQ=="
 }
