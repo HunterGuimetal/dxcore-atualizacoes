@@ -1,9 +1,10 @@
 {
-  "versao": "9.97",
+  "versao": "9.98",
   "data": "2026-11-06",
   "notas": [
-    "Chapas em 2D · o encaixe automático agora também tenta empurrar as peças para o começo da chapa e as encaixa pelos cantos do desenho. Uma peça entra no vão da outra, desencontrada, como se faz à mão. Exemplo: a cruz da caixa-bandeja passa de 3 para 4 por chapa (7 peças: de 3 para 2 chapas).",
-    "Chapas em 2D · com o mesmo número de chapas, fica o encaixe que deixa o maior retalho inteiro na última. Com poucas peças repetidas, elas vão juntas no canto em vez de enfileiradas pela chapa toda."
+    "Projetista · projeto pronto (STEP): o projeto de exemplo que fica escondido atrás não aparece mais no mouse. Antes ele mostrava etiquetas e a barra Mover/Tirar de peças invisíveis.",
+    "Projetista · Desmontar tudo agora tira peça por peça da montagem e as deixa deitadas no chão, em fileiras: chapas, perfis, tubos e barras. Cada uma ganha um número em cima, o mesmo da lista. Parede e piso saem da frente e Montar tudo devolve tudo ao lugar.",
+    "Projetista · na ficha de cada peça: Baixar DXF (planificada com furos e linhas de dobra, para chapas e perfis) e Baixar STEP (só aquela peça, para tubos, cantoneiras, perfis U e qualquer outra)."
   ],
   "historico": [
     {
@@ -122,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4754808,
-  "sha256": "2d50431b2397ff4fcb26bafbca534a2bbc0ad8ca96f34d5aefaa9fc3b95b27aa",
-  "assinatura": "Ib2KImv+iCkLxoCB9H/WTZZiY2AtSvoS0MYzeTWfctCW679Si8O1ixPr35Omu1HL3OBiQyLySL7IRdiwmHRW03P9L2eYUa07jCMGcMCykWsD+D3DBEco1T3xllm9qWTu/A620rH1FqQ/nIzmpAAZNkHyQx7BBh318w0r3i9PhvP7C8wA7FEGESbpFt1xH9z8rrRsk9bIkEQyUc/FSHhyqSUyQH3O1rPahhck9/gGtCTtttxwJ/x1zT+sA47YFWoZRVXui5ZO812rTZpkSi3i8X6xgNitmV357gF4vMECA2RpVBt3VQ98UL/XyJEElKqAhzmojBdMV+WS84lQyVJEhw==",
+  "tamanho": 4772964,
+  "sha256": "c1ee11e0a3301861893faf43435895f9ebac7e81334518feb44bb28d8953efd9",
+  "assinatura": "YiJQXyxAEJ8RUqO8Gr3mSoJvJKCFEAs32sFzM3qcEF0DzG6N81r0URd4k7egK2g951uSOXPHH589DPQdk0tkXYmHVxRwMtLwKYy6dyS7wk3ErnIlgyfYZYdiK1gsD3vdkBUXd8ws+vIfQHwWkip7CZiWhjgNLHf2osSHvWuSwyZefW2Wns6kesyHapn2QYMcKnoFfBI05psVbVm7oWe2FfqsQnRS3/wn0/Rmd8x79yoYchTEfcjNJDhogvaFnR1eYJ6JEGIsY3MU6sYgAQBdPCPCUL9hVJJzV+fJDIu6yMHw9l3065TS6RAd9iIWblvJ7qobluYawitIKy/lTXehvw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "FVrJJDQ7WqE7wFq/a7CLKZNtblbaMDt/Gmy+4uNNO8GDAIXgeu1ykVTrnq5Z+aLoD+ksEKLGlJVxgkhCwFBhVlIfj7ojNdHTajohpvT9WSXATn/dRF04b0ppdGdpWo54rJyH32Etlp6WKEI4NaK3FpQy3NyJoehi7nR2ZUqRxultJ87tS3pG/Sfgb8+Xm3gikCxS1HkjcV/TqjiDXvGNaxBV1wl7IEs468s1XUT9mTqyp7QGh4Pt2MW3xjpb8BeVRdush/kZ7Rpyzh3YqzRi/OkwQ/Eu4V5POwq2srlZOlGLAbF9OiuppwzkE5orb8Glh+/B5kYZqqNEObUCgPZk7w=="
+  "assinatura_extras": "Wh4VAGPax1Y8eLc9Sd9rDShiPKMp15rxueB3VWjPsGmAQr5quC/bkvIenvD0l+4cG7yTtvnFa9O485zLZQmjzG+VGRtsRW9w6jvbj/fHIUuDDTucqwSzoLXqx37159YmzOPeEhakyZGtpItgkh6B71CNhY9k7pLcc5Bs4d8IQ7/NN8x/iT74ZzhaeE6jWvGO9O8SgnpXo+tk3T54VuHxax77gLdhHHWx86orP+7wgciKDp/kelaHSFQznSxXBtlgaxBIptCpdlpiGqui2wvbgRWjLmSZTYYpcmGme+AFu7+wTpw4qFOHv9z+Q4wPAurjjbXtfpDcH45c5mzZnqSEBg=="
 }
