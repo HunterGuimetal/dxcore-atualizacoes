@@ -1,10 +1,9 @@
 {
-  "versao": "10.3",
+  "versao": "10.4",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · o projeto importado não some mais ao pintar. A causa era o projeto de exemplo que fica por trás: ele refazia o cenário com luzes novas sem a sombra pronta, e a placa de vídeo parava de desenhar. Agora, com o projeto importado aberto, nada mexe no cenário dele.",
-    "Projetista · pintar pelo chat no projeto importado: \"pinta a estrutura de preto\", \"pinta as chapas de azul\", \"tira a pintura\".",
-    "Projetista · escolher um modelo em Protótipos fecha o projeto importado e abre o modelo normalmente."
+    "STEP · tubo quadrado ou retangular com uma face plana a mais por fora (corte de ponta paralelo ao comprimento) agora é lido como tubo. Antes virava chapa dobrada (ex.: tubo 40 × 40 × 3 do chassi lido como chapa 776 × 161 com 5 dobras), ficava sem pintura e fora da contagem de tubos.",
+    "Projetista · corpo minúsculo do modelo (sobra de corte no CAD, com poucos milímetros) fica fora da contagem e do orçamento, marcado como sobra do modelo."
   ],
   "historico": [
     {
@@ -123,9 +122,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4809696,
-  "sha256": "db73250850a61e26789d6a0a0aefa34365d5af7de04beba3501b096d7bc508a9",
-  "assinatura": "hdBo4CFnnxB/wtteCKc3iVKT7Z2lrOeJGbfTIdNHZbJRgYvBJ8HHvv/AQBF7VlWMenqIpmUmTW1LR0mOd82sU+0ycFiiMCeN3On36CbFLSoUQoHCFQtBzqAvZGJA82HPxUkq4BtdhPX2VLdWk0S96vtfxeiycSjzIHjLn6wxlmpOhR14KNRJMEkeU5NOhDpIqCDg1VhtTWhXkNzdvv0yk8B2eSrbbfu5aiOmpRahY3NlqGKE6V6fc6nIgWlmETKLcKYHRyeVXR4KCz8KrF7wfMQbzu/6TdkIoM2AEm8fqWp82utUD28gPKl8Xn832JzjlpDchrodFkd4dImtxga7OQ==",
+  "tamanho": 4811868,
+  "sha256": "ee5455dba1c182cf03d8b0d56a0d06ee2195f19879e0dcfdb560da53e184366c",
+  "assinatura": "RsAjhb5ujJyoNML10FB805hnJHJ1I2x6aFSWuM8T2YQqmLZerwjmJW6f7Npi8AfTXDRkGYMjcs0xW5ZbCQCQ1M+UqmRr2HJlVc6pW2rqp0BfFzuAQc3Ah+5ylQCORLoF60Jyblszy8Co+vSAriv2BViJlUcaEDvq94Sw7RXCHit5+8CJK0jv6P+RZv0oxdPp0vsBumnOfdXIEtYOR7N8eM5P2Sxbt+qkd6cLIeQrvzF3HKu6U5wihx16d2RtgN2sehAu00UnsHv638m/5h8rsx959+ywpQ1eQpEvWQSr7l9nJo6QZJbp9HJzMvchBCW8av66wiDtKG3xXWkOGFpJ6Q==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "Sc/sh8FCH7W8NL4hoRB0UqHBJgNphu7K1rSvIBroMW2NxRmGsIXlbbGG6R6V8Gt/aFCrA4xJ3yriX5998IS0HX9S4QMjGAunOJhtvIMBY/v1uahuxbObXmKO3qXpHLWNI7NM9VzxGg3yROAgXb8613pbiG2bJ89KYMhKxO/mORmEP2iEv7cnyNSxu+ns5qqzHHwhWEAD4il7gMPyPCxzMqVE/+mk1hC7lgfO17oQdwBjJ62xBgdFCX9MEMNXUzROqhRTZBywIZ9jfXudIhT4gTP/AvSjZ0NETNe/fKhA18EgAYFDQ3jtCdELVQdHquuTXxsSMpASnnEHCvIBcHm00Q=="
+  "assinatura_extras": "SOqqthjt+EHQ5EffHqb7DyY/iHEEcnTYG5m7iRmHJZk05zKc2WHhU8dzaBPe7C8NW3Pc+vB1gaTrGaLKb6IlqBR6FZsj90O+x5zsP8LpQSaOd4qUpjEpHkZ6j8FzwFaQaz9Zf/eIUJbnwEwazLtSD+dzTM7K2jVoHbneHNsEyU7NJTXdX6mXbXStW4A1Q23Imfy7sSoCH2FCxDUiB6ipxUbhRo5QKAJDCx+v0wpfepEZDCGbhEz3IEBuHal+MtM9Wj9AIRNfz84ohqqEHu/vbweHx7TQ2oFjuo0U3tU4oivVfpnM4d0RCYD95OwbrU27K67TIHtrQwhqvv/vXuMe6w=="
 }

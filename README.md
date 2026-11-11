@@ -1,10 +1,9 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **10.3** (2026-11-06)
+Versão atual: **10.4** (2026-11-06)
 
-- Projetista · o projeto importado não some mais ao pintar. A causa era o projeto de exemplo que fica por trás: ele refazia o cenário com luzes novas sem a sombra pronta, e a placa de vídeo parava de desenhar. Agora, com o projeto importado aberto, nada mexe no cenário dele.
-- Projetista · pintar pelo chat no projeto importado: "pinta a estrutura de preto", "pinta as chapas de azul", "tira a pintura".
-- Projetista · escolher um modelo em Protótipos fecha o projeto importado e abre o modelo normalmente.
+- STEP · tubo quadrado ou retangular com uma face plana a mais por fora (corte de ponta paralelo ao comprimento) agora é lido como tubo. Antes virava chapa dobrada (ex.: tubo 40 × 40 × 3 do chassi lido como chapa 776 × 161 com 5 dobras), ficava sem pintura e fora da contagem de tubos.
+- Projetista · corpo minúsculo do modelo (sobra de corte no CAD, com poucos milímetros) fica fora da contagem e do orçamento, marcado como sobra do modelo.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
