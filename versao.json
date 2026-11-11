@@ -1,9 +1,13 @@
 {
-  "versao": "10.0",
+  "versao": "10.1",
   "data": "2026-11-06",
   "notas": [
-    "Gerador · tampa da calha de soleira com apoio por dentro: duas pernas verticais descem por dentro da calha e pisam no fundo. A chapa furada fica inclinada e rente ao topo das paredes, sem degrau na soleira. As pernas encostam por dentro das paredes (folga de 0,5 mm), a tampa fica centrada e sai puxando para cima. A calha continua um U simples.",
-    "Gerador · espessuras padrão da calha: corpo em inox 304 de 1,2 mm e tampa de 1,5 mm."
+    "Limpar · arco de polilinha maior que meia volta (bulge grande, como a ponta redonda da balança do buggy) agora sai certo. Antes virava o arco pequeno e a peça era lida pela metade.",
+    "Gerador · PDF da peça: em peça comprida e fina, a vista 3D grande é o detalhe de perto da ponta, com dobras, furos e o acabamento do material. A peça inteira vai num quadro menor, e o material e a espessura aparecem embaixo.",
+    "Projetista · projeto importado: conta as conexões soldadas (onde um tubo encosta no outro, boca de lobo ou chapa no tubo) e mede o cordão de cada uma. Os números de tubos, chapas, conexões, metros de solda e peso ficam no topo do painel.",
+    "Projetista · Orçar do projeto importado já leva a solda das conexões (laser, pelo comprimento do cordão) e o corte de cada tubo, com as bocas de lobo.",
+    "Projetista · os botões de cima valem para o projeto importado: Explodir (peças numeradas no chão), Etapas (monta peça por peça), Cotas, Entregas (prancha com vista montada ou explodida e lista numerada, lista de corte, DXF das chapas, Limpar) e os números do painel da direita.",
+    "Projetista · projeto grande mais leve: as curvas vêm simplificadas (cerca de 20 vezes menos pontos, a forma continua igual), a sombra só é recalculada quando as peças mexem e as animações do laboratório param sozinhas com a vista parada."
   ],
   "historico": [
     {
@@ -122,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4779848,
-  "sha256": "8c7d51104d55d44274df8183ed9e327f6ca39a9c8556a96a8753fdac7557fe87",
-  "assinatura": "Lkgsj6n5q5K+PLdmlqluMDtEXjA+gZxcB8UQFbwZ1EfncaIuR3ulA967HCEglDxybTAa2a4kyZ8AWtH8rdNkXSXhkTng+cJiGu0kndOe0JtGoTLp6Qtrq2o98wVXFIUFNv934LpraS9fDnyNlsPRrBfaFQn9jPph2pe6V98/SAVMqlXtUxOIHHLyXSRTypZ0ENPs77GOq1+DTICgVBxeJH3vfOcaguGzqwF+m60XoR3SsqQb9+06V+AiFUOyt4ircpGHdUMqC11AZDFCUeElGg2A/jb6czsCDqIy72dt9QhsE6zlykYfYZQdzOF/lwD5HsrP8F3Wqg03VU5TeQ3biA==",
+  "tamanho": 4798184,
+  "sha256": "57a75b1c00b427da22fda92eecca4774749e90fe5d0ffccc8adc1fb9c1fb3335",
+  "assinatura": "YgrnsPuFJRNQTg8auiR+hwgN4VTnV4HY4OE9HqpTXMQJx7NhxJmLEmr4d8MW8UrlF9ybPLajdn6i043Tc3stSLFndWRNTRO9kIwfK9gfTMKi7hiHlfbxFHwdVP6399E+Fg9tJRUcYpUfo0C9mx9nzo0UNP4tl4g96hJJA+x8Lo71bP+z8ZhPbjGQtMTo4aoysCILu7DZ9vmp2Xf3oIM+34lKZZ7vvE3wppzzer3ZCsyPGi3BACvx02zMUKy+cuWlEOn6bSzQh+IApqUXqtYEdYuQjlDDtqMHn5lp2mUno+RXJ8YoEJuwk0VipsxUpZQhSp+4VlaFh9/m6gOIxaacSQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "MBY9wHTc/TVynnRdIXDRtwzoCGMWyjY4QXSZu6YzoW8v8EFYIzegOo/DcPv2zf2XN01Dk6ER4eok2f5j8pbGbwryz3/DSz1Qup24+4SdoWiZ1u9zDIOzuMhfzqzDW6XxtmwHzmgovN27pyD1BVn1LLBFRqoGnpOoPQCUvNjf4r9nfKi+/K/ELTsvM1K/rEqQszSWjAAHg076yMalTooyzuTyvIjA4vV2KHGKivVCurIxUyXrIJFC9TGK6qhg6M6JCoa5dpVKLiMhODsi9vZXKbRH/N6rZHrK6rXJBEk+IALtKuTcdii/9gxBtxGdz67fMeD8HR3Q1dCHFTiLq6LGpQ=="
+  "assinatura_extras": "G7d9onmT+uAzlYFa7f4/Xls/VunYD4vmc6BPI5T3ltzKdYd9J/ht44q+/qKV3OgtuEsZY/LpqAOQbBmuizZhU0M3VXE6p6utZH3s/qXhXz6kPlCeu44M/3jdSvb9rgz5MKVUD0WDyZA0HXWmQji5C4SzPwUqUSsMlZrV2bHW77as8Kx41P3vzsKd9tseLByI0qYxJBAKE5ibFMKkoLXi6z6uAEGF9GqWvdWDFqcz4I2WCqyXEhCixnQMyTN0hhPH/1fewwHLbfvHxFRu4YsbO4w9ehPTQCO8JusLw5TKII7bXDSLAI9HWNEWRdGQ3nFP9vVpl3xa5gu/fUhk4FEXPw=="
 }
