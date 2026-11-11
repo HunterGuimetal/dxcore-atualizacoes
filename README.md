@@ -1,9 +1,8 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **10.4** (2026-11-06)
+Versão atual: **10.5** (2026-11-06)
 
-- STEP · tubo quadrado ou retangular com uma face plana a mais por fora (corte de ponta paralelo ao comprimento) agora é lido como tubo. Antes virava chapa dobrada (ex.: tubo 40 × 40 × 3 do chassi lido como chapa 776 × 161 com 5 dobras), ficava sem pintura e fora da contagem de tubos.
-- Projetista · corpo minúsculo do modelo (sobra de corte no CAD, com poucos milímetros) fica fora da contagem e do orçamento, marcado como sobra do modelo.
+- Limpar e calculadora · peça com alívio de dobra (meia-lua ou rasgo na borda, na ponta da linha de dobra) agora tem as dobras contadas. Antes a linha de dobra terminava dentro do alívio, longe do contorno, e era ignorada: a peça ia para o orçamento com 0 dobras.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

@@ -1,9 +1,8 @@
 {
-  "versao": "10.4",
+  "versao": "10.5",
   "data": "2026-11-06",
   "notas": [
-    "STEP · tubo quadrado ou retangular com uma face plana a mais por fora (corte de ponta paralelo ao comprimento) agora é lido como tubo. Antes virava chapa dobrada (ex.: tubo 40 × 40 × 3 do chassi lido como chapa 776 × 161 com 5 dobras), ficava sem pintura e fora da contagem de tubos.",
-    "Projetista · corpo minúsculo do modelo (sobra de corte no CAD, com poucos milímetros) fica fora da contagem e do orçamento, marcado como sobra do modelo."
+    "Limpar e calculadora · peça com alívio de dobra (meia-lua ou rasgo na borda, na ponta da linha de dobra) agora tem as dobras contadas. Antes a linha de dobra terminava dentro do alívio, longe do contorno, e era ignorada: a peça ia para o orçamento com 0 dobras."
   ],
   "historico": [
     {
@@ -122,9 +121,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4811868,
-  "sha256": "ee5455dba1c182cf03d8b0d56a0d06ee2195f19879e0dcfdb560da53e184366c",
-  "assinatura": "RsAjhb5ujJyoNML10FB805hnJHJ1I2x6aFSWuM8T2YQqmLZerwjmJW6f7Npi8AfTXDRkGYMjcs0xW5ZbCQCQ1M+UqmRr2HJlVc6pW2rqp0BfFzuAQc3Ah+5ylQCORLoF60Jyblszy8Co+vSAriv2BViJlUcaEDvq94Sw7RXCHit5+8CJK0jv6P+RZv0oxdPp0vsBumnOfdXIEtYOR7N8eM5P2Sxbt+qkd6cLIeQrvzF3HKu6U5wihx16d2RtgN2sehAu00UnsHv638m/5h8rsx959+ywpQ1eQpEvWQSr7l9nJo6QZJbp9HJzMvchBCW8av66wiDtKG3xXWkOGFpJ6Q==",
+  "tamanho": 4812276,
+  "sha256": "d9fc416ad830928e5b2502e0d1400ea8bc726dc1fee5578a6a5edaa712e3d27a",
+  "assinatura": "VJym8k9Rkuh8pcySLr+3qw/DKqI/v2/dhcB+AZp+rCqZxbBdzJY3a4YD0A4geaFSeGKi15hYcExiKRKSLfuIvBQP3KW3rmqHRUiE2HmVegapqArj1OoFITWfto0P9ZmcQBdX2Epf4fjLt5VEuag2J5W086+0g8uqZ+2An2Wad/XNW4U1VQhPQnpEzprDD6B+PJW2gfc2BSqZIPPMYEmRBXrnPmj0gyRARSQHYBiQ6+Nh450iqikBpsnx20jzcFcOm/krE5bN9Ftk1hfSnKtm+cRL8hwzZEKaqnqgWliEC8zF2quWTlZQBTMX4nDf3W1IWuEXwt8zwmuZWQwd3P2z4Q==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "SOqqthjt+EHQ5EffHqb7DyY/iHEEcnTYG5m7iRmHJZk05zKc2WHhU8dzaBPe7C8NW3Pc+vB1gaTrGaLKb6IlqBR6FZsj90O+x5zsP8LpQSaOd4qUpjEpHkZ6j8FzwFaQaz9Zf/eIUJbnwEwazLtSD+dzTM7K2jVoHbneHNsEyU7NJTXdX6mXbXStW4A1Q23Imfy7sSoCH2FCxDUiB6ipxUbhRo5QKAJDCx+v0wpfepEZDCGbhEz3IEBuHal+MtM9Wj9AIRNfz84ohqqEHu/vbweHx7TQ2oFjuo0U3tU4oivVfpnM4d0RCYD95OwbrU27K67TIHtrQwhqvv/vXuMe6w=="
+  "assinatura_extras": "RqE4yh7QCaYCzv/cNsyHbnZipKOmK2ydOWG5hZklIx7at+zkL0yphOCq8YDWwhNcjWd1TaF7nETiretHClU9H2+UNOfjMFSPV5d5NPSEaKV87uWQtAX8TUdCexQSft5ig/3nI5aD/S0B1Jy2UTOKSdh0DyWglJD9fvgqqXjIbAgc1z7ktrDltmxd7lBYGYpWKhc2zHufeuJcOj/9/NwuPCcNv8+YG7DGmZEtBkAN67cP4V1+aN3Ad4aqgR6y12n8gnsi2oGpQVZQ6DK9pbPNA6W66OMRsmweKKLvoQ8JWF1kKeCJyh9V1tIQCjtNypKpf3qd01AqhS4gXd/34C1UtA=="
 }
