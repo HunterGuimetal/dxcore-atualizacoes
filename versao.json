@@ -1,10 +1,8 @@
 {
-  "versao": "9.95",
+  "versao": "9.96",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · projeto pronto (STEP): marque as peças pelo quadradinho, com Ctrl + clique na lista ou no 3D, ou com Marcar todas (respeita a busca).",
-    "Projetista · Excluir marcadas (ou tecla Delete), Deixar só as marcadas e Trazer de volta. As peças fora somem do 3D e saem das abas Chapas e Corte, da lista e do Chapas → Limpar.",
-    "Projetista · novo botão Orçar no projeto pronto: manda para a calculadora só as peças que ficaram, chapas e tubos já agrupados com a quantidade."
+    "Projetista · com um projeto pronto (STEP) aberto, o botão Orçar da barra de cima agora orça as peças escolhidas desse projeto, chapas e tubos juntos. Antes ele orçava o projeto de exemplo que fica por trás, só com tubos e avisando de barras que não estavam na seleção."
   ],
   "historico": [
     {
@@ -123,9 +121,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4750556,
-  "sha256": "fef10cd556fc2ed575df9d30af8204a06bed2944ce1beb8d51936218d4ba3578",
-  "assinatura": "ASkQ06pANtOJ/lZbFsFrT/DAOCCIvnYijK1+/upGyiplFy6S80NxgI9SW6gskdACcB7PgfnXvaD/zuyEczM+vWZyrVQYcyuHxJ+ndD8T9iJmP4dBZh5MUoyCOQgIrdBPR1B+vZIz6J6Vq49gGoyXsk7EPxplY8WjLgwdenwiu5YAsX/pCDZVPFCE4gpmRkziZJZKgxaKOS0xO8kIame13yxv3oGzLsgmMRFOgz6GXWKO3VMIhWgb7sJ4B39vVztj3lQgnRLhFMGYaqzuAfXAyrVllxeWNvRXI9o4Rc97tn+RLkLHG/t9MU6Lo+ufY21QioDs5tzbQRlvPaMhHwnLyw==",
+  "tamanho": 4750624,
+  "sha256": "f619fc7545a51e056dab6c1ae3fbb07710319e6ff8d56e165ec6719d773d2f91",
+  "assinatura": "Dyp0m9g9zlDPwmlXpdRa3QP3n96+FGg4FcSN0yH9YZV4/UsaC5LibjtLy/AE88Zeq436u/opC/2Co9x9S/5qOm8S4KxE18mAk8H3JsG08P6PS/y1j/42JHQYJ6PoHKLM2G+rT82OLmGRWX15whbK+Fwjxpm4fSMP3/PRF0PLXsBEylsOFSZUtVW99PabgxQSwaXGhx+diRrD+LuPGdBHYkc63ZsQdljgd1Evhei/49aCB0bsdNNVOZ7q6XNjEiDK1u8710QcA1AD96tZpyT2uGfN97KWiA32eh4HOKIyYq4icqEeNr20kty5PQIyClj3AmUT8r9MkVx0JafIVMsztQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "fqejh/LCUEZo3HpDJDW7/Ld0gcauZC0LmovL5RLWWT2gZV6sF888D04YN0OeB7+CFzplIOSA4TjQXuawG6gNOJ2AaK3AwiMweOntS1Ha5zrW7W08OWa7HAguFmQHK1SJ/+AatkiCPgF3ZAzqEZ70wCF76mb5ns86BUFeAFPRwh3LWIzYbJp7UL3InfZHPl8tAMRiIxnhyZ6LvtuWxRamCAdBDYnP0rZ9ZK047HMKJnoCQdkVRZitIMO3YxZSYayD/zcReEuS4E66rE2QeGepG7Pa5yFcrxZSX74KSHGNx15OVghX0hWHYXQ6OehF36DEIqLC5i0Ppeh2GlI/lUBOgA=="
+  "assinatura_extras": "bvBW5bFQRD1OVauWIANL23fTG5mVRGHO0Gnwu/tPfbFqKoKbQsXaw828xoX+LRX02h1/Zmt+JWNUbu4GkuBgR3Xo5nZIIyl0MuBYkKLMewGbzj4stNOupXIyCZgQY2ML4Bc7ma9DrTu+eGJWib7QdNORwMI0RC3UH0Qle/YEelrEgGQsc8AZBVoiwbDvF+0497pIVxr33FyH7UOpcf91n17QKG0sb+ySXutBkd25JDzj/iSxVLkFIJZ/DPjbybJkiH9KkauuzY2NTSvjnU3TatMtrdapamsLYCJ8LweasERmt1gE4GiF0hxme2BNH3GySNMxxc9h8C0ZGkZCn9kYyw=="
 }

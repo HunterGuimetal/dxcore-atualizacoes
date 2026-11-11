@@ -1,10 +1,8 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **9.95** (2026-11-06)
+Versão atual: **9.96** (2026-11-06)
 
-- Projetista · projeto pronto (STEP): marque as peças pelo quadradinho, com Ctrl + clique na lista ou no 3D, ou com Marcar todas (respeita a busca).
-- Projetista · Excluir marcadas (ou tecla Delete), Deixar só as marcadas e Trazer de volta. As peças fora somem do 3D e saem das abas Chapas e Corte, da lista e do Chapas → Limpar.
-- Projetista · novo botão Orçar no projeto pronto: manda para a calculadora só as peças que ficaram, chapas e tubos já agrupados com a quantidade.
+- Projetista · com um projeto pronto (STEP) aberto, o botão Orçar da barra de cima agora orça as peças escolhidas desse projeto, chapas e tubos juntos. Antes ele orçava o projeto de exemplo que fica por trás, só com tubos e avisando de barras que não estavam na seleção.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
