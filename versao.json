@@ -1,10 +1,9 @@
 {
-  "versao": "9.99",
+  "versao": "10.0",
   "data": "2026-11-06",
   "notas": [
-    "Gerador · novo modelo Calha de soleira com tampa vazada (inox 304): calha em U desigual (parede alta 30, fundo 30, parede baixa 12) com 1,2 mm, e tampa removível de 1,5 mm. As duas peças vêm no mesmo projeto e vão juntas para o Limpar, com as linhas de dobra e os furos.",
-    "Gerador · a tampa é encaixada, sem solda: apoia em cima das duas paredes, inclinada, com uma aba vertical por fora de cada parede e folga de 0,5 mm. Furos em 2 fileiras desencontradas (Ø6 a cada 20 mm). Ela acompanha sozinha as medidas da calha. No campo Tampa, Sem tampa tira a peça.",
-    "Calculadora · solda pelo comprimento: em cada linha de solda, Comprimento do cordão (mm) calcula o tempo sozinho, pela velocidade do processo. Com Ponteado a cada (mm), vira pontos."
+    "Gerador · tampa da calha de soleira com apoio por dentro: duas pernas verticais descem por dentro da calha e pisam no fundo. A chapa furada fica inclinada e rente ao topo das paredes, sem degrau na soleira. As pernas encostam por dentro das paredes (folga de 0,5 mm), a tampa fica centrada e sai puxando para cima. A calha continua um U simples.",
+    "Gerador · espessuras padrão da calha: corpo em inox 304 de 1,2 mm e tampa de 1,5 mm."
   ],
   "historico": [
     {
@@ -123,9 +122,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4779740,
-  "sha256": "7cae731883a5f607623fa8ecb88bce320df843aeec0f2d8f65c843af0ebb05a8",
-  "assinatura": "XBhD8ms9IjZW0I8Rj32a6R8EryF2FnJ93og5QGPBSP4XK7Cy7xIyIYwYNCJtV8K3nPTzfFPneHkLvdZh6q6XBRxNGOSU1UISr3dIYv0ZkQGNLDnDpkVAbodsuQMt9xUJOGQ1WpMOHWTT54KPpl1nCqXALzpEVAts9qP7vrA8cDHoOu+tM6O4xS72yplbwOfqn7VtaGIoyzIoh4BV6tjlLcbBhASmnLzp4TA3eXi36hL+cWhGupYHTFeAU4zliDFQwM4K2P4KSpqy6sa27OnE3y7SMTy3tlGbCpdKoFqAwe9IaYhVbWrj0qSa8NFa6MUuMzruEiqFyL59LgXfqXCV2w==",
+  "tamanho": 4779848,
+  "sha256": "8c7d51104d55d44274df8183ed9e327f6ca39a9c8556a96a8753fdac7557fe87",
+  "assinatura": "Lkgsj6n5q5K+PLdmlqluMDtEXjA+gZxcB8UQFbwZ1EfncaIuR3ulA967HCEglDxybTAa2a4kyZ8AWtH8rdNkXSXhkTng+cJiGu0kndOe0JtGoTLp6Qtrq2o98wVXFIUFNv934LpraS9fDnyNlsPRrBfaFQn9jPph2pe6V98/SAVMqlXtUxOIHHLyXSRTypZ0ENPs77GOq1+DTICgVBxeJH3vfOcaguGzqwF+m60XoR3SsqQb9+06V+AiFUOyt4ircpGHdUMqC11AZDFCUeElGg2A/jb6czsCDqIy72dt9QhsE6zlykYfYZQdzOF/lwD5HsrP8F3Wqg03VU5TeQ3biA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "C5Z0BuGojoz8v1CHVQ/68Ijni/wLo7pjUmu9qDsRQRmwRVHtQoZwT7ztWjHYi+oKOyPhvTbTZnZ3nmaoLlAoXItwA37OPAzTPLOkLjR12t8kJyDa5Bfz9Qu1sOfpo4R2mXSF+jptHXtkVcv0PqIxGUXXT+PSrKPlFIa6v+Zk+HTov5u9oECYYQqVabMVTUeb0Rc0EvHybBWvmeueuEbByYkDiOeaeUXwvZejI/8srcNR5tCzXVjqsmuhnqVTdV3KeZxmWAsIgZfwRP1H3N6lFCvaezRZRsQFaj7vO0yVOpXLyYuNGBqUk7/NQIlbmQhXvCaF/a0oHWTd06GBgVdtPQ=="
+  "assinatura_extras": "MBY9wHTc/TVynnRdIXDRtwzoCGMWyjY4QXSZu6YzoW8v8EFYIzegOo/DcPv2zf2XN01Dk6ER4eok2f5j8pbGbwryz3/DSz1Qup24+4SdoWiZ1u9zDIOzuMhfzqzDW6XxtmwHzmgovN27pyD1BVn1LLBFRqoGnpOoPQCUvNjf4r9nfKi+/K/ELTsvM1K/rEqQszSWjAAHg076yMalTooyzuTyvIjA4vV2KHGKivVCurIxUyXrIJFC9TGK6qhg6M6JCoa5dpVKLiMhODsi9vZXKbRH/N6rZHrK6rXJBEk+IALtKuTcdii/9gxBtxGdz67fMeD8HR3Q1dCHFTiLq6LGpQ=="
 }
