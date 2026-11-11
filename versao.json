@@ -1,8 +1,9 @@
 {
-  "versao": "9.96",
+  "versao": "9.97",
   "data": "2026-11-06",
   "notas": [
-    "Projetista · com um projeto pronto (STEP) aberto, o botão Orçar da barra de cima agora orça as peças escolhidas desse projeto, chapas e tubos juntos. Antes ele orçava o projeto de exemplo que fica por trás, só com tubos e avisando de barras que não estavam na seleção."
+    "Chapas em 2D · o encaixe automático agora também tenta empurrar as peças para o começo da chapa e as encaixa pelos cantos do desenho. Uma peça entra no vão da outra, desencontrada, como se faz à mão. Exemplo: a cruz da caixa-bandeja passa de 3 para 4 por chapa (7 peças: de 3 para 2 chapas).",
+    "Chapas em 2D · com o mesmo número de chapas, fica o encaixe que deixa o maior retalho inteiro na última. Com poucas peças repetidas, elas vão juntas no canto em vez de enfileiradas pela chapa toda."
   ],
   "historico": [
     {
@@ -121,9 +122,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4750624,
-  "sha256": "f619fc7545a51e056dab6c1ae3fbb07710319e6ff8d56e165ec6719d773d2f91",
-  "assinatura": "Dyp0m9g9zlDPwmlXpdRa3QP3n96+FGg4FcSN0yH9YZV4/UsaC5LibjtLy/AE88Zeq436u/opC/2Co9x9S/5qOm8S4KxE18mAk8H3JsG08P6PS/y1j/42JHQYJ6PoHKLM2G+rT82OLmGRWX15whbK+Fwjxpm4fSMP3/PRF0PLXsBEylsOFSZUtVW99PabgxQSwaXGhx+diRrD+LuPGdBHYkc63ZsQdljgd1Evhei/49aCB0bsdNNVOZ7q6XNjEiDK1u8710QcA1AD96tZpyT2uGfN97KWiA32eh4HOKIyYq4icqEeNr20kty5PQIyClj3AmUT8r9MkVx0JafIVMsztQ==",
+  "tamanho": 4754808,
+  "sha256": "2d50431b2397ff4fcb26bafbca534a2bbc0ad8ca96f34d5aefaa9fc3b95b27aa",
+  "assinatura": "Ib2KImv+iCkLxoCB9H/WTZZiY2AtSvoS0MYzeTWfctCW679Si8O1ixPr35Omu1HL3OBiQyLySL7IRdiwmHRW03P9L2eYUa07jCMGcMCykWsD+D3DBEco1T3xllm9qWTu/A620rH1FqQ/nIzmpAAZNkHyQx7BBh318w0r3i9PhvP7C8wA7FEGESbpFt1xH9z8rrRsk9bIkEQyUc/FSHhyqSUyQH3O1rPahhck9/gGtCTtttxwJ/x1zT+sA47YFWoZRVXui5ZO812rTZpkSi3i8X6xgNitmV357gF4vMECA2RpVBt3VQ98UL/XyJEElKqAhzmojBdMV+WS84lQyVJEhw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "bvBW5bFQRD1OVauWIANL23fTG5mVRGHO0Gnwu/tPfbFqKoKbQsXaw828xoX+LRX02h1/Zmt+JWNUbu4GkuBgR3Xo5nZIIyl0MuBYkKLMewGbzj4stNOupXIyCZgQY2ML4Bc7ma9DrTu+eGJWib7QdNORwMI0RC3UH0Qle/YEelrEgGQsc8AZBVoiwbDvF+0497pIVxr33FyH7UOpcf91n17QKG0sb+ySXutBkd25JDzj/iSxVLkFIJZ/DPjbybJkiH9KkauuzY2NTSvjnU3TatMtrdapamsLYCJ8LweasERmt1gE4GiF0hxme2BNH3GySNMxxc9h8C0ZGkZCn9kYyw=="
+  "assinatura_extras": "FVrJJDQ7WqE7wFq/a7CLKZNtblbaMDt/Gmy+4uNNO8GDAIXgeu1ykVTrnq5Z+aLoD+ksEKLGlJVxgkhCwFBhVlIfj7ojNdHTajohpvT9WSXATn/dRF04b0ppdGdpWo54rJyH32Etlp6WKEI4NaK3FpQy3NyJoehi7nR2ZUqRxultJ87tS3pG/Sfgb8+Xm3gikCxS1HkjcV/TqjiDXvGNaxBV1wl7IEs468s1XUT9mTqyp7QGh4Pt2MW3xjpb8BeVRdush/kZ7Rpyzh3YqzRi/OkwQ/Eu4V5POwq2srlZOlGLAbF9OiuppwzkE5orb8Glh+/B5kYZqqNEObUCgPZk7w=="
 }
