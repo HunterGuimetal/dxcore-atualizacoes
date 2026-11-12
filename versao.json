@@ -1,8 +1,10 @@
 {
-  "versao": "10.5",
+  "versao": "10.6",
   "data": "2026-11-06",
   "notas": [
-    "Limpar e calculadora · peça com alívio de dobra (meia-lua ou rasgo na borda, na ponta da linha de dobra) agora tem as dobras contadas. Antes a linha de dobra terminava dentro do alívio, longe do contorno, e era ignorada: a peça ia para o orçamento com 0 dobras."
+    "Calculadora · amostra ou peça pequena no canto da chapa não paga mais a faixa estreita ao lado dela. Se o resto da chapa continua grande, cobra só o canto usado. Exemplo: a amostra da calha de 200 mm caiu de R$ 186 para R$ 13 de material. Pedidos grandes não mudam.",
+    "Calculadora · faixa comprida, com pelo menos 1 m de comprimento e metade do lado mínimo de retalho, também conta como retalho e fica fora do preço.",
+    "Limpar · peça com dobras de ângulos diferentes (como a tampa da calha, a 124° e 56°), desenhadas com duas linhas cada, agora conta uma dobra por par de linhas. Antes a tampa ia para o orçamento com 4 dobras em vez de 2."
   ],
   "historico": [
     {
@@ -121,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4812276,
-  "sha256": "d9fc416ad830928e5b2502e0d1400ea8bc726dc1fee5578a6a5edaa712e3d27a",
-  "assinatura": "VJym8k9Rkuh8pcySLr+3qw/DKqI/v2/dhcB+AZp+rCqZxbBdzJY3a4YD0A4geaFSeGKi15hYcExiKRKSLfuIvBQP3KW3rmqHRUiE2HmVegapqArj1OoFITWfto0P9ZmcQBdX2Epf4fjLt5VEuag2J5W086+0g8uqZ+2An2Wad/XNW4U1VQhPQnpEzprDD6B+PJW2gfc2BSqZIPPMYEmRBXrnPmj0gyRARSQHYBiQ6+Nh450iqikBpsnx20jzcFcOm/krE5bN9Ftk1hfSnKtm+cRL8hwzZEKaqnqgWliEC8zF2quWTlZQBTMX4nDf3W1IWuEXwt8zwmuZWQwd3P2z4Q==",
+  "tamanho": 4813620,
+  "sha256": "66e56e771b44e7b5afccc73aa9cb1f8d470af3bb8f3e39df1f392167e2fe78d2",
+  "assinatura": "ZeQBqFPc7WPSqEPIVJUEoGTn/cWAZPn/mdmXWSs4uvh1SDCbNZRiQPLWvALAAmx/iWb60FbHE88zZKrV9PKFIsYM8up+M6TBKcHzS2FzSnF+DOWneFMWiEEr96uz6TU/A2GmTT860oAG4FO9g5jwuPlRk3E9SEOL6vSAc4mteLhPI4/7YBptyWEj4q5xR55L5MsXtrrxGAoOJZRbI3xAynVS4YmS0J6t5t2Q8MNkCrNaJUO7gN7aTm/wMVzq4A3ay8I7u9bgngVbj8pRGePuFtmyn/2anBh3VJ/boVTdL5wPuxXypxzXapF6k/zsXHHMXQ+dKGuNj9nmc+b9vL5XJQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "RqE4yh7QCaYCzv/cNsyHbnZipKOmK2ydOWG5hZklIx7at+zkL0yphOCq8YDWwhNcjWd1TaF7nETiretHClU9H2+UNOfjMFSPV5d5NPSEaKV87uWQtAX8TUdCexQSft5ig/3nI5aD/S0B1Jy2UTOKSdh0DyWglJD9fvgqqXjIbAgc1z7ktrDltmxd7lBYGYpWKhc2zHufeuJcOj/9/NwuPCcNv8+YG7DGmZEtBkAN67cP4V1+aN3Ad4aqgR6y12n8gnsi2oGpQVZQ6DK9pbPNA6W66OMRsmweKKLvoQ8JWF1kKeCJyh9V1tIQCjtNypKpf3qd01AqhS4gXd/34C1UtA=="
+  "assinatura_extras": "SsHuTR3r6JxpWzSTOpYMXiIO072zO82X2i1KlqXj9HFdwhVWIDreD1UnhZIpSrROGzvqv9nXo+68zxafpT4VwL3nFOzgCSHcUoWJWlwGrSJJJt4WwG9npYFEF8UaFgNf7R1Ktx3oJ0njCCXBwdt2NItpxi6ZSoiylmQO4cKnQtutTmD86Xg+Y+IJit1Jx4eKychZYmZlGrmEEgzQbu6Uux7kZo/AK0IHaSgl0Yr8c7wSRrqo5p0N9HqAsE38wJbKG0Ywa4NFC0z5i0dt7cxC+CKxcflXov8MLV2uD0pzw/6iaPlp3Vz9MW1nMXwmKbbuVf5dG/udXEQy5iHOCUx0cw=="
 }
