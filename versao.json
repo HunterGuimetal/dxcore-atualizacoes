@@ -1,7 +1,8 @@
 {
-  "versao": "10.11",
+  "versao": "10.12",
   "data": "2026-11-06",
   "notas": [
+    "Chapéu de pilar: nova opção 'Canto em L' para o pilar onde o muro muda de direção — recorte numa ponta (rufo passa por baixo) e recorte na aba lateral (o rufo do outro muro encosta).",
     "Rufo capa de muro: a ponta que entra sob o chapéu de pilar sai sem abas e sem pingadeira (recorte de 40 mm até a linha do beiral). Peças A/B: uma ponta; opção para nenhuma ou as duas.",
     "Gerador · Chapéu de pilar: campo novo Muro entra, com três opções. Dos dois lados é o pilar do meio do muro, com recorte nas duas pontas. De um lado só é o pilar da ponta: recorte do lado do muro e o outro lado fechado com o oitão inteiro. Pilar solto é fechado nos quatro lados."
   ],
@@ -122,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4821181,
-  "sha256": "414ee1c9561f262c9bc9e9775f7a5fe14ed86fdd3ede85ee018b3a03d233515d",
-  "assinatura": "jWjXZSdLmp+QAj/SKJ+1fNbM8TJvQReEP36GZA84+GMl5VicbZpiTas8bgmQTsBl47wPBn++HB+8A0yfM8fiLhaaHhVc+wWq3G6e8OTlNgybuu1NpxAf0n8eT3y6KPygi0Xz2sz04IFaGwfdOCdaRaNe4xqMUZjnOWEhZx1sGT03wyIOMm80MCWU6twl2iZ0Sagc9hQMXZopp4RiaNeUToJR7BHrk7IwHs9tJkD+q7TkZdR8Jna7dTQT55YbSs+7XPEZGRB82jewE1eLo+720+SgBGVzap1ODbFFKof0ddLOvK3fuT0HRWBqYrRMw25DT4GaRxW111WnkIaLPpLRHQ==",
+  "tamanho": 4821757,
+  "sha256": "29020c432526389ea2ce3a0fed4de17400c02706c2cbaedf96f998df86c1be6d",
+  "assinatura": "Aw6pCAlUWcnxRKOSLsZ2BqSwPnaKKzGo7A98Dmcvc6WyUk3IlRtRCP78WeyAQdVdkuTr06N+BPGAi/Ebh3PkAvv9D1isOk27gqh8Ue+Zer+j2C9cYMDo7DUs/k1h2Msl8Xh1RQ4nl/7PL7aBM3dG8Cb0GQPQbUBo2HQDtRYsXuNEzcJGAqdZzKreHIqIdQk8U/Vo+74xGViXJ7zQteKJnPcezpNfzrUoT6yGPM4LLaZBDQoCq+ZK35Hyu62QN7vBfvlYmH32F2ATw03O5y1oy3IsaBz27oeA8NfF75WOnyJ+mYJyCTg/S53kqo7ue6eTQnJUmFP7+nvtOpEhUgG+nQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "GiDcAzcqHfMQnHqo6VTN8Ph1+TveGabszGscYX6ZTpkMq35xC8uTiypGwiSj+ZOX7C9B5nzlazjkfVFUl6rRojpwxRvW/BoPA/HAK69/An23TbMVDvvPom3n85zEd3RG9lxdwWrR7C0B7TGpfF48Y84eLh6eDSqAI/CIc6l9uhWtBZXyAr4e/Hy8aPn8H/3CElVGrIUNhuwgLZ5Wys8e6s23/vwDTnhffBzGdXRA8W7SNjENzIkk27vpFQ9Lw9jeV2l1x2k0Txq4pedud8s0LbjiduaLxMZldexfDJDhRji92ihuSpa6OkgiFpc9NdUt20nDYVETmEafyBXz0DgQ6g=="
+  "assinatura_extras": "gIW9MbbrS9JfuQNtkLgzXtK2v+aQDOBzA7Bqbhm3gtxzQ7QG0LwMQdJ/to5MxQP8bC82Yy/fhGip+R3pBIhfuvuXH6AwLE+FFaDXbJANQtXsn3/CWbtaEJp5dnLhJSCJ1CRp/oZGP178lqGRC3YfOkUgCs7F128mhETj0gma7H2JySo7KL7jjDEO+1QtQQBNsdxvj53T9vt6g/fU2A1XcraPwLU61cc52YY47xkYIBLxx2eSrJ+OZzb80PABtAZBaCMM0+pIeRYG1NyyU0xM0OY721VNCfgsz9jrqxdNNjRK7Ixzx0qinCZR4I2mgvlsqgwaNqvwklL4ijgcfBhzjw=="
 }
