@@ -1,10 +1,8 @@
 {
-  "versao": "10.9",
+  "versao": "10.10",
   "data": "2026-11-06",
   "notas": [
-    "Gerador · Chapéu de pilar para muro da mesma altura do pilar: campo novo Muro que entra no pilar (padrão 200 mm). Nas duas faces por onde o muro entra, o chapéu fica só com as abinhas dos cantos e um recorte no meio; o rufo passa por baixo do chapéu. A cumeeira padrão passou a 31 mm, na mesma inclinação do rufo, deixando uns 15 mm de folga para o rufo entrar por baixo.",
-    "Gerador · vista 3D do chapéu de pilar completa: topo em duas águas, abas, abinhas das pontas e todas as pingadeiras dobradas certo.",
-    "Vista dobrada · a ordem das dobras não se confunde mais quando uma dobra atravessa a chapa inteira e outra só pega uma parte. Antes a parte menor saía torcida, como uma vela."
+    "Gerador · Chapéu de pilar: campo novo Muro entra, com três opções. Dos dois lados é o pilar do meio do muro, com recorte nas duas pontas. De um lado só é o pilar da ponta: recorte do lado do muro e o outro lado fechado com o oitão inteiro. Pilar solto é fechado nos quatro lados."
   ],
   "historico": [
     {
@@ -123,9 +121,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4820216,
-  "sha256": "0ee1b657bfc29fb36c31542754a8b2fce4814807bdb660debcfe56d52347d46a",
-  "assinatura": "CfEaQL4aZuQMaODTiUwg5udSNU9WIFF8hemqPiZOxq283kWrT84hXAWDDaivdWn3xouNMU9hMYOcHEfDSe42kOl2YDL+fumA4loccDszhKxLSmxAWFnDglGoLd3o+MmMDe8A9WEf/3E8jq6c+hmZYdvxQdLFu9WBTeuC6gXP38VtpiDBrWF2pr/3qVCIQLqL2V5NEauZ1ZyeQGp0gIEmlvXvRYn4NSlQXkLYvwDaZ1/n+SXOQJoiDEmzRf8E0W0lr6zA2eZuMSj3rYBR4461MME7xfPhqnC35nsFnFFtRkEKc2rHSj5taudie4ZF0IgvuoPxxHDgj335Iu7flOGYyg==",
+  "tamanho": 4820345,
+  "sha256": "b78668e2ca4a0c2b9aaab5e4c120a6aac120f74d5a182fc9e702b44d43eda912",
+  "assinatura": "kiCJKiLDGOdejVRxtbBW2IILrRsbz8mwiDd4Lt5F7lSbk+sYKkLNsKI5nT+4vcBloUjm4Xla6lL04BBUhidaxsLu4IwsiV2eH43ge7L1ZRrFhGCXzAVEfkFxrqjFCpiLvsqeuAenCN1b0Gj9fEIoNjHh2gtduPWd34v8JSd0hK9j1bncOl2bkroQK5k5QHYyteTWGQe/EyaM60I2brUkcZJ5/lbUvvQVX+dOvGOo45KVKOklZIbWzMLs3SJ6MjJyaAJf6BT0PyhTCoN6ZIisV5NhPdP5KIUgDtAS+fEuD+RyWfa+Yvo9hdeqPSc1xuaYkx+j7ftxuKjcOTh1ctq41A==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "cmaUMZDp5HO21Ngatb5524+yfOCMyvnmCc+i/YYl2sLYAVZVJD2yoz46fRiKCVfWk6xR1RL349v/PzePx+boGv3+3ENGRUc9xy1wH3+CnUg+pBdLe1HSkaIuhgbnr3PY1o8tcooFbTfkl+lCxzhMFVfnxFk9CEcgdJMaG1d6anrt9205otE2P7GS8/T92SXXx9QWJWdfmQf4TdutbZtVzLrEqCkjdmgeLkUsKeVw9S5MJRzNThzYmBd+cSKIp7jpszSmK7IvTPvI47yXLBGuwMRNynMHqqoo7vfI4NLQB62zAdOFRR9SLH+pfmx/dqvjgrYUyS61ZZRNucwOPWKh6w=="
+  "assinatura_extras": "OmKaJSqH+BzzjNVE64ct7fCfvSbs1eiByV1jn9OWCKud0GbAujoQfTciULDBTzSJeBQ0hoptms0SuS+w516MsMBP3yKZCcMNTJg1KiloD2QChUwY14ygD+zPS21Cew3e7UAYeetNJu/92NJdJLyLoQ6JRGBgpmACJxuwvFpDMYiyxsMj7ZtmYmTIK1H4JGsycZ/TS07F6mH7lxAxuHIJSi/vnO//7t+vJlMWxyz9cQikLWxjYUEMv9gpx8lMORWT6MHwpYYbxVb5LWOxSxRMCaJsQZYx7Y5PTqoLvXSPNmb5S1TirlQz96ElJZnOykD1ocFTvJvGmt8DXj4BzCdInA=="
 }
