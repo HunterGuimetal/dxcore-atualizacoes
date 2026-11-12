@@ -1,10 +1,8 @@
 {
-  "versao": "10.6",
+  "versao": "10.7",
   "data": "2026-11-06",
   "notas": [
-    "Calculadora · amostra ou peça pequena no canto da chapa não paga mais a faixa estreita ao lado dela. Se o resto da chapa continua grande, cobra só o canto usado. Exemplo: a amostra da calha de 200 mm caiu de R$ 186 para R$ 13 de material. Pedidos grandes não mudam.",
-    "Calculadora · faixa comprida, com pelo menos 1 m de comprimento e metade do lado mínimo de retalho, também conta como retalho e fica fora do preço.",
-    "Limpar · peça com dobras de ângulos diferentes (como a tampa da calha, a 124° e 56°), desenhadas com duas linhas cada, agora conta uma dobra por par de linhas. Antes a tampa ia para o orçamento com 4 dobras em vez de 2."
+    "Gerador · novo modelo Rufo capa de muro (com pingadeira), em galvanizado 0,8 mm. Topo em duas águas (padrão), uma água ou reto; abas que descem envolvendo o muro e pingadeira de 45° para fora na ponta. Muro de 20 cm, abas de 4 cm e 3 m de comprimento: planificada de 310 × 3000 mm com 5 dobras."
   ],
   "historico": [
     {
@@ -123,9 +121,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4813620,
-  "sha256": "66e56e771b44e7b5afccc73aa9cb1f8d470af3bb8f3e39df1f392167e2fe78d2",
-  "assinatura": "ZeQBqFPc7WPSqEPIVJUEoGTn/cWAZPn/mdmXWSs4uvh1SDCbNZRiQPLWvALAAmx/iWb60FbHE88zZKrV9PKFIsYM8up+M6TBKcHzS2FzSnF+DOWneFMWiEEr96uz6TU/A2GmTT860oAG4FO9g5jwuPlRk3E9SEOL6vSAc4mteLhPI4/7YBptyWEj4q5xR55L5MsXtrrxGAoOJZRbI3xAynVS4YmS0J6t5t2Q8MNkCrNaJUO7gN7aTm/wMVzq4A3ay8I7u9bgngVbj8pRGePuFtmyn/2anBh3VJ/boVTdL5wPuxXypxzXapF6k/zsXHHMXQ+dKGuNj9nmc+b9vL5XJQ==",
+  "tamanho": 4815704,
+  "sha256": "38d116c0a4df7e6e94fb04e722ffb0746bfd0ea23ebe62729c52684e3e164ff1",
+  "assinatura": "V/WHtAJkk4zOtaRA5GcM+Xnpzi1nwhjOBexlYo2M6YbDfPV33KAK9yXOc9+7D61UV+olJCE7wAiPovgLvvNdxcRxS4IPGJpo4GWmtabFhdCdSoEBaMBwgJHAruMGifvRLL2XIjYKyLESDnjD1b0vP2JJLQxFpQezPsF8+RiLR4dARrd78DQWErLJA2+jDTgMSLRQSenHt0G1PLN/ZvF0BfgZoq0csRntNloM3d/luOLKJRl+/J4Mrf1SrqI1roAGbOu26PFq1QyExjK0AE6UA40zbwkOhu749ma3g5t81OFfTJeo/h4IA/H+SQNoffJFMunx01Tw27HWcrQdOQ/Lpg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "SsHuTR3r6JxpWzSTOpYMXiIO072zO82X2i1KlqXj9HFdwhVWIDreD1UnhZIpSrROGzvqv9nXo+68zxafpT4VwL3nFOzgCSHcUoWJWlwGrSJJJt4WwG9npYFEF8UaFgNf7R1Ktx3oJ0njCCXBwdt2NItpxi6ZSoiylmQO4cKnQtutTmD86Xg+Y+IJit1Jx4eKychZYmZlGrmEEgzQbu6Uux7kZo/AK0IHaSgl0Yr8c7wSRrqo5p0N9HqAsE38wJbKG0Ywa4NFC0z5i0dt7cxC+CKxcflXov8MLV2uD0pzw/6iaPlp3Vz9MW1nMXwmKbbuVf5dG/udXEQy5iHOCUx0cw=="
+  "assinatura_extras": "DlvPeUE/Kt9Q2fuwHu80LgjojjSyuagXBpswXRS0OFB4X80PZUjkzANq8wq5XPVWQYoDt5DXuX9ugh9gfaEPB05FiLHCBg4RUE4jMmbk5jLRycefwEhggx3XSUclbi1Fn3df1/+Cdf2tD0rxdgfotHG0s4PghNxiPdyXKoOwevdB8M6C/q21IZt5oAT4UcqacQadjd6OosP49SInWvAlB2hHLrjLBTdWZaksnPhnbjSBkbxXxr7AKXZ9vJo9PEI4tBS0clDujOevcJAXyDyi8cel6d3eaMUmfiT+yoNlFV6K+nX2P1dx2XxpQ5NmzsCzc5M+jcqrdPR+p4zO0ZqhuA=="
 }
