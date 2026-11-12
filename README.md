@@ -1,9 +1,10 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **10.8** (2026-11-06)
+Versão atual: **10.9** (2026-11-06)
 
-- Gerador · Rufo capa de muro: novo campo Peça, com Peça única ou par telescópico (peça A por baixo e peça B por cima, 3 mm mais larga por dentro). Duas peças de 1430 mm por vão fecham vãos de 1,43 a 2,81 m, sobrepostas, sem errar o encaixe entre pilares.
-- Gerador · novo modelo Chapéu de pilar (duas águas, com pingadeira), igual ao rufo: topo com cumeeira no meio, abas dos lados e oitões nas pontas com pingadeira. Pilar 42 × 42 em galvanizado 0,8 mm: planificada de 528,8 × 557,8 mm com 13 dobras. A vista 3D mostra o topo e as abas dos lados; os oitões aparecem abertos.
+- Gerador · Chapéu de pilar para muro da mesma altura do pilar: campo novo Muro que entra no pilar (padrão 200 mm). Nas duas faces por onde o muro entra, o chapéu fica só com as abinhas dos cantos e um recorte no meio; o rufo passa por baixo do chapéu. A cumeeira padrão passou a 31 mm, na mesma inclinação do rufo, deixando uns 15 mm de folga para o rufo entrar por baixo.
+- Gerador · vista 3D do chapéu de pilar completa: topo em duas águas, abas, abinhas das pontas e todas as pingadeiras dobradas certo.
+- Vista dobrada · a ordem das dobras não se confunde mais quando uma dobra atravessa a chapa inteira e outra só pega uma parte. Antes a parte menor saía torcida, como uma vela.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.

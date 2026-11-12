@@ -1,9 +1,10 @@
 {
-  "versao": "10.8",
+  "versao": "10.9",
   "data": "2026-11-06",
   "notas": [
-    "Gerador · Rufo capa de muro: novo campo Peça, com Peça única ou par telescópico (peça A por baixo e peça B por cima, 3 mm mais larga por dentro). Duas peças de 1430 mm por vão fecham vãos de 1,43 a 2,81 m, sobrepostas, sem errar o encaixe entre pilares.",
-    "Gerador · novo modelo Chapéu de pilar (duas águas, com pingadeira), igual ao rufo: topo com cumeeira no meio, abas dos lados e oitões nas pontas com pingadeira. Pilar 42 × 42 em galvanizado 0,8 mm: planificada de 528,8 × 557,8 mm com 13 dobras. A vista 3D mostra o topo e as abas dos lados; os oitões aparecem abertos."
+    "Gerador · Chapéu de pilar para muro da mesma altura do pilar: campo novo Muro que entra no pilar (padrão 200 mm). Nas duas faces por onde o muro entra, o chapéu fica só com as abinhas dos cantos e um recorte no meio; o rufo passa por baixo do chapéu. A cumeeira padrão passou a 31 mm, na mesma inclinação do rufo, deixando uns 15 mm de folga para o rufo entrar por baixo.",
+    "Gerador · vista 3D do chapéu de pilar completa: topo em duas águas, abas, abinhas das pontas e todas as pingadeiras dobradas certo.",
+    "Vista dobrada · a ordem das dobras não se confunde mais quando uma dobra atravessa a chapa inteira e outra só pega uma parte. Antes a parte menor saía torcida, como uma vela."
   ],
   "historico": [
     {
@@ -122,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4818932,
-  "sha256": "653273e28f66373d577c815feb11a9d0508e599c5e6cc9760ac0f494d5adebf8",
-  "assinatura": "Vu987MsnWa+4iIVAU996TK0Z2Vkh4lzxYbEZDoj9Y0qIOf5nqHA+d9FW5ZEWHs3YwGG6ggOo8RdMcat1V8JcwtXPpIvVnH44v26v7ZhiNF6zlDEqTwP9Av3sJ7KEB+ImQERBGKn5lrezM8orjmLY0TbbGuXpPCw6EKUS+Q/g6tuXVgZ2MsvYp+OVtWvU6RCi7ncfXKtR6NzDNfE0m5PuzUTH+RlsllIYpo1FyY86OP1V8L+3UdaoqrBx8YEa0wSJfwvQzdpZeq6WyuycbYdng3CHmXiQJk5AOw2lqOkgOiFWAaI48ZdwHpdR0cYLcufW88vaGfgar9znNsB27pWoXQ==",
+  "tamanho": 4820216,
+  "sha256": "0ee1b657bfc29fb36c31542754a8b2fce4814807bdb660debcfe56d52347d46a",
+  "assinatura": "CfEaQL4aZuQMaODTiUwg5udSNU9WIFF8hemqPiZOxq283kWrT84hXAWDDaivdWn3xouNMU9hMYOcHEfDSe42kOl2YDL+fumA4loccDszhKxLSmxAWFnDglGoLd3o+MmMDe8A9WEf/3E8jq6c+hmZYdvxQdLFu9WBTeuC6gXP38VtpiDBrWF2pr/3qVCIQLqL2V5NEauZ1ZyeQGp0gIEmlvXvRYn4NSlQXkLYvwDaZ1/n+SXOQJoiDEmzRf8E0W0lr6zA2eZuMSj3rYBR4461MME7xfPhqnC35nsFnFFtRkEKc2rHSj5taudie4ZF0IgvuoPxxHDgj335Iu7flOGYyg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "BfUJJZWoetamYjJ8uS9l5aVnkR1M6a4GeRBUdEneRMcIZoAwF1cbyYGPenGElrkBDluHjy9pwTi07vha0eH0gnh/KI4Bw6FZ20nptmqskDmkWnp7Bi18SqnaEtOw05dEN+1m+P97T5G3+kMwspjvQqt13bYQf/7sFWci/iYbfTV+bPX4eIxV8kjwhm4+VaHduWUvqQgQNhZz2cXc8P0JKKc9UbtS4Ewg67Hq+wL7XnQKWW+1zYoQM1z981oea1sfBxqmBmtBdc5y/vyXr6RVQ+NuWq/pJlNYuB6qeWWhTlHoXKbuWtRivr4aRa+kw5n1b1mHuUAAmAjFu5kWbaYMJw=="
+  "assinatura_extras": "cmaUMZDp5HO21Ngatb5524+yfOCMyvnmCc+i/YYl2sLYAVZVJD2yoz46fRiKCVfWk6xR1RL349v/PzePx+boGv3+3ENGRUc9xy1wH3+CnUg+pBdLe1HSkaIuhgbnr3PY1o8tcooFbTfkl+lCxzhMFVfnxFk9CEcgdJMaG1d6anrt9205otE2P7GS8/T92SXXx9QWJWdfmQf4TdutbZtVzLrEqCkjdmgeLkUsKeVw9S5MJRzNThzYmBd+cSKIp7jpszSmK7IvTPvI47yXLBGuwMRNynMHqqoo7vfI4NLQB62zAdOFRR9SLH+pfmx/dqvjgrYUyS61ZZRNucwOPWKh6w=="
 }
