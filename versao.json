@@ -1,13 +1,13 @@
 {
-  "versao": "10.16",
+  "versao": "10.17",
   "data": "2026-11-06",
   "notas": [
+    "Calha com tampa: na vista montada a tampa fica centrada, com a mesma folga de encaixe (0,5 mm) nas duas paredes.",
     "Calha com tampa: a quina da tampa fica toda acima da parede alta (nada da aba da calha sobra) na vista montada.",
     "Tampa da calha: abas curtas (10 mm, ajustável) e tampa rente ao topo das paredes, presa por pingos de solda dentro da calha; vista montada mostra o encaixe justo.",
     "Calha de soleira: a vista dobrada mostra a calha com a tampa encaixada dentro.",
     "Tampa da calha: furos alternados agora vão de uma dobra à outra (a dobra passa em cima do furo); opção de voltar aos furos só no meio.",
-    "Chapéu de pilar: corrigido o canto torcido entre a aba lateral e o oitão (alívio na zona de dobra do beiral) em todas as versões.",
-    "Chapéu de pilar: nova opção 'Canto em L' para o pilar onde o muro muda de direção — recorte numa ponta (rufo passa por baixo) e recorte na aba lateral (o rufo do outro muro encosta)."
+    "Chapéu de pilar: corrigido o canto torcido entre a aba lateral e o oitão (alívio na zona de dobra do beiral) em todas as versões."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4825469,
-  "sha256": "b6c3b339fbd3902f9c09f3c28f699e25e2a4d727993c8e1fe3acd0d9a007e5a6",
-  "assinatura": "SopqoxTsRYovF3u/hmMIfs2QmEWmfa9I5G+5qO8zPSZ4/XvHSX2iwnopIeH6dIlEjbdpwvKpliVUe9gSpn4mlQpn212S8ddc1nF11Ie46Z01uzSXFw5VPBzhKwrZY+0UZNz0VNqZMoq//m5h3+67OPuY799xea06k2vTbCXZLuoDgiRyezfo0aJLtlH93tNcTUK3GkxORU6NUNtJFLH44J+OISjeOde9rheDq9lVa8yHeK423tmhsOjmjqsoCT3FF1J629Gad4UxQBx0UJADn2J0dXvz/S+kt2Zot7fuGcpkgvBvJuUWHd5oOYBULmeroil2WXv5v3AYxiFTsd+g4Q==",
+  "tamanho": 4825753,
+  "sha256": "9adb0230a85deefad8bf4dbd894fe317f4549684d14f3cb3595f841131937513",
+  "assinatura": "BXS2znNCjX+NMl8TJn23AtB4Zhjk1pU2YIHdWEV/loOteWW1R3ECtz5UrYmehHXX/aaDyGFTyVF4wUr0TvGrSCynvp7SiTinE0gR2NGqcHz8hyPg7Saujyr6xc82tJAUjxMFHcDDchvyj0+4kKTv9QNdeEBnudEHT28dH0CVFdx02nQlUMV3Iey/fwJUvnpkSIwu1SGsJJUK7OrnO768bA+6sU9do79TgW3O6AQoliBzhCKPpCG6agW48916VSuXU3s6x63xhU6WwowMzfKKsq24sJSK39rfm8JiToMdhDspFVC2JRcBDMeoX8X1DEDJIYF4KZIsU/PQUUr9luTxwA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "eKiogjg3++AOJNte6Gem4f+xAC4a7/x+j307ablY+9eLl11+Nf3z7GKEI47vkbYq33loJLJ/Eld4jfBnNuG6mQj1h8zc/+v60neugchfxsqvWPvRZa6Na6nfdgxbAELjeUGfcaj11IQPW+aFq/sIRnq5fl6jrj5PvjtJINfIhJcoLyLSi+VHu9MOOIkFxd2nIffd7brXcTpHfnq5lLua9W7Nbt+xTO0FijOB9iVQh+sgH2mbB1E2ABNwsPwRKP9+XN11E+QnAKzaqHV8rbWeOdPVX2lR/1X9+5IkJMLS41TuxU+nb/KBhTD4ZjsMMOAAmKw7Cpi2BBwXitDi5T1Ing=="
+  "assinatura_extras": "QvviF0Nbb9QLmSFEN+hlE0wD7+ySJL0c0PC5Hvv5bcO9yl/2qopPjyyEPLXNYWYIbgt194sbGaPXzSf9PtpxVBxmBs1viLZm6fxVZ1Rs1rUOLcVFJFpMUc7YNkW23TF3djxrzlyG+Pa68GTPn5oXQ2KObZvSE0HKGuh7TBiRpCHl6DdI57MK194BORiXYqMD/fkGfH+/DPh8Wa//YrAKYw5rad93ydwbE+z/vgLhEGlXaEQUZEIYORmwYEmokTRiAj5m8fZOUs3DXP62xDgpKFe6Ma2sb+LUps+z4iPvRSNCJhmWmF3W7C3xflKjgMDust+8eDS4DG2+QQOvpHxb5w=="
 }
