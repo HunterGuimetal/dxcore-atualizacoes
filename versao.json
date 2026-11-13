@@ -1,13 +1,13 @@
 {
-  "versao": "10.14",
+  "versao": "10.15",
   "data": "2026-11-06",
   "notas": [
+    "Tampa da calha: abas curtas (10 mm, ajustável) e tampa rente ao topo das paredes, presa por pingos de solda dentro da calha; vista montada mostra o encaixe justo.",
     "Calha de soleira: a vista dobrada mostra a calha com a tampa encaixada dentro.",
     "Tampa da calha: furos alternados agora vão de uma dobra à outra (a dobra passa em cima do furo); opção de voltar aos furos só no meio.",
     "Chapéu de pilar: corrigido o canto torcido entre a aba lateral e o oitão (alívio na zona de dobra do beiral) em todas as versões.",
     "Chapéu de pilar: nova opção 'Canto em L' para o pilar onde o muro muda de direção — recorte numa ponta (rufo passa por baixo) e recorte na aba lateral (o rufo do outro muro encosta).",
-    "Rufo capa de muro: a ponta que entra sob o chapéu de pilar sai sem abas e sem pingadeira (recorte de 40 mm até a linha do beiral). Peças A/B: uma ponta; opção para nenhuma ou as duas.",
-    "Gerador · Chapéu de pilar: campo novo Muro entra, com três opções. Dos dois lados é o pilar do meio do muro, com recorte nas duas pontas. De um lado só é o pilar da ponta: recorte do lado do muro e o outro lado fechado com o oitão inteiro. Pilar solto é fechado nos quatro lados."
+    "Rufo capa de muro: a ponta que entra sob o chapéu de pilar sai sem abas e sem pingadeira (recorte de 40 mm até a linha do beiral). Peças A/B: uma ponta; opção para nenhuma ou as duas."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4824953,
-  "sha256": "d6f967fb14f49e822a2631ec3597315dc91fcbd075281065309029706907e3b7",
-  "assinatura": "kknl4p73aFq3iWE1Kw3jUSgFgXukoQslUFB6MbXjD0YoJsgw3KKVPSY7913ljQ5UA/YqqPUjmK4x1W1SMATPDDTO9GXNJmVf0Su7LZn8gmdWymtJab3AZaOFgTYXYHFXbhfChCCO2ZJss7mkD8swaASSmtD/WH1SjAELxz5hl9OeDq7lysFXvQxpfIt4cIgbia9w+37nSF3WlzCbYF/aYyd410gADJYVfV7/T+PoMu97/uukI57z9uHWkzfk5nPfI1NDn4r67cujX6Ih8g9TsA+LZLA960XpqYM+eWpJA2ukoHOo588hZ82Rqqp8ZnLCjTSdx0pX7/lInwRXgBDxBA==",
+  "tamanho": 4825405,
+  "sha256": "1f58e666698b3ed01842364c6e65e310ce2bebe5cbf651d336434ae20818433a",
+  "assinatura": "kycMPwpswre/7T+2cPGgZaTsYAqe88uzJ9ob1kqX2j6pbW/B1AkAhmekyrcN6pqeb4XHvXQmEpxGqHnZOOgg4oHpMZX8anb+7NWUlVQ5ScPImYcrPk6+52puEqYJX6vudxKyuCouGVNa13xEgspLPUdLqHa2kniXkS3xCrc8gBHzLS7V1VDo5G836Qv303qWNAgjGSDgjejn5ilNu6nHlyQ9HPNm8Lqo+uPacvUze2crvY1IZ7HZKxuYztSXW2skR3Rng+tnihPj+cu6C4HiphGO9uBu2SuueMoKwZnDOsvKr9VMAcfaXAxXjlKNzkdtwF2iVMRr1tPZAKT4YzWHkg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "V6bvz+KUBC9QtrlyhuI81FUCQB0/EbcWcOnPCuIA+oqXea+VQbnPIe8g2Ee1frv1S/DUSd8KtSynLL51y+dM9hNO1HR+AkkZpwGDafY6ALm7MYByPlaS/zUQJTA1webUysFDXysaZa2CyrbANj5mUqpcOjd6D1dgFXyU6qfSb2Nyna2lpFJy2bm6OUWfRSYQL8t11AaZbYrdTa/eEYf6SRqusyzK2tvLGRU0P28UDgvUfIgwrf6TBwW6dZxAF5pmitel0dcusimd1UBMeo59r3T0zXCfV1X/3YiIO2UcwKXT4gis2ifcmAVtEcxDJXP060+k55Tjqhy4nIlI2z/J0Q=="
+  "assinatura_extras": "MZyRMHu3viOwW1/IrjV+Jg3RFN61b8LAZkOxeol8COvZy7sYomieMvfhjP0OkQyPwHAwv0LGFwl8j/YXak6vOQ4ozncvaNWuN3ukqnTaC2oKv5ZJZO2qzsF+M9cfve1VUTZ+rRzps9tXcKZbGUL698zxkC84Dt0g2a4E0MaejCwh6JdYCA0cQW7EcVltpwlVh0NPbFcHnXGmI/ozM4WTavN+WV4ZPvgAOqXE2xUQMUoYihCmFv4z+DQ+t1zRQQ3/U8IAm/xMU8SACLRC/odJnAaGQRU644skRmtTk3G87Vs5U+5boMElSFOeprPkUNpEhEBSe1faNAbPKmgASfFbGA=="
 }
