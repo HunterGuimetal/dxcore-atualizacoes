@@ -1,13 +1,13 @@
 {
-  "versao": "10.20",
+  "versao": "10.21",
   "data": "2026-11-06",
   "notas": [
+    "Reaproveitamento: rotação livre — o encaixe testa a peça em ângulos quebrados (45°, 15°, 30°…), não só em 90°; peça repetida ganha mais tempo para achar a melhor grade (spider 4 garras: 126 → 166 por chapa 3000 × 1500).",
+    "Na chapa montada: E / Q giram a peça 5° (com Shift, 1°) e ela procura o encaixe mais perto; R continua girando 90°. O DXF da chapa sai com as peças no ângulo escolhido.",
     "Tampa lateral da calha: largura e alturas mudadas à mão ficam salvas; só acompanham a calha as medidas que você não mexeu.",
     "Tampa lateral da calha: a espessura escolhida não volta mais sozinha para a da calha, e a vista montada continua com a espessura nova.",
     "Calha de soleira: novas tampas laterais (2 por calha, soldadas por fora) no desenho da calha com a tampa, fechando as pontas; a tampa vazada fica 1 mm mais curta para encaixar entre elas.",
-    "Vista dobrada da calha: 1º clique mostra tudo montado, 2º clique mostra só a peça escolhida, 3º volta para a planificada.",
-    "Calha com tampa: na vista montada a tampa fica centrada, com a mesma folga de encaixe (0,5 mm) nas duas paredes.",
-    "Calha com tampa: a quina da tampa fica toda acima da parede alta (nada da aba da calha sobra) na vista montada."
+    "Vista dobrada da calha: 1º clique mostra tudo montado, 2º clique mostra só a peça escolhida, 3º volta para a planificada."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4829645,
-  "sha256": "1c298a87f1066996a8d707aa36993de1543f00c09dac0f2d883bcf08493ebc22",
-  "assinatura": "Ktxa3+NbdKu6LGaidTOw/f4WU1EZ4cLB/zkIJ3hM0HoZ9YEvUk9fRIL/1k7x1IbFDlqL1ylmmUAQQB90yI8bB/nsJsY7L7mkATrP3y4cLG87wPN8PtkKNp9No36CKe5hchMNQYMby9BK+wzCifChdZi/CtYPBRE48CjcG/YR93/1b0LBjOup0vr8SWaHlEVcpNrx3NBPX6ZSISeIqKRqeM7cmS0eubN//F2lbCtM2SkB+eR9L2jw7F8xnWJwfwsG0UTwyoDdZ7smFjG5jfduSJU3eN54ys903yai2vQyFWebKdv1tnpeHn6gBOb3vf9bFSnLoSkWMnL/Cle7vAlxAA==",
+  "tamanho": 4834389,
+  "sha256": "d0db838fc232bef9ed7668088c1ac5a4e4c4a67b890aa6055df2219be011a3ae",
+  "assinatura": "VhbPY/+7NKHJ9s/rW9WaZMJCeALQ6MkDemU5EmmnTMcn0thCRQbn6+zyRzjvQy6/W6YsIzQvUXgkl4N/EG1hXdOAH2BizC4/WxLezbIgQid9TzhonFQERQW4AEffos09aNUEi9G9B8dqMbss3d9GmAEyWTpzTRuZHGkYRpHoc54e8T0mqL3O46e6lhTwO6y4b//dPBIdzZ2lY2PKlO0BbHA17LoDNZjeZL1l8hoPkK//hQydvT9Kq7/lcBGtUlojFjkRLY/m7eDlg/q1UxTRso1v10lLPBbgZeOD93E1c5+UHKhvPtkKBElsrjYbbTaHyVWAz3Mj/uE40Rey/HCx7A==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "IlVGBe1WN0+gQqTqtWRQLaNBOvKTsA2YHbY8GbmMtvZp+//KOs4Kupu4FmaD7xDUu71HfEok11n72FH6oG8d/+axoQaKBfXiUli/XwE3vUercmz7b5IWIyvAdhzltlhecstKqP/fG4Ezh+P9lCDTHwv2c2g2pI3iZXvbTp9xbDO0NDzqfkHLd+wwPzeHcvKTIXRdVPKaEK4UtTzF8g5uFrAHQA6Z2TEJFkw/ICUSjQVbs8SzTK7U//TKc8eWNEmJdXc0dtY/UjnikG2bV777VPr2lUBowvuPMwyYriBc0mi5WQ/yqfE0yqZKL70c5CPtcv/312u6+awYu6974N15lA=="
+  "assinatura_extras": "BcuRLeITtRh+vTowK+Ytx10ac2KT7mFBmI0UZcLFKS42sqPqWWzHDJqTINp2Wikjdicu+v/MvmB5ffucpqZX39J2UK/7Bz+/7lBxz4gl5SFTSrNlq6dZdNDuokukbsZiiy/n3c9067qBqVK6fgBIN1movuSBvUvwEyGS56z6ZkLOYRwtIKCI3H5+i4anys69l7DaPy7hzTrRFoTAhZEVrZMtoLaH78KT3CuA4JbAjy5NPl0098EtXAB/hnrYSeV2C7ZlKi2JZk396MPPu9sQou9mKHenIMgPdHobv7LdhlEAQP/NANj/NgVNzuHmmle5UAKC3yhyQMs1YoiG60b6xQ=="
 }
