@@ -1,13 +1,13 @@
 {
-  "versao": "10.31",
+  "versao": "10.32",
   "data": "2026-11-06",
   "notas": [
+    "Simulação de dobra (Gerador › botão Simular dobra): a peça em corte na dobradeira, dobra por dobra, com punção e matriz V. Avisa se a peça bate no punção, no martelo, na matriz ou nela mesma, e 'Achar ordem sem colisão' testa todas as ordens. Ferramenta ajustável (abertura do V, altura e largura do punção, largura da matriz) e aviso de aba curta demais para o V.",
     "Portal do cliente: no orçamento salvo, botão 'Link para o cliente'. O cliente abre no celular a proposta com o desenho de cada peça, valores, prazo e pagamento, e aprova pelo WhatsApp da GUIMETAL (a mensagem já vem com o número do orçamento, que o DXCORE reconhece). Também tem 'Pedir ajuste' e aviso de proposta vencida.",
     "Catálogo de produtos prontos (Biblioteca de peças › aba Catálogo): escolha o produto, digite as medidas, material, espessura e quantidade e veja o preço na hora; 'Adicionar ao orçamento' manda todas as peças do produto (ex.: calha + tampa + 2 laterais).",
     "Gerador: botão Catálogo guarda o projeto como produto. Já vem com rufo capa de muro, chapéu de pilar, calha de soleira com tampa e placa de base.",
     "Limpar: ao abrir foto ou desenho à mão, pergunta o tamanho real — Comprimento (lado maior) e Largura (lado menor), uma acompanha a outra na proporção.",
-    "Foto para DXF bem mais fiel: PNG sem fundo (recortado) usa a transparência e sai com o contorno exato; foto comum separa a peça pela cor do fundo (não só claro/escuro) e ignora brilho, ferrugem e textura dentro da peça. Foto sem contraste com o fundo avisa em vez de gerar peça deformada.",
-    "Orçamento por foto ou desenho à mão: o Limpar e o Gerador agora aceitam JPG, PNG e WEBP. Peça pintada (silhueta) ou rascunho de caneta viram DXF de corte na hora, com os furos; texto e cotas fora do desenho ficam de fora. O lado maior sai com 300 mm: acerte o tamanho real em Comprimento/Largura."
+    "Foto para DXF bem mais fiel: PNG sem fundo (recortado) usa a transparência e sai com o contorno exato; foto comum separa a peça pela cor do fundo (não só claro/escuro) e ignora brilho, ferrugem e textura dentro da peça. Foto sem contraste com o fundo avisa em vez de gerar peça deformada."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4886037,
-  "sha256": "9bcbd970071f48d034cfb01384a98d308b8b9cdce72e052c904793f4a1305234",
-  "assinatura": "OzInoqlpltd0ukfLnLOcz7ijSHSlcMKRYjTf15RR4yRSO6qdSqWZ/OTavXQudi6td6q2Tiok3NmuUNxC9R/L6H6jjIEkjj4smObs3o79041gywYNajUiPCmH4KnLcYUJqoCT837Zte+0LOuz0kFrjXOxf/6GPctkRcdP9oae6aB5hnOhivU08ycNx3EP6n2BFZADFNfSwU2e8vbiPK7iYGvr1tjXyv5gGnzNqm4jJuM7iBuQBD23lVwLe3JV2ssivmD+pTJ4egYB+qeZdoT93/JrV+gyp96BqKhNcwA3nyFPjcEZxKFjS6ADZeBiS5YFVCc9rICmNDvnx8hgyrFCpg==",
+  "tamanho": 4900609,
+  "sha256": "27acd588a42559563a2493bfdc0129abff26fd7ab68fc8dab5cc3e31853a6482",
+  "assinatura": "kmUxTmrMLfaI3pYqFz0o194oUBnM5k4GDINSfyfhTjt9O+TJiW9ONJ6G2DC9lLS0fRU62Hle4q7pwdhY5ERH3QHsrG0eRKPhuQjEYxDY7vK2VY2UacwWkJepWY371pkQOyQkZlvlLbwxXp8A4Qdd1pNiYwNclIGH2HsLaQE6h8nFsUp5yI6F05GWyx/9CWwnJWNLXP2RhiNtUIUK0rQwAbtnkDZUCpR3iw4MH4WeCWHbcLiLONFLpCtWjh8LeF+VcxsVVxEHNtkPG9xMFgl+FXY4Tq9KligT4+H8D9QJ4IEniEp2q6nkULXO9NQAQdGti5td1C1s40gzC/Ui0UU83A==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "kqlZwpkYnBAgSLcpN2/C3DeHlAMExo4pWAPnv0iEaIOzdOwpK3nnQC2R6O8P8TBc3mHyluQincJZrfWRnEBEBo6N5E7JWQTJJAtL7kVO+HHJspI8tcJrVTk11d88UHRn6YU9R4CIK/8im5XOHHP2N6svJHY1oQfiCvvmID6S40y8GA+YRAlhWH/w9pC35CMTfF9SzlhfcS6LfUdXlARWaKs4Q8/yBga7IstZIShxKNl/RHyDHLA/Q5DTdXVhVus+xoOR2KYzgckk+aM6gHMs46FFcKAFJVsZ1f8tX7iB7AEkQHowaZ1X0twkhZUmzTF99F8gk+YVrUrO+GS/u+axsA=="
+  "assinatura_extras": "kTbWX9tPCAwpiulIR/2XX6DUDJ8g7u14oHvJQubM9JPkk0y7V1TUOK0DM41FWEtK0/xMSduzxLIW4UpSH5lC28d8gta1Y9ZoqCqnMsUItOJG6DrDTLoJBUyRL4DuH5oOEMO82QcvOJ8NDi2NKqijBa4WCga3FMp5YcIx9JUeiAoUOuVn9xztUfKgxC/uZtk5CyaKosBr8QCEcrmTHp0TYA23DxiMY5r6v9umfTheh1P3haZy74M3CS9VSOlAM5tyh7+67qb/YIQlN+tULKRLuMTZVkoL6lHUdRkV5Seo+JVxeWRamZeAmZihAQ66Ve98WrncfrED/ogoCVtctkVZMg=="
 }
