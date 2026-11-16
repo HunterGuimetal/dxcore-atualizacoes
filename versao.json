@@ -1,13 +1,13 @@
 {
-  "versao": "10.26",
+  "versao": "10.27",
   "data": "2026-11-06",
   "notas": [
+    "Orçamento por foto ou desenho à mão: o Limpar e o Gerador agora aceitam JPG, PNG e WEBP. Peça pintada (silhueta) ou rascunho de caneta viram DXF de corte na hora, com os furos; texto e cotas fora do desenho ficam de fora. O lado maior sai com 300 mm: acerte o tamanho real em Comprimento/Largura.",
     "Lentidão corrigida: desde a 10.21 o encaixe (aproveitamento de chapa) não rodava mais em segundo plano e travava a tela a cada conta; voltou a rodar à parte.",
     "Lista de OS mais leve: o desenho das peças guardado na OS ficou ~60% menor (a lista é regravada mais leve na primeira abertura).",
     "Peça em linhas editáveis: Comprimento é sempre o lado maior e Largura o menor (na tampa da calha estavam trocados).",
     "Esticar com furação em sequência faz igual ao modelo: furos no mesmo passo até a margem do fim, com a mesma quantidade de furos que o modelo pronto daria.",
-    "Peça em linhas editáveis: ao mudar Comprimento/Largura, a furação em sequência acompanha — o trecho novo ganha furos no mesmo passo e, encolhendo, os furos da parte que some saem (igual ao modelo pronto).",
-    "Peça em linhas editáveis: os campos Comprimento e Largura continuam na tela — digite a medida nova e a peça estica (furos, arcos e dobras ficam do mesmo tamanho; Espessura e Quantidade seguem embaixo)."
+    "Peça em linhas editáveis: ao mudar Comprimento/Largura, a furação em sequência acompanha — o trecho novo ganha furos no mesmo passo e, encolhendo, os furos da parte que some saem (igual ao modelo pronto)."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4844353,
-  "sha256": "bdc70c97a6ab25febac0da3cac656914641a8933fb23cd40eba4694e693a6451",
-  "assinatura": "ffxQPSFYq0hqziJi+ujs5+X3mIdP3fi0TxrQ8PFTMhh0lEUWd5acLI9jRSXYY29HG05mYQTEkoO8JmKTmSgimazW9gi5+khKVf4LwnKL3bFfRFJxYkOeE+rR9de6DzJ3JTvWdMbUMDGpdHOTrewrprtOGq2cBR5rwOex+yEJVWE6In+umPiWTUZp+dFgIMgRHzW+QRo6Zp+qt+uLyHi6g3mwF+5oYl/9yxaDoHAY1LBCCfwHTy2E94amcX9hjIszP2pa0pyC6PkKUY3Ljr4uLPpFSBgOCYzzHB5K7dWoHtdO83oX4brKoO/o3Gcr+dkxH/AzqFVFyCQ163hGTHAxZw==",
+  "tamanho": 4857413,
+  "sha256": "9c9a8f7da36606c1c17075f819470f3fce84456954cef75f896bece96c23c015",
+  "assinatura": "Dtzg4kizihv9ER71vWto0zgJyqu/lnQVqjr+PM+p84PnxR+Th4/Z7jFG9Qp2nTqicDxdPGbAGUiyEWadt0BSWjvUSY9PTwz3wuGNBXFJegqPqQ1D9yeWCk1CFeUs2kLaX49sg9U10PEKn9du+N1cQE4O0pv4oisWb7zHOqTIpfIzOZ2i3WoCNvDhP5KiRjsvD77R5u76qA+MJA7Egh9TxMUtduq+asiIvFjnBmwV27oPoBhVFdupno6Elt81MStogSleg5pOfDKjqEp34wvcNOUmsUaFk7aVam+Nj2EfhGH/zTlOMJXraNpuaDcR6H+27bsHNxkLmAp/DyNbyrC4JQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "IxFVsaXEP/YeiASFiq/fKxroCfXTdFgOCI/h60JoobwyYo7225+YkXEyabWkhm0/ayJQ2lj6oCCEwntiipj9VYUBo/WGyyeY9oExRmaJJzkC/VNSL4gmmPVjlcnluqp/WpPViV8wbI4FFTTyXGrNjF4uYJ5g9lj7Fh83sFTKBoJ+mGB3/yti6WSXlqoSsx3BOLj5UGuFZg/wVsamA1X4zDRlOwbVDoHJEDSZ0y+2RAtxYyip141pyEjJL+3UVSQQT7gIO7zTiCFBAVyCAJUu5hHKU4g/7cZhvy5+Kf0YjyfkD+7PhX3TBJAJY+5jDcqrJn17L6YgXi5gjd6mx3e/Gw=="
+  "assinatura_extras": "gULj+dHDgTvagWVTeC50kzGWke5IkdviP/s2/IIWDwamxqWRFq4abmzNMA/WIMegXTd9SsKv929ZTT5YXu4MxrM4j6E7eWmeuCb8O1+PSU7TEYRe3uug3TWqzniy5WltgSbJX5W6rPf/JsQHFz5RVVfxL7S0MBWGWk1O3Tm1cqhj9UnTqXe/1ajF88Tuo2zpD6C6Lb3Lb/a5+QelOBYt9dSOq9A3Or9xwhRUkfNhy6+3Q+GIOC1PHCOA1FXUemENf2cEKB7wssHUEZuRL6PyGZ0Yu3+I/zDUiSIB6aEXq5RaAre5nKq7ZShZuLlRPJHMlAXaIms2U/bI0MKqN6vuGQ=="
 }
