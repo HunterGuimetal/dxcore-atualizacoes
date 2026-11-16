@@ -1,13 +1,13 @@
 {
-  "versao": "10.29",
+  "versao": "10.30",
   "data": "2026-11-06",
   "notas": [
+    "Catálogo de produtos prontos (Biblioteca de peças › aba Catálogo): escolha o produto, digite as medidas, material, espessura e quantidade e veja o preço na hora; 'Adicionar ao orçamento' manda todas as peças do produto (ex.: calha + tampa + 2 laterais).",
+    "Gerador: botão Catálogo guarda o projeto como produto. Já vem com rufo capa de muro, chapéu de pilar, calha de soleira com tampa e placa de base.",
     "Limpar: ao abrir foto ou desenho à mão, pergunta o tamanho real — Comprimento (lado maior) e Largura (lado menor), uma acompanha a outra na proporção.",
     "Foto para DXF bem mais fiel: PNG sem fundo (recortado) usa a transparência e sai com o contorno exato; foto comum separa a peça pela cor do fundo (não só claro/escuro) e ignora brilho, ferrugem e textura dentro da peça. Foto sem contraste com o fundo avisa em vez de gerar peça deformada.",
     "Orçamento por foto ou desenho à mão: o Limpar e o Gerador agora aceitam JPG, PNG e WEBP. Peça pintada (silhueta) ou rascunho de caneta viram DXF de corte na hora, com os furos; texto e cotas fora do desenho ficam de fora. O lado maior sai com 300 mm: acerte o tamanho real em Comprimento/Largura.",
-    "Lentidão corrigida: desde a 10.21 o encaixe (aproveitamento de chapa) não rodava mais em segundo plano e travava a tela a cada conta; voltou a rodar à parte.",
-    "Lista de OS mais leve: o desenho das peças guardado na OS ficou ~60% menor (a lista é regravada mais leve na primeira abertura).",
-    "Peça em linhas editáveis: Comprimento é sempre o lado maior e Largura o menor (na tampa da calha estavam trocados)."
+    "Lentidão corrigida: desde a 10.21 o encaixe (aproveitamento de chapa) não rodava mais em segundo plano e travava a tela a cada conta; voltou a rodar à parte."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4864417,
-  "sha256": "632f178437e7ec36ef638d3d8e6e85b3a2477630eb5287d4494390f14b70bbff",
-  "assinatura": "J8rGakBJUn0TRU7gnlpZNcNCeq8I3NA2z8Lezj4fIsC++T9esZSEulUyN9UDqH4OrKE5pQDrUbunbj13T0mbPCI2FUTkXTEqAB0Kd1snZ6N2sEFqHH9ro2oZ03r0xEgpyFik+pCKTZHHEKNRqgYMhYU3FRXdVQp9lzJ/3v9HOnFjL0I56ILLJpyi7f7M1J+WBdCwsCLBv/I8rXsPoroL89Urjqeqnvkg9ciqK/13yziXEb8+ccb1+AlWMi0EbfLEGYM1+MUC3ePQiVZh67vG+Y3vJJrDMwVab0VtZDm1qT3z8M7XNByGd+qmvm/QgB0aEcx6jJ1Ij/axunDT3sRFzg==",
+  "tamanho": 4879241,
+  "sha256": "3dff5bedda5f2515a0006a98b9b714308960b4886328de5e4e74e2dd212d8d27",
+  "assinatura": "i38hB2jp6qquvY46/X7QqNCqsSXV6TqEZ/sEXFgiocG3gXZ+ia2fonHt4P+d2mM35MLyDsTyG9AV4L3bz9dmX5JL5NUPSyMtGtQP3LmUNvFYv8CnS4ZprTVTLWPfy6atK3YkNOdirhp1Of0GyXsCuHo37wjOAW0c22dDT7YcCGw8iHdAl0RoHKHUFZVedb0/CvsASoZyf0QrPGRGdfuHQ3j/54EI83qO/ey+puy81CTZPMuqnaE30+wWWmjsJ1Q7/Rtfca3hF/scdEC8U93bhgfWpqkdVtA+i0y0n1xkKJEYD+4fN5Ja2l6uooHShBEW0N6kYIfHofNa8Mq9dJY/Gg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "U985VgPlo9Yhu2mv95vEBZt8m0biybdLgl4SdazJMAhdBWT5r12Soxu5Nurv8ACqgO8zJ/frP5bqCwmsjQJxV1YcJ1RHpEZIUD5hQk4cMXcXCmTVmW88UXdJ/IEyF3Slm2CnGzvOuBJjt8uH9mRymGjmVqXsZf7UVK2szvTShPTXvLLSFO7qwOBFfdwlObfAQuQbwFKoAC6PqUbz66IL5ZdVzYfFxONysMrJKvDWxNqoc7NNvYf+V26HaswLkzalStnccALFTRvLkXYGrGN977B4qiEAFWynlITEc1ZX7BEZ4ltBP4OwMkYEoFxMs6a/hfZRC0/Eweal9/udKUOBJA=="
+  "assinatura_extras": "HMXO9wuQz+Z/MSVPywbFsa1fToGPzOcYslrW2EJXgJGerh7TVV08dME71eK08jXD2wTA6RvyY15NHLSfGasks6nNUhzgL+fc37mvpWE4dIo3Nxc6UDUXF0H6rpUcvouW5ZFpVuB0bcgRS1vOvccWJOuTQilBtnYjYTevCuNYcox0+/niQTfhzueHFgOcnyq8+cV6ZRySpQXLqlD/GNvka0Lzu3GfaqmUmMDP+CxVsrdVRacW0ZotmcZgItL0BA2VUP4xutZ/0sn6v2j4f0rC5r7UegUgK5UA4xwnbn59FDDXdvDreHjobFAvHlnPpFysaYPt1ojTidiX4SFCF+lKXA=="
 }
