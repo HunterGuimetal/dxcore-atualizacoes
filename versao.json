@@ -1,13 +1,13 @@
 {
-  "versao": "10.25",
+  "versao": "10.26",
   "data": "2026-11-06",
   "notas": [
+    "Lentidão corrigida: desde a 10.21 o encaixe (aproveitamento de chapa) não rodava mais em segundo plano e travava a tela a cada conta; voltou a rodar à parte.",
+    "Lista de OS mais leve: o desenho das peças guardado na OS ficou ~60% menor (a lista é regravada mais leve na primeira abertura).",
     "Peça em linhas editáveis: Comprimento é sempre o lado maior e Largura o menor (na tampa da calha estavam trocados).",
     "Esticar com furação em sequência faz igual ao modelo: furos no mesmo passo até a margem do fim, com a mesma quantidade de furos que o modelo pronto daria.",
     "Peça em linhas editáveis: ao mudar Comprimento/Largura, a furação em sequência acompanha — o trecho novo ganha furos no mesmo passo e, encolhendo, os furos da parte que some saem (igual ao modelo pronto).",
-    "Peça em linhas editáveis: os campos Comprimento e Largura continuam na tela — digite a medida nova e a peça estica (furos, arcos e dobras ficam do mesmo tamanho; Espessura e Quantidade seguem embaixo).",
-    "Calha com tampa: as medidas da tampa mudadas à mão ficam salvas (antes voltavam para as da calha); a vista montada encaixa a tampa com as medidas dela.",
-    "Tampa da calha: aba do lado alto e aba do lado baixo agora são independentes."
+    "Peça em linhas editáveis: os campos Comprimento e Largura continuam na tela — digite a medida nova e a peça estica (furos, arcos e dobras ficam do mesmo tamanho; Espessura e Quantidade seguem embaixo)."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4842233,
-  "sha256": "448089d6073a81d42fdd939bb866dcee7f96763cca853d6685d8c46355d49e0e",
-  "assinatura": "P9gGyFL8InILRaKyv7K/cfKXbLtL3g2bSIC3Te4qxDfRHQvIEkXn0u32SyNYO9vOe6mHksPKwUyhXJUhAxgoVHSokAC8DorUA4fyzwY3WxjF8v1zReJzoX5DMMtViNutDX57myzhaUqM7OERrlcGGu7GSpvRTz+tjOFA7jMeBQg5YliRh9Wng3x0M+uOzAOwsHLaGhtChHxl/rQ78pZwyMr4p3nIpATnibkn1lCxbiCOM5TlvlUjN+j6UeXRgTnfFuXhIs5oBDvgb7zUfpbXruH4cIYNaUo6b3gCvr3Ksi4znbWFc3d/lsypSQMuBvYwXUF6qFu8Q3Uymtbo2h+yaA==",
+  "tamanho": 4844353,
+  "sha256": "bdc70c97a6ab25febac0da3cac656914641a8933fb23cd40eba4694e693a6451",
+  "assinatura": "ffxQPSFYq0hqziJi+ujs5+X3mIdP3fi0TxrQ8PFTMhh0lEUWd5acLI9jRSXYY29HG05mYQTEkoO8JmKTmSgimazW9gi5+khKVf4LwnKL3bFfRFJxYkOeE+rR9de6DzJ3JTvWdMbUMDGpdHOTrewrprtOGq2cBR5rwOex+yEJVWE6In+umPiWTUZp+dFgIMgRHzW+QRo6Zp+qt+uLyHi6g3mwF+5oYl/9yxaDoHAY1LBCCfwHTy2E94amcX9hjIszP2pa0pyC6PkKUY3Ljr4uLPpFSBgOCYzzHB5K7dWoHtdO83oX4brKoO/o3Gcr+dkxH/AzqFVFyCQ163hGTHAxZw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "NqjxZk8LKT5v3SNdWIwKR/o40WetzlqSolSv3Zsc6LMj9gJpPU3B6Dl/z4zLO5XQA6ZHEFDssTqOkXhgl0vqL/Yr3JvfLP8beUrvBPPDf9n2qxXIQoJnpKeeYfePI6lNvk3orx436LVXlv8pZe+qFafY3Fysf75NFFAPPCo8UliMMsbEt68eG8lonSLqmljWUhTzTFZp1S6AnlHOzJTy0hIdI2KmQ0QxHMChZ9PbE4iCAPOfm+mqgZYj2QDDXipZzVWNmQb52orrzlsAo3Du11BUizZy/qQK6OwUsQaVDeiZiEQnYZpq67Yp5TdGNszu+rPIGbhwdlTkQWxIT3SCnA=="
+  "assinatura_extras": "IxFVsaXEP/YeiASFiq/fKxroCfXTdFgOCI/h60JoobwyYo7225+YkXEyabWkhm0/ayJQ2lj6oCCEwntiipj9VYUBo/WGyyeY9oExRmaJJzkC/VNSL4gmmPVjlcnluqp/WpPViV8wbI4FFTTyXGrNjF4uYJ5g9lj7Fh83sFTKBoJ+mGB3/yti6WSXlqoSsx3BOLj5UGuFZg/wVsamA1X4zDRlOwbVDoHJEDSZ0y+2RAtxYyip141pyEjJL+3UVSQQT7gIO7zTiCFBAVyCAJUu5hHKU4g/7cZhvy5+Kf0YjyfkD+7PhX3TBJAJY+5jDcqrJn17L6YgXi5gjd6mx3e/Gw=="
 }
