@@ -1,13 +1,13 @@
 {
-  "versao": "10.33",
+  "versao": "10.34",
   "data": "2026-11-06",
   "notas": [
+    "Simulação de dobra: Ficha do operador (imprimir ou salvar em PDF) com cada passo desenhado, ângulo, medida do encosto (batente), que ponta vai no encosto, que face fica para cima e quando virar ou girar a peça; mais o punção, a matriz e a ordem.",
+    "Tempo de dobra por peça calculado pela simulação (dobras, viradas e giros) e o preparo da máquina.",
     "Simulação de dobra: cadastro das ferramentas da dobradeira (punções reto e pescoço de ganso, com altura, largura, ângulo e garganta; matrizes com a abertura do V). O DXCORE escolhe sozinho o punção, o V (perto de 8 × a espessura, respeitando a aba mais curta) e a ordem das dobras, virando a peça quando o pescoço de ganso pede. Cadastro vale para todos os computadores.",
     "Simulação de dobra (Gerador › botão Simular dobra): a peça em corte na dobradeira, dobra por dobra, com punção e matriz V. Avisa se a peça bate no punção, no martelo, na matriz ou nela mesma, e 'Achar ordem sem colisão' testa todas as ordens. Ferramenta ajustável (abertura do V, altura e largura do punção, largura da matriz) e aviso de aba curta demais para o V.",
     "Portal do cliente: no orçamento salvo, botão 'Link para o cliente'. O cliente abre no celular a proposta com o desenho de cada peça, valores, prazo e pagamento, e aprova pelo WhatsApp da GUIMETAL (a mensagem já vem com o número do orçamento, que o DXCORE reconhece). Também tem 'Pedir ajuste' e aviso de proposta vencida.",
-    "Catálogo de produtos prontos (Biblioteca de peças › aba Catálogo): escolha o produto, digite as medidas, material, espessura e quantidade e veja o preço na hora; 'Adicionar ao orçamento' manda todas as peças do produto (ex.: calha + tampa + 2 laterais).",
-    "Gerador: botão Catálogo guarda o projeto como produto. Já vem com rufo capa de muro, chapéu de pilar, calha de soleira com tampa e placa de base.",
-    "Limpar: ao abrir foto ou desenho à mão, pergunta o tamanho real — Comprimento (lado maior) e Largura (lado menor), uma acompanha a outra na proporção."
+    "Catálogo de produtos prontos (Biblioteca de peças › aba Catálogo): escolha o produto, digite as medidas, material, espessura e quantidade e veja o preço na hora; 'Adicionar ao orçamento' manda todas as peças do produto (ex.: calha + tampa + 2 laterais)."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4910729,
-  "sha256": "7391f1a5aff7efa43f3eab4a70073e7ec07eb3c9776164915960a41f742b5c1c",
-  "assinatura": "GFj837oRo6exWO5LpO6lTvcNZAWTs0PHuAyCoxJdOL/qvbUson1z1YNZXu+yH9DFA3AX2M4gZ/NdMR4mtc9XhpCSt/vOk+uvlZoqrgPA+Nga0fDOpioVOxFUmPAtaPWVJx1IOTJS7c0iA9wsTc5SsaXzQ2y2fJZF/0eoiknfC24VzVQPAE8VdjpHbCNpEFZ5rSaRRfwpChnasM2X0doz44fIoTj+PtdOXSzZdK1qVDZrdVMWwZPmBjq98x9k0Ywb/CZSaAJfsYetFO+S7GD7WhsQ354MUz8YQOMFVGKRWl64ttg81m5qn8q1XdWFh8uk04lDpL4m/Ay9ZDiGwSckZg==",
+  "tamanho": 4916781,
+  "sha256": "bdbcf0d5dc913c8e71d02b72341acaaf7798b182cd0ed4d396c995e065c1bf26",
+  "assinatura": "JKqu5j18gQukEwm43lEQzWLQlYQQCFp1jCcaqEnMT8je8eZg/KeJiviN8f7lBPZ02edf5+/pJn0S0tGJHVSc/VksJn1iH/2v7gYCebdz3TgsMC9TT1Xev2H2HnnB7V3ams8EEZyuKUY+Dm7LUBQXISThinouFjuvSiU9Z52wgTzbIGJSrL/GWfAlPAe+5L4PMhCTuz4pnvmBHBM78/FyBN350ANa1jhwpGJf/ypr2G3jTipRu0Ug0/QUfY0uhBiDTmfqU+MH2ui4JqFTzX/HDwscGIzJyqv8+3WKGB7TaqechWICT/nhJ2P1bbkkGeO7U/+PIMmApu9gxuIOh9D+jg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "Q1p/PaJ2N0itcDy8/BaUjMzAkkfOWL50wOA7H0KB1Fq0VqW40bEopJADAkFhy5ed8nrx5ev2r9CdKRcLWyBPl2WwTuO4o+yGyd3MFhipSPrbGodFBURnqLHOrcMvvbVCTl3Rc3HX/teEEA5Yy3se4eZdVJovIiss5njRNLLd5or1LHb5IP2u80WWEZXurZjnqLSIdHzouktLHLUr/G1MnqLmjH+N+uo4XvDT9M8iuLb1QfxPqGqrcJQJNM35Ue5HmOgzkjyNTiKHIJnSwDJcCf974uH565xlbWnt3LfXe1rpBzWRHOIjlNT5nyC4dC3GhEt7bzvsZf5rHcwQozpM9g=="
+  "assinatura_extras": "DbMziV6neV2KibYE5nOWcC0X0t8+PeIWEr+S5m5C16T2mX4yaB+K4DVKbwAV3vfhyrHRzpxyWGtFQmzjGoyW9NycQOHvB7RhBIpjnzp77wlQ/iel/cvleXTH2iEf/WyhfiBbbF0c/Npz6II84Q/56npHSi+9PuQirVQZw4pcXWR7GhH13jndNYMUtOYtj4SiwSLeLJBoHLYCbts7K5eAG8/ObojIXVZS5OEeCzxO74KL4JuLHq8FoRzm2lgOAwQgpXoZ8MtUVPX34qTsYijcEvH99zqBJfOLI8QASa9jmRsnwD8DXQu4uvbFwxwgFESMDJmKsq6WYFIL/2yQxuYTUw=="
 }
