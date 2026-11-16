@@ -1,13 +1,13 @@
 {
-  "versao": "10.30",
+  "versao": "10.31",
   "data": "2026-11-06",
   "notas": [
+    "Portal do cliente: no orçamento salvo, botão 'Link para o cliente'. O cliente abre no celular a proposta com o desenho de cada peça, valores, prazo e pagamento, e aprova pelo WhatsApp da GUIMETAL (a mensagem já vem com o número do orçamento, que o DXCORE reconhece). Também tem 'Pedir ajuste' e aviso de proposta vencida.",
     "Catálogo de produtos prontos (Biblioteca de peças › aba Catálogo): escolha o produto, digite as medidas, material, espessura e quantidade e veja o preço na hora; 'Adicionar ao orçamento' manda todas as peças do produto (ex.: calha + tampa + 2 laterais).",
     "Gerador: botão Catálogo guarda o projeto como produto. Já vem com rufo capa de muro, chapéu de pilar, calha de soleira com tampa e placa de base.",
     "Limpar: ao abrir foto ou desenho à mão, pergunta o tamanho real — Comprimento (lado maior) e Largura (lado menor), uma acompanha a outra na proporção.",
     "Foto para DXF bem mais fiel: PNG sem fundo (recortado) usa a transparência e sai com o contorno exato; foto comum separa a peça pela cor do fundo (não só claro/escuro) e ignora brilho, ferrugem e textura dentro da peça. Foto sem contraste com o fundo avisa em vez de gerar peça deformada.",
-    "Orçamento por foto ou desenho à mão: o Limpar e o Gerador agora aceitam JPG, PNG e WEBP. Peça pintada (silhueta) ou rascunho de caneta viram DXF de corte na hora, com os furos; texto e cotas fora do desenho ficam de fora. O lado maior sai com 300 mm: acerte o tamanho real em Comprimento/Largura.",
-    "Lentidão corrigida: desde a 10.21 o encaixe (aproveitamento de chapa) não rodava mais em segundo plano e travava a tela a cada conta; voltou a rodar à parte."
+    "Orçamento por foto ou desenho à mão: o Limpar e o Gerador agora aceitam JPG, PNG e WEBP. Peça pintada (silhueta) ou rascunho de caneta viram DXF de corte na hora, com os furos; texto e cotas fora do desenho ficam de fora. O lado maior sai com 300 mm: acerte o tamanho real em Comprimento/Largura."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4879241,
-  "sha256": "3dff5bedda5f2515a0006a98b9b714308960b4886328de5e4e74e2dd212d8d27",
-  "assinatura": "i38hB2jp6qquvY46/X7QqNCqsSXV6TqEZ/sEXFgiocG3gXZ+ia2fonHt4P+d2mM35MLyDsTyG9AV4L3bz9dmX5JL5NUPSyMtGtQP3LmUNvFYv8CnS4ZprTVTLWPfy6atK3YkNOdirhp1Of0GyXsCuHo37wjOAW0c22dDT7YcCGw8iHdAl0RoHKHUFZVedb0/CvsASoZyf0QrPGRGdfuHQ3j/54EI83qO/ey+puy81CTZPMuqnaE30+wWWmjsJ1Q7/Rtfca3hF/scdEC8U93bhgfWpqkdVtA+i0y0n1xkKJEYD+4fN5Ja2l6uooHShBEW0N6kYIfHofNa8Mq9dJY/Gg==",
+  "tamanho": 4886037,
+  "sha256": "9bcbd970071f48d034cfb01384a98d308b8b9cdce72e052c904793f4a1305234",
+  "assinatura": "OzInoqlpltd0ukfLnLOcz7ijSHSlcMKRYjTf15RR4yRSO6qdSqWZ/OTavXQudi6td6q2Tiok3NmuUNxC9R/L6H6jjIEkjj4smObs3o79041gywYNajUiPCmH4KnLcYUJqoCT837Zte+0LOuz0kFrjXOxf/6GPctkRcdP9oae6aB5hnOhivU08ycNx3EP6n2BFZADFNfSwU2e8vbiPK7iYGvr1tjXyv5gGnzNqm4jJuM7iBuQBD23lVwLe3JV2ssivmD+pTJ4egYB+qeZdoT93/JrV+gyp96BqKhNcwA3nyFPjcEZxKFjS6ADZeBiS5YFVCc9rICmNDvnx8hgyrFCpg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "HMXO9wuQz+Z/MSVPywbFsa1fToGPzOcYslrW2EJXgJGerh7TVV08dME71eK08jXD2wTA6RvyY15NHLSfGasks6nNUhzgL+fc37mvpWE4dIo3Nxc6UDUXF0H6rpUcvouW5ZFpVuB0bcgRS1vOvccWJOuTQilBtnYjYTevCuNYcox0+/niQTfhzueHFgOcnyq8+cV6ZRySpQXLqlD/GNvka0Lzu3GfaqmUmMDP+CxVsrdVRacW0ZotmcZgItL0BA2VUP4xutZ/0sn6v2j4f0rC5r7UegUgK5UA4xwnbn59FDDXdvDreHjobFAvHlnPpFysaYPt1ojTidiX4SFCF+lKXA=="
+  "assinatura_extras": "kqlZwpkYnBAgSLcpN2/C3DeHlAMExo4pWAPnv0iEaIOzdOwpK3nnQC2R6O8P8TBc3mHyluQincJZrfWRnEBEBo6N5E7JWQTJJAtL7kVO+HHJspI8tcJrVTk11d88UHRn6YU9R4CIK/8im5XOHHP2N6svJHY1oQfiCvvmID6S40y8GA+YRAlhWH/w9pC35CMTfF9SzlhfcS6LfUdXlARWaKs4Q8/yBga7IstZIShxKNl/RHyDHLA/Q5DTdXVhVus+xoOR2KYzgckk+aM6gHMs46FFcKAFJVsZ1f8tX7iB7AEkQHowaZ1X0twkhZUmzTF99F8gk+YVrUrO+GS/u+axsA=="
 }
