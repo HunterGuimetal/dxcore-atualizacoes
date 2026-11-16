@@ -1,13 +1,13 @@
 {
-  "versao": "10.28",
+  "versao": "10.29",
   "data": "2026-11-06",
   "notas": [
+    "Limpar: ao abrir foto ou desenho à mão, pergunta o tamanho real — Comprimento (lado maior) e Largura (lado menor), uma acompanha a outra na proporção.",
     "Foto para DXF bem mais fiel: PNG sem fundo (recortado) usa a transparência e sai com o contorno exato; foto comum separa a peça pela cor do fundo (não só claro/escuro) e ignora brilho, ferrugem e textura dentro da peça. Foto sem contraste com o fundo avisa em vez de gerar peça deformada.",
     "Orçamento por foto ou desenho à mão: o Limpar e o Gerador agora aceitam JPG, PNG e WEBP. Peça pintada (silhueta) ou rascunho de caneta viram DXF de corte na hora, com os furos; texto e cotas fora do desenho ficam de fora. O lado maior sai com 300 mm: acerte o tamanho real em Comprimento/Largura.",
     "Lentidão corrigida: desde a 10.21 o encaixe (aproveitamento de chapa) não rodava mais em segundo plano e travava a tela a cada conta; voltou a rodar à parte.",
     "Lista de OS mais leve: o desenho das peças guardado na OS ficou ~60% menor (a lista é regravada mais leve na primeira abertura).",
-    "Peça em linhas editáveis: Comprimento é sempre o lado maior e Largura o menor (na tampa da calha estavam trocados).",
-    "Esticar com furação em sequência faz igual ao modelo: furos no mesmo passo até a margem do fim, com a mesma quantidade de furos que o modelo pronto daria."
+    "Peça em linhas editáveis: Comprimento é sempre o lado maior e Largura o menor (na tampa da calha estavam trocados)."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4861865,
-  "sha256": "13cec5b8af8bd1661ffdd6f72e34274cd21bd22426c0bd57e3998c2b52cfddd0",
-  "assinatura": "S5YYBTRdU6uWcKgM++VX65XRx4VFA5ekZd/1krpIEq2VjN1ipEdn1UKfITNpVQWzx3kkNipvkTW72h+FE41MDuukL8tfj3VyOG9sCTAV0f8eNp+61xAdPJsFqTxQ1VM5RTF9DN8iiERblL0wnyKxzRUJN+tIjC1HpXT89nLTjWL6NNfEY5sMRSBQxJ4xMqO5LiiTD9BNXdbOEf3IVi6s3V1NW1IsdENu9K6oCXqOJ6AIHDYqitcqsO8QnRvwQaF8fpsgdtlvLkf0mYj46zO+mOo3OH3B/LQt+0q8WSddS8WrlisYCTW/kKMjSFDbkQkH/TQoDrzNbXrY9JXbCd1QAg==",
+  "tamanho": 4864417,
+  "sha256": "632f178437e7ec36ef638d3d8e6e85b3a2477630eb5287d4494390f14b70bbff",
+  "assinatura": "J8rGakBJUn0TRU7gnlpZNcNCeq8I3NA2z8Lezj4fIsC++T9esZSEulUyN9UDqH4OrKE5pQDrUbunbj13T0mbPCI2FUTkXTEqAB0Kd1snZ6N2sEFqHH9ro2oZ03r0xEgpyFik+pCKTZHHEKNRqgYMhYU3FRXdVQp9lzJ/3v9HOnFjL0I56ILLJpyi7f7M1J+WBdCwsCLBv/I8rXsPoroL89Urjqeqnvkg9ciqK/13yziXEb8+ccb1+AlWMi0EbfLEGYM1+MUC3ePQiVZh67vG+Y3vJJrDMwVab0VtZDm1qT3z8M7XNByGd+qmvm/QgB0aEcx6jJ1Ij/axunDT3sRFzg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "DOTY18Oyw8yFp2shxgWysO3D2vFlP26ghdF6144G6v81N3Hv9W/95XClQj9Uazft6ycMd4+EkHzF9SA/OC+ZrigiTIaaCjGFYTJjyzmV6CaPOmKxIfaQZhh0lRMaO00oYXvvAPryOz/VheBjRr3VehVxtyUpfi5ukSF9Q5JQyUTZlhqFwJkA9b/FQ0jij1r6H49+M9O8+7biueis/QbfHiAowr3nliRfb9odqQGPA9W77USFS4Kn+ah12c8Iod0p9cgVD0RxMjPYKV19tzrs4CteWSWwk7Vx2soarNd0s4/OAUfg6XYFEYVHZ+OBATbYNcdBsUh4TtOBPiH46jLhMA=="
+  "assinatura_extras": "U985VgPlo9Yhu2mv95vEBZt8m0biybdLgl4SdazJMAhdBWT5r12Soxu5Nurv8ACqgO8zJ/frP5bqCwmsjQJxV1YcJ1RHpEZIUD5hQk4cMXcXCmTVmW88UXdJ/IEyF3Slm2CnGzvOuBJjt8uH9mRymGjmVqXsZf7UVK2szvTShPTXvLLSFO7qwOBFfdwlObfAQuQbwFKoAC6PqUbz66IL5ZdVzYfFxONysMrJKvDWxNqoc7NNvYf+V26HaswLkzalStnccALFTRvLkXYGrGN977B4qiEAFWynlITEc1ZX7BEZ4ltBP4OwMkYEoFxMs6a/hfZRC0/Eweal9/udKUOBJA=="
 }
