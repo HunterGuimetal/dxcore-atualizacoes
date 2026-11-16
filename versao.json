@@ -1,13 +1,13 @@
 {
-  "versao": "10.32",
+  "versao": "10.33",
   "data": "2026-11-06",
   "notas": [
+    "Simulação de dobra: cadastro das ferramentas da dobradeira (punções reto e pescoço de ganso, com altura, largura, ângulo e garganta; matrizes com a abertura do V). O DXCORE escolhe sozinho o punção, o V (perto de 8 × a espessura, respeitando a aba mais curta) e a ordem das dobras, virando a peça quando o pescoço de ganso pede. Cadastro vale para todos os computadores.",
     "Simulação de dobra (Gerador › botão Simular dobra): a peça em corte na dobradeira, dobra por dobra, com punção e matriz V. Avisa se a peça bate no punção, no martelo, na matriz ou nela mesma, e 'Achar ordem sem colisão' testa todas as ordens. Ferramenta ajustável (abertura do V, altura e largura do punção, largura da matriz) e aviso de aba curta demais para o V.",
     "Portal do cliente: no orçamento salvo, botão 'Link para o cliente'. O cliente abre no celular a proposta com o desenho de cada peça, valores, prazo e pagamento, e aprova pelo WhatsApp da GUIMETAL (a mensagem já vem com o número do orçamento, que o DXCORE reconhece). Também tem 'Pedir ajuste' e aviso de proposta vencida.",
     "Catálogo de produtos prontos (Biblioteca de peças › aba Catálogo): escolha o produto, digite as medidas, material, espessura e quantidade e veja o preço na hora; 'Adicionar ao orçamento' manda todas as peças do produto (ex.: calha + tampa + 2 laterais).",
     "Gerador: botão Catálogo guarda o projeto como produto. Já vem com rufo capa de muro, chapéu de pilar, calha de soleira com tampa e placa de base.",
-    "Limpar: ao abrir foto ou desenho à mão, pergunta o tamanho real — Comprimento (lado maior) e Largura (lado menor), uma acompanha a outra na proporção.",
-    "Foto para DXF bem mais fiel: PNG sem fundo (recortado) usa a transparência e sai com o contorno exato; foto comum separa a peça pela cor do fundo (não só claro/escuro) e ignora brilho, ferrugem e textura dentro da peça. Foto sem contraste com o fundo avisa em vez de gerar peça deformada."
+    "Limpar: ao abrir foto ou desenho à mão, pergunta o tamanho real — Comprimento (lado maior) e Largura (lado menor), uma acompanha a outra na proporção."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4900609,
-  "sha256": "27acd588a42559563a2493bfdc0129abff26fd7ab68fc8dab5cc3e31853a6482",
-  "assinatura": "kmUxTmrMLfaI3pYqFz0o194oUBnM5k4GDINSfyfhTjt9O+TJiW9ONJ6G2DC9lLS0fRU62Hle4q7pwdhY5ERH3QHsrG0eRKPhuQjEYxDY7vK2VY2UacwWkJepWY371pkQOyQkZlvlLbwxXp8A4Qdd1pNiYwNclIGH2HsLaQE6h8nFsUp5yI6F05GWyx/9CWwnJWNLXP2RhiNtUIUK0rQwAbtnkDZUCpR3iw4MH4WeCWHbcLiLONFLpCtWjh8LeF+VcxsVVxEHNtkPG9xMFgl+FXY4Tq9KligT4+H8D9QJ4IEniEp2q6nkULXO9NQAQdGti5td1C1s40gzC/Ui0UU83A==",
+  "tamanho": 4910729,
+  "sha256": "7391f1a5aff7efa43f3eab4a70073e7ec07eb3c9776164915960a41f742b5c1c",
+  "assinatura": "GFj837oRo6exWO5LpO6lTvcNZAWTs0PHuAyCoxJdOL/qvbUson1z1YNZXu+yH9DFA3AX2M4gZ/NdMR4mtc9XhpCSt/vOk+uvlZoqrgPA+Nga0fDOpioVOxFUmPAtaPWVJx1IOTJS7c0iA9wsTc5SsaXzQ2y2fJZF/0eoiknfC24VzVQPAE8VdjpHbCNpEFZ5rSaRRfwpChnasM2X0doz44fIoTj+PtdOXSzZdK1qVDZrdVMWwZPmBjq98x9k0Ywb/CZSaAJfsYetFO+S7GD7WhsQ354MUz8YQOMFVGKRWl64ttg81m5qn8q1XdWFh8uk04lDpL4m/Ay9ZDiGwSckZg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "kTbWX9tPCAwpiulIR/2XX6DUDJ8g7u14oHvJQubM9JPkk0y7V1TUOK0DM41FWEtK0/xMSduzxLIW4UpSH5lC28d8gta1Y9ZoqCqnMsUItOJG6DrDTLoJBUyRL4DuH5oOEMO82QcvOJ8NDi2NKqijBa4WCga3FMp5YcIx9JUeiAoUOuVn9xztUfKgxC/uZtk5CyaKosBr8QCEcrmTHp0TYA23DxiMY5r6v9umfTheh1P3haZy74M3CS9VSOlAM5tyh7+67qb/YIQlN+tULKRLuMTZVkoL6lHUdRkV5Seo+JVxeWRamZeAmZihAQ66Ve98WrncfrED/ogoCVtctkVZMg=="
+  "assinatura_extras": "Q1p/PaJ2N0itcDy8/BaUjMzAkkfOWL50wOA7H0KB1Fq0VqW40bEopJADAkFhy5ed8nrx5ev2r9CdKRcLWyBPl2WwTuO4o+yGyd3MFhipSPrbGodFBURnqLHOrcMvvbVCTl3Rc3HX/teEEA5Yy3se4eZdVJovIiss5njRNLLd5or1LHb5IP2u80WWEZXurZjnqLSIdHzouktLHLUr/G1MnqLmjH+N+uo4XvDT9M8iuLb1QfxPqGqrcJQJNM35Ue5HmOgzkjyNTiKHIJnSwDJcCf974uH565xlbWnt3LfXe1rpBzWRHOIjlNT5nyC4dC3GhEt7bzvsZf5rHcwQozpM9g=="
 }
