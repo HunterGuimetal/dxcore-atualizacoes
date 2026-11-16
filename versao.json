@@ -1,13 +1,13 @@
 {
-  "versao": "10.34",
+  "versao": "10.35",
   "data": "2026-11-06",
   "notas": [
+    "Vídeo da peça para o cliente (Gerador › botão Vídeo): MP4 de ~10 s a 60 fps, 1080 × 1080, com a peça saindo da planificada, dobrando e girando 360°, com a marca GUIMETAL, o nome, o material, a espessura e a medida da planificada. Pronto para mandar no WhatsApp junto com o link do orçamento.",
     "Simulação de dobra: Ficha do operador (imprimir ou salvar em PDF) com cada passo desenhado, ângulo, medida do encosto (batente), que ponta vai no encosto, que face fica para cima e quando virar ou girar a peça; mais o punção, a matriz e a ordem.",
     "Tempo de dobra por peça calculado pela simulação (dobras, viradas e giros) e o preparo da máquina.",
     "Simulação de dobra: cadastro das ferramentas da dobradeira (punções reto e pescoço de ganso, com altura, largura, ângulo e garganta; matrizes com a abertura do V). O DXCORE escolhe sozinho o punção, o V (perto de 8 × a espessura, respeitando a aba mais curta) e a ordem das dobras, virando a peça quando o pescoço de ganso pede. Cadastro vale para todos os computadores.",
     "Simulação de dobra (Gerador › botão Simular dobra): a peça em corte na dobradeira, dobra por dobra, com punção e matriz V. Avisa se a peça bate no punção, no martelo, na matriz ou nela mesma, e 'Achar ordem sem colisão' testa todas as ordens. Ferramenta ajustável (abertura do V, altura e largura do punção, largura da matriz) e aviso de aba curta demais para o V.",
-    "Portal do cliente: no orçamento salvo, botão 'Link para o cliente'. O cliente abre no celular a proposta com o desenho de cada peça, valores, prazo e pagamento, e aprova pelo WhatsApp da GUIMETAL (a mensagem já vem com o número do orçamento, que o DXCORE reconhece). Também tem 'Pedir ajuste' e aviso de proposta vencida.",
-    "Catálogo de produtos prontos (Biblioteca de peças › aba Catálogo): escolha o produto, digite as medidas, material, espessura e quantidade e veja o preço na hora; 'Adicionar ao orçamento' manda todas as peças do produto (ex.: calha + tampa + 2 laterais)."
+    "Portal do cliente: no orçamento salvo, botão 'Link para o cliente'. O cliente abre no celular a proposta com o desenho de cada peça, valores, prazo e pagamento, e aprova pelo WhatsApp da GUIMETAL (a mensagem já vem com o número do orçamento, que o DXCORE reconhece). Também tem 'Pedir ajuste' e aviso de proposta vencida."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4916781,
-  "sha256": "bdbcf0d5dc913c8e71d02b72341acaaf7798b182cd0ed4d396c995e065c1bf26",
-  "assinatura": "JKqu5j18gQukEwm43lEQzWLQlYQQCFp1jCcaqEnMT8je8eZg/KeJiviN8f7lBPZ02edf5+/pJn0S0tGJHVSc/VksJn1iH/2v7gYCebdz3TgsMC9TT1Xev2H2HnnB7V3ams8EEZyuKUY+Dm7LUBQXISThinouFjuvSiU9Z52wgTzbIGJSrL/GWfAlPAe+5L4PMhCTuz4pnvmBHBM78/FyBN350ANa1jhwpGJf/ypr2G3jTipRu0Ug0/QUfY0uhBiDTmfqU+MH2ui4JqFTzX/HDwscGIzJyqv8+3WKGB7TaqechWICT/nhJ2P1bbkkGeO7U/+PIMmApu9gxuIOh9D+jg==",
+  "tamanho": 4927601,
+  "sha256": "04e05ca70ce0c75a05765f0ae216fe126d68c340c69ad5ea89b2e184280f47e5",
+  "assinatura": "NNRCx9DXFOohMjM1vya4JVxkH8Xt0IwG4okVqmWHKCLja9WxlyA+ihDQ1Qgfea6rYYpO5ET42z4djq77aw4FHOG4pQnGikPOqx6cyQvsaRuEl1F7nKhKYAa4pmwEAtX3P6B6W9Lw/c1CTSeH4Y8c5k5+TznKSKbJxpAYCorTVS9zWDiowEGRcxLpxz5hAPe1dF0Gl4bi1b4iwgbLEl7d06w77fKISXzFfa9dU2n9Z/KqdSN5zOdaAbLHBqcO7dAzCQUz6fnQlmR4EMiDVQl7gDO31QBRMAuKjZYY6MdU8YAYVqj1Gqtmu3/KvHnUQES6YFIzxTaMfx/UHGtgfAYkwg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "DbMziV6neV2KibYE5nOWcC0X0t8+PeIWEr+S5m5C16T2mX4yaB+K4DVKbwAV3vfhyrHRzpxyWGtFQmzjGoyW9NycQOHvB7RhBIpjnzp77wlQ/iel/cvleXTH2iEf/WyhfiBbbF0c/Npz6II84Q/56npHSi+9PuQirVQZw4pcXWR7GhH13jndNYMUtOYtj4SiwSLeLJBoHLYCbts7K5eAG8/ObojIXVZS5OEeCzxO74KL4JuLHq8FoRzm2lgOAwQgpXoZ8MtUVPX34qTsYijcEvH99zqBJfOLI8QASa9jmRsnwD8DXQu4uvbFwxwgFESMDJmKsq6WYFIL/2yQxuYTUw=="
+  "assinatura_extras": "TTdfR1+HxXq8NLAgDZ53gK1jFG4jIp67mb1gIaD7Zi8A975bjbsAOJA8c1I0vLg0SU4a0dRtpI/KnP+VqpJlNyW8pDhAUlnXRGxEykibVpHwo6LFwC76EqQpRkb12id33QPUverISFCCV4GtgX6G5OOAtwzLdbxv1pPjXPhHWHVgsKXxNZXiPwPJZqsTWqage8R90K2bFIUp2trJdWMa2Mk7MAP2R6YIo2fDGeKYowlw1Bhh0rNmAkEYMix6Dxh2oPwegAs7iTGyfQM3o9o7xS2SPVQavIgiSgxv2OBaojHPwKviqAvACy7E6UHkXyOz8/qN3hv74QA0V00csaaZjw=="
 }
