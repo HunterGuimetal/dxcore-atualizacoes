@@ -1,13 +1,13 @@
 {
-  "versao": "10.42",
+  "versao": "10.43",
   "data": "2026-11-06",
   "notas": [
+    "Simulação de dobra também em peça com dobras atravessadas (orelhas das pontas): simula o perfil das dobras principais e avisa que as orelhas são dobradas antes, com a peça ainda plana.",
     "Importar DWG/DXF no Gerador: reconhece a linha de dobra tracejada que para na orelha (não vai de borda a borda), junta a dobra desenhada em pedaços entre os rasgos e a dobra curta da orelha (vale só na largura dela); o lado que dobra é sempre o de fora. Peça 114 Suporte Cartões: 8 dobras.",
     "Reaproveitamento de peça grande (mais de 8% da chapa): testa a peça girada de 3 em 3°, alinhada pelos próprios lados e o par girado 180° grau a grau; a 2ª peça também entra pela direita deslizando até encostar no contorno da 1ª; e a 1ª só é posta onde ainda cabe outra (olha uma peça à frente). Trapézio grande que cabe 2 na chapa: de 12 para 6 chapas. Bateria de 13 casos: nenhum piorou.",
     "Orçamento: o resumo à direita (total, chapas e visualização 2D) tem rolagem própria — dá para descer até as chapas sem rolar a lista de peças até o fim.",
     "Parâmetros e preços › + Adicionar material: nome, preço por kg, densidade, espessura máxima e 'corta como' (copia a tabela de velocidade de corte e o gás de um material parecido, que dá para ajustar depois). O material novo aparece nos orçamentos, no estoque de chapas e no Limpar; o ✕ tira da lista.",
-    "Parâmetros e preços › Marca da empresa: nome em duas partes, slogan, cores e logo, com prévia. Vale para todos os computadores.",
-    "O logo aparece nas propostas e PDFs, no link para o cliente e no vídeo da peça; a cor da marca vira o destaque das telas do DXCORE."
+    "Parâmetros e preços › Marca da empresa: nome em duas partes, slogan, cores e logo, com prévia. Vale para todos os computadores."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4952625,
-  "sha256": "27fcc92c61ce93827910f7d90837fe0c3559600951b4d59dd5763864b44fe6b3",
-  "assinatura": "TGb92dXNVt4jLAnaa+eFN70R/jphZXimn/9JO1NOs2aLpxP/BTs27aIOwQXttrqQ4H1KpYZTlKBiAUkdiGwXTK6ozsBpQByWQOqZ6ClQW8WMpjjmx871SGp4aS7PFzP//0ZZwRfP4UngXYnRRtcB/nzJWbn/6dgIRD36zYZL6jckULub55JWshC7L1Y4aBEFosQUfZJyjB2QNoeF0nMgIq9K2ZPzM4IawDy2Ly7aFLbxQBMMgXQIOPRTFnvxOSL4VaKTHLbUURiEl6bsGItdHqOyUdZEdU7cUTOMgkFIGbYvLWo8/PqarUuUvvk40EgFM9J7hD4iKUpajWwQfSJ1sw==",
+  "tamanho": 4953289,
+  "sha256": "de28b44164f708f6896ec6b38bd77315d0eb6b21e89e69646fec919cc5445038",
+  "assinatura": "YQwcTs00bzVZfc8Wdo8sGgdip/ed2H04YAtVKAqQAfdoX7awP7EjHgVs/6deDvlE3he80NIJx3dJbwna8qrKmpPhoeGCopE48sLcDGOSmdURUA5bZN79Q7kGNhJILUYYob0dh1lZUMs1det82tM3MqVXsAoPoE6cGzhiFY4Zdv/+OG/j6iznwLHIwcHK+MJWbT1tVqDmqvWkAYi6GerDebVSS+Pajg1vxF63aXSrXFBVyYfxEaqb7pvAywYEumLQ2T9aA0/7TK3DFbTBLzB8Z5EbZCLdzd/VhxnGo3XVHAojD+q6fT/fJdov48fGD/4G1gEyDl5jtLbwmoybt+VLxA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "GBpxjWRWkwpvipylN9Se7GdSF1VZ5HBKb8sTTyBNtSP4TP/h59KI0I0idBK9hhjVt2YsZ8UWBas0aPHPdoeXKRGu7CYF2/BSq4LvqKcQXLPbNms0ZS3vRvtyHarv+BRV+sm9yFioEGvcyaMwSDpbV2GOGYVubpt3dX8B5uvqAZHH/ngmLqwKj4iu7DmMU3CTFcFBQjReDKtAv4jHlw+VJ5BO1MW23DK9Ob8wcHXig93apvL4diMU8z7dB5j1JgoNFmB9ygZj0ouIVLaUYzifa6vicN79tFQTMMU8TV/FBc97zLnrlsBqXv0r/7Z/KzIabfaGENhOFwD+gJeo32AxAg=="
+  "assinatura_extras": "LdfBYep0YIWJ1jTq5mPMguJ7O0BZThHL5Tb08UYZ10XEyLMeMbcfkeB+v41+aoVg1lfLbKIOmXY+u5UgyyLmqGQatZvhS9+tcvoqHIrfriG7s1cbpoxSx9jCbC2LqlrLgjI1J6+oCu/i8p7uMGplt4a8esooUDjsqI/1/aMwLVSzFigt4jTyyHCmK2QAxOlDv8l61559u+p6e529SWxdb+POHu3sg8EEArTbg/zFNZTuxJVj7Vwzc8KPNPSKVf99IG/nK/YMmQt/s2Kcwt40GFbqnlaDcH6vfgz+jXd3eW2GID6Fb3jAwiAZmzqcmHygKVzvKBjdKxj7BkmW1SEvXg=="
 }
