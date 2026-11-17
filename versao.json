@@ -1,13 +1,13 @@
 {
-  "versao": "10.40",
+  "versao": "10.41",
   "data": "2026-11-06",
   "notas": [
+    "Reaproveitamento de peça grande (mais de 8% da chapa): testa a peça girada de 3 em 3°, alinhada pelos próprios lados e o par girado 180° grau a grau; a 2ª peça também entra pela direita deslizando até encostar no contorno da 1ª; e a 1ª só é posta onde ainda cabe outra (olha uma peça à frente). Trapézio grande que cabe 2 na chapa: de 12 para 6 chapas. Bateria de 13 casos: nenhum piorou.",
     "Orçamento: o resumo à direita (total, chapas e visualização 2D) tem rolagem própria — dá para descer até as chapas sem rolar a lista de peças até o fim.",
     "Parâmetros e preços › + Adicionar material: nome, preço por kg, densidade, espessura máxima e 'corta como' (copia a tabela de velocidade de corte e o gás de um material parecido, que dá para ajustar depois). O material novo aparece nos orçamentos, no estoque de chapas e no Limpar; o ✕ tira da lista.",
     "Parâmetros e preços › Marca da empresa: nome em duas partes, slogan, cores e logo, com prévia. Vale para todos os computadores.",
     "O logo aparece nas propostas e PDFs, no link para o cliente e no vídeo da peça; a cor da marca vira o destaque das telas do DXCORE.",
-    "Marca da empresa em tudo: proposta em PDF, portal do cliente, vídeo da peça e demais PDFs usam o nome em duas cores, o slogan e as cores do cadastro da empresa (antes eram fixos). Modelos do gerador sem o nome de uma empresa no título.",
-    "Orçamento: 'Cobrar a chapa inteira' agora pode ser marcado em cada chapa (material e espessura) no resumo de chapas; a opção geral virou 'Cobrar a chapa inteira em todas'. Fica gravado no orçamento."
+    "Marca da empresa em tudo: proposta em PDF, portal do cliente, vídeo da peça e demais PDFs usam o nome em duas cores, o slogan e as cores do cadastro da empresa (antes eram fixos). Modelos do gerador sem o nome de uma empresa no título."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4942821,
-  "sha256": "bae0e2c1f8a7b460c2191cb97d800ab56460aa24ace4a61fd0944b3cc19954d9",
-  "assinatura": "Vnlv9xcYE9N98DgPZiPt4ZnlqicYU1Rrh719N6FGpC/tys5ecRWIT0dCwDGEJ3qkfRMceVIIJenyn2+ieqfSXnGmPw2mmghTrHhnMfXoaLJq5jqIbLjSDIy3l7F2+FqsURx+8h3NK/4QtD8/DIgeb+m+705JziRPruUjNhfnRUbAmsIlwuniVBqyym+rWcEq8wJrCIv7ZjcIGylHu/qGwil834C2wGw2KE33l7clB61OtTLQnWXn3+6tnUDrLOSoE5Kw5XSyGJyROh5l1CK1XLc6KK2/2/8UJLLSFWJV43HxWYTAC0C0kGaCl3kXhZBj+omA6bzE1ICCgep10JmC2g==",
+  "tamanho": 4947829,
+  "sha256": "947be5fa91677226307d31dfb576f32d5efb7084fae39281bda01a70c0ca49a0",
+  "assinatura": "YEtycn0EWYJg64oD3aenYEAawBJ+LnBfdFpO5RDhd+a47a2ikBhpSUm7ri2XnbcjDVjm6zWBLWc7OYsCDie9DD/qx5ML0u/CJMtnIJUCggufDNYqZT3Coeht2XqGEB+ShkbUDcdM/c/XQ9YQRhqM7VxaXXTsR6GQVqc8j/LVTohMh4COKEDpgtwzndqUjnpc9j+IeCSAvOb+QpMJBPCxnAoVeJc/ntnqsjvu9+JhG/plUfMCBoY8LxG/tyI9O/4QVNGcg9io5HVGfWh7CdAYJCu0asebwRrUC8GNWoyz+PP922tP3XAjrjl1ZJtlpyv1IlrfbDcQc+WKD0X2/VAjLw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "GMdybhpRF2dI+hsLxNb96/PwthfsVjOeihTJjQxqyApm1rAFbP2e8hgg7ACwN9swPas+apIELzoLpHU1GA3Bj+7lRM5hVxjpJYod1PP81oqs9r1OlVTNYQFCdvRyX7d/ZF5QFTN65uwxg0o9g2ewd+Nk4azvpolsT4omScmS7lRSevBGpLQkukRMYJv4kRBvGTb545l083Hg7JFu1tqU9XU0UaGiqVId8DslO4sEfjzICkyOOBdrKglILgf0QFjdQpBDige6glT0Qr4pyN5acW0Smb7uZtxpnWa20LLBegcsPQxDmHZje/LGAM7SqfrEP4Lb0Jss9p7Otxs/td2wAw=="
+  "assinatura_extras": "LluzpPjfyXm9EW1xCyiOPtQxGhx2Y6Ke17K+gFFSzpJLNXz52OmZgu87g0Tdh+yauIzIsEZSWlT7/K/LPDDKAMr5ui4thZGareaWFOcTBQuVh9EgVhhx22jcub+z9IYVHtbmGd8W/ZIkc8cFuT+1Phi2IHu8vLOwi04tS34dB+dhWtNY2wrmanllSRIjpTv09bbd0sH3/ENWqM+wIuqvzLOWg95nP0F8PISzsE9wFaIZgZgb967qHmImpX8UcPUgZuIof7rf1zitAUAQWZDZvLXgiDWmcnoiGLlDTrYwHrURI/lPx6O97/UowuSUdEMZwhQdqI/19NYUuRxo+aJ8vA=="
 }
