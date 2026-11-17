@@ -1,12 +1,11 @@
 {
   "produto": "DXCORE Finance",
-  "versao": "1.0.11",
+  "versao": "1.0.12",
   "data": "2026-11-17",
-  "arquivo": "DXCORE-Finance-1.0.11-atualizacao.zip",
-  "sha256": "b99cd338355aff8542baa58bb51a63cb0436d09471602b87f36488da455ee401",
-  "tamanho": 10332551,
+  "arquivo": "DXCORE-Finance-1.0.12-atualizacao.zip",
+  "sha256": "2de63df5650fb400e1ef63700b138acb4d06bf6e41167639c802cbf657cb3e02",
+  "tamanho": 10333561,
   "notas": [
-    "Novo: a conciliação bancária também importa extrato em CSV (planilha do banco), além do OFX.",
-    "Corrigido de vez: o backup não trava mais no Windows (nem ao atualizar, nem ao gerar backup para outro computador)."
+    "Atualização igual ao DXCORE Industrial: o sistema procura versão nova logo ao ligar o computador e ao abrir pelo atalho, e depois a cada 1 hora."
   ]
 }
