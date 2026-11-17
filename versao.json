@@ -1,13 +1,13 @@
 {
-  "versao": "10.35",
+  "versao": "10.36",
   "data": "2026-11-06",
   "notas": [
+    "Orçamento: 'Cobrar a chapa inteira' agora pode ser marcado em cada chapa (material e espessura) no resumo de chapas; a opção geral virou 'Cobrar a chapa inteira em todas'. Fica gravado no orçamento.",
     "Vídeo da peça para o cliente (Gerador › botão Vídeo): MP4 de ~10 s a 60 fps, 1080 × 1080, com a peça saindo da planificada, dobrando e girando 360°, com a marca GUIMETAL, o nome, o material, a espessura e a medida da planificada. Pronto para mandar no WhatsApp junto com o link do orçamento.",
     "Simulação de dobra: Ficha do operador (imprimir ou salvar em PDF) com cada passo desenhado, ângulo, medida do encosto (batente), que ponta vai no encosto, que face fica para cima e quando virar ou girar a peça; mais o punção, a matriz e a ordem.",
     "Tempo de dobra por peça calculado pela simulação (dobras, viradas e giros) e o preparo da máquina.",
     "Simulação de dobra: cadastro das ferramentas da dobradeira (punções reto e pescoço de ganso, com altura, largura, ângulo e garganta; matrizes com a abertura do V). O DXCORE escolhe sozinho o punção, o V (perto de 8 × a espessura, respeitando a aba mais curta) e a ordem das dobras, virando a peça quando o pescoço de ganso pede. Cadastro vale para todos os computadores.",
-    "Simulação de dobra (Gerador › botão Simular dobra): a peça em corte na dobradeira, dobra por dobra, com punção e matriz V. Avisa se a peça bate no punção, no martelo, na matriz ou nela mesma, e 'Achar ordem sem colisão' testa todas as ordens. Ferramenta ajustável (abertura do V, altura e largura do punção, largura da matriz) e aviso de aba curta demais para o V.",
-    "Portal do cliente: no orçamento salvo, botão 'Link para o cliente'. O cliente abre no celular a proposta com o desenho de cada peça, valores, prazo e pagamento, e aprova pelo WhatsApp da GUIMETAL (a mensagem já vem com o número do orçamento, que o DXCORE reconhece). Também tem 'Pedir ajuste' e aviso de proposta vencida."
+    "Simulação de dobra (Gerador › botão Simular dobra): a peça em corte na dobradeira, dobra por dobra, com punção e matriz V. Avisa se a peça bate no punção, no martelo, na matriz ou nela mesma, e 'Achar ordem sem colisão' testa todas as ordens. Ferramenta ajustável (abertura do V, altura e largura do punção, largura da matriz) e aviso de aba curta demais para o V."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4927601,
-  "sha256": "04e05ca70ce0c75a05765f0ae216fe126d68c340c69ad5ea89b2e184280f47e5",
-  "assinatura": "NNRCx9DXFOohMjM1vya4JVxkH8Xt0IwG4okVqmWHKCLja9WxlyA+ihDQ1Qgfea6rYYpO5ET42z4djq77aw4FHOG4pQnGikPOqx6cyQvsaRuEl1F7nKhKYAa4pmwEAtX3P6B6W9Lw/c1CTSeH4Y8c5k5+TznKSKbJxpAYCorTVS9zWDiowEGRcxLpxz5hAPe1dF0Gl4bi1b4iwgbLEl7d06w77fKISXzFfa9dU2n9Z/KqdSN5zOdaAbLHBqcO7dAzCQUz6fnQlmR4EMiDVQl7gDO31QBRMAuKjZYY6MdU8YAYVqj1Gqtmu3/KvHnUQES6YFIzxTaMfx/UHGtgfAYkwg==",
+  "tamanho": 4928877,
+  "sha256": "5b8e68210ebb49a626685fc5fb957abf0c7547d6bceaafe2502c1d4efd5a276f",
+  "assinatura": "KDblyl323rHa83ZmKIUAF7D85akUU6rCQ9u7UF9ORt9998BUcoVa7t+RTCjiB1KeSNny38edSfxNwhqtKmXWQmmuSPJiRa+qPAQ40kx/VLnjaJ/P12YTQ2/4732LRI3idDaDXz243ay1k/1juVJ4G2TB4i1Oy3a9mmLkrau/mIhXmjXXBmdORU0x74uCRgUre0D2d7uK3nlwT2BjLhmAn47SpWR935q8aVeIX8T7Zp6EbV50O7b/r9Vj9dgeayhZAk+s9e2nRxrPPVGk8wFAP5pgN16gWZJJPbwHfKU4cwbJGRpNRP/zqc9A+IM+DbhUnJpM5JFjhp9oBc6rPpzlDw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "TTdfR1+HxXq8NLAgDZ53gK1jFG4jIp67mb1gIaD7Zi8A975bjbsAOJA8c1I0vLg0SU4a0dRtpI/KnP+VqpJlNyW8pDhAUlnXRGxEykibVpHwo6LFwC76EqQpRkb12id33QPUverISFCCV4GtgX6G5OOAtwzLdbxv1pPjXPhHWHVgsKXxNZXiPwPJZqsTWqage8R90K2bFIUp2trJdWMa2Mk7MAP2R6YIo2fDGeKYowlw1Bhh0rNmAkEYMix6Dxh2oPwegAs7iTGyfQM3o9o7xS2SPVQavIgiSgxv2OBaojHPwKviqAvACy7E6UHkXyOz8/qN3hv74QA0V00csaaZjw=="
+  "assinatura_extras": "XIGm5Xdcca+tlI3KInjGdQ76qhhJjuqzmQfpe440MIZneqZCOeMpAxEh2I0IFT8ZVDiprbtnQ9b9L/n/I2E3imjaMcbUh8htIH6obm4ZNutVlDMUZssc/lnvbakJlJdu+t17tWpOEcTGN66mxe/PuLEHjoJlnMIejH2soJjtgB/GdNF/NDOlWyYvhWUa3F4JtUvEIOfBaA/onPXfJkOU7sM34tgvl0pytQGrbw9d/LVSsXyiZ9IrifDPTMxWilac+VCIYxzng99U5jlSbwM9M00ptNQP64oM+r7VJsvaTys5zlBoOedF7ynzslL9YkZFqSB9tc4g/vxhw0hf5DIEOQ=="
 }
