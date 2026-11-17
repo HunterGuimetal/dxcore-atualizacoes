@@ -1,13 +1,13 @@
 {
-  "versao": "10.38",
+  "versao": "10.39",
   "data": "2026-11-06",
   "notas": [
+    "Parâmetros e preços › + Adicionar material: nome, preço por kg, densidade, espessura máxima e 'corta como' (copia a tabela de velocidade de corte e o gás de um material parecido, que dá para ajustar depois). O material novo aparece nos orçamentos, no estoque de chapas e no Limpar; o ✕ tira da lista.",
     "Parâmetros e preços › Marca da empresa: nome em duas partes, slogan, cores e logo, com prévia. Vale para todos os computadores.",
     "O logo aparece nas propostas e PDFs, no link para o cliente e no vídeo da peça; a cor da marca vira o destaque das telas do DXCORE.",
     "Marca da empresa em tudo: proposta em PDF, portal do cliente, vídeo da peça e demais PDFs usam o nome em duas cores, o slogan e as cores do cadastro da empresa (antes eram fixos). Modelos do gerador sem o nome de uma empresa no título.",
     "Orçamento: 'Cobrar a chapa inteira' agora pode ser marcado em cada chapa (material e espessura) no resumo de chapas; a opção geral virou 'Cobrar a chapa inteira em todas'. Fica gravado no orçamento.",
-    "Vídeo da peça para o cliente (Gerador › botão Vídeo): MP4 de ~10 s a 60 fps, 1080 × 1080, com a peça saindo da planificada, dobrando e girando 360°, com a marca GUIMETAL, o nome, o material, a espessura e a medida da planificada. Pronto para mandar no WhatsApp junto com o link do orçamento.",
-    "Simulação de dobra: Ficha do operador (imprimir ou salvar em PDF) com cada passo desenhado, ângulo, medida do encosto (batente), que ponta vai no encosto, que face fica para cima e quando virar ou girar a peça; mais o punção, a matriz e a ordem."
+    "Vídeo da peça para o cliente (Gerador › botão Vídeo): MP4 de ~10 s a 60 fps, 1080 × 1080, com a peça saindo da planificada, dobrando e girando 360°, com a marca GUIMETAL, o nome, o material, a espessura e a medida da planificada. Pronto para mandar no WhatsApp junto com o link do orçamento."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4936345,
-  "sha256": "020e47ee0cdfc2f96825a950f48dbf645bdfb7b9faa1089a6efde6da07b67c97",
-  "assinatura": "XDRLhBx/28GHz6bsREF/U/jSgVa89z9gsj+scqMY6jL2qsW36vQmFVnq47xH7lgsYC4X5hX2snGsI7xOxRF6s/J8rUOIPt+AHhdu3JbLFXqS9ocz/1ua4TL38JSu1jBIR1iQNS1hZXNF0dSvH/8ZQFVhqdXKNqN0SQzHAsmsckiQ2Ev/eH1p+Y/SC5zpMuZNn/obrLVeq9WlIthuvwiwQdhgoFLOeNfi1tkPL2v7lFad4Me5yG3q3M8xzAU/q/3kIpYkfWWWsljLrc3xrBBNKqCFpzdoe7ZXHZnS5N6F+5vSZP+HxCLmSAYcveMoR0NDA43KOcwgMw7Q9ZB5fTlHMg==",
+  "tamanho": 4942573,
+  "sha256": "8eff611616f7ed1dd78cf4c9421c41943b537b18fc6700990ca52d796f8a1e23",
+  "assinatura": "jl4QOyUDp0teumpq/uLXQ4q+2eGgrxzhFJBFpD/PNd6PZ9pZfnfGFzGHzMnR0NITXrFoggI0q+s0DRtfVUB94NSDTzBOmj6UPDTQ6H/BiQ90gBWf4+4AwHUPLNpM5Bv8D2ZCXkCzxhlCiU4g3qhmRNbljJmq8pYp+FSYOyM4r5sN7wQtwdBuFzpGsRRuI533tgU1mcbBVMPeuPMIkyrBV+xPX/sEZ6/aQEIkmgb6HcdnECrMffUuor+2KP76w0s3bHMu9kCYm0KK+kG/4EHZ4GCw+7LISBnTbn0zsX7G44KYRF2gUo02sxL3Bbx7T+mU6RfD/pYxjvj9V2/Lyy4dxw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "WjH37YYvlIFX5ylqh8N6ouWaTxDrmF9n7LbpMlCPWJBRKNvkMFP1HjAFlgcWmtCLAgcfGsV5C4fdpnnbeSypbXJZosB1BPBWv2CNFepjRynTlQHPPD94+6WiEHmg06TSEIgslUx7Sv8FcZxahSQtA19pMPzzvb6UvnbNjnyeDytSa4KwPlgtP7R27S20DobDJNHSe2EImBYymBsebWiNjL+sroaPTEW2UzLVwA1ZEpgSQ2zFAacTzZmLxxoLzLATKImSQFdIqahErdrKsHX0kaFvKBzWIHHPUYEplLz9glmlGOTsVe1Hea1PcMkZo6PuUQZzAMBcxYqlrTS/CZOoSA=="
+  "assinatura_extras": "NLgG0aDr3a8VmQ69ZN2dxyiXjTzmkKAujJaE5Vc6+D0vg4fz1OJas3xdakT6sICQtlOiPvASC3QrJAT1CcCH379Bq/WQ1NyNtcFH8mTxF6vWrx+4TsmZFxRNmqwXNYnCHgFJSMGE123xce/SH107STRcDOfN4Q8vEP5S7lKFuY9YYCpLuz8bEZXhsWe4W+6XzSgAxVFNgv2Xwi3w9MP3bINUyXvXHHvSDeMtaB4r0X5/w/ApAsF94p2N5jZc5Gb/guTQd3plRcvQryGyiWVhgV7yHar/WTO61d1j24e6aKiHKcwPsKxoxV0A4xY36wvwcPF1SGyJpaCJkH3wW6YiLg=="
 }
