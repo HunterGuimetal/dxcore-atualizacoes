@@ -1,13 +1,13 @@
 {
-  "versao": "10.36",
+  "versao": "10.37",
   "data": "2026-11-06",
   "notas": [
+    "Marca da empresa em tudo: proposta em PDF, portal do cliente, vídeo da peça e demais PDFs usam o nome em duas cores, o slogan e as cores do cadastro da empresa (antes eram fixos). Modelos do gerador sem o nome de uma empresa no título.",
     "Orçamento: 'Cobrar a chapa inteira' agora pode ser marcado em cada chapa (material e espessura) no resumo de chapas; a opção geral virou 'Cobrar a chapa inteira em todas'. Fica gravado no orçamento.",
     "Vídeo da peça para o cliente (Gerador › botão Vídeo): MP4 de ~10 s a 60 fps, 1080 × 1080, com a peça saindo da planificada, dobrando e girando 360°, com a marca GUIMETAL, o nome, o material, a espessura e a medida da planificada. Pronto para mandar no WhatsApp junto com o link do orçamento.",
     "Simulação de dobra: Ficha do operador (imprimir ou salvar em PDF) com cada passo desenhado, ângulo, medida do encosto (batente), que ponta vai no encosto, que face fica para cima e quando virar ou girar a peça; mais o punção, a matriz e a ordem.",
     "Tempo de dobra por peça calculado pela simulação (dobras, viradas e giros) e o preparo da máquina.",
-    "Simulação de dobra: cadastro das ferramentas da dobradeira (punções reto e pescoço de ganso, com altura, largura, ângulo e garganta; matrizes com a abertura do V). O DXCORE escolhe sozinho o punção, o V (perto de 8 × a espessura, respeitando a aba mais curta) e a ordem das dobras, virando a peça quando o pescoço de ganso pede. Cadastro vale para todos os computadores.",
-    "Simulação de dobra (Gerador › botão Simular dobra): a peça em corte na dobradeira, dobra por dobra, com punção e matriz V. Avisa se a peça bate no punção, no martelo, na matriz ou nela mesma, e 'Achar ordem sem colisão' testa todas as ordens. Ferramenta ajustável (abertura do V, altura e largura do punção, largura da matriz) e aviso de aba curta demais para o V."
+    "Simulação de dobra: cadastro das ferramentas da dobradeira (punções reto e pescoço de ganso, com altura, largura, ângulo e garganta; matrizes com a abertura do V). O DXCORE escolhe sozinho o punção, o V (perto de 8 × a espessura, respeitando a aba mais curta) e a ordem das dobras, virando a peça quando o pescoço de ganso pede. Cadastro vale para todos os computadores."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4928877,
-  "sha256": "5b8e68210ebb49a626685fc5fb957abf0c7547d6bceaafe2502c1d4efd5a276f",
-  "assinatura": "KDblyl323rHa83ZmKIUAF7D85akUU6rCQ9u7UF9ORt9998BUcoVa7t+RTCjiB1KeSNny38edSfxNwhqtKmXWQmmuSPJiRa+qPAQ40kx/VLnjaJ/P12YTQ2/4732LRI3idDaDXz243ay1k/1juVJ4G2TB4i1Oy3a9mmLkrau/mIhXmjXXBmdORU0x74uCRgUre0D2d7uK3nlwT2BjLhmAn47SpWR935q8aVeIX8T7Zp6EbV50O7b/r9Vj9dgeayhZAk+s9e2nRxrPPVGk8wFAP5pgN16gWZJJPbwHfKU4cwbJGRpNRP/zqc9A+IM+DbhUnJpM5JFjhp9oBc6rPpzlDw==",
+  "tamanho": 4930013,
+  "sha256": "66f1acd68a1f0b2ab5d94b78fb620b1b4c0f5a7e68c5fafda0f62259e3c13192",
+  "assinatura": "fhSMAyAl37THZrZ5FdAqYQBR/kbpJFmPtpFCqVbX1zTDMnBChPsrSY5fQEbYFmiS5xrYHAHqMdRDAu0dWrDf167bvnPs9F5oaFmdYlKpaKxtnqenIPo05ZVVVzroglJEQK9+2z+d1O3WkeG5wU86pCOXnkxXM/uFI5AM2sd+VtqXv5WIS3azsaS7JAwxurkY0KhZvJR5rIWMXYS2H7ONdW9XuekJFzkhf68XnuPOnkDa3hAp2kS2lV6Lk8hUIb+4/WAf/+i9BKKS0VwQCV60V1yODmzblkQCY6PqYInM09M2R6Lk8m+kFUAwXHAQuBOe2AXCPpgw8YBB7a/NHce17Q==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "XIGm5Xdcca+tlI3KInjGdQ76qhhJjuqzmQfpe440MIZneqZCOeMpAxEh2I0IFT8ZVDiprbtnQ9b9L/n/I2E3imjaMcbUh8htIH6obm4ZNutVlDMUZssc/lnvbakJlJdu+t17tWpOEcTGN66mxe/PuLEHjoJlnMIejH2soJjtgB/GdNF/NDOlWyYvhWUa3F4JtUvEIOfBaA/onPXfJkOU7sM34tgvl0pytQGrbw9d/LVSsXyiZ9IrifDPTMxWilac+VCIYxzng99U5jlSbwM9M00ptNQP64oM+r7VJsvaTys5zlBoOedF7ynzslL9YkZFqSB9tc4g/vxhw0hf5DIEOQ=="
+  "assinatura_extras": "U6Ch2YDWUs4H9JpvCLRGzY9X5TYSC7b7DLHyx0zkPlXjNF1agRRn5t5SzEP7XWDBsvl/549L8Y0lCQJDSO3+mW7Wyy1MD035CRvsrB/+FyMoxePHl7+qxYk5ROcefyg/JzNc8o7VIP8kDY/Y4aKhEQr/r4AN9lNWjBfAt7bJePUZ5o5P3ScadwEHwxnWEidCiPMv8udbGJYPIQhQ/bOsYnsna+oa0BfZdy+suxM8FUcxRokxzjJ9lmT0wXCvmLZAMEqRunK+mQqndjfP6pn9lGPR6B2W3SXJjRNcSyRmIveevYD8qcAucQXvABNZtrG36KClK7qYN4VDbVLC4ogazw=="
 }

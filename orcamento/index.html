@@ -14,7 +14,7 @@ header{background:#141110;color:#fff;border-bottom:3px solid var(--or);padding:1
 .logo{font-weight:800;font-size:22px;letter-spacing:.5px}.logo span{color:var(--or2)}
 .tag{color:#BDB3AC;font-size:12px;margin-top:2px}
 .top{display:flex;justify-content:space-between;gap:12px;align-items:flex-end;flex-wrap:wrap}
-.pn{text-align:right}.pn small{display:block;color:#FF8533;font-weight:700;font-size:11px;letter-spacing:1px}.pn b{font-size:20px}
+.pn{text-align:right}.pn small{display:block;color:var(--or2);font-weight:700;font-size:11px;letter-spacing:1px}.pn b{font-size:20px}
 main{padding:16px 16px 120px}
 .card{background:#fff;border:1px solid var(--ln);border-radius:14px;padding:16px;margin-bottom:12px}
 h1{font-size:19px;margin:0 0 4px}.mu{color:var(--mu);font-size:13px}
@@ -37,7 +37,7 @@ footer{text-align:center;color:var(--mu);font-size:12px;margin-top:18px}
 </style>
 </head>
 <body>
-<header><div class="wrap top"><div><div class="logo" id="lg"></div><div class="tag">Corte a laser · dobra · solda · acabamento</div></div><div class="pn"><small>PROPOSTA COMERCIAL</small><b id="pn"></b></div></div></header>
+<header><div class="wrap top"><div><div class="logo" id="lg"></div><div class="tag" id="sl"></div></div><div class="pn"><small>PROPOSTA COMERCIAL</small><b id="pn"></b></div></div></header>
 <main><div class="wrap" id="app"><p class="mu">Abrindo a proposta…</p></div></main>
 <div class="bar" id="bar" hidden><div class="wrap"><a class="btn" id="aj" target="_blank" rel="noopener">Pedir ajuste</a><a class="btn ap" id="ap" target="_blank" rel="noopener">✓ Aprovar pelo WhatsApp</a></div></div>
 <script>
@@ -52,8 +52,12 @@ footer{text-align:center;color:var(--mu);font-size:12px;margin-top:18px}
     const b = atob(h.replace(/-/g, '+').replace(/_/g, '/')), u = new Uint8Array(b.length); for (let i = 0; i < b.length; i++) u[i] = b.charCodeAt(i);
     const st = new Blob([u]).stream().pipeThrough(new DecompressionStream('deflate-raw')); P = JSON.parse(await new Response(st).text());
   } catch (e) { return fail('O link está incompleto ou foi cortado. Peça um novo link para quem enviou a proposta.'); }
-  const E = P.emp || {}, nm = String(E.n || 'GUIMETAL');
-  const lg = $('lg'); if (/^GUIMETAL$/i.test(nm)) { lg.append('GUI'); const s = el('span', null, 'METAL'); lg.append(s); } else lg.textContent = nm;
+  const E = P.emp || {}, nm = String(E.n || 'Empresa'), cor = /^#[0-9a-f]{3,8}$/i.test(E.c || '') ? E.c : '#E85D00', cor2 = /^#[0-9a-f]{3,8}$/i.test(E.c2 || '') ? E.c2 : cor;
+  // marca da empresa que mandou o orçamento (vem no link): nome em duas partes, slogan e cores
+  document.documentElement.style.setProperty('--or', cor); document.documentElement.style.setProperty('--or2', cor2);
+  const lg = $('lg'), ma = Array.isArray(E.ma) && E.ma[0] ? E.ma : (/^GUIMETAL$/i.test(nm) ? ['GUI', 'METAL'] : [nm.toUpperCase(), '']);
+  lg.append(String(ma[0])); if (ma[1]) lg.append(el('span', null, String(ma[1])));
+  $('sl').textContent = E.sl != null ? E.sl : (/^GUIMETAL$/i.test(nm) ? 'Corte a laser · dobra · solda · acabamento' : '');
   $('pn').textContent = P.n || ''; document.title = 'Proposta ' + (P.n || '') + ' · ' + nm;
   app.innerHTML = '';
   const em = P.em ? new Date(P.em + 'T12:00:00') : new Date(), vence = new Date(em.getTime() + (P.val || 15) * 864e5), venc = Date.now() > vence.getTime();
@@ -65,7 +69,7 @@ footer{text-align:center;color:var(--mu);font-size:12px;margin-top:18px}
   for (const x of P.it || []) { const r = el('div', 'it'), th = el('div', 'th');
     if (x.s && x.s.length && x.w > 0 && x.h > 0) { const k = 80 / Math.max(x.w, x.h), W = x.w * k, H = x.h * k, sv = document.createElementNS(NS, 'svg'); sv.setAttribute('viewBox', (-3 - (80 - W) / 2) + ' ' + (-3 - (80 - H) / 2) + ' 86 86');
       const pa = document.createElementNS(NS, 'path'); pa.setAttribute('d', x.s.map(pl => 'M' + pl.map(p => (p[0] * W).toFixed(2) + ' ' + ((1 - p[1]) * H).toFixed(2)).join('L') + 'Z').join(''));
-      pa.setAttribute('fill', '#FFD9BF'); pa.setAttribute('fill-rule', 'evenodd'); pa.setAttribute('stroke', '#E85D00'); pa.setAttribute('stroke-width', '0.8'); sv.append(pa); th.append(sv); }
+      pa.style.fill = 'var(--or)'; pa.style.fillOpacity = '.22'; pa.setAttribute('fill-rule', 'evenodd'); pa.style.stroke = 'var(--or)'; pa.setAttribute('stroke-width', '0.8'); sv.append(pa); th.append(sv); }
     else th.append(el("span", "sd", x.d === "Adicionais do pedido" ? "+" : x.solda ? "SOLDA" : "PEÇA"));
     const tx = el('div'); tx.append(el('div', 'nm', x.d || 'Peça'));
     tx.append(el('div', 'ln2', [x.c ? 'Cód. ' + x.c : '', x.md].filter(Boolean).join(' · ')));
