@@ -1,12 +1,12 @@
 {
   "produto": "DXCORE Finance",
-  "versao": "1.0.9",
+  "versao": "1.0.11",
   "data": "2026-11-17",
-  "arquivo": "DXCORE-Finance-1.0.9-atualizacao.zip",
-  "sha256": "513b946a6c4d1ee4373badcb1346d69bc96fb33788f8f719e954d77796691885",
-  "tamanho": 10329066,
+  "arquivo": "DXCORE-Finance-1.0.11-atualizacao.zip",
+  "sha256": "b99cd338355aff8542baa58bb51a63cb0436d09471602b87f36488da455ee401",
+  "tamanho": 10332551,
   "notas": [
-    "Corrigido: o backup às vezes ficava parado para sempre (em \"Backup antes de atualizar\" ou ao restaurar). Agora termina sempre.",
-    "Os backups ficam guardados na pasta do programa (que o Windows não bloqueia), com cópia em Documentos e no OneDrive."
+    "Novo: a conciliação bancária também importa extrato em CSV (planilha do banco), além do OFX.",
+    "Corrigido de vez: o backup não trava mais no Windows (nem ao atualizar, nem ao gerar backup para outro computador)."
   ]
 }
