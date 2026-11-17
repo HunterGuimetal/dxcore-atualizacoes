@@ -1,13 +1,8 @@
 {
-  "versao": "10.46",
+  "versao": "10.47",
   "data": "2026-11-06",
   "notas": [
-    "Vídeo da peça novo, no visual do Projetista: fundo escuro com grade, corte a laser (cabeçote com feixe e faíscas percorrendo furos e contorno, corte acendendo em laranja), linhas de dobra acendendo em neon com a dobradeira contando as dobras, a peça dobrando e girando 360° com cotas em neon (comprimento, largura e altura). 60 fps, ~15 s.",
-    "Vídeo da peça: peça pesada (muitos furos e dobras) não trava mais o programa — a dobra é preparada em etapas com o andamento na barra de baixo, as etapas do meio saem sem o arredondado das quinas (só a peça pronta tem) e a peça dobrada não é mais calculada duas vezes.",
-    "Simulação de dobra: o desenho enquadra a peça inteira em todos os passos (peça larga pendurada abaixo da matriz não fica mais minúscula).",
-    "Simulação de dobra também em peça com dobras atravessadas (orelhas das pontas): simula o perfil das dobras principais e avisa que as orelhas são dobradas antes, com a peça ainda plana.",
-    "Importar DWG/DXF no Gerador: reconhece a linha de dobra tracejada que para na orelha (não vai de borda a borda), junta a dobra desenhada em pedaços entre os rasgos e a dobra curta da orelha (vale só na largura dela); o lado que dobra é sempre o de fora. Peça 114 Suporte Cartões: 8 dobras.",
-    "Reaproveitamento de peça grande (mais de 8% da chapa): testa a peça girada de 3 em 3°, alinhada pelos próprios lados e o par girado 180° grau a grau; a 2ª peça também entra pela direita deslizando até encostar no contorno da 1ª; e a 1ª só é posta onde ainda cabe outra (olha uma peça à frente). Trapézio grande que cabe 2 na chapa: de 12 para 6 chapas. Bateria de 13 casos: nenhum piorou."
+    "Vídeo da peça em estilo comercial: abertura com a marca, corte a laser, dobra passo a passo, vitrine girando com cotas em neon e cartão final com a ficha da peça e o contato da empresa."
   ],
   "historico": [
     {
@@ -126,9 +121,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4962873,
-  "sha256": "0acd7b74497133f7a98858fcb703c536173914dc0a9b236902bc68f9fec728a3",
-  "assinatura": "DtLm/WNS28n9XQiEJqBklkFtmX3zbNDdsbWmpuj5hqpatohus0uxKPUxfoEZvMw9RR6Gc/Q6hmVB+CHb5ZKbSxw73ssB9cLxByEcFppuQS52fsxbQFcr711F26M7YEoTXAH4f968AOG6QjzIyuYTWMv1swiQc7kq2vWWdkmnDqhjHHrWcz/AAyhrYjFgacLW2tqqr3ltXArLBT40yAHAuc2Jspzm94tT+hwhJ4W1Zo/5bXfN+BhJMsiIbNKwTY7Egxgola7yIhftxjYc5bk9Fiz3bLLcYYxVcelLtmUX3oWqiNhSBeNnljmMS7ptIe/Kd7U2fgTLBW5yP4z8YI3lBw==",
+  "tamanho": 4968633,
+  "sha256": "2c657b0e8e465dbabbcc0d8eed708a0ec57ff1fd96421e2fe78da46c33cbfe13",
+  "assinatura": "g7OzZKYR1cEvjO4dSRaILcQL1+QSJdUJZmT8vlbGI0y6sJNCBphHgOETe0UBSqIbrScWQwOrgxAVi6Dmjla39lR88fETJjhcnq3J5eIU+9lVDR2yGWb67AF89+JKQoCr2Hpa+x3yq/BSFLt9IBQ8h4Tvc3+9mqufsFVxOC0TVyZPKeljjgfwpe4QB2tkWbUhwcCCfyirp9DREFXc8W7LCHJY8yHS/j0EKcMuOD3CqpOGWnu9/czKpee0x/LlrZKATnSQd7L8yZXSjkNeea7IiLYzfG2rgJo2/hoaxBFZHQSyX83poo1EE0x9J/Oo47slq09Z6VocIjn5X4EwJpdlMQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "XVOSHBctNufbUON7mLUp3tpo5ffjkbtl0+9OZGX/1XFlz4KXxhFGGm1b6LnPDuk1q3lyK3Xkb5jQj8lrh9GOf0C2OFfNfxtMs8OapR1XLfRg+ibn26o0fBWCpnzBYZGvFzPDHDBAMXvwjLC7Ke56TkGL+Cwq4Sc+B/22TfOuwz9yjpvYBeXsEP63Xt74m8slRfBwDW++sdS6YFGvefA+6/yJVsdMh8qxuVJB7kFtxtahXvTQZYS2NmeKApZBOlu3h6ka+oReJ0kHPVEIMdE8gYqceI8eJCdJtEtBUkVQ3N5eLcmRsKhQMuQeRdzVZ/G70+7dQgkfp4NGIsu1rvdTZA=="
+  "assinatura_extras": "THwod8I00ZAQJ1r3sViz9GAIBu4W5g+GhF8mYP68JiylCuHfyw4sCe1W7L0kHQIbfSTAJmB9OYhkruII6r+tPjz5TDyAbUqYoLBfS7QGbi0iIXepo2fYFw9ZKBk4FkAIKDXOj8yJnBzJUsTPtuMF8exEeS9CSPLtjGomu5Jf+iW/pgG4MVULc089oTgNC6iotcQ/NdqyhUKd3fATBjXAY7TTh+Uojnw30P56rv+rFMWFbBJn1dnyJP1v/axnP8sdqaBiWxB59NZ7fxy5rMDEIthJ8RAg7sL1HWVaoyea5OvlBCq2sqDd8F7/Q44TvhV5cjc5nMh5AHVCDm+5uUleJQ=="
 }
