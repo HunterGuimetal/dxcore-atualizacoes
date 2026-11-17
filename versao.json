@@ -1,13 +1,13 @@
 {
-  "versao": "10.43",
+  "versao": "10.44",
   "data": "2026-11-06",
   "notas": [
+    "Simulação de dobra: o desenho enquadra a peça inteira em todos os passos (peça larga pendurada abaixo da matriz não fica mais minúscula).",
     "Simulação de dobra também em peça com dobras atravessadas (orelhas das pontas): simula o perfil das dobras principais e avisa que as orelhas são dobradas antes, com a peça ainda plana.",
     "Importar DWG/DXF no Gerador: reconhece a linha de dobra tracejada que para na orelha (não vai de borda a borda), junta a dobra desenhada em pedaços entre os rasgos e a dobra curta da orelha (vale só na largura dela); o lado que dobra é sempre o de fora. Peça 114 Suporte Cartões: 8 dobras.",
     "Reaproveitamento de peça grande (mais de 8% da chapa): testa a peça girada de 3 em 3°, alinhada pelos próprios lados e o par girado 180° grau a grau; a 2ª peça também entra pela direita deslizando até encostar no contorno da 1ª; e a 1ª só é posta onde ainda cabe outra (olha uma peça à frente). Trapézio grande que cabe 2 na chapa: de 12 para 6 chapas. Bateria de 13 casos: nenhum piorou.",
     "Orçamento: o resumo à direita (total, chapas e visualização 2D) tem rolagem própria — dá para descer até as chapas sem rolar a lista de peças até o fim.",
-    "Parâmetros e preços › + Adicionar material: nome, preço por kg, densidade, espessura máxima e 'corta como' (copia a tabela de velocidade de corte e o gás de um material parecido, que dá para ajustar depois). O material novo aparece nos orçamentos, no estoque de chapas e no Limpar; o ✕ tira da lista.",
-    "Parâmetros e preços › Marca da empresa: nome em duas partes, slogan, cores e logo, com prévia. Vale para todos os computadores."
+    "Parâmetros e preços › + Adicionar material: nome, preço por kg, densidade, espessura máxima e 'corta como' (copia a tabela de velocidade de corte e o gás de um material parecido, que dá para ajustar depois). O material novo aparece nos orçamentos, no estoque de chapas e no Limpar; o ✕ tira da lista."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4953289,
-  "sha256": "de28b44164f708f6896ec6b38bd77315d0eb6b21e89e69646fec919cc5445038",
-  "assinatura": "YQwcTs00bzVZfc8Wdo8sGgdip/ed2H04YAtVKAqQAfdoX7awP7EjHgVs/6deDvlE3he80NIJx3dJbwna8qrKmpPhoeGCopE48sLcDGOSmdURUA5bZN79Q7kGNhJILUYYob0dh1lZUMs1det82tM3MqVXsAoPoE6cGzhiFY4Zdv/+OG/j6iznwLHIwcHK+MJWbT1tVqDmqvWkAYi6GerDebVSS+Pajg1vxF63aXSrXFBVyYfxEaqb7pvAywYEumLQ2T9aA0/7TK3DFbTBLzB8Z5EbZCLdzd/VhxnGo3XVHAojD+q6fT/fJdov48fGD/4G1gEyDl5jtLbwmoybt+VLxA==",
+  "tamanho": 4953725,
+  "sha256": "37752ccdadd9861ba500ad5d79963d948ef4327f75e543d3c9f8df1823de7fc0",
+  "assinatura": "ZdV9uk9OdhX9F0jnKieFHA+D7dYND6rNkW61lC9L4h7gkmWBbrkw9Vr8oNNPutmEDhsoB95w7XFdHkWZd/PblaXpMkxiraloCxU9oKhGrYAgcYbaq15O9bA/D1JfwhlNdBJbFwjlmocFz8/8gkzaArGz8BuxsFOjW4Lt1iq84GZq81Wb9fuc5L1lbqtlJAkrKmW3bOAre6ADM4I+/cWJeIiQhDPCZNq5RcORkF22VCIMQ1PPZcMZoypWU6Drb9yrdsG4eIYla4BRwgIWOmjIE29sdFiqbqfcFVegoQaKok8cQVTPDqayNu9M349OvOSWK8Y44mvM0r/Ho2yUWysdDQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "LdfBYep0YIWJ1jTq5mPMguJ7O0BZThHL5Tb08UYZ10XEyLMeMbcfkeB+v41+aoVg1lfLbKIOmXY+u5UgyyLmqGQatZvhS9+tcvoqHIrfriG7s1cbpoxSx9jCbC2LqlrLgjI1J6+oCu/i8p7uMGplt4a8esooUDjsqI/1/aMwLVSzFigt4jTyyHCmK2QAxOlDv8l61559u+p6e529SWxdb+POHu3sg8EEArTbg/zFNZTuxJVj7Vwzc8KPNPSKVf99IG/nK/YMmQt/s2Kcwt40GFbqnlaDcH6vfgz+jXd3eW2GID6Fb3jAwiAZmzqcmHygKVzvKBjdKxj7BkmW1SEvXg=="
+  "assinatura_extras": "YO4fOJIyRZ7u9OUPoM49ri+G3QBcyb+sg8JI+5La11WWIx4dRvIaQotgo2Xs0TsuOEvuTok8e3HowjbHibqOX+ynw3n3tlEiSZ8H63nLTDeo6+E2EKapZTveTm8PPu/opXoRc6J3dRrbwsHe8DJDcwuzahjSC3gAIMfG/SQFTuhxyVpfNglGTYF2laZkTTOJhBqzLnXhrMQcJHU4FElaZHW+4JVSJgD39d4FGrWHAj9H0g/01aKs0tq9M7PCNQskOsgBPWDNc1Zxz0Iagy/QXDiMz3CRo+7FjD269b2oo3wSsS1pBa/S4+FWFNUguMZu2F78P1iBanQt+C2NszXtrQ=="
 }
