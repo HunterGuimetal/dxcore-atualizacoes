@@ -1,12 +1,12 @@
 {
   "produto": "DXCORE Finance",
-  "versao": "1.0.8",
+  "versao": "1.0.9",
   "data": "2026-11-17",
-  "arquivo": "DXCORE-Finance-1.0.8-atualizacao.zip",
-  "sha256": "a633abbc340474d6666a272916a8f77bfbaeb56d5273969d16a6140e2725845b",
-  "tamanho": 10328419,
+  "arquivo": "DXCORE-Finance-1.0.9-atualizacao.zip",
+  "sha256": "513b946a6c4d1ee4373badcb1346d69bc96fb33788f8f719e954d77796691885",
+  "tamanho": 10329066,
   "notas": [
-    "Corrigido: restaurar um backup numa instalação nova não fica mais parado em \"Guardando um backup do estado atual\".",
-    "A cópia de segurança para o OneDrive não trava mais o sistema quando o OneDrive está pausado ou sem login."
+    "Corrigido: o backup às vezes ficava parado para sempre (em \"Backup antes de atualizar\" ou ao restaurar). Agora termina sempre.",
+    "Os backups ficam guardados na pasta do programa (que o Windows não bloqueia), com cópia em Documentos e no OneDrive."
   ]
 }
