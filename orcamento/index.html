@@ -56,7 +56,8 @@ footer{text-align:center;color:var(--mu);font-size:12px;margin-top:18px}
   // marca da empresa que mandou o orçamento (vem no link): nome em duas partes, slogan e cores
   document.documentElement.style.setProperty('--or', cor); document.documentElement.style.setProperty('--or2', cor2);
   const lg = $('lg'), ma = Array.isArray(E.ma) && E.ma[0] ? E.ma : (/^GUIMETAL$/i.test(nm) ? ['GUI', 'METAL'] : [nm.toUpperCase(), '']);
-  lg.append(String(ma[0])); if (ma[1]) lg.append(el('span', null, String(ma[1])));
+  if (/^data:image\/(png|jpeg|webp);base64,[A-Za-z0-9+/=]+$/.test(E.lg || '')) { const im = el('img'); im.src = E.lg; im.alt = nm; im.style.cssText = 'height:40px;display:block;max-width:220px;object-fit:contain'; lg.append(im); }
+  else { lg.append(String(ma[0])); if (ma[1]) lg.append(el('span', null, String(ma[1]))); }
   $('sl').textContent = E.sl != null ? E.sl : (/^GUIMETAL$/i.test(nm) ? 'Corte a laser · dobra · solda · acabamento' : '');
   $('pn').textContent = P.n || ''; document.title = 'Proposta ' + (P.n || '') + ' · ' + nm;
   app.innerHTML = '';

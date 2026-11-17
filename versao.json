@@ -1,13 +1,13 @@
 {
-  "versao": "10.37",
+  "versao": "10.38",
   "data": "2026-11-06",
   "notas": [
+    "Parâmetros e preços › Marca da empresa: nome em duas partes, slogan, cores e logo, com prévia. Vale para todos os computadores.",
+    "O logo aparece nas propostas e PDFs, no link para o cliente e no vídeo da peça; a cor da marca vira o destaque das telas do DXCORE.",
     "Marca da empresa em tudo: proposta em PDF, portal do cliente, vídeo da peça e demais PDFs usam o nome em duas cores, o slogan e as cores do cadastro da empresa (antes eram fixos). Modelos do gerador sem o nome de uma empresa no título.",
     "Orçamento: 'Cobrar a chapa inteira' agora pode ser marcado em cada chapa (material e espessura) no resumo de chapas; a opção geral virou 'Cobrar a chapa inteira em todas'. Fica gravado no orçamento.",
     "Vídeo da peça para o cliente (Gerador › botão Vídeo): MP4 de ~10 s a 60 fps, 1080 × 1080, com a peça saindo da planificada, dobrando e girando 360°, com a marca GUIMETAL, o nome, o material, a espessura e a medida da planificada. Pronto para mandar no WhatsApp junto com o link do orçamento.",
-    "Simulação de dobra: Ficha do operador (imprimir ou salvar em PDF) com cada passo desenhado, ângulo, medida do encosto (batente), que ponta vai no encosto, que face fica para cima e quando virar ou girar a peça; mais o punção, a matriz e a ordem.",
-    "Tempo de dobra por peça calculado pela simulação (dobras, viradas e giros) e o preparo da máquina.",
-    "Simulação de dobra: cadastro das ferramentas da dobradeira (punções reto e pescoço de ganso, com altura, largura, ângulo e garganta; matrizes com a abertura do V). O DXCORE escolhe sozinho o punção, o V (perto de 8 × a espessura, respeitando a aba mais curta) e a ordem das dobras, virando a peça quando o pescoço de ganso pede. Cadastro vale para todos os computadores."
+    "Simulação de dobra: Ficha do operador (imprimir ou salvar em PDF) com cada passo desenhado, ângulo, medida do encosto (batente), que ponta vai no encosto, que face fica para cima e quando virar ou girar a peça; mais o punção, a matriz e a ordem."
   ],
   "historico": [
     {
@@ -126,9 +126,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4930013,
-  "sha256": "66f1acd68a1f0b2ab5d94b78fb620b1b4c0f5a7e68c5fafda0f62259e3c13192",
-  "assinatura": "fhSMAyAl37THZrZ5FdAqYQBR/kbpJFmPtpFCqVbX1zTDMnBChPsrSY5fQEbYFmiS5xrYHAHqMdRDAu0dWrDf167bvnPs9F5oaFmdYlKpaKxtnqenIPo05ZVVVzroglJEQK9+2z+d1O3WkeG5wU86pCOXnkxXM/uFI5AM2sd+VtqXv5WIS3azsaS7JAwxurkY0KhZvJR5rIWMXYS2H7ONdW9XuekJFzkhf68XnuPOnkDa3hAp2kS2lV6Lk8hUIb+4/WAf/+i9BKKS0VwQCV60V1yODmzblkQCY6PqYInM09M2R6Lk8m+kFUAwXHAQuBOe2AXCPpgw8YBB7a/NHce17Q==",
+  "tamanho": 4936345,
+  "sha256": "020e47ee0cdfc2f96825a950f48dbf645bdfb7b9faa1089a6efde6da07b67c97",
+  "assinatura": "XDRLhBx/28GHz6bsREF/U/jSgVa89z9gsj+scqMY6jL2qsW36vQmFVnq47xH7lgsYC4X5hX2snGsI7xOxRF6s/J8rUOIPt+AHhdu3JbLFXqS9ocz/1ua4TL38JSu1jBIR1iQNS1hZXNF0dSvH/8ZQFVhqdXKNqN0SQzHAsmsckiQ2Ev/eH1p+Y/SC5zpMuZNn/obrLVeq9WlIthuvwiwQdhgoFLOeNfi1tkPL2v7lFad4Me5yG3q3M8xzAU/q/3kIpYkfWWWsljLrc3xrBBNKqCFpzdoe7ZXHZnS5N6F+5vSZP+HxCLmSAYcveMoR0NDA43KOcwgMw7Q9ZB5fTlHMg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -151,5 +151,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "U6Ch2YDWUs4H9JpvCLRGzY9X5TYSC7b7DLHyx0zkPlXjNF1agRRn5t5SzEP7XWDBsvl/549L8Y0lCQJDSO3+mW7Wyy1MD035CRvsrB/+FyMoxePHl7+qxYk5ROcefyg/JzNc8o7VIP8kDY/Y4aKhEQr/r4AN9lNWjBfAt7bJePUZ5o5P3ScadwEHwxnWEidCiPMv8udbGJYPIQhQ/bOsYnsna+oa0BfZdy+suxM8FUcxRokxzjJ9lmT0wXCvmLZAMEqRunK+mQqndjfP6pn9lGPR6B2W3SXJjRNcSyRmIveevYD8qcAucQXvABNZtrG36KClK7qYN4VDbVLC4ogazw=="
+  "assinatura_extras": "WjH37YYvlIFX5ylqh8N6ouWaTxDrmF9n7LbpMlCPWJBRKNvkMFP1HjAFlgcWmtCLAgcfGsV5C4fdpnnbeSypbXJZosB1BPBWv2CNFepjRynTlQHPPD94+6WiEHmg06TSEIgslUx7Sv8FcZxahSQtA19pMPzzvb6UvnbNjnyeDytSa4KwPlgtP7R27S20DobDJNHSe2EImBYymBsebWiNjL+sroaPTEW2UzLVwA1ZEpgSQ2zFAacTzZmLxxoLzLATKImSQFdIqahErdrKsHX0kaFvKBzWIHHPUYEplLz9glmlGOTsVe1Hea1PcMkZo6PuUQZzAMBcxYqlrTS/CZOoSA=="
 }
