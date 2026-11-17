@@ -1,11 +1,13 @@
 {
   "produto": "DXCORE Finance",
-  "versao": "1.0.5",
-  "data": "2026-11-05",
-  "arquivo": "DXCORE-Finance-1.0.5-atualizacao.zip",
-  "sha256": "ba88f84c2b219c08bb10cc1b8a3dddc8c46c9216ca8d4ac8839a5307a3856338",
-  "tamanho": 10245393,
+  "versao": "1.0.7",
+  "data": "2026-11-17",
+  "arquivo": "DXCORE-Finance-1.0.7-atualizacao.zip",
+  "sha256": "faa753111b81e9ac55f7438187d1e85d0fe0976aafeb702521d638080a02da38",
+  "tamanho": 10327792,
   "notas": [
-    "Atualização automática: o DXCORE Finance agora se atualiza sozinho, como o Industrial (confere a assinatura digital, faz backup antes e volta à versão anterior se algo der errado)."
+    "Novo: exportar o extrato da conta em OFX (mesmo padrão do extrato do banco), em Exportar para o contador.",
+    "Padrão da empresa: tudo o que é digitado, importado ou exportado fica em CAIXA ALTA e sem acentos.",
+    "Depois de cada atualização, esta janela mostra tudo o que mudou na versão nova."
   ]
 }
