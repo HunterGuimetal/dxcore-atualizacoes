@@ -1,10 +1,9 @@
 {
-  "versao": "10.60",
+  "versao": "10.61",
   "data": "2026-11-06",
   "notas": [
-    "Projetista: encaixe inteligente no tubo. Arraste um degrau (peça do Gerador) para perto de um tubo em pé e solte: ele gira sozinho apontando para fora e encosta a ponta no tubo, onde fica a boca de lobo. Também tem o botão \"⊙ No tubo\".",
-    "Projetista: \"🌀 Escada caracol\": repete o degrau em volta do tubo com a quantidade, o ângulo entre degraus, a altura (espelho) e o sentido que você escolher.",
-    "Projetista: \"⋯ Repetir\": copia qualquer peça em linha, com a quantidade e a distância em X, Y e Z."
+    "Gerador: DXF com linha de dobra inclinada (na camada DOBRA, ex.: degrau em trapézio) agora entra com a dobra, com o sentido e o ângulo escritos ao lado da linha.",
+    "Projetista: botão \"+ Tubo\" põe um tubo em pé (coluna ou tubo central de escada caracol). Tubo mandado do Gerador também chega em pé."
   ],
   "historico": [
     {
@@ -123,9 +122,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5067205,
-  "sha256": "d7d28326c3ab0629734d93683ba3266a423d2c21bc0fcea5cf3ff0055ac84a66",
-  "assinatura": "V2Fq4rnoDVcNTYF+8JWAJsLsVevFb1qrsbn4FTXZMz9uKD4c/JPDbxX+XXqlnss1s7x4Q5aTO7zUD7uzQYQI25+qRKaRdbcEv4MPGMgMCU7+glCshw+cdG23EQF+K6AQ0JoYH09M7HnrqCWiYXCBNW1etvDPn6YGOQ1ssI1hqmZRzquW4PjlHc86mkZA8O2/adboEiaABJTCnNcLSsHnb98com6L4vHDEqKALt5ebG+Td4vA3DXjspOd/EOdSjygfaiODgdlp/aaWU1OFmr9QI/3FFLY43JC0gmUrqlR5PIwKVYqKBWxkUifLEbuZkDHZRmxihWWAVhfSeNzhA1s9g==",
+  "tamanho": 5071089,
+  "sha256": "12a089d710fc9dde4cae545beea0d28e88fa500bdbdbc047b77f9d7d00bcacdc",
+  "assinatura": "hE4dlr/8asHgl1QIWOBYXsd1r5GOu8djCZz2NVUDXv2xo38N+0eaD3jmB8nxPs3mt2erQ+Igfi5ks+9irEZ8BLsO/8ZooGEd73PFZqHA9N+9XZYPF3385YzjVFYfuv+VfpQpF1T1gADEsYm4pgkyIrNpbkl98tm3OZVMxcFMhnQzw0FzRl/Q4HQWQ0zovBrvPDIbSs+T+9zJr1VZYE17+K1cA/FhzOIe3E7LQJuzl3RA+m7r7YnnbwPDJGuiObE5dZKm3I9dP5bB6F9EoNebkNAfj9lwV1D25bEuGZu1laj1Az5Oj/z5nL1hKYRfR1x6rPMRPmWYcmnLb3xJLRx3FA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "Yt0NmC4A50yO3d9M+oNcGGTincBaUWVTCqLXP30s/onDlFdkXG6VBqktCo/oVLVqLLeUksM8E4vA6zuiaZtT+Z5VHGuTJShqqhza7qaSKZPh9F53BET3NoCJMkr5bLG2SBCNGXFBPTllootEWDrDNAiBn8rZqJaEnwvbKg2gI589UcaZMQXjEDGi6ocDcvmCMK35iZ9zDu8rLNGeTyS1+N4YX3Tgisx+naC+WO+LMv03APv895DGHSj5beEpNJbjbv8BmrLwYNrw21jJkbawpHyt9pUBTXukhJHVYLvDKSRQkHMW4MR6ZaWGKIxnE93L4BjERPv1DLXiW7tPt6WriA=="
+  "assinatura_extras": "D27b+BBGn5szgoNraCOwwTfmbGkjawgTWlbG7qB4vG8BdtEIGD1ZbyZ2MCdkAGhQ5a1MJ6ILgGPGv8Sw3PE4QLy56Q57LnL41/3J2qEECcse7EMwAaBa0skilDO3wGg6ByZTjTxudgtTUrHUXbwLq9QwJdSz0Lrt1qOLDvClMvbpfGJMMwqOvVJNzFIIIsudveZvitXW3bPhEy5gs87ar7QkbKRgVuxNrFB0CkWOwnOcJqdBhcK5ZuaFqKVHAGjm6qmwUbMXQrATGksbbjBESr7bgq4MrNNpEH/oeV7eM/QZcT5QRqx/OHcMt1kufCgmKyC0MkdQUOO5BipmBcTmeA=="
 }
