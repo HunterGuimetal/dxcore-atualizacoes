@@ -1,9 +1,8 @@
 {
-  "versao": "10.50",
+  "versao": "10.51",
   "data": "2026-11-06",
   "notas": [
-    "Vídeo da peça: corrigida a dobra que bugava no meio (a chapa voava e ficava em pé). Agora a base fica parada no chão e as abas e paredes sobem uma a uma, na ordem da dobradeira.",
-    "Câmera mais alta no corte a laser: a chapa aparece inteira."
+    "Vídeo da peça: a dobra agora é calculada quadro a quadro durante a gravação. Fica lisa, sem trancos, e acabou a espera travada antes de começar a gravar."
   ],
   "historico": [
     {
@@ -122,9 +121,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5022445,
-  "sha256": "bfe8c1007770b5edac2c9300246e7f3abf043cd8ad13c34d413cb5ae58595ae0",
-  "assinatura": "PwVpawel3xOE3+tU/+9M4YOzsXBK9mB8weNIqzqdXU9b9ZIUjtCpOJGolIJMcd8p4j3rdW7b/H021TiZ+NVQhWM9bhWm/gl4KRcSlR75aprOwGadNXOi7and96HNPkveFOyEdFCEMmrvXsi8hB7n3cZd8YtgPwf7h0cXd7ZjhWA/BSqg+LkrNb31mrMXxP+7WQhiLlxJaXegEYybjNfP1pYeducALECg1POKm/Gvg+wdfTtM2sZxyiauG9i8kk7JaAQl9JaUx04qIMFNpTp0K1wW5xoZs2XglCRAfMd1o3+qTi4WzEEX4VqcSXP8og5dgLtRheI1+RdMKosM6Xd1/Q==",
+  "tamanho": 5022345,
+  "sha256": "29b563b98eaa002411537505ee0d5a301038617c68850a0dd8c608fea5a35cd7",
+  "assinatura": "UQZ7CMFwzSNIQJbAO+hyYi+VVr8EG2b4rVB2E1PgEWqf1x2BVGd9+kp0yNI1TjoqNXMG4QHcrrXu4/PKxpouRwyUE7mChZTkOLfQxFR5F2UzL7EKqmCVBxLE1HWM8A9A3IkYp0GjJoxp2fn6cZRao2ZPp+Lg6U24sr1wE7oyxskXBON3WOBryUjO8cSZ3mbuK9cvVoKIvaA5Kr269YAWGCPgqAhi0KyG45jZjqN0gTb5p57x2JBY6EdXXwdmGMcMnmIoBJMVqfd5QA6UfYGmuXRDDHe1OTl7taTNyjsKXbsZol+OAhQRQjnwExmMsMjZMn35i0FO6krL0LrrUMDxsQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "arY1rF1nXOVlCIBw4/Mg5fXBek7x/lRUGR8UcMgHgrCE8QaVtHx882yvLrGtr9TcacyfoMHqFkb2Vwtpkx4mEAPdOe5lPWhd6M7cmhEM4o/aVe03FbgqRqjN41dS1QpvtRykY9wMLIFGp74yR+hP3xN9qy3Q+mR9Wcinrn43436ADqqgnPdgSejpXtCkKKbumUUj20RlzGnehUq/EpPSrfIJRJ8jwG6+R+ABh3fNpFmDQ9EJVm6ljNcrp90VbAwlUT8+YTAHJFACKBZ6HrWbmltFUrb5KRSk79Y/v0YrZODSrGpaq7SWfwTweMFyJUXikGOwkfABKdclZXX/2P5Jzg=="
+  "assinatura_extras": "Doapigj0XNya+S/493wgIP8UQ4irzMlINVpdjQ8YaC16Ejxa3dhBQIbO0BrH02NM1h3HH/zUJ53+geTWdYodtR58boGi7AWptge7+795QkKcxh27ADrr2wU2ElbKdF6sbuavkBSgJCrW3OFKxRDWIJMOrrNLpawHuw2LcaKyhTrIDilKmmBSHA0n/4/4Y9CjJ7EfiiFwQaXkK1KwUp2MwiJ/fyUOGzxO+LbFl1iM/i+2F2IQlN95wEpBKU5JVERI/jdIU/tOijtAyCRb9TYEm60UiSOH5chxdru8fTNIXF0DmBbu05HKgWFBogJua7x8vU9jYvlVlhbIgx0USXq7eA=="
 }
