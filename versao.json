@@ -1,8 +1,10 @@
 {
-  "versao": "10.59",
+  "versao": "10.60",
   "data": "2026-11-06",
   "notas": [
-    "Orçamento: em cada material e espessura, botão \"Chapas de tamanhos diferentes…\". Digite as chapas na ordem do corte (ex.: 1500 × 1500 e depois 1500 × 1000, quando a mesa é dividida com outra espessura na outra metade). O encaixe enche a 1ª chapa, passa para a 2ª e assim por diante (a última repete se ainda sobrar peça), e o peso e o material saem pelo tamanho de cada chapa."
+    "Projetista: encaixe inteligente no tubo. Arraste um degrau (peça do Gerador) para perto de um tubo em pé e solte: ele gira sozinho apontando para fora e encosta a ponta no tubo, onde fica a boca de lobo. Também tem o botão \"⊙ No tubo\".",
+    "Projetista: \"🌀 Escada caracol\": repete o degrau em volta do tubo com a quantidade, o ângulo entre degraus, a altura (espelho) e o sentido que você escolher.",
+    "Projetista: \"⋯ Repetir\": copia qualquer peça em linha, com a quantidade e a distância em X, Y e Z."
   ],
   "historico": [
     {
@@ -121,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5058553,
-  "sha256": "9b915e3a39d30808e4d44b0ec367195a4c5b16282d0947a5f2dd2e2d1792a570",
-  "assinatura": "jSMEHg6ekc3XvZMX94BJ5f94JAu0eAuq5Ecp85eBT9mwkUxSBywYsOdHivL+NP9Omsasuj8lrRpQDC1BSGDXOJonIIm/ISCRSicbcuBRIQxf4bzeQB/LzT2ncAgn4dKR7FAwJU3iAH2crDA6wxd5dDunjT9tLUZft4Vuv8dNLoXMZCdU0S8Jvw0Mkt78k0rNTLOwIDt1uIAC5KWvfIpcz7q1QyZSj/W5ETEgs6H6x4PdC0rLMrXIoNkwxHkDIPpRPR10nJ2qGyAT/XCOdC8DmkQNk357e9aqliNkuaailPlCTGkLHeEmz4oUMg0h+h+1hKKQMwE+tfXzSEVGv36m3g==",
+  "tamanho": 5067205,
+  "sha256": "d7d28326c3ab0629734d93683ba3266a423d2c21bc0fcea5cf3ff0055ac84a66",
+  "assinatura": "V2Fq4rnoDVcNTYF+8JWAJsLsVevFb1qrsbn4FTXZMz9uKD4c/JPDbxX+XXqlnss1s7x4Q5aTO7zUD7uzQYQI25+qRKaRdbcEv4MPGMgMCU7+glCshw+cdG23EQF+K6AQ0JoYH09M7HnrqCWiYXCBNW1etvDPn6YGOQ1ssI1hqmZRzquW4PjlHc86mkZA8O2/adboEiaABJTCnNcLSsHnb98com6L4vHDEqKALt5ebG+Td4vA3DXjspOd/EOdSjygfaiODgdlp/aaWU1OFmr9QI/3FFLY43JC0gmUrqlR5PIwKVYqKBWxkUifLEbuZkDHZRmxihWWAVhfSeNzhA1s9g==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "ApQLINubfqjVKifvZSWB2mkvG9HStCGvDPEJGi+pDd/0nGiuBqL1QINRTPZfex1WNxKwGSTwZMNQaWGQkL0Y+LD/7DKp2RiMzkVTSCLEoFKhbFEFeTjPKsu416ImeE2xitzK8oc+WLQwZdLn7DT2jt9UOnrPFUAU7Sqn65qU1aZHfglQA78zFOWVWW/atNBW8k3RqnuwmilsyhvIWx1Vp1mZH4SMynixpa9ctApiIIeuVLNCyiu6CnJSocckGx4dooX9vZR5ij71/UvylfuLWl/zfZ6VIWeq6RKSw7slRknF9cstBTPs2ntWyXHSNi3l+SKLwXKdw659oSIRRKruSA=="
+  "assinatura_extras": "Yt0NmC4A50yO3d9M+oNcGGTincBaUWVTCqLXP30s/onDlFdkXG6VBqktCo/oVLVqLLeUksM8E4vA6zuiaZtT+Z5VHGuTJShqqhza7qaSKZPh9F53BET3NoCJMkr5bLG2SBCNGXFBPTllootEWDrDNAiBn8rZqJaEnwvbKg2gI589UcaZMQXjEDGi6ocDcvmCMK35iZ9zDu8rLNGeTyS1+N4YX3Tgisx+naC+WO+LMv03APv895DGHSj5beEpNJbjbv8BmrLwYNrw21jJkbawpHyt9pUBTXukhJHVYLvDKSRQkHMW4MR6ZaWGKIxnE93L4BjERPv1DLXiW7tPt6WriA=="
 }
