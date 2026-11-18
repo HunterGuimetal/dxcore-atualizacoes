@@ -1,9 +1,8 @@
 {
-  "versao": "10.56",
+  "versao": "10.57",
   "data": "2026-11-06",
   "notas": [
-    "Gerador de peças: desenhe e corte direto na peça DOBRADA com as ferramentas de sempre (Furo, Recorte, Linha, Arco, Círculo, Retângulo, Polígono, Aparar, Apagar...). A peça não planifica mais quando você escolhe a ferramenta: o clique cai no lugar certo da chapa, a prévia acompanha as dobras, e o corte vai para a planificada com as dobras mantidas.",
-    "Saiu o botão \"Cortar dobrada\" (não precisa mais)."
+    "Gerador de peças: Apagar não leva mais a dobra junto quando você apaga uma linha do corte por cima ou perto dela. A linha do desenho tem preferência; a dobra só sai clicando em cima do traço dela. Cortar por cima da dobra mantém a dobra no resto da peça."
   ],
   "historico": [
     {
@@ -122,9 +121,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5048717,
-  "sha256": "441a5280b53104331a2479d72fa2299e90fb4954824042761a3b9f95ae46a388",
-  "assinatura": "UK0QQR4vN2uWlvxIE526LHRUNfS5zBPjpWc2wG1LC9qoWezCQzuYWftp34aTgsnr0k9G1geJIlM9N4Bp7ZWjHCi+aCNi4aJR/GJFVuktzsb8c8nJGqyAfM1kk6mRjdpjoP06ngIRMBOAyiUBIbDhMSOrdUFdN5ThZA6qY+3PKWQclsPbXSwIN6qVv+b34yfbsCtEy/F6l4lQN0juuQsXXeCnx9DGmvyPT2tKVEjLeD7shTR1COyhn/Qo7DLtPdVWDLX798yjpG+oHTTdLgE74BZxIOKj4c/ch7IoBYp4f5Ua5C0A4Fuxp7BLF9iCe8ClQXUVtfAC/BPuUIV1GV4ZLw==",
+  "tamanho": 5049637,
+  "sha256": "49de7e474b2e27bb9b021fdf83c249ab6ed5502a5b071f7d20c4c8bc076c53f0",
+  "assinatura": "M6+wRPXjZlnI6MQrq0UU7YUCy52riP87RS7nYFu7IwCFPYDVUEVshsyk5o6f17MwppM4/9ZtEXDzDCmGhCT6Wa6PedEaTOezQyDRgJdftZJ97uTQLdSC/NlYGMZwmZZ9pE94/roDVgZrPuR2oRkD3uqePhA/TKtJTfzPkKY95z7xW+x0Un8Q6f6M9qHP9Kxv5H0o9PUfWgmBEmZzrxc4+hUrnHOGgyTGdJFl5hFxmu6WRjVKsYwhGj4/ElXHg+2Nz4QBtFQaj167cfJuKkwatHMk/cI/YU7Nw8ZcA3rwJL70XBZq2VcHMg7ixKXAoZITdBPRcrVqr6PzYVjE0albFw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "QqiiRm0X0EMJeeqQTa6/tHgkzC+7Gk5ABRr4S0Db+tqa4DdiNB5jokdt8WD9nl+daFQP9dLRcLUsPQRPKfdgcXjzcTyHAPJMOWhixOtDMZ6vDW2kbH6O+RRlXPA8npCJCKnq4lwW3FiHGN8e//5NuXAleY2wJPQzIUwqLUA0LZD5LZGLrg84sRbmLwwg52uaEH5XaesTk0lG5kQVDj5keo96GK0rhP+V0u7Pg0AcevPfm10IHfTly+KjGWWJQPs2nWXLVjraRxYl3WAt2BjlzJoB/EDqkWUz/ivdsJllwC7VuHf9zH/EKMffYXk5PrB2g3s3kvzCUz/IAkM6j56AMA=="
+  "assinatura_extras": "HEBNy956rjELA0MCs6ZyWfPGIoZSmHtVPcaKt6miumbe/NYpt3AhrqRsmo4KiKrNHi8iydlguJLK5SbY3AA2/VLv8VHel7dXyAgkw2O0BYte/zvy2GmP/t0NL4gEw5YMLXkVQu/ZLqvJlziICVaH4HGOb9he8lrVCZNWBeDOcnwWfKemTAFo8ydKlwBZQQ+2/QxGdw95q9EWXFLXdW3N3tAEU0wu0bL2/MHREeEfKx8fKXrT2P3hGiP32oGqneFr8E37CW4BITq/1zMAQ0Fhw3ssSUJ+Gb6GaELHdKeuchPNPdpt9aWoOjtQiczZ+Tlqjkxx4fbOzX5JHr7ArR7RyQ=="
 }
