@@ -1,8 +1,9 @@
 {
-  "versao": "10.55",
+  "versao": "10.56",
   "data": "2026-11-06",
   "notas": [
-    "Gerador de peças: o DXF baixado de peça com dobra agora vem com a planificada (linhas de dobra na camada DOBRA, com o ângulo e o sentido escritos em cada uma) e, ao lado, as vistas da peça dobrada: frontal, superior e lateral, com as medidas (camada VISTA, só para conferir). O DXF que vai para o Limpar continua só com a planificada."
+    "Gerador de peças: desenhe e corte direto na peça DOBRADA com as ferramentas de sempre (Furo, Recorte, Linha, Arco, Círculo, Retângulo, Polígono, Aparar, Apagar...). A peça não planifica mais quando você escolhe a ferramenta: o clique cai no lugar certo da chapa, a prévia acompanha as dobras, e o corte vai para a planificada com as dobras mantidas.",
+    "Saiu o botão \"Cortar dobrada\" (não precisa mais)."
   ],
   "historico": [
     {
@@ -121,9 +122,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5047525,
-  "sha256": "1e175bd937822320413f38451c4f51dc18d86f29a6b355dcff1d6254e2ca8868",
-  "assinatura": "dWVdfbHT1lwJUZP5yfMrdFtTj+Y8crT5ABu/w8akdc3pRGm9BJHsuJqYaZm8WxjiZPLH7c3H4jc9JD6LmOQAMmlXsiYlRxpfGBzC1dYSpyRPPPnMUjyqHAGeu3AZ3pHkCaMBOrzCbzxJxU9+qNMANZi1eFH1MGFmgpzgUNK6+kuQZhuNVQAmZc1E2hQ4M6WfyuOQHu2M3/wkKaryijHlldIorKSj3LBuAAqC4rKuDeyvsXCC7i4XoeyDbAGAwpgHq6+v5FRZkahu+VIvtNyT0nxzXKMyhd5DJyPNJEolENtjhMXF0IptTi0O4yuQILGjlBdlzlAVe9sdHCJG4x2BUg==",
+  "tamanho": 5048717,
+  "sha256": "441a5280b53104331a2479d72fa2299e90fb4954824042761a3b9f95ae46a388",
+  "assinatura": "UK0QQR4vN2uWlvxIE526LHRUNfS5zBPjpWc2wG1LC9qoWezCQzuYWftp34aTgsnr0k9G1geJIlM9N4Bp7ZWjHCi+aCNi4aJR/GJFVuktzsb8c8nJGqyAfM1kk6mRjdpjoP06ngIRMBOAyiUBIbDhMSOrdUFdN5ThZA6qY+3PKWQclsPbXSwIN6qVv+b34yfbsCtEy/F6l4lQN0juuQsXXeCnx9DGmvyPT2tKVEjLeD7shTR1COyhn/Qo7DLtPdVWDLX798yjpG+oHTTdLgE74BZxIOKj4c/ch7IoBYp4f5Ua5C0A4Fuxp7BLF9iCe8ClQXUVtfAC/BPuUIV1GV4ZLw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "Wfpj85bbtqE1rPHbv+tPEEfOzUGC0/aJGPildWEKR9svpKzQv1hfgBBRD3vcHYRcMeYb5ZWH8+HdJ8HXT+hBVp/vP2ILeDwLAwM9acX2rtAW3eAdcVmXsvn6exd+Nbf93YWJKRHjY0P7GK2Wn+jh6e9ludofVZbio5JdORmw3S2pDozRzp3CexDXOUu2lbbFjJGeEpYOrVb6pKjybtQZtnGMa+fvKO3t/PFb/SyQW1NAR+JFdLi7uerWc/SLXGGdv1pyGLHg/pulV2ChXAAa6q3h5zZRD3XcoUshBMm4/VS8wfLQMVkG9u6raMlz9ZZ+zgUDV0jywDFkyhc8vYe4yg=="
+  "assinatura_extras": "QqiiRm0X0EMJeeqQTa6/tHgkzC+7Gk5ABRr4S0Db+tqa4DdiNB5jokdt8WD9nl+daFQP9dLRcLUsPQRPKfdgcXjzcTyHAPJMOWhixOtDMZ6vDW2kbH6O+RRlXPA8npCJCKnq4lwW3FiHGN8e//5NuXAleY2wJPQzIUwqLUA0LZD5LZGLrg84sRbmLwwg52uaEH5XaesTk0lG5kQVDj5keo96GK0rhP+V0u7Pg0AcevPfm10IHfTly+KjGWWJQPs2nWXLVjraRxYl3WAt2BjlzJoB/EDqkWUz/ivdsJllwC7VuHf9zH/EKMffYXk5PrB2g3s3kvzCUz/IAkM6j56AMA=="
 }
