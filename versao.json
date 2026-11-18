@@ -1,10 +1,8 @@
 {
-  "versao": "10.52",
+  "versao": "10.53",
   "data": "2026-11-06",
   "notas": [
-    "Gerador de peças: novo botão \"Montar no Projetista\" leva todas as peças do projeto, já dobradas em 3D, para o Projetista.",
-    "Projetista: quando chegam peças do Gerador, o protótipo de exemplo sai da tela e fica só a montagem.",
-    "Projetista: nova ferramenta \"🧲 Encaixar\": clique na face de uma peça e depois na face da outra; ela gira e encosta certinho. Mover, Altura, Girar e Tombar continuam valendo."
+    "Projetista: ao importar peças (DXF, DWG, STEP, IGES ou arrastando arquivos), o protótipo de exemplo sai da tela e fica só a sua montagem, igual quando vêm do Gerador."
   ],
   "historico": [
     {
@@ -123,9 +121,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5029577,
-  "sha256": "42c5f52638b86857a5b173815d74fd1559ce357fdd2d0ae12bdc279541901c39",
-  "assinatura": "gzEA9y1H/sf53fJWXHaxPh1ipUEDyzaoXIyPor3oxYgjMHjPFBJzTm7bsrmyFdv47ZmIzN1CVYOSFFQ8YBjdaoJG2djzhNinhoFEOKbqs7KFpv0V4LMO2F4LJ3WOfVkZoMWzLcmWK5oNpwZAAztIewy6JfxTJRMyD3fnGt6i7jebi8cMKVKM0X6YPVIRGKecl6EiYfyImViKlbGJm2Wl0UZPpNDytueoDUkkypB6veHIwWVYLFrVsyapXJfYwfvRfKhRCwFtoBD5CAchXRfEuXV7b5fqAQ8IIQ3fCWicqkp425JbyhI0lSUgCQzZ4gjRjZ7XTki9D7/TDm0v6hlQ1A==",
+  "tamanho": 5029749,
+  "sha256": "59e11a0c22b932cbe9edd6160e7774ad66fe20d204a8ff16eb4cbed107104e88",
+  "assinatura": "aKko9eMUMGZzMTsT45jBdJ6iFHCPCyW+QA9GWTu45y5OD+GpIe1w0a0/g/mONM01m+M/mv4qQRZ8GNJs0GJ84R3V+JcRtnrwA+M1HG3Zw3QvRQTxMHc4bsPUYAwtXj0sYc5WvjPNgWlG3PjoPZTTDzbNbPINqPtkkfPBfyu4QDvaKhsoIuPHzYqVkIkTYAyPnu40HC42zvDolTqSyDFAe11T6lBXF5iUV0mn0y2jvP7MbIz9rErtNxjD7mAEwvYB7ngqMicSVg4+aaZZWaL1T2MlW9hmlyugrZ5bMG3jnBTZA94872LAtAg96rswGHY8rkI9f9A1a9zItGX5pVYr7A==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "ebFE/0+0s7/GnwadG9NYGmkLaiuSjXXD5sp6EpAoeOod4xgjSdLmT8b2SGBySL8Mjl1JzzGD6Rp9qdIVVbv4qr0NXz/QZetsQ9W5jcAuvPRmISoxKB9g7OF3Afq6SLFh1qb76i5m5VXz/9Q5FjGiqCCDr98TpnDJnoqGGJutjSKqcjbeylTWq1wrRPPptI0h//feVfJ31fSt44db8bnsoxL+7hSrDo4PRbxaPoKNnHTGCg7gr3AR+ybfJaC/QIJtDnWAfdvQ7kCMXAFKh6+uLAmvgmGIpMMaoYX0fxJ+8xLizhZoSK3aj2mkkxzPU/BfT4liqieR4mEaaFDZYQNBBA=="
+  "assinatura_extras": "RZEZTRQohDnKZWhLhRL9UTraOZ+b+xmqUxH+Gj1QO250un+w7EAxAGDpm6rjvp/LoLIB0S5P07Mft+mzfDrC6B7Hc9UB1nb+CwwN+10pA0NGfQKmn+7RAJQ5Z0KAsmz110A7M5OfMHYOUHMxtk4CV5iQ1FSLoGIqjO7YO0gzgNUSz1CIhoNNNZeNRO0qWYZFtrmDrT65+3rCQt/32Kq1zwn1bGzkLFu7nV5sAdQk5FJjxJyDeiUJCLotW6D3kr7YsUPRBVcCRAN6D4pta+fwzT8igu1jJfC97i8+dL0jXtyMrXqWKXr8zIx8jGCtjUqK+HvXD7unszrnIfCsxYhtug=="
 }
