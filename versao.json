@@ -1,8 +1,10 @@
 {
-  "versao": "10.47",
+  "versao": "10.48",
   "data": "2026-11-06",
   "notas": [
-    "Vídeo da peça em estilo comercial: abertura com a marca, corte a laser, dobra passo a passo, vitrine girando com cotas em neon e cartão final com a ficha da peça e o contato da empresa."
+    "Vídeo da peça em Full HD (1920×1080, 60 fps), gravado direto em MP4: bem mais rápido.",
+    "Aviso \"Gravando vídeo…\" com barra de progresso na tela enquanto grava.",
+    "Corrigido o zoom da câmera no vídeo."
   ],
   "historico": [
     {
@@ -121,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 4968633,
-  "sha256": "2c657b0e8e465dbabbcc0d8eed708a0ec57ff1fd96421e2fe78da46c33cbfe13",
-  "assinatura": "g7OzZKYR1cEvjO4dSRaILcQL1+QSJdUJZmT8vlbGI0y6sJNCBphHgOETe0UBSqIbrScWQwOrgxAVi6Dmjla39lR88fETJjhcnq3J5eIU+9lVDR2yGWb67AF89+JKQoCr2Hpa+x3yq/BSFLt9IBQ8h4Tvc3+9mqufsFVxOC0TVyZPKeljjgfwpe4QB2tkWbUhwcCCfyirp9DREFXc8W7LCHJY8yHS/j0EKcMuOD3CqpOGWnu9/czKpee0x/LlrZKATnSQd7L8yZXSjkNeea7IiLYzfG2rgJo2/hoaxBFZHQSyX83poo1EE0x9J/Oo47slq09Z6VocIjn5X4EwJpdlMQ==",
+  "tamanho": 5013777,
+  "sha256": "6801b73e36d3069ba8f4812e46fd7b254ecc24b8dea33f5d2729b0530b4e423c",
+  "assinatura": "Z8GxW10jLKFPe3fTHHGANhd3BAl7TGhzkSmUjbohp5i9hSmbHf5IXywHNoV6aYfYk4YEUwyDD7guuQ3U/yEghpfwuYJ1gSF21TWMqdR4kgSiS+rXll1mT9syJKmojGnW0ksNgvk1ABDNyyLS+TTiGGJGMVnlVdLCEi5I+m1fy84JWLh0b2UPdIXpeOAIKRemAMYCybkp4dte9DMTFpAkzOcrhwianIcqJucjaRT1X1gbzxkX9hx2VuOq8Ao+ppKro5UhsJKQs21xkEUBI70R4m4EY5aSH/pzmCU+Qg7Rq2pmOx3zE2fxuC8GE93BumQxctsrOf4ahrolUySipznG+w==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "THwod8I00ZAQJ1r3sViz9GAIBu4W5g+GhF8mYP68JiylCuHfyw4sCe1W7L0kHQIbfSTAJmB9OYhkruII6r+tPjz5TDyAbUqYoLBfS7QGbi0iIXepo2fYFw9ZKBk4FkAIKDXOj8yJnBzJUsTPtuMF8exEeS9CSPLtjGomu5Jf+iW/pgG4MVULc089oTgNC6iotcQ/NdqyhUKd3fATBjXAY7TTh+Uojnw30P56rv+rFMWFbBJn1dnyJP1v/axnP8sdqaBiWxB59NZ7fxy5rMDEIthJ8RAg7sL1HWVaoyea5OvlBCq2sqDd8F7/Q44TvhV5cjc5nMh5AHVCDm+5uUleJQ=="
+  "assinatura_extras": "MwyM2A3hXat7wq3SFUrDi3mFTm5+YjVA738/4HsbdpP/VMliE1ErUabPDk2/Gkal/GhVh1JRiM4AaCmm8kgc1YgOvopdSqHveFr0jcLFF7y0gTokf+t7+ZdqBVVWG/l7gYaCtw6AxFK88QZri8ZYQ8uWO5G85udgeN909HlC5tRQauTDbMMT3RIhwOtBmj53lLo8AFezGkKqnrhVBSlADn5Cj7Lk3cXrM24NiK22Lmbe4MCVoEk8it75hRlJ+Xuk79PAA6dzjBCmTgIL9C+DR91GsgRfvTBIO9rkiLWRJSf83JseXjVByvNEynUdEp7g8WS+c+SvkhdHuPGsd092tg=="
 }
