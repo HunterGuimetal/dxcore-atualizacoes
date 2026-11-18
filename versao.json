@@ -1,8 +1,8 @@
 {
-  "versao": "10.53",
+  "versao": "10.54",
   "data": "2026-11-06",
   "notas": [
-    "Projetista: ao importar peças (DXF, DWG, STEP, IGES ou arrastando arquivos), o protótipo de exemplo sai da tela e fica só a sua montagem, igual quando vêm do Gerador."
+    "Gerador de peças: novo \"Cortar dobrada\" (embaixo, ao lado de Simular dobra). Corte a peça já dobrada com plano em qualquer posição e ângulo, janela/rasgo retangular, furo redondo ou oblongo, numa parede ou atravessando tudo. O corte vai para a planificada como recorte e as dobras continuam iguais. Prévia ao vivo; Ctrl+Z desfaz."
   ],
   "historico": [
     {
@@ -121,9 +121,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5029749,
-  "sha256": "59e11a0c22b932cbe9edd6160e7774ad66fe20d204a8ff16eb4cbed107104e88",
-  "assinatura": "aKko9eMUMGZzMTsT45jBdJ6iFHCPCyW+QA9GWTu45y5OD+GpIe1w0a0/g/mONM01m+M/mv4qQRZ8GNJs0GJ84R3V+JcRtnrwA+M1HG3Zw3QvRQTxMHc4bsPUYAwtXj0sYc5WvjPNgWlG3PjoPZTTDzbNbPINqPtkkfPBfyu4QDvaKhsoIuPHzYqVkIkTYAyPnu40HC42zvDolTqSyDFAe11T6lBXF5iUV0mn0y2jvP7MbIz9rErtNxjD7mAEwvYB7ngqMicSVg4+aaZZWaL1T2MlW9hmlyugrZ5bMG3jnBTZA94872LAtAg96rswGHY8rkI9f9A1a9zItGX5pVYr7A==",
+  "tamanho": 5044517,
+  "sha256": "a6b3af59d9d8c98539571855beee5c095c4853de278117d15e5dbf936aabb599",
+  "assinatura": "KQzyHLA0onVfemiutXTifd39QkSZwrzw2Hy0RRFMpCshAjl4ktw5iSNNvFhuxoo54PQWgR59QRYAkuT22C28rGMGDHbs5HPEPeHPgiDUWCPAeEXRGyzvrbyXEY4NOYw4oKFMe1snuwQD3dk8ABozDxRJDhJqTOm58YQ1QmWyGrMPnxJs/YzCfVdN4br0m0rzunvvUmchTWSBpwhQRI9xPA+s7diUtITT9Azfj2rGps9LhMuypae5nGUkZTB708HbSWjuUpBih3F3ypDJ9ytodSQ6QQzV3QjfWketoUpHLflLFoP+A8Z50TgWEKPQw0BEdBNZ/oTsfREukpCVNLpT3g==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "RZEZTRQohDnKZWhLhRL9UTraOZ+b+xmqUxH+Gj1QO250un+w7EAxAGDpm6rjvp/LoLIB0S5P07Mft+mzfDrC6B7Hc9UB1nb+CwwN+10pA0NGfQKmn+7RAJQ5Z0KAsmz110A7M5OfMHYOUHMxtk4CV5iQ1FSLoGIqjO7YO0gzgNUSz1CIhoNNNZeNRO0qWYZFtrmDrT65+3rCQt/32Kq1zwn1bGzkLFu7nV5sAdQk5FJjxJyDeiUJCLotW6D3kr7YsUPRBVcCRAN6D4pta+fwzT8igu1jJfC97i8+dL0jXtyMrXqWKXr8zIx8jGCtjUqK+HvXD7unszrnIfCsxYhtug=="
+  "assinatura_extras": "B0bH/Z9hl1Kw9Q04LAMNxFNc/tZxSsmvF+dfw8TRhFBmEc5rGsCLWVFD1eiRHp1hfoZJV/OqqL6VCuMgw7ee94iY73K6tUeiY5xNSJMrnJvvAhOW3Z3FcGPDMRtp66sHdsIlPQlRK2JVR/rPxvLMdB3JWvKGLUWV8sdl9kxIq4qmcKTwq5NBhL4bX1+h8YTkkZN3wjmYLSNfnvY7kDBdRq3yjZiDPK+svkNgzMlA+GelKSC1qavc3Fx6V1bkJpbh+ADbrFi2+6NWUv6HY64cLIBx4F5Xsnzv5deG0HLTP4XBxGi6O4dqG9MUhW0GTc0TK4IZSUW6KQRyQdJpofUJhA=="
 }
