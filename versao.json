@@ -1,10 +1,9 @@
 {
-  "versao": "10.49",
+  "versao": "10.50",
   "data": "2026-11-06",
   "notas": [
-    "Vídeo da peça refeito do zero, em estilo de filme de produto: abertura com a marca, corte a laser com rastro de brasa e faíscas, dobra uma a uma como na dobradeira, revelação com reflexo de luz e cotas, e ficha ao lado da peça no final.",
-    "Câmera em movimento contínuo, sombra real da peça no chão e textos no tamanho certo para Full HD.",
-    "A tela não trava mais enquanto o vídeo grava."
+    "Vídeo da peça: corrigida a dobra que bugava no meio (a chapa voava e ficava em pé). Agora a base fica parada no chão e as abas e paredes sobem uma a uma, na ordem da dobradeira.",
+    "Câmera mais alta no corte a laser: a chapa aparece inteira."
   ],
   "historico": [
     {
@@ -123,9 +122,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5020301,
-  "sha256": "9e110f5df903e5b1d28b41def8283d2c330a16030b481f89a924248e416e359c",
-  "assinatura": "Y+MnwC2dZtUgIhVetEvc6GGj+q6eop0yw3xtC0q7KWQNEVJFQr2KJwjO6Jys0avjKUEjMkBpFbCFrKzFqj2NDC0IIXHqTZK6oCC/kBMlT8QFNIfkTY++EhAIvqMtrcA2gaDmcewvl+Ho583tQCRGy4cz0onwF23j1aM+UfOnsBDWNPJoucoI2buGGOcSTDQdtfQvLy1KxoRhVrtRC5dTwiFe7iG/Kc2QTGarv6d3vFcHq3bIUniTQkQUv/+N47VDdG9is6nN4HlMESC5IiDIHnJenwlvzmZqk6MpgJTVq70Pk2DQDDcp7joWv8ZxX3Ad2GMsguvQOSWoaENqxWTztw==",
+  "tamanho": 5022445,
+  "sha256": "bfe8c1007770b5edac2c9300246e7f3abf043cd8ad13c34d413cb5ae58595ae0",
+  "assinatura": "PwVpawel3xOE3+tU/+9M4YOzsXBK9mB8weNIqzqdXU9b9ZIUjtCpOJGolIJMcd8p4j3rdW7b/H021TiZ+NVQhWM9bhWm/gl4KRcSlR75aprOwGadNXOi7and96HNPkveFOyEdFCEMmrvXsi8hB7n3cZd8YtgPwf7h0cXd7ZjhWA/BSqg+LkrNb31mrMXxP+7WQhiLlxJaXegEYybjNfP1pYeducALECg1POKm/Gvg+wdfTtM2sZxyiauG9i8kk7JaAQl9JaUx04qIMFNpTp0K1wW5xoZs2XglCRAfMd1o3+qTi4WzEEX4VqcSXP8og5dgLtRheI1+RdMKosM6Xd1/Q==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "Iw5mTbjZzaYCq72v3SZG/fQ28YCihplqQ60hId21vDKPzxje2FvZpGOI+zFZMMz9fhYiHMFF+Uy3LELrOieI7OCT63o4gPDvkMr2F8TELf/mY7dy6WBD2tuw70zy2a9Z9lIBaowTOs56wlDBRhHjKLFkjj8JkYuCQ02F2l/bLssb98vmjq+hxUSARrtaabaptfZVSnKFDdcAkzM8y1Ke1iuLZBpmWdCNAr/SgKyo+z5wuUFND4V9M1JD5fzFvDJsiLGvR5hRI7MezZH1kwih4kP1HR+6E3XtThw22to+C+Ej5LheJ85vWRsBtJhP5QjqZxXgEKMgE1bcsyhSRQRWXg=="
+  "assinatura_extras": "arY1rF1nXOVlCIBw4/Mg5fXBek7x/lRUGR8UcMgHgrCE8QaVtHx882yvLrGtr9TcacyfoMHqFkb2Vwtpkx4mEAPdOe5lPWhd6M7cmhEM4o/aVe03FbgqRqjN41dS1QpvtRykY9wMLIFGp74yR+hP3xN9qy3Q+mR9Wcinrn43436ADqqgnPdgSejpXtCkKKbumUUj20RlzGnehUq/EpPSrfIJRJ8jwG6+R+ABh3fNpFmDQ9EJVm6ljNcrp90VbAwlUT8+YTAHJFACKBZ6HrWbmltFUrb5KRSk79Y/v0YrZODSrGpaq7SWfwTweMFyJUXikGOwkfABKdclZXX/2P5Jzg=="
 }
