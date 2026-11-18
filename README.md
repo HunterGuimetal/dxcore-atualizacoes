@@ -1,8 +1,9 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **10.57** (2026-11-06)
+Versão atual: **10.58** (2026-11-06)
 
-- Gerador de peças: Apagar não leva mais a dobra junto quando você apaga uma linha do corte por cima ou perto dela. A linha do desenho tem preferência; a dobra só sai clicando em cima do traço dela. Cortar por cima da dobra mantém a dobra no resto da peça.
+- Gerador de peças: nova "Boca de lobo" (barra de baixo, com a peça dobrada). Corta a ponta da peça dobrada no formato do tubo onde ela encaixa, como no degrau de escada caracol: informe o diâmetro do tubo, a folga, a ponta e o eixo do tubo. A pisada e as abas saem com o recorte certo na planificada e as dobras continuam. Prévia ao vivo; Ctrl+Z desfaz.
+- Corrigido o alinhamento da peça dobrada em peças simétricas (perfil U): o vídeo e os cortes na peça dobrada ficam no lugar exato.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
