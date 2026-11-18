@@ -1,9 +1,8 @@
 {
-  "versao": "10.58",
+  "versao": "10.59",
   "data": "2026-11-06",
   "notas": [
-    "Gerador de peças: nova \"Boca de lobo\" (barra de baixo, com a peça dobrada). Corta a ponta da peça dobrada no formato do tubo onde ela encaixa, como no degrau de escada caracol: informe o diâmetro do tubo, a folga, a ponta e o eixo do tubo. A pisada e as abas saem com o recorte certo na planificada e as dobras continuam. Prévia ao vivo; Ctrl+Z desfaz.",
-    "Corrigido o alinhamento da peça dobrada em peças simétricas (perfil U): o vídeo e os cortes na peça dobrada ficam no lugar exato."
+    "Orçamento: em cada material e espessura, botão \"Chapas de tamanhos diferentes…\". Digite as chapas na ordem do corte (ex.: 1500 × 1500 e depois 1500 × 1000, quando a mesa é dividida com outra espessura na outra metade). O encaixe enche a 1ª chapa, passa para a 2ª e assim por diante (a última repete se ainda sobrar peça), e o peso e o material saem pelo tamanho de cada chapa."
   ],
   "historico": [
     {
@@ -122,9 +121,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5051993,
-  "sha256": "7261fd7ced866fb6f83f633448308ed40db447c7d2a9f22f47528d1938642662",
-  "assinatura": "SIt4ND5QKkf1FjPEtevcGzf2HXTGUy7oveQRIcwLzfc0tyo3SNmtUYX9pmOJJGQFoJgikaqq6qGG9eh/Vm/fHeC9HaL9hd5HkzNsExDfHv0UYC6rrni0bULQ6LQ3tHtArw/XOQXCSvg2ZUge9VlgAWGraBV8u3l92JI/Rv+WVRr+RxcQk+iS4ndWSLcA/PDK4NYsLmdTmlFyzlgFSJ5KJe9jLLStnqT1Av5pJ6pn8a8b+9oHRSw09deSg8wMwWKmDuS0i0WlNBmPCuukcLmvsCD9jkH+EWWOMsEoeCFBi55R92HyKLxoOy3wvHVPJ0/qO9yweQxJiADcU18XexQjjA==",
+  "tamanho": 5058553,
+  "sha256": "9b915e3a39d30808e4d44b0ec367195a4c5b16282d0947a5f2dd2e2d1792a570",
+  "assinatura": "jSMEHg6ekc3XvZMX94BJ5f94JAu0eAuq5Ecp85eBT9mwkUxSBywYsOdHivL+NP9Omsasuj8lrRpQDC1BSGDXOJonIIm/ISCRSicbcuBRIQxf4bzeQB/LzT2ncAgn4dKR7FAwJU3iAH2crDA6wxd5dDunjT9tLUZft4Vuv8dNLoXMZCdU0S8Jvw0Mkt78k0rNTLOwIDt1uIAC5KWvfIpcz7q1QyZSj/W5ETEgs6H6x4PdC0rLMrXIoNkwxHkDIPpRPR10nJ2qGyAT/XCOdC8DmkQNk357e9aqliNkuaailPlCTGkLHeEmz4oUMg0h+h+1hKKQMwE+tfXzSEVGv36m3g==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "PFp3hP7l06GxD33H5r0Qeflbrkxrun2Lvvv3xeL6aDIlJHntsLHVUxAXzs0+HdLbJ826Mm1LNl9uBss3tveqArYj+yknrmidJk0LAIp8L9Fy5p+CMUXCZpxrUHfdwNMZIawjlRH97kDtX7DUZ2w2E8qjVnDo1P2VDBkCakXlL8jRBkPihT6NEwyW0FuqNuM1zqrv1xGa8mthbbPYrEXRBoZKsmwmvZSI7noMhZeD2nuxH3JFLsIPzwCsCfMg73/c+H5BVm+cGSpdJjUQPEEUSXQDOxKp8lY2cpKrzuS74hppymeWVMNojGD8ccuUX+f1gVuWhLyR4qfDvWLRSDDY4A=="
+  "assinatura_extras": "ApQLINubfqjVKifvZSWB2mkvG9HStCGvDPEJGi+pDd/0nGiuBqL1QINRTPZfex1WNxKwGSTwZMNQaWGQkL0Y+LD/7DKp2RiMzkVTSCLEoFKhbFEFeTjPKsu416ImeE2xitzK8oc+WLQwZdLn7DT2jt9UOnrPFUAU7Sqn65qU1aZHfglQA78zFOWVWW/atNBW8k3RqnuwmilsyhvIWx1Vp1mZH4SMynixpa9ctApiIIeuVLNCyiu6CnJSocckGx4dooX9vZR5ij71/UvylfuLWl/zfZ6VIWeq6RKSw7slRknF9cstBTPs2ntWyXHSNi3l+SKLwXKdw659oSIRRKruSA=="
 }
