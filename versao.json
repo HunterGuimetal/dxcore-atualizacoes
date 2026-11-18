@@ -1,10 +1,10 @@
 {
-  "versao": "10.48",
+  "versao": "10.49",
   "data": "2026-11-06",
   "notas": [
-    "Vídeo da peça em Full HD (1920×1080, 60 fps), gravado direto em MP4: bem mais rápido.",
-    "Aviso \"Gravando vídeo…\" com barra de progresso na tela enquanto grava.",
-    "Corrigido o zoom da câmera no vídeo."
+    "Vídeo da peça refeito do zero, em estilo de filme de produto: abertura com a marca, corte a laser com rastro de brasa e faíscas, dobra uma a uma como na dobradeira, revelação com reflexo de luz e cotas, e ficha ao lado da peça no final.",
+    "Câmera em movimento contínuo, sombra real da peça no chão e textos no tamanho certo para Full HD.",
+    "A tela não trava mais enquanto o vídeo grava."
   ],
   "historico": [
     {
@@ -123,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5013777,
-  "sha256": "6801b73e36d3069ba8f4812e46fd7b254ecc24b8dea33f5d2729b0530b4e423c",
-  "assinatura": "Z8GxW10jLKFPe3fTHHGANhd3BAl7TGhzkSmUjbohp5i9hSmbHf5IXywHNoV6aYfYk4YEUwyDD7guuQ3U/yEghpfwuYJ1gSF21TWMqdR4kgSiS+rXll1mT9syJKmojGnW0ksNgvk1ABDNyyLS+TTiGGJGMVnlVdLCEi5I+m1fy84JWLh0b2UPdIXpeOAIKRemAMYCybkp4dte9DMTFpAkzOcrhwianIcqJucjaRT1X1gbzxkX9hx2VuOq8Ao+ppKro5UhsJKQs21xkEUBI70R4m4EY5aSH/pzmCU+Qg7Rq2pmOx3zE2fxuC8GE93BumQxctsrOf4ahrolUySipznG+w==",
+  "tamanho": 5020301,
+  "sha256": "9e110f5df903e5b1d28b41def8283d2c330a16030b481f89a924248e416e359c",
+  "assinatura": "Y+MnwC2dZtUgIhVetEvc6GGj+q6eop0yw3xtC0q7KWQNEVJFQr2KJwjO6Jys0avjKUEjMkBpFbCFrKzFqj2NDC0IIXHqTZK6oCC/kBMlT8QFNIfkTY++EhAIvqMtrcA2gaDmcewvl+Ho583tQCRGy4cz0onwF23j1aM+UfOnsBDWNPJoucoI2buGGOcSTDQdtfQvLy1KxoRhVrtRC5dTwiFe7iG/Kc2QTGarv6d3vFcHq3bIUniTQkQUv/+N47VDdG9is6nN4HlMESC5IiDIHnJenwlvzmZqk6MpgJTVq70Pk2DQDDcp7joWv8ZxX3Ad2GMsguvQOSWoaENqxWTztw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "MwyM2A3hXat7wq3SFUrDi3mFTm5+YjVA738/4HsbdpP/VMliE1ErUabPDk2/Gkal/GhVh1JRiM4AaCmm8kgc1YgOvopdSqHveFr0jcLFF7y0gTokf+t7+ZdqBVVWG/l7gYaCtw6AxFK88QZri8ZYQ8uWO5G85udgeN909HlC5tRQauTDbMMT3RIhwOtBmj53lLo8AFezGkKqnrhVBSlADn5Cj7Lk3cXrM24NiK22Lmbe4MCVoEk8it75hRlJ+Xuk79PAA6dzjBCmTgIL9C+DR91GsgRfvTBIO9rkiLWRJSf83JseXjVByvNEynUdEp7g8WS+c+SvkhdHuPGsd092tg=="
+  "assinatura_extras": "Iw5mTbjZzaYCq72v3SZG/fQ28YCihplqQ60hId21vDKPzxje2FvZpGOI+zFZMMz9fhYiHMFF+Uy3LELrOieI7OCT63o4gPDvkMr2F8TELf/mY7dy6WBD2tuw70zy2a9Z9lIBaowTOs56wlDBRhHjKLFkjj8JkYuCQ02F2l/bLssb98vmjq+hxUSARrtaabaptfZVSnKFDdcAkzM8y1Ke1iuLZBpmWdCNAr/SgKyo+z5wuUFND4V9M1JD5fzFvDJsiLGvR5hRI7MezZH1kwih4kP1HR+6E3XtThw22to+C+Ej5LheJ85vWRsBtJhP5QjqZxXgEKMgE1bcsyhSRQRWXg=="
 }
