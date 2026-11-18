@@ -1,9 +1,8 @@
 {
-  "versao": "10.61",
+  "versao": "10.62",
   "data": "2026-11-06",
   "notas": [
-    "Gerador: DXF com linha de dobra inclinada (na camada DOBRA, ex.: degrau em trapézio) agora entra com a dobra, com o sentido e o ângulo escritos ao lado da linha.",
-    "Projetista: botão \"+ Tubo\" põe um tubo em pé (coluna ou tubo central de escada caracol). Tubo mandado do Gerador também chega em pé."
+    "Projetista: arrastar o degrau até o tubo não manda mais ele para o topo do tubo. Ao soltar perto, ele fica na altura em que estava e encaixa no tubo, apontando para fora."
   ],
   "historico": [
     {
@@ -122,9 +121,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5071089,
-  "sha256": "12a089d710fc9dde4cae545beea0d28e88fa500bdbdbc047b77f9d7d00bcacdc",
-  "assinatura": "hE4dlr/8asHgl1QIWOBYXsd1r5GOu8djCZz2NVUDXv2xo38N+0eaD3jmB8nxPs3mt2erQ+Igfi5ks+9irEZ8BLsO/8ZooGEd73PFZqHA9N+9XZYPF3385YzjVFYfuv+VfpQpF1T1gADEsYm4pgkyIrNpbkl98tm3OZVMxcFMhnQzw0FzRl/Q4HQWQ0zovBrvPDIbSs+T+9zJr1VZYE17+K1cA/FhzOIe3E7LQJuzl3RA+m7r7YnnbwPDJGuiObE5dZKm3I9dP5bB6F9EoNebkNAfj9lwV1D25bEuGZu1laj1Az5Oj/z5nL1hKYRfR1x6rPMRPmWYcmnLb3xJLRx3FA==",
+  "tamanho": 5071485,
+  "sha256": "bc733c53a8e05e46bceaf27f2ca98353eac5409ac989fb60f9e76f5561871195",
+  "assinatura": "e1i9KcxWD4FGcjCKb8fLKN3LqSx2FQ1DaACop0m/JTvUIRtR8i9+MPQ/ZXGPMSt8TumPnXIoXWWWt4gkHBvoRGnvdm/mpdIeHhT5KQgi4AmI5yu5YfBqJU19nidXYitAICjLQYV1eUuBXZ3FEUKNjjbFCbP0AAy/GxmF5WM9shZGPWOOSC7I9UH5rZdPCCm50wu3QT1Fv3LndNtWzHsB7kzhHyeWKWygy1U9yUh7AFDurtyFsfT7e1r9Y88r/0z+Ym7Rb44+uVNx47sq1GJa6Wb4yNsTSJPF3T1wgyBF22Uzpj1ro2uJ3x1bMfL4vxBN6/Avhjjq7OOifCXAeEZdRQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +146,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "D27b+BBGn5szgoNraCOwwTfmbGkjawgTWlbG7qB4vG8BdtEIGD1ZbyZ2MCdkAGhQ5a1MJ6ILgGPGv8Sw3PE4QLy56Q57LnL41/3J2qEECcse7EMwAaBa0skilDO3wGg6ByZTjTxudgtTUrHUXbwLq9QwJdSz0Lrt1qOLDvClMvbpfGJMMwqOvVJNzFIIIsudveZvitXW3bPhEy5gs87ar7QkbKRgVuxNrFB0CkWOwnOcJqdBhcK5ZuaFqKVHAGjm6qmwUbMXQrATGksbbjBESr7bgq4MrNNpEH/oeV7eM/QZcT5QRqx/OHcMt1kufCgmKyC0MkdQUOO5BipmBcTmeA=="
+  "assinatura_extras": "dydWilKVFmEnt6pIPF4BH42HnuGqOg8xq0Pio6hsFewLrvKaquR0np9K+kOyofXR/MFnodiuUw5qjzo8WWCQvXPwok7zhswy0BZKYVg0UVIvSKEcd0/nzK6D6eQFw78CMZeE8e5es1i2DnEhJPW6NF7fk+bht8vmHwLrBMFHy6fu2Qm+IJDFT0C3G0/zc6MyBWkqYaLHeLczCSHECVzIHY72A28/5ynTvBeoN3bIAlZmSEt4Z5xVFWvKxypmpdET2oQo4JFtQQT84fnAXmWtoQGzs3yIJFGddas3FFPS2vAnJF6GFAs7E6MOui1gUE7tOhYfbkjceIB9uXpHitR0Mw=="
 }
