@@ -1,8 +1,10 @@
 {
-  "versao": "10.62",
+  "versao": "10.63",
   "data": "2026-11-06",
   "notas": [
-    "Projetista: arrastar o degrau até o tubo não manda mais ele para o topo do tubo. Ao soltar perto, ele fica na altura em que estava e encaixa no tubo, apontando para fora."
+    "Gerador: peça importada de DXF com orelhas (dobras parciais) agora dobra a orelha inteira na vista 3D: acabaram as lascas atravessando nas quinas.",
+    "Gerador: na quina onde duas dobras se cruzam, a vista 3D deixa o alívio de canto, como na peça real.",
+    "Projetista: botão 🎬 Vídeo, um 360° do projeto para o cliente, com as medidas e a ficha do que o projeto tem (Full HD, 60 fps)."
   ],
   "historico": [
     {
@@ -121,9 +123,9 @@
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5071485,
-  "sha256": "bc733c53a8e05e46bceaf27f2ca98353eac5409ac989fb60f9e76f5561871195",
-  "assinatura": "e1i9KcxWD4FGcjCKb8fLKN3LqSx2FQ1DaACop0m/JTvUIRtR8i9+MPQ/ZXGPMSt8TumPnXIoXWWWt4gkHBvoRGnvdm/mpdIeHhT5KQgi4AmI5yu5YfBqJU19nidXYitAICjLQYV1eUuBXZ3FEUKNjjbFCbP0AAy/GxmF5WM9shZGPWOOSC7I9UH5rZdPCCm50wu3QT1Fv3LndNtWzHsB7kzhHyeWKWygy1U9yUh7AFDurtyFsfT7e1r9Y88r/0z+Ym7Rb44+uVNx47sq1GJa6Wb4yNsTSJPF3T1wgyBF22Uzpj1ro2uJ3x1bMfL4vxBN6/Avhjjq7OOifCXAeEZdRQ==",
+  "tamanho": 5087381,
+  "sha256": "804e4aa6b3b45529f49e29354af28a139ab234427f3bbd55f47160b9dd1cdcc5",
+  "assinatura": "YsNSEi2RfK+yQqbHL6KIUhFyRFOzyviRsvsbYGqWs84HPTAixBd1WAHoECDjrTtqvBqJCndjbewIiMICqm/PIGo7k/4yDHlsF7UsLLzmm6IHxrang9KHuviPJEpBvfKFZIv+uuFeN3SYiDA4z35QXLzWHh3yyrF/ndFOHD6OwkauneQixo+0wX4wVX6L6TIS+wObMvJLxhGAOWuSCUS2oIO2bKeioBzKCFNLO/9E+ojh+1HPV14zCTwTJE9oQfutqiPAqTLF/HviiuMaamHy7RnME2dVXZ6ZQLSQ39eZpqblIqF+7T4SbWEUsGgupzIGDzhxuZB/rNT33sI7N3k5eg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -146,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "dydWilKVFmEnt6pIPF4BH42HnuGqOg8xq0Pio6hsFewLrvKaquR0np9K+kOyofXR/MFnodiuUw5qjzo8WWCQvXPwok7zhswy0BZKYVg0UVIvSKEcd0/nzK6D6eQFw78CMZeE8e5es1i2DnEhJPW6NF7fk+bht8vmHwLrBMFHy6fu2Qm+IJDFT0C3G0/zc6MyBWkqYaLHeLczCSHECVzIHY72A28/5ynTvBeoN3bIAlZmSEt4Z5xVFWvKxypmpdET2oQo4JFtQQT84fnAXmWtoQGzs3yIJFGddas3FFPS2vAnJF6GFAs7E6MOui1gUE7tOhYfbkjceIB9uXpHitR0Mw=="
+  "assinatura_extras": "LcWtBeTPN7VEdZf3j33Gd7vi1glUwd971bgL3BpJ8M5OFofh4Ip3Zvhf7FDRFg0O7AAfqtFtx8tfWJfo6qFr4/n9nTfOX8TDlVKa7od68K6md/rk0NIiai10DVYH/dZeOrfuCZXZ7IIwyLOeXyIY7ktbkOZbllStHVBZ5W5mxYwP0Od78lEsKt+qbnuyn0kQm7UiDJe5za0He6ku4tAIb2o+SbSRebcRM3HVZm4zaSF5MVHy/kvKxJmZbr6gmkUUxF+TAcsv41QzQM4tnPiQ+5rloVUJGdkHPTr8pp8kd4oX7WB2kkJsUxiZLA6F9s6jWRum60lg9ZNt3i/oF/mQqw=="
 }
