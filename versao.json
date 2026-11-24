@@ -1,11 +1,18 @@
 {
-  "versao": "10.66",
+  "versao": "10.67",
   "data": "2026-11-24",
   "notas": [
-    "Projetista: tubos redondos de projeto STEP não aparecem mais como cone/gravata: ficam redondos do começo ao fim.",
-    "Projetista: a 📷 Foto de projeto importado sai com o nome e as medidas dele (antes saía o nome do protótipo de fundo)."
+    "Projetista: o 🎬 Vídeo de projeto importado gira perto da peça e as cotas ficam em cima dela (o protótipo escondido atrás entrava na conta e afastava a câmera)."
   ],
   "historico": [
+    {
+      "versao": "10.66",
+      "data": "2026-11-24",
+      "notas": [
+        "Projetista: tubos redondos de projeto STEP não aparecem mais como cone/gravata: ficam redondos do começo ao fim.",
+        "Projetista: a 📷 Foto de projeto importado sai com o nome e as medidas dele (antes saía o nome do protótipo de fundo)."
+      ]
+    },
     {
       "versao": "10.65",
       "data": "2026-11-24",
@@ -110,21 +117,12 @@
         "Encaixe · com vários tipos de peça, o DXCORE testa a ordem dos blocos e fica com a que gasta menos chapa e deixa a última mais vazia.",
         "Encaixe · chapa de fechamento: quando as peças da última chapa cabem num tamanho menor (3000 × 1250, 2500 × 1250, 2000 × 1000...), o orçamento avisa qual tamanho usar só na última e quanto de chapa economiza."
       ]
-    },
-    {
-      "versao": "9.42",
-      "data": "2026-11-03",
-      "notas": [
-        "Encaixe · orçamento com mais de um tipo de peça recortada: cada tipo vai na sua grade encaixada (a ponta de uma peça entra no vão da vizinha, em fileiras, como no CypCut), um bloco depois do outro. Antes ia para o encaixe livre e as peças ficavam espalhadas e misturadas. Ex.: 1500 + 1500 peças em I de 60 × 23 mm cabem em 1 chapa de 3000 × 1250 (antes, 2).",
-        "Encaixe · com a mesma quantidade de chapas, a grade organizada tem preferência sobre o encaixe livre.",
-        "Encaixe · montar a grade ficou mais de 2 vezes mais rápido."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5092369,
-  "sha256": "921dcb7ccfcb401ed4a82335646b8f7afae082b76f42d7c3949864d8f96abdd5",
-  "assinatura": "Ut1jMe94EBS1K5wl9EfOOAxA1yEHp1VV6stYC1wiFRaLIFSladiOtqnP3qgD4bjyzvmWh0irYSFwpclOKACWgZOskQQi7YHr1vGZ8TLTc3GpyrZSXG/6Xljnfo4HgMcOm5jKmKPUsBGLtuCyDuisFUohO8tu+H9V9p9caw7LedssgYphFVlFHeMESnetVyLqd94XpxsuxKd3YMTK57wqa9Zxe4uCHI5EeqgN9lQdM3bxZBg8RjW4oJDhWjOcHV7yPXW1/54LKKo5bkE005sE+qE8rjK5OYac/3lBJkW59ONUWJxcPcYmyoann0eRF50+aWRPXa56OoUY1AqaETPQxA==",
+  "tamanho": 5092893,
+  "sha256": "d34efffd18efe9fa5bcc3394b41aa9d1e5fa39f744b16dd72ea55f485921e592",
+  "assinatura": "d4/QW9rv6in9BI7+arNCXh7Y1s321DS5QmTKmga1NfmjLGdFYXHcEJFEZ+6jRvTJSIsOnxPt4hSaaz3MGep2ftuTkB5RuA3Wbaa4ShaVgKJGs1VAuW8MXbOnw3ljxpsc7QCPtONfD7mkoo169/MM3cyZ56R7MKL/XGLaZJIoIQXejb4nyR/CLZohZMgEXQIAOb7fiutfNarfewiqZDbKWs605Afxyk5UfIENMqJ57cMDHg0YzHnaYFnj2DLoKbYzBtCSJlkk9mAXfHady79B/Ag2/xvDOfpT5aBEwrAPeD+nuemr8sJ3F9OJ+d4IkaG1XFty8m0cnOqMWoIolAJekg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +145,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "Tkqvx3SVlV87gJyp5xKh3Lg1uNBsUsjGmZzNw/d2TumpjbMR+tx1LsFLBsjrUVbykZrAmFxPMzLj1+iCLOZPCXfZvBZixFbLZe6H4NtcyMfYqIzEft5aMdsUOcu1ViNI2VIXKGHfel68sUjA3+F9EpZTdKHObYWzbgt/n/3utmOkCxw5D91XiQLxE86fkdZEcC9LEYtTCXY6DjWnOKOO1N5yeCZsaBj+CDh5aKEU4jVzdFBiBanOnkMeCHQ3rSeJE0yrbAUdOBOpJJwu6NdrfgEet3IJiUeqnvlfs6MdLyo1f4/lbwWJoXXrGhLlC0IIBV+DmAhQJvwvCocS1nKhaA=="
+  "assinatura_extras": "kDFoFnVJR0dA4OC0PBOXZZ4rgsnfSrGLprfeiI9+vG7mSZotZTuN6PsPFqpvEXLU17ds1/odBHoQN9XyvNz3zdlACejpXLD5Ia5wLyKyOjXPWO8HVeZZ4JdmrkboTiiUzMky1IO4G3TuYc5IvglsV0zyitcYJ1jaBK1ZErmVfCdSrDCx2o75NcizpoAIwdOu28f++0UxjjK3jPeY1IDyPrHBQd4ylAM6sBU00YbnZ6qgPnR76v0pRCHT3SRsrm7+8x4eyI5jis4z5uZGJbDR0RegbpozK21YzDo1GJmZ6DlVCa9heSV8uI+7Jkx+ggrUbqCeBv8EJBT8Pa3HFPoJYw=="
 }
