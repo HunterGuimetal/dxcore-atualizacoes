@@ -1,10 +1,17 @@
 {
-  "versao": "10.71",
+  "versao": "10.72",
   "data": "2026-11-24",
   "notas": [
-    "Projetista: peças iguais de tubo/barra ficam numa linha só na lista de corte e no orçamento (pontas medidas com 0,1° de diferença separavam a mesma peça em duas)."
+    "Orçamento: barra redonda maciça vinda do Projetista entra na conta (antes dava \"peça com dado faltando\")."
   ],
   "historico": [
+    {
+      "versao": "10.71",
+      "data": "2026-11-24",
+      "notas": [
+        "Projetista: peças iguais de tubo/barra ficam numa linha só na lista de corte e no orçamento (pontas medidas com 0,1° de diferença separavam a mesma peça em duas)."
+      ]
+    },
     {
       "versao": "10.70",
       "data": "2026-11-24",
@@ -114,19 +121,12 @@
       "notas": [
         "Gerador de peças · a cantoneira pronta continua sendo cantoneira depois de editar o desenho (mudar Ø do furo, arrastar furo, girar, linhas editáveis): o botão segue Orçar cantoneira e nunca manda para o Limpar. Furos e recortes que você mudar à mão entram na conta de corte e de contornos do orçamento."
       ]
-    },
-    {
-      "versao": "9.47",
-      "data": "2026-11-04",
-      "notas": [
-        "Gerador de peças · Cantoneira com furos e recorte: novo campo Como vem a cantoneira. Pronta (laminada), o padrão: vai só para o orçamento como cantoneira (corte e furação), sem dobra; Baixar DXF, PDF e Mandar para o Limpar ficam bloqueados com aviso, para não virar chapa planificada e cobrar dobra. Dobrada de chapa: continua planificada, com dobra, para o Limpar."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5099813,
-  "sha256": "f67d31f73d17b0cbfa939f8ffc2c8f119feb4807e3a6505092d93c6cd9ba487f",
-  "assinatura": "QEzJYE5QzazIJDYkgsxRXbnsDI7oDysb63NGgsWhBNJDhP7k1MOfBmsdqLdTabSVnO/xh1WiVP/xoMp1xtt8MK/qSXLGMhRDyUhhKlwqbXayT++EKu5IU77wxpfRyl7jJXouQvsuHXul3RhLS8CnBViTzQMERfwPfd3kDEX22UhymaNBVoMmVmepkBrVGnHP4I0wqAhbQ3/P+2E0wJddOcrhw2b5v5SipZrBylLrkG/wY9maHQ1vykPvZV+fIdjoGHxp4bUdJt/FFo0mHhk2Uwq/D2ntiBMYCGz+h93LsFTVDp1cpHJP52a8luCXCbILqf68aju5TMfdt9XQc0DqWg==",
+  "tamanho": 5100185,
+  "sha256": "662a95226bb00cd9cd643e48fd1560e996d2adbf52f7bd59c2eb41fc4d623c67",
+  "assinatura": "DPQB6BUCTLQSdeot7AMVItpsbEsFi3NyuxIVRFO6VFhsrKf9T+RUkt4wTg6QYbRDeoMb2nk8SfNZou320AuN2P6FvwRKCLjg2EE+wNvlzC4iwNaG47V1kdmoVciEhebcdnVUcs8h2KTZ3itIufpopinMkl4yIGClM4ueKDicG8Vr5lM3oyGFDTbbYYP1kzI22LCE3WUciMQvFu/qEDJeFCaTbW9GxDlxsFst2Hu2nHDW1SSIHd+9cDPAD9dfmbNGrjn7AffLpVOv9n9+89StpcsX2DtJ5Lfnw/PLWrQYNCnTWI6GmFmtYq9kAsQDnFdbqmZUJXoj4+/VzFTdmYCXWA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -149,5 +149,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "dKjOKJSbrGhCYtxLBxYkT7lc/80fwqUsHcPwgEdZWZkRyVl2VgiIpR3ykOavLioKBBh0tirHSt2M8kj1pb1rolaQQoMDC8zNXjF/H5dDnxGUNmhzHpV3E7DqrQ6c3g4Tv7UMLwSn3SbOmNsWyDEIaqwog1Y5QcKMyXVQuDOrcIZy6ftfJlzaPytMiRCEZCC4SuiJrRQt8g9Odg4Rm6vha/QSnQNLlr85e9XCu8LNsgQZNssHDfb8mR0Y5hKoVnUzMkPSySEkO8YBoayFVI7kVGuQN9z+NqpdtVE5XBU2u9tzg9+V41TI6oD73JSiz5USm+ibfFaCkz4DsPOFHytqKw=="
+  "assinatura_extras": "QZMR04z9ZfpmN00vYrGvc0NXhqkiOW2W63x3oqLSvCgwXqCLouYP0ber5jxTXYgQeUZBVgYPOKizM8q+U9FilGlYTDgzIpKol2FhRQSCqzCEGPL4k2D23geItXDPdm+nUWybyFzDX2H+1yYjkE7ELTKq/vaCrSjRb1sSRCQ+2PEG7MAwqSNmz72T4c1LZh0nOzeWyyYxYXYwCj/vShr3jxkX9g4fGhDbFtLYcy7O7uvNgvUM5EI9JUWTHrWvTTndyiMVYZT2h8W7N1BsODthth199QXha3Q4jDiq82ce5Oe+CMQL2C8QBbid0mFhUbP+dhia4zJWoGvqOFwObP4uvw=="
 }
