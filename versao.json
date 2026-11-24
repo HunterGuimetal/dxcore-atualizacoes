@@ -1,10 +1,19 @@
 {
-  "versao": "10.67",
+  "versao": "10.68",
   "data": "2026-11-24",
   "notas": [
-    "Projetista: o 🎬 Vídeo de projeto importado gira perto da peça e as cotas ficam em cima dela (o protótipo escondido atrás entrava na conta e afastava a câmera)."
+    "Projetista: chapa de STEP com borda curva feita em spline (como o suporte curvo) aparece curvada dos dois lados; antes a parede curva vinha achatada e reta.",
+    "Orçamento: chapa mandada pelo Projetista vai com o desenho real da planificada no encaixe e na vista 2D (antes ia como retângulo).",
+    "Projetista: tubos de STEP ficam mais leves na tela."
   ],
   "historico": [
+    {
+      "versao": "10.67",
+      "data": "2026-11-24",
+      "notas": [
+        "Projetista: o 🎬 Vídeo de projeto importado gira perto da peça e as cotas ficam em cima dela (o protótipo escondido atrás entrava na conta e afastava a câmera)."
+      ]
+    },
     {
       "versao": "10.66",
       "data": "2026-11-24",
@@ -108,21 +117,12 @@
       "notas": [
         "Gerador de peças · novo modelo Cantoneira com furos e recorte: cantoneira L dobrada de chapa, com furos iguais nas duas abas e recorte nas pontas (trecho reto a partir da quina e recuo na borda). Medidas por fora, como no desenho; o padrão já vem de uma cantoneira 64 × 64 em aço carbono 6,35 mm com 1689 mm."
       ]
-    },
-    {
-      "versao": "9.43",
-      "data": "2026-11-03",
-      "notas": [
-        "Encaixe · pedido grande (mais de 3.000 peças) com peça recortada agora é encaixado com a quantidade inteira, sem dividir em blocos repetidos. Antes podia sobrar chapa: ex. 6.000 peças em chapa de 2500 × 1250 davam 4 chapas; agora 3.",
-        "Encaixe · com vários tipos de peça, o DXCORE testa a ordem dos blocos e fica com a que gasta menos chapa e deixa a última mais vazia.",
-        "Encaixe · chapa de fechamento: quando as peças da última chapa cabem num tamanho menor (3000 × 1250, 2500 × 1250, 2000 × 1000...), o orçamento avisa qual tamanho usar só na última e quanto de chapa economiza."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5092893,
-  "sha256": "d34efffd18efe9fa5bcc3394b41aa9d1e5fa39f744b16dd72ea55f485921e592",
-  "assinatura": "d4/QW9rv6in9BI7+arNCXh7Y1s321DS5QmTKmga1NfmjLGdFYXHcEJFEZ+6jRvTJSIsOnxPt4hSaaz3MGep2ftuTkB5RuA3Wbaa4ShaVgKJGs1VAuW8MXbOnw3ljxpsc7QCPtONfD7mkoo169/MM3cyZ56R7MKL/XGLaZJIoIQXejb4nyR/CLZohZMgEXQIAOb7fiutfNarfewiqZDbKWs605Afxyk5UfIENMqJ57cMDHg0YzHnaYFnj2DLoKbYzBtCSJlkk9mAXfHady79B/Ag2/xvDOfpT5aBEwrAPeD+nuemr8sJ3F9OJ+d4IkaG1XFty8m0cnOqMWoIolAJekg==",
+  "tamanho": 5096361,
+  "sha256": "27a4e8e2661b7781998f6d8a6895a1260d1cc3b9ec02c45be34ee94be53ea022",
+  "assinatura": "gHDpVR8FKpruCX4y//GdLOipw5rpjNOXIvs1v//QVZfQBejO1pRRjFIq+ySIs4nXWARcAjD/fqvZddQfUjBib4FxjW2LXaFMgYjv3sqWlAQ2/x2GGFUNMefbmLdebuNChFCkLMF2QWaZdE6HqpNyZRDvE2VbFhIBoxrGHRNBsNEtd6zzC4Q2T/lACCPpY7h5MjLumZ0I5PAnnH+se3HAvFtGC2rGuBH1fyBEjXIEQH9QKx5LFkYl/T36x44yBI53f8GJvDMat0YMXqMdteRjLZVKKQk8TZVTjSzLXXKAc1+ru8InnJUYkwVj0bVlZphLyO0UMV1dzFw9AHr/K1JFjg==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -145,5 +145,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "kDFoFnVJR0dA4OC0PBOXZZ4rgsnfSrGLprfeiI9+vG7mSZotZTuN6PsPFqpvEXLU17ds1/odBHoQN9XyvNz3zdlACejpXLD5Ia5wLyKyOjXPWO8HVeZZ4JdmrkboTiiUzMky1IO4G3TuYc5IvglsV0zyitcYJ1jaBK1ZErmVfCdSrDCx2o75NcizpoAIwdOu28f++0UxjjK3jPeY1IDyPrHBQd4ylAM6sBU00YbnZ6qgPnR76v0pRCHT3SRsrm7+8x4eyI5jis4z5uZGJbDR0RegbpozK21YzDo1GJmZ6DlVCa9heSV8uI+7Jkx+ggrUbqCeBv8EJBT8Pa3HFPoJYw=="
+  "assinatura_extras": "PEt7MQLYpMD1XknU9gb1Hq9J7fGtLKij8hrfGRUNEhJPvOMCLJHIggXljGHeBbnABh8Ca1VnqHwB4WoM/GHSrrPrYXYoPfzzqc2iAueKjTzIAWRobnnrJcizTQWTXp3/wNWeatKl8se+Nnb+P+2bzNIkLvXChJI7zF7OOWdStN+X8ZKwOLM+VApYnTyBPIX95YUg128tt2pUzXIyy5mD40N6QOTK0a82UZ8OuSfXq5i2EWAsf16lVxzPqCnt5Sl+BD8VzV0YhTac/F1UK6/QKtP1rFfFnlA6HDvfBq/qKLQd64bE4b/9DFbCXhYQUwpcJ34x1z4jUHAKjlzzozoUgw=="
 }
