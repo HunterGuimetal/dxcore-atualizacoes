@@ -1,12 +1,21 @@
 {
-  "versao": "10.68",
+  "versao": "10.69",
   "data": "2026-11-24",
   "notas": [
-    "Projetista: chapa de STEP com borda curva feita em spline (como o suporte curvo) aparece curvada dos dois lados; antes a parede curva vinha achatada e reta.",
-    "Orçamento: chapa mandada pelo Projetista vai com o desenho real da planificada no encaixe e na vista 2D (antes ia como retângulo).",
-    "Projetista: tubos de STEP ficam mais leves na tela."
+    "Projetista: Orçar de projeto importado respeita os Conjuntos (50 conjuntos = 50× cada peça e a solda).",
+    "Orçamento: o desenho 2D da chapa mandada pelo Projetista sai na proporção certa (antes saía esticado/embaralhado).",
+    "Projetista: borda curva de chapa de STEP fica lisa (sem riscos nem facetas)."
   ],
   "historico": [
+    {
+      "versao": "10.68",
+      "data": "2026-11-24",
+      "notas": [
+        "Projetista: chapa de STEP com borda curva feita em spline (como o suporte curvo) aparece curvada dos dois lados; antes a parede curva vinha achatada e reta.",
+        "Orçamento: chapa mandada pelo Projetista vai com o desenho real da planificada no encaixe e na vista 2D (antes ia como retângulo).",
+        "Projetista: tubos de STEP ficam mais leves na tela."
+      ]
+    },
     {
       "versao": "10.67",
       "data": "2026-11-24",
@@ -110,19 +119,12 @@
       "notas": [
         "Calculadora · novo + Cantoneira: orçamento de cantoneira pronta (laminada, já dobrada). Só corte e furação na laser de tubo; material cobrado por kg (peso da seção em L × preço do kg); peças distribuídas nas barras de 6 m, com garra e perda, como no tubo."
       ]
-    },
-    {
-      "versao": "9.44",
-      "data": "2026-11-04",
-      "notas": [
-        "Gerador de peças · novo modelo Cantoneira com furos e recorte: cantoneira L dobrada de chapa, com furos iguais nas duas abas e recorte nas pontas (trecho reto a partir da quina e recuo na borda). Medidas por fora, como no desenho; o padrão já vem de uma cantoneira 64 × 64 em aço carbono 6,35 mm com 1689 mm."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5096361,
-  "sha256": "27a4e8e2661b7781998f6d8a6895a1260d1cc3b9ec02c45be34ee94be53ea022",
-  "assinatura": "gHDpVR8FKpruCX4y//GdLOipw5rpjNOXIvs1v//QVZfQBejO1pRRjFIq+ySIs4nXWARcAjD/fqvZddQfUjBib4FxjW2LXaFMgYjv3sqWlAQ2/x2GGFUNMefbmLdebuNChFCkLMF2QWaZdE6HqpNyZRDvE2VbFhIBoxrGHRNBsNEtd6zzC4Q2T/lACCPpY7h5MjLumZ0I5PAnnH+se3HAvFtGC2rGuBH1fyBEjXIEQH9QKx5LFkYl/T36x44yBI53f8GJvDMat0YMXqMdteRjLZVKKQk8TZVTjSzLXXKAc1+ru8InnJUYkwVj0bVlZphLyO0UMV1dzFw9AHr/K1JFjg==",
+  "tamanho": 5097409,
+  "sha256": "a750d6c39e40658e77ac6d3ba0f50f0f8c16408504e485168c82d769f1aedf0b",
+  "assinatura": "DMpIojYSjKx3CyrX6scQZ5nIrJ7mlM2wTX8+NZppMr8BXuk6x0rI4WeyhLNIlMGt562H1kkVaIiV5Jp/m3um3/AkpqYklanvRtYQwDznYH+cPsN+kRnRoaekt5ZiTbVk31gTsbagWzaQSc43oBQWz9ugr17n9We1gavhVGW7Wy6mt3kND8w8OZZCx/twY2hKKPQ/it4JEX9jloTd9WzYI7i+tFMaPJWN49FattlIiaoRbgoMDV5gUgtAWHeodYCNhoJtio2R2IqbhRVX7ZPt7mag5I3/g3V9mRzSc8DKwEnw9GKRBfmk7bEaMLy/7wqq1q+c4pONHXbumsjY1YeAyA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -145,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "PEt7MQLYpMD1XknU9gb1Hq9J7fGtLKij8hrfGRUNEhJPvOMCLJHIggXljGHeBbnABh8Ca1VnqHwB4WoM/GHSrrPrYXYoPfzzqc2iAueKjTzIAWRobnnrJcizTQWTXp3/wNWeatKl8se+Nnb+P+2bzNIkLvXChJI7zF7OOWdStN+X8ZKwOLM+VApYnTyBPIX95YUg128tt2pUzXIyy5mD40N6QOTK0a82UZ8OuSfXq5i2EWAsf16lVxzPqCnt5Sl+BD8VzV0YhTac/F1UK6/QKtP1rFfFnlA6HDvfBq/qKLQd64bE4b/9DFbCXhYQUwpcJ34x1z4jUHAKjlzzozoUgw=="
+  "assinatura_extras": "BlFICbWKiPJQ5ml+ZpbnAr8LYifQxJN5/NrDP+9NG8owfUbp9+pY4V5NbZqYk6ybAHZIgUylJRPu+gN7zBh9kcKTi8iodmFWO11F0deIvi5ZNQYZxiiUt0sM3xIT+hwyk1WWvIc5mLh1951hgHP9b6Qi3zlUXTnddGnK+nnlXkbrhp09In7j7CLaqen1gi4rY8bWEwJ2dVU/2pu5iuUu/0Ch/YqMvFtohbI1NsOdDNIodF0jqgTriVBeKrCT2PBHHGC0B8U4gAf0IP5+gZlo6n42Wv1JZlYqOTJ2g1p5VKkEEt5W/KWWP90D+KxS/3iWaRMaiTzoiFAEEMk8b6LKwQ=="
 }
