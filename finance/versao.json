@@ -1,11 +1,14 @@
 {
   "produto": "DXCORE Finance",
-  "versao": "1.0.12",
-  "data": "2026-11-17",
-  "arquivo": "DXCORE-Finance-1.0.12-atualizacao.zip",
-  "sha256": "2de63df5650fb400e1ef63700b138acb4d06bf6e41167639c802cbf657cb3e02",
-  "tamanho": 10333561,
+  "versao": "1.0.13",
+  "data": "2026-11-24",
+  "arquivo": "DXCORE-Finance-1.0.13-atualizacao.zip",
+  "sha256": "be8e0ae544c9fa09488279c0d0ff22e25d432d1010579c4d732e89cc8250f7f0",
+  "tamanho": 10346034,
   "notas": [
-    "Atualização igual ao DXCORE Industrial: o sistema procura versão nova logo ao ligar o computador e ao abrir pelo atalho, e depois a cada 1 hora."
+    "Conciliação: nova aba \"Extrato completo\" com todos os movimentos do mês, como a planilha do banco: data, lançamento, entrada, saída, saldo linha a linha, categoria, cliente/fornecedor e situação.",
+    "Cadastro de clientes e fornecedores: ao digitar o CNPJ, os dados vêm da Receita Federal sozinhos.",
+    "Novas categorias de entrada de capital (fora da DRE): aporte de sócios, integralização de capital, empréstimos de sócios e de terceiros, AFAC.",
+    "Escolha de categoria por digitação: digite parte do nome ou o código e ela aparece."
   ]
 }
