@@ -1,12 +1,21 @@
 {
-  "versao": "10.69",
+  "versao": "10.70",
   "data": "2026-11-24",
   "notas": [
-    "Projetista: Orçar de projeto importado respeita os Conjuntos (50 conjuntos = 50× cada peça e a solda).",
-    "Orçamento: o desenho 2D da chapa mandada pelo Projetista sai na proporção certa (antes saía esticado/embaralhado).",
-    "Projetista: borda curva de chapa de STEP fica lisa (sem riscos nem facetas)."
+    "Projetista: barra redonda maciça curta (ponta em meia-esquadria) não é mais lida como tubo de parede fina.",
+    "Projetista: diâmetro com duas casas (Ø6,35), igual em todas as peças da mesma barra.",
+    "Orçamento: barras maciças do projeto importado entram no orçamento (antes ficavam de fora, como as travessas)."
   ],
   "historico": [
+    {
+      "versao": "10.69",
+      "data": "2026-11-24",
+      "notas": [
+        "Projetista: Orçar de projeto importado respeita os Conjuntos (50 conjuntos = 50× cada peça e a solda).",
+        "Orçamento: o desenho 2D da chapa mandada pelo Projetista sai na proporção certa (antes saía esticado/embaralhado).",
+        "Projetista: borda curva de chapa de STEP fica lisa (sem riscos nem facetas)."
+      ]
+    },
     {
       "versao": "10.68",
       "data": "2026-11-24",
@@ -112,19 +121,12 @@
       "notas": [
         "Gerador de peças · a Cantoneira com furos e recorte vai direto para o orçamento: botão Orçar cantoneira (só no perfil Gerência). O item chega como cantoneira pronta, com abas, espessura, comprimento, material, quantidade, contornos (pontas + furos) e os metros de corte das pontas, do recorte e dos furos já calculados."
       ]
-    },
-    {
-      "versao": "9.45",
-      "data": "2026-11-04",
-      "notas": [
-        "Calculadora · novo + Cantoneira: orçamento de cantoneira pronta (laminada, já dobrada). Só corte e furação na laser de tubo; material cobrado por kg (peso da seção em L × preço do kg); peças distribuídas nas barras de 6 m, com garra e perda, como no tubo."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5097409,
-  "sha256": "a750d6c39e40658e77ac6d3ba0f50f0f8c16408504e485168c82d769f1aedf0b",
-  "assinatura": "DMpIojYSjKx3CyrX6scQZ5nIrJ7mlM2wTX8+NZppMr8BXuk6x0rI4WeyhLNIlMGt562H1kkVaIiV5Jp/m3um3/AkpqYklanvRtYQwDznYH+cPsN+kRnRoaekt5ZiTbVk31gTsbagWzaQSc43oBQWz9ugr17n9We1gavhVGW7Wy6mt3kND8w8OZZCx/twY2hKKPQ/it4JEX9jloTd9WzYI7i+tFMaPJWN49FattlIiaoRbgoMDV5gUgtAWHeodYCNhoJtio2R2IqbhRVX7ZPt7mag5I3/g3V9mRzSc8DKwEnw9GKRBfmk7bEaMLy/7wqq1q+c4pONHXbumsjY1YeAyA==",
+  "tamanho": 5099253,
+  "sha256": "c88f6506290d3e62a530739e6bf41565bc7d3c5a9f936e119cab9e61f57428b5",
+  "assinatura": "NKhfmDYva/9VpfCTe5OKRqq2SD6PdfOyNu9rEQJ6bvpw8B/bimAFePjZf4VgEzlR1wxrj3asNGn89ICMRVKQQicx3WIs40qW/NRi1gX9EhN8hPKSn6zKD6ywMNA2aVSHsdIPyPM6Mz8D5N/6Q0dTvuOcKd5fpvwjwNpkc7Y/AJLilZ3618PLhmF4gy4UKgoJaPV/ohabrzZzf8ztQI7K70GTI9hX3wjxrq17t18i5Z4extUBYWS68p2Xgasp4Rk/EweYcur87rDaAehDwHBO8J6SvgTrCDg3bIh695fxIyinzFE6Sl/MkguzXGDaCnonJpi99yRvSpors8k5D8n/KA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +149,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "BlFICbWKiPJQ5ml+ZpbnAr8LYifQxJN5/NrDP+9NG8owfUbp9+pY4V5NbZqYk6ybAHZIgUylJRPu+gN7zBh9kcKTi8iodmFWO11F0deIvi5ZNQYZxiiUt0sM3xIT+hwyk1WWvIc5mLh1951hgHP9b6Qi3zlUXTnddGnK+nnlXkbrhp09In7j7CLaqen1gi4rY8bWEwJ2dVU/2pu5iuUu/0Ch/YqMvFtohbI1NsOdDNIodF0jqgTriVBeKrCT2PBHHGC0B8U4gAf0IP5+gZlo6n42Wv1JZlYqOTJ2g1p5VKkEEt5W/KWWP90D+KxS/3iWaRMaiTzoiFAEEMk8b6LKwQ=="
+  "assinatura_extras": "ThFY8a6y64OVp8keuGbt0r5m5Rw7LREvD4ZX5LZGBSIKXNrKjGoO7+4q4cHO9zifWv7cacL/EAP+BHtcyG6DJs7pvEdpeIeuJM4ngllrB2fzgd091NbcOq2xmqjq+ZQzsIgmd5ayIM18ifNKSVwbQwpZZ82oELWBc45yqy1JxgvH7b9MySWxpG3HCSRKvyg/vtm1oBfE+9Ybe9WkfEi426ME5ovkxPm3c+mO34Xt0WSDDVm8dc5U8nevhojNWRTtPO3/0LqBYJGY66KXhlBEej6WeKfJEBcjBPRpuTh9ii8rrcIQyf/H6UOq+qmiwqFDSC/NNEHPWZOhsaMexlL/6Q=="
 }
