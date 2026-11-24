@@ -1,12 +1,19 @@
 {
-  "versao": "10.63",
-  "data": "2026-11-06",
+  "versao": "10.64",
+  "data": "2026-11-24",
   "notas": [
-    "Gerador: peça importada de DXF com orelhas (dobras parciais) agora dobra a orelha inteira na vista 3D: acabaram as lascas atravessando nas quinas.",
-    "Gerador: na quina onde duas dobras se cruzam, a vista 3D deixa o alívio de canto, como na peça real.",
-    "Projetista: botão 🎬 Vídeo, um 360° do projeto para o cliente, com as medidas e a ficha do que o projeto tem (Full HD, 60 fps)."
+    "Projetista: tubos e barras redondas de arquivos STEP (inclusive com pontas cortadas em meia-esquadria) aparecem corretamente na montagem."
   ],
   "historico": [
+    {
+      "versao": "10.63",
+      "data": "2026-11-06",
+      "notas": [
+        "Gerador: peça importada de DXF com orelhas (dobras parciais) agora dobra a orelha inteira na vista 3D: acabaram as lascas atravessando nas quinas.",
+        "Gerador: na quina onde duas dobras se cruzam, a vista 3D deixa o alívio de canto, como na peça real.",
+        "Projetista: botão 🎬 Vídeo, um 360° do projeto para o cliente, com as medidas e a ficha do que o projeto tem (Full HD, 60 fps)."
+      ]
+    },
     {
       "versao": "9.53",
       "data": "2026-11-06",
@@ -113,19 +120,12 @@
         "Limpar · Dividir para caber na mesa agora leva as linhas de dobra: cada parte sai com o trecho da dobra dela (camada DOBRA).",
         "Limpar · dobra desenhada com uma linha só (no centro da dobra) passa a aparecer no aviso. Antes só contava a dobra desenhada com as duas linhas da faixa."
       ]
-    },
-    {
-      "versao": "9.39",
-      "data": "2026-11-03",
-      "notas": [
-        "Limpar · peça maior que a mesa do laser: novo botão Dividir para caber na mesa. O DXCORE divide a peça em partes para soldar depois e escolhe sozinho onde cortar pelo reaproveitamento: a sobra maior numa chapa só (retalho bom), de preferência sobre uma linha de marcação (a solda cai na caverna) e sem passar por furo. Mostra as partes, a solda da emenda, as chapas e a sobra de cada uma; as partes entram na lista com o material, a espessura e a quantidade da peça inteira."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5087381,
-  "sha256": "804e4aa6b3b45529f49e29354af28a139ab234427f3bbd55f47160b9dd1cdcc5",
-  "assinatura": "YsNSEi2RfK+yQqbHL6KIUhFyRFOzyviRsvsbYGqWs84HPTAixBd1WAHoECDjrTtqvBqJCndjbewIiMICqm/PIGo7k/4yDHlsF7UsLLzmm6IHxrang9KHuviPJEpBvfKFZIv+uuFeN3SYiDA4z35QXLzWHh3yyrF/ndFOHD6OwkauneQixo+0wX4wVX6L6TIS+wObMvJLxhGAOWuSCUS2oIO2bKeioBzKCFNLO/9E+ojh+1HPV14zCTwTJE9oQfutqiPAqTLF/HviiuMaamHy7RnME2dVXZ6ZQLSQ39eZpqblIqF+7T4SbWEUsGgupzIGDzhxuZB/rNT33sI7N3k5eg==",
+  "tamanho": 5089301,
+  "sha256": "aea7ef8331d99a229299ce383b9debddcd650d6c83d38723cf8966c9ae818050",
+  "assinatura": "W0RRMeB/MT1zMNTKO3WHePrLmgaqsfndpP4DMENQ7Gz3kXvMoDSfn59sht3CIoxZfLHVaWvhrt4VvXJd678GsAbO9s4YmYQsv+GhoFid1pUGQ+jekjDoz2e0cwUXR991uD2OTZIPc9g7VNG9Eecgv+FhVBGxAWclyCeqC1tKKpniSOU+hp4qVI386aEK3hcNGjSYtRvd/qezszWQYJF7RcV80lR7rFu0deLv6d66xBNhGb4lFz5aZ4ax04on2Tyx45ePwj8cpGGAhgmA6/TWm1qCxv7iI5PpltFCmPSXZVUqVGU8n6Evos8qLuPgvTYceag9l26Ix0HyxrXaDyLRdw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -148,5 +148,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "LcWtBeTPN7VEdZf3j33Gd7vi1glUwd971bgL3BpJ8M5OFofh4Ip3Zvhf7FDRFg0O7AAfqtFtx8tfWJfo6qFr4/n9nTfOX8TDlVKa7od68K6md/rk0NIiai10DVYH/dZeOrfuCZXZ7IIwyLOeXyIY7ktbkOZbllStHVBZ5W5mxYwP0Od78lEsKt+qbnuyn0kQm7UiDJe5za0He6ku4tAIb2o+SbSRebcRM3HVZm4zaSF5MVHy/kvKxJmZbr6gmkUUxF+TAcsv41QzQM4tnPiQ+5rloVUJGdkHPTr8pp8kd4oX7WB2kkJsUxiZLA6F9s6jWRum60lg9ZNt3i/oF/mQqw=="
+  "assinatura_extras": "N50Ns0Mx8NlIU0vdBW1z8mzdvQNhm9uklq16WeD2Tfmb5DabmthIuGnoIG+tHMrdlky/FuvECubkIcDID0aTeAOB5xzQlSwlcjspIIbfGezBi7/lJV+zFyNm01PPuaU9gXj/QhvHJiCY9WsSH5dMHrV3psgXEvAZuiBRpBawSpKqvCyQkkc3qhGR3IzPGJharjXY46UFtEgm/yvGXr8X/y/+fwSbf9SrZ+a8poWLU4uMGN1yZtnUOuPDZJRBDxb3i4DG0U+IaqH48vm5MMZn4YfRF/n0Za8klMmPZBqcGksPyB0SQnU8+pHcHrKsduYXadRnW6EWnGsty4PFvOgZoA=="
 }

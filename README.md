@@ -1,10 +1,8 @@
 # DXCORE · atualizações
 
 Arquivos que os computadores com o DXCORE instalado baixam para se atualizar.
-Versão atual: **10.63** (2026-11-06)
+Versão atual: **10.64** (2026-11-24)
 
-- Gerador: peça importada de DXF com orelhas (dobras parciais) agora dobra a orelha inteira na vista 3D: acabaram as lascas atravessando nas quinas.
-- Gerador: na quina onde duas dobras se cruzam, a vista 3D deixa o alívio de canto, como na peça real.
-- Projetista: botão 🎬 Vídeo, um 360° do projeto para o cliente, com as medidas e a ficha do que o projeto tem (Full HD, 60 fps).
+- Projetista: tubos e barras redondas de arquivos STEP (inclusive com pontas cortadas em meia-esquadria) aparecem corretamente na montagem.
 
 O arquivo do programa é cifrado e a atualização é assinada. Não edite estes arquivos à mão.
