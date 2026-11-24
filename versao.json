@@ -1,10 +1,18 @@
 {
-  "versao": "10.65",
+  "versao": "10.66",
   "data": "2026-11-24",
   "notas": [
-    "Projetista: o botão 🎬 Vídeo agora funciona também com projeto importado de STEP (o painel da montagem cobria o botão)."
+    "Projetista: tubos redondos de projeto STEP não aparecem mais como cone/gravata: ficam redondos do começo ao fim.",
+    "Projetista: a 📷 Foto de projeto importado sai com o nome e as medidas dele (antes saía o nome do protótipo de fundo)."
   ],
   "historico": [
+    {
+      "versao": "10.65",
+      "data": "2026-11-24",
+      "notas": [
+        "Projetista: o botão 🎬 Vídeo agora funciona também com projeto importado de STEP (o painel da montagem cobria o botão)."
+      ]
+    },
     {
       "versao": "10.64",
       "data": "2026-11-24",
@@ -111,20 +119,12 @@
         "Encaixe · com a mesma quantidade de chapas, a grade organizada tem preferência sobre o encaixe livre.",
         "Encaixe · montar a grade ficou mais de 2 vezes mais rápido."
       ]
-    },
-    {
-      "versao": "9.41",
-      "data": "2026-11-03",
-      "notas": [
-        "Parâmetros e preços · novo campo Margem da chapa (padrão 10 mm em cada lado), que antes era fixo.",
-        "Limpar e Dividir para caber na mesa passam a usar a mesma área útil da Calculadora (mesa menos a margem). Antes o Limpar aceitava a peça na chapa cheia e a Calculadora recusava. Quando é a largura que não cabe, o aviso explica que dividir não resolve."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5089841,
-  "sha256": "31b7123f6fa872da1de481a7fd8cd032cd589c71fb82cd69737c04fcc5db6f00",
-  "assinatura": "MlNkY3r6YUnph4CQzTNLryUABoCTK4+dEFKtq5fGX4pnWjB0yqfYOx5jjO/7+8ZFkVenFhKVLmSoOLBKi7GlpL6FmVyx0pHbEg6RkQIU95aNTafq8TGXxsvCkrgmlu9G6xpe4VlKW+VRkQlr15KiJsXt1NVRZpbCag9qjM/rHPctxEvaNDtYjwZiy0S4U1n4YqqK63G8qXFq1rqaHDl5oVDM1RhvUWWe2At39ydAQ+Bc9CwaEjKR0naAJgmHSW17aPQZrAzfvmQGz7/hSKu+YsYscqpqdAwIXCx0IZlOxVOiwQf2C3EhAXS9ZaLMKcdBrdJ5KKKkZ/JugSPc8F3VTw==",
+  "tamanho": 5092369,
+  "sha256": "921dcb7ccfcb401ed4a82335646b8f7afae082b76f42d7c3949864d8f96abdd5",
+  "assinatura": "Ut1jMe94EBS1K5wl9EfOOAxA1yEHp1VV6stYC1wiFRaLIFSladiOtqnP3qgD4bjyzvmWh0irYSFwpclOKACWgZOskQQi7YHr1vGZ8TLTc3GpyrZSXG/6Xljnfo4HgMcOm5jKmKPUsBGLtuCyDuisFUohO8tu+H9V9p9caw7LedssgYphFVlFHeMESnetVyLqd94XpxsuxKd3YMTK57wqa9Zxe4uCHI5EeqgN9lQdM3bxZBg8RjW4oJDhWjOcHV7yPXW1/54LKKo5bkE005sE+qE8rjK5OYac/3lBJkW59ONUWJxcPcYmyoann0eRF50+aWRPXa56OoUY1AqaETPQxA==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -147,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "KC4286hQDIK7lJOpoUL17XUS5N9G88ObRte6GsxLuE7uwepyPJ1PwCwKy5UUa+cehG7UlDi7onzU9uXbL6Mpw/9erpeApi3fTXnLkak4LPM+vW4waJa5ZzGh0i6A3o5LQ8BR7PCmIeJCwoWbvc64peDweeMPOXWZf46gQD3jd0NXakPVztlAH5wnqj64Z9nbmmaq6Lyz+JbdZVpnUwCHU33mTI0nICHWS03vRPpNKXY11rXStSh57JUj7p3GkjB0dhtziwkPimvSSWWyeKDMe3CEUSRxRj1D20ExvDdALaBRaw3udZPFJt/opLHCcCeU0AD28VlINIGfTvl0bKZeGQ=="
+  "assinatura_extras": "Tkqvx3SVlV87gJyp5xKh3Lg1uNBsUsjGmZzNw/d2TumpjbMR+tx1LsFLBsjrUVbykZrAmFxPMzLj1+iCLOZPCXfZvBZixFbLZe6H4NtcyMfYqIzEft5aMdsUOcu1ViNI2VIXKGHfel68sUjA3+F9EpZTdKHObYWzbgt/n/3utmOkCxw5D91XiQLxE86fkdZEcC9LEYtTCXY6DjWnOKOO1N5yeCZsaBj+CDh5aKEU4jVzdFBiBanOnkMeCHQ3rSeJE0yrbAUdOBOpJJwu6NdrfgEet3IJiUeqnvlfs6MdLyo1f4/lbwWJoXXrGhLlC0IIBV+DmAhQJvwvCocS1nKhaA=="
 }
