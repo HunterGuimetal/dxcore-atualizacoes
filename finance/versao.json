@@ -1,14 +1,11 @@
 {
   "produto": "DXCORE Finance",
-  "versao": "1.0.13",
-  "data": "2026-11-24",
-  "arquivo": "DXCORE-Finance-1.0.13-atualizacao.zip",
-  "sha256": "be8e0ae544c9fa09488279c0d0ff22e25d432d1010579c4d732e89cc8250f7f0",
-  "tamanho": 10346034,
+  "versao": "1.0.14",
+  "data": "2026-11-25",
+  "arquivo": "DXCORE-Finance-1.0.14-atualizacao.zip",
+  "sha256": "4d183b75048737b53c2ac8c090796c4b2a741788d6c9d028a4ff6fa824f613fd",
+  "tamanho": 10375367,
   "notas": [
-    "Conciliação: nova aba \"Extrato completo\" com todos os movimentos do mês, como a planilha do banco: data, lançamento, entrada, saída, saldo linha a linha, categoria, cliente/fornecedor e situação.",
-    "Cadastro de clientes e fornecedores: ao digitar o CNPJ, os dados vêm da Receita Federal sozinhos.",
-    "Novas categorias de entrada de capital (fora da DRE): aporte de sócios, integralização de capital, empréstimos de sócios e de terceiros, AFAC.",
-    "Escolha de categoria por digitação: digite parte do nome ou o código e ela aparece."
+    "Conciliação: botões \"Exportar Excel\" e \"Imprimir / PDF\" no Extrato completo, com saldo, categoria, cliente/fornecedor e situação de cada movimento."
   ]
 }
