@@ -1,10 +1,17 @@
 {
-  "versao": "10.73",
+  "versao": "10.74",
   "data": "2026-11-25",
   "notas": [
-    "Gerador: DXF importado com texto ao lado da linha de dobra (\"CIMA 74°\", \"BAIXO 90°\") já vem com o ângulo e o sentido de cada dobra; antes tudo entrava a 90° para o mesmo lado e a peça dobrada saía errada."
+    "Gerador: o PDF da peça volta a sair com a vista 3D (dobrada e detalhe da ponta); a foto saía vazia."
   ],
   "historico": [
+    {
+      "versao": "10.73",
+      "data": "2026-11-25",
+      "notas": [
+        "Gerador: DXF importado com texto ao lado da linha de dobra (\"CIMA 74°\", \"BAIXO 90°\") já vem com o ângulo e o sentido de cada dobra; antes tudo entrava a 90° para o mesmo lado e a peça dobrada saía errada."
+      ]
+    },
     {
       "versao": "10.72",
       "data": "2026-11-24",
@@ -114,19 +121,12 @@
       "notas": [
         "Assistente com visual novo: janela de vidro flutuante, que você arrasta pela tela pela barra de cima (o DXCORE lembra onde ela ficou), respostas em balões brancos, animação ao abrir, fechar e a cada mensagem, e os três pontinhos enquanto ele responde. Nos temas claro e escuro. Esc fecha."
       ]
-    },
-    {
-      "versao": "9.49",
-      "data": "2026-11-04",
-      "notas": [
-        "Assistente do DXCORE (botão Assistente, no topo): responde como fazer as coisas pelo Manual, calcula peso de chapa, tubo e cantoneira, abre ferramentas, orça cantoneira e muda parâmetros (espaçamento, margem, mesa) por frase. Funciona sem internet. Tudo que muda alguma coisa pede Confirmar, e cada perfil só faz o que já pode fazer no DXCORE."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5101549,
-  "sha256": "4d9c7626fbef01c3d53dc3ee4dafefe413d366515b4d30af9408d9127976a588",
-  "assinatura": "HqxiXKQROzm7QaY2E0LqYdDaGBHVRYbdhKeqfMtayCzZobumfstXQnsZ87YTolAdAu1dAO/YCwNe4e7aH+l01RCC3MKjU/obrn+uGcWnTEzmHmBav4RH6LqHUsqEIB55tHSUfkWtayaF7wTbQ5p9h62gmyNU4Vt5nXs19LrJBXMoCPxBcnlCd3RsgHcU/LjHCI7vvCBh2Yl5jVXs0UFMuZH7T8zpts722vEQIWe8Fdhj1SYzeCQdRHoGL2RABUtwnLsYt+btvXhxAAKgEzWWQxUSn+DHMdzlSD64nTEmE1vIr9bqZ4MFYu5VBnc/xpMl1myPX2e4tngeQTPOEJCL3g==",
+  "tamanho": 5101309,
+  "sha256": "8c5231c088c69e79ceb7541fafac0a95b5b6618d62621bbf73509de25c009cbf",
+  "assinatura": "M4qFzrdYA5q5Ew0rZiaJGQMRGH/UyFsAYyt/3PTxzjj5bg8r1iVA3d6StLbtRj8XQ686PRHZif9GDL8oKxPA0QtOlPScALIwFmaT8dH69v05i92rOzsxGcOecqKdJGDAktpqH4mzbcTTf2PXuLZjQjCcIfDPF2VWIqbzYaXfsCabmRT8NGBtK9qaI1IW+JupuUTcJxFzrcdnIX/v+BfvCS3Bn8Izynx2fHskj0o3m0f+ZbjGM5qP8j+p2iA0KG8wOKo+8HoLwlGTGZAi/l5kMpAAkV/Fp8nRI0gqMFM9IxUFg9uye1U9OaxoENLg3/khvFydEQN5M0ICgDbO6A5JMQ==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -149,5 +149,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "EQGpsnx9JWK2pBFoVwp3W9eqWZkru577vRjPWx22Q1225llMgtOL8wnfjYg3sdAe160/8EN/0+B5JoXWfD7WhFk/09jIwEtgZ0U26RyQC9yi2V0GA7jBg0UCD1x7D48rSlQ09ED7cg9+FqXW9+vlfAIRp/imVg+/PeKB9htNsjNGQAMIi3oI0PU0UdIkgDl1ar38VCumHPAhNYFgdiczZDMKKasv4w5myg9xMrrarGfSOduuAOAX/MbS0whdN45/y34/YolPtuSzRykptOxjxy/yyj2vPRCcKM3YwTLF5CWiBDlaVG0weXhFxsIJfOMoJIhibs+Ws5fLUf7EZ2jgLw=="
+  "assinatura_extras": "k0XKq40FiYIT1u5Ar01aLU0vnZqsKFy+Dk45ax8rgyIwd4AX3Xcf4ovsSM7xDAFmUFd/IeXoBR5HBR7WjVqGhNtR5YHAZJw2ZybAudjbHy0IKOonAecyKEFjt8BJBaokwXY9MUJXTzk+QqD//VZHGP4M+OhKM07+c7kUz1ifsBajOBuhToRpPYma/YtQsdaKzcaiiFTX/Wj4FXXxDOeYUT8hd7mleKMuQttiG/Ek2qdBstfZk8LOCMDSunv8uDGC9CqvpT9TJnBJvK0huTzBC0uajGX2XbmMcl1sD8099gO/W3JYTxmSQu0+rpLCaP5BoFYfvdEHoBsbkQ5L02LjKg=="
 }
