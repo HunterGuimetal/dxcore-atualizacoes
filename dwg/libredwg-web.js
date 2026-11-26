@@ -1,820 +1,3 @@
-// src/database/codepage.ts
-var DwgCodePage = /* @__PURE__ */ ((DwgCodePage3) => {
-  DwgCodePage3[DwgCodePage3["CP_UTF8"] = 0] = "CP_UTF8";
-  DwgCodePage3[DwgCodePage3["CP_US_ASCII"] = 1] = "CP_US_ASCII";
-  DwgCodePage3[DwgCodePage3["CP_ISO_8859_1"] = 2] = "CP_ISO_8859_1";
-  DwgCodePage3[DwgCodePage3["CP_ISO_8859_2"] = 3] = "CP_ISO_8859_2";
-  DwgCodePage3[DwgCodePage3["CP_ISO_8859_3"] = 4] = "CP_ISO_8859_3";
-  DwgCodePage3[DwgCodePage3["CP_ISO_8859_4"] = 5] = "CP_ISO_8859_4";
-  DwgCodePage3[DwgCodePage3["CP_ISO_8859_5"] = 6] = "CP_ISO_8859_5";
-  DwgCodePage3[DwgCodePage3["CP_ISO_8859_6"] = 7] = "CP_ISO_8859_6";
-  DwgCodePage3[DwgCodePage3["CP_ISO_8859_7"] = 8] = "CP_ISO_8859_7";
-  DwgCodePage3[DwgCodePage3["CP_ISO_8859_8"] = 9] = "CP_ISO_8859_8";
-  DwgCodePage3[DwgCodePage3["CP_ISO_8859_9"] = 10] = "CP_ISO_8859_9";
-  DwgCodePage3[DwgCodePage3["CP_CP437"] = 11] = "CP_CP437";
-  DwgCodePage3[DwgCodePage3["CP_CP850"] = 12] = "CP_CP850";
-  DwgCodePage3[DwgCodePage3["CP_CP852"] = 13] = "CP_CP852";
-  DwgCodePage3[DwgCodePage3["CP_CP855"] = 14] = "CP_CP855";
-  DwgCodePage3[DwgCodePage3["CP_CP857"] = 15] = "CP_CP857";
-  DwgCodePage3[DwgCodePage3["CP_CP860"] = 16] = "CP_CP860";
-  DwgCodePage3[DwgCodePage3["CP_CP861"] = 17] = "CP_CP861";
-  DwgCodePage3[DwgCodePage3["CP_CP863"] = 18] = "CP_CP863";
-  DwgCodePage3[DwgCodePage3["CP_CP864"] = 19] = "CP_CP864";
-  DwgCodePage3[DwgCodePage3["CP_CP865"] = 20] = "CP_CP865";
-  DwgCodePage3[DwgCodePage3["CP_CP869"] = 21] = "CP_CP869";
-  DwgCodePage3[DwgCodePage3["CP_CP932"] = 22] = "CP_CP932";
-  DwgCodePage3[DwgCodePage3["CP_MACINTOSH"] = 23] = "CP_MACINTOSH";
-  DwgCodePage3[DwgCodePage3["CP_BIG5"] = 24] = "CP_BIG5";
-  DwgCodePage3[DwgCodePage3["CP_CP949"] = 25] = "CP_CP949";
-  DwgCodePage3[DwgCodePage3["CP_JOHAB"] = 26] = "CP_JOHAB";
-  DwgCodePage3[DwgCodePage3["CP_CP866"] = 27] = "CP_CP866";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_1250"] = 28] = "CP_ANSI_1250";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_1251"] = 29] = "CP_ANSI_1251";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_1252"] = 30] = "CP_ANSI_1252";
-  DwgCodePage3[DwgCodePage3["CP_GB2312"] = 31] = "CP_GB2312";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_1253"] = 32] = "CP_ANSI_1253";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_1254"] = 33] = "CP_ANSI_1254";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_1255"] = 34] = "CP_ANSI_1255";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_1256"] = 35] = "CP_ANSI_1256";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_1257"] = 36] = "CP_ANSI_1257";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_874"] = 37] = "CP_ANSI_874";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_932"] = 38] = "CP_ANSI_932";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_936"] = 39] = "CP_ANSI_936";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_949"] = 40] = "CP_ANSI_949";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_950"] = 41] = "CP_ANSI_950";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_1361"] = 42] = "CP_ANSI_1361";
-  DwgCodePage3[DwgCodePage3["CP_UTF16"] = 43] = "CP_UTF16";
-  DwgCodePage3[DwgCodePage3["CP_ANSI_1258"] = 44] = "CP_ANSI_1258";
-  DwgCodePage3[DwgCodePage3["CP_UNDEFINED"] = 255] = "CP_UNDEFINED";
-  return DwgCodePage3;
-})(DwgCodePage || {});
-var encodings = [
-  "utf-8",
-  // 0
-  "utf-8",
-  // US ASCII
-  "iso-8859-1",
-  "iso-8859-2",
-  "iso-8859-3",
-  "iso-8859-4",
-  "iso-8859-5",
-  "iso-8859-6",
-  "iso-8859-7",
-  "iso-8859-8",
-  "iso-8859-9",
-  // 10
-  "utf-8",
-  // DOS English
-  "utf-8",
-  // 12 DOS Latin-1
-  "utf-8",
-  // DOS Central European
-  "utf-8",
-  // DOS Cyrillic
-  "utf-8",
-  // DOS Turkish
-  "utf-8",
-  // DOS Portoguese
-  "utf-8",
-  // DOS Icelandic
-  "utf-8",
-  // DOS Hebrew
-  "utf-8",
-  // DOS Arabic (IBM)
-  "utf-8",
-  // DOS Nordic
-  "utf-8",
-  // DOS Greek
-  "shift-jis",
-  // DOS Japanese (shiftjis)
-  "macintosh",
-  // 23
-  "big5",
-  // WHATWG 'euc-kr' decodes windows-949, which covers CP949 (Wansung + UHC).
-  "euc-kr",
-  // Korean (CP949 / Wansung + UHC)
-  "utf-8",
-  // Johab?
-  "ibm866",
-  // Russian
-  "windows-1250",
-  // Central + Eastern European
-  "windows-1251",
-  // Cyrillic
-  "windows-1252",
-  // Western European
-  "gbk",
-  // EUC-CN Chinese
-  "windows-1253",
-  // Greek
-  "windows-1254",
-  // Turkish
-  "windows-1255",
-  // Hebrew
-  "windows-1256",
-  // Arabic
-  "windows-1257",
-  // Baltic
-  "windows-874",
-  // Thai
-  "shift-jis",
-  // 38 Japanese (extended shiftjis, windows-31j)
-  "gbk",
-  // 39 Simplified Chinese
-  "euc-kr",
-  // 40 Korean Wansung
-  "big5",
-  // 41 Trad Chinese
-  "utf-8",
-  // 42 Korean Wansung
-  "utf-16le",
-  "windows-1258"
-  // Vietnamese
-];
-var dwgCodePageToEncoding = (codepage) => {
-  return encodings[codepage];
-};
-
-// src/database/entities/dimension.ts
-var DwgDimensionType = /* @__PURE__ */ ((DwgDimensionType3) => {
-  DwgDimensionType3[DwgDimensionType3["Rotated"] = 0] = "Rotated";
-  DwgDimensionType3[DwgDimensionType3["Aligned"] = 1] = "Aligned";
-  DwgDimensionType3[DwgDimensionType3["Angular"] = 2] = "Angular";
-  DwgDimensionType3[DwgDimensionType3["Diameter"] = 3] = "Diameter";
-  DwgDimensionType3[DwgDimensionType3["Radius"] = 4] = "Radius";
-  DwgDimensionType3[DwgDimensionType3["Angular3Point"] = 5] = "Angular3Point";
-  DwgDimensionType3[DwgDimensionType3["Ordinate"] = 6] = "Ordinate";
-  DwgDimensionType3[DwgDimensionType3["ReferenceIsExclusive"] = 32] = "ReferenceIsExclusive";
-  DwgDimensionType3[DwgDimensionType3["IsOrdinateXTypeFlag"] = 64] = "IsOrdinateXTypeFlag";
-  DwgDimensionType3[DwgDimensionType3["IsCustomTextPositionFlag"] = 128] = "IsCustomTextPositionFlag";
-  return DwgDimensionType3;
-})(DwgDimensionType || {});
-var DwgAttachmentPoint = /* @__PURE__ */ ((DwgAttachmentPoint3) => {
-  DwgAttachmentPoint3[DwgAttachmentPoint3["TopLeft"] = 1] = "TopLeft";
-  DwgAttachmentPoint3[DwgAttachmentPoint3["TopCenter"] = 2] = "TopCenter";
-  DwgAttachmentPoint3[DwgAttachmentPoint3["TopRight"] = 3] = "TopRight";
-  DwgAttachmentPoint3[DwgAttachmentPoint3["MiddleLeft"] = 4] = "MiddleLeft";
-  DwgAttachmentPoint3[DwgAttachmentPoint3["MiddleCenter"] = 5] = "MiddleCenter";
-  DwgAttachmentPoint3[DwgAttachmentPoint3["MiddleRight"] = 6] = "MiddleRight";
-  DwgAttachmentPoint3[DwgAttachmentPoint3["BottomLeft"] = 7] = "BottomLeft";
-  DwgAttachmentPoint3[DwgAttachmentPoint3["BottomCenter"] = 8] = "BottomCenter";
-  DwgAttachmentPoint3[DwgAttachmentPoint3["BottomRight"] = 9] = "BottomRight";
-  return DwgAttachmentPoint3;
-})(DwgAttachmentPoint || {});
-var DwgDimensionTextLineSpacing = /* @__PURE__ */ ((DwgDimensionTextLineSpacing3) => {
-  DwgDimensionTextLineSpacing3[DwgDimensionTextLineSpacing3["AtLeast"] = 1] = "AtLeast";
-  DwgDimensionTextLineSpacing3[DwgDimensionTextLineSpacing3["Exact"] = 2] = "Exact";
-  return DwgDimensionTextLineSpacing3;
-})(DwgDimensionTextLineSpacing || {});
-var DwgDimensionTextVertical = /* @__PURE__ */ ((DwgDimensionTextVertical2) => {
-  DwgDimensionTextVertical2[DwgDimensionTextVertical2["Center"] = 0] = "Center";
-  DwgDimensionTextVertical2[DwgDimensionTextVertical2["Above"] = 1] = "Above";
-  DwgDimensionTextVertical2[DwgDimensionTextVertical2["Outside"] = 2] = "Outside";
-  DwgDimensionTextVertical2[DwgDimensionTextVertical2["JIS"] = 3] = "JIS";
-  DwgDimensionTextVertical2[DwgDimensionTextVertical2["Below"] = 4] = "Below";
-  return DwgDimensionTextVertical2;
-})(DwgDimensionTextVertical || {});
-var DwgDimensionZeroSuppression = /* @__PURE__ */ ((DwgDimensionZeroSuppression2) => {
-  DwgDimensionZeroSuppression2[DwgDimensionZeroSuppression2["Feet"] = 0] = "Feet";
-  DwgDimensionZeroSuppression2[DwgDimensionZeroSuppression2["None"] = 1] = "None";
-  DwgDimensionZeroSuppression2[DwgDimensionZeroSuppression2["Inch"] = 2] = "Inch";
-  DwgDimensionZeroSuppression2[DwgDimensionZeroSuppression2["FeetAndInch"] = 3] = "FeetAndInch";
-  DwgDimensionZeroSuppression2[DwgDimensionZeroSuppression2["Leading"] = 4] = "Leading";
-  DwgDimensionZeroSuppression2[DwgDimensionZeroSuppression2["Trailing"] = 8] = "Trailing";
-  DwgDimensionZeroSuppression2[DwgDimensionZeroSuppression2["LeadingAndTrailing"] = 12] = "LeadingAndTrailing";
-  return DwgDimensionZeroSuppression2;
-})(DwgDimensionZeroSuppression || {});
-var DwgDimensionZeroSuppressionAngular = /* @__PURE__ */ ((DwgDimensionZeroSuppressionAngular2) => {
-  DwgDimensionZeroSuppressionAngular2[DwgDimensionZeroSuppressionAngular2["None"] = 0] = "None";
-  DwgDimensionZeroSuppressionAngular2[DwgDimensionZeroSuppressionAngular2["Leading"] = 1] = "Leading";
-  DwgDimensionZeroSuppressionAngular2[DwgDimensionZeroSuppressionAngular2["Trailing"] = 2] = "Trailing";
-  DwgDimensionZeroSuppressionAngular2[DwgDimensionZeroSuppressionAngular2["LeadingAndTrailing"] = 3] = "LeadingAndTrailing";
-  return DwgDimensionZeroSuppressionAngular2;
-})(DwgDimensionZeroSuppressionAngular || {});
-var DwgDimensionTextHorizontal = /* @__PURE__ */ ((DwgDimensionTextHorizontal2) => {
-  DwgDimensionTextHorizontal2[DwgDimensionTextHorizontal2["Center"] = 0] = "Center";
-  DwgDimensionTextHorizontal2[DwgDimensionTextHorizontal2["Left"] = 1] = "Left";
-  DwgDimensionTextHorizontal2[DwgDimensionTextHorizontal2["Right"] = 2] = "Right";
-  DwgDimensionTextHorizontal2[DwgDimensionTextHorizontal2["OverFirst"] = 3] = "OverFirst";
-  DwgDimensionTextHorizontal2[DwgDimensionTextHorizontal2["OverSecond"] = 4] = "OverSecond";
-  return DwgDimensionTextHorizontal2;
-})(DwgDimensionTextHorizontal || {});
-var DwgDimensionToleranceTextVertical = /* @__PURE__ */ ((DwgDimensionToleranceTextVertical2) => {
-  DwgDimensionToleranceTextVertical2[DwgDimensionToleranceTextVertical2["Bottom"] = 0] = "Bottom";
-  DwgDimensionToleranceTextVertical2[DwgDimensionToleranceTextVertical2["Center"] = 1] = "Center";
-  DwgDimensionToleranceTextVertical2[DwgDimensionToleranceTextVertical2["Top"] = 2] = "Top";
-  return DwgDimensionToleranceTextVertical2;
-})(DwgDimensionToleranceTextVertical || {});
-
-// src/database/entities/hatch.ts
-var DwgHatchSolidFill = /* @__PURE__ */ ((DwgHatchSolidFill2) => {
-  DwgHatchSolidFill2[DwgHatchSolidFill2["PatternFill"] = 0] = "PatternFill";
-  DwgHatchSolidFill2[DwgHatchSolidFill2["SolidFill"] = 1] = "SolidFill";
-  return DwgHatchSolidFill2;
-})(DwgHatchSolidFill || {});
-var DwgHatchAssociativity = /* @__PURE__ */ ((DwgHatchAssociativity2) => {
-  DwgHatchAssociativity2[DwgHatchAssociativity2["NonAssociative"] = 0] = "NonAssociative";
-  DwgHatchAssociativity2[DwgHatchAssociativity2["Associative"] = 1] = "Associative";
-  return DwgHatchAssociativity2;
-})(DwgHatchAssociativity || {});
-var DwgHatchStyle = /* @__PURE__ */ ((DwgHatchStyle3) => {
-  DwgHatchStyle3[DwgHatchStyle3["Normal"] = 0] = "Normal";
-  DwgHatchStyle3[DwgHatchStyle3["Outer"] = 1] = "Outer";
-  DwgHatchStyle3[DwgHatchStyle3["Ignore"] = 2] = "Ignore";
-  return DwgHatchStyle3;
-})(DwgHatchStyle || {});
-var DwgHatchPatternType = /* @__PURE__ */ ((DwgHatchPatternType3) => {
-  DwgHatchPatternType3[DwgHatchPatternType3["UserDefined"] = 0] = "UserDefined";
-  DwgHatchPatternType3[DwgHatchPatternType3["Predefined"] = 1] = "Predefined";
-  DwgHatchPatternType3[DwgHatchPatternType3["Custom"] = 2] = "Custom";
-  return DwgHatchPatternType3;
-})(DwgHatchPatternType || {});
-var DwgHatchBoundaryAnnotation = /* @__PURE__ */ ((DwgHatchBoundaryAnnotation2) => {
-  DwgHatchBoundaryAnnotation2[DwgHatchBoundaryAnnotation2["NotAnnotated"] = 0] = "NotAnnotated";
-  DwgHatchBoundaryAnnotation2[DwgHatchBoundaryAnnotation2["Annotated"] = 1] = "Annotated";
-  return DwgHatchBoundaryAnnotation2;
-})(DwgHatchBoundaryAnnotation || {});
-var DwgHatchGradientFlag = /* @__PURE__ */ ((DwgHatchGradientFlag2) => {
-  DwgHatchGradientFlag2[DwgHatchGradientFlag2["Solid"] = 0] = "Solid";
-  DwgHatchGradientFlag2[DwgHatchGradientFlag2["Gradient"] = 1] = "Gradient";
-  return DwgHatchGradientFlag2;
-})(DwgHatchGradientFlag || {});
-var DwgHatchGradientColorFlag = /* @__PURE__ */ ((DwgHatchGradientColorFlag2) => {
-  DwgHatchGradientColorFlag2[DwgHatchGradientColorFlag2["TwoColor"] = 0] = "TwoColor";
-  DwgHatchGradientColorFlag2[DwgHatchGradientColorFlag2["OneColor"] = 1] = "OneColor";
-  return DwgHatchGradientColorFlag2;
-})(DwgHatchGradientColorFlag || {});
-var DwgBoundaryPathTypeFlag = /* @__PURE__ */ ((DwgBoundaryPathTypeFlag2) => {
-  DwgBoundaryPathTypeFlag2[DwgBoundaryPathTypeFlag2["Default"] = 0] = "Default";
-  DwgBoundaryPathTypeFlag2[DwgBoundaryPathTypeFlag2["External"] = 1] = "External";
-  DwgBoundaryPathTypeFlag2[DwgBoundaryPathTypeFlag2["Polyline"] = 2] = "Polyline";
-  DwgBoundaryPathTypeFlag2[DwgBoundaryPathTypeFlag2["Derived"] = 4] = "Derived";
-  DwgBoundaryPathTypeFlag2[DwgBoundaryPathTypeFlag2["Textbox"] = 8] = "Textbox";
-  DwgBoundaryPathTypeFlag2[DwgBoundaryPathTypeFlag2["Outermost"] = 16] = "Outermost";
-  return DwgBoundaryPathTypeFlag2;
-})(DwgBoundaryPathTypeFlag || {});
-var DwgBoundaryPathEdgeType = /* @__PURE__ */ ((DwgBoundaryPathEdgeType2) => {
-  DwgBoundaryPathEdgeType2[DwgBoundaryPathEdgeType2["Line"] = 1] = "Line";
-  DwgBoundaryPathEdgeType2[DwgBoundaryPathEdgeType2["Circular"] = 2] = "Circular";
-  DwgBoundaryPathEdgeType2[DwgBoundaryPathEdgeType2["Elliptic"] = 3] = "Elliptic";
-  DwgBoundaryPathEdgeType2[DwgBoundaryPathEdgeType2["Spline"] = 4] = "Spline";
-  return DwgBoundaryPathEdgeType2;
-})(DwgBoundaryPathEdgeType || {});
-
-// src/database/entities/polyline.ts
-var DwgPolylineFlag = /* @__PURE__ */ ((DwgPolylineFlag2) => {
-  DwgPolylineFlag2[DwgPolylineFlag2["CLOSED_POLYLINE"] = 1] = "CLOSED_POLYLINE";
-  DwgPolylineFlag2[DwgPolylineFlag2["CURVE_FIT"] = 2] = "CURVE_FIT";
-  DwgPolylineFlag2[DwgPolylineFlag2["SPLINE_FIT"] = 4] = "SPLINE_FIT";
-  DwgPolylineFlag2[DwgPolylineFlag2["POLYLINE_3D"] = 8] = "POLYLINE_3D";
-  DwgPolylineFlag2[DwgPolylineFlag2["POLYGON_3D"] = 16] = "POLYGON_3D";
-  DwgPolylineFlag2[DwgPolylineFlag2["CLOSED_POLYGON"] = 32] = "CLOSED_POLYGON";
-  DwgPolylineFlag2[DwgPolylineFlag2["POLYFACE"] = 64] = "POLYFACE";
-  DwgPolylineFlag2[DwgPolylineFlag2["CONTINUOUS"] = 128] = "CONTINUOUS";
-  return DwgPolylineFlag2;
-})(DwgPolylineFlag || {});
-var DwgSmoothType = /* @__PURE__ */ ((DwgSmoothType2) => {
-  DwgSmoothType2[DwgSmoothType2["NONE"] = 0] = "NONE";
-  DwgSmoothType2[DwgSmoothType2["QUADRATIC"] = 5] = "QUADRATIC";
-  DwgSmoothType2[DwgSmoothType2["CUBIC"] = 6] = "CUBIC";
-  DwgSmoothType2[DwgSmoothType2["BEZIER"] = 8] = "BEZIER";
-  return DwgSmoothType2;
-})(DwgSmoothType || {});
-
-// src/database/entities/proxy.ts
-var DwgProxyOriginalDataFormat = /* @__PURE__ */ ((DwgProxyOriginalDataFormat3) => {
-  DwgProxyOriginalDataFormat3[DwgProxyOriginalDataFormat3["Dwg"] = 0] = "Dwg";
-  DwgProxyOriginalDataFormat3[DwgProxyOriginalDataFormat3["Dxf"] = 1] = "Dxf";
-  return DwgProxyOriginalDataFormat3;
-})(DwgProxyOriginalDataFormat || {});
-
-// src/database/entities/text.ts
-var DwgTextGenerationFlag = /* @__PURE__ */ ((DwgTextGenerationFlag2) => {
-  DwgTextGenerationFlag2[DwgTextGenerationFlag2["NONE"] = 0] = "NONE";
-  DwgTextGenerationFlag2[DwgTextGenerationFlag2["MIRRORED_X"] = 2] = "MIRRORED_X";
-  DwgTextGenerationFlag2[DwgTextGenerationFlag2["MIRRORED_Y"] = 4] = "MIRRORED_Y";
-  return DwgTextGenerationFlag2;
-})(DwgTextGenerationFlag || {});
-var DwgTextHorizontalAlign = /* @__PURE__ */ ((DwgTextHorizontalAlign3) => {
-  DwgTextHorizontalAlign3[DwgTextHorizontalAlign3["LEFT"] = 0] = "LEFT";
-  DwgTextHorizontalAlign3[DwgTextHorizontalAlign3["CENTER"] = 1] = "CENTER";
-  DwgTextHorizontalAlign3[DwgTextHorizontalAlign3["RIGHT"] = 2] = "RIGHT";
-  DwgTextHorizontalAlign3[DwgTextHorizontalAlign3["ALIGNED"] = 3] = "ALIGNED";
-  DwgTextHorizontalAlign3[DwgTextHorizontalAlign3["MIDDLE"] = 4] = "MIDDLE";
-  DwgTextHorizontalAlign3[DwgTextHorizontalAlign3["FIT"] = 5] = "FIT";
-  return DwgTextHorizontalAlign3;
-})(DwgTextHorizontalAlign || {});
-var DwgTextVerticalAlign = /* @__PURE__ */ ((DwgTextVerticalAlign3) => {
-  DwgTextVerticalAlign3[DwgTextVerticalAlign3["BASELINE"] = 0] = "BASELINE";
-  DwgTextVerticalAlign3[DwgTextVerticalAlign3["BOTTOM"] = 1] = "BOTTOM";
-  DwgTextVerticalAlign3[DwgTextVerticalAlign3["MIDDLE"] = 2] = "MIDDLE";
-  DwgTextVerticalAlign3[DwgTextVerticalAlign3["TOP"] = 3] = "TOP";
-  return DwgTextVerticalAlign3;
-})(DwgTextVerticalAlign || {});
-
-// src/database/header/variables.ts
-var HEADER_VARIABLES = Object.freeze([
-  "ACADMAINTVER",
-  "ACADVER",
-  "ANGBASE",
-  "ANGDIR",
-  "ATTMODE",
-  "AUNITS",
-  "AUPREC",
-  "CECOLOR",
-  "CELTSCALE",
-  "CELTYPE",
-  "CELWEIGHT",
-  "CEPSNID",
-  "CEPSNTYPE",
-  "CHAMFERA",
-  "CHAMFERB",
-  "CHAMFERC",
-  "CHAMFERD",
-  "CLAYER",
-  "CMLJUST",
-  "CMLSCALE",
-  "CMLSTYLE",
-  "CSHADOW",
-  "DIMADEC",
-  "DIMALT",
-  "DIMALTD",
-  "DIMALTF",
-  "DIMALTRND",
-  "DIMALTTD",
-  "DIMALTTZ",
-  "DIMALTU",
-  "DIMALTZ",
-  "DIMAPOST",
-  "DIMASO",
-  "DIMASSOC",
-  "DIMASZ",
-  "DIMATFIT",
-  "DIMAUNIT",
-  "DIMAZIN",
-  "DIMBLK",
-  "DIMBLK1",
-  "DIMBLK2",
-  "DIMCEN",
-  "DIMCLRD",
-  "DIMCLRE",
-  "DIMCLRT",
-  "DIMDEC",
-  "DIMDLE",
-  "DIMDLI",
-  "DIMDSEP",
-  "DIMEXE",
-  "DIMEXO",
-  "DIMFAC",
-  "DIMGAP",
-  "DIMJUST",
-  "DIMLDRBLK",
-  "DIMLFAC",
-  "DIMLIM",
-  "DIMLUNIT",
-  "DIMLWD",
-  "DIMLWE",
-  "DIMPOST",
-  "DIMRND",
-  "DIMSAH",
-  "DIMSCALE",
-  "DIMSD1",
-  "DIMSD2",
-  "DIMSE1",
-  "DIMSE2",
-  "DIMSHO",
-  "DIMSOXD",
-  "DIMSTYLE",
-  "DIMTAD",
-  "DIMTDEC",
-  "DIMTFAC",
-  "DIMTIH",
-  "DIMTIX",
-  "DIMTM",
-  "DIMTMOVE",
-  "DIMTOFL",
-  "DIMTOH",
-  "DIMTOL",
-  "DIMTOLJ",
-  "DIMTP",
-  "DIMTSZ",
-  "DIMTVP",
-  "DIMTXSTY",
-  "DIMTXT",
-  "DIMTZIN",
-  "DIMUPT",
-  "DIMZIN",
-  "DISPSILH",
-  "DRAGVS",
-  "DWGCODEPAGE",
-  "ELEVATION",
-  "ENDCAPS",
-  "EXTMAX",
-  "EXTMIN",
-  "EXTNAMES",
-  "FILLETRAD",
-  "FILLMODE",
-  "FINGERPRINTGUID",
-  "HALOGAP",
-  "HANDSEED",
-  "HIDETEXT",
-  "HYPERLINKBASE",
-  "INDEXCTL",
-  "INSBASE",
-  "INSUNITS",
-  "INTERFERECOLOR",
-  "INTERFEREOBJVS",
-  "INTERFEREVPVS",
-  "INTERSECTIONCOLOR",
-  "INTERSECTIONDISPLAY",
-  "JOINSTYLE",
-  "LIMCHECK",
-  "LIMMAX",
-  "LIMMIN",
-  "LTSCALE",
-  "LUNITS",
-  "LUPREC",
-  "LWDISPLAY",
-  "MAXACTVP",
-  "MEASUREMENT",
-  "MENU",
-  "MIRRTEXT",
-  "OBSCOLOR",
-  "OBSLTYPE",
-  "ORTHOMODE",
-  "PDMODE",
-  "PDSIZE",
-  "PELEVATION",
-  "PEXTMAX",
-  "PEXTMIN",
-  "PINSBASE",
-  "PLIMCHECK",
-  "PLIMMAX",
-  "PLIMMIN",
-  "PLINEGEN",
-  "PLINEWID",
-  "PROJECTNAME",
-  "PROXYGRAPHICS",
-  "PSLTSCALE",
-  "PSTYLEMODE",
-  "PSVPSCALE",
-  "PUCSBASE",
-  "PUCSNAME",
-  "PUCSORG",
-  "PUCSORGBACK",
-  "PUCSORGBOTTOM",
-  "PUCSORGFRONT",
-  "PUCSORGLEFT",
-  "PUCSORGRIGHT",
-  "PUCSORGTOP",
-  "PUCSORTHOREF",
-  "PUCSORTHOVIEW",
-  "PUCSXDIR",
-  "PUCSYDIR",
-  "QTEXTMODE",
-  "REGENMODE",
-  "SHADEDGE",
-  "SHADEDIF",
-  "SHADOWPLANELOCATION",
-  "SKETCHINC",
-  "SKPOLY",
-  "SORTENTS",
-  "SPLINESEGS",
-  "SPLINETYPE",
-  "SURFTAB1",
-  "SURFTAB2",
-  "SURFTYPE",
-  "SURFU",
-  "SURFV",
-  "TDCREATE",
-  "TDINDWG",
-  "TDUCREATE",
-  "TDUPDATE",
-  "TDUSRTIMER",
-  "TDUUPDATE",
-  "TEXTSIZE",
-  "TEXTSTYLE",
-  "THICKNESS",
-  "TILEMODE",
-  "TRACEWID",
-  "TREEDEPTH",
-  "UCSBASE",
-  "UCSNAME",
-  "UCSORG",
-  "UCSORGBACK",
-  "UCSORGBOTTOM",
-  "UCSORGFRONT",
-  "UCSORGLEFT",
-  "UCSORGRIGHT",
-  "UCSORGTOP",
-  "UCSORTHOREF",
-  "UCSORTHOVIEW",
-  "UCSXDIR",
-  "UCSYDIR",
-  "UNITMODE",
-  "USERI1",
-  "USERI2",
-  "USERI3",
-  "USERI4",
-  "USERI5",
-  "USERR1",
-  "USERR2",
-  "USERR3",
-  "USERR4",
-  "USERR5",
-  "USRTIMER",
-  "VERSIONGUID",
-  "VISRETAIN",
-  "WORLDVIEW",
-  "XCLIPFRAME",
-  "XEDIT"
-]);
-
-// src/database/objects/dictionary.ts
-var DwgDictionaryCloningFlags = /* @__PURE__ */ ((DwgDictionaryCloningFlags2) => {
-  DwgDictionaryCloningFlags2[DwgDictionaryCloningFlags2["NotApplicable"] = 0] = "NotApplicable";
-  DwgDictionaryCloningFlags2[DwgDictionaryCloningFlags2["KeepExisting"] = 1] = "KeepExisting";
-  DwgDictionaryCloningFlags2[DwgDictionaryCloningFlags2["UseClone"] = 2] = "UseClone";
-  DwgDictionaryCloningFlags2[DwgDictionaryCloningFlags2["XrefName"] = 3] = "XrefName";
-  DwgDictionaryCloningFlags2[DwgDictionaryCloningFlags2["Name"] = 4] = "Name";
-  DwgDictionaryCloningFlags2[DwgDictionaryCloningFlags2["UnmangleName"] = 5] = "UnmangleName";
-  return DwgDictionaryCloningFlags2;
-})(DwgDictionaryCloningFlags || {});
-
-// src/database/textEscapes.ts
-var UNICODE_ESCAPE = /\\U\+([0-9A-Fa-f]{4})/g;
-function decodeUnicodeEscapes(text) {
-  if (!text || !text.includes("\\U+")) {
-    return text;
-  }
-  return text.replace(
-    UNICODE_ESCAPE,
-    (_, hex) => String.fromCharCode(parseInt(hex, 16))
-  );
-}
-
-// src/database/version.ts
-var dwgVersions = [
-  {
-    type: "invalid",
-    hdr: "INVALI",
-    description: "No DWG",
-    version: 0
-  },
-  {
-    type: "r1.1",
-    hdr: "MC0.0",
-    description: "MicroCAD Release 1.1",
-    version: 0
-  },
-  {
-    type: "r1.2",
-    hdr: "AC1.2",
-    description: "AutoCAD Release 1.2",
-    version: 0
-  },
-  {
-    type: "r1.3",
-    hdr: "AC1.3",
-    description: "AutoCAD Release 1.3",
-    version: 1
-  },
-  {
-    type: "r1.4",
-    hdr: "AC1.40",
-    description: "AutoCAD Release 1.4",
-    version: 2
-  },
-  { type: "r2.0b", hdr: "AC1.50", description: "AutoCAD 2.0 beta", version: 3 },
-  // not seen
-  {
-    type: "r2.0",
-    hdr: "AC1.50",
-    description: "AutoCAD Release 2.0",
-    version: 4
-  },
-  {
-    type: "r2.10",
-    hdr: "AC2.10",
-    description: "AutoCAD Release 2.10",
-    version: 5
-  },
-  {
-    type: "r2.21",
-    hdr: "AC2.21",
-    description: "AutoCAD Release 2.21",
-    version: 6
-  },
-  {
-    type: "r2.22",
-    hdr: "AC2.22",
-    description: "AutoCAD Release 2.22",
-    version: 7
-  },
-  {
-    type: "r2.4",
-    hdr: "AC1001",
-    description: "AutoCAD Release 2.4",
-    version: 8
-  },
-  {
-    type: "r2.5",
-    hdr: "AC1002",
-    description: "AutoCAD Release 2.5",
-    version: 9
-  },
-  {
-    type: "r2.6",
-    hdr: "AC1003",
-    description: "AutoCAD Release 2.6",
-    version: 10
-  },
-  { type: "r9", hdr: "AC1004", description: "AutoCAD Release 9", version: 11 },
-  {
-    type: "r9c1",
-    hdr: "AC1005",
-    description: "AutoCAD Release 9c1",
-    version: 12
-  },
-  {
-    type: "r10",
-    hdr: "AC1006",
-    description: "AutoCAD Release 10",
-    version: 13
-  },
-  {
-    type: "r11b1",
-    hdr: "AC1007",
-    description: "AutoCAD 11 beta 1",
-    version: 14
-  },
-  {
-    type: "r11b2",
-    hdr: "AC1008",
-    description: "AutoCAD 11 beta 2",
-    version: 15
-  },
-  {
-    type: "r11",
-    hdr: "AC1009",
-    description: "AutoCAD Release 11/12 (LT R1/R2)",
-    version: 16
-  },
-  {
-    type: "r13b1",
-    hdr: "AC1010",
-    description: "AutoCAD pre-R13 a",
-    version: 17
-  },
-  {
-    type: "r13b2",
-    hdr: "AC1011",
-    description: "AutoCAD pre-R13 b",
-    version: 18
-  },
-  {
-    type: "r13",
-    hdr: "AC1012",
-    description: "AutoCAD Release 13",
-    version: 19
-  },
-  {
-    type: "r13c3",
-    hdr: "AC1013",
-    description: "AutoCAD Release 13c3",
-    version: 20
-  },
-  {
-    type: "r14",
-    hdr: "AC1014",
-    description: "AutoCAD Release 14",
-    version: 21
-  },
-  {
-    type: "r2000b",
-    hdr: "AC1500",
-    description: "AutoCAD 2000 beta",
-    version: 22
-  },
-  {
-    type: "r2000",
-    hdr: "AC1015",
-    description: "AutoCAD Release 2000",
-    version: 23
-  },
-  {
-    type: "r2000i",
-    hdr: "AC1016",
-    description: "AutoCAD Release 2000i",
-    version: 23
-  },
-  {
-    type: "r2002",
-    hdr: "AC1017",
-    description: "AutoCAD Release 2002",
-    version: 23
-  },
-  {
-    type: "r2004a",
-    hdr: "AC402a",
-    description: "AutoCAD 2004 alpha a",
-    version: 24
-  },
-  {
-    type: "r2004b",
-    hdr: "AC402b",
-    description: "AutoCAD 2004 alpha b",
-    version: 24
-  },
-  {
-    type: "r2004c",
-    hdr: "AC1018",
-    description: "AutoCAD 2004 beta",
-    version: 24
-  },
-  // (includes versions AC1019/0x19 and AC1020/0x1a)
-  {
-    type: "r2004",
-    hdr: "AC1018",
-    description: "AutoCAD Release 2004",
-    version: 25
-  },
-  //{ type: "r2005", hdr: "AC1019", description: "AutoCAD 2005", version: 0x19 }, // not seen
-  //{ type: "r2006", hdr: "AC1020", description: "AutoCAD 2006", version: 0x19 }, // not seen
-  {
-    type: "r2007a",
-    hdr: "AC701a",
-    description: "AutoCAD 2007 alpha",
-    version: 26
-  },
-  {
-    type: "r2007b",
-    hdr: "AC1021",
-    description: "AutoCAD 2007 beta",
-    version: 26
-  },
-  {
-    type: "r2007",
-    hdr: "AC1021",
-    description: "AutoCAD Release 2007",
-    version: 27
-  },
-  //{ type: "r2008", hdr: "AC1022", description: "AutoCAD 2008", version: 0x1b }, // not seen
-  //{ type: "r2009", hdr: "AC1023", description: "AutoCAD 2009", version: 0x1b }, // not seen
-  {
-    type: "r2010b",
-    hdr: "AC1024",
-    description: "AutoCAD 2010 beta",
-    version: 28
-  },
-  {
-    type: "r2010",
-    hdr: "AC1024",
-    description: "AutoCAD Release 2010",
-    version: 29
-  },
-  //{ type: "r2011", hdr: "AC1025", description: "AutoCAD 2011", version: 0x1d }, // not seen
-  //{ type: "r2012", hdr: "AC1026", description: "AutoCAD 2012", version: 0x1e }, // not seen
-  {
-    type: "r2013b",
-    hdr: "AC1027",
-    description: "AutoCAD 2013 beta",
-    version: 30
-  },
-  {
-    type: "r2013",
-    hdr: "AC1027",
-    description: "AutoCAD Release 2013",
-    version: 31
-  },
-  //{ type: "r2014", hdr: "AC1028", description: "AutoCAD 2014", version: 0x1f }, // not seen
-  //{ type: "r2015", hdr: "AC1029", description: "AutoCAD 2015", version: 0x1f }, // not seen
-  //{ type: "r2016", hdr: "AC1030", description: "AutoCAD 2016", version: 0x1f }, // not seen
-  //{ type: "r2017", hdr: "AC1031", description: "AutoCAD 2017", version: 0x20 }, // not seen
-  {
-    type: "r2018b",
-    hdr: "AC1032",
-    description: "AutoCAD 2018 beta",
-    version: 32
-  },
-  {
-    type: "r2018",
-    hdr: "AC1032",
-    description: "AutoCAD Release 2018",
-    version: 33
-  },
-  //{ type: "r2019", "AC1033", description: "AutoCAD Release 2019", version: 0x22 }, // not seen
-  //{ type: "r2020", "AC1034", description: "AutoCAD Release 2020", version: 0x23 }, // not seen
-  //{ type: "r2021", "AC1035", description: "AutoCAD Release 2021", version: 0x23 }, // not seen
-  {
-    type: "r2022b",
-    hdr: "AC103-4",
-    description: "AutoCAD 2022 beta",
-    version: 36
-  },
-  { type: "r>2022", hdr: "", description: "AutoCAD Release >2022", version: 0 }
-];
-
 // wasm/libredwg-web.js
 async function createModule(moduleArg = {}) {
   var moduleRtn;
@@ -4069,14 +3252,13 @@ async function createModule(moduleArg = {}) {
     const valueType = getEnumValueType(rawValueType);
     switch (valueType) {
       case "object": {
-        let ctor2 = function() {
+        let ctor = function() {
         };
-        var ctor = ctor2;
-        ctor2.values = {};
-        registerType(rawType, { name, constructor: ctor2, valueType, fromWireType: function(c) {
+        ctor.values = {};
+        registerType(rawType, { name, constructor: ctor, valueType, fromWireType: function(c) {
           return this.constructor.values[c];
         }, toWireType: (destructors, c) => c.value, readValueFromPointer: enumReadValueFromPointer(name, size, isSigned), destructorFunction: null });
-        exposePublicSymbol(name, ctor2);
+        exposePublicSymbol(name, ctor);
         break;
       }
       case "number": {
@@ -4934,14 +4116,14 @@ ${functionBody}
   Module["UTF8ToString"] = UTF8ToString;
   Module["stringToNewUTF8"] = stringToNewUTF8;
   Module["FS"] = FS;
-  var __Znwm, __ZdlPvm, _free, _malloc, _calloc, _realloc, ___getTypeName, _strndup, __ZdaPv, __ZdaPvm, __ZdlPv, _emscripten_builtin_malloc, __Znam, __ZnamSt11align_val_t, __ZnwmSt11align_val_t, ___libc_calloc, ___libc_free, ___libc_malloc, ___libc_realloc, _emscripten_builtin_calloc, _emscripten_builtin_free, _emscripten_builtin_realloc, _malloc_size, _malloc_usable_size, _reallocf, __emscripten_stack_restore, __emscripten_stack_alloc, _emscripten_stack_get_current, memory, __indirect_function_table, wasmMemory, wasmTable;
+  var __Znwm, __ZdlPvm, _free, _malloc, _realloc, _calloc, ___getTypeName, _strndup, __ZdaPv, __ZdaPvm, __ZdlPv, _emscripten_builtin_malloc, __Znam, __ZnamSt11align_val_t, __ZnwmSt11align_val_t, ___libc_calloc, ___libc_free, ___libc_malloc, ___libc_realloc, _emscripten_builtin_calloc, _emscripten_builtin_free, _emscripten_builtin_realloc, _malloc_size, _malloc_usable_size, _reallocf, __emscripten_stack_restore, __emscripten_stack_alloc, _emscripten_stack_get_current, memory, __indirect_function_table, wasmMemory, wasmTable;
   function assignWasmExports(wasmExports2) {
     __Znwm = Module["__Znwm"] = wasmExports2["_Znwm"];
     __ZdlPvm = Module["__ZdlPvm"] = wasmExports2["_ZdlPvm"];
     _free = wasmExports2["free"];
     _malloc = wasmExports2["malloc"];
-    _calloc = wasmExports2["calloc"];
     _realloc = wasmExports2["realloc"];
+    _calloc = wasmExports2["calloc"];
     ___getTypeName = wasmExports2["__getTypeName"];
     _strndup = Module["_strndup"] = wasmExports2["strndup"];
     __ZdaPv = Module["__ZdaPv"] = wasmExports2["_ZdaPv"];
@@ -4974,8 +4156,8 @@ ${functionBody}
     var makeWrapper_ppp = (f) => (a0, a1) => f(a0, a1) >>> 0;
     var makeWrapper_p = (f) => () => f() >>> 0;
     wasmExports2["malloc"] = makeWrapper_pp(wasmExports2["malloc"]);
-    wasmExports2["calloc"] = makeWrapper_ppp(wasmExports2["calloc"]);
     wasmExports2["realloc"] = makeWrapper_ppp(wasmExports2["realloc"]);
+    wasmExports2["calloc"] = makeWrapper_ppp(wasmExports2["calloc"]);
     wasmExports2["__getTypeName"] = makeWrapper_pp(wasmExports2["__getTypeName"]);
     wasmExports2["emscripten_builtin_malloc"] = makeWrapper_pp(wasmExports2["emscripten_builtin_malloc"]);
     wasmExports2["emscripten_builtin_calloc"] = makeWrapper_ppp(wasmExports2["emscripten_builtin_calloc"]);
@@ -5027,7 +4209,807 @@ ${functionBody}
 }
 var libredwg_web_default = createModule;
 
-// src/types/enums.ts
+// dist/libredwg-web.js
+var __defProp = Object.defineProperty;
+var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+var __publicField = (obj, key, value) => __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
+var DwgCodePage = /* @__PURE__ */ ((DwgCodePage2) => {
+  DwgCodePage2[DwgCodePage2["CP_UTF8"] = 0] = "CP_UTF8";
+  DwgCodePage2[DwgCodePage2["CP_US_ASCII"] = 1] = "CP_US_ASCII";
+  DwgCodePage2[DwgCodePage2["CP_ISO_8859_1"] = 2] = "CP_ISO_8859_1";
+  DwgCodePage2[DwgCodePage2["CP_ISO_8859_2"] = 3] = "CP_ISO_8859_2";
+  DwgCodePage2[DwgCodePage2["CP_ISO_8859_3"] = 4] = "CP_ISO_8859_3";
+  DwgCodePage2[DwgCodePage2["CP_ISO_8859_4"] = 5] = "CP_ISO_8859_4";
+  DwgCodePage2[DwgCodePage2["CP_ISO_8859_5"] = 6] = "CP_ISO_8859_5";
+  DwgCodePage2[DwgCodePage2["CP_ISO_8859_6"] = 7] = "CP_ISO_8859_6";
+  DwgCodePage2[DwgCodePage2["CP_ISO_8859_7"] = 8] = "CP_ISO_8859_7";
+  DwgCodePage2[DwgCodePage2["CP_ISO_8859_8"] = 9] = "CP_ISO_8859_8";
+  DwgCodePage2[DwgCodePage2["CP_ISO_8859_9"] = 10] = "CP_ISO_8859_9";
+  DwgCodePage2[DwgCodePage2["CP_CP437"] = 11] = "CP_CP437";
+  DwgCodePage2[DwgCodePage2["CP_CP850"] = 12] = "CP_CP850";
+  DwgCodePage2[DwgCodePage2["CP_CP852"] = 13] = "CP_CP852";
+  DwgCodePage2[DwgCodePage2["CP_CP855"] = 14] = "CP_CP855";
+  DwgCodePage2[DwgCodePage2["CP_CP857"] = 15] = "CP_CP857";
+  DwgCodePage2[DwgCodePage2["CP_CP860"] = 16] = "CP_CP860";
+  DwgCodePage2[DwgCodePage2["CP_CP861"] = 17] = "CP_CP861";
+  DwgCodePage2[DwgCodePage2["CP_CP863"] = 18] = "CP_CP863";
+  DwgCodePage2[DwgCodePage2["CP_CP864"] = 19] = "CP_CP864";
+  DwgCodePage2[DwgCodePage2["CP_CP865"] = 20] = "CP_CP865";
+  DwgCodePage2[DwgCodePage2["CP_CP869"] = 21] = "CP_CP869";
+  DwgCodePage2[DwgCodePage2["CP_CP932"] = 22] = "CP_CP932";
+  DwgCodePage2[DwgCodePage2["CP_MACINTOSH"] = 23] = "CP_MACINTOSH";
+  DwgCodePage2[DwgCodePage2["CP_BIG5"] = 24] = "CP_BIG5";
+  DwgCodePage2[DwgCodePage2["CP_CP949"] = 25] = "CP_CP949";
+  DwgCodePage2[DwgCodePage2["CP_JOHAB"] = 26] = "CP_JOHAB";
+  DwgCodePage2[DwgCodePage2["CP_CP866"] = 27] = "CP_CP866";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_1250"] = 28] = "CP_ANSI_1250";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_1251"] = 29] = "CP_ANSI_1251";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_1252"] = 30] = "CP_ANSI_1252";
+  DwgCodePage2[DwgCodePage2["CP_GB2312"] = 31] = "CP_GB2312";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_1253"] = 32] = "CP_ANSI_1253";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_1254"] = 33] = "CP_ANSI_1254";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_1255"] = 34] = "CP_ANSI_1255";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_1256"] = 35] = "CP_ANSI_1256";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_1257"] = 36] = "CP_ANSI_1257";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_874"] = 37] = "CP_ANSI_874";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_932"] = 38] = "CP_ANSI_932";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_936"] = 39] = "CP_ANSI_936";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_949"] = 40] = "CP_ANSI_949";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_950"] = 41] = "CP_ANSI_950";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_1361"] = 42] = "CP_ANSI_1361";
+  DwgCodePage2[DwgCodePage2["CP_UTF16"] = 43] = "CP_UTF16";
+  DwgCodePage2[DwgCodePage2["CP_ANSI_1258"] = 44] = "CP_ANSI_1258";
+  DwgCodePage2[DwgCodePage2["CP_UNDEFINED"] = 255] = "CP_UNDEFINED";
+  return DwgCodePage2;
+})(DwgCodePage || {});
+var encodings = [
+  "utf-8",
+  // 0
+  "utf-8",
+  // US ASCII
+  "iso-8859-1",
+  "iso-8859-2",
+  "iso-8859-3",
+  "iso-8859-4",
+  "iso-8859-5",
+  "iso-8859-6",
+  "iso-8859-7",
+  "iso-8859-8",
+  "iso-8859-9",
+  // 10
+  "utf-8",
+  // DOS English
+  "utf-8",
+  // 12 DOS Latin-1
+  "utf-8",
+  // DOS Central European
+  "utf-8",
+  // DOS Cyrillic
+  "utf-8",
+  // DOS Turkish
+  "utf-8",
+  // DOS Portoguese
+  "utf-8",
+  // DOS Icelandic
+  "utf-8",
+  // DOS Hebrew
+  "utf-8",
+  // DOS Arabic (IBM)
+  "utf-8",
+  // DOS Nordic
+  "utf-8",
+  // DOS Greek
+  "shift-jis",
+  // DOS Japanese (shiftjis)
+  "macintosh",
+  // 23
+  "big5",
+  // WHATWG 'euc-kr' decodes windows-949, which covers CP949 (Wansung + UHC).
+  "euc-kr",
+  // Korean (CP949 / Wansung + UHC)
+  "utf-8",
+  // Johab?
+  "ibm866",
+  // Russian
+  "windows-1250",
+  // Central + Eastern European
+  "windows-1251",
+  // Cyrillic
+  "windows-1252",
+  // Western European
+  "gbk",
+  // EUC-CN Chinese
+  "windows-1253",
+  // Greek
+  "windows-1254",
+  // Turkish
+  "windows-1255",
+  // Hebrew
+  "windows-1256",
+  // Arabic
+  "windows-1257",
+  // Baltic
+  "windows-874",
+  // Thai
+  "shift-jis",
+  // 38 Japanese (extended shiftjis, windows-31j)
+  "gbk",
+  // 39 Simplified Chinese
+  "euc-kr",
+  // 40 Korean Wansung
+  "big5",
+  // 41 Trad Chinese
+  "utf-8",
+  // 42 Korean Wansung
+  "utf-16le",
+  "windows-1258"
+  // Vietnamese
+];
+var dwgCodePageToEncoding = (codepage) => {
+  return encodings[codepage];
+};
+var DwgDimensionType = /* @__PURE__ */ ((DwgDimensionType2) => {
+  DwgDimensionType2[DwgDimensionType2["Rotated"] = 0] = "Rotated";
+  DwgDimensionType2[DwgDimensionType2["Aligned"] = 1] = "Aligned";
+  DwgDimensionType2[DwgDimensionType2["Angular"] = 2] = "Angular";
+  DwgDimensionType2[DwgDimensionType2["Diameter"] = 3] = "Diameter";
+  DwgDimensionType2[DwgDimensionType2["Radius"] = 4] = "Radius";
+  DwgDimensionType2[DwgDimensionType2["Angular3Point"] = 5] = "Angular3Point";
+  DwgDimensionType2[DwgDimensionType2["Ordinate"] = 6] = "Ordinate";
+  DwgDimensionType2[DwgDimensionType2["ReferenceIsExclusive"] = 32] = "ReferenceIsExclusive";
+  DwgDimensionType2[DwgDimensionType2["IsOrdinateXTypeFlag"] = 64] = "IsOrdinateXTypeFlag";
+  DwgDimensionType2[DwgDimensionType2["IsCustomTextPositionFlag"] = 128] = "IsCustomTextPositionFlag";
+  return DwgDimensionType2;
+})(DwgDimensionType || {});
+var DwgAttachmentPoint = /* @__PURE__ */ ((DwgAttachmentPoint2) => {
+  DwgAttachmentPoint2[DwgAttachmentPoint2["TopLeft"] = 1] = "TopLeft";
+  DwgAttachmentPoint2[DwgAttachmentPoint2["TopCenter"] = 2] = "TopCenter";
+  DwgAttachmentPoint2[DwgAttachmentPoint2["TopRight"] = 3] = "TopRight";
+  DwgAttachmentPoint2[DwgAttachmentPoint2["MiddleLeft"] = 4] = "MiddleLeft";
+  DwgAttachmentPoint2[DwgAttachmentPoint2["MiddleCenter"] = 5] = "MiddleCenter";
+  DwgAttachmentPoint2[DwgAttachmentPoint2["MiddleRight"] = 6] = "MiddleRight";
+  DwgAttachmentPoint2[DwgAttachmentPoint2["BottomLeft"] = 7] = "BottomLeft";
+  DwgAttachmentPoint2[DwgAttachmentPoint2["BottomCenter"] = 8] = "BottomCenter";
+  DwgAttachmentPoint2[DwgAttachmentPoint2["BottomRight"] = 9] = "BottomRight";
+  return DwgAttachmentPoint2;
+})(DwgAttachmentPoint || {});
+var DwgDimensionTextLineSpacing = /* @__PURE__ */ ((DwgDimensionTextLineSpacing2) => {
+  DwgDimensionTextLineSpacing2[DwgDimensionTextLineSpacing2["AtLeast"] = 1] = "AtLeast";
+  DwgDimensionTextLineSpacing2[DwgDimensionTextLineSpacing2["Exact"] = 2] = "Exact";
+  return DwgDimensionTextLineSpacing2;
+})(DwgDimensionTextLineSpacing || {});
+var DwgDimensionTextVertical = /* @__PURE__ */ ((DwgDimensionTextVertical2) => {
+  DwgDimensionTextVertical2[DwgDimensionTextVertical2["Center"] = 0] = "Center";
+  DwgDimensionTextVertical2[DwgDimensionTextVertical2["Above"] = 1] = "Above";
+  DwgDimensionTextVertical2[DwgDimensionTextVertical2["Outside"] = 2] = "Outside";
+  DwgDimensionTextVertical2[DwgDimensionTextVertical2["JIS"] = 3] = "JIS";
+  DwgDimensionTextVertical2[DwgDimensionTextVertical2["Below"] = 4] = "Below";
+  return DwgDimensionTextVertical2;
+})(DwgDimensionTextVertical || {});
+var DwgDimensionZeroSuppression = /* @__PURE__ */ ((DwgDimensionZeroSuppression2) => {
+  DwgDimensionZeroSuppression2[DwgDimensionZeroSuppression2["Feet"] = 0] = "Feet";
+  DwgDimensionZeroSuppression2[DwgDimensionZeroSuppression2["None"] = 1] = "None";
+  DwgDimensionZeroSuppression2[DwgDimensionZeroSuppression2["Inch"] = 2] = "Inch";
+  DwgDimensionZeroSuppression2[DwgDimensionZeroSuppression2["FeetAndInch"] = 3] = "FeetAndInch";
+  DwgDimensionZeroSuppression2[DwgDimensionZeroSuppression2["Leading"] = 4] = "Leading";
+  DwgDimensionZeroSuppression2[DwgDimensionZeroSuppression2["Trailing"] = 8] = "Trailing";
+  DwgDimensionZeroSuppression2[DwgDimensionZeroSuppression2["LeadingAndTrailing"] = 12] = "LeadingAndTrailing";
+  return DwgDimensionZeroSuppression2;
+})(DwgDimensionZeroSuppression || {});
+var DwgDimensionZeroSuppressionAngular = /* @__PURE__ */ ((DwgDimensionZeroSuppressionAngular2) => {
+  DwgDimensionZeroSuppressionAngular2[DwgDimensionZeroSuppressionAngular2["None"] = 0] = "None";
+  DwgDimensionZeroSuppressionAngular2[DwgDimensionZeroSuppressionAngular2["Leading"] = 1] = "Leading";
+  DwgDimensionZeroSuppressionAngular2[DwgDimensionZeroSuppressionAngular2["Trailing"] = 2] = "Trailing";
+  DwgDimensionZeroSuppressionAngular2[DwgDimensionZeroSuppressionAngular2["LeadingAndTrailing"] = 3] = "LeadingAndTrailing";
+  return DwgDimensionZeroSuppressionAngular2;
+})(DwgDimensionZeroSuppressionAngular || {});
+var DwgDimensionTextHorizontal = /* @__PURE__ */ ((DwgDimensionTextHorizontal2) => {
+  DwgDimensionTextHorizontal2[DwgDimensionTextHorizontal2["Center"] = 0] = "Center";
+  DwgDimensionTextHorizontal2[DwgDimensionTextHorizontal2["Left"] = 1] = "Left";
+  DwgDimensionTextHorizontal2[DwgDimensionTextHorizontal2["Right"] = 2] = "Right";
+  DwgDimensionTextHorizontal2[DwgDimensionTextHorizontal2["OverFirst"] = 3] = "OverFirst";
+  DwgDimensionTextHorizontal2[DwgDimensionTextHorizontal2["OverSecond"] = 4] = "OverSecond";
+  return DwgDimensionTextHorizontal2;
+})(DwgDimensionTextHorizontal || {});
+var DwgDimensionToleranceTextVertical = /* @__PURE__ */ ((DwgDimensionToleranceTextVertical2) => {
+  DwgDimensionToleranceTextVertical2[DwgDimensionToleranceTextVertical2["Bottom"] = 0] = "Bottom";
+  DwgDimensionToleranceTextVertical2[DwgDimensionToleranceTextVertical2["Center"] = 1] = "Center";
+  DwgDimensionToleranceTextVertical2[DwgDimensionToleranceTextVertical2["Top"] = 2] = "Top";
+  return DwgDimensionToleranceTextVertical2;
+})(DwgDimensionToleranceTextVertical || {});
+var DwgHatchSolidFill = /* @__PURE__ */ ((DwgHatchSolidFill2) => {
+  DwgHatchSolidFill2[DwgHatchSolidFill2["PatternFill"] = 0] = "PatternFill";
+  DwgHatchSolidFill2[DwgHatchSolidFill2["SolidFill"] = 1] = "SolidFill";
+  return DwgHatchSolidFill2;
+})(DwgHatchSolidFill || {});
+var DwgHatchAssociativity = /* @__PURE__ */ ((DwgHatchAssociativity2) => {
+  DwgHatchAssociativity2[DwgHatchAssociativity2["NonAssociative"] = 0] = "NonAssociative";
+  DwgHatchAssociativity2[DwgHatchAssociativity2["Associative"] = 1] = "Associative";
+  return DwgHatchAssociativity2;
+})(DwgHatchAssociativity || {});
+var DwgHatchStyle = /* @__PURE__ */ ((DwgHatchStyle2) => {
+  DwgHatchStyle2[DwgHatchStyle2["Normal"] = 0] = "Normal";
+  DwgHatchStyle2[DwgHatchStyle2["Outer"] = 1] = "Outer";
+  DwgHatchStyle2[DwgHatchStyle2["Ignore"] = 2] = "Ignore";
+  return DwgHatchStyle2;
+})(DwgHatchStyle || {});
+var DwgHatchPatternType = /* @__PURE__ */ ((DwgHatchPatternType2) => {
+  DwgHatchPatternType2[DwgHatchPatternType2["UserDefined"] = 0] = "UserDefined";
+  DwgHatchPatternType2[DwgHatchPatternType2["Predefined"] = 1] = "Predefined";
+  DwgHatchPatternType2[DwgHatchPatternType2["Custom"] = 2] = "Custom";
+  return DwgHatchPatternType2;
+})(DwgHatchPatternType || {});
+var DwgHatchBoundaryAnnotation = /* @__PURE__ */ ((DwgHatchBoundaryAnnotation2) => {
+  DwgHatchBoundaryAnnotation2[DwgHatchBoundaryAnnotation2["NotAnnotated"] = 0] = "NotAnnotated";
+  DwgHatchBoundaryAnnotation2[DwgHatchBoundaryAnnotation2["Annotated"] = 1] = "Annotated";
+  return DwgHatchBoundaryAnnotation2;
+})(DwgHatchBoundaryAnnotation || {});
+var DwgHatchGradientFlag = /* @__PURE__ */ ((DwgHatchGradientFlag2) => {
+  DwgHatchGradientFlag2[DwgHatchGradientFlag2["Solid"] = 0] = "Solid";
+  DwgHatchGradientFlag2[DwgHatchGradientFlag2["Gradient"] = 1] = "Gradient";
+  return DwgHatchGradientFlag2;
+})(DwgHatchGradientFlag || {});
+var DwgHatchGradientColorFlag = /* @__PURE__ */ ((DwgHatchGradientColorFlag2) => {
+  DwgHatchGradientColorFlag2[DwgHatchGradientColorFlag2["TwoColor"] = 0] = "TwoColor";
+  DwgHatchGradientColorFlag2[DwgHatchGradientColorFlag2["OneColor"] = 1] = "OneColor";
+  return DwgHatchGradientColorFlag2;
+})(DwgHatchGradientColorFlag || {});
+var DwgBoundaryPathTypeFlag = /* @__PURE__ */ ((DwgBoundaryPathTypeFlag2) => {
+  DwgBoundaryPathTypeFlag2[DwgBoundaryPathTypeFlag2["Default"] = 0] = "Default";
+  DwgBoundaryPathTypeFlag2[DwgBoundaryPathTypeFlag2["External"] = 1] = "External";
+  DwgBoundaryPathTypeFlag2[DwgBoundaryPathTypeFlag2["Polyline"] = 2] = "Polyline";
+  DwgBoundaryPathTypeFlag2[DwgBoundaryPathTypeFlag2["Derived"] = 4] = "Derived";
+  DwgBoundaryPathTypeFlag2[DwgBoundaryPathTypeFlag2["Textbox"] = 8] = "Textbox";
+  DwgBoundaryPathTypeFlag2[DwgBoundaryPathTypeFlag2["Outermost"] = 16] = "Outermost";
+  return DwgBoundaryPathTypeFlag2;
+})(DwgBoundaryPathTypeFlag || {});
+var DwgBoundaryPathEdgeType = /* @__PURE__ */ ((DwgBoundaryPathEdgeType2) => {
+  DwgBoundaryPathEdgeType2[DwgBoundaryPathEdgeType2["Line"] = 1] = "Line";
+  DwgBoundaryPathEdgeType2[DwgBoundaryPathEdgeType2["Circular"] = 2] = "Circular";
+  DwgBoundaryPathEdgeType2[DwgBoundaryPathEdgeType2["Elliptic"] = 3] = "Elliptic";
+  DwgBoundaryPathEdgeType2[DwgBoundaryPathEdgeType2["Spline"] = 4] = "Spline";
+  return DwgBoundaryPathEdgeType2;
+})(DwgBoundaryPathEdgeType || {});
+var DwgPolylineFlag = /* @__PURE__ */ ((DwgPolylineFlag2) => {
+  DwgPolylineFlag2[DwgPolylineFlag2["CLOSED_POLYLINE"] = 1] = "CLOSED_POLYLINE";
+  DwgPolylineFlag2[DwgPolylineFlag2["CURVE_FIT"] = 2] = "CURVE_FIT";
+  DwgPolylineFlag2[DwgPolylineFlag2["SPLINE_FIT"] = 4] = "SPLINE_FIT";
+  DwgPolylineFlag2[DwgPolylineFlag2["POLYLINE_3D"] = 8] = "POLYLINE_3D";
+  DwgPolylineFlag2[DwgPolylineFlag2["POLYGON_3D"] = 16] = "POLYGON_3D";
+  DwgPolylineFlag2[DwgPolylineFlag2["CLOSED_POLYGON"] = 32] = "CLOSED_POLYGON";
+  DwgPolylineFlag2[DwgPolylineFlag2["POLYFACE"] = 64] = "POLYFACE";
+  DwgPolylineFlag2[DwgPolylineFlag2["CONTINUOUS"] = 128] = "CONTINUOUS";
+  return DwgPolylineFlag2;
+})(DwgPolylineFlag || {});
+var DwgSmoothType = /* @__PURE__ */ ((DwgSmoothType2) => {
+  DwgSmoothType2[DwgSmoothType2["NONE"] = 0] = "NONE";
+  DwgSmoothType2[DwgSmoothType2["QUADRATIC"] = 5] = "QUADRATIC";
+  DwgSmoothType2[DwgSmoothType2["CUBIC"] = 6] = "CUBIC";
+  DwgSmoothType2[DwgSmoothType2["BEZIER"] = 8] = "BEZIER";
+  return DwgSmoothType2;
+})(DwgSmoothType || {});
+var DwgProxyOriginalDataFormat = /* @__PURE__ */ ((DwgProxyOriginalDataFormat2) => {
+  DwgProxyOriginalDataFormat2[DwgProxyOriginalDataFormat2["Dwg"] = 0] = "Dwg";
+  DwgProxyOriginalDataFormat2[DwgProxyOriginalDataFormat2["Dxf"] = 1] = "Dxf";
+  return DwgProxyOriginalDataFormat2;
+})(DwgProxyOriginalDataFormat || {});
+var DwgTextGenerationFlag = /* @__PURE__ */ ((DwgTextGenerationFlag2) => {
+  DwgTextGenerationFlag2[DwgTextGenerationFlag2["NONE"] = 0] = "NONE";
+  DwgTextGenerationFlag2[DwgTextGenerationFlag2["MIRRORED_X"] = 2] = "MIRRORED_X";
+  DwgTextGenerationFlag2[DwgTextGenerationFlag2["MIRRORED_Y"] = 4] = "MIRRORED_Y";
+  return DwgTextGenerationFlag2;
+})(DwgTextGenerationFlag || {});
+var DwgTextHorizontalAlign = /* @__PURE__ */ ((DwgTextHorizontalAlign2) => {
+  DwgTextHorizontalAlign2[DwgTextHorizontalAlign2["LEFT"] = 0] = "LEFT";
+  DwgTextHorizontalAlign2[DwgTextHorizontalAlign2["CENTER"] = 1] = "CENTER";
+  DwgTextHorizontalAlign2[DwgTextHorizontalAlign2["RIGHT"] = 2] = "RIGHT";
+  DwgTextHorizontalAlign2[DwgTextHorizontalAlign2["ALIGNED"] = 3] = "ALIGNED";
+  DwgTextHorizontalAlign2[DwgTextHorizontalAlign2["MIDDLE"] = 4] = "MIDDLE";
+  DwgTextHorizontalAlign2[DwgTextHorizontalAlign2["FIT"] = 5] = "FIT";
+  return DwgTextHorizontalAlign2;
+})(DwgTextHorizontalAlign || {});
+var DwgTextVerticalAlign = /* @__PURE__ */ ((DwgTextVerticalAlign2) => {
+  DwgTextVerticalAlign2[DwgTextVerticalAlign2["BASELINE"] = 0] = "BASELINE";
+  DwgTextVerticalAlign2[DwgTextVerticalAlign2["BOTTOM"] = 1] = "BOTTOM";
+  DwgTextVerticalAlign2[DwgTextVerticalAlign2["MIDDLE"] = 2] = "MIDDLE";
+  DwgTextVerticalAlign2[DwgTextVerticalAlign2["TOP"] = 3] = "TOP";
+  return DwgTextVerticalAlign2;
+})(DwgTextVerticalAlign || {});
+var HEADER_VARIABLES = Object.freeze([
+  "ACADMAINTVER",
+  "ACADVER",
+  "ANGBASE",
+  "ANGDIR",
+  "ATTMODE",
+  "AUNITS",
+  "AUPREC",
+  "CECOLOR",
+  "CELTSCALE",
+  "CELTYPE",
+  "CELWEIGHT",
+  "CEPSNID",
+  "CEPSNTYPE",
+  "CHAMFERA",
+  "CHAMFERB",
+  "CHAMFERC",
+  "CHAMFERD",
+  "CLAYER",
+  "CMLJUST",
+  "CMLSCALE",
+  "CMLSTYLE",
+  "CSHADOW",
+  "DIMADEC",
+  "DIMALT",
+  "DIMALTD",
+  "DIMALTF",
+  "DIMALTRND",
+  "DIMALTTD",
+  "DIMALTTZ",
+  "DIMALTU",
+  "DIMALTZ",
+  "DIMAPOST",
+  "DIMASO",
+  "DIMASSOC",
+  "DIMASZ",
+  "DIMATFIT",
+  "DIMAUNIT",
+  "DIMAZIN",
+  "DIMBLK",
+  "DIMBLK1",
+  "DIMBLK2",
+  "DIMCEN",
+  "DIMCLRD",
+  "DIMCLRE",
+  "DIMCLRT",
+  "DIMDEC",
+  "DIMDLE",
+  "DIMDLI",
+  "DIMDSEP",
+  "DIMEXE",
+  "DIMEXO",
+  "DIMFAC",
+  "DIMGAP",
+  "DIMJUST",
+  "DIMLDRBLK",
+  "DIMLFAC",
+  "DIMLIM",
+  "DIMLUNIT",
+  "DIMLWD",
+  "DIMLWE",
+  "DIMPOST",
+  "DIMRND",
+  "DIMSAH",
+  "DIMSCALE",
+  "DIMSD1",
+  "DIMSD2",
+  "DIMSE1",
+  "DIMSE2",
+  "DIMSHO",
+  "DIMSOXD",
+  "DIMSTYLE",
+  "DIMTAD",
+  "DIMTDEC",
+  "DIMTFAC",
+  "DIMTIH",
+  "DIMTIX",
+  "DIMTM",
+  "DIMTMOVE",
+  "DIMTOFL",
+  "DIMTOH",
+  "DIMTOL",
+  "DIMTOLJ",
+  "DIMTP",
+  "DIMTSZ",
+  "DIMTVP",
+  "DIMTXSTY",
+  "DIMTXT",
+  "DIMTZIN",
+  "DIMUPT",
+  "DIMZIN",
+  "DISPSILH",
+  "DRAGVS",
+  "DWGCODEPAGE",
+  "ELEVATION",
+  "ENDCAPS",
+  "EXTMAX",
+  "EXTMIN",
+  "EXTNAMES",
+  "FILLETRAD",
+  "FILLMODE",
+  "FINGERPRINTGUID",
+  "HALOGAP",
+  "HANDSEED",
+  "HIDETEXT",
+  "HYPERLINKBASE",
+  "INDEXCTL",
+  "INSBASE",
+  "INSUNITS",
+  "INTERFERECOLOR",
+  "INTERFEREOBJVS",
+  "INTERFEREVPVS",
+  "INTERSECTIONCOLOR",
+  "INTERSECTIONDISPLAY",
+  "JOINSTYLE",
+  "LIMCHECK",
+  "LIMMAX",
+  "LIMMIN",
+  "LTSCALE",
+  "LUNITS",
+  "LUPREC",
+  "LWDISPLAY",
+  "MAXACTVP",
+  "MEASUREMENT",
+  "MENU",
+  "MIRRTEXT",
+  "OBSCOLOR",
+  "OBSLTYPE",
+  "ORTHOMODE",
+  "PDMODE",
+  "PDSIZE",
+  "PELEVATION",
+  "PEXTMAX",
+  "PEXTMIN",
+  "PINSBASE",
+  "PLIMCHECK",
+  "PLIMMAX",
+  "PLIMMIN",
+  "PLINEGEN",
+  "PLINEWID",
+  "PROJECTNAME",
+  "PROXYGRAPHICS",
+  "PSLTSCALE",
+  "PSTYLEMODE",
+  "PSVPSCALE",
+  "PUCSBASE",
+  "PUCSNAME",
+  "PUCSORG",
+  "PUCSORGBACK",
+  "PUCSORGBOTTOM",
+  "PUCSORGFRONT",
+  "PUCSORGLEFT",
+  "PUCSORGRIGHT",
+  "PUCSORGTOP",
+  "PUCSORTHOREF",
+  "PUCSORTHOVIEW",
+  "PUCSXDIR",
+  "PUCSYDIR",
+  "QTEXTMODE",
+  "REGENMODE",
+  "SHADEDGE",
+  "SHADEDIF",
+  "SHADOWPLANELOCATION",
+  "SKETCHINC",
+  "SKPOLY",
+  "SORTENTS",
+  "SPLINESEGS",
+  "SPLINETYPE",
+  "SURFTAB1",
+  "SURFTAB2",
+  "SURFTYPE",
+  "SURFU",
+  "SURFV",
+  "TDCREATE",
+  "TDINDWG",
+  "TDUCREATE",
+  "TDUPDATE",
+  "TDUSRTIMER",
+  "TDUUPDATE",
+  "TEXTSIZE",
+  "TEXTSTYLE",
+  "THICKNESS",
+  "TILEMODE",
+  "TRACEWID",
+  "TREEDEPTH",
+  "UCSBASE",
+  "UCSNAME",
+  "UCSORG",
+  "UCSORGBACK",
+  "UCSORGBOTTOM",
+  "UCSORGFRONT",
+  "UCSORGLEFT",
+  "UCSORGRIGHT",
+  "UCSORGTOP",
+  "UCSORTHOREF",
+  "UCSORTHOVIEW",
+  "UCSXDIR",
+  "UCSYDIR",
+  "UNITMODE",
+  "USERI1",
+  "USERI2",
+  "USERI3",
+  "USERI4",
+  "USERI5",
+  "USERR1",
+  "USERR2",
+  "USERR3",
+  "USERR4",
+  "USERR5",
+  "USRTIMER",
+  "VERSIONGUID",
+  "VISRETAIN",
+  "WORLDVIEW",
+  "XCLIPFRAME",
+  "XEDIT"
+]);
+var DwgDictionaryCloningFlags = /* @__PURE__ */ ((DwgDictionaryCloningFlags2) => {
+  DwgDictionaryCloningFlags2[DwgDictionaryCloningFlags2["NotApplicable"] = 0] = "NotApplicable";
+  DwgDictionaryCloningFlags2[DwgDictionaryCloningFlags2["KeepExisting"] = 1] = "KeepExisting";
+  DwgDictionaryCloningFlags2[DwgDictionaryCloningFlags2["UseClone"] = 2] = "UseClone";
+  DwgDictionaryCloningFlags2[DwgDictionaryCloningFlags2["XrefName"] = 3] = "XrefName";
+  DwgDictionaryCloningFlags2[DwgDictionaryCloningFlags2["Name"] = 4] = "Name";
+  DwgDictionaryCloningFlags2[DwgDictionaryCloningFlags2["UnmangleName"] = 5] = "UnmangleName";
+  return DwgDictionaryCloningFlags2;
+})(DwgDictionaryCloningFlags || {});
+var UNICODE_ESCAPE = /\\U\+([0-9A-Fa-f]{4})/g;
+function decodeUnicodeEscapes(text) {
+  if (!text || !text.includes("\\U+")) {
+    return text;
+  }
+  return text.replace(
+    UNICODE_ESCAPE,
+    (_, hex) => String.fromCharCode(parseInt(hex, 16))
+  );
+}
+var dwgVersions = [
+  {
+    type: "invalid",
+    hdr: "INVALI",
+    description: "No DWG",
+    version: 0
+  },
+  {
+    type: "r1.1",
+    hdr: "MC0.0",
+    description: "MicroCAD Release 1.1",
+    version: 0
+  },
+  {
+    type: "r1.2",
+    hdr: "AC1.2",
+    description: "AutoCAD Release 1.2",
+    version: 0
+  },
+  {
+    type: "r1.3",
+    hdr: "AC1.3",
+    description: "AutoCAD Release 1.3",
+    version: 1
+  },
+  {
+    type: "r1.4",
+    hdr: "AC1.40",
+    description: "AutoCAD Release 1.4",
+    version: 2
+  },
+  { type: "r2.0b", hdr: "AC1.50", description: "AutoCAD 2.0 beta", version: 3 },
+  // not seen
+  {
+    type: "r2.0",
+    hdr: "AC1.50",
+    description: "AutoCAD Release 2.0",
+    version: 4
+  },
+  {
+    type: "r2.10",
+    hdr: "AC2.10",
+    description: "AutoCAD Release 2.10",
+    version: 5
+  },
+  {
+    type: "r2.21",
+    hdr: "AC2.21",
+    description: "AutoCAD Release 2.21",
+    version: 6
+  },
+  {
+    type: "r2.22",
+    hdr: "AC2.22",
+    description: "AutoCAD Release 2.22",
+    version: 7
+  },
+  {
+    type: "r2.4",
+    hdr: "AC1001",
+    description: "AutoCAD Release 2.4",
+    version: 8
+  },
+  {
+    type: "r2.5",
+    hdr: "AC1002",
+    description: "AutoCAD Release 2.5",
+    version: 9
+  },
+  {
+    type: "r2.6",
+    hdr: "AC1003",
+    description: "AutoCAD Release 2.6",
+    version: 10
+  },
+  { type: "r9", hdr: "AC1004", description: "AutoCAD Release 9", version: 11 },
+  {
+    type: "r9c1",
+    hdr: "AC1005",
+    description: "AutoCAD Release 9c1",
+    version: 12
+  },
+  {
+    type: "r10",
+    hdr: "AC1006",
+    description: "AutoCAD Release 10",
+    version: 13
+  },
+  {
+    type: "r11b1",
+    hdr: "AC1007",
+    description: "AutoCAD 11 beta 1",
+    version: 14
+  },
+  {
+    type: "r11b2",
+    hdr: "AC1008",
+    description: "AutoCAD 11 beta 2",
+    version: 15
+  },
+  {
+    type: "r11",
+    hdr: "AC1009",
+    description: "AutoCAD Release 11/12 (LT R1/R2)",
+    version: 16
+  },
+  {
+    type: "r13b1",
+    hdr: "AC1010",
+    description: "AutoCAD pre-R13 a",
+    version: 17
+  },
+  {
+    type: "r13b2",
+    hdr: "AC1011",
+    description: "AutoCAD pre-R13 b",
+    version: 18
+  },
+  {
+    type: "r13",
+    hdr: "AC1012",
+    description: "AutoCAD Release 13",
+    version: 19
+  },
+  {
+    type: "r13c3",
+    hdr: "AC1013",
+    description: "AutoCAD Release 13c3",
+    version: 20
+  },
+  {
+    type: "r14",
+    hdr: "AC1014",
+    description: "AutoCAD Release 14",
+    version: 21
+  },
+  {
+    type: "r2000b",
+    hdr: "AC1500",
+    description: "AutoCAD 2000 beta",
+    version: 22
+  },
+  {
+    type: "r2000",
+    hdr: "AC1015",
+    description: "AutoCAD Release 2000",
+    version: 23
+  },
+  {
+    type: "r2000i",
+    hdr: "AC1016",
+    description: "AutoCAD Release 2000i",
+    version: 23
+  },
+  {
+    type: "r2002",
+    hdr: "AC1017",
+    description: "AutoCAD Release 2002",
+    version: 23
+  },
+  {
+    type: "r2004a",
+    hdr: "AC402a",
+    description: "AutoCAD 2004 alpha a",
+    version: 24
+  },
+  {
+    type: "r2004b",
+    hdr: "AC402b",
+    description: "AutoCAD 2004 alpha b",
+    version: 24
+  },
+  {
+    type: "r2004c",
+    hdr: "AC1018",
+    description: "AutoCAD 2004 beta",
+    version: 24
+  },
+  // (includes versions AC1019/0x19 and AC1020/0x1a)
+  {
+    type: "r2004",
+    hdr: "AC1018",
+    description: "AutoCAD Release 2004",
+    version: 25
+  },
+  //{ type: "r2005", hdr: "AC1019", description: "AutoCAD 2005", version: 0x19 }, // not seen
+  //{ type: "r2006", hdr: "AC1020", description: "AutoCAD 2006", version: 0x19 }, // not seen
+  {
+    type: "r2007a",
+    hdr: "AC701a",
+    description: "AutoCAD 2007 alpha",
+    version: 26
+  },
+  {
+    type: "r2007b",
+    hdr: "AC1021",
+    description: "AutoCAD 2007 beta",
+    version: 26
+  },
+  {
+    type: "r2007",
+    hdr: "AC1021",
+    description: "AutoCAD Release 2007",
+    version: 27
+  },
+  //{ type: "r2008", hdr: "AC1022", description: "AutoCAD 2008", version: 0x1b }, // not seen
+  //{ type: "r2009", hdr: "AC1023", description: "AutoCAD 2009", version: 0x1b }, // not seen
+  {
+    type: "r2010b",
+    hdr: "AC1024",
+    description: "AutoCAD 2010 beta",
+    version: 28
+  },
+  {
+    type: "r2010",
+    hdr: "AC1024",
+    description: "AutoCAD Release 2010",
+    version: 29
+  },
+  //{ type: "r2011", hdr: "AC1025", description: "AutoCAD 2011", version: 0x1d }, // not seen
+  //{ type: "r2012", hdr: "AC1026", description: "AutoCAD 2012", version: 0x1e }, // not seen
+  {
+    type: "r2013b",
+    hdr: "AC1027",
+    description: "AutoCAD 2013 beta",
+    version: 30
+  },
+  {
+    type: "r2013",
+    hdr: "AC1027",
+    description: "AutoCAD Release 2013",
+    version: 31
+  },
+  //{ type: "r2014", hdr: "AC1028", description: "AutoCAD 2014", version: 0x1f }, // not seen
+  //{ type: "r2015", hdr: "AC1029", description: "AutoCAD 2015", version: 0x1f }, // not seen
+  //{ type: "r2016", hdr: "AC1030", description: "AutoCAD 2016", version: 0x1f }, // not seen
+  //{ type: "r2017", hdr: "AC1031", description: "AutoCAD 2017", version: 0x20 }, // not seen
+  {
+    type: "r2018b",
+    hdr: "AC1032",
+    description: "AutoCAD 2018 beta",
+    version: 32
+  },
+  {
+    type: "r2018",
+    hdr: "AC1032",
+    description: "AutoCAD Release 2018",
+    version: 33
+  },
+  //{ type: "r2019", "AC1033", description: "AutoCAD Release 2019", version: 0x22 }, // not seen
+  //{ type: "r2020", "AC1034", description: "AutoCAD Release 2020", version: 0x23 }, // not seen
+  //{ type: "r2021", "AC1035", description: "AutoCAD Release 2021", version: 0x23 }, // not seen
+  {
+    type: "r2022b",
+    hdr: "AC103-4",
+    description: "AutoCAD 2022 beta",
+    version: 36
+  },
+  { type: "r>2022", hdr: "", description: "AutoCAD Release >2022", version: 0 }
+];
 var Dwg_Object_Supertype = /* @__PURE__ */ ((Dwg_Object_Supertype2) => {
   Dwg_Object_Supertype2[Dwg_Object_Supertype2["DWG_SUPERTYPE_ENTITY"] = 0] = "DWG_SUPERTYPE_ENTITY";
   Dwg_Object_Supertype2[Dwg_Object_Supertype2["DWG_SUPERTYPE_OBJECT"] = 1] = "DWG_SUPERTYPE_OBJECT";
@@ -5133,249 +5115,250 @@ var Dwg_Object_Type = /* @__PURE__ */ ((Dwg_Object_Type2) => {
   Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_PROXY_OBJECT"] = 499] = "DWG_TYPE_PROXY_OBJECT";
   Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACDSRECORD"] = 500] = "DWG_TYPE_ACDSRECORD";
   Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACDSSCHEMA"] = 501] = "DWG_TYPE_ACDSSCHEMA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACMECOMMANDHISTORY"] = 502] = "DWG_TYPE_ACMECOMMANDHISTORY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACMESCOPE"] = 503] = "DWG_TYPE_ACMESCOPE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACMESTATEMGR"] = 504] = "DWG_TYPE_ACMESTATEMGR";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_BOOLEAN_CLASS"] = 505] = "DWG_TYPE_ACSH_BOOLEAN_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_BOX_CLASS"] = 506] = "DWG_TYPE_ACSH_BOX_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_BREP_CLASS"] = 507] = "DWG_TYPE_ACSH_BREP_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_CHAMFER_CLASS"] = 508] = "DWG_TYPE_ACSH_CHAMFER_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_CONE_CLASS"] = 509] = "DWG_TYPE_ACSH_CONE_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_CYLINDER_CLASS"] = 510] = "DWG_TYPE_ACSH_CYLINDER_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_EXTRUSION_CLASS"] = 511] = "DWG_TYPE_ACSH_EXTRUSION_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_FILLET_CLASS"] = 512] = "DWG_TYPE_ACSH_FILLET_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_HISTORY_CLASS"] = 513] = "DWG_TYPE_ACSH_HISTORY_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_LOFT_CLASS"] = 514] = "DWG_TYPE_ACSH_LOFT_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_PYRAMID_CLASS"] = 515] = "DWG_TYPE_ACSH_PYRAMID_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_REVOLVE_CLASS"] = 516] = "DWG_TYPE_ACSH_REVOLVE_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_SPHERE_CLASS"] = 517] = "DWG_TYPE_ACSH_SPHERE_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_SWEEP_CLASS"] = 518] = "DWG_TYPE_ACSH_SWEEP_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_TORUS_CLASS"] = 519] = "DWG_TYPE_ACSH_TORUS_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_WEDGE_CLASS"] = 520] = "DWG_TYPE_ACSH_WEDGE_CLASS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ALDIMOBJECTCONTEXTDATA"] = 521] = "DWG_TYPE_ALDIMOBJECTCONTEXTDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ALIGNMENTPARAMETERENTITY"] = 522] = "DWG_TYPE_ALIGNMENTPARAMETERENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ANGDIMOBJECTCONTEXTDATA"] = 523] = "DWG_TYPE_ANGDIMOBJECTCONTEXTDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ANNOTSCALEOBJECTCONTEXTDATA"] = 524] = "DWG_TYPE_ANNOTSCALEOBJECTCONTEXTDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ARCALIGNEDTEXT"] = 525] = "DWG_TYPE_ARCALIGNEDTEXT";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ARC_DIMENSION"] = 526] = "DWG_TYPE_ARC_DIMENSION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOC2DCONSTRAINTGROUP"] = 527] = "DWG_TYPE_ASSOC2DCONSTRAINTGROUP";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOC3POINTANGULARDIMACTIONBODY"] = 528] = "DWG_TYPE_ASSOC3POINTANGULARDIMACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCACTION"] = 529] = "DWG_TYPE_ASSOCACTION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCACTIONPARAM"] = 530] = "DWG_TYPE_ASSOCACTIONPARAM";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCALIGNEDDIMACTIONBODY"] = 531] = "DWG_TYPE_ASSOCALIGNEDDIMACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCARRAYACTIONBODY"] = 532] = "DWG_TYPE_ASSOCARRAYACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCARRAYMODIFYACTIONBODY"] = 533] = "DWG_TYPE_ASSOCARRAYMODIFYACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCARRAYMODIFYPARAMETERS"] = 534] = "DWG_TYPE_ASSOCARRAYMODIFYPARAMETERS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCARRAYPATHPARAMETERS"] = 535] = "DWG_TYPE_ASSOCARRAYPATHPARAMETERS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCARRAYPOLARPARAMETERS"] = 536] = "DWG_TYPE_ASSOCARRAYPOLARPARAMETERS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCARRAYRECTANGULARPARAMETERS"] = 537] = "DWG_TYPE_ASSOCARRAYRECTANGULARPARAMETERS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCASMBODYACTIONPARAM"] = 538] = "DWG_TYPE_ASSOCASMBODYACTIONPARAM";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCBLENDSURFACEACTIONBODY"] = 539] = "DWG_TYPE_ASSOCBLENDSURFACEACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCCOMPOUNDACTIONPARAM"] = 540] = "DWG_TYPE_ASSOCCOMPOUNDACTIONPARAM";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCDEPENDENCY"] = 541] = "DWG_TYPE_ASSOCDEPENDENCY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCDIMDEPENDENCYBODY"] = 542] = "DWG_TYPE_ASSOCDIMDEPENDENCYBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCEDGEACTIONPARAM"] = 543] = "DWG_TYPE_ASSOCEDGEACTIONPARAM";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCEDGECHAMFERACTIONBODY"] = 544] = "DWG_TYPE_ASSOCEDGECHAMFERACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCEDGEFILLETACTIONBODY"] = 545] = "DWG_TYPE_ASSOCEDGEFILLETACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCEXTENDSURFACEACTIONBODY"] = 546] = "DWG_TYPE_ASSOCEXTENDSURFACEACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCEXTRUDEDSURFACEACTIONBODY"] = 547] = "DWG_TYPE_ASSOCEXTRUDEDSURFACEACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCFACEACTIONPARAM"] = 548] = "DWG_TYPE_ASSOCFACEACTIONPARAM";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCFILLETSURFACEACTIONBODY"] = 549] = "DWG_TYPE_ASSOCFILLETSURFACEACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCGEOMDEPENDENCY"] = 550] = "DWG_TYPE_ASSOCGEOMDEPENDENCY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCLOFTEDSURFACEACTIONBODY"] = 551] = "DWG_TYPE_ASSOCLOFTEDSURFACEACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCMLEADERACTIONBODY"] = 552] = "DWG_TYPE_ASSOCMLEADERACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCNETWORK"] = 553] = "DWG_TYPE_ASSOCNETWORK";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCNETWORKSURFACEACTIONBODY"] = 554] = "DWG_TYPE_ASSOCNETWORKSURFACEACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCOBJECTACTIONPARAM"] = 555] = "DWG_TYPE_ASSOCOBJECTACTIONPARAM";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCOFFSETSURFACEACTIONBODY"] = 556] = "DWG_TYPE_ASSOCOFFSETSURFACEACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCORDINATEDIMACTIONBODY"] = 557] = "DWG_TYPE_ASSOCORDINATEDIMACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCOSNAPPOINTREFACTIONPARAM"] = 558] = "DWG_TYPE_ASSOCOSNAPPOINTREFACTIONPARAM";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCPATCHSURFACEACTIONBODY"] = 559] = "DWG_TYPE_ASSOCPATCHSURFACEACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCPATHACTIONPARAM"] = 560] = "DWG_TYPE_ASSOCPATHACTIONPARAM";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCPERSSUBENTMANAGER"] = 561] = "DWG_TYPE_ASSOCPERSSUBENTMANAGER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCPLANESURFACEACTIONBODY"] = 562] = "DWG_TYPE_ASSOCPLANESURFACEACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCPOINTREFACTIONPARAM"] = 563] = "DWG_TYPE_ASSOCPOINTREFACTIONPARAM";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCRESTOREENTITYSTATEACTIONBODY"] = 564] = "DWG_TYPE_ASSOCRESTOREENTITYSTATEACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCREVOLVEDSURFACEACTIONBODY"] = 565] = "DWG_TYPE_ASSOCREVOLVEDSURFACEACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCROTATEDDIMACTIONBODY"] = 566] = "DWG_TYPE_ASSOCROTATEDDIMACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCSWEPTSURFACEACTIONBODY"] = 567] = "DWG_TYPE_ASSOCSWEPTSURFACEACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCTRIMSURFACEACTIONBODY"] = 568] = "DWG_TYPE_ASSOCTRIMSURFACEACTIONBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCVALUEDEPENDENCY"] = 569] = "DWG_TYPE_ASSOCVALUEDEPENDENCY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCVARIABLE"] = 570] = "DWG_TYPE_ASSOCVARIABLE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCVERTEXACTIONPARAM"] = 571] = "DWG_TYPE_ASSOCVERTEXACTIONPARAM";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BASEPOINTPARAMETERENTITY"] = 572] = "DWG_TYPE_BASEPOINTPARAMETERENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLKREFOBJECTCONTEXTDATA"] = 573] = "DWG_TYPE_BLKREFOBJECTCONTEXTDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKALIGNEDCONSTRAINTPARAMETER"] = 574] = "DWG_TYPE_BLOCKALIGNEDCONSTRAINTPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKALIGNMENTGRIP"] = 575] = "DWG_TYPE_BLOCKALIGNMENTGRIP";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKALIGNMENTPARAMETER"] = 576] = "DWG_TYPE_BLOCKALIGNMENTPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKANGULARCONSTRAINTPARAMETER"] = 577] = "DWG_TYPE_BLOCKANGULARCONSTRAINTPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKARRAYACTION"] = 578] = "DWG_TYPE_BLOCKARRAYACTION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKBASEPOINTPARAMETER"] = 579] = "DWG_TYPE_BLOCKBASEPOINTPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKDIAMETRICCONSTRAINTPARAMETER"] = 580] = "DWG_TYPE_BLOCKDIAMETRICCONSTRAINTPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKFLIPACTION"] = 581] = "DWG_TYPE_BLOCKFLIPACTION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKFLIPGRIP"] = 582] = "DWG_TYPE_BLOCKFLIPGRIP";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKFLIPPARAMETER"] = 583] = "DWG_TYPE_BLOCKFLIPPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKGRIPLOCATIONCOMPONENT"] = 584] = "DWG_TYPE_BLOCKGRIPLOCATIONCOMPONENT";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKHORIZONTALCONSTRAINTPARAMETER"] = 585] = "DWG_TYPE_BLOCKHORIZONTALCONSTRAINTPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKLINEARCONSTRAINTPARAMETER"] = 586] = "DWG_TYPE_BLOCKLINEARCONSTRAINTPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKLINEARGRIP"] = 587] = "DWG_TYPE_BLOCKLINEARGRIP";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKLINEARPARAMETER"] = 588] = "DWG_TYPE_BLOCKLINEARPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKLOOKUPACTION"] = 589] = "DWG_TYPE_BLOCKLOOKUPACTION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKLOOKUPGRIP"] = 590] = "DWG_TYPE_BLOCKLOOKUPGRIP";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKLOOKUPPARAMETER"] = 591] = "DWG_TYPE_BLOCKLOOKUPPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKMOVEACTION"] = 592] = "DWG_TYPE_BLOCKMOVEACTION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKPARAMDEPENDENCYBODY"] = 593] = "DWG_TYPE_BLOCKPARAMDEPENDENCYBODY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKPOINTPARAMETER"] = 594] = "DWG_TYPE_BLOCKPOINTPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKPOLARGRIP"] = 595] = "DWG_TYPE_BLOCKPOLARGRIP";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKPOLARPARAMETER"] = 596] = "DWG_TYPE_BLOCKPOLARPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKPOLARSTRETCHACTION"] = 597] = "DWG_TYPE_BLOCKPOLARSTRETCHACTION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKPROPERTIESTABLE"] = 598] = "DWG_TYPE_BLOCKPROPERTIESTABLE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKPROPERTIESTABLEGRIP"] = 599] = "DWG_TYPE_BLOCKPROPERTIESTABLEGRIP";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKRADIALCONSTRAINTPARAMETER"] = 600] = "DWG_TYPE_BLOCKRADIALCONSTRAINTPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKREPRESENTATION"] = 601] = "DWG_TYPE_BLOCKREPRESENTATION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKROTATEACTION"] = 602] = "DWG_TYPE_BLOCKROTATEACTION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKROTATIONGRIP"] = 603] = "DWG_TYPE_BLOCKROTATIONGRIP";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKROTATIONPARAMETER"] = 604] = "DWG_TYPE_BLOCKROTATIONPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKSCALEACTION"] = 605] = "DWG_TYPE_BLOCKSCALEACTION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKSTRETCHACTION"] = 606] = "DWG_TYPE_BLOCKSTRETCHACTION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKUSERPARAMETER"] = 607] = "DWG_TYPE_BLOCKUSERPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKVERTICALCONSTRAINTPARAMETER"] = 608] = "DWG_TYPE_BLOCKVERTICALCONSTRAINTPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKVISIBILITYGRIP"] = 609] = "DWG_TYPE_BLOCKVISIBILITYGRIP";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKVISIBILITYPARAMETER"] = 610] = "DWG_TYPE_BLOCKVISIBILITYPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKXYGRIP"] = 611] = "DWG_TYPE_BLOCKXYGRIP";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKXYPARAMETER"] = 612] = "DWG_TYPE_BLOCKXYPARAMETER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_CAMERA"] = 613] = "DWG_TYPE_CAMERA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_CELLSTYLEMAP"] = 614] = "DWG_TYPE_CELLSTYLEMAP";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_CONTEXTDATAMANAGER"] = 615] = "DWG_TYPE_CONTEXTDATAMANAGER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_CSACDOCUMENTOPTIONS"] = 616] = "DWG_TYPE_CSACDOCUMENTOPTIONS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_CURVEPATH"] = 617] = "DWG_TYPE_CURVEPATH";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DATALINK"] = 618] = "DWG_TYPE_DATALINK";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DATATABLE"] = 619] = "DWG_TYPE_DATATABLE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DBCOLOR"] = 620] = "DWG_TYPE_DBCOLOR";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DETAILVIEWSTYLE"] = 621] = "DWG_TYPE_DETAILVIEWSTYLE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DGNDEFINITION"] = 622] = "DWG_TYPE_DGNDEFINITION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DGNUNDERLAY"] = 623] = "DWG_TYPE_DGNUNDERLAY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DICTIONARYVAR"] = 624] = "DWG_TYPE_DICTIONARYVAR";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DICTIONARYWDFLT"] = 625] = "DWG_TYPE_DICTIONARYWDFLT";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DIMASSOC"] = 626] = "DWG_TYPE_DIMASSOC";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DMDIMOBJECTCONTEXTDATA"] = 627] = "DWG_TYPE_DMDIMOBJECTCONTEXTDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DWFDEFINITION"] = 628] = "DWG_TYPE_DWFDEFINITION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DWFUNDERLAY"] = 629] = "DWG_TYPE_DWFUNDERLAY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DYNAMICBLOCKPROXYNODE"] = 630] = "DWG_TYPE_DYNAMICBLOCKPROXYNODE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DYNAMICBLOCKPURGEPREVENTER"] = 631] = "DWG_TYPE_DYNAMICBLOCKPURGEPREVENTER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_EVALUATION_GRAPH"] = 632] = "DWG_TYPE_EVALUATION_GRAPH";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_EXTRUDEDSURFACE"] = 633] = "DWG_TYPE_EXTRUDEDSURFACE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_FCFOBJECTCONTEXTDATA"] = 634] = "DWG_TYPE_FCFOBJECTCONTEXTDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_FIELD"] = 635] = "DWG_TYPE_FIELD";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_FIELDLIST"] = 636] = "DWG_TYPE_FIELDLIST";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_FLIPPARAMETERENTITY"] = 637] = "DWG_TYPE_FLIPPARAMETERENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_FLIPACTIONENTITY"] = 638] = "DWG_TYPE_FLIPACTIONENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_GEODATA"] = 639] = "DWG_TYPE_GEODATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_GEOMAPIMAGE"] = 640] = "DWG_TYPE_GEOMAPIMAGE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_GEOPOSITIONMARKER"] = 641] = "DWG_TYPE_GEOPOSITIONMARKER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_GRADIENT_BACKGROUND"] = 642] = "DWG_TYPE_GRADIENT_BACKGROUND";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_GROUND_PLANE_BACKGROUND"] = 643] = "DWG_TYPE_GROUND_PLANE_BACKGROUND";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_HELIX"] = 644] = "DWG_TYPE_HELIX";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_IBL_BACKGROUND"] = 645] = "DWG_TYPE_IBL_BACKGROUND";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_IDBUFFER"] = 646] = "DWG_TYPE_IDBUFFER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_IMAGE"] = 647] = "DWG_TYPE_IMAGE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_IMAGEDEF"] = 648] = "DWG_TYPE_IMAGEDEF";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_IMAGEDEF_REACTOR"] = 649] = "DWG_TYPE_IMAGEDEF_REACTOR";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_IMAGE_BACKGROUND"] = 650] = "DWG_TYPE_IMAGE_BACKGROUND";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_INDEX"] = 651] = "DWG_TYPE_INDEX";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LARGE_RADIAL_DIMENSION"] = 652] = "DWG_TYPE_LARGE_RADIAL_DIMENSION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LAYERFILTER"] = 653] = "DWG_TYPE_LAYERFILTER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LAYER_INDEX"] = 654] = "DWG_TYPE_LAYER_INDEX";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LAYOUTPRINTCONFIG"] = 655] = "DWG_TYPE_LAYOUTPRINTCONFIG";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LEADEROBJECTCONTEXTDATA"] = 656] = "DWG_TYPE_LEADEROBJECTCONTEXTDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LIGHT"] = 657] = "DWG_TYPE_LIGHT";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LIGHTLIST"] = 658] = "DWG_TYPE_LIGHTLIST";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LINEARPARAMETERENTITY"] = 659] = "DWG_TYPE_LINEARPARAMETERENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LOFTEDSURFACE"] = 660] = "DWG_TYPE_LOFTEDSURFACE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MATERIAL"] = 661] = "DWG_TYPE_MATERIAL";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MENTALRAYRENDERSETTINGS"] = 662] = "DWG_TYPE_MENTALRAYRENDERSETTINGS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MESH"] = 663] = "DWG_TYPE_MESH";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MLEADEROBJECTCONTEXTDATA"] = 664] = "DWG_TYPE_MLEADEROBJECTCONTEXTDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MLEADERSTYLE"] = 665] = "DWG_TYPE_MLEADERSTYLE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MOVEACTIONENTITY"] = 666] = "DWG_TYPE_MOVEACTIONENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MOTIONPATH"] = 667] = "DWG_TYPE_MOTIONPATH";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MPOLYGON"] = 668] = "DWG_TYPE_MPOLYGON";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MTEXTATTRIBUTEOBJECTCONTEXTDATA"] = 669] = "DWG_TYPE_MTEXTATTRIBUTEOBJECTCONTEXTDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MTEXTOBJECTCONTEXTDATA"] = 670] = "DWG_TYPE_MTEXTOBJECTCONTEXTDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MULTILEADER"] = 671] = "DWG_TYPE_MULTILEADER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_NAVISWORKSMODEL"] = 672] = "DWG_TYPE_NAVISWORKSMODEL";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_NAVISWORKSMODELDEF"] = 673] = "DWG_TYPE_NAVISWORKSMODELDEF";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_NPOCOLLECTION"] = 674] = "DWG_TYPE_NPOCOLLECTION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_NURBSURFACE"] = 675] = "DWG_TYPE_NURBSURFACE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_OBJECT_PTR"] = 676] = "DWG_TYPE_OBJECT_PTR";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ORDDIMOBJECTCONTEXTDATA"] = 677] = "DWG_TYPE_ORDDIMOBJECTCONTEXTDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_PARTIAL_VIEWING_INDEX"] = 678] = "DWG_TYPE_PARTIAL_VIEWING_INDEX";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_PDFDEFINITION"] = 679] = "DWG_TYPE_PDFDEFINITION";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_PDFUNDERLAY"] = 680] = "DWG_TYPE_PDFUNDERLAY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_PERSUBENTMGR"] = 681] = "DWG_TYPE_PERSUBENTMGR";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_PLANESURFACE"] = 682] = "DWG_TYPE_PLANESURFACE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_PLOTSETTINGS"] = 683] = "DWG_TYPE_PLOTSETTINGS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTCLOUD"] = 684] = "DWG_TYPE_POINTCLOUD";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTCLOUDCOLORMAP"] = 685] = "DWG_TYPE_POINTCLOUDCOLORMAP";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTCLOUDDEF"] = 686] = "DWG_TYPE_POINTCLOUDDEF";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTCLOUDDEFEX"] = 687] = "DWG_TYPE_POINTCLOUDDEFEX";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTCLOUDDEF_REACTOR"] = 688] = "DWG_TYPE_POINTCLOUDDEF_REACTOR";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTCLOUDDEF_REACTOR_EX"] = 689] = "DWG_TYPE_POINTCLOUDDEF_REACTOR_EX";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTCLOUDEX"] = 690] = "DWG_TYPE_POINTCLOUDEX";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTPARAMETERENTITY"] = 691] = "DWG_TYPE_POINTPARAMETERENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTPATH"] = 692] = "DWG_TYPE_POINTPATH";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POLARGRIPENTITY"] = 693] = "DWG_TYPE_POLARGRIPENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RADIMLGOBJECTCONTEXTDATA"] = 694] = "DWG_TYPE_RADIMLGOBJECTCONTEXTDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RADIMOBJECTCONTEXTDATA"] = 695] = "DWG_TYPE_RADIMOBJECTCONTEXTDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RAPIDRTRENDERSETTINGS"] = 696] = "DWG_TYPE_RAPIDRTRENDERSETTINGS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RASTERVARIABLES"] = 697] = "DWG_TYPE_RASTERVARIABLES";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RENDERENTRY"] = 698] = "DWG_TYPE_RENDERENTRY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RENDERENVIRONMENT"] = 699] = "DWG_TYPE_RENDERENVIRONMENT";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RENDERGLOBAL"] = 700] = "DWG_TYPE_RENDERGLOBAL";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RENDERSETTINGS"] = 701] = "DWG_TYPE_RENDERSETTINGS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_REVOLVEDSURFACE"] = 702] = "DWG_TYPE_REVOLVEDSURFACE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ROTATIONPARAMETERENTITY"] = 703] = "DWG_TYPE_ROTATIONPARAMETERENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ROTATEACTIONENTITY"] = 704] = "DWG_TYPE_ROTATEACTIONENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RTEXT"] = 705] = "DWG_TYPE_RTEXT";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SCALE"] = 706] = "DWG_TYPE_SCALE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SCALEACTIONENTITY"] = 707] = "DWG_TYPE_SCALEACTIONENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SECTIONOBJECT"] = 708] = "DWG_TYPE_SECTIONOBJECT";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SECTIONVIEWSTYLE"] = 709] = "DWG_TYPE_SECTIONVIEWSTYLE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SECTION_MANAGER"] = 710] = "DWG_TYPE_SECTION_MANAGER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SECTION_SETTINGS"] = 711] = "DWG_TYPE_SECTION_SETTINGS";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SKYLIGHT_BACKGROUND"] = 712] = "DWG_TYPE_SKYLIGHT_BACKGROUND";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SOLID_BACKGROUND"] = 713] = "DWG_TYPE_SOLID_BACKGROUND";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SORTENTSTABLE"] = 714] = "DWG_TYPE_SORTENTSTABLE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SPATIAL_FILTER"] = 715] = "DWG_TYPE_SPATIAL_FILTER";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SPATIAL_INDEX"] = 716] = "DWG_TYPE_SPATIAL_INDEX";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_STRETCHACTIONENTITY"] = 717] = "DWG_TYPE_STRETCHACTIONENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SUN"] = 718] = "DWG_TYPE_SUN";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SUNSTUDY"] = 719] = "DWG_TYPE_SUNSTUDY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SWEPTSURFACE"] = 720] = "DWG_TYPE_SWEPTSURFACE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_TABLE"] = 721] = "DWG_TYPE_TABLE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_TABLECONTENT"] = 722] = "DWG_TYPE_TABLECONTENT";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_TABLEGEOMETRY"] = 723] = "DWG_TYPE_TABLEGEOMETRY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_TABLESTYLE"] = 724] = "DWG_TYPE_TABLESTYLE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_TEXTOBJECTCONTEXTDATA"] = 725] = "DWG_TYPE_TEXTOBJECTCONTEXTDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_TVDEVICEPROPERTIES"] = 726] = "DWG_TYPE_TVDEVICEPROPERTIES";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_VISIBILITYGRIPENTITY"] = 727] = "DWG_TYPE_VISIBILITYGRIPENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_VISIBILITYPARAMETERENTITY"] = 728] = "DWG_TYPE_VISIBILITYPARAMETERENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_VISUALSTYLE"] = 729] = "DWG_TYPE_VISUALSTYLE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_WIPEOUT"] = 730] = "DWG_TYPE_WIPEOUT";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_WIPEOUTVARIABLES"] = 731] = "DWG_TYPE_WIPEOUTVARIABLES";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_XREFPANELOBJECT"] = 732] = "DWG_TYPE_XREFPANELOBJECT";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_XYPARAMETERENTITY"] = 733] = "DWG_TYPE_XYPARAMETERENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BREAKDATA"] = 734] = "DWG_TYPE_BREAKDATA";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BREAKPOINTREF"] = 735] = "DWG_TYPE_BREAKPOINTREF";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_FLIPGRIPENTITY"] = 736] = "DWG_TYPE_FLIPGRIPENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LINEARGRIPENTITY"] = 737] = "DWG_TYPE_LINEARGRIPENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ROTATIONGRIPENTITY"] = 738] = "DWG_TYPE_ROTATIONGRIPENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_XYGRIPENTITY"] = 739] = "DWG_TYPE_XYGRIPENTITY";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE__3DLINE"] = 740] = "DWG_TYPE__3DLINE";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_REPEAT"] = 741] = "DWG_TYPE_REPEAT";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ENDREP"] = 742] = "DWG_TYPE_ENDREP";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_JUMP"] = 743] = "DWG_TYPE_JUMP";
-  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LOAD"] = 744] = "DWG_TYPE_LOAD";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACIDBLOCKREFERENCE"] = 502] = "DWG_TYPE_ACIDBLOCKREFERENCE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACMECOMMANDHISTORY"] = 503] = "DWG_TYPE_ACMECOMMANDHISTORY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACMESCOPE"] = 504] = "DWG_TYPE_ACMESCOPE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACMESTATEMGR"] = 505] = "DWG_TYPE_ACMESTATEMGR";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_BOOLEAN_CLASS"] = 506] = "DWG_TYPE_ACSH_BOOLEAN_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_BOX_CLASS"] = 507] = "DWG_TYPE_ACSH_BOX_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_BREP_CLASS"] = 508] = "DWG_TYPE_ACSH_BREP_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_CHAMFER_CLASS"] = 509] = "DWG_TYPE_ACSH_CHAMFER_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_CONE_CLASS"] = 510] = "DWG_TYPE_ACSH_CONE_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_CYLINDER_CLASS"] = 511] = "DWG_TYPE_ACSH_CYLINDER_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_EXTRUSION_CLASS"] = 512] = "DWG_TYPE_ACSH_EXTRUSION_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_FILLET_CLASS"] = 513] = "DWG_TYPE_ACSH_FILLET_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_HISTORY_CLASS"] = 514] = "DWG_TYPE_ACSH_HISTORY_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_LOFT_CLASS"] = 515] = "DWG_TYPE_ACSH_LOFT_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_PYRAMID_CLASS"] = 516] = "DWG_TYPE_ACSH_PYRAMID_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_REVOLVE_CLASS"] = 517] = "DWG_TYPE_ACSH_REVOLVE_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_SPHERE_CLASS"] = 518] = "DWG_TYPE_ACSH_SPHERE_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_SWEEP_CLASS"] = 519] = "DWG_TYPE_ACSH_SWEEP_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_TORUS_CLASS"] = 520] = "DWG_TYPE_ACSH_TORUS_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ACSH_WEDGE_CLASS"] = 521] = "DWG_TYPE_ACSH_WEDGE_CLASS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ALDIMOBJECTCONTEXTDATA"] = 522] = "DWG_TYPE_ALDIMOBJECTCONTEXTDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ALIGNMENTPARAMETERENTITY"] = 523] = "DWG_TYPE_ALIGNMENTPARAMETERENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ANGDIMOBJECTCONTEXTDATA"] = 524] = "DWG_TYPE_ANGDIMOBJECTCONTEXTDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ANNOTSCALEOBJECTCONTEXTDATA"] = 525] = "DWG_TYPE_ANNOTSCALEOBJECTCONTEXTDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ARCALIGNEDTEXT"] = 526] = "DWG_TYPE_ARCALIGNEDTEXT";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ARC_DIMENSION"] = 527] = "DWG_TYPE_ARC_DIMENSION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOC2DCONSTRAINTGROUP"] = 528] = "DWG_TYPE_ASSOC2DCONSTRAINTGROUP";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOC3POINTANGULARDIMACTIONBODY"] = 529] = "DWG_TYPE_ASSOC3POINTANGULARDIMACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCACTION"] = 530] = "DWG_TYPE_ASSOCACTION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCACTIONPARAM"] = 531] = "DWG_TYPE_ASSOCACTIONPARAM";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCALIGNEDDIMACTIONBODY"] = 532] = "DWG_TYPE_ASSOCALIGNEDDIMACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCARRAYACTIONBODY"] = 533] = "DWG_TYPE_ASSOCARRAYACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCARRAYMODIFYACTIONBODY"] = 534] = "DWG_TYPE_ASSOCARRAYMODIFYACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCARRAYMODIFYPARAMETERS"] = 535] = "DWG_TYPE_ASSOCARRAYMODIFYPARAMETERS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCARRAYPATHPARAMETERS"] = 536] = "DWG_TYPE_ASSOCARRAYPATHPARAMETERS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCARRAYPOLARPARAMETERS"] = 537] = "DWG_TYPE_ASSOCARRAYPOLARPARAMETERS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCARRAYRECTANGULARPARAMETERS"] = 538] = "DWG_TYPE_ASSOCARRAYRECTANGULARPARAMETERS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCASMBODYACTIONPARAM"] = 539] = "DWG_TYPE_ASSOCASMBODYACTIONPARAM";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCBLENDSURFACEACTIONBODY"] = 540] = "DWG_TYPE_ASSOCBLENDSURFACEACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCCOMPOUNDACTIONPARAM"] = 541] = "DWG_TYPE_ASSOCCOMPOUNDACTIONPARAM";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCDEPENDENCY"] = 542] = "DWG_TYPE_ASSOCDEPENDENCY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCDIMDEPENDENCYBODY"] = 543] = "DWG_TYPE_ASSOCDIMDEPENDENCYBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCEDGEACTIONPARAM"] = 544] = "DWG_TYPE_ASSOCEDGEACTIONPARAM";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCEDGECHAMFERACTIONBODY"] = 545] = "DWG_TYPE_ASSOCEDGECHAMFERACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCEDGEFILLETACTIONBODY"] = 546] = "DWG_TYPE_ASSOCEDGEFILLETACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCEXTENDSURFACEACTIONBODY"] = 547] = "DWG_TYPE_ASSOCEXTENDSURFACEACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCEXTRUDEDSURFACEACTIONBODY"] = 548] = "DWG_TYPE_ASSOCEXTRUDEDSURFACEACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCFACEACTIONPARAM"] = 549] = "DWG_TYPE_ASSOCFACEACTIONPARAM";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCFILLETSURFACEACTIONBODY"] = 550] = "DWG_TYPE_ASSOCFILLETSURFACEACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCGEOMDEPENDENCY"] = 551] = "DWG_TYPE_ASSOCGEOMDEPENDENCY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCLOFTEDSURFACEACTIONBODY"] = 552] = "DWG_TYPE_ASSOCLOFTEDSURFACEACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCMLEADERACTIONBODY"] = 553] = "DWG_TYPE_ASSOCMLEADERACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCNETWORK"] = 554] = "DWG_TYPE_ASSOCNETWORK";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCNETWORKSURFACEACTIONBODY"] = 555] = "DWG_TYPE_ASSOCNETWORKSURFACEACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCOBJECTACTIONPARAM"] = 556] = "DWG_TYPE_ASSOCOBJECTACTIONPARAM";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCOFFSETSURFACEACTIONBODY"] = 557] = "DWG_TYPE_ASSOCOFFSETSURFACEACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCORDINATEDIMACTIONBODY"] = 558] = "DWG_TYPE_ASSOCORDINATEDIMACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCOSNAPPOINTREFACTIONPARAM"] = 559] = "DWG_TYPE_ASSOCOSNAPPOINTREFACTIONPARAM";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCPATCHSURFACEACTIONBODY"] = 560] = "DWG_TYPE_ASSOCPATCHSURFACEACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCPATHACTIONPARAM"] = 561] = "DWG_TYPE_ASSOCPATHACTIONPARAM";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCPERSSUBENTMANAGER"] = 562] = "DWG_TYPE_ASSOCPERSSUBENTMANAGER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCPLANESURFACEACTIONBODY"] = 563] = "DWG_TYPE_ASSOCPLANESURFACEACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCPOINTREFACTIONPARAM"] = 564] = "DWG_TYPE_ASSOCPOINTREFACTIONPARAM";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCRESTOREENTITYSTATEACTIONBODY"] = 565] = "DWG_TYPE_ASSOCRESTOREENTITYSTATEACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCREVOLVEDSURFACEACTIONBODY"] = 566] = "DWG_TYPE_ASSOCREVOLVEDSURFACEACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCROTATEDDIMACTIONBODY"] = 567] = "DWG_TYPE_ASSOCROTATEDDIMACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCSWEPTSURFACEACTIONBODY"] = 568] = "DWG_TYPE_ASSOCSWEPTSURFACEACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCTRIMSURFACEACTIONBODY"] = 569] = "DWG_TYPE_ASSOCTRIMSURFACEACTIONBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCVALUEDEPENDENCY"] = 570] = "DWG_TYPE_ASSOCVALUEDEPENDENCY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCVARIABLE"] = 571] = "DWG_TYPE_ASSOCVARIABLE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ASSOCVERTEXACTIONPARAM"] = 572] = "DWG_TYPE_ASSOCVERTEXACTIONPARAM";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BASEPOINTPARAMETERENTITY"] = 573] = "DWG_TYPE_BASEPOINTPARAMETERENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLKREFOBJECTCONTEXTDATA"] = 574] = "DWG_TYPE_BLKREFOBJECTCONTEXTDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKALIGNEDCONSTRAINTPARAMETER"] = 575] = "DWG_TYPE_BLOCKALIGNEDCONSTRAINTPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKALIGNMENTGRIP"] = 576] = "DWG_TYPE_BLOCKALIGNMENTGRIP";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKALIGNMENTPARAMETER"] = 577] = "DWG_TYPE_BLOCKALIGNMENTPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKANGULARCONSTRAINTPARAMETER"] = 578] = "DWG_TYPE_BLOCKANGULARCONSTRAINTPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKARRAYACTION"] = 579] = "DWG_TYPE_BLOCKARRAYACTION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKBASEPOINTPARAMETER"] = 580] = "DWG_TYPE_BLOCKBASEPOINTPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKDIAMETRICCONSTRAINTPARAMETER"] = 581] = "DWG_TYPE_BLOCKDIAMETRICCONSTRAINTPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKFLIPACTION"] = 582] = "DWG_TYPE_BLOCKFLIPACTION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKFLIPGRIP"] = 583] = "DWG_TYPE_BLOCKFLIPGRIP";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKFLIPPARAMETER"] = 584] = "DWG_TYPE_BLOCKFLIPPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKGRIPLOCATIONCOMPONENT"] = 585] = "DWG_TYPE_BLOCKGRIPLOCATIONCOMPONENT";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKHORIZONTALCONSTRAINTPARAMETER"] = 586] = "DWG_TYPE_BLOCKHORIZONTALCONSTRAINTPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKLINEARCONSTRAINTPARAMETER"] = 587] = "DWG_TYPE_BLOCKLINEARCONSTRAINTPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKLINEARGRIP"] = 588] = "DWG_TYPE_BLOCKLINEARGRIP";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKLINEARPARAMETER"] = 589] = "DWG_TYPE_BLOCKLINEARPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKLOOKUPACTION"] = 590] = "DWG_TYPE_BLOCKLOOKUPACTION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKLOOKUPGRIP"] = 591] = "DWG_TYPE_BLOCKLOOKUPGRIP";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKLOOKUPPARAMETER"] = 592] = "DWG_TYPE_BLOCKLOOKUPPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKMOVEACTION"] = 593] = "DWG_TYPE_BLOCKMOVEACTION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKPARAMDEPENDENCYBODY"] = 594] = "DWG_TYPE_BLOCKPARAMDEPENDENCYBODY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKPOINTPARAMETER"] = 595] = "DWG_TYPE_BLOCKPOINTPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKPOLARGRIP"] = 596] = "DWG_TYPE_BLOCKPOLARGRIP";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKPOLARPARAMETER"] = 597] = "DWG_TYPE_BLOCKPOLARPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKPOLARSTRETCHACTION"] = 598] = "DWG_TYPE_BLOCKPOLARSTRETCHACTION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKPROPERTIESTABLE"] = 599] = "DWG_TYPE_BLOCKPROPERTIESTABLE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKPROPERTIESTABLEGRIP"] = 600] = "DWG_TYPE_BLOCKPROPERTIESTABLEGRIP";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKRADIALCONSTRAINTPARAMETER"] = 601] = "DWG_TYPE_BLOCKRADIALCONSTRAINTPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKREPRESENTATION"] = 602] = "DWG_TYPE_BLOCKREPRESENTATION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKROTATEACTION"] = 603] = "DWG_TYPE_BLOCKROTATEACTION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKROTATIONGRIP"] = 604] = "DWG_TYPE_BLOCKROTATIONGRIP";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKROTATIONPARAMETER"] = 605] = "DWG_TYPE_BLOCKROTATIONPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKSCALEACTION"] = 606] = "DWG_TYPE_BLOCKSCALEACTION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKSTRETCHACTION"] = 607] = "DWG_TYPE_BLOCKSTRETCHACTION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKUSERPARAMETER"] = 608] = "DWG_TYPE_BLOCKUSERPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKVERTICALCONSTRAINTPARAMETER"] = 609] = "DWG_TYPE_BLOCKVERTICALCONSTRAINTPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKVISIBILITYGRIP"] = 610] = "DWG_TYPE_BLOCKVISIBILITYGRIP";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKVISIBILITYPARAMETER"] = 611] = "DWG_TYPE_BLOCKVISIBILITYPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKXYGRIP"] = 612] = "DWG_TYPE_BLOCKXYGRIP";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BLOCKXYPARAMETER"] = 613] = "DWG_TYPE_BLOCKXYPARAMETER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_CAMERA"] = 614] = "DWG_TYPE_CAMERA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_CELLSTYLEMAP"] = 615] = "DWG_TYPE_CELLSTYLEMAP";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_CONTEXTDATAMANAGER"] = 616] = "DWG_TYPE_CONTEXTDATAMANAGER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_CSACDOCUMENTOPTIONS"] = 617] = "DWG_TYPE_CSACDOCUMENTOPTIONS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_CURVEPATH"] = 618] = "DWG_TYPE_CURVEPATH";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DATALINK"] = 619] = "DWG_TYPE_DATALINK";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DATATABLE"] = 620] = "DWG_TYPE_DATATABLE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DBCOLOR"] = 621] = "DWG_TYPE_DBCOLOR";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DETAILVIEWSTYLE"] = 622] = "DWG_TYPE_DETAILVIEWSTYLE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DGNDEFINITION"] = 623] = "DWG_TYPE_DGNDEFINITION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DGNUNDERLAY"] = 624] = "DWG_TYPE_DGNUNDERLAY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DICTIONARYVAR"] = 625] = "DWG_TYPE_DICTIONARYVAR";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DICTIONARYWDFLT"] = 626] = "DWG_TYPE_DICTIONARYWDFLT";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DIMASSOC"] = 627] = "DWG_TYPE_DIMASSOC";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DMDIMOBJECTCONTEXTDATA"] = 628] = "DWG_TYPE_DMDIMOBJECTCONTEXTDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DWFDEFINITION"] = 629] = "DWG_TYPE_DWFDEFINITION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DWFUNDERLAY"] = 630] = "DWG_TYPE_DWFUNDERLAY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DYNAMICBLOCKPROXYNODE"] = 631] = "DWG_TYPE_DYNAMICBLOCKPROXYNODE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_DYNAMICBLOCKPURGEPREVENTER"] = 632] = "DWG_TYPE_DYNAMICBLOCKPURGEPREVENTER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_EVALUATION_GRAPH"] = 633] = "DWG_TYPE_EVALUATION_GRAPH";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_EXTRUDEDSURFACE"] = 634] = "DWG_TYPE_EXTRUDEDSURFACE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_FCFOBJECTCONTEXTDATA"] = 635] = "DWG_TYPE_FCFOBJECTCONTEXTDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_FIELD"] = 636] = "DWG_TYPE_FIELD";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_FIELDLIST"] = 637] = "DWG_TYPE_FIELDLIST";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_FLIPPARAMETERENTITY"] = 638] = "DWG_TYPE_FLIPPARAMETERENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_FLIPACTIONENTITY"] = 639] = "DWG_TYPE_FLIPACTIONENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_GEODATA"] = 640] = "DWG_TYPE_GEODATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_GEOMAPIMAGE"] = 641] = "DWG_TYPE_GEOMAPIMAGE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_GEOPOSITIONMARKER"] = 642] = "DWG_TYPE_GEOPOSITIONMARKER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_GRADIENT_BACKGROUND"] = 643] = "DWG_TYPE_GRADIENT_BACKGROUND";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_GROUND_PLANE_BACKGROUND"] = 644] = "DWG_TYPE_GROUND_PLANE_BACKGROUND";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_HELIX"] = 645] = "DWG_TYPE_HELIX";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_IBL_BACKGROUND"] = 646] = "DWG_TYPE_IBL_BACKGROUND";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_IDBUFFER"] = 647] = "DWG_TYPE_IDBUFFER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_IMAGE"] = 648] = "DWG_TYPE_IMAGE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_IMAGEDEF"] = 649] = "DWG_TYPE_IMAGEDEF";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_IMAGEDEF_REACTOR"] = 650] = "DWG_TYPE_IMAGEDEF_REACTOR";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_IMAGE_BACKGROUND"] = 651] = "DWG_TYPE_IMAGE_BACKGROUND";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_INDEX"] = 652] = "DWG_TYPE_INDEX";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LARGE_RADIAL_DIMENSION"] = 653] = "DWG_TYPE_LARGE_RADIAL_DIMENSION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LAYERFILTER"] = 654] = "DWG_TYPE_LAYERFILTER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LAYER_INDEX"] = 655] = "DWG_TYPE_LAYER_INDEX";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LAYOUTPRINTCONFIG"] = 656] = "DWG_TYPE_LAYOUTPRINTCONFIG";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LEADEROBJECTCONTEXTDATA"] = 657] = "DWG_TYPE_LEADEROBJECTCONTEXTDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LIGHT"] = 658] = "DWG_TYPE_LIGHT";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LIGHTLIST"] = 659] = "DWG_TYPE_LIGHTLIST";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LINEARPARAMETERENTITY"] = 660] = "DWG_TYPE_LINEARPARAMETERENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LOFTEDSURFACE"] = 661] = "DWG_TYPE_LOFTEDSURFACE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MATERIAL"] = 662] = "DWG_TYPE_MATERIAL";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MENTALRAYRENDERSETTINGS"] = 663] = "DWG_TYPE_MENTALRAYRENDERSETTINGS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MESH"] = 664] = "DWG_TYPE_MESH";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MLEADEROBJECTCONTEXTDATA"] = 665] = "DWG_TYPE_MLEADEROBJECTCONTEXTDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MLEADERSTYLE"] = 666] = "DWG_TYPE_MLEADERSTYLE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MOVEACTIONENTITY"] = 667] = "DWG_TYPE_MOVEACTIONENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MOTIONPATH"] = 668] = "DWG_TYPE_MOTIONPATH";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MPOLYGON"] = 669] = "DWG_TYPE_MPOLYGON";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MTEXTATTRIBUTEOBJECTCONTEXTDATA"] = 670] = "DWG_TYPE_MTEXTATTRIBUTEOBJECTCONTEXTDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MTEXTOBJECTCONTEXTDATA"] = 671] = "DWG_TYPE_MTEXTOBJECTCONTEXTDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_MULTILEADER"] = 672] = "DWG_TYPE_MULTILEADER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_NAVISWORKSMODEL"] = 673] = "DWG_TYPE_NAVISWORKSMODEL";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_NAVISWORKSMODELDEF"] = 674] = "DWG_TYPE_NAVISWORKSMODELDEF";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_NPOCOLLECTION"] = 675] = "DWG_TYPE_NPOCOLLECTION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_NURBSURFACE"] = 676] = "DWG_TYPE_NURBSURFACE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_OBJECT_PTR"] = 677] = "DWG_TYPE_OBJECT_PTR";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ORDDIMOBJECTCONTEXTDATA"] = 678] = "DWG_TYPE_ORDDIMOBJECTCONTEXTDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_PARTIAL_VIEWING_INDEX"] = 679] = "DWG_TYPE_PARTIAL_VIEWING_INDEX";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_PDFDEFINITION"] = 680] = "DWG_TYPE_PDFDEFINITION";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_PDFUNDERLAY"] = 681] = "DWG_TYPE_PDFUNDERLAY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_PERSUBENTMGR"] = 682] = "DWG_TYPE_PERSUBENTMGR";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_PLANESURFACE"] = 683] = "DWG_TYPE_PLANESURFACE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_PLOTSETTINGS"] = 684] = "DWG_TYPE_PLOTSETTINGS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTCLOUD"] = 685] = "DWG_TYPE_POINTCLOUD";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTCLOUDCOLORMAP"] = 686] = "DWG_TYPE_POINTCLOUDCOLORMAP";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTCLOUDDEF"] = 687] = "DWG_TYPE_POINTCLOUDDEF";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTCLOUDDEFEX"] = 688] = "DWG_TYPE_POINTCLOUDDEFEX";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTCLOUDDEF_REACTOR"] = 689] = "DWG_TYPE_POINTCLOUDDEF_REACTOR";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTCLOUDDEF_REACTOR_EX"] = 690] = "DWG_TYPE_POINTCLOUDDEF_REACTOR_EX";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTCLOUDEX"] = 691] = "DWG_TYPE_POINTCLOUDEX";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTPARAMETERENTITY"] = 692] = "DWG_TYPE_POINTPARAMETERENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POINTPATH"] = 693] = "DWG_TYPE_POINTPATH";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_POLARGRIPENTITY"] = 694] = "DWG_TYPE_POLARGRIPENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RADIMLGOBJECTCONTEXTDATA"] = 695] = "DWG_TYPE_RADIMLGOBJECTCONTEXTDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RADIMOBJECTCONTEXTDATA"] = 696] = "DWG_TYPE_RADIMOBJECTCONTEXTDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RAPIDRTRENDERSETTINGS"] = 697] = "DWG_TYPE_RAPIDRTRENDERSETTINGS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RASTERVARIABLES"] = 698] = "DWG_TYPE_RASTERVARIABLES";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RENDERENTRY"] = 699] = "DWG_TYPE_RENDERENTRY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RENDERENVIRONMENT"] = 700] = "DWG_TYPE_RENDERENVIRONMENT";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RENDERGLOBAL"] = 701] = "DWG_TYPE_RENDERGLOBAL";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RENDERSETTINGS"] = 702] = "DWG_TYPE_RENDERSETTINGS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_REVOLVEDSURFACE"] = 703] = "DWG_TYPE_REVOLVEDSURFACE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ROTATIONPARAMETERENTITY"] = 704] = "DWG_TYPE_ROTATIONPARAMETERENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ROTATEACTIONENTITY"] = 705] = "DWG_TYPE_ROTATEACTIONENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_RTEXT"] = 706] = "DWG_TYPE_RTEXT";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SCALE"] = 707] = "DWG_TYPE_SCALE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SCALEACTIONENTITY"] = 708] = "DWG_TYPE_SCALEACTIONENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SECTIONOBJECT"] = 709] = "DWG_TYPE_SECTIONOBJECT";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SECTIONVIEWSTYLE"] = 710] = "DWG_TYPE_SECTIONVIEWSTYLE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SECTION_MANAGER"] = 711] = "DWG_TYPE_SECTION_MANAGER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SECTION_SETTINGS"] = 712] = "DWG_TYPE_SECTION_SETTINGS";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SKYLIGHT_BACKGROUND"] = 713] = "DWG_TYPE_SKYLIGHT_BACKGROUND";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SOLID_BACKGROUND"] = 714] = "DWG_TYPE_SOLID_BACKGROUND";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SORTENTSTABLE"] = 715] = "DWG_TYPE_SORTENTSTABLE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SPATIAL_FILTER"] = 716] = "DWG_TYPE_SPATIAL_FILTER";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SPATIAL_INDEX"] = 717] = "DWG_TYPE_SPATIAL_INDEX";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_STRETCHACTIONENTITY"] = 718] = "DWG_TYPE_STRETCHACTIONENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SUN"] = 719] = "DWG_TYPE_SUN";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SUNSTUDY"] = 720] = "DWG_TYPE_SUNSTUDY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_SWEPTSURFACE"] = 721] = "DWG_TYPE_SWEPTSURFACE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_TABLE"] = 722] = "DWG_TYPE_TABLE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_TABLECONTENT"] = 723] = "DWG_TYPE_TABLECONTENT";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_TABLEGEOMETRY"] = 724] = "DWG_TYPE_TABLEGEOMETRY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_TABLESTYLE"] = 725] = "DWG_TYPE_TABLESTYLE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_TEXTOBJECTCONTEXTDATA"] = 726] = "DWG_TYPE_TEXTOBJECTCONTEXTDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_TVDEVICEPROPERTIES"] = 727] = "DWG_TYPE_TVDEVICEPROPERTIES";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_VISIBILITYGRIPENTITY"] = 728] = "DWG_TYPE_VISIBILITYGRIPENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_VISIBILITYPARAMETERENTITY"] = 729] = "DWG_TYPE_VISIBILITYPARAMETERENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_VISUALSTYLE"] = 730] = "DWG_TYPE_VISUALSTYLE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_WIPEOUT"] = 731] = "DWG_TYPE_WIPEOUT";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_WIPEOUTVARIABLES"] = 732] = "DWG_TYPE_WIPEOUTVARIABLES";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_XREFPANELOBJECT"] = 733] = "DWG_TYPE_XREFPANELOBJECT";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_XYPARAMETERENTITY"] = 734] = "DWG_TYPE_XYPARAMETERENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BREAKDATA"] = 735] = "DWG_TYPE_BREAKDATA";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_BREAKPOINTREF"] = 736] = "DWG_TYPE_BREAKPOINTREF";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_FLIPGRIPENTITY"] = 737] = "DWG_TYPE_FLIPGRIPENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LINEARGRIPENTITY"] = 738] = "DWG_TYPE_LINEARGRIPENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ROTATIONGRIPENTITY"] = 739] = "DWG_TYPE_ROTATIONGRIPENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_XYGRIPENTITY"] = 740] = "DWG_TYPE_XYGRIPENTITY";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE__3DLINE"] = 741] = "DWG_TYPE__3DLINE";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_REPEAT"] = 742] = "DWG_TYPE_REPEAT";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_ENDREP"] = 743] = "DWG_TYPE_ENDREP";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_JUMP"] = 744] = "DWG_TYPE_JUMP";
+  Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_LOAD"] = 745] = "DWG_TYPE_LOAD";
   Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_FREED"] = 65533] = "DWG_TYPE_FREED";
   Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_UNKNOWN_ENT"] = 65534] = "DWG_TYPE_UNKNOWN_ENT";
   Dwg_Object_Type2[Dwg_Object_Type2["DWG_TYPE_UNKNOWN_OBJ"] = 65535] = "DWG_TYPE_UNKNOWN_OBJ";
@@ -5405,8 +5388,6 @@ var Dwg_Color_Method = /* @__PURE__ */ ((Dwg_Color_Method2) => {
   Dwg_Color_Method2[Dwg_Color_Method2["None"] = 200] = "None";
   return Dwg_Color_Method2;
 })(Dwg_Color_Method || {});
-
-// src/converter/dwgColorToMLeaderRawColor.ts
 var RAW_COLOR_TYPE_BY_LAYER = 192;
 var RAW_COLOR_TYPE_BY_BLOCK = 193;
 var RAW_COLOR_TYPE_RGB = 194;
@@ -5420,25 +5401,25 @@ function dwgColorToMLeaderRawColor(color) {
   if (color.rgb != null && method >= RAW_COLOR_TYPE_BY_LAYER && method <= RAW_COLOR_TYPE_WINDOW_BG && (color.rgb >>> 24 & 255) === method) {
     return color.rgb >> 0;
   }
-  if (method === 192 /* ByLayer */ || index === 256) {
+  if (method === Dwg_Color_Method.ByLayer || index === 256) {
     return RAW_COLOR_TYPE_BY_LAYER << 24 >> 0;
   }
-  if (method === 193 /* ByBlock */ || index === 0) {
+  if (method === Dwg_Color_Method.ByBlock || index === 0) {
     return RAW_COLOR_TYPE_BY_BLOCK << 24 >> 0;
   }
-  if (method === 200 /* None */) {
+  if (method === Dwg_Color_Method.None) {
     return RAW_COLOR_TYPE_WINDOW_BG << 24 >> 0;
   }
-  if (method === 195 /* TrueColor */) {
+  if (method === Dwg_Color_Method.TrueColor) {
     const rgb = color.rgb != null ? color.rgb & 16777215 : void 0;
     if (rgb != null) {
       return (RAW_COLOR_TYPE_RGB << 24 | rgb) >> 0;
     }
   }
-  if (method === 197 /* ForegroundColor */) {
+  if (method === Dwg_Color_Method.ForegroundColor) {
     return (RAW_COLOR_TYPE_ACI << 24 | 7) >> 0;
   }
-  if (method === 194 /* Entities */ && index > 0 && index < 256) {
+  if (method === Dwg_Color_Method.Entities && index > 0 && index < 256) {
     return (RAW_COLOR_TYPE_ACI << 24 | index & 255) >> 0;
   }
   if (index > 0 && index < 256) {
@@ -5446,8 +5427,33 @@ function dwgColorToMLeaderRawColor(color) {
   }
   return RAW_COLOR_TYPE_BY_BLOCK << 24 >> 0;
 }
-
-// src/converter/utils.ts
+function dwgColorToBackgroundFillColor(color) {
+  if (color == null) return void 0;
+  const methodNum = color.method;
+  const method = color.method != null && methodNum !== 0 ? methodNum : color.rgb >>> 24 & 255;
+  const index = color.index;
+  if (method === Dwg_Color_Method.ByLayer || method === Dwg_Color_Method.ByBlock || method === Dwg_Color_Method.None || index === 256) {
+    return void 0;
+  }
+  if (method === Dwg_Color_Method.ForegroundColor) {
+    return 7;
+  }
+  if (method === Dwg_Color_Method.TrueColor) {
+    if (color.rgb == null) return void 0;
+    return color.rgb & 16777215;
+  }
+  if (index >= 1 && index <= 255) {
+    return index;
+  }
+  if (index === 0) {
+    return void 0;
+  }
+  if (color.rgb != null) {
+    const rgb24 = color.rgb & 16777215;
+    if (rgb24 !== 0) return rgb24;
+  }
+  return void 0;
+}
 var MODEL_SPACE = "*MODEL_SPACE";
 var MODEL_SPACE_PREFIX = "*PAPER_SPACE";
 var isModelSpace = (name) => {
@@ -5483,15 +5489,13 @@ var decodeOle2FrameCornersFromData = (data) => {
   }
   return { upperLeft, lowerRight };
 };
-
-// src/converter/entityConverter.ts
 var LibreEntityConverter = class {
-  libredwg;
-  layers = /* @__PURE__ */ new Map();
-  ltypes = /* @__PURE__ */ new Map();
-  classes = [];
-  unknownEntityCount;
   constructor(instance) {
+    __publicField(this, "libredwg");
+    __publicField(this, "layers", /* @__PURE__ */ new Map());
+    __publicField(this, "ltypes", /* @__PURE__ */ new Map());
+    __publicField(this, "classes", []);
+    __publicField(this, "unknownEntityCount");
     this.libredwg = instance;
     this.unknownEntityCount = 0;
   }
@@ -5527,87 +5531,89 @@ var LibreEntityConverter = class {
     if (entity && entity_tio) {
       const commonAttrs = this.getCommonAttrs(entity);
       const fixedtype = libredwg.dwg_object_get_fixedtype(object_ptr);
-      if (fixedtype == 28 /* DWG_TYPE_3DFACE */) {
+      if (fixedtype == Dwg_Object_Type.DWG_TYPE_3DFACE) {
         return this.convert3dFace(entity_tio, commonAttrs);
-      } else if (fixedtype == 38 /* DWG_TYPE_3DSOLID */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_3DSOLID) {
         return this.convert3dSolid(entity_tio, commonAttrs);
-      } else if (fixedtype == 17 /* DWG_TYPE_ARC */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_ARC) {
         return this.convertArc(entity_tio, commonAttrs);
-      } else if (fixedtype == 525 /* DWG_TYPE_ARCALIGNEDTEXT */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_ARCALIGNEDTEXT) {
         return this.convertArcAlignedText(entity_tio, commonAttrs);
-      } else if (fixedtype == 3 /* DWG_TYPE_ATTDEF */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_ATTDEF) {
         return this.convertAttdef(entity_tio, commonAttrs);
-      } else if (fixedtype == 18 /* DWG_TYPE_CIRCLE */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_CIRCLE) {
         return this.convertCircle(entity_tio, commonAttrs);
-      } else if (fixedtype == 22 /* DWG_TYPE_DIMENSION_ALIGNED */ || fixedtype == 21 /* DWG_TYPE_DIMENSION_LINEAR */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_DIMENSION_ALIGNED) {
         return this.convertAlignedDimension(entity_tio, commonAttrs);
-      } else if (fixedtype == 23 /* DWG_TYPE_DIMENSION_ANG3PT */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_DIMENSION_LINEAR) {
+        return this.convertRotatedDimension(entity_tio, commonAttrs);
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_DIMENSION_ANG3PT) {
         return this.convert3PointAngularDimension(entity_tio, commonAttrs);
-      } else if (fixedtype == 24 /* DWG_TYPE_DIMENSION_ANG2LN */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_DIMENSION_ANG2LN) {
         return this.convert2LineAngularDimension(entity_tio, commonAttrs);
-      } else if (fixedtype == 26 /* DWG_TYPE_DIMENSION_DIAMETER */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_DIMENSION_DIAMETER) {
         return this.convertDiameterDimension(entity_tio, commonAttrs);
-      } else if (fixedtype == 20 /* DWG_TYPE_DIMENSION_ORDINATE */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_DIMENSION_ORDINATE) {
         return this.convertOrdinateDimension(entity_tio, commonAttrs);
-      } else if (fixedtype == 25 /* DWG_TYPE_DIMENSION_RADIUS */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_DIMENSION_RADIUS) {
         return this.convertRadiusDimension(entity_tio, commonAttrs);
-      } else if (fixedtype == 35 /* DWG_TYPE_ELLIPSE */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_ELLIPSE) {
         return this.convertEllise(entity_tio, commonAttrs);
-      } else if (fixedtype == 78 /* DWG_TYPE_HATCH */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_HATCH) {
         return this.convertHatch(entity_tio, commonAttrs);
-      } else if (fixedtype == 647 /* DWG_TYPE_IMAGE */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_IMAGE) {
         return this.convertImage(entity_tio, commonAttrs);
-      } else if (fixedtype == 7 /* DWG_TYPE_INSERT */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_INSERT || fixedtype == Dwg_Object_Type.DWG_TYPE_MINSERT) {
         return this.convertInsert(entity_tio, commonAttrs);
-      } else if (fixedtype == 45 /* DWG_TYPE_LEADER */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_LEADER) {
         return this.convertLeader(entity_tio, commonAttrs);
-      } else if (fixedtype == 19 /* DWG_TYPE_LINE */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_LINE) {
         return this.convertLine(entity_tio, commonAttrs);
-      } else if (fixedtype == 77 /* DWG_TYPE_LWPOLYLINE */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_LWPOLYLINE) {
         return this.convertLWPolyline(entity_tio, commonAttrs);
-      } else if (fixedtype == 47 /* DWG_TYPE_MLINE */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_MLINE) {
         return this.convertMLine(entity_tio, commonAttrs);
-      } else if (fixedtype == 671 /* DWG_TYPE_MULTILEADER */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_MULTILEADER) {
         return this.convertMultiLeader(entity_tio, commonAttrs);
-      } else if (fixedtype == 44 /* DWG_TYPE_MTEXT */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_MTEXT) {
         return this.convertMText(entity_tio, commonAttrs);
-      } else if (fixedtype == 74 /* DWG_TYPE_OLE2FRAME */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_OLE2FRAME) {
         return this.convertOle2Frame(entity_tio, commonAttrs);
-      } else if (fixedtype == 43 /* DWG_TYPE_OLEFRAME */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_OLEFRAME) {
         return this.convertOleFrame(entity_tio, commonAttrs);
-      } else if (fixedtype == 27 /* DWG_TYPE_POINT */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_POINT) {
         return this.convertPoint(entity_tio, commonAttrs);
-      } else if (fixedtype == 15 /* DWG_TYPE_POLYLINE_2D */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_POLYLINE_2D) {
         return this.convertPolyline2d(entity_tio, commonAttrs, object_ptr);
-      } else if (fixedtype == 16 /* DWG_TYPE_POLYLINE_3D */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_POLYLINE_3D) {
         return this.convertPolyline3d(entity_tio, commonAttrs, object_ptr);
-      } else if (fixedtype == 498 /* DWG_TYPE_PROXY_ENTITY */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_PROXY_ENTITY) {
         return this.convertProxyEntity(entity_tio, commonAttrs, object_ptr);
-      } else if (fixedtype == 40 /* DWG_TYPE_RAY */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_RAY) {
         return this.convertRay(entity_tio, commonAttrs);
-      } else if (fixedtype == 708 /* DWG_TYPE_SECTIONOBJECT */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_SECTIONOBJECT) {
         return this.convertSection(entity_tio, commonAttrs);
-      } else if (fixedtype == 33 /* DWG_TYPE_SHAPE */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_SHAPE) {
         return this.convertShape(entity_tio, commonAttrs);
-      } else if (fixedtype == 31 /* DWG_TYPE_SOLID */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_SOLID) {
         return this.convertSolid(entity_tio, commonAttrs);
-      } else if (fixedtype == 32 /* DWG_TYPE_TRACE */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_TRACE) {
         return this.convertTrace(entity_tio, commonAttrs);
-      } else if (fixedtype == 36 /* DWG_TYPE_SPLINE */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_SPLINE) {
         return this.convertSpline(entity_tio, commonAttrs);
-      } else if (fixedtype == 721 /* DWG_TYPE_TABLE */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_TABLE) {
         return this.convertTable(entity_tio, commonAttrs);
-      } else if (fixedtype == 1 /* DWG_TYPE_TEXT */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_TEXT) {
         return this.convertText(entity_tio, commonAttrs);
-      } else if (fixedtype == 46 /* DWG_TYPE_TOLERANCE */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_TOLERANCE) {
         return this.convertTolerance(entity_tio, commonAttrs);
-      } else if (fixedtype == 34 /* DWG_TYPE_VIEWPORT */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_VIEWPORT) {
         return this.convertViewport(entity_tio, commonAttrs);
-      } else if (fixedtype == 730 /* DWG_TYPE_WIPEOUT */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_WIPEOUT) {
         return this.convertWipeout(entity_tio, commonAttrs);
-      } else if (fixedtype == 41 /* DWG_TYPE_XLINE */) {
+      } else if (fixedtype == Dwg_Object_Type.DWG_TYPE_XLINE) {
         return this.convertXline(entity_tio, commonAttrs);
-      } else if (fixedtype === 65534 /* DWG_TYPE_UNKNOWN_ENT */) {
+      } else if (fixedtype === Dwg_Object_Type.DWG_TYPE_UNKNOWN_ENT) {
         this.unknownEntityCount++;
       }
     }
@@ -5844,15 +5850,37 @@ var LibreEntityConverter = class {
     };
   }
   convertAlignedDimension(entity, commonAttrs) {
+    return this.convertLinearOrAlignedDimension(
+      entity,
+      commonAttrs,
+      "AcDbAlignedDimension"
+    );
+  }
+  convertRotatedDimension(entity, commonAttrs) {
+    return this.convertLinearOrAlignedDimension(
+      entity,
+      commonAttrs,
+      "AcDbRotatedDimension"
+    );
+  }
+  /**
+   * Shared fields for DIMENSION_ALIGNED / DIMENSION_LINEAR.
+   *
+   * Rotated (linear) dimensions must use subclass marker AcDbRotatedDimension
+   * and `dim_rotation` (DXF group 50). Using AcDbAlignedDimension plus
+   * `ins_rotation` (block insert / OCS rotation) makes consumers regenerate
+   * the dimension along the slanted chord between extension-line origins.
+   */
+  convertLinearOrAlignedDimension(entity, commonAttrs, subclassMarker) {
     const libredwg = this.libredwg;
     const dimensionCommonAttrs = this.getDimensionCommonAttrs(entity);
     const insertionPoint = libredwg.dwg_dynapi_entity_data(entity, "clone_ins_pt");
     const subDefinitionPoint1 = libredwg.dwg_dynapi_entity_data(entity, "xline1_pt");
     const subDefinitionPoint2 = libredwg.dwg_dynapi_entity_data(entity, "xline2_pt");
-    const rotationAngle = libredwg.dwg_dynapi_entity_data(entity, "ins_rotation");
+    const rotationAngle = subclassMarker === "AcDbRotatedDimension" ? libredwg.dwg_dynapi_entity_data(entity, "dim_rotation") : 0;
     const obliqueAngle = libredwg.dwg_dynapi_entity_data(entity, "oblique_angle");
     return {
-      subclassMarker: "AcDbAlignedDimension",
+      subclassMarker,
       ...commonAttrs,
       ...dimensionCommonAttrs,
       insertionPoint,
@@ -5992,9 +6020,9 @@ var LibreEntityConverter = class {
       // elevationPoint: DwgPoint3D
       extrusionDirection,
       patternName,
-      solidFill: isSolidFill ? 1 /* SolidFill */ : 0 /* PatternFill */,
+      solidFill: isSolidFill ? DwgHatchSolidFill.SolidFill : DwgHatchSolidFill.PatternFill,
       // patternFillColor: number
-      associativity: isAssociative ? 1 /* Associative */ : 0 /* NonAssociative */,
+      associativity: isAssociative ? DwgHatchAssociativity.Associative : DwgHatchAssociativity.NonAssociative,
       numberOfBoundaryPaths,
       boundaryPaths: this.convertHatchBoundaryPaths(boundaryPaths),
       hatchStyle: patternStyle,
@@ -6029,8 +6057,8 @@ var LibreEntityConverter = class {
       return {
         type: "HATCH",
         ...result,
-        gradientFlag: 1 /* Gradient */,
-        gradientColorFlag: gradientColorFlag == 1 ? 1 /* OneColor */ : 0 /* TwoColor */,
+        gradientFlag: DwgHatchGradientFlag.Gradient,
+        gradientColorFlag: gradientColorFlag == 1 ? DwgHatchGradientColorFlag.OneColor : DwgHatchGradientColorFlag.TwoColor,
         gradientName,
         gradientRotation,
         gradientDefinition,
@@ -6065,24 +6093,24 @@ var LibreEntityConverter = class {
         };
       } else {
         const edges = path.segs.map((seg) => {
-          if (seg.curve_type == 1 /* Line */) {
+          if (seg.curve_type == Dwg_Hatch_Edge_Type.Line) {
             return {
-              type: 1 /* Line */,
+              type: DwgBoundaryPathEdgeType.Line,
               start: seg.first_endpoint,
               end: seg.second_endpoint
             };
-          } else if (seg.curve_type == 2 /* CircularArc */) {
+          } else if (seg.curve_type == Dwg_Hatch_Edge_Type.CircularArc) {
             return {
-              type: 2 /* Circular */,
+              type: DwgBoundaryPathEdgeType.Circular,
               center: seg.center,
               radius: seg.radius,
               startAngle: seg.start_angle,
               endAngle: seg.end_angle,
               isCCW: seg.is_ccw
             };
-          } else if (seg.curve_type == 3 /* EllipticArc */) {
+          } else if (seg.curve_type == Dwg_Hatch_Edge_Type.EllipticArc) {
             return {
-              type: 3 /* Elliptic */,
+              type: DwgBoundaryPathEdgeType.Elliptic,
               center: seg.center,
               end: seg.endpoint,
               lengthOfMinorAxis: seg.minor_major_ratio,
@@ -6090,9 +6118,9 @@ var LibreEntityConverter = class {
               endAngle: seg.end_angle,
               isCCW: seg.is_ccw
             };
-          } else if (seg.curve_type == 4 /* Spline */) {
+          } else if (seg.curve_type == Dwg_Hatch_Edge_Type.Spline) {
             return {
-              type: 4 /* Spline */,
+              type: DwgBoundaryPathEdgeType.Spline,
               degree: seg.degree,
               isRational: seg.is_rational,
               isPeriodic: seg.is_periodic,
@@ -6194,7 +6222,7 @@ var LibreEntityConverter = class {
       if (entity2 && entity_tio) {
         const commonAttrs2 = this.getCommonAttrs(entity2);
         const fixedtype = libredwg.dwg_object_get_fixedtype(object_ptr);
-        if (fixedtype == 2 /* DWG_TYPE_ATTRIB */) {
+        if (fixedtype == Dwg_Object_Type.DWG_TYPE_ATTRIB) {
           attribs.push(this.convertAttrib(entity_tio, commonAttrs2));
         }
       }
@@ -6208,18 +6236,24 @@ var LibreEntityConverter = class {
       yScale: scale ? scale.y : 1,
       zScale: scale ? scale.z : 1,
       rotation,
-      columnCount,
-      rowCount,
-      columnSpacing,
-      rowSpacing,
+      columnCount: columnCount || 1,
+      rowCount: rowCount || 1,
+      columnSpacing: columnSpacing || 0,
+      rowSpacing: rowSpacing || 0,
       extrusionDirection,
       attribs
     };
   }
   convertLeader(entity, commonAttrs) {
     const libredwg = this.libredwg;
-    const styleName = libredwg.dwg_entity_mtext_get_style_name(entity);
-    const isArrowheadEnabled = libredwg.dwg_dynapi_entity_data(entity, "arrowhead_type");
+    let styleName = "";
+    try {
+      styleName = libredwg.dwg_entity_get_dimstyle_name(entity) || "";
+    } catch {
+      styleName = "";
+    }
+    const arrowheadOn = libredwg.dwg_dynapi_entity_data(entity, "arrowhead_on");
+    const isArrowheadEnabled = arrowheadOn > 0;
     const isSpline = libredwg.dwg_dynapi_entity_data(entity, "path_type");
     const leaderCreationFlag = libredwg.dwg_dynapi_entity_data(entity, "annot_type");
     const isHooklineSameDirection = libredwg.dwg_dynapi_entity_data(entity, "hookline_dir");
@@ -6238,7 +6272,7 @@ var LibreEntityConverter = class {
       type: "LEADER",
       ...commonAttrs,
       styleName,
-      isArrowheadEnabled: isArrowheadEnabled > 0,
+      isArrowheadEnabled,
       isSpline: isSpline > 0,
       leaderCreationFlag,
       isHooklineSameDirection: isHooklineSameDirection > 0,
@@ -6935,6 +6969,7 @@ var LibreEntityConverter = class {
     const fillBoxScale = libredwg.dwg_dynapi_entity_data(entity, "bg_fill_scale");
     const backgroundFillColor = libredwg.dwg_dynapi_entity_data(entity, "bg_fill_color");
     const backgroundFillTransparency = libredwg.dwg_dynapi_entity_data(entity, "bg_fill_trans");
+    const decodedBackgroundFillColor = backgroundFill === 1 ? dwgColorToBackgroundFillColor(backgroundFillColor) : void 0;
     const columnType = libredwg.dwg_dynapi_entity_data(entity, "column_type");
     const columnFlowReversed = libredwg.dwg_dynapi_entity_data(entity, "flow_reversed");
     const columnAutoHeight = libredwg.dwg_dynapi_entity_data(entity, "auto_height");
@@ -6966,10 +7001,8 @@ var LibreEntityConverter = class {
       lineSpacingStyle,
       lineSpacing,
       backgroundFill,
-      // backgroundColor: backgroundColor.rgb, // TODO: Double check whether it should be color index
       fillBoxScale,
-      backgroundFillColor: backgroundFillColor.rgb,
-      // TODO: Double check whether it should be color index
+      ...decodedBackgroundFillColor !== void 0 ? { backgroundFillColor: decodedBackgroundFillColor } : {},
       backgroundFillTransparency,
       columnType,
       // columnCount: columnCount,
@@ -7071,7 +7104,7 @@ var LibreEntityConverter = class {
     const fromDxf = libredwg.dwg_dynapi_entity_data(entity, "from_dxf");
     const numObjIds = libredwg.dwg_dynapi_entity_data(entity, "num_objids");
     const graphicsBytes = libredwg.dwg_entity_get_preview(objectPtr);
-    const graphicsDataSize = graphicsBytes?.length ?? 0;
+    const graphicsDataSize = (graphicsBytes == null ? void 0 : graphicsBytes.length) ?? 0;
     const entityBytes = libredwg.dwg_entity_proxy_entity_get_entity_data(entity);
     const graphicsData = graphicsBytes ? uint8ArrayToHexString(graphicsBytes) : void 0;
     const entityData = entityBytes ? uint8ArrayToHexString(entityBytes) : void 0;
@@ -7338,30 +7371,36 @@ var LibreEntityConverter = class {
     };
   }
   convertTableCells(cells) {
-    return cells.map((cell) => ({
-      text: cell.text_value,
-      attachmentPoint: cell.cell_alignment,
-      textStyle: cell.text_style ? String(cell.text_style) : void 0,
-      rotation: cell.rotation,
-      cellType: cell.type,
-      flagValue: cell.flags,
-      mergedValue: cell.is_merged_value,
-      autoFit: cell.is_autofit_flag,
-      topBorderVisibility: !!cell.top_visibility,
-      bottomBorderVisibility: !!cell.bottom_visibility,
-      leftBorderVisibility: !!cell.left_visibility,
-      rightBorderVisibility: !!cell.right_visibility,
-      overrideFlag: cell.cell_flag_override,
-      virtualEdgeFlag: cell.virtual_edge_flag,
-      blockTableRecordId: cell.block_handle ? String(cell.block_handle.absolute_ref ?? "") : void 0,
-      blockScale: cell.block_scale,
-      blockAttrNum: cell.attr_defs?.length ?? 0,
-      attrDefineId: cell.attr_defs?.map(
-        (value) => String(value.attdef?.absolute_ref ?? "")
-      ),
-      textHeight: cell.text_height ?? 0,
-      extendedCellFlags: cell.additional_data_flag
-    }));
+    return cells.map((cell) => {
+      var _a, _b;
+      return {
+        text: cell.text_value,
+        attachmentPoint: cell.cell_alignment,
+        textStyle: cell.text_style ? String(cell.text_style) : void 0,
+        rotation: cell.rotation,
+        cellType: cell.type,
+        flagValue: cell.flags,
+        mergedValue: cell.is_merged_value,
+        autoFit: cell.is_autofit_flag,
+        topBorderVisibility: !!cell.top_visibility,
+        bottomBorderVisibility: !!cell.bottom_visibility,
+        leftBorderVisibility: !!cell.left_visibility,
+        rightBorderVisibility: !!cell.right_visibility,
+        overrideFlag: cell.cell_flag_override,
+        virtualEdgeFlag: cell.virtual_edge_flag,
+        blockTableRecordId: cell.block_handle ? String(cell.block_handle.absolute_ref ?? "") : void 0,
+        blockScale: cell.block_scale,
+        blockAttrNum: ((_a = cell.attr_defs) == null ? void 0 : _a.length) ?? 0,
+        attrDefineId: (_b = cell.attr_defs) == null ? void 0 : _b.map(
+          (value) => {
+            var _a2;
+            return String(((_a2 = value.attdef) == null ? void 0 : _a2.absolute_ref) ?? "");
+          }
+        ),
+        textHeight: cell.text_height ?? 0,
+        extendedCellFlags: cell.additional_data_flag
+      };
+    });
   }
   convertTextBase(entity) {
     const libredwg = this.libredwg;
@@ -7377,6 +7416,7 @@ var LibreEntityConverter = class {
     const generationFlag = libredwg.dwg_dynapi_entity_data(entity, "generation");
     const halign = libredwg.dwg_dynapi_entity_data(entity, "horiz_alignment");
     const valign = libredwg.dwg_dynapi_entity_data(entity, "vert_alignment");
+    const elevation = libredwg.dwg_dynapi_entity_data(entity, "elevation");
     const extrusionDirection = libredwg.dwg_dynapi_entity_data(entity, "extrusion");
     return {
       text,
@@ -7391,6 +7431,7 @@ var LibreEntityConverter = class {
       generationFlag,
       halign,
       valign,
+      elevation,
       extrusionDirection
     };
   }
@@ -7672,29 +7713,24 @@ var LibreEntityConverter = class {
     return name ?? "";
   }
 };
-
-// src/converter/converter.ts
 var LibreDwgConverter = class {
-  libredwg;
-  entityConverter;
-  /**
-   * Entity object indices keyed by owning BLOCK_HEADER object pointer.
-   * Built lazily when an ownership walk returns no entities (LibreDWG
-   * https://github.com/LibreDWG/libredwg/issues/1199).
-   */
-  orphanEntitiesByBlock = null;
-  /** Entity indices whose ownerhandle does not resolve to any object. */
-  ownerlessOrphanIndices = null;
-  orphanIndexDataPtr = null;
   constructor(instance) {
+    __publicField(this, "libredwg");
+    __publicField(this, "entityConverter");
+    __publicField(this, "orphanEntitiesByBlock", null);
+    __publicField(this, "ownerlessOrphanIndices", null);
+    __publicField(this, "orphanIndexDataPtr", null);
+    __publicField(this, "layerPlotFlagSupported", true);
     this.libredwg = instance;
     this.entityConverter = new LibreEntityConverter(instance);
   }
   convert(data) {
+    var _a;
     this.entityConverter.clear();
     this.orphanEntitiesByBlock = null;
     this.ownerlessOrphanIndices = null;
     this.orphanIndexDataPtr = data;
+    this.layerPlotFlagSupported = true;
     const db = {
       tables: {
         APPID: {
@@ -7720,7 +7756,14 @@ var LibreDwgConverter = class {
         }
       },
       objects: {
+        ASSOCNETWORK: [],
+        ASSOCACTION: [],
+        ASSOCDEPENDENCY: [],
+        ASSOCARRAYACTIONBODY: [],
+        ASSOCVERTEXACTIONPARAM: [],
+        ASSOCEDGEACTIONPARAM: [],
         DICTIONARY: [],
+        GROUP: [],
         IMAGEDEF: [],
         LAYER_FILTER: [],
         LAYER_INDEX: [],
@@ -7735,6 +7778,7 @@ var LibreDwgConverter = class {
     };
     const libredwg = this.libredwg;
     this.convertHeader(data, db.header);
+    this.layerPlotFlagSupported = libredwg.dwg_get_version_type(data).version >= 22;
     this.convertClasses(data, db.classes);
     this.entityConverter.setClasses(db.classes);
     const num_objects = libredwg.dwg_get_num_objects(data);
@@ -7745,21 +7789,19 @@ var LibreDwgConverter = class {
         if (tio) {
           const fixedtype = libredwg.dwg_object_get_fixedtype(obj);
           switch (fixedtype) {
-            case 51 /* DWG_TYPE_LAYER */:
+            case Dwg_Object_Type.DWG_TYPE_LAYER:
               {
                 const layer = this.convertLayer(tio, obj);
                 db.tables.LAYER.entries.push(layer);
                 this.entityConverter.layers.set(layer.handle, layer.name);
               }
               break;
-            case 57 /* DWG_TYPE_LTYPE */:
+            case Dwg_Object_Type.DWG_TYPE_LTYPE:
               {
                 const ltype = this.convertLineType(tio, obj);
                 db.tables.LTYPE.entries.push(ltype);
                 this.entityConverter.ltypes.set(ltype.handle, ltype.name);
               }
-              break;
-            default:
               break;
           }
         }
@@ -7772,10 +7814,10 @@ var LibreDwgConverter = class {
         if (tio) {
           const fixedtype = libredwg.dwg_object_get_fixedtype(obj);
           switch (fixedtype) {
-            case 67 /* DWG_TYPE_APPID */:
+            case Dwg_Object_Type.DWG_TYPE_APPID:
               db.tables.APPID.entries.push(this.convertAppId(tio));
               break;
-            case 49 /* DWG_TYPE_BLOCK_HEADER */:
+            case Dwg_Object_Type.DWG_TYPE_BLOCK_HEADER:
               {
                 const btr = this.convertBlockRecord(tio, obj);
                 db.tables.BLOCK_RECORD.entries.push(btr);
@@ -7791,42 +7833,69 @@ var LibreDwgConverter = class {
                 }
               }
               break;
-            case 69 /* DWG_TYPE_DIMSTYLE */:
+            case Dwg_Object_Type.DWG_TYPE_DIMSTYLE:
               db.tables.DIMSTYLE.entries.push(this.convertDimStyle(tio, obj));
               break;
-            case 53 /* DWG_TYPE_STYLE */:
+            case Dwg_Object_Type.DWG_TYPE_STYLE:
               db.tables.STYLE.entries.push(this.convertStyle(tio, obj));
               break;
-            case 65 /* DWG_TYPE_VPORT */:
+            case Dwg_Object_Type.DWG_TYPE_VPORT:
               db.tables.VPORT.entries.push(this.convertViewport(tio, obj));
               break;
-            case 42 /* DWG_TYPE_DICTIONARY */:
+            case Dwg_Object_Type.DWG_TYPE_DICTIONARY:
               db.objects.DICTIONARY.push(this.convertDictionary(tio, obj));
               break;
-            case 648 /* DWG_TYPE_IMAGEDEF */:
+            case Dwg_Object_Type.DWG_TYPE_GROUP:
+              db.objects.GROUP.push(this.convertGroup(tio, obj));
+              break;
+            case Dwg_Object_Type.DWG_TYPE_IMAGEDEF:
               db.objects.IMAGEDEF.push(this.convertImageDef(tio, obj));
               break;
-            case 653 /* DWG_TYPE_LAYERFILTER */:
+            case Dwg_Object_Type.DWG_TYPE_LAYERFILTER:
               db.objects.LAYER_FILTER.push(this.convertLayerFilter(tio, obj));
               break;
-            case 654 /* DWG_TYPE_LAYER_INDEX */:
+            case Dwg_Object_Type.DWG_TYPE_LAYER_INDEX:
               db.objects.LAYER_INDEX.push(this.convertLayerIndex(tio, obj));
               break;
-            case 82 /* DWG_TYPE_LAYOUT */:
+            case Dwg_Object_Type.DWG_TYPE_LAYOUT:
               db.objects.LAYOUT.push(this.convertLayout(tio, obj));
               break;
-            case 665 /* DWG_TYPE_MLEADERSTYLE */:
+            case Dwg_Object_Type.DWG_TYPE_MLEADERSTYLE:
               db.objects.MLEADERSTYLE.push(this.convertMLeaderStyle(tio, obj));
               break;
-            case 715 /* DWG_TYPE_SPATIAL_FILTER */:
+            case Dwg_Object_Type.DWG_TYPE_SPATIAL_FILTER:
               db.objects.SPATIAL_FILTER.push(
                 this.convertSpatialFilter(tio, obj)
               );
               break;
-            case 79 /* DWG_TYPE_XRECORD */:
+            case Dwg_Object_Type.DWG_TYPE_XRECORD:
               db.objects.XRECORD.push(this.convertXRecord(tio, obj));
               break;
-            default:
+            case Dwg_Object_Type.DWG_TYPE_ASSOCNETWORK:
+              db.objects.ASSOCNETWORK.push(this.convertAssocNetwork(tio, obj));
+              break;
+            case Dwg_Object_Type.DWG_TYPE_ASSOCACTION:
+              db.objects.ASSOCACTION.push(this.convertAssocAction(tio, obj));
+              break;
+            case Dwg_Object_Type.DWG_TYPE_ASSOCDEPENDENCY:
+              db.objects.ASSOCDEPENDENCY.push(
+                this.convertAssocDependency(tio, obj)
+              );
+              break;
+            case Dwg_Object_Type.DWG_TYPE_ASSOCARRAYACTIONBODY:
+              db.objects.ASSOCARRAYACTIONBODY.push(
+                this.convertAssocArrayActionBody(tio, obj)
+              );
+              break;
+            case Dwg_Object_Type.DWG_TYPE_ASSOCVERTEXACTIONPARAM:
+              db.objects.ASSOCVERTEXACTIONPARAM.push(
+                this.convertAssocVertexActionParam(tio, obj)
+              );
+              break;
+            case Dwg_Object_Type.DWG_TYPE_ASSOCEDGEACTIONPARAM:
+              db.objects.ASSOCEDGEACTIONPARAM.push(
+                this.convertAssocEdgeActionParam(tio, obj)
+              );
               break;
           }
         }
@@ -7844,7 +7913,7 @@ var LibreDwgConverter = class {
       viewport.viewportId = index + 1;
     });
     const thumbnail = libredwg.dwg_bmp(data);
-    if (thumbnail?.data?.length) {
+    if ((_a = thumbnail == null ? void 0 : thumbnail.data) == null ? void 0 : _a.length) {
       db.thumbnailImage = thumbnail.data;
     }
     return db;
@@ -7857,7 +7926,7 @@ var LibreDwgConverter = class {
   safeObjectTio(obj) {
     const libredwg = this.libredwg;
     try {
-      if (libredwg.dwg_object_get_supertype(obj) != 1 /* DWG_SUPERTYPE_OBJECT */) {
+      if (libredwg.dwg_object_get_supertype(obj) != Dwg_Object_Supertype.DWG_SUPERTYPE_OBJECT) {
         return null;
       }
       const tio = libredwg.dwg_object_to_object_tio(obj);
@@ -8031,6 +8100,31 @@ var LibreDwgConverter = class {
     }
     return entities;
   }
+  /**
+   * True when the entity is block-owned (`entmode` 0) but its owner handle
+   * names an object that does not exist in the drawing.
+   *
+   * These are leftovers of erased blocks (typically stale anonymous `*D`
+   * dimension pictures). AutoCAD never draws them, so they must not be
+   * adopted into *Model_Space as ownerless orphans. Entities without an owner
+   * handle are still adopted because some writers omit it for genuine
+   * model-space entities.
+   */
+  isOwnedByMissingBlock(data, etio) {
+    if (!etio) return false;
+    const libredwg = this.libredwg;
+    try {
+      const entmode = libredwg.dwg_dynapi_common_value(etio, "entmode");
+      if (!entmode.success || Number(entmode.data) !== 0) return false;
+      const ref = libredwg.dwg_dynapi_common_value(etio, "ownerhandle");
+      if (!ref.success || !ref.data) return false;
+      const absref = libredwg.dwg_ref_get_absref(ref.data);
+      if (absref == null) return false;
+      return !libredwg.dwg_resolve_handle_silent(data, BigInt(absref));
+    } catch {
+      return false;
+    }
+  }
   ensureOrphanEntityIndex(data) {
     if (this.orphanEntitiesByBlock) {
       return;
@@ -8044,10 +8138,10 @@ var LibreDwgConverter = class {
     for (let i = 0; i < numObjects; i++) {
       const obj = libredwg.dwg_get_object(data, i);
       if (!obj) continue;
-      if (libredwg.dwg_object_get_supertype(obj) === 0 /* DWG_SUPERTYPE_ENTITY */) {
+      if (libredwg.dwg_object_get_supertype(obj) === Dwg_Object_Supertype.DWG_SUPERTYPE_ENTITY) {
         entityIndices.push(i);
         indexByEntityPtr.set(obj, i);
-      } else if (libredwg.dwg_object_get_fixedtype(obj) === 49 /* DWG_TYPE_BLOCK_HEADER */) {
+      } else if (libredwg.dwg_object_get_fixedtype(obj) === Dwg_Object_Type.DWG_TYPE_BLOCK_HEADER) {
         blockHeaderPtrs.push(obj);
         const tio = libredwg.dwg_object_to_object_tio(obj);
         if (tio) blockObjByTio.set(tio, obj);
@@ -8076,7 +8170,7 @@ var LibreDwgConverter = class {
         const owned = orphansByBlock.get(owner);
         if (owned) owned.push(index);
         else orphansByBlock.set(owner, [index]);
-      } else {
+      } else if (!this.isOwnedByMissingBlock(data, etio)) {
         ownerless.push(index);
       }
     }
@@ -8259,8 +8353,11 @@ var LibreDwgConverter = class {
     const frozen = libredwg.dwg_dynapi_entity_data(item, "frozen");
     const off = libredwg.dwg_dynapi_entity_data(item, "off");
     const frozenInNew = libredwg.dwg_dynapi_entity_data(item, "frozen_in_new");
-    const locked = libredwg.dwg_dynapi_entity_data(item, "plotflockedlag");
-    const plotFlag = libredwg.dwg_dynapi_entity_data(item, "plotflag");
+    const locked = libredwg.dwg_dynapi_entity_data(item, "locked");
+    let plotFlag = libredwg.dwg_dynapi_entity_data(item, "plotflag");
+    if (!this.layerPlotFlagSupported) {
+      plotFlag = 1;
+    }
     const linewt = libredwg.dwg_dynapi_entity_data(item, "linewt");
     const color = libredwg.dwg_dynapi_entity_data(item, "color");
     const ltypeRef = libredwg.dwg_dynapi_entity_data(item, "ltype");
@@ -8686,6 +8783,25 @@ var LibreDwgConverter = class {
       invertBlockMatrix
     };
   }
+  convertGroup(item, obj) {
+    const libredwg = this.libredwg;
+    const commonAttrs = this.getCommonObjectAttrs(obj);
+    const description = libredwg.dwg_dynapi_entity_data(item, "name") ?? "";
+    const unnamed = !!libredwg.dwg_dynapi_entity_data(item, "unnamed");
+    const selectableRaw = libredwg.dwg_dynapi_entity_data(item, "selectable");
+    const selectable = selectableRaw != null ? !!selectableRaw : true;
+    const numGroups = libredwg.dwg_dynapi_entity_data(item, "num_groups") ?? 0;
+    const groupsPtr = libredwg.dwg_dynapi_entity_data(item, "groups") ?? 0;
+    const refs = numGroups > 0 && groupsPtr ? libredwg.dwg_ptr_to_object_ref_array(groupsPtr, numGroups) : [];
+    const objectHandles = refs.map((ref) => idToString(ref.absolute_ref));
+    return {
+      ...commonAttrs,
+      description,
+      unnamed,
+      selectable,
+      objectHandles
+    };
+  }
   convertXRecord(item, obj) {
     const libredwg = this.libredwg;
     const commonAttrs = this.getCommonObjectAttrs(obj);
@@ -8701,6 +8817,244 @@ var LibreDwgConverter = class {
       data
     };
   }
+  // ---------------------------------------------------------------------------
+  // Associative framework (associative arrays)
+  // ---------------------------------------------------------------------------
+  refId(ref) {
+    if (!ref) return "0";
+    return this.libredwg.dwg_ref_get_id(ref) ?? "0";
+  }
+  /** Reads `count` handle refs of a `BITCODE_H*` array. */
+  refIds(ptr, count) {
+    if (!ptr || count <= 0) return [];
+    return this.libredwg.dwg_ptr_to_object_ref_array(ptr, count).map((ref) => idToString(ref.absolute_ref));
+  }
+  /** Reads a `Dwg_ASSOCACTION_Deps*` array (dependencies or network actions). */
+  assocHandleRefs(ptr, count) {
+    const libredwg = this.libredwg;
+    const size = libredwg.dwg_dynapi_subclass_size("ASSOCACTION_Deps");
+    const refs = [];
+    if (!ptr || size <= 0) return refs;
+    for (let i = 0; i < count; i++) {
+      const p = ptr + i * size;
+      refs.push({
+        handle: this.refId(
+          libredwg.dwg_dynapi_subclass_data(
+            p,
+            "ASSOCACTION_Deps",
+            "dep"
+          )
+        ),
+        isOwned: !!libredwg.dwg_dynapi_subclass_data(
+          p,
+          "ASSOCACTION_Deps",
+          "is_owned"
+        )
+      });
+    }
+    return refs;
+  }
+  /** Decodes an `AcDbEvalVariant` at `ptr`. */
+  assocVariant(ptr) {
+    const libredwg = this.libredwg;
+    const code = libredwg.dwg_dynapi_subclass_data(ptr, "EvalVariant", "code") ?? 0;
+    const read = (field) => libredwg.dwg_dynapi_subclass_data(
+      ptr,
+      "EvalVariant",
+      field
+    );
+    const inRange = (lo, hi) => code >= lo && code <= hi;
+    let value = null;
+    if (inRange(38, 59) || inRange(140, 149) || inRange(460, 469) || inRange(1040, 1042)) {
+      value = read("u.bd");
+    } else if (inRange(90, 99) || inRange(420, 429) || inRange(440, 459) || code === 1071) {
+      value = read("u.bl") | 0;
+    } else if (inRange(60, 79) || inRange(170, 179) || inRange(270, 279) || inRange(370, 389) || inRange(400, 409) || code === 1070) {
+      value = read("u.bs") << 16 >> 16;
+    } else if (inRange(280, 289)) {
+      value = read("u.rc");
+    } else if (inRange(1, 4) || inRange(6, 9) || inRange(100, 102) || inRange(300, 309) || inRange(410, 419) || inRange(430, 439) || inRange(470, 479) || code === 999 || inRange(1e3, 1009)) {
+      value = null;
+    }
+    return { code, value };
+  }
+  assocValueParams(ptr, count) {
+    const libredwg = this.libredwg;
+    const size = libredwg.dwg_dynapi_subclass_size("VALUEPARAM");
+    const varSize = libredwg.dwg_dynapi_subclass_size("VALUEPARAM_vars");
+    const params = [];
+    if (!ptr || size <= 0) return params;
+    for (let i = 0; i < count; i++) {
+      const p = ptr + i * size;
+      const field = (name) => libredwg.dwg_dynapi_subclass_data(p, "VALUEPARAM", name);
+      const numVars = field("num_vars") ?? 0;
+      const varsPtr = field("vars");
+      const values = [];
+      for (let j = 0; varsPtr && varSize > 0 && j < numVars; j++) {
+        const v = varsPtr + j * varSize;
+        values.push({
+          ...this.assocVariant(v),
+          variableHandle: this.refId(
+            libredwg.dwg_dynapi_subclass_data(
+              v,
+              "VALUEPARAM_vars",
+              "handle"
+            )
+          )
+        });
+      }
+      params.push({
+        classVersion: field("class_version") ?? 0,
+        name: field("name") ?? "",
+        unitType: field("unit_type") ?? 0,
+        values,
+        controlledObjectDependencyHandle: this.refId(
+          field("controlled_objdep")
+        )
+      });
+    }
+    return params;
+  }
+  convertAssocAction(item, obj) {
+    const libredwg = this.libredwg;
+    const data = (name) => libredwg.dwg_dynapi_entity_data(item, name);
+    return {
+      ...this.getCommonObjectAttrs(obj),
+      classVersion: data("class_version") ?? 0,
+      status: data("geometry_status") ?? 0,
+      owningNetworkHandle: this.refId(data("owningnetwork")),
+      actionBodyHandle: this.refId(data("actionbody")),
+      actionIndex: data("action_index") ?? 0,
+      maxDependencyIndex: data("max_assoc_dep_index") ?? 0,
+      dependencies: this.assocHandleRefs(
+        data("deps"),
+        data("num_deps") ?? 0
+      ),
+      ownedParamHandles: this.refIds(
+        data("owned_params"),
+        data("num_owned_params") ?? 0
+      ),
+      valueParams: this.assocValueParams(
+        data("values"),
+        data("num_values") ?? 0
+      )
+    };
+  }
+  convertAssocNetwork(item, obj) {
+    const libredwg = this.libredwg;
+    const data = (name) => libredwg.dwg_dynapi_entity_data(item, name);
+    return {
+      ...this.convertAssocAction(item, obj),
+      networkVersion: data("network_version") ?? 0,
+      maxActionIndex: data("network_action_index") ?? 0,
+      actions: this.assocHandleRefs(
+        data("actions"),
+        data("num_actions") ?? 0
+      ),
+      ownedActionHandles: this.refIds(
+        data("owned_actions"),
+        data("num_owned_actions") ?? 0
+      )
+    };
+  }
+  convertAssocDependency(item, obj) {
+    const libredwg = this.libredwg;
+    const data = (name) => libredwg.dwg_dynapi_entity_data(item, name);
+    return {
+      ...this.getCommonObjectAttrs(obj),
+      classVersion: data("class_version") ?? 0,
+      status: data("status") ?? 0,
+      isReadDependency: !!data("is_read_dep"),
+      isWriteDependency: !!data("is_write_dep"),
+      isAttachedToObject: !!data("is_attached_to_object"),
+      isDelegatingToOwningAction: !!data(
+        "is_delegating_to_owning_action"
+      ),
+      order: (data("order") ?? 0) | 0,
+      name: data("has_name") ? data("name") ?? "" : "",
+      dependentOnHandle: this.refId(data("dep_on")),
+      prevDependencyHandle: this.refId(data("readdep")),
+      nextDependencyHandle: this.refId(data("node")),
+      dependencyBodyHandle: this.refId(data("dep_body")),
+      dependencyIndex: (data("depbodyid") ?? 0) | 0
+    };
+  }
+  convertAssocArrayActionBody(item, obj) {
+    const libredwg = this.libredwg;
+    const data = (name) => libredwg.dwg_dynapi_entity_data(item, name);
+    const matrix = (ptr) => ptr ? libredwg.dwg_ptr_to_double_array(ptr, 16) : [];
+    const items = [];
+    const count = data("num_arrayitems") ?? 0;
+    const itemsPtr = data("arrayitems");
+    const size = libredwg.dwg_dynapi_subclass_size("ASSOCARRAYITEM");
+    for (let i = 0; itemsPtr && size > 0 && i < count; i++) {
+      const p = itemsPtr + i * size;
+      const field = (name, base = p) => libredwg.dwg_dynapi_subclass_data(base, "ASSOCARRAYITEM", name);
+      const flags = field("flags") ?? 0;
+      let m;
+      if (flags & 4) {
+        m = matrix(field("transmatrix"));
+      } else {
+        const t = field("x_dir") ?? { x: 0, y: 0, z: 0 };
+        m = [1, 0, 0, t.x, 0, 1, 0, t.y, 0, 0, 1, t.z, 0, 0, 0, 1];
+      }
+      const relativeMatrix = flags & 2 ? matrix(field("rel_transform")) : void 0;
+      items.push({
+        ...relativeMatrix ? { relativeMatrix } : {},
+        ...flags & 16 ? { secondaryEntityHandle: this.refId(field("h2")) } : {},
+        classVersion: field("class_version") ?? 0,
+        itemIndex: field("itemloc") ?? 0,
+        rowIndex: field("itemloc", p + 4) ?? 0,
+        levelIndex: field("itemloc", p + 8) ?? 0,
+        flags,
+        matrix: m,
+        entityHandle: this.refId(field("h1"))
+      });
+    }
+    return {
+      ...this.getCommonObjectAttrs(obj),
+      actionBodyVersion: data("aab_version") ?? 0,
+      classVersion: data("aaab_version") ?? 0,
+      parametersClassName: data("paramblock") ?? "",
+      parametersVersion: data("aap_version") ?? 0,
+      items,
+      arrayTransform: matrix(data("transmatrix"))
+    };
+  }
+  convertAssocActionParamBase(item, obj) {
+    const libredwg = this.libredwg;
+    const data = (name) => libredwg.dwg_dynapi_entity_data(item, name);
+    return {
+      ...this.getCommonObjectAttrs(obj),
+      classVersion: data("is_r2013") ?? 0,
+      paramVersion: data("aap_version") ?? 0,
+      name: data("name") ?? "",
+      singleDependencyVersion: data("asdap_class_version") ?? 0,
+      dependencyHandle: this.refId(data("dep"))
+    };
+  }
+  convertAssocVertexActionParam(item, obj) {
+    const libredwg = this.libredwg;
+    return {
+      ...this.convertAssocActionParamBase(item, obj),
+      vertexVersion: libredwg.dwg_dynapi_entity_data(item, "class_version") ?? 0,
+      point: libredwg.dwg_dynapi_entity_data(item, "pt") ?? {
+        x: 0,
+        y: 0,
+        z: 0
+      }
+    };
+  }
+  convertAssocEdgeActionParam(item, obj) {
+    const libredwg = this.libredwg;
+    const data = (name) => libredwg.dwg_dynapi_entity_data(item, name);
+    return {
+      ...this.convertAssocActionParamBase(item, obj),
+      edgeVersion: data("class_version") ?? 0,
+      hasCachedCurve: !!data("has_action"),
+      curveType: data("action_type") ?? 0
+    };
+  }
   getCommonObjectAttrs(obj) {
     const libredwg = this.libredwg;
     const object_tio = libredwg.dwg_object_get_tio(obj);
@@ -8712,13 +9066,11 @@ var LibreDwgConverter = class {
     };
   }
 };
-
-// src/svg/box2d.ts
 var Box2D = class _Box2D {
-  min;
-  max;
-  valid;
   constructor() {
+    __publicField(this, "min");
+    __publicField(this, "max");
+    __publicField(this, "valid");
     this.min = { x: Infinity, y: Infinity };
     this.max = { x: -Infinity, y: -Infinity };
     this.valid = false;
@@ -8814,8 +9166,6 @@ var Box2D = class _Box2D {
     ];
   }
 };
-
-// src/svg/bspline.ts
 function evaluateBSpline(t, degree, points, knots, weights) {
   const n = points.length;
   if (n === 0) throw new Error("points must not be empty");
@@ -8876,9 +9226,6 @@ function evaluateBSpline(t, degree, points, knots, weights) {
   return result;
 }
 function round10(value, exp) {
-  if (exp === 0 || exp === void 0) {
-    return Math.round(value);
-  }
   if (isNaN(value) || !Number.isInteger(exp)) {
     return NaN;
   }
@@ -8887,8 +9234,6 @@ function round10(value, exp) {
   const [shiftedBase, shiftedExp = "0"] = shifted.toString().split("e");
   return Number(`${shiftedBase}e${+shiftedExp + exp}`);
 }
-
-// src/svg/color.ts
 var _colorKeywords = {
   aliceblue: 15792383,
   antiquewhite: 16444375,
@@ -9297,12 +9642,11 @@ var AUTO_CAD_COLOR_INDEX = [
 function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
 }
-var Color = class _Color {
-  _colorIndex;
-  _color;
-  _colorName;
-  static NAMES = _colorKeywords;
+var _Color = class _Color2 {
   constructor() {
+    __publicField(this, "_colorIndex");
+    __publicField(this, "_color");
+    __publicField(this, "_colorName");
     this._colorIndex = 256;
     this._color = null;
     this._colorName = null;
@@ -9419,7 +9763,7 @@ var Color = class _Color {
     return this;
   }
   clone() {
-    const clonedColor = new _Color();
+    const clonedColor = new _Color2();
     clonedColor.colorIndex = this.colorIndex;
     clonedColor.color = this.color;
     clonedColor._colorName = this._colorName;
@@ -9463,12 +9807,12 @@ var Color = class _Color {
     return null;
   }
 };
-
-// src/svg/vector.ts
+__publicField(_Color, "NAMES", _colorKeywords);
+var Color = _Color;
 var Vector2D = class _Vector2D {
-  x;
-  y;
   constructor(x, y) {
+    __publicField(this, "x");
+    __publicField(this, "y");
     this.x = x;
     this.y = y;
   }
@@ -9490,8 +9834,6 @@ var Vector2D = class _Vector2D {
     return new _Vector2D(this.x / len, this.y / len);
   }
 };
-
-// src/svg/polyline.ts
 function createPolylineArcPoints(from, to, bulge, resolution = 5) {
   let theta;
   let a;
@@ -9563,10 +9905,10 @@ function interpolatePolyline(entity, closed = false) {
   }
   return points;
 }
-
-// src/svg/svgConverter.ts
 var SvgConverter = class {
-  blockMap = /* @__PURE__ */ new Map();
+  constructor() {
+    __publicField(this, "blockMap", /* @__PURE__ */ new Map());
+  }
   rotate(point, angle) {
     const cos = Math.cos(angle);
     const sin = Math.sin(angle);
@@ -9687,9 +10029,9 @@ var SvgConverter = class {
     const lines = this.extractMTextLines(entity.text);
     const attachmentPoint = entity.attachmentPoint;
     let anchor = "start";
-    if (attachmentPoint == 8 /* BottomCenter */ || attachmentPoint == 5 /* MiddleCenter */ || attachmentPoint == 2 /* TopCenter */) {
+    if (attachmentPoint == DwgAttachmentPoint.BottomCenter || attachmentPoint == DwgAttachmentPoint.MiddleCenter || attachmentPoint == DwgAttachmentPoint.TopCenter) {
       anchor = "middle";
-    } else if (attachmentPoint == 9 /* BottomRight */ || attachmentPoint == 6 /* MiddleRight */ || attachmentPoint == 3 /* TopRight */) {
+    } else if (attachmentPoint == DwgAttachmentPoint.BottomRight || attachmentPoint == DwgAttachmentPoint.MiddleRight || attachmentPoint == DwgAttachmentPoint.TopRight) {
       anchor = "end";
     }
     return this.lines(
@@ -9769,9 +10111,9 @@ var SvgConverter = class {
       extentsWidth = entity.text.length * fontsize + entity.startPoint.x;
     }
     let anchor = "start";
-    if (entity.halign == 1 /* CENTER */) {
+    if (entity.halign == DwgTextHorizontalAlign.CENTER) {
       anchor = "middle";
-    } else if (entity.halign == 2 /* RIGHT */) {
+    } else if (entity.halign == DwgTextHorizontalAlign.RIGHT) {
       anchor = "end";
     }
     return this.lines(lines, fontsize, insertionPoint, extentsWidth, anchor);
@@ -10108,19 +10450,16 @@ var SvgConverter = class {
 </svg>`;
   }
 };
-
-// src/libredwg.ts
 var DwgThumbnailImageType = /* @__PURE__ */ ((DwgThumbnailImageType2) => {
   DwgThumbnailImageType2[DwgThumbnailImageType2["BMP"] = 2] = "BMP";
   DwgThumbnailImageType2[DwgThumbnailImageType2["WMF"] = 3] = "WMF";
   DwgThumbnailImageType2[DwgThumbnailImageType2["PNG"] = 6] = "PNG";
   return DwgThumbnailImageType2;
 })(DwgThumbnailImageType || {});
-var LibreDwg = class _LibreDwg {
-  static instance;
-  wasmInstance;
-  decoder;
+var _LibreDwg = class _LibreDwg2 {
   constructor(wasmInstance) {
+    __publicField(this, "wasmInstance");
+    __publicField(this, "decoder");
     this.wasmInstance = wasmInstance;
     return new Proxy(this, {
       get: (target, prop, receiver) => {
@@ -10131,16 +10470,21 @@ var LibreDwg = class _LibreDwg {
       }
     });
   }
+  /**
+   * Reads a DWG or DXF file into a native `Dwg_Data` pointer.
+   *
+   * DXF support requires a WASM build with write/DXF-import enabled
+   * (`build:prepare` without `--disable-write`). ASCII DXF may be passed as a
+   * UTF-8 string or as encoded bytes; binary DXF must be an `ArrayBuffer`.
+   */
   dwg_read_data(fileContent, fileType) {
-    if (fileType == 0 /* DWG */) {
+    const bytes = typeof fileContent === "string" ? new TextEncoder().encode(fileContent) : new Uint8Array(fileContent);
+    if (fileType == Dwg_File_Type.DWG) {
       const fileName = "tmp.dwg";
       try {
-        this.wasmInstance.FS.writeFile(
-          fileName,
-          new Uint8Array(fileContent)
-        );
+        this.wasmInstance.FS.writeFile(fileName, bytes);
         const result = this.wasmInstance.dwg_read_file(fileName);
-        if (result.error & 8192 /* OUTOFMEM */) {
+        if (result.error & Dwg_Error.OUTOFMEM) {
           this.wasmInstance.dwg_abandon(result.data);
           throw new Error(
             "Failed to decode DWG: out of WASM memory. Rebuild with pnpm build:wasm (INITIAL_MEMORY=1GB) or use a smaller file."
@@ -10148,6 +10492,29 @@ var LibreDwg = class _LibreDwg {
         }
         if (result.error != 0) {
           console.warn("Open dwg file with error code:", result.error);
+        }
+        return result.data;
+      } finally {
+        if (this.wasmInstance.FS.analyzePath(fileName, false).exists) {
+          this.wasmInstance.FS.unlink(fileName);
+        }
+      }
+    } else if (fileType == Dwg_File_Type.DXF) {
+      const fileName = "tmp.dxf";
+      try {
+        this.wasmInstance.FS.writeFile(fileName, bytes);
+        const result = this.wasmInstance.dxf_read_file(fileName);
+        if (result.error & Dwg_Error.OUTOFMEM) {
+          this.wasmInstance.dwg_abandon(result.data);
+          throw new Error(
+            "Failed to decode DXF: out of WASM memory. Rebuild with pnpm build:wasm (INITIAL_MEMORY=1GB) or use a smaller file."
+          );
+        }
+        if (result.error != 0) {
+          console.warn("Open dxf file with error code:", result.error);
+        }
+        if (!result.data) {
+          return void 0;
         }
         return result.data;
       } finally {
@@ -10539,7 +10906,7 @@ var LibreDwg = class _LibreDwg {
    * @returns Returns all of layer objects in Dwg_Data instance.
    */
   dwg_getall_LAYER(data) {
-    return this.dwg_getall_object_by_type(data, 51 /* DWG_TYPE_LAYER */);
+    return this.dwg_getall_object_by_type(data, Dwg_Object_Type.DWG_TYPE_LAYER);
   }
   /**
    * Returns all of line type objects in Dwg_Data instance.
@@ -10548,7 +10915,7 @@ var LibreDwg = class _LibreDwg {
    * @returns Returns all of line type objects in Dwg_Data instance.
    */
   dwg_getall_LTYPE(data) {
-    return this.dwg_getall_object_by_type(data, 57 /* DWG_TYPE_LTYPE */);
+    return this.dwg_getall_object_by_type(data, Dwg_Object_Type.DWG_TYPE_LTYPE);
   }
   /**
    * Returns all of text style objects in Dwg_Data instance.
@@ -10557,7 +10924,7 @@ var LibreDwg = class _LibreDwg {
    * @returns Returns all of text style objects in Dwg_Data instance.
    */
   dwg_getall_STYLE(data) {
-    return this.dwg_getall_object_by_type(data, 53 /* DWG_TYPE_STYLE */);
+    return this.dwg_getall_object_by_type(data, Dwg_Object_Type.DWG_TYPE_STYLE);
   }
   /**
    * Returns all of dimension style objects in Dwg_Data instance.
@@ -10568,7 +10935,7 @@ var LibreDwg = class _LibreDwg {
   dwg_getall_DIMSTYLE(data) {
     return this.dwg_getall_object_by_type(
       data,
-      69 /* DWG_TYPE_DIMSTYLE */
+      Dwg_Object_Type.DWG_TYPE_DIMSTYLE
     );
   }
   /**
@@ -10578,7 +10945,7 @@ var LibreDwg = class _LibreDwg {
    * @returns Returns all of viewport objects in Dwg_Data instance.
    */
   dwg_getall_VPORT(data) {
-    return this.dwg_getall_object_by_type(data, 65 /* DWG_TYPE_VPORT */);
+    return this.dwg_getall_object_by_type(data, Dwg_Object_Type.DWG_TYPE_VPORT);
   }
   /**
    * Returns all of layout objects in Dwg_Data instance.
@@ -10587,7 +10954,7 @@ var LibreDwg = class _LibreDwg {
    * @returns Returns all of layout objects in Dwg_Data instance.
    */
   dwg_getall_LAYOUT(data) {
-    return this.dwg_getall_object_by_type(data, 82 /* DWG_TYPE_LAYOUT */);
+    return this.dwg_getall_object_by_type(data, Dwg_Object_Type.DWG_TYPE_LAYOUT);
   }
   /**
    * Returns all of block objects in Dwg_Data instance.
@@ -10596,7 +10963,7 @@ var LibreDwg = class _LibreDwg {
    * @returns Returns all of block objects in Dwg_Data instance.
    */
   dwg_getall_BLOCK(data) {
-    return this.dwg_getall_object_by_type(data, 4 /* DWG_TYPE_BLOCK */);
+    return this.dwg_getall_object_by_type(data, Dwg_Object_Type.DWG_TYPE_BLOCK);
   }
   /**
    * Returns all of block header objects in Dwg_Data instance.
@@ -10607,7 +10974,7 @@ var LibreDwg = class _LibreDwg {
   dwg_getall_BLOCK_HEADER(data) {
     return this.dwg_getall_object_by_type(
       data,
-      49 /* DWG_TYPE_BLOCK_HEADER */
+      Dwg_Object_Type.DWG_TYPE_BLOCK_HEADER
     );
   }
   /**
@@ -10619,7 +10986,7 @@ var LibreDwg = class _LibreDwg {
   dwg_getall_IMAGEDEF(data) {
     return this.dwg_getall_object_by_type(
       data,
-      648 /* DWG_TYPE_IMAGEDEF */
+      Dwg_Object_Type.DWG_TYPE_IMAGEDEF
     );
   }
   /**
@@ -10631,7 +10998,7 @@ var LibreDwg = class _LibreDwg {
   dwg_getall_VERTEX_2D(data) {
     return this.dwg_getall_entity_by_type(
       data,
-      10 /* DWG_TYPE_VERTEX_2D */
+      Dwg_Object_Type.DWG_TYPE_VERTEX_2D
     );
   }
   /**
@@ -10643,7 +11010,7 @@ var LibreDwg = class _LibreDwg {
   dwg_getall_VERTEX_3D(data) {
     return this.dwg_getall_entity_by_type(
       data,
-      11 /* DWG_TYPE_VERTEX_3D */
+      Dwg_Object_Type.DWG_TYPE_VERTEX_3D
     );
   }
   /**
@@ -10655,7 +11022,7 @@ var LibreDwg = class _LibreDwg {
   dwg_getall_POLYLINE_2D(data) {
     return this.dwg_getall_entity_by_type(
       data,
-      15 /* DWG_TYPE_POLYLINE_2D */
+      Dwg_Object_Type.DWG_TYPE_POLYLINE_2D
     );
   }
   /**
@@ -10667,7 +11034,7 @@ var LibreDwg = class _LibreDwg {
   dwg_getall_POLYLINE_3D(data) {
     return this.dwg_getall_entity_by_type(
       data,
-      16 /* DWG_TYPE_POLYLINE_3D */
+      Dwg_Object_Type.DWG_TYPE_POLYLINE_3D
     );
   }
   /**
@@ -10677,7 +11044,7 @@ var LibreDwg = class _LibreDwg {
    * @returns Returns all of image entities in Dwg_Data instance.
    */
   dwg_getall_IMAGE(data) {
-    return this.dwg_getall_entity_by_type(data, 647 /* DWG_TYPE_IMAGE */);
+    return this.dwg_getall_entity_by_type(data, Dwg_Object_Type.DWG_TYPE_IMAGE);
   }
   /**
    * Returns all of lwpolyline entities in Dwg_Data instance.
@@ -10688,7 +11055,7 @@ var LibreDwg = class _LibreDwg {
   dwg_getall_LWPOLYLINE(data) {
     return this.dwg_getall_entity_by_type(
       data,
-      77 /* DWG_TYPE_LWPOLYLINE */
+      Dwg_Object_Type.DWG_TYPE_LWPOLYLINE
     );
   }
   /**
@@ -11197,7 +11564,7 @@ var LibreDwg = class _LibreDwg {
       return null;
     }
     const result = wasm.dwg_entity_block_header_get_preview(ptr);
-    return result?.data ?? null;
+    return (result == null ? void 0 : result.data) ?? null;
   }
   /**
    * Returns preview binary data of one entity (common entity preview field).
@@ -11209,7 +11576,7 @@ var LibreDwg = class _LibreDwg {
       return null;
     }
     const result = wasm.dwg_entity_get_preview(ptr);
-    return result?.data ?? null;
+    return (result == null ? void 0 : result.data) ?? null;
   }
   /**
    * Returns entity binary data of one Dwg_Entity_PROXY_ENTITY instance.
@@ -11223,7 +11590,7 @@ var LibreDwg = class _LibreDwg {
       return null;
     }
     const result = wasm.dwg_entity_proxy_entity_get_entity_data(ptr);
-    return result?.data ?? null;
+    return (result == null ? void 0 : result.data) ?? null;
   }
   /**
    * Returns binary OLE payload of one Dwg_Entity_OLE2FRAME instance.
@@ -11236,7 +11603,7 @@ var LibreDwg = class _LibreDwg {
       return null;
     }
     const result = wasm.dwg_entity_ole2frame_get_data(ptr);
-    return result?.data ?? null;
+    return (result == null ? void 0 : result.data) ?? null;
   }
   /**
    * Returns binary OLE payload of one Dwg_Entity_OLEFRAME instance.
@@ -11249,7 +11616,7 @@ var LibreDwg = class _LibreDwg {
       return null;
     }
     const result = wasm.dwg_entity_oleframe_get_data(ptr);
-    return result?.data ?? null;
+    return (result == null ? void 0 : result.data) ?? null;
   }
   /**
    * Returns the first entity owned by the block header or null
@@ -11374,7 +11741,7 @@ var LibreDwg = class _LibreDwg {
     return wasmInstance.dwg_object_dictionary_get_texts(ptr).data;
   }
   static createByWasmInstance(wasmInstance) {
-    return this.instance == null ? new _LibreDwg(wasmInstance) : this.instance;
+    return this.instance == null ? new _LibreDwg2(wasmInstance) : this.instance;
   }
   static async create(filepath) {
     const wasmInstance = filepath == null ? await libredwg_web_default() : await libredwg_web_default({
@@ -11385,6 +11752,8 @@ var LibreDwg = class _LibreDwg {
     return this.createByWasmInstance(wasmInstance);
   }
 };
+__publicField(_LibreDwg, "instance");
+var LibreDwg = _LibreDwg;
 export {
   DwgAttachmentPoint,
   DwgBoundaryPathEdgeType,
