@@ -1,10 +1,17 @@
 {
-  "versao": "10.75",
-  "data": "2026-11-26",
+  "versao": "10.76",
+  "data": "2026-11-27",
   "notas": [
-    "Limpador: leitor de DWG atualizado (LibreDWG 0.9.4). Abre DWGs que davam \"Não consegui ler este DWG\", como desenhos grandes em AutoCAD 2000."
+    "Orçamento (encaixe): peça grande repetida fica em grade e as peças pequenas (arruelas etc.) entram nos vãos entre elas. Antes as pequenas iam só por cima e a grade era desfeita, mandando peças grandes para outra chapa."
   ],
   "historico": [
+    {
+      "versao": "10.75",
+      "data": "2026-11-26",
+      "notas": [
+        "Limpador: leitor de DWG atualizado (LibreDWG 0.9.4). Abre DWGs que davam \"Não consegui ler este DWG\", como desenhos grandes em AutoCAD 2000."
+      ]
+    },
     {
       "versao": "10.74",
       "data": "2026-11-25",
@@ -114,19 +121,12 @@
       "notas": [
         "Projetista (Produção, plano Full) — fase 1: converse e monte o projeto sob medida. Modelos prontos e editáveis: estrutura de banco/aparador, bancada inox com espelho, estante, balcão com portas, caixa de chapa e plataforma/mezanino. Entende frases como quero uma bancada de 1800 com espelho 150, 2000x700x850, prateleira a 200 do chão, tubo 50x50x2, encaixa uma chapa 600x400 na lateral direita, cor azul na estrutura. 3D com montagem animada e cores; prancha técnica com traço de caneta digital (isométrica com etiquetas numeradas, vistas cotadas, solda, lista de peças, sequência de fabricação e carimbo); lista de corte, planificadas em DXF e envio para o orçamento."
       ]
-    },
-    {
-      "versao": "9.51",
-      "data": "2026-11-04",
-      "notas": [
-        "Assistente · acha e abre orçamento por palavra-chave: abrir orçamento de AMATA, abrir orçamento 2026-0012, orçamentos de cantoneira. Procura no cliente, no número, no título, nas peças e no vendedor; com um resultado abre direto, com vários mostra a lista (do mais recente) para escolher. Só para quem tem acesso à Calculadora."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5101513,
-  "sha256": "1cdbf549ff0ff0a148417b4ba7f00d9edafd56a87d4524b584edeb2a8fc77fdf",
-  "assinatura": "FkTfb06bdTzldc0HKi7NywEoDv7OzfmIrWJL5U25uOwMrYMWxHfZ6Jc1WOMbIX+6Vz55Z5st54+HbRKBfW5mguBgdf3FyZ9O/yqFJwNRJkt4/p8Nuxe7uDaZfimv3wu9bTondiVQXT1vQdQvHZDP4aHL4O9B+2IHUWIrlBvvylq8f0z3PbdBdCUI+RdD3lg4U87hLHhpBuBqnuwmBp4TLEFVnfmxcm020bUOj12bMyV4Xxatu2ucTjHVIAfEaG7277eNeDZJ3kSArtHao0wwnE8SiWiWTf1XGQHAT1jkRda5p5MNBAfHZGApG3EUlXo8Jwzw7dyMiscmC3fUY5FPyQ==",
+  "tamanho": 5107325,
+  "sha256": "9265c9f12b16ef3f2e592730fdedd33f7175cb096061cdd52041f564a4c951d5",
+  "assinatura": "BTzD+0lCP+NmJ4rfwdVggX0Y+DeS1LqsApzN+Whx4hANbX7tMjJhzRFaoAr8eBeVkfU51FVkbN27KFBLq9GyMOemV9VpKwbVBN8/aFXH3jguWLNNFtrfli0Tfagii1/4YWiuDUXWvSzccIvc0di7tMJSc21RUvZkJixOs/lKRAZEOYmpFj/Us4Gp621E/ZFNlyWDfW9TNfu+Y8H4HG+0gFA32VVN8R4A3PYE7V9UMHHREJJsQ+TrVV/Npdfc/xGdZmORA3r6ISHNL+YOIqhQwjwomD6f3zMoG+n1zXEC6cv+j1mAaPAabQtBYH4L9GCvmsw9nHtPZuTSNOR7tEksmw==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -149,5 +149,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "O3kJ3GND0d+eh2suXF83nu/i93e6UC2TAWF2Y9UWr9oOetQD50jzwGrSn1QW+IcaqrJiS+iUU+EUltkAMt1/PyNexas2jan8blJGc5goApoy9YqZ5PM/4umcJzxarPrlOiH1wdPHmX/9ZMhbmlL0lkXsexBuvYBeZr0eefz4XPvaz/hUFSJCGpgHlTOuYZ+yY1EhDOKzscZ9U94tqezptdCeFL6Gbv9obTZUpb5WgD/9FPRJjOmtrYTgfg4yjA+012kgCsQkULsiHLt/PmVYzOvP0YZiFBgcQ2bATqMPmoaKLLlGSOeKQd8+w1vEP1xAevns/EYoI21T9lijGM0lUA=="
+  "assinatura_extras": "JQpLgr95wMH68+UmXHQaaBOmh3INQo2fRUCAOWIEu4uqIRCFsPI6H4zy+J+XD5mvou+zkmoLcTcA+2UFxt6aJLP4+bHSeFSXjnWTOI4C4vZcIC+jcKwsj6puGndgHtigxpIS6yFZgSLplykCTQuvAJllPkNannZmiMPTZNV5divz0yjnwMv+44LksqQHYLtz2cmfpDesSLP/nhWfMKtPn+Sy1ba/a8DoY9m0xkLN6SjiyvnjfZ6smNuEhQGwbvDa6E3so11xYrjceWbH75HQ2X7AOGyT9ZBKRz7wIZVnX3cB+dIS3G0BCvNq/1ECIWi0lOlBdL1tnSVjxDHhKQgfGQ=="
 }
