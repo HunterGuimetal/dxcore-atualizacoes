@@ -1,11 +1,18 @@
 {
-  "versao": "10.77",
+  "versao": "10.78",
   "data": "2026-11-27",
   "notas": [
-    "Orçamento (encaixe): a grade da peça repetida também testa a peça girada 90°.",
-    "Orçamento: peça com desenho muito detalhado (letras vazadas, muitos furos) não perde mais partes do desenho na vista 2D; os pontos são reduzidos por igual."
+    "Orçamento (encaixe): peças pequenas (arruelas) ficam nas sobras em volta das peças grandes; não entram mais nos recortes de dentro da peça (parecia peça cortada) e só usam os vãos entre elas se não couber em volta."
   ],
   "historico": [
+    {
+      "versao": "10.77",
+      "data": "2026-11-27",
+      "notas": [
+        "Orçamento (encaixe): a grade da peça repetida também testa a peça girada 90°.",
+        "Orçamento: peça com desenho muito detalhado (letras vazadas, muitos furos) não perde mais partes do desenho na vista 2D; os pontos são reduzidos por igual."
+      ]
+    },
     {
       "versao": "10.76",
       "data": "2026-11-27",
@@ -112,22 +119,12 @@
         "Gerador: na quina onde duas dobras se cruzam, a vista 3D deixa o alívio de canto, como na peça real.",
         "Projetista: botão 🎬 Vídeo, um 360° do projeto para o cliente, com as medidas e a ficha do que o projeto tem (Full HD, 60 fps)."
       ]
-    },
-    {
-      "versao": "9.53",
-      "data": "2026-11-06",
-      "notas": [
-        "Projetista · 7 modelos novos: mesa, carrinho com rodízios, armário, prateleira de parede com mão francesa, rack porta-pallet, escada marinheiro e coifa (13 no total).",
-        "Projetista · novas frases: chapa dobrada em U ou L, reforço por baixo do tampo, furos em qualquer peça, travamento em X, rodízios e cuba (com recorte no tampo); entende medidas pelo número junto da palavra (bancada de 1800 com espelho 150, 2000x700x850, 1,2 m de profundidade).",
-        "Projetista · planificadas com raio e fator K de verdade (mesma conta do Gerador) e botão Mandar para o Limpar, com a quantidade de cada chapa.",
-        "Projetista · vista explodida no 3D (animada) e na prancha (guia de montagem); a prancha se desenha à caneta ao abrir."
-      ]
     }
   ],
   "arquivo": "DXCORE.html",
-  "tamanho": 5108297,
-  "sha256": "30e71c5b9fef85ffe2e1bac5672b3fc89fbb8ac416be80dc68842e7bac42339d",
-  "assinatura": "P7VVNmnt2h1Kn0QbKYKfkUv3eA9hgrzkcYE9o29oM5BgkY9mPgFHT/qCB590JZUPm3dYQeHnXii15NYeqE4e5fa3q5ICo1a5pOCHBIf0Kdnl99Z2AsIf5w2aYMCw2z7f9DkBaWEfWM4mVNcXAc383GqLYgM9p3i0H0ZefY2IS0CQn/ToiDDUoi0DicNwWz3Ropa/rPLMgHa/wl11/sVtSv4K14+gedG+PbDm/qCtSupQciPu0ue7VNTgFF/5rDICx3qg7bebWGhWK6Fw/F4ZAH3X6Ufi3WhqXj3sWXvpcIcjgelF2aw4ujA5omUe9NaLS6EhE2F9ycgLfzT27lJBLQ==",
+  "tamanho": 5111917,
+  "sha256": "3d42426c02eb0514b613bb204f2e24bfb50bd27da9fa0e2c3783a97335882fc5",
+  "assinatura": "XMZgQKBaT/CK0isaSSPYbXv53MQb4q3A4JCkmvjdRZfO2uGB9qu3aS0uGXFnJcarZX13gjg12IuDgMZ2XQATaW8PzfSpXtClvXeDEBu9W5gKEmFbUxXmIkT6k14SZXJtiFOG8usFf9IaqDhiYbqkQnp2WJJYipVVirQqyDksa+zdh0L7asLhBwAojtYO1NLIaNA5J2Xa+FLKIfdIU8fikosTpNrPBDxwUA/sTfyL35CC1++NKfRCJFDfH53QwCuTc5GbWyDVk5hEABaEUAYh+Gp9651VNNM5PiSJQXdStLiaMqmsWOcq7TUUepcvuq/o/Jb7P9R5OsqotP87l0Kf+A==",
   "extras": [
     {
       "arquivo": "abrir.ps1",
@@ -150,5 +147,5 @@
       "sha256": "1b4ad9cbaf2b32bbc38df00948ac2c0b18a0b4504e5253d3d8b713c2968aa393"
     }
   ],
-  "assinatura_extras": "Zpu0QCCLBv9Uv/9cUeJAO+Z+0mhU1uclfNWSUUXkczNmKZ7rvI1kRtLODDrl9yhtD6g6klLkjgcbURPHEN8s3aJdsmWJEymiTWToHo1h33E/zZmJkYpBBbbE8SP73RE0weYjS4O8ZeQF3F97tKqTdUrqURRjHtzGdbIMtPllgEWQn5gSspmmYPpwLw7QW43SExcMn596VOujoQKwma96vG2K5At+ng1UTARJOI7hue+TwAFAgPP0r+O3Mq+v4nUsrpSlu7VnXeonZ2MD7C4sjAWfHgGJm8ame3BLhkKL6+C2m7rkOtuQ016YrbGLR9Tcmvk3fPobGtNQJczIS5CIVA=="
+  "assinatura_extras": "Nik2T3AUeBed2iYoMjsakdSLOaaaWb9x7jPP4r0SX/ZRpOryG2INKKAmVt+5JKTMVf96UNrzjveywext+yqTjrocZJN9z5lm9IafXaeZKDI+zr1ofh0lU+wmszALzSKlbOXfbRK8z7EQycYQdCEvrtpELVjJUJqUL4PoPGo6kE7Gqt6Fz14MZfftz27pAh3vXSIq3ovr5zVXd2JHaR2zYL+zUCykBDUy7jM/mWEpFmjP6WAZjFxewTUX5ig3kWplcnG2uvznHJVODHVI/iLL+matEGGuGfpNfw3uZJD6VqaXuajYiN4q/L9vj2m3taXyNVVulBEiDNJTqHe7J1iILQ=="
 }
